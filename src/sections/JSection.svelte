@@ -69,7 +69,7 @@
 
 <section class="J-section">
   <div class="wrapper-text">
-    <h1>Nos <span>clients</span> sont satisfaits.</h1>
+    <h1>Nos témoignages</h1>
     <h2>Collaborations, Missions, Partenariats.</h2>
   </div>
   <div class="gallery">
@@ -89,7 +89,7 @@
     height: auto;
     font-size: 16px;
     margin-top: 0px;
-    background-color: white;
+    background-color: var(--greyBg);
   }
   .gallery {
     overflow-x: auto;
@@ -118,38 +118,26 @@
     margin-top: -10px;
   }
   .J-section h1 {
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 800;
-    color: var(--primay);
-    margin-left: 50px;
-    margin-top: 100px;
-    letter-spacing: -2px;
-  }
-  .J-section h1 span {
-    font-weight: 900;
-    color: transparent;
-    -webkit-background-image: linear-gradient(to left, var(--orange), var(--blue));
-    background-image: linear-gradient(to left, var(--orange), var(--blue));
-    -webkit-background-clip: text;
-    background-clip: text;
+   		font-family: Heebo;
+		text-transform: uppercase;
+		font-size: var(--m);
+		color: var(--jauneB);
+		font-weight: 600;
+		margin-bottom: 40px;
+		letter-spacing: -0.04em;
+		margin-top: 100px;
+		margin-left: 50px;
   }
   .J-section h2 {
-    margin-top: 0px;
-    font-family: epilogue;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    margin-left: 0px;
+  font-family: epilogue;
+		font-size: var(--l);
+		color: var(--primary);
+		font-weight: 600;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		margin-left: 10px;
   }
-  /* .wrapper-testimony {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 50px;
-  } */
+ 
 
   @media screen and (max-width: 768px) {
     .gallery {

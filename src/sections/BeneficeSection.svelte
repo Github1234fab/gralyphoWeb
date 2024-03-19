@@ -19,7 +19,7 @@
     <div class="wrapper-blocks">
       <h1>
         <span class="title-yellow">Économisez</span> <br />
-        du temps et de l'argent. <i class="fa-solid fa-chart-line icon-difference"></i>
+        Du temps et de l'argent. <i class="fa-solid fa-chart-line icon-difference"></i>
       </h1>
 
       <p>
@@ -32,7 +32,7 @@
     <div class="wrapper-blocks">
       <h1>
         <span class="title-yellow">Augmentez</span><br />
-        votre potentiel client. <i class="fa-solid fa-sack-dollar icon-difference"></i>
+        Votre potentiel client. <i class="fa-solid fa-sack-dollar icon-difference"></i>
       </h1>
       <p>
         Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO. + de visibilité + de prospects
@@ -47,10 +47,10 @@
     display: flex;
     height: auto;
     gap: 0px;
-    background-color: var(--primary);
+    background-color:  white;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(ellipse at center, rgb(4, 20, 73) 10%, var(--primary));
+    /* background: radial-gradient(ellipse at center, rgb(4, 20, 73) 10%, var(--primary)); */
   }
   .container-benefices {
     margin-top: 100px;
@@ -70,16 +70,18 @@
     justify-content: left;
     width: 100%;
     min-height: 340px;
-    box-shadow: 0px 0px 2px rgb(127, 124, 124);
+    box-shadow: 0px 0px 10px rgb(127, 124, 124);
     padding: 20px;
     margin-bottom: 100px;
+    background-color: rgb(70, 51, 106);
   }
   .title-yellow {
-    color: yellow;
+    color: white;
     font-size: clamp(1.5em, 2.5vw, 2.5em);
     font-weight: 900;
-    font-family: epilogue;
+    font-family: Heebo;
     letter-spacing: -1px;
+    text-transform: uppercase;
   }
   .section-benefices h1 {
     font-size: var(--l);

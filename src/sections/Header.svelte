@@ -46,8 +46,8 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: last baseline;
+    justify-content: last baseline;
     padding: 10px;
     font-size: 16px;
     /* border-bottom: 1px rgb(74, 74, 74) solid; */
@@ -68,7 +68,6 @@
     align-items: center;
     justify-content: space-between;
     z-index: 3;
-    margin-top: -13px;
   }
   .logo {
     grid-column: 5;
@@ -89,6 +88,7 @@
     font-size: 0.8em;
     font-weight: 300;
     color: rgb(209, 205, 205);
+    margin-top: 20px;
   }
 
   .wrapper-links {
@@ -128,7 +128,7 @@
     animation: bounce 0.4s ease-in-out;
   }
   .burger {
-    font-size: var(--xl);
+    font-size: 2em;
     border: none;
     color: var(--CTA);
   }
@@ -153,6 +153,8 @@
     }
   }
 
+
+  
   @media screen and (max-width: 768px) {
     .wrapper-links {
       flex-direction: column;

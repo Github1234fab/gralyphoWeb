@@ -2,13 +2,13 @@
   import CardServices from "../Components/CardServices.svelte";
   const servicesTab = [
     {
-      title: "Developpement Site Web",
+      title: "Developpement de Site Web",
       lien: "/Sites",
       i: "fa-solid fa-globe",
       p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
     },
     {
-      title: "Développement Application Web",
+      title: "Développement  d'Application Web",
       lien: "/Applications",
       i: "fa-solid fa-mobile-screen",
            p: "Obtenez une application web sur mesure pour votre entreprise avec téléchargement automatisé"
@@ -66,7 +66,7 @@
     overflow: hidden;
   }
   :global(.card-services){
-    flex: 1 1 32%;
+    flex: 1 1 40%;
   }
   .wrapper-text {
     grid-column: 2/ 12;
