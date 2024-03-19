@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  scroll-behavior: smooth;
+   cursor: none;
+}
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Désactiver le système de grille Bootstrap */
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  max-width: none;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+[class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+:root {
+  --colorA: #e13e3b;
+  --colorB: #0c0b2e;
+  --colorC: white;
+  --colorD: #bb7cf2;
+  --colorE: #1b1b1b;
+  --colorF: #28282e;
+  --colorG: #005248;
+  --colorH: #755b8a;
+  --colorI: #f76e48;
+  --colorJ: #b2a8b8;
+
+  --colorL: #006e60;
+  --colorM: #390071;
+  --colorN: #553c69;
+  --colorO: #11232e;
+  --colorO2: rgba(17, 35, 46, 0.645);
+
+  --primary: #1a1c21;
+  --bg: #1b1e22;
+  --ca: #4d3d3d;
+  --ca1: #006666;
+  --ca2: #004d66;
+  --gradient: #1d2f4f;
+  --button: #6ca0dc;
+  --blueGradient: linear-gradient(to right, #3f00e6, #7f00fd);
+  --blue: #7f00fd;
+  --blue2: #678bf6;
+  --orange: #b49633;
+  /* --orange: #D1A617; */
+  --alternate: #877455;
+  --newBlue: #2993fa;
+  --CTA: #4682b4;
+  --CTAHero: #ffa500;
+  --CTA2: #ff7f00;
+  --CTAHero2: #add8e6;
+  --bgAssets: #4683b42b;
+  --greyBg: rgb(250, 250, 250);
+  --yellow: #ffd700;
+
+  --xlhero: clamp(4.5rem, 8vw, 10rem);
+  --xxl: clamp(3rem, 8vw, 8rem);
+  --xl: clamp(2rem, 8vw, 3.5rem);
+  --l: clamp(1.4rem, 8vw, 1.2rem);
+  --m: clamp(0.8rem, 8vw, 0.9rem);
+  --button: clamp(1.1rem, 8vw, 1.4rem);
+
+  --vert: #007b6e;
+  --vertA: #00a86b;
+  --vertB: #2e8b57;
+
+  --jauneA: #ffd700;
+  --jauneB: #ff4500;
+  --jauneC: #ff1493;
+
+  --orange: #ffa500;
+  --rouge: #ff6347;
+  --bleuAcier: #4682b4;
+
+
+  --line-url: url(../Assets/png-gralypho/line-4.svg);
+
+}
