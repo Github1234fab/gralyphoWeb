@@ -68,7 +68,7 @@
 		font-family: Heebo;
 		font-weight: 900;
 		font-size: clamp(4em, 12.5vw, 9em);
-		color: #bd8611;
+		color: #de9d12;
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
 		margin-top: 50px;
@@ -162,6 +162,25 @@
 		}
 		100% {
 			transform: scale(1) translateY(0);
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.img {
+			grid-column: 1 / 13;
+			grid-row: 1;
+			margin-top: 50px;
+			display: none;
+		}
+
+		.wrapper-text {
+			grid-column: 2 / 13;
+			grid-row: 2;
+			display: flex;
+			flex-direction: column;
+			border-radius: 20px;
+			margin-left: 0px;
+			z-index: 2;
 		}
 	}
 </style>

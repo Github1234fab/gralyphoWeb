@@ -58,10 +58,7 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		background-image: url('../Assets/png-gralypho/cerveau4.png');
-		/* background-repeat: no-repeat; */
-		background-size: 30%;
-		background-position: center;
+		background-color: var(--greyBg);
 	}
 	.container-benefices {
 		margin-top: 100px;
@@ -88,16 +85,14 @@
 		box-shadow: 0px 0px 10px rgba(127, 124, 124, 0.464);
 		padding: 20px;
 		margin-bottom: 100px;
-		background-color: rgba(255, 255, 255, 0.181);
-		-webkit-backdrop-filter: blur(10px);
-		backdrop-filter: blur(10px);
+		background-color: rgba(255, 255, 255, 0.912);
 	}
 
 	.benefice-h1 {
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
-		color: white;
+		color: var(--jauneB);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -105,24 +100,24 @@
 		margin-left: -50px;
 	}
 	.benefice-h2 {
+		margin-top: 30px;
 		font-family: epilogue;
 		font-size: var(--l);
-		color: white;
+		color: var(--primary);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		margin-left: 10px;
 	}
 	.wrapper-blocks h1 {
-		color: white;
+		color: var(--primary);
 		font-size: var(--m);
 		font-weight: 500;
 		font-family: poppins;
-		/* text-transform: lowercase; */
 		text-align: center;
 	}
 	.title-yellow {
-		color: white;
+		color: var(--primary);
 		font-size: var(--l);
 		font-weight: 900;
 		font-family: Heebo;

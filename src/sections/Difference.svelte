@@ -1,15 +1,15 @@
 <script>
-  import ButtonDifference from "../Components/ButtonDifference.svelte";
+	import ButtonDifference from '../Components/ButtonDifference.svelte';
 </script>
 
 <section class="difference">
 	<h1>À propos de l'agence <span>Gralypho</span></h1>
 	<h2>
- 	Que vous puissiez atteindre vos objectifs, c'est le coeur de même de notre <span>Mission !</span
-		>
-    <div class="wrapper">
-<ButtonDifference />
-    </div>
+		Fournir à votre entreprise un service digitale de qualité, c'est notre <span>Passion</span> et
+		notre <span>Mission !</span>
+		<div class="wrapper">
+			<ButtonDifference />
+		</div>
 	</h2>
 	<p>
 		<span>Gralypho</span> est une agence digitale, spécialisé dans la
@@ -56,7 +56,7 @@
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
 		margin-top: 80px;
-		margin-left: -50px;
+		text-align: center;
 	}
 	.difference h2 {
 		font-family: epilogue;
@@ -65,7 +65,7 @@
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		margin-left: 10px;
+		text-align: center;
 	}
 	.difference h2 span {
 		color: transparent;

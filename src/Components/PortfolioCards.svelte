@@ -18,7 +18,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: flex-end;
+		justify-content: center;
 		width: 280px;
 		min-height: 300px;
 		background-color: #f1f1f1;
@@ -28,29 +28,28 @@
 		margin: 10px;
 		padding: 10px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.143);
+		border-radius: 40px;
 		z-index: 0;
 	}
-	/* 
-	.card:hover {
-		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-		animation: vertical 0.6s ease-in-out;
-	} */
+	.card-portfolio:hover .card-img {
+		opacity: 0;
+	}
+
 	.card-content {
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		justify-content: left;
-		align-items: left;
-		width: 95%;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		min-height: 300px;
 		padding: 10px;
 		z-index: 2;
 		background-color: white;
-		margin-top: 100px;
-		border-radius: 10px;
+		border-radius: 40px;
 		opacity: 0;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.813);
 	}
 	.card-content::after {
 		position: absolute;
@@ -60,7 +59,7 @@
 		left: 100%;
 		right: 0;
 		background: var(--blue2);
-		width: 20%;
+		width: 100%;
 		transition: 0.6s ease-in-out;
 		display: flex;
 		align-items: center;
@@ -101,10 +100,10 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		border-radius: 10px;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.421);
+		border-radius: 40px;
 		z-index: 0;
-		opacity: 0.7;
+		opacity: 1;
+		transition: 1.3s ease-in-out;
 	}
 	@keyframes vertical {
 		0% {

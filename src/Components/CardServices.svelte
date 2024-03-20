@@ -87,6 +87,7 @@
 		grid-column: 6/12;
 		grid-row: 4;
 		margin-top: 30px;
+		font-weight: 700;
 	}
 	.icon {
 		display: flex;
