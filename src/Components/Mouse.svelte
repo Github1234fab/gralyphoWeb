@@ -43,12 +43,11 @@
 		left: 0;
 		background-color: rgba(255, 255, 255, 0.151);
 		border: solid 1px white;
-		backdrop-filter: blur(2px);
+		backdrop-filter:  invert(1);
 		width: 55px;
 		height: 55px;
-		/* border-radius: 50%; */
+		border-radius: 5%;
 		box-shadow: 0px 0px 15px 2px rgba(76, 76, 76, 0.5);
-
 		transform: translate(-50%, -50%) translate(var(--x, 0px), var(--y, 0px));
 	}
 </style>

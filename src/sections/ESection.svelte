@@ -42,8 +42,8 @@
 
 <section class="E-section">
   <div class="wrapper-text">
-    <h1>Création Web Complète</h1>
-    <h2>Nous créeons vos outils digitaux, vos designs, votre stratégie sur les réseaux et votre référencement.</h2>
+    <h1>Notre proposition</h1>
+    <h2>Nous proposons une création Web Complète. Nous créeons vos outils digitaux, vos designs, votre stratégie sur les réseaux et votre référencement.</h2>
   </div>
 
   <div class="wrapper-cards-services">
@@ -61,12 +61,12 @@
     margin-bottom: 0px;
     height: auto;
     font-size: 16px;
-    /* background-color: var(--primary); */
     background-color: var(--greyBg);
     overflow: hidden;
   }
   :global(.card-services){
-    flex: 1 1 40%;
+    flex: 1 1 25%;
+     min-height: 400px; 
   }
   .wrapper-text {
     grid-column: 2/ 12;
@@ -75,24 +75,27 @@
     flex-direction: column;
     border-radius: 20px;
   }
-
   .E-section h1 {
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 800;
-    text-align: left;
-    color: var(--primary);
-    margin-top: 70px;
-    letter-spacing: -0.03em;
-    line-height: 1.2em;
+   		font-family: Heebo;
+		text-transform: uppercase;
+		font-size: var(--m);
+		color: var(--jauneB);
+		font-weight: 600;
+		margin-bottom: 40px;
+		letter-spacing: -0.04em;
+		margin-top: 50px;
+		margin-left: 0px;
+    text-align: center;
   }
   .E-section h2 {
-    font-family: poppins;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    text-align: left;
-    line-height: 30px;
+   		font-family: epilogue;
+		font-size: var(--l);
+		color: var(--primary);
+		font-weight: 600;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		margin-left: 0px;
+        text-align: center;
   }
 
   .wrapper-cards-services {
@@ -103,7 +106,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     margin-top: 80px;
   } 
 

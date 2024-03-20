@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Header from '../sections/Header.svelte';
 	import { fade } from 'svelte/transition';
+	import SVG from '../Assets/png-gralypho/svgHero.svg';
 	// import line from "../Assets/png-gralypho/circle-13.svg";
 	// import arrow from "../Assets/png-gralypho/arrow-34.svg";
 
@@ -27,14 +28,14 @@
 			<span> d'efficacité, de gain de temps</span> <br />et d'augmentation du taux de
 			<span> conversion de clients</span>.<br />
 		</h2>
+
 		<div class="wrapper-contact">
 			<a class="contact" href="/#footer">Nous contacter</a>
 			<a class="contact2" href="/#footer">Devis gratuit</a>
 		</div>
 	</div>
-	<!-- <div class="wrapper-visuel">
-        <Engrenage />
-      </div> -->
+
+	<img src={SVG} alt="" class="img" />
 </section>
 
 <style>
@@ -45,23 +46,11 @@
 		height: auto;
 		font-size: 16px;
 		opacity: 1;
-		/* background-color: white; */
 		background-color: rgb(26, 44, 57);
 	}
-	.H-section::before {
-		content: '';
-		position: absolute;
-		top: 100px;
-		right: 0;
-		bottom: 0;
-		left: 400px;
-		background-image: url('../Assets/png-gralypho/cerveau.png');
-		background-repeat: no-repeat;
-		transform: rotate(0deg);
-		background-position: top 30% right;
-		background-size: 50%;
-		z-index: 0;
-		opacity: 0.5;
+	.img {
+		grid-column: 8 / 13;
+		grid-row: 1;
 	}
 
 	.wrapper-text {
@@ -70,7 +59,7 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-left: 20px;
+		margin-left: 50px;
 		z-index: 2;
 	}
 
@@ -78,17 +67,13 @@
 		text-align: left;
 		font-family: Heebo;
 		font-weight: 900;
-		/* font-size: var(--xlhero); */
-		/* font-size: var(--xl); */
-		/* color: white; */
 		font-size: clamp(4em, 12.5vw, 9em);
-		/* color:  #ffd700; */
-		color: #ffc13c;
+		color: #bd8611;
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
 		margin-top: 50px;
 		margin-left: 0px;
-		line-height: clamp(60px, 10.5vw, 170px);
+		line-height: clamp(60px, 10.5vw, 150px);
 	}
 
 	.H-section h3 {
@@ -156,7 +141,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0px;
-		margin-top: 20px;
+		margin-top: 60px;
 		align-items: baseline;
 		justify-content: flex-start;
 		margin-bottom: 100px;
@@ -177,52 +162,6 @@
 		}
 		100% {
 			transform: scale(1) translateY(0);
-		}
-	}
-
-	@media screen and (max-width: 2500px) {
-		.H-section::before {
-			content: '';
-			position: absolute;
-			top: 50px;
-			right: 0;
-			bottom: 0;
-			left: 100px;
-			background-image: url('../Assets/png-gralypho/cerveau.png');
-			background-repeat: no-repeat;
-			transform: rotate(0deg);
-			background-position: top 80% left 90%;
-			background-size: 40%;
-			z-index: 0;
-			opacity: 0.4;
-		}
-	}
-
-	@media screen and (max-width: 768px) {
-		.wrapper-text {
-			grid-column: 1 / 12;
-			grid-row: 1/3;
-			display: flex;
-			flex-direction: column;
-			border-radius: 20px;
-			margin-left: 20px;
-			z-index: 2;
-		}
-		.H-section::before {
-			content: '';
-			position: absolute;
-			top: -250px;
-			right: 0;
-			bottom: 0;
-			left: 0px;
-			background-image: url('../Assets/png-gralypho/cerveau.png');
-			background-repeat: no-repeat;
-			transform: rotate(0deg);
-			/* background-position: center; */
-			background-size: 50%;
-			/* background-size: clamp(80%, 15vw, 200%); */
-			z-index: 0;
-			opacity: 0.2;
 		}
 	}
 </style>

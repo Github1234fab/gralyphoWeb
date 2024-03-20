@@ -29,8 +29,10 @@
 
 <button class="card-services" on:click={redirectToLink}>
 	<i class="{i} icon"></i>
+	<div class="wrapper-text-service">
 	<h2>{title}</h2>
 	<p class="p">{p}</p>
+	</div>
 	<a href={lien} class="lien">Lire +</a>
 </button>
 
@@ -51,16 +53,23 @@
 		border: none;
 		border-radius: 30px;
 	}
+	.wrapper-text-service {
+		grid-column: 1/12;
+		grid-row: 2;
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		justify-content: left;
+	}
 	.card-services h2 {
 		font-family: Heebo;
 		grid-column: 1/12;
 		grid-row: 2;
-		font-family: poppins;
-		font-weight: 600;
+		font-weight: 700;
 		color: var(--primary);
-		font-size: var(--m);
+		font-size: var(--l);
 		/* text-transform: lowercase; */
-		text-align: center;
+		text-align: left;
 		margin-top: 30px;
 	}
 	.p {
@@ -70,9 +79,9 @@
 		font-weight: 400;
 		font-size: var(--m);
 		color: var(--primary);
-		text-align: center;
+		text-align: left;
 		line-height: 30px;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 	.lien {
 		grid-column: 6/12;
@@ -95,7 +104,7 @@
 		color: var(--jauneB);
 		font-size: 2em;
 		z-index: 2;
-		/* text-shadow: -2px -2px 10px rgba(150, 78, 1, 0.668), 2px 2px 10px rgba(0, 0, 0, 0.5); */
+		text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.18);
 	}
 	.icon:hover {
 		animation: bounce 0.4s ease-in-out;

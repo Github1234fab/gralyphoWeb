@@ -26,10 +26,7 @@
 		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.105);
 		background-color: var(--colorC);
 	}
-	/* .video{
-    width: auto;
-    height: 90%;
- } */
+
 	.button {
 		text-decoration: none;
 		color: white;

@@ -97,6 +97,7 @@
     grid-row: 2;
     margin-left: 100px;
         margin-bottom: 100px;
+        margin-top: 100px;
   }
   .wrapper-contain {
     display: flex;
@@ -113,20 +114,22 @@
     grid-row: 1;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     margin-top: -10px;
   }
+
   .J-section h1 {
    		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
 		color: var(--jauneB);
 		font-weight: 600;
-		margin-bottom: 40px;
 		letter-spacing: -0.04em;
 		margin-top: 100px;
 		margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
   }
   .J-section h2 {
   font-family: epilogue;
@@ -136,6 +139,7 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		margin-left: 10px;
+        text-align: center;
   }
  
 

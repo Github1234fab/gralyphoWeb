@@ -26,7 +26,7 @@
 		align-items: center;
 		width: 200px;
 		height: 50px;
-		background: linear-gradient(to right, #ff8a00, var(--blue2));
+		background: linear-gradient(to right, var(--titleHero), var(--blue2));
 		color: white;
 		font-family: epilogue;
 		font-weight: 600;
@@ -34,5 +34,16 @@
 		border-radius: 10px;
 		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 		cursor: pointer;
+	}
+
+	@media screen and (max-width: 768px) {
+		.wrapper-buttons {
+			flex-direction: column;
+			height: 200px;
+		}
+		.buttons {
+			width: 80%;
+			margin-top: 10px;
+		}
 	}
 </style>

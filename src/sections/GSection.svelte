@@ -8,71 +8,78 @@
   import Visuel from "../Assets/png-gralypho/05.png";
   import VisuelB from "../Assets/png-gralypho/21.png";
   import VisuelC from "../Assets/png-gralypho/36.png";
+  import PortfolioCards from "../Components/PortfolioCards.svelte";
+  import animationSite from "../Assets/png-gralypho/animationSite.png";
+    import horloge from "../Assets/png-gralypho/horloge.png";
+      import meteo from "../Assets/png-gralypho/meteo.png";
+            import morpion from "../Assets/png-gralypho/morpion.png";
+                        import photographie from "../Assets/png-gralypho/photographie.png";
+                         import booki from "../Assets/png-gralypho/booki.png";
+                         import flag from "../Assets/png-gralypho/flag.png";
+                          import resa from "../Assets/png-gralypho/resa.png";
 
-  // onMount(() => {
-  //   // function handleResize() {
-  //     if (window.innerWidth < 576) {
-  //       gsap.to(".wrapper-developpeur", {
-  //         x: 200,
-  //         // ease: power4,
-  //         scrollTrigger: {
-  //           trigger: ".wrapper-developpeur",
-  //           start: "top 920px",
-  //           end: "-100px",
-  //           scrub: 5,
-  //         },
-  //       });
-  //     }
-  //     else if (window.innerWidth < 768) {
-  //       gsap.to(".wrapper-developpeur", {
-  //         x: 400,
-  //         // ease: power4,
-  //         scrollTrigger: {
-  //           trigger: ".wrapper-developpeur",
-  //           start: "top 920px",
-  //           end: "-100px",
-  //           scrub: 5,
-  //         },
-  //       });
-  //     } else {
-  //       gsap.to(".wrapper-developpeur", {
-  //         x: 700,
-  //         // ease: power4,
-  //         scrollTrigger: {
-  //           trigger: ".wrapper-developpeur",
-  //           start: "top 920px",
-  //           end: "-100px",
-  //           scrub: 5,
-  //         },
-  //       });
-  //     }
-  //   });
+let portfolioTab =[
+{
+  title: "SiteWeb",
+  text:"Décrouvrez un site animé au scroll",
+  img: animationSite,
+},
+{
+  title: "Application météorologie",
+  text:"Requête API pour afficher la météo",
+  img: horloge,
+},
+{
+  title: "Portfolio Photographe",
+  text:"Parallaxe et animations CSS",
+  img: meteo,
+},
+{
+  title: "Horloge",
+  text:"Web Design neumorphisme",
+  img: morpion,
+},
+{
+  title: "Web Pédagogique",
+  text:"Jeu de drapeaux",
+  img: photographie,
+},
+{
+  title: "Jeux morpion",
+  text:"Application de jeu",
+  img: booki,
+},
+{
+  title: "Site Web",
+  text:"Réservation de chambre",
+  img: flag,
+},
+{
+  title: "Site Web",
+  text:"Réservation de table",
+  img: resa,
+}
+]
 
-  // // Appeler la fonction de gestion de redimensionnement au chargement initial
-  // handleResize();
 
-  // // Ajouter un écouteur d'événement pour le redimensionnement de la fenêtre
-  // window.addEventListener("resize", handleResize);
 
-  // // Nettoyer l'écouteur d'événement lors de la destruction du composant
-  // return () => {
-  //   window.removeEventListener("resize", handleResize);
-  // };
 </script>
 
 <section class="G-section">
+
     <div class="wrapper-text">
       <h1>Découvrez nos <span>réalisations </span></h1>
       <h2>
         Découvrez ici des projets témoins utilisant chacun une technique particulière. <br />Découvrez vite le potentiel
         des animations, des applications, des requêtes API, des jeux, des composants. (...) !
       </h2>
- 
+  </div>
+  <div class="wrapper-portfolio">
+    {#each portfolioTab as item}
+    <PortfolioCards titre={item.title} texte={item.text} img={item.img} />
+  {/each}
   </div>
 
-  <div class="wrapper-carousel">
-    <Carousel />
-  </div>
 </section>
 
 <style>
@@ -93,44 +100,42 @@
     gap: 10px;
     margin-top: 50px;
   }
-  .G-section h1 {
-    text-align: left;
-    font-family: epilogue;
-    font-weight: 900;
-    font-size: var(--xl);
-    color: var(--primary);
-    letter-spacing: -1px;
-    line-height: clamp(5px, 40px 60px);
-    text-align: left;
-  }
-  .G-section h1 span {
-    font-weight: 900;
-    color: transparent;
-    -webkit-background-image: linear-gradient(to left, var(--ca), var(--blue));
-    background-image: linear-gradient(to left, var(--ca), var(--blue));
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+    	.G-section h1 {
+		font-family: Heebo;
+		text-transform: uppercase;
+		font-size: var(--m);
+		color: var(--jauneB);
+		font-weight: 600;
+		letter-spacing: -0.04em;
+		margin-top: 80px;
+		margin-left: -50px;
+    text-align: center;
+	}
+	.G-section h2 {
+		font-family: epilogue;
+		font-size: var(--l);
+		color: var(--primary);
+		font-weight: 600;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		margin-left: 10px;
+    text-align: center;
+	}
 
-  .G-section h2 {
-    font-family: poppins;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    text-align: left;
-    line-height: 25px;
-    letter-spacing: -1px;
-    width: 100%;
-    text-align: left;
-  }
+
+
    
-  .wrapper-carousel {
-    grid-column: 1/12;
+  .wrapper-portfolio{
+    grid-column: 2/12;
     grid-row: 2;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 100px;
+  }
+    :global(.card-portfolio){
+   flex: 1 1 20%;
   }
 
   @media screen and (max-width: 768px) {

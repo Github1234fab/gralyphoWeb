@@ -5,7 +5,7 @@
 <section class="difference">
 	<h1>À propos de l'agence <span>Gralypho</span></h1>
 	<h2>
-		Vous permettre d'atteindre vos objectifs , c'est le coeur de même de notre <span>MISSION !</span
+ 	Que vous puissiez atteindre vos objectifs, c'est le coeur de même de notre <span>Mission !</span
 		>
     <div class="wrapper">
 <ButtonDifference />
@@ -55,7 +55,7 @@
 		font-weight: 600;
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
-		margin-top: 20px;
+		margin-top: 80px;
 		margin-left: -50px;
 	}
 	.difference h2 {
@@ -86,6 +86,7 @@
 		line-height: 1.5em;
 		width: 100%;
 		padding: 10px;
+		margin-bottom: 100px;
 	}
 	.difference p span {
 		font-family: epilogue;

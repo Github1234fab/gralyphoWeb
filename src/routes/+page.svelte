@@ -26,7 +26,7 @@
 		<ESection />
 	</section>
 	<Difference />
-	<JSection />
+
 
 	<BeneficeSection />
 
@@ -38,7 +38,7 @@
 	<!-- <Csection /> -->
 
 	<GSection />
-
+	<JSection />
 	<Form />
 </main>
 
