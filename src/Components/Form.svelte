@@ -1,6 +1,9 @@
 <script>
 </script>
 
+
+<a href="/SuccesForm">Succes</a>
+
 <section class="section-form">
 	<h1>Contactez-nous dès aujourdhui!</h1>
 	<div class="coordonnees">
@@ -13,7 +16,7 @@
 	</div>
 
 
-	<form class="form" name="contact" method="POST" data-netlify="true"   action="/SuccesForm">
+	<form class="form" action="/SuccesForm" name="contact" method="POST" netlify  >
 		<label for="nom">Nom </label>
 		<input type="text" id="nom" placeholder="John" />
 
