@@ -16,7 +16,8 @@
 	</div>
 
 
-	<form class="form" action="/SuccesForm" name="contact" method="POST" netlify  >
+	<form name="contact-form-gralypho" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="form">
+  <input type="hidden" name="form-name" value="ontact-form-gralypho" />
 		<label for="nom">Nom </label>
 		<input type="text" id="nom" placeholder="John" />
 
@@ -36,7 +37,7 @@
 		<textarea id="demande" class="demande" placeholder="Votre projet, vos idées, vos questions ..."
 		></textarea>
 
-		<button type="submit">Envoyer</button>
+<input class="button" type="submit" value="Submit" />
 	</form>
 </section>
 
@@ -106,7 +107,7 @@
 		color: var(--primary);
 		letter-spacing: -0.05em;
 	}
-	button {
+	.button {
 		justify-content: flex-end;
 		border: none;
 		background-color: var(--CTA);
