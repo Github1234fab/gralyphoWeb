@@ -110,12 +110,23 @@
 	}
 
 	@media screen and (min-width: 1400px) and (max-width: 2500px) {
+			.card-services {
+			min-height: 350px;
+		}
 	}
+	
+	
 
 	@media screen and (min-width: 1200px) and (max-width: 1400px) {
+			.card-services {
+			min-height: 350px;
+		}
 	}
 
 	@media screen and (min-width: 992px) and (max-width: 1200px) {
+			.card-services {
+			min-height: 400px;
+		}
 	}
 
 	@media screen and (min-width: 768px) and (max-width: 992px) {

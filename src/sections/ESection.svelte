@@ -84,6 +84,7 @@
 		letter-spacing: -0.04em;
 		margin-top: 50px;
 		margin-left: 0px;
+    margin-bottom: 20px;
     text-align: center;
   }
   .E-section h2 {

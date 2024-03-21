@@ -22,42 +22,50 @@
 		{
 			title: 'SiteWeb',
 			text: 'Décrouvrez un site animé au scroll',
-			img: animationSite
+			img: animationSite,
+			lien: "https://fabienmarceau.com/RocketAgencyProject%20copie/index.html",
 		},
 		{
 			title: 'Application météorologie',
 			text: 'Requête API pour afficher la météo',
-			img: horloge
+			img: meteo,
+			lien: "https://fabienmarceau.com/meteo/index.html",
 		},
 		{
 			title: 'Portfolio Photographe',
 			text: 'Parallaxe et animations CSS',
-			img: meteo
+			img: photographie,
+			lien:"https://fabienmarceau.com/photographer%20V3/index.html",
 		},
 		{
 			title: 'Horloge',
 			text: 'Web Design neumorphisme',
-			img: morpion
+			img: horloge,
+			lien: "https://fabienmarceau.com/horloge/index.html",
 		},
 		{
 			title: 'Web Pédagogique',
 			text: 'Jeu de drapeaux',
-			img: photographie
+			img: flag,
+			lien:  "https://fabienmarceau.com/dist/index.html",
 		},
 		{
 			title: 'Jeux morpion',
 			text: 'Application de jeu',
-			img: booki
+			img: morpion,
+			lien:  "https://fabienmarceau.com/tic-tac-toe/index.html",
 		},
 		{
 			title: 'Site Web',
 			text: 'Réservation de chambre',
-			img: flag
+			img: booki,
+			lien: "https://fabienmarceau.com/Booki/index.html",
 		},
 		{
 			title: 'Site Web',
 			text: 'Réservation de table',
-			img: resa
+			img: resa,
+			lien: "https://fabienmarceau.com/myFood/index.html",
 		}
 	];
 </script>
@@ -73,7 +81,7 @@
 	</div>
 	<div class="wrapper-portfolio">
 		{#each portfolioTab as item}
-			<PortfolioCards titre={item.title} texte={item.text} img={item.img} />
+			<PortfolioCards titre={item.title} texte={item.text} img={item.img}  lien={item.lien}/>
 		{/each}
 	</div>
 </section>
@@ -86,7 +94,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background-color: var(--greyBg);
+		background-color: white;
 	}
 	.wrapper-text {
 		grid-column: 2/12;

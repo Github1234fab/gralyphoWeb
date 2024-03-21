@@ -114,9 +114,10 @@
 		letter-spacing: -0.04em;
 		margin-top: 50px;
 		text-align: center;
+		  margin-bottom: 20px;
 	}
 	.benefice-h2 {
-		margin-top: 30px;
+	
 		font-family: epilogue;
 		font-size: var(--l);
 		color: var(--primary);

@@ -55,6 +55,7 @@
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 40px;
+		  margin-bottom: 20px;
 		text-align: center;
 	}
 	.difference h2 {
