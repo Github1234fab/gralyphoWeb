@@ -23,49 +23,49 @@
 			title: 'SiteWeb',
 			text: 'Décrouvrez un site animé au scroll',
 			img: animationSite,
-			lien: "https://fabienmarceau.com/RocketAgencyProject%20copie/index.html",
+			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
 		{
 			title: 'Application météorologie',
 			text: 'Requête API pour afficher la météo',
 			img: meteo,
-			lien: "https://fabienmarceau.com/meteo/index.html",
+			lien: 'https://fabienmarceau.com/meteo/index.html'
 		},
 		{
 			title: 'Portfolio Photographe',
 			text: 'Parallaxe et animations CSS',
 			img: photographie,
-			lien:"https://fabienmarceau.com/photographer%20V3/index.html",
+			lien: 'https://fabienmarceau.com/photographer%20V3/index.html'
 		},
 		{
 			title: 'Horloge',
 			text: 'Web Design neumorphisme',
 			img: horloge,
-			lien: "https://fabienmarceau.com/horloge/index.html",
+			lien: 'https://fabienmarceau.com/horloge/index.html'
 		},
 		{
 			title: 'Web Pédagogique',
 			text: 'Jeu de drapeaux',
 			img: flag,
-			lien:  "https://fabienmarceau.com/dist/index.html",
+			lien: 'https://fabienmarceau.com/dist/index.html'
 		},
 		{
 			title: 'Jeux morpion',
 			text: 'Application de jeu',
 			img: morpion,
-			lien:  "https://fabienmarceau.com/tic-tac-toe/index.html",
+			lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
 		},
 		{
 			title: 'Site Web',
 			text: 'Réservation de chambre',
 			img: booki,
-			lien: "https://fabienmarceau.com/Booki/index.html",
+			lien: 'https://fabienmarceau.com/Booki/index.html'
 		},
 		{
 			title: 'Site Web',
 			text: 'Réservation de table',
 			img: resa,
-			lien: "https://fabienmarceau.com/myFood/index.html",
+			lien: 'https://fabienmarceau.com/myFood/index.html'
 		}
 	];
 </script>
@@ -81,7 +81,7 @@
 	</div>
 	<div class="wrapper-portfolio">
 		{#each portfolioTab as item}
-			<PortfolioCards titre={item.title} texte={item.text} img={item.img}  lien={item.lien}/>
+			<PortfolioCards titre={item.title} texte={item.text} img={item.img} lien={item.lien} />
 		{/each}
 	</div>
 </section>
@@ -133,21 +133,40 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 100px;
+		margin-bottom: 100px;
 	}
 	:global(.card-portfolio) {
 		flex: 1 1 20%;
 	}
 
-	@media screen and (max-width: 768px) {
-		.wrapper-text {
-			grid-column: 2/12;
-			grid-row: 1;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			gap: 10px;
+	@media screen and (min-width: 1400px) and (max-width: 2500px) {
+	}
+
+	@media screen and (min-width: 1200px) and (max-width: 1400px) {
+		:global(.card-portfolio) {
+			flex: 1 1 28%;
 		}
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1200px) {
+		:global(.card-portfolio) {
+			flex: 1 1 33%;
+		}
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 992px) {
+		:global(.card-portfolio) {
+			flex: 1 1 33%;
+		}
+	}
+
+	@media screen and (min-width: 576px) and (max-width: 767px) {
+		:global(.card-portfolio) {
+			flex: 1 1 50%;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 575px) {
 		:global(.card-portfolio) {
 			flex: 1 1 50%;
 		}

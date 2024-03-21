@@ -35,6 +35,7 @@
 </section>
 
 <style>
+
 	.difference {
 		display: flex;
 		flex-direction: column;
@@ -46,6 +47,8 @@
 		padding: 40px;
 		margin: 0px auto;
 		width: calc(100vw - 100px);
+		
+		      
 	}
 	.difference h1 {
 		font-family: Heebo;
@@ -54,7 +57,7 @@
 		color: var(--jauneB);
 		font-weight: 600;
 		letter-spacing: -0.04em;
-		margin-top: 40px;
+		margin-top: 55px;
 		  margin-bottom: 20px;
 		text-align: center;
 	}
@@ -64,13 +67,13 @@
 		color: var(--primary);
 		font-weight: 600;
 		margin-bottom: 0px;
-		letter-spacing: -0.04em;
+		letter-spacing: -0.02em;
 		text-align: center;
 	}
 	.difference h2 span {
 		color: transparent;
-		-webkit-background-image: linear-gradient(to left, #ff8a00, var(--blue2));
-		background-image: linear-gradient(to left, #ff8a00, var(--blue2));
+		-webkit-background-image: linear-gradient(to right, navy, var(--blue2) 70%);
+		background-image: linear-gradient(to right, navy, var(--blue2) 70%);
 		-webkit-background-clip: text;
 		background-clip: text;
 		font-weight: 900;

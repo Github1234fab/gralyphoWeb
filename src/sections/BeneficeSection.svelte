@@ -73,6 +73,7 @@
 		justify-content: center;
 		flex-direction: column;
 		background-color: var(--greyBg);
+	
 	}
 	.container-benefices {
 		margin-top: 50px;

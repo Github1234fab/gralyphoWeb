@@ -28,8 +28,9 @@
 </script>
 
 <button class="card-services" on:click={redirectToLink}>
-	<i class="{i} icon"></i>
+	
 	<div class="wrapper-text-service">
+		<i class="{i} icon"></i>
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 	</div>
@@ -59,6 +60,7 @@
 		flex-direction: column;
 		align-items: left;
 		justify-content: left;
+		margin-top: 20px;
 	}
 	.card-services h2 {
 		font-family: Heebo;
@@ -82,7 +84,7 @@
 		margin-top: 10px;
 	}
 	.lien {
-		grid-column: 6/12;
+		grid-column: 11;
 		grid-row: 4;
 		margin-top: 30px;
 		font-weight: 700;
@@ -95,7 +97,7 @@
 		height: 50px;
 		width: 50px;
 		border-radius: 50%;
-		padding: 15px;
+		/* padding: 20px; */
 		grid-column: 2;
 		grid-row: 1;
 		margin-top: 10px;
@@ -109,9 +111,9 @@
 		animation: bounce 0.4s ease-in-out;
 	}
 
-	@media screen and (min-width: 1400px) and (max-width: 2500px) {
+	@media screen and (min-width: 1400px) and (max-width: 3000px) {
 			.card-services {
-			min-height: 350px;
+			min-height: 400px;
 		}
 	}
 	
@@ -119,32 +121,32 @@
 
 	@media screen and (min-width: 1200px) and (max-width: 1400px) {
 			.card-services {
-			min-height: 350px;
+			min-height: 450px;
 		}
 	}
 
 	@media screen and (min-width: 992px) and (max-width: 1200px) {
 			.card-services {
-			min-height: 400px;
+			min-height: 500px;
 		}
 	}
 
 	@media screen and (min-width: 768px) and (max-width: 992px) {
 			.card-services {
-			min-height: 350px;
+			min-height: 430px;
 		}
 	}
 	
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
 			.card-services {
-			min-height: 300px;
+			min-height: 450px;
 		}
 	}
 	
 	@media screen and (min-width: 300px) and (max-width: 576px) {
 		.card-services {
-			min-height: 300px;
+			min-height: 250px;
 		}
 	}
 </style>

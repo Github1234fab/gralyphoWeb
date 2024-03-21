@@ -90,6 +90,7 @@
     font-size: 16px;
     margin-top: 0px;
     background-color: var(--greyBg);
+
   }
   .gallery {
     overflow-x: auto;

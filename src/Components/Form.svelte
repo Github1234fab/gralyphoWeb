@@ -1,7 +1,6 @@
 <script>
 </script>
 
-
 <!-- <a href="/SuccesForm">Succes</a> -->
 
 <section class="section-form">
@@ -15,31 +14,39 @@
 		>
 	</div>
 
-
-	<form name="contact-form-gralypho" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="form">
-  <input type="hidden" name="form-name" value="contact-form-gralypho" />
-
+	<form
+		name="contact-form-gralypho"
+		method="POST"
+		netlify-honeypot="bot-field"
+		data-netlify="true"
+		class="form"
+	>
+		<input type="hidden" name="form-name" value="contact-form-gralypho" />
 
 		<label for="nom">Nom </label>
-		<input name="nom"  type="text" id="nom" required  placeholder="John" />
+		<input name="nom" type="text" id="nom" required placeholder="John" />
 
 		<label for="prenom">Prénom </label>
-		<input name="prenom" type="text" id="prenom"  required  placeholder="Doe" />
+		<input name="prenom" type="text" id="prenom" required placeholder="Doe" />
 
 		<label for="societe">Société (optionnel)</label>
 		<input name="societe" type="text" id="societe" placeholder="ikea" />
 
 		<label for="email">Email </label>
-		<input name="email" type="email" id="email" required    placeholder="johndoe@gmail.com" />
+		<input name="email" type="email" id="email" required placeholder="johndoe@gmail.com" />
 
 		<label for="telephone">Téléphone </label>
-		<input name="telephone" type="tel" id="telephone" required    placeholder="01020304" />
+		<input name="telephone" type="tel" id="telephone" required placeholder="01020304" />
 
 		<label for="demande">Votre demande </label>
-		<textarea name="demande" id="demande" class="demande" placeholder="Votre projet, vos idées, vos questions ..."
+		<textarea
+			name="demande"
+			id="demande"
+			class="demande"
+			placeholder="Votre projet, vos idées, vos questions ..."
 		></textarea>
 
-<input class="button" type="submit" value="Submit" />
+		<input class="button" type="submit" value="Envoyez" />
 	</form>
 </section>
 
@@ -51,6 +58,12 @@
 		height: auto;
 		background-color: white;
 		padding: 20px;
+		background-image: url("../Assets/png-gralypho/cerveau5.png");
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: center top 80%;
+		/* background-image: radial-gradient(circle at center center, rgba(217, 217, 217,0.05) 0%, rgba(217, 217, 217,0.05) 15%,rgba(197, 197, 197,0.05) 15%, rgba(197, 197, 197,0.05) 34%,rgba(178, 178, 178,0.05) 34%, rgba(178, 178, 178,0.05) 51%,rgba(237, 237, 237,0.05) 51%, rgba(237, 237, 237,0.05) 75%,rgba(138, 138, 138,0.05) 75%, rgba(138, 138, 138,0.05) 89%,rgba(158, 158, 158,0.05) 89%, rgba(158, 158, 158,0.05) 100%),radial-gradient(circle at center center, rgb(255,255,255) 0%, rgb(255,255,255) 6%,rgb(255,255,255) 6%, rgb(255,255,255) 12%,rgb(255,255,255) 12%, rgb(255,255,255) 31%,rgb(255,255,255) 31%, rgb(255,255,255) 92%,rgb(255,255,255) 92%, rgb(255,255,255) 97%,rgb(255,255,255) 97%, rgb(255,255,255) 100%); background-size: 42px 42px; */
+		
 	}
 	.section-form h1 {
 		grid-column: 2/12;
@@ -65,7 +78,7 @@
 		margin-top: 50px;
 	}
 	.form {
-		grid-column: 2/12;
+		grid-column: 5/9;
 		grid-row: 3;
 		display: flex;
 		flex-direction: column;
@@ -73,6 +86,8 @@
 		gap: 20px;
 		padding: 20px;
 		margin-top: 50px;
+		background-color: rgba(255, 255, 255, 0.277);
+		backdrop-filter: blur(10px);
 	}
 	input {
 		border: 1px solid rgb(223, 218, 218);
@@ -120,6 +135,7 @@
 		border-radius: 8px;
 		width: 100px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
+		text-align: center;
 	}
 	.coordonnees {
 		grid-column: 2/12;

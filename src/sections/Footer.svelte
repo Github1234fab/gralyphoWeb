@@ -86,9 +86,8 @@
     transform: rotate(0deg);
     transition: 0.2s ease-in-out;
     border-radius: 8px;
-    border: 1px solid var(--CTA);
     padding: 15px;
-    background-color: var(--CTA);
+    background-color: var(--CTA2);
 
   }
   .contact:hover {
@@ -97,7 +96,7 @@ font-weight: 800;
   }
 
   a {
-    color: var(--CTA);
+    color: var(--blue2);
     font-size: 1.8em;
     margin: 0 0px;
     transition: 0.4s ease-in-out;

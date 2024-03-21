@@ -33,12 +33,16 @@
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.143);
 		border-radius: 40px;
 		z-index: 0;
-		margin-bottom: 100px;
 	}
 	.card-portfolio:hover .card-img {
 		opacity: 0.2;
 	}
-
+	.card-portfolio:hover .card-content {
+		opacity: 1;
+	}
+	.card-portfolio:hover .card-content::after {
+		left: 85%;
+	}
 	.card-content {
 		position: relative;
 		display: flex;
@@ -80,12 +84,6 @@
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 	}
 
-	.card-portfolio:hover .card-content {
-		opacity: 1;
-	}
-	.card-portfolio:hover .card-content::after {
-		left: 85%;
-	}
 	.card-content h3 {
 		font-size: var(--m);
 		font-family: Heebo;
@@ -116,7 +114,7 @@
 		border-radius: 40px;
 		z-index: 0;
 		opacity: 1;
-		transition: 1.3s ease-in-out;
+		transition: 0.7s ease-in-out;
 		padding: 10px;
 		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
 	}
@@ -129,6 +127,34 @@
 		}
 		100% {
 			transform: translateY(0);
+		}
+	}
+
+	@media screen and (min-width: 1400px) and (max-width: 2500px) {
+	}
+
+	@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	}
+
+	@media screen and (min-width: 992px) and (max-width: 1200px) {
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 992px) {
+		.card-portfolio {
+			min-height: 270px;
+			min-width: 300px;
+		}
+	}
+
+	@media screen and (min-width: 576px) and (max-width: 767px) {
+		.card-portfolio {
+			min-height: 270px;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 575px) {
+		.card-portfolio {
+			min-height: 270px;
 		}
 	}
 </style>

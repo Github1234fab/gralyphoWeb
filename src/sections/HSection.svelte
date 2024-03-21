@@ -47,6 +47,7 @@
 		font-size: 16px;
 		opacity: 1;
 		background-color: rgb(26, 44, 57);
+		
 	}
 	.img {
 		grid-column: 8 / 13;
