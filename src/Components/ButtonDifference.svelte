@@ -1,5 +1,4 @@
-<script>
-</script>
+
 
 <div class="wrapper-buttons">
 	<div class="buttons">100% PRO</div>
@@ -14,7 +13,6 @@
 		align-items: center;
 		width: 100%;
 		height: 100px;
-		
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
