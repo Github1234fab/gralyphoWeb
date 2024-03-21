@@ -2,7 +2,7 @@
 </script>
 
 
-<a href="/SuccesForm">Succes</a>
+<!-- <a href="/SuccesForm">Succes</a> -->
 
 <section class="section-form">
 	<h1>Contactez-nous dès aujourdhui!</h1>
@@ -17,7 +17,7 @@
 
 
 	<form name="contact-form-gralypho" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="form">
-  <input type="hidden" name="form-name" value="ontact-form-gralypho" />
+  <input type="hidden" name="form-name" value="contact-form-gralypho" />
 		<label for="nom">Nom </label>
 		<input type="text" id="nom" placeholder="John" />
 
