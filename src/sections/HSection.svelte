@@ -3,6 +3,7 @@
 	import Header from '../sections/Header.svelte';
 	import { fade } from 'svelte/transition';
 	import SVG from '../Assets/png-gralypho/svgHero.svg';
+	import animationHero from '../Assets/png-gralypho/animationHero.mp4';
 	// import line from "../Assets/png-gralypho/circle-13.svg";
 	// import arrow from "../Assets/png-gralypho/arrow-34.svg";
 
@@ -52,6 +53,8 @@
 	.img {
 		grid-column: 8 / 13;
 		grid-row: 1;
+		/* height: 200px;
+		width: 200px; */
 	}
 
 	.wrapper-text {
@@ -80,12 +83,13 @@
 	.H-section h3 {
 		font-family: poppins;
 		font-weight: 500;
-		font-size: var(--l);
+		font-size: 1em;
 		letter-spacing: -1px;
 		color: var(--greyBg);
 		transition: 1s ease-in-out;
-		margin-left: 5px;
+		margin-left: 0px;
 		margin-top: 20px;
+		text-align: left;
 	}
 	.H-section h3 span {
 		color: var(--rouge);
@@ -98,7 +102,7 @@
 		text-align: left;
 		line-height: 30px;
 		margin-top: 20px;
-		margin-left: 10px;
+		margin-left: 0px;
 	}
 	.H-section h2 span {
 		font-weight: 600;
@@ -170,17 +174,21 @@
 		.img {
 			grid-column: 1 / 13;
 			grid-row: 1;
-			margin-top: 50px;
-			display: none;
+			margin-top:-40px;
+			/* display: none; */
 		}
 
 		.wrapper-text {
-			grid-column: 2 / 13;
+			grid-column: 1 / 12;
 			grid-row: 2;
 			display: flex;
 			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
 			border-radius: 20px;
 			margin-left: 0px;
+			margin-top: -20px;
+			margin-left: 30px;
 			z-index: 2;
 		}
 	}

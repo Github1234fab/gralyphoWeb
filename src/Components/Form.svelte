@@ -4,7 +4,10 @@
 <!-- <a href="/SuccesForm">Succes</a> -->
 
 <section class="section-form">
+	<div class="wrapper-text">
+	<h3>Formulaire de contact</h3>
 	<h1>Contactez-nous dès aujourdhui!</h1>
+	</div>
 	<div class="coordonnees">
 		<a href="mailto:gralypho@gmail.com " class="contact-form">
 			<i class="fa-regular fa-envelope icon-coordonnees"></i> contact@gralypho.com</a
@@ -61,13 +64,29 @@
 		background-image: url("../Assets/png-gralypho/cerveau5.png");
 		background-size: 50%;
 		background-repeat: no-repeat;
-		background-position: center top 80%;
-		/* background-image: radial-gradient(circle at center center, rgba(217, 217, 217,0.05) 0%, rgba(217, 217, 217,0.05) 15%,rgba(197, 197, 197,0.05) 15%, rgba(197, 197, 197,0.05) 34%,rgba(178, 178, 178,0.05) 34%, rgba(178, 178, 178,0.05) 51%,rgba(237, 237, 237,0.05) 51%, rgba(237, 237, 237,0.05) 75%,rgba(138, 138, 138,0.05) 75%, rgba(138, 138, 138,0.05) 89%,rgba(158, 158, 158,0.05) 89%, rgba(158, 158, 158,0.05) 100%),radial-gradient(circle at center center, rgb(255,255,255) 0%, rgb(255,255,255) 6%,rgb(255,255,255) 6%, rgb(255,255,255) 12%,rgb(255,255,255) 12%, rgb(255,255,255) 31%,rgb(255,255,255) 31%, rgb(255,255,255) 92%,rgb(255,255,255) 92%, rgb(255,255,255) 97%,rgb(255,255,255) 97%, rgb(255,255,255) 100%); background-size: 42px 42px; */
-		
+		background-position: center top 60%;
 	}
-	.section-form h1 {
+	.wrapper-text{
 		grid-column: 2/12;
 		grid-row: 1;
+		display: flex;
+		flex-direction: column;
+		z-index: 2;
+		margin-top: 40px;
+	
+	}
+	.section-form h3{
+		font-family: Heebo;
+		text-transform: uppercase;
+		font-size: var(--m);
+		color: var(--jauneB);
+		font-weight: 600;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		text-align: center;
+		  margin-bottom: 20px;
+	}
+	.section-form h1 {
 		margin: 0 auto;
 		text-align: center;
 		font-family: epilogue;
@@ -75,7 +94,6 @@
 		font-size: var(--l);
 		color: var(--primary);
 		letter-spacing: -0.05em;
-		margin-top: 50px;
 	}
 	.form {
 		grid-column: 5/9;
@@ -140,7 +158,7 @@
 	.coordonnees {
 		grid-column: 2/12;
 		grid-row: 2;
-		margin-top: 20px;
+		margin-top: 40px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -165,5 +183,17 @@
 			margin-top: 20px;
 			gap: 5px;
 		}
+		.section-form {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: auto;
+		height: auto;
+		background-color: white;
+		padding: 20px;
+		background-image: none;
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: center top 80%;
+	}
 	}
 </style>

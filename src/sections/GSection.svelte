@@ -74,9 +74,8 @@
 	<div class="wrapper-text">
 		<h1>Découvrez nos <span>réalisations </span></h1>
 		<h2>
-			Découvrez ici des projets témoins utilisant chacun une technique particulière. <br />Découvrez
-			vite le potentiel des animations, des applications, des requêtes API, des jeux, des
-			composants. (...) !
+		Découvrez vite le potentiel des animations, des applications, des requêtes API, des jeux, des
+			composants (...) !
 		</h2>
 	</div>
 	<div class="wrapper-portfolio">

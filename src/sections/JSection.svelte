@@ -68,7 +68,7 @@
 </script>
 
 <section class="J-section">
-  <div class="wrapper-text">
+  <div class="wrapper-text-testi">
     <h1>Nos témoignages</h1>
     <h2>Collaborations, Missions, Partenariats.</h2>
   </div>
@@ -98,7 +98,7 @@
     grid-row: 2;
     margin-left: 100px;
         margin-bottom: 100px;
-        margin-top: 100px;
+        margin-top: 30px;
   }
   .wrapper-contain {
     display: flex;
@@ -110,29 +110,29 @@
     margin-bottom: 30px;
     gap: 20px;
   }
-  .wrapper-text {
+  .wrapper-text-testi{
     grid-column: 1/12;
     grid-row: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: -30px;
   }
 
-  .J-section h1 {
+  .wrapper-text-testi h1{
    		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
-		color: var(--jauneB);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 100px;
 		margin-left: 50px;
     margin-bottom: 20px;
     text-align: center;
+    color:  var(--jauneB);
   }
-  .J-section h2 {
+  .wrapper-text-testi h2{
   font-family: epilogue;
 		font-size: var(--l);
 		color: var(--primary);
@@ -150,15 +150,6 @@
       grid-column: 1/13;
       grid-row: 2;
       margin-left: 20px;
-    }
-    .J-section h1 {
-      grid-column: 1/12;
-      grid-row: 1;
-      font-family: epilogue;
-      font-weight: 800;
-      color: var(--primay);
-      margin-left: 50px;
-      margin-top: 100px;
     }
   }
 </style>

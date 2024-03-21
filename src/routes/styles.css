@@ -8,7 +8,7 @@
 body {
 	background-color: white;
 	scroll-behavior: smooth;
-	cursor: none;
+	cursor: auto;
 }
 html {
 	scroll-behavior: smooth;

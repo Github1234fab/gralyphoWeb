@@ -17,13 +17,13 @@
 		et dans la
 		<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
 		profonde et solide.
-		<br />---------------<br />
+		<br /><br />
 		Nous sommes formés aux métiers du Web. C'est à dire que nos <span>connaissances </span> en
 		matières de design, de référencement, de normes d'accessibilité W3C, d'organisation de contenu
 		textuel et visuel sont optimales. Cela signifie aussi que nous sommes
 		<span>formés au code informatique</span>
 		c'est à dire que nous avons les moyens de savoir exactement ce qu'un site contient, sous le capot.
-		<br />----------------<br>
+		<br />
 		Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
 		sécurité, de la performance et de la pérennité. <br /><br />Nous somme ici pour vous accompagner
 		dans la <span>réalisation </span>de votre projet, de sa conception à sa mise en ligne. Nous

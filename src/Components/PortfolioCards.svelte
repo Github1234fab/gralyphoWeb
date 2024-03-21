@@ -24,13 +24,13 @@
 		justify-content: center;
 		width: 280px;
 		min-height: 300px;
-		background-color: #f8f6f6;
+		background: linear-gradient(to top, var(--colorC), var(--colorH));
 		border-radius: 10px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 		transition: 0.3s;
 		margin: 10px;
 		padding: 10px;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.143);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.523);
 		border-radius: 40px;
 		z-index: 0;
 	}
@@ -134,9 +134,43 @@
 	}
 
 	@media screen and (min-width: 1200px) and (max-width: 1400px) {
+		.card-img {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 80%;
+			height: 80%;
+			margin: auto auto;
+			object-fit: cover;
+			border-radius: 40px;
+			z-index: 0;
+			opacity: 1;
+			transition: 0.7s ease-in-out;
+			padding: 10px;
+			box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
+		}
 	}
 
 	@media screen and (min-width: 992px) and (max-width: 1200px) {
+		.card-img {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 80%;
+			height: 80%;
+			margin: auto auto;
+			object-fit: cover;
+			border-radius: 40px;
+			z-index: 0;
+			opacity: 1;
+			transition: 0.7s ease-in-out;
+			padding: 10px;
+			box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
+		}
 	}
 
 	@media screen and (min-width: 768px) and (max-width: 992px) {
@@ -144,17 +178,48 @@
 			min-height: 270px;
 			min-width: 300px;
 		}
+		.card-img {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 80%;
+			height: 80%;
+			margin: auto auto;
+			object-fit: cover;
+			border-radius: 40px;
+			z-index: 0;
+			opacity: 1;
+			transition: 0.7s ease-in-out;
+			padding: 10px;
+			box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
+		}
 	}
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
 		.card-portfolio {
 			min-height: 270px;
 		}
+		.card-img {
+			width: 80%;
+			height: 80%;
+		}
+		.card-portfolio:hover .card-content::after {
+			left: clamp(92%, 9vw, 95%);
+		}
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {
+		.card-portfolio:hover .card-content::after {
+			left: clamp(88%, 9vw, 90%);
+		}
 		.card-portfolio {
 			min-height: 270px;
+		}
+		.card-img {
+			width: 80%;
+			height: 80%;
 		}
 	}
 </style>
