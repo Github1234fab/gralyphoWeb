@@ -18,23 +18,25 @@
 
 	<form name="contact-form-gralypho" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="form">
   <input type="hidden" name="form-name" value="contact-form-gralypho" />
+
+
 		<label for="nom">Nom </label>
-		<input type="text" id="nom" placeholder="John" />
+		<input name="nom"  type="text" id="nom" required  placeholder="John" />
 
 		<label for="prenom">Prénom </label>
-		<input type="text" id="prenom" placeholder="Doe" />
+		<input name="prenom" type="text" id="prenom"  required  placeholder="Doe" />
 
 		<label for="societe">Société (optionnel)</label>
-		<input type="text" id="societe" placeholder="ikea" />
+		<input name="societe" type="text" id="societe" placeholder="ikea" />
 
 		<label for="email">Email </label>
-		<input type="email" id="email" placeholder="johndoe@gmail.com" />
+		<input name="email" type="email" id="email" required    placeholder="johndoe@gmail.com" />
 
 		<label for="telephone">Téléphone </label>
-		<input type="tel" id="telephone" placeholder="01020304" />
+		<input name="telephone" type="tel" id="telephone" required    placeholder="01020304" />
 
 		<label for="demande">Votre demande </label>
-		<textarea id="demande" class="demande" placeholder="Votre projet, vos idées, vos questions ..."
+		<textarea name="demande" id="demande" class="demande" placeholder="Votre projet, vos idées, vos questions ..."
 		></textarea>
 
 <input class="button" type="submit" value="Submit" />
