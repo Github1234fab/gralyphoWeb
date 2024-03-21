@@ -153,8 +153,6 @@
     }
   }
 
-
-  
   @media screen and (max-width: 768px) {
     .wrapper-links {
       flex-direction: column;

@@ -30,8 +30,8 @@
 <button class="card-services" on:click={redirectToLink}>
 	<i class="{i} icon"></i>
 	<div class="wrapper-text-service">
-	<h2>{title}</h2>
-	<p class="p">{p}</p>
+		<h2>{title}</h2>
+		<p class="p">{p}</p>
 	</div>
 	<a href={lien} class="lien">Lire +</a>
 </button>
@@ -45,13 +45,12 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		/* background-color: var(--CTA); */
 		background-color: white;
 		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.187);
-		/* width: 400px; */
 		padding: 20px;
 		border: none;
 		border-radius: 30px;
+		min-height: 600px;
 	}
 	.wrapper-text-service {
 		grid-column: 1/12;
@@ -68,7 +67,6 @@
 		font-weight: 700;
 		color: var(--primary);
 		font-size: var(--l);
-		/* text-transform: lowercase; */
 		text-align: left;
 		margin-top: 30px;
 	}
@@ -121,10 +119,21 @@
 	}
 
 	@media screen and (min-width: 768px) and (max-width: 992px) {
+			.card-services {
+			min-height: 350px;
+		}
 	}
+	
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
+			.card-services {
+			min-height: 300px;
+		}
 	}
+	
 	@media screen and (min-width: 300px) and (max-width: 576px) {
+		.card-services {
+			min-height: 300px;
+		}
 	}
 </style>

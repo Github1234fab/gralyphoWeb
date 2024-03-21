@@ -1,5 +1,19 @@
 <script>
 	import { onMount } from 'svelte';
+
+	onMount(() => {
+		gsap.to('.wrapper-blocks', {
+			scale: 1,
+			opacity: 1,
+			ease: 'ease-in-out',
+			scrollTrigger: {
+				trigger: '.wrapper-blocks',
+				start: 'top 800px',
+				end: '-100px',
+				scrub: 5
+			}
+		});
+	});
 </script>
 
 <section class="section-benefices">
@@ -61,7 +75,7 @@
 		background-color: var(--greyBg);
 	}
 	.container-benefices {
-		margin-top: 100px;
+		margin-top: 50px;
 		display: flex;
 		flex-direction: row;
 		height: fit-content;
@@ -86,6 +100,8 @@
 		padding: 20px;
 		margin-bottom: 100px;
 		background-color: rgba(255, 255, 255, 0.912);
+		transform: scale(0.6);
+		opacity: 0.6;
 	}
 
 	.benefice-h1 {
@@ -97,7 +113,7 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
-		margin-left: -50px;
+		text-align: center;
 	}
 	.benefice-h2 {
 		margin-top: 30px;
@@ -107,7 +123,7 @@
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		margin-left: 10px;
+		text-align: center;
 	}
 	.wrapper-blocks h1 {
 		color: var(--primary);
@@ -127,7 +143,7 @@
 	.wrapper-blocks p {
 		font-size: var(--m);
 		font-weight: 400;
-		color: rgb(210, 210, 210);
+		color: var(--primary);
 		font-family: poppins;
 		text-align: left;
 		padding: 20px;

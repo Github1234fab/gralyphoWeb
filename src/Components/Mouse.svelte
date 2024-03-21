@@ -4,6 +4,7 @@
 	const onMouseMove = (event) => {
 		$mouseCoords = { x: event.x, y: event.y };
 	};
+
 </script>
 
 <svelte:window on:mousemove={onMouseMove} />
@@ -43,10 +44,10 @@
 		left: 0;
 		background-color: rgba(255, 255, 255, 0.151);
 		border: solid 1px white;
-		backdrop-filter:  invert(1);
+		backdrop-filter: brightness(1);
 		width: 55px;
 		height: 55px;
-		border-radius: 5%;
+		border-radius: 50%;
 		box-shadow: 0px 0px 15px 2px rgba(76, 76, 76, 0.5);
 		transform: translate(-50%, -50%) translate(var(--x, 0px), var(--y, 0px));
 	}

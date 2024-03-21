@@ -81,7 +81,6 @@
 		font-size: var(--m);
 		color: var(--jauneB);
 		font-weight: 600;
-		margin-bottom: 40px;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
 		margin-left: 0px;
@@ -106,7 +105,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
     margin-top: 80px;
   } 
 
