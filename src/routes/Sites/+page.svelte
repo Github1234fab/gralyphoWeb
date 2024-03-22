@@ -133,24 +133,27 @@
         text="Design UX/UI"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
         img={imgDesign}
+        lien='/Site-infos'
       />
       <Service
         text="Rédaction Web"
         img={imgSeo}
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
+             lien='/Site-infos'
       />
     </div>
     <div class="wrapper-service">
       <Service
         text="SEO"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
+             lien='/Site-infos'
         img={imgWeb}
       />
       <Service
         text="Conception et stratégie sur mesure"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        ,
         img={imgFormation}
+             lien='/Site-infos'
       />
     </div>
   </div>

@@ -2,6 +2,7 @@
   export let text;
   export let img;
   export let description;
+  export let lien;
 </script>
 
 <div class="card-services">
@@ -10,7 +11,7 @@
     <p class="description-services">{description}</p>
   </div>
 <img class="img-services"src={img} alt="">
-<button class="button-service">En savoir +</button>
+<a href={lien}><button class="button-service">En savoir +</button></a>
 </div>
 
 <style>

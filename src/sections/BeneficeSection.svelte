@@ -38,7 +38,7 @@
 				hyper-présence sur le net qui vous permet d'économisez du temps pour vous consacrer à
 				d'autres tâches.
 			</p>
-			<button class="button">En savoir +</button>
+			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
 		</div>
 		<!-- +++++++++++++ -->
 		<div class="wrapper-blocks">
@@ -52,7 +52,7 @@
 				votre site inetrnet peut accomplir de mutilples tâches automatisées et ainsi augmenter
 				considérablement votre productivité.
 			</p>
-			<button class="button">En savoir +</button>
+			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
 		</div>
 
 		<!-- +++++++++++++ -->
@@ -65,7 +65,7 @@
 				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO. + de
 				visibilité + de prospects + plus de clients = plus d'argent!
 			</p>
-			<button class="button">En savoir +</button>
+			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
 		</div>
 	</div>
 </section>
@@ -175,6 +175,11 @@
 		background-image: linear-gradient(to left, var(--orange) 40%, var(--blue));
 		-webkit-background-clip: text;
 		background-clip: text;
+	}
+	.lien-bouton {
+		text-decoration: none;
+		text-align: center;
+
 	}
 	.button {
 		background-color: var(--CTAHero);

@@ -51,6 +51,7 @@
     width: 40%;
     height: fit-content;
     min-height: 200px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
     /* background-color: white; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
