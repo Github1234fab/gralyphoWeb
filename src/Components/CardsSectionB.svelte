@@ -135,7 +135,7 @@ animation: bounce 0.4s;
     width: 100vw;
     }
     .button{
-      font-size: 1.2em;
+      font-size: 1em;
     }
 
     .button-after {

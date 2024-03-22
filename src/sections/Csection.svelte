@@ -98,7 +98,7 @@
     font-family: epilogue;
     font-size: var(--xl);
     font-weight: 800;
-    text-align: right;
+    text-align: center;
     color: var(--primary);
     margin-top: 70px;
     letter-spacing: -2px;
@@ -116,7 +116,7 @@
     font-weight: 300;
     font-size: var(--m);
     color: grey;
-    text-align: right;
+    text-align: center;
     line-height: 30px;
     margin-top: 20px;
     margin-left: 10px;

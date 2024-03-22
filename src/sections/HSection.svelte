@@ -48,7 +48,6 @@
 		font-size: 16px;
 		opacity: 1;
 		background-color: rgb(26, 44, 57);
-		
 	}
 	.img {
 		grid-column: 8 / 13;
@@ -56,7 +55,6 @@
 		/* height: 200px;
 		width: 200px; */
 	}
-
 	.wrapper-text {
 		grid-column: 1 / 8;
 		grid-row: 1/3;
@@ -174,7 +172,7 @@
 		.img {
 			grid-column: 1 / 13;
 			grid-row: 1;
-			margin-top:-40px;
+			margin-top: -40px;
 			/* display: none; */
 		}
 

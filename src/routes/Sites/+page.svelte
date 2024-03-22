@@ -135,7 +135,7 @@
         img={imgDesign}
       />
       <Service
-        text="Rédaction"
+        text="Rédaction Web"
         img={imgSeo}
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
       />
@@ -147,12 +147,23 @@
         img={imgWeb}
       />
       <Service
-        text="Formation"
+        text="Conception et stratégie sur mesure"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
         ,
         img={imgFormation}
       />
     </div>
+  </div>
+
+
+  <!-- ***************TESTIMONIAL*************** -->
+
+  <div class="testimonial">
+    <h2>
+      "Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités <br>que peut contenir un site Web !! <br
+      />L'expertise de l'agence Gralypho nous a permis d'augmenter de 53% nos ventes en ligne ! "
+    </h2>
+    <h4>"Éloïse Humbert - CTO Rodiggia"</h4>
   </div>
 
   <!-- ***************SITES TYPES*************** -->
@@ -182,7 +193,7 @@
   <!-- ***************COLLAPSES*************** -->
 
   <div class="wrapper-SectionB">
-    <h1>Tarifs, Délais ...</h1>
+    <h1>Vos questions</h1>
     {#each accordeonTab as tab}
       <CardsSectionB title={tab.title} p={tab.p} />
     {/each}
@@ -195,15 +206,6 @@
   </div>
 
 
-  <!-- ***************TESTIMONIAL*************** -->
-
-  <div class="testimonial">
-    <h2>
-      "Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités que peut contenir un site Web !! <br
-      />L'expertise de l'agence Gralypho nous a permis d'augmenter de 60% nos ventes en ligne ! "
-    </h2>
-    <h4>"Éloïse Humbert - CTO Rodiggia"</h4>
-  </div>
 
 
   <!-- ***************CONTACT*************** -->
@@ -256,7 +258,7 @@
   }
   .wrapper-Csection {
     grid-column: 1/13;
-    grid-row: 3;
+    grid-row: 4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,6 +290,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 30px;
+    margin-bottom: 50px;
   }
   /* .container-slider {
     overflow-x: auto;
@@ -338,7 +341,7 @@
 
   .wrapper-SectionB {
     grid-column: 1/13;
-    grid-row: 4;
+    grid-row: 6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -357,7 +360,7 @@
   }
   .wrapper-Fsection {
     grid-column: 1/13;
-    grid-row: 5;
+    grid-row:7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -368,26 +371,26 @@
   }
 
   .wrapper-form {
-    grid-column: 2/12;
-    grid-row: 7;
+    grid-column: 1/13;
+    grid-row: 8;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 100px;
+
+    background-color: var(--bgHero);
   }
   .testimonial {
     grid-column: 1/13;
-    grid-row: 6;
+    grid-row: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    height: 130%;
-    background-color: var(--colorL);
-    padding: 50px;
+    height: 100%;
+    background-color: var(--colorN);
     gap: 20px;
   }
   .testimonial h2 {
@@ -398,8 +401,7 @@
     text-align: center;
     line-height: 40px;
     letter-spacing: 0px;
-    margin-top: -30px;
-
+    margin-top: 100px;
   }
   .testimonial h4 {
     font-family: poppins;

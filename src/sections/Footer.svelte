@@ -16,13 +16,13 @@
   </div> -->
 	<div class="wrapper-contactez">
 		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope"></i></a
+			><i class="fa-regular fa-envelope icon"></i></a
 		>
 		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume"></i></a
+			><i class="fa-solid fa-phone-volume icon"></i></a
 		>
 		<a
-			href="https://doodle.com/bp/fabienmarceau/rservation-de-rv-client-avec-gralypho"
+			href="https://doodle.com/bp/fabienmarceau/rservation-de-rv-client-avec-gralypho icon"
 			class="contact"
 			target="_blank"><i class="fa-solid fa-mug-hot"></i></a
 		>
@@ -69,7 +69,7 @@
 		font-size: 0.6em;
 		color: var(--colorC);
 		text-align: center;
-    margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 	.wrapper-gralypho {
 		display: flex;
@@ -90,21 +90,24 @@
 		border-radius: 8px;
 		padding: 40px;
 		gap: 10px;
-    margin-top: 30px;
+		margin-top: 30px;
 	}
 	.contact {
 		text-decoration: none;
 		color: white;
 		font-size: 1.5em;
 		font-family: poppins;
-		width: 100px;
-    height: 100px;
+		width: 50px;
+		height: 50px;
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 35px;
 		background-color: var(--CTA2);
-    border-radius: 10px;
+		border-radius: 10px;
 		box-shadow: 0px 0px 10px 0px var(--primary) inset;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.contact:hover {
 		animation: bounce 0.4s ease-in-out;

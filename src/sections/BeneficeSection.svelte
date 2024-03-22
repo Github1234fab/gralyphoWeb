@@ -14,9 +14,9 @@
 			ease: 'ease-in-out',
 			scrollTrigger: {
 				trigger: card,
-				start: 'top 800px',
+				start: 'top 950px',
 				end: '-100px',
-				scrub: 5
+				scrub: 2
 			}
 		});
 	});

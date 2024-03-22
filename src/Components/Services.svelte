@@ -10,6 +10,7 @@
     <p class="description-services">{description}</p>
   </div>
 <img class="img-services"src={img} alt="">
+<button class="button-service">En savoir +</button>
 </div>
 
 <style>
@@ -53,6 +54,39 @@
   .img-services {
 width: auto;
 height: 200px;
+  }
+  .button-service{
+   min-width: 150px;
+    height: 50px;
+    background-color: var(--CTA2);
+    border: none;
+    color: white;
+    font-family: epilogue;
+    font-weight: 700;
+    font-size: var(--m);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px  rgba(76, 76, 76, 0.35);
+  
+  }
+  .button-service:hover{
+    animation: bounce 0.4s ease-in-out;
+  }
+  @keyframes bounce {
+    0% {
+      transform: scale(1) translateY(-2px);
+    }
+    25% {
+      transform: scale(1.1) translateY(-2px);
+    }
+    50% {
+      transform: scale(1) translateY(-2px);
+    }
+    75% {
+      transform: scale(1.1) translateY(-2px);
+    }
+    100% {
+      transform: scale(1) translateY(-2px);
+    }
   }
 
   @media screen and (max-width: 768px) {

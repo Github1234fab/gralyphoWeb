@@ -28,6 +28,7 @@
   import institutionnel from "../../Assets/png-gralypho/institutionnel.png";
   import Form from "../../Components/Form.svelte";
    import Mouse from "../../Components/Mouse.svelte";
+   import design from "../../Assets/png-gralypho/design.png";
   // import Csection from "../../sections/Csection.svelte";
 
   let accordeonTab = [
@@ -129,31 +130,12 @@
   <div class="container-service">
     <h1>Étude et réalisation de design sur mesure</h1>
     <div class="wrapper-service">
-      <Service
-        text="UX"
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        img={imgDesign}
-      />
-      <Service
-        text="UI"
-        img={imgSeo}
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-      />
-    </div>
-    <div class="wrapper-service">
-      <Service
-        text="Utilisateur"
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        img={imgWeb}
-      />
-      <Service
-        text="Mobile first"
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        ,
-        img={imgFormation}
-      />
+   <img src={design} alt="" class="img-design">
     </div>
   </div>
+
+
+  
 
   <!-- ***************SITES TYPES*************** -->
 <!-- 
@@ -254,7 +236,7 @@
     color: rgb(224, 222, 222);
     text-align: center;
   }
-
+ 
   .container-service {
     grid-column: 2/12;
     grid-row: 2;
@@ -281,6 +263,12 @@
     gap: 10px;
     margin-top: 30px;
   }
+   .img-design{
+    width: auto;
+    height: 400px;
+    margin-top: 50px;
+  }
+
   /* .container-slider {
     overflow-x: auto;
     margin-left: 100px;
@@ -348,14 +336,13 @@
     margin-bottom: 50px;
   }
   .wrapper-form {
-    grid-column: 2/12;
+    grid-column: 1/13;
     grid-row: 7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    background-color: var(--bgHero);
   }
   .testimonial {
     grid-column: 1/13;

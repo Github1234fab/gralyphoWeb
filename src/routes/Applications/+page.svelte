@@ -33,15 +33,15 @@
 
   <div class="hero-applications">
     <h1>Création<br /><span>d'applications</span></h1>
-    <h3>L'agence Gralypho crée vos applications sur mesure afin que vos utilisateurs puissent en tirer le meilleur.</h3>
+    <h3>L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une expérience parfaite. </h3>
   </div>
 
 
   <!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
 
   <div class="wrapper-application-explication">
+        <h2>Progressive Web App (PWA)</h2>
     <h1>Notre développement d'applis.</h1>
-    <h2>Progressive Web App (PWA)</h2>
     <p>
       Nous développons des application en PWA. Cela signifie que ces applications se téléchargent uniquement depuis un
       site Web. Pourquoi faire ce choix? Parce qu'une application IOS (apple) ne se code pas comme une application
@@ -141,8 +141,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
-    background-color: var(--rouge);
+background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254, 246, 210, 0.53) 14.286%,rgba(221, 240, 216, 0.53) 14.286%, rgba(221, 240, 216, 0.53) 28.572%,rgba(188, 233, 223, 0.53) 28.572%, rgba(188, 233, 223, 0.53) 42.858%,rgba(156, 227, 229, 0.53) 42.858%, rgba(156, 227, 229, 0.53) 57.144%,rgba(123, 220, 235, 0.53) 57.144%, rgba(123, 220, 235, 0.53) 71.42999999999999%,rgba(90, 214, 242, 0.53) 71.43%, rgba(90, 214, 242, 0.53) 85.71600000000001%,rgba(57, 207, 248, 0.53) 85.716%, rgba(57, 207, 248, 0.53) 100.002%),linear-gradient(135deg, rgb(246, 99, 200) 0%, rgb(246, 99, 200) 12.5%,rgb(223, 98, 196) 12.5%, rgb(223, 98, 196) 25%,rgb(199, 97, 192) 25%, rgb(199, 97, 192) 37.5%,rgb(176, 96, 188) 37.5%, rgb(176, 96, 188) 50%,rgb(152, 95, 184) 50%, rgb(152, 95, 184) 62.5%,rgb(129, 94, 180) 62.5%, rgb(129, 94, 180) 75%,rgb(105, 93, 176) 75%, rgb(105, 93, 176) 87.5%,rgb(82, 92, 172) 87.5%, rgb(82, 92, 172) 100%);
+
   }
 
   .wrapper-testimonial h2 {
@@ -151,16 +151,15 @@
     font-size: var(--l);
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 90%;
   }
   .wrapper-testimonial h3 {
     font-family: poppins;
     font-weight: 300;
     font-size: var(--m);
-    color: rgb(224, 222, 222);
+    color: rgb(240, 237, 237);
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 50px;
   }
   .wrapper-collapse {
@@ -174,9 +173,14 @@
     background-color: var(--greyBg);
   }
   .wrapper-collapse h1{
-    margin-top: 30px;
+      text-align: center;
+    font-family: epilogue;
+    font-size: var(--l);
+    font-weight: 700;
+    color: var(--bleuAcier);
+    margin-top: 50px;
+    letter-spacing: -1px;
     margin-bottom: 50px;
-    padding: 15px;
   }
   .wrapper-application-explication {
     grid-column: 1/13;
@@ -188,21 +192,21 @@
     margin-bottom: 50px;
   }
   .wrapper-application-explication h1 {
-    font-family: "epilogue";
-    font-weight: 700;
+      text-align: center;
+    font-family: epilogue;
     font-size: var(--xl);
+    font-weight: 700;
     color: var(--bleuAcier);
-    text-align: center;
-    margin-top: 50px;
-    width: 90%;
+    letter-spacing: -1px;
   }
   .wrapper-application-explication h2 {
     font-family: "epilogue";
     font-weight: 700;
-    font-size: var(--l);
-    color: var(--bleuAcier);
+    font-size: var(--m);
+    color: var(--jauneB);
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
     width: 90%;
   }
   .wrapper-application-explication p {
@@ -212,7 +216,7 @@
     color: var(--bleuAcier);
     text-align: center;
     margin-top: 50px;
-    width: 90%;
+    width: 60%;
   }
   .wrapper-application-explication ol {
     font-family: "poppins";
@@ -221,7 +225,7 @@
     color: var(--bleuAcier);
     text-align: center;
     margin-top: 50px;
-    width: 90%;
+    width: 60%;
   }
 
   .wrapper-form {
@@ -231,7 +235,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    background-color: var(--bgHero);
   }
 
   @keyframes bounce {
@@ -265,8 +269,25 @@
   }
 
   @media screen and (min-width: 576px) and (max-width: 767px) {
+          .wrapper-application-explication p {
+  
+    width: 90%;
   }
+  .wrapper-application-explication ol {
+
+    width: 90%;
+  }
+  }
+  
 
   @media screen and (min-width: 300px) and (max-width: 575px) {
+      .wrapper-application-explication p {
+  
+    width: 90%;
+  }
+  .wrapper-application-explication ol {
+
+    width: 90%;
+  }
   }
 </style>

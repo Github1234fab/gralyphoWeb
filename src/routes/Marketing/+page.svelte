@@ -27,6 +27,11 @@
   import Corporated from "../../Assets/png-gralypho/corporate.png";
   import institutionnel from "../../Assets/png-gralypho/institutionnel.png";
   import Form from "../../Components/Form.svelte";
+  import redaction from "../../Assets/png-gralypho/writing.png";
+    import contenuMedia from "../../Assets/png-gralypho/contenuMedia.png";
+       import publiciteMedia from "../../Assets/png-gralypho/publiciteMedia.png";
+              import socialMedia from "../../Assets/png-gralypho/socialMedia.png";
+
   // import Csection from "../../sections/Csection.svelte";
   import Mouse from "../../Components/Mouse.svelte";
 
@@ -116,41 +121,37 @@
     <!-- <img src={imgHero} alt="" class="imgHero" /> -->
     <h1>Gestion des <br /><span>Médias Sociaux</span></h1>
     <h3>
-    L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre projet. Le design d'un site ou d'une application, selon plusieurs études menées aupès des utilisateurs du Web est essentiel pour plus de 75% des sondés.
+    L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. Mise à jour régulière, création de contenu, gestion des interactions, etc. Nous nous occupons de tout pour vous permettre de vous concentrer sur votre activité.
     </h3>
-    <!-- <div class="wrapper-contact">
-      <a class="contact" href="/#footer">Nous contacter</a>
-      <a class="contact2" href="/#footer">Devis gratuit</a>
-    </div> -->
   </div>
 
   <!-- ***************SERVICES*************** -->
 
   <div class="container-service">
-    <h1>Étude et réalisation de design sur mesure</h1>
+    <h1>Nos services de médias sociaux</h1>
     <div class="wrapper-service">
       <Service
-        text="UX"
+        text="Rédaction"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        img={imgDesign}
+        img={redaction}
       />
       <Service
-        text="UI"
-        img={imgSeo}
+        text="Création des contenus images et vidéos"
+        img={contenuMedia}
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
       />
     </div>
     <div class="wrapper-service">
       <Service
-        text="Utilisateur"
+        text="Campagnes publicitaires"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        img={imgWeb}
+        img={publiciteMedia}
       />
       <Service
-        text="Mobile first"
+        text="Formation et coaching"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
         ,
-        img={imgFormation}
+        img={socialMedia}
       />
     </div>
   </div>
@@ -182,7 +183,7 @@
   <!-- ***************COLLAPSES*************** -->
 
   <div class="wrapper-SectionB">
-    <h1>Tarifs, Délais ...</h1>
+    <h1>Les avantages de la gestion de médias sociaux</h1>
     {#each accordeonTab as tab}
       <CardsSectionB title={tab.title} p={tab.p} />
     {/each}
@@ -202,7 +203,6 @@
       "Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités que peut contenir un site Web !! <br
       />L'expertise de l'agence Gralypho nous a permis d'augmenter de 60% nos ventes en ligne ! "
     </h2>
-    <h4>"Éloïse Humbert - CTO Rodiggia"</h4>
   </div>
 
 
@@ -280,6 +280,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 30px;
+    margin-bottom: 50px;
   }
   /* .container-slider {
     overflow-x: auto;
@@ -336,6 +337,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    background-color: white;
   }
   .wrapper-SectionB h1 {
     text-align: center;
@@ -345,19 +347,19 @@
     color: var(--primary);
     margin-top: 0px;
     letter-spacing: -1px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 
 
   .wrapper-form {
-    grid-column: 2/12;
+    grid-column: 1/13;
     grid-row: 7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    background-color: var(--bgHero);
   }
   .testimonial {
     grid-column: 1/13;
@@ -367,8 +369,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    height: 130%;
-    background-color: var(--colorL);
+    height: 100%;
+    background-color: var(--colorF);
     padding: 50px;
     gap: 20px;
   }
@@ -380,19 +382,8 @@
     text-align: center;
     line-height: 40px;
     letter-spacing: 0px;
-    margin-top: -30px;
+  }
 
-  }
-  .testimonial h4 {
-    font-family: poppins;
-    font-weight: 400;
-    font-size: var(--m);
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    letter-spacing: -1px;
-        margin-bottom: 100px;
-  }
   @keyframes bounce {
     0% {
       transform: scale(1) translateY(-2px);

@@ -17,7 +17,7 @@
         ease: "power4",
         scrollTrigger: {
           trigger: el,
-          start: "top 600px",
+          start: "top 900px",
           end: "-200px",
           scrub: 5,
         },
@@ -35,7 +35,7 @@
     <!-- <p>
       {p}
     </p> -->
-    <a href={lien} class="link-decouvrir">En savoir +</a>
+    <a href={lien} class="link-decouvrir">Découvrir</a>
   </div>
 </div>
 
@@ -52,9 +52,9 @@
     height: fit-content;
     min-height: 200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
-    background-color: white;
+    /* background-color: white; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
-
+background-image: radial-gradient(circle at 67% 83%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, rgba(245,245,245, 0.1) 0%, rgba(245,245,245, 0.1) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(255,69,0),rgb(255,69,0));
   }
   .wrapper-title-icon {
     display: flex;
@@ -76,7 +76,7 @@
     font-size: var(--l);
     border-radius: 8px;
     text-decoration: none;
-    color: var(--primary);
+    color: var(--colorC);
     letter-spacing: -1px;
   }
   .title:hover {
@@ -93,9 +93,9 @@
   .link-decouvrir {
     text-decoration: none;
     color: white;
-    background-color: var(--CTA);
-    font-family: kanit;
-    font-weight: 400;
+    background-color: var(--CTA2);
+    font-family: Heebo;
+    font-weight: 600;
     width: 160px;
     border-radius: 6px;
     text-align: center;
@@ -104,7 +104,7 @@
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 5px 0px var(--CTA);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.426) inset;
     font-size: var(--m);
   }
   .link-decouvrir:hover {
@@ -112,6 +112,7 @@
   }
   .icon {
     height: 30px;
+    color: blue;
   }
 
   @keyframes bounce {

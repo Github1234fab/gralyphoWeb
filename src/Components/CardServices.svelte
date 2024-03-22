@@ -53,6 +53,9 @@
 		border-radius: 30px;
 		min-height: 600px;
 	}
+	.card-services:hover .icon{
+		transform: rotate(360deg);
+	}
 	.wrapper-text-service {
 		grid-column: 1/12;
 		grid-row: 2;
@@ -94,7 +97,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid var(--blue2);
+		/* border: 1px solid var(--blue2); */
 		height: 50px;
 		width: 50px;
 		border-radius: 50%;
@@ -103,7 +106,7 @@
 		margin-top: 10px;
 		transition: 0.7s ease-in-out;
 		color: var(--blue2);
-		font-size: 2em;
+		font-size: 2.4em;
 		z-index: 2;
 		text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.18);
 	}
