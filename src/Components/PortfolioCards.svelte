@@ -7,10 +7,8 @@
 
 <div class="card-portfolio">
 	<a href={lien} class="card-content" target="_blank">
-		<!-- <div class="card-content"> -->
 		<h3>{titre}</h3>
 		<p>{texte}</p>
-		<!-- </div> -->
 	</a>
 	<img class="card-img" src={img} alt="" />
 </div>
@@ -19,40 +17,29 @@
 	.card-portfolio {
 		position: relative;
 		display: flex;
-		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 280px;
-		min-height: 300px;
-		background: linear-gradient(to top, var(--colorC), var(--colorH));
-		border-radius: 10px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-		transition: 0.3s;
-		margin: 10px;
-		padding: 10px;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.523);
-		border-radius: 40px;
 		z-index: 0;
 	}
 	.card-portfolio:hover .card-img {
-		opacity: 0.2;
+		opacity: 0;
 	}
 	.card-portfolio:hover .card-content {
 		opacity: 1;
 	}
 	.card-portfolio:hover .card-content::after {
-		left: 85%;
+		left: 80%;
 	}
 	.card-content {
+		z-index: 2;
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: left;
 		align-items: left;
 		width: 100%;
-		min-height: 100px;
-		padding: 10px;
-		z-index: 2;
+		height: 300px;
+		padding: 30px;
 		background-color: white;
 		border-radius: 40px;
 		opacity: 0;
@@ -62,6 +49,7 @@
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 		text-decoration: none;
 		color: inherit;
+		cursor: pointer;
 	}
 	.card-content::after {
 		position: absolute;
@@ -71,19 +59,34 @@
 		left: 100%;
 		right: 0px;
 		background: var(--CTA2);
-		width: 50px;
 		transition: 0.6s ease-in-out;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		font-family: 'Font Awesome 5 Free';
 		font-weight: 900;
-		font-size: 20px;
+		font-size: 1.5em;
 		color: white;
 		transition: 0.7s ease-in-out;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
-	}
 
+	}
+	.card-img {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		border-radius: 40px;
+		z-index: 1;
+		opacity: 1;
+		transition: 0.7s ease-in-out;
+		padding: 10px;
+		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
+	}
 	.card-content h3 {
 		font-size: var(--m);
 		font-family: Heebo;
@@ -100,23 +103,7 @@
 		font-weight: 400;
 		color: var(--grisF);
 		margin-left: 5px;
-	}
-	.card-img {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		width: 60%;
-		height: 60%;
-		margin: auto auto;
-		object-fit: cover;
-		border-radius: 40px;
-		z-index: 0;
-		opacity: 1;
-		transition: 0.7s ease-in-out;
-		padding: 10px;
-		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
+		width: 50%;
 	}
 	@keyframes vertical {
 		0% {
@@ -127,99 +114,6 @@
 		}
 		100% {
 			transform: translateY(0);
-		}
-	}
-
-	@media screen and (min-width: 1400px) and (max-width: 2500px) {
-	}
-
-	@media screen and (min-width: 1200px) and (max-width: 1400px) {
-		.card-img {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			width: 80%;
-			height: 80%;
-			margin: auto auto;
-			object-fit: cover;
-			border-radius: 40px;
-			z-index: 0;
-			opacity: 1;
-			transition: 0.7s ease-in-out;
-			padding: 10px;
-			box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
-		}
-	}
-
-	@media screen and (min-width: 992px) and (max-width: 1200px) {
-		.card-img {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			width: 80%;
-			height: 80%;
-			margin: auto auto;
-			object-fit: cover;
-			border-radius: 40px;
-			z-index: 0;
-			opacity: 1;
-			transition: 0.7s ease-in-out;
-			padding: 10px;
-			box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
-		}
-	}
-
-	@media screen and (min-width: 768px) and (max-width: 992px) {
-		.card-portfolio {
-			min-height: 270px;
-			min-width: 300px;
-		}
-		.card-img {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			width: 80%;
-			height: 80%;
-			margin: auto auto;
-			object-fit: cover;
-			border-radius: 40px;
-			z-index: 0;
-			opacity: 1;
-			transition: 0.7s ease-in-out;
-			padding: 10px;
-			box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
-		}
-	}
-
-	@media screen and (min-width: 576px) and (max-width: 767px) {
-		.card-portfolio {
-			min-height: 270px;
-		}
-		.card-img {
-			width: 80%;
-			height: 80%;
-		}
-		.card-portfolio:hover .card-content::after {
-			left: clamp(92%, 9vw, 95%);
-		}
-	}
-
-	@media screen and (min-width: 300px) and (max-width: 575px) {
-		.card-portfolio:hover .card-content::after {
-			left: clamp(88%, 9vw, 90%);
-		}
-		.card-portfolio {
-			min-height: 270px;
-		}
-		.card-img {
-			width: 80%;
-			height: 80%;
 		}
 	}
 </style>

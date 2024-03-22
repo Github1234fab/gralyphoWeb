@@ -59,12 +59,13 @@
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
 		height: auto;
-		background-color: white;
+		/* background-color: white; */
 		padding: 20px;
-		background-image: url("../Assets/png-gralypho/cerveau5.png");
+		/* background-image: url("../Assets/png-gralypho/cerveau5.png");
 		background-size: 50%;
 		background-repeat: no-repeat;
-		background-position: center top 60%;
+		background-position: center top 60%; */
+		background-color: var(--bgHero);
 	}
 	.wrapper-text{
 		grid-column: 2/12;
@@ -92,11 +93,11 @@
 		font-family: epilogue;
 		font-weight: 700;
 		font-size: var(--l);
-		color: var(--primary);
+		color: var(--colorC);
 		letter-spacing: -0.05em;
 	}
 	.form {
-		grid-column: 5/9;
+		grid-column: 2/12;
 		grid-row: 3;
 		display: flex;
 		flex-direction: column;
@@ -104,8 +105,8 @@
 		gap: 20px;
 		padding: 20px;
 		margin-top: 50px;
-		background-color: rgba(255, 255, 255, 0.277);
-		backdrop-filter: blur(10px);
+		/* background-color: rgba(255, 255, 255, 0.277);
+		backdrop-filter: blur(10px); */
 	}
 	input {
 		border: 1px solid rgb(223, 218, 218);
@@ -116,6 +117,9 @@
 		box-shadow: 0px 0px 8px 0px rgba(186, 185, 185, 0.478);
 		width: clamp(300px, 35%, 400px);
 		text-align: left;
+	}
+	input:hover{
+		animation: bounce 0.4s ease-in-out;
 	}
 	input::placeholder {
 		color: rgb(187, 183, 183);
@@ -130,6 +134,7 @@
 		width: clamp(300px, 35%, 400px);
 		min-height: 200px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
+	
 	}
 	.demande::placeholder {
 		color: rgb(187, 183, 183);
@@ -141,6 +146,7 @@
 		font-weight: 500;
 		color: var(--primary);
 		letter-spacing: -0.05em;
+			color: var(--colorC);
 	}
 	.button {
 		justify-content: flex-end;
@@ -154,6 +160,27 @@
 		width: 100px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
+	}
+	.button:hover{
+		animation: bounce 0.4s ease-in-out;
+	}
+	@keyframes bounce {
+		0% {
+			transform: scale(1) translateY(-2px);
+		}
+		25% {
+			transform: scale(1) translateY(3px);
+		}
+		50% {
+			transform: scale(1) translateY(-1px);
+		}
+		75% {
+			transform: scale(1) translateY(2px);
+		}
+		100% {
+			transform: scale(1) translateY(0);
+		}
+	
 	}
 	.coordonnees {
 		grid-column: 2/12;
@@ -183,17 +210,7 @@
 			margin-top: 20px;
 			gap: 5px;
 		}
-		.section-form {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
-		height: auto;
-		background-color: white;
-		padding: 20px;
-		background-image: none;
-		background-size: 50%;
-		background-repeat: no-repeat;
-		background-position: center top 80%;
-	}
+	
+	
 	}
 </style>

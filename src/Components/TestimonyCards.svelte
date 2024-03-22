@@ -36,6 +36,27 @@
     flex-shrink: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.135);
   }
+  .card:hover{
+    animation: bounce 0.4s ease-in-out;
+  }
+
+	@keyframes bounce {
+		0% {
+			transform: scale(1) translateY(-2px);
+		}
+		25% {
+			transform: scale(1) translateY(3px);
+		}
+		50% {
+			transform: scale(1) translateY(-1px);
+		}
+		75% {
+			transform: scale(1) translateY(2px);
+		}
+		100% {
+			transform: scale(1) translateY(0);
+		}
+	}
   .card h3 {
     font-size: 1.3em;
     color: var(--bg);

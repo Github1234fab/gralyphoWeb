@@ -9,7 +9,7 @@
 	import VisuelB from '../Assets/png-gralypho/21.png';
 	import VisuelC from '../Assets/png-gralypho/36.png';
 	import PortfolioCards from '../Components/PortfolioCards.svelte';
-	import animationSite from '../Assets/png-gralypho/siteAnimation.png';
+	import animationSite from '../Assets/png-gralypho/animationSite.png';
 	import horloge from '../Assets/png-gralypho/horloge.png';
 	import meteo from '../Assets/png-gralypho/meteo.png';
 	import morpion from '../Assets/png-gralypho/morpion.png';
@@ -72,7 +72,7 @@
 
 <section class="G-section">
 	<div class="wrapper-text">
-		<h1>Découvrez nos <span>réalisations </span></h1>
+		<h1>Nos <span>réalisations </span></h1>
 		<h2>
 		Découvrez vite le potentiel des animations, des applications, des requêtes API, des jeux, des
 			composants (...) !
@@ -93,7 +93,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background-color: white;
+		background-color: var(--greyBg);
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -101,7 +101,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
-		margin-top: 50px;
+		margin-top: 0px;
 	}
 	.G-section h1 {
 		font-family: Heebo;
@@ -111,7 +111,7 @@
 		font-weight: 600;
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
-		margin-top: 80px;
+		margin-top: 40px;
 		text-align: center;
 	}
 	.G-section h2 {
@@ -133,6 +133,7 @@
 		align-items: center;
 		margin-top: 100px;
 		margin-bottom: 100px;
+		gap: 15px;
 	}
 	:global(.card-portfolio) {
 		flex: 1 1 20%;

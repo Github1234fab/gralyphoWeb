@@ -136,7 +136,7 @@
 
   .wrapper-testimonial {
     grid-column: 1/13;
-    grid-row: 4;
+    grid-row: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +148,7 @@
   .wrapper-testimonial h2 {
     font-family: "architects daughter";
     font-weight: 900;
-    font-size: var(--xl);
+    font-size: var(--l);
     color: white;
     text-align: center;
     margin-top: 50px;
@@ -165,7 +165,7 @@
   }
   .wrapper-collapse {
     grid-column: 1/13;
-    grid-row: 3;
+    grid-row: 4;
     display: flex;
     justify-content: center;
     align-items: center;

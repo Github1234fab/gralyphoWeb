@@ -2,18 +2,25 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		gsap.to('.wrapper-blocks', {
-			scale: 1,
+		let cardBenefice = document.querySelectorAll('.wrapper-blocks');
+		cardBenefice.forEach((card) =>{
+		  gsap.set(card, {
+        rotateX: 180, 
+        opacity: 0.3, 
+    });
+		gsap.to(card, {
+			rotateX: 360,
 			opacity: 1,
 			ease: 'ease-in-out',
 			scrollTrigger: {
-				trigger: '.wrapper-blocks',
+				trigger: card,
 				start: 'top 800px',
 				end: '-100px',
 				scrub: 5
 			}
 		});
 	});
+});
 </script>
 
 <section class="section-benefices">
@@ -72,7 +79,8 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		background-color: var(--greyBg);
+		background-color: var(--bgHero);
+		/* background-color: var(--greyBg); */
 	
 	}
 	.container-benefices {
@@ -92,6 +100,8 @@
 		flex: 1 1 25%;
 	}
 	.wrapper-blocks {
+		transform: translateX(180);
+			border-radius: 20px;
 		display: flex;
 		flex-direction: column;
 		align-items: left;
@@ -101,8 +111,7 @@
 		box-shadow: 0px 0px 10px rgba(127, 124, 124, 0.464);
 		padding: 20px;
 		margin-bottom: 100px;
-		transform: scale(0.6);
-		opacity: 0.6;
+		opacity: 0.4;
 		background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
 		background-size: 20%;
 		background-position: center;
@@ -124,7 +133,7 @@
 	
 		font-family: epilogue;
 		font-size: var(--l);
-		color: var(--primary);
+		color: var(--colorC);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -136,6 +145,7 @@
 		font-weight: 500;
 		font-family: poppins;
 		text-align: center;
+	
 	}
 	.title-yellow {
 		color: var(--primary);

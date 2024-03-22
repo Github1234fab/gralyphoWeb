@@ -8,18 +8,6 @@
   import profilFive from "../Assets/Profils-gralypho/Ellipse 131.png";
   import profilSix from "../Assets/Profils-gralypho/Ellipse 220.png";
 
-  // onMount(() => {
-  //   gsap.to(".J-section", {
-  //     opacity: 1,
-  //     ease: "expoScale",
-  //     scrollTrigger: {
-  //       trigger: ".J-section",
-  //       start: "top 800px",
-  //       end: "-200px",
-  //       scrub: 4,
-  //     },
-  //   });
-  // });
 
   let dataCard = [
     {
@@ -70,7 +58,7 @@
 <section class="J-section">
   <div class="wrapper-text-testi">
     <h1>Nos témoignages</h1>
-    <h2>Collaborations, Missions, Partenariats.</h2>
+    <h2>Nos clients racontent</h2>
   </div>
   <div class="gallery">
     <div class="wrapper-contain">
@@ -89,7 +77,7 @@
     height: auto;
     font-size: 16px;
     margin-top: 0px;
-    background-color: var(--greyBg);
+    background-color: var(--colorC);
 
   }
   .gallery {
@@ -111,7 +99,7 @@
     gap: 20px;
   }
   .wrapper-text-testi{
-    grid-column: 1/12;
+    grid-column: 1/13;
     grid-row: 1;
     display: flex;
     flex-direction: column;
@@ -127,7 +115,7 @@
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 100px;
-		margin-left: 50px;
+		/* margin-left: 50px; */
     margin-bottom: 20px;
     text-align: center;
     color:  var(--jauneB);
@@ -139,7 +127,7 @@
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		margin-left: 10px;
+		/* margin-left: 10px; */
         text-align: center;
   }
  
