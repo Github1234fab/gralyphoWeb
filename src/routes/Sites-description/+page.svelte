@@ -1,6 +1,6 @@
 <script>
 import Header from '../../sections/Header.svelte';
-import description from '../../Assets/png-gralypho/30.png';
+import description from '../../Assets/png-gralypho/ConceptionSites.png';
   import Mouse from "../../Components/Mouse.svelte";
 
 
@@ -69,8 +69,9 @@ import description from '../../Assets/png-gralypho/30.png';
         flex-basis: 50%;
 }
 .description-img {
-        width: 70%;
-        height: auto;
+        width: 40%;
+	height: auto;
+
 }
 .wrapper-site-description {
         display: flex;
@@ -82,7 +83,7 @@ import description from '../../Assets/png-gralypho/30.png';
         color: var(--textHero);
         margin-top: 30px;
         height: auto;
-        width: 60%;
+        width: 90%;
 }
 .wrapper-site-description h1 {
         font-size: 1.8em;
@@ -110,7 +111,7 @@ import description from '../../Assets/png-gralypho/30.png';
         }
 }
 .description-img {
-        width: 100%;
+        width: 50%;
 }
 </style>
 

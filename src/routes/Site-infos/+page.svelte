@@ -10,7 +10,7 @@
 <section class="sites-infos-section">
 	<div class="container">
 		<img src={serviceWeb} alt="" class="service-img" />
-		<div class="wrapper-design">
+		<div class="wrapper-design" id="#wrapper-design">
 			<h1>Design de site Web UX/UI</h1>
 			<h2>Les concepts d'UX et d'UI</h2>
 			<h3>L'UX</h3>
@@ -33,7 +33,7 @@
 				C'est ce que nous appelons des composants.
 			</p>
 		</div>
-		<div class="wrapper-redaction-web">
+		<div class="wrapper-redaction-web" id="#wrapper-redaction-web">
 			<h1>Rédaction des contenus textuels</h1>
 			<h2>Écrire pour le Web, c'est un métier!</h2>
 			<p>
@@ -95,7 +95,7 @@
 		flex-basis: 50%;
 	}
 	.service-img {
-		width: 50%;
+		width: 30%;
 		height: auto;
 		border-radius: 3%;
 		margin-top: 20px;

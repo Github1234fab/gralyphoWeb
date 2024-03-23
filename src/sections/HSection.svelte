@@ -31,7 +31,7 @@
 		</h2>
 
 		<div class="wrapper-contact">
-			<a class="contact" href="/#footer">Nous contacter</a>
+			<a class="contact" href="/#section-form">Nous contacter</a>
 			<!-- <a class="contact2" href="/#footer">Devis gratuit</a> -->
 		</div>
 	</div>
@@ -137,9 +137,9 @@
 	.contact:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	.contact2:hover {
+	/* .contact2:hover {
 		animation: bounce 0.4s ease-in-out;
-	}
+	} */
 	.wrapper-contact {
 		display: flex;
 		flex-direction: column;

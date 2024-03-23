@@ -3,7 +3,7 @@
 
 <!-- <a href="/SuccesForm">Succes</a> -->
 
-<section class="section-form">
+<section class="section-form" id="section-form">
 	<div class="wrapper-text">
 	<h3>Formulaire de contact</h3>
 	<h1>Contactez-nous dès aujourdhui!</h1>

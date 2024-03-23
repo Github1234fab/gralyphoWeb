@@ -276,6 +276,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    margin-bottom: 50px;
   }
   .wrapper-SectionB h1 {
     text-align: center;

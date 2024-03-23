@@ -54,7 +54,7 @@
 		min-height: 600px;
 	}
 	.card-services:hover .icon{
-		transform: rotate(360deg);
+		transform: rotateY(360deg);
 	}
 	.wrapper-text-service {
 		grid-column: 1/12;
@@ -74,6 +74,7 @@
 		font-size: var(--l);
 		text-align: left;
 		margin-top: 30px;
+		margin-left: 10px;
 	}
 	.p {
 		grid-column: 1/12;
@@ -85,19 +86,23 @@
 		text-align: left;
 		line-height: 30px;
 		margin-top: 10px;
+		margin-left: 10px;
 	}
 	.lien {
-		grid-column: 11;
+		grid-column: 10/12;
 		grid-row: 4;
 		margin-top: 30px;
 		font-weight: 700;
 		color: var(--CTA2);
+		z-index: 44;
+	}
+	.lien:hover{
+		animation: bounce 0.4s ease-in-out;
 	}
 	.icon {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		/* border: 1px solid var(--blue2); */
 		height: 50px;
 		width: 50px;
 		border-radius: 50%;
@@ -112,6 +117,23 @@
 	}
 	.icon:hover {
 		animation: bounce 0.4s ease-in-out;
+	}
+	@keyframes bounce {
+		0% {
+			transform: scale(1) translateY(-2px);
+		}
+		25% {
+			transform: scale(1) translateY(3px);
+		}
+		50% {
+			transform: scale(1) translateY(-1px);
+		}
+		75% {
+			transform: scale(1) translateY(2px);
+		}
+		100% {
+			transform: scale(1) translateY(0);
+		}
 	}
 
 	@media screen and (min-width: 1400px) and (max-width: 3000px) {

@@ -133,13 +133,13 @@
         text="Design UX/UI"
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
         img={imgDesign}
-        lien='/Site-infos'
+        lien='/Site-infos/#wrapper-design'
       />
       <Service
         text="Rédaction Web"
         img={imgSeo}
         description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-             lien='/Site-infos'
+             lien='/Site-infos/#wrapper-redaction-web'
       />
     </div>
     <div class="wrapper-service">

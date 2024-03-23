@@ -28,6 +28,7 @@
   import institutionnel from "../../Assets/png-gralypho/institutionnel.png";
   import Form from "../../Components/Form.svelte";
   import Mouse from "../../Components/Mouse.svelte";
+  import cible from "../../Assets/png-gralypho/cible.png";
   // import Csection from "../../sections/Csection.svelte";
 
   let accordeonTab = [
@@ -60,9 +61,10 @@
     <h1>Étude de stratégie<br /><span>Digitale</span></h1>
   <p>Le marketing digital est un outil puissant pour propulser votre entreprise vers de nouveaux sommets. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour stimuler la croissance de votre entreprise. Découvrez comment le marketing digital peut propulser votre entreprise vers le succès.</p>
         </div>
+        
 <div class="wrapper-description-marketing">
+  <img src={cible} alt="" class="img-marketing">
   <p>
-
   <span>Visibilité et public cible.<br><br> </span>
    Dans notre ère numérique, le marketing digital est la clé du succès commercial. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour propulser votre entreprise vers de nouveaux sommets. <br><br>
 Notre équipe spécialisée en marketing digital est déterminée à maximiser la visibilité de votre marque, attirer un public ciblé et stimuler la croissance de votre entreprise. Du référencement (SEO) pour garantir que votre site soit trouvé par ceux qui recherchent vos produits ou services, aux campagnes publicitaires percutantes sur les médias sociaux, nous concevons des stratégies sur mesure pour répondre à vos objectifs commerciaux. <br><br>
@@ -146,6 +148,11 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .img-marketing{
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+  }
 .wrapper-description-marketing p{
   font-family: poppins;
   font-weight: 300;
@@ -160,7 +167,7 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
 font-weight: 700;
 }
   .wrapper-description-marketing {
-    grid-column: 2/11;
+    grid-column: 1/13;
     grid-row: 2;
     display: flex;
     flex-direction: column;
