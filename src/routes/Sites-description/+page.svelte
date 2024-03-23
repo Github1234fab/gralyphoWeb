@@ -1,7 +1,15 @@
 <script>
-</script>
+import Header from '../../sections/Header.svelte';
+import description from '../../Assets/png-gralypho/27.png';
+  import Mouse from "../../Components/Mouse.svelte";
 
+
+</script>
+<Mouse/>
+<Header/>
 <section class="description-site">
+	<div class="container">
+	<img src={description} alt="" class="description-img" />
 	<div class="wrapper-site-description">
 		<h1>Site Vitrine</h1>
 		<p>
@@ -38,7 +46,76 @@
 			établissements d’enseignement, les associations et les organismes à but non lucratif.
 		</p>
 	</div>
+	</div>	
 </section>
 
 <style>
+
+.description-site {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        height: auto; 
+}
+.container{
+        display: flex;
+          justify-content: center;
+        align-items: center;
+        flex-direction: column;
+  
+}
+.container >* {
+        flex-basis: 50%;
+}
+.container img {
+        width: 70%;
+        height: auto;
+}
+.wrapper-site-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        color: var(--textHero);
+        margin-top: 30px;
+        height: auto;
+        width: 60%;
+}
+.wrapper-site-description h1 {
+        font-size: 1.8em;
+        font-weight: 700;
+        text-align: center;
+        font-family: epilogue;
+        letter-spacing: -0.5px;
+
+}
+
+.wrapper-site-description p {
+        font-family: epilogue;
+        font-size: var(--m);
+        font-weight: 400;
+        text-align: left;
+        padding: 0px;
+}
+/* .wrapper-digital-infos p span {
+        font-weight: 700;
+} */
+
+@media screen and (max-width: 768px) {
+.wrapper-site-description {
+                width: 100%;
+        }
+}
+.digital-infos img {
+        width: 100%;
+}
 </style>
+
+
+
+
+
+

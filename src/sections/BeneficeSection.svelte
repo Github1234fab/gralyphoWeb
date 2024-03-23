@@ -3,24 +3,24 @@
 
 	onMount(() => {
 		let cardBenefice = document.querySelectorAll('.wrapper-blocks');
-		cardBenefice.forEach((card) =>{
-		  gsap.set(card, {
-        rotateX: 180, 
-        opacity: 0.3, 
-    });
-		gsap.to(card, {
-			rotateX: 360,
-			opacity: 1,
-			ease: 'ease-in-out',
-			scrollTrigger: {
-				trigger: card,
-				start: 'top 950px',
-				end: '-100px',
-				scrub: 2
-			}
+		cardBenefice.forEach((card) => {
+			gsap.set(card, {
+				rotateX: 180,
+				opacity: 0.3
+			});
+			gsap.to(card, {
+				rotateX: 360,
+				opacity: 1,
+				ease: 'ease-in-out',
+				scrollTrigger: {
+					trigger: card,
+					start: 'top 950px',
+					end: '-100px',
+					scrub: 2
+				}
+			});
 		});
 	});
-});
 </script>
 
 <section class="section-benefices">
@@ -81,7 +81,6 @@
 		flex-direction: column;
 		background-color: var(--bgHero);
 		/* background-color: var(--greyBg); */
-	
 	}
 	.container-benefices {
 		margin-top: 50px;
@@ -101,7 +100,7 @@
 	}
 	.wrapper-blocks {
 		transform: translateX(180);
-			border-radius: 20px;
+		border-radius: 20px;
 		display: flex;
 		flex-direction: column;
 		align-items: left;
@@ -112,7 +111,56 @@
 		padding: 20px;
 		margin-bottom: 100px;
 		opacity: 0.4;
-		background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+		background-image: radial-gradient(
+				circle at 13% 47%,
+				rgba(140, 140, 140, 0.03) 0%,
+				rgba(140, 140, 140, 0.03) 25%,
+				transparent 25%,
+				transparent 100%
+			),
+			radial-gradient(
+				circle at 28% 63%,
+				rgba(143, 143, 143, 0.03) 0%,
+				rgba(143, 143, 143, 0.03) 16%,
+				transparent 16%,
+				transparent 100%
+			),
+			radial-gradient(
+				circle at 81% 56%,
+				rgba(65, 65, 65, 0.03) 0%,
+				rgba(65, 65, 65, 0.03) 12%,
+				transparent 12%,
+				transparent 100%
+			),
+			radial-gradient(
+				circle at 26% 48%,
+				rgba(60, 60, 60, 0.03) 0%,
+				rgba(60, 60, 60, 0.03) 6%,
+				transparent 6%,
+				transparent 100%
+			),
+			radial-gradient(
+				circle at 97% 17%,
+				rgba(150, 150, 150, 0.03) 0%,
+				rgba(150, 150, 150, 0.03) 56%,
+				transparent 56%,
+				transparent 100%
+			),
+			radial-gradient(
+				circle at 50% 100%,
+				rgba(25, 25, 25, 0.03) 0%,
+				rgba(25, 25, 25, 0.03) 36%,
+				transparent 36%,
+				transparent 100%
+			),
+			radial-gradient(
+				circle at 55% 52%,
+				rgba(69, 69, 69, 0.03) 0%,
+				rgba(69, 69, 69, 0.03) 6%,
+				transparent 6%,
+				transparent 100%
+			),
+			linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
 		background-size: 20%;
 		background-position: center;
 	}
@@ -127,10 +175,9 @@
 		letter-spacing: -0.04em;
 		margin-top: 50px;
 		text-align: center;
-		  margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	.benefice-h2 {
-	
 		font-family: epilogue;
 		font-size: var(--l);
 		color: var(--colorC);
@@ -145,7 +192,6 @@
 		font-weight: 500;
 		font-family: poppins;
 		text-align: center;
-	
 	}
 	.title-yellow {
 		color: var(--primary);
@@ -179,7 +225,6 @@
 	.lien-bouton {
 		text-decoration: none;
 		text-align: center;
-
 	}
 	.button {
 		background-color: var(--CTAHero);
@@ -194,6 +239,26 @@
 		border: none;
 		width: 50%;
 		margin: 0 auto;
+	}
+	.button:hover {
+		animation: bounce 0.4s ease-in-out;
+	}
+	@keyframes bounce {
+		0% {
+			transform: scale(1) translateY(-2px);
+		}
+		25% {
+			transform: scale(1) translateY(3px);
+		}
+		50% {
+			transform: scale(1) translateY(-1px);
+		}
+		75% {
+			transform: scale(1) translateY(2px);
+		}
+		100% {
+			transform: scale(1) translateY(0);
+		}
 	}
 
 	@media screen and (max-width: 1205px) {
