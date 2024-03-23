@@ -27,12 +27,14 @@
     <span class="span" transition:slide={{ duration: 1900 }}>
       <div in:fade={{ duration: 600 }} out:fade={{ duration: 600 }} class="wrapper-links">
         <!-- <a href="/">Home</a> -->
+ 
         <a class="link-contact" href="/Sites">Sites Web</a>
         <a class="link-contact" href="/Applications">Applications</a>
         <a class="link-contact" href="/Referencement">Référencement</a>
         <a class="link-contact" href="/Marketing">Media Sociaux</a>
         <a class="link-contact" href="/Refonte">Design</a>
         <a class="link-contact" href="/Composants">Stratégie</a>
+
       </div>
     </span>
   {/if}
@@ -43,14 +45,13 @@
   .navigation {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: last baseline;
     justify-content: last baseline;
     padding: 10px;
     font-size: 16px;
-    /* border-bottom: 1px rgb(74, 74, 74) solid; */
     background-color: var(--primary);
     z-index: 2;
   }
@@ -70,7 +71,7 @@
     z-index: 3;
   }
   .logo {
-    grid-column: 5;
+    grid-column: 2;
     grid-row: 1;
     display: flex;
     flex-direction: column;
@@ -92,8 +93,8 @@
   }
 
   .wrapper-links {
-    grid-column: 1/13;
-    grid-row: 2;
+    grid-column: 2/12;
+    grid-row: 2/3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,9 +102,11 @@
     opacity: 1;
     margin-top: 50px;
     margin-bottom: 40px;
-    width: 100vw;
     z-index: 2;
   }
+  /* .container-links{
+    display:flex;
+  } */
   a {
     color: white;
     font-size: 1em;
@@ -111,6 +114,7 @@
     text-decoration: none;
     transition: 0.4s ease-in-out;
       z-index: 2;
+      text-align: center;
   }
   a:hover {
     transition: 0.4s ease-in-out;

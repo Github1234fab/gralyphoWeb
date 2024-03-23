@@ -19,6 +19,7 @@
   .rect h1{
     font-size: 0.7em;
     color: #6CA0DC;
+    margin-top: 2px;
   }
 
   .rect:hover{

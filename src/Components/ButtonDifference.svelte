@@ -1,19 +1,19 @@
 <script>
 	import { onMount } from 'svelte';
 
-	onMount(() => {
-		gsap.to('.values-button', {
-			scale: 1,
-			opacity: 1,
-			ease: 'ease-in-out',
-			scrollTrigger: {
-				trigger: '.values-button',
-				start: 'top 900px',
-				end: '-200px',
-				scrub: 5
-			}
-		});
-	});
+	// onMount(() => {
+	// 	gsap.to('.values-button', {
+	// 		scale: 1,
+	// 		opacity: 1,
+	// 		ease: 'ease-in-out',
+	// 		scrollTrigger: {
+	// 			trigger: '.values-button',
+	// 			start: 'top 900px',
+	// 			end: '-200px',
+	// 			scrub: 5
+	// 		}
+	// 	});
+	// });
 </script>
 
 <div class="wrapper-values">
@@ -48,8 +48,6 @@
 		cursor: pointer;
 		z-index: 1;
 		padding: 25px;
-		transform: scale(0.2);
-		opacity: 0.3;
 		word-spacing: 30px;
 	}
 

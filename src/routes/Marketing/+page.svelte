@@ -205,9 +205,7 @@
 
 	<div class="testimonial">
 		<h2>
-			"Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités que peut contenir
-			un site Web !! <br />L'expertise de l'agence Gralypho nous a permis d'augmenter de 60% nos
-			ventes en ligne ! "
+			J’aime les médias sociaux car ils existent à l’intersection de l’humanité et de la technologie – @jeremywaite
 		</h2>
 	</div>
 
@@ -377,6 +375,7 @@
 		background-color: var(--colorF);
 		padding: 50px;
 		gap: 20px;
+		border-bottom: 1px solid rgb(79, 78, 78);
 	}
 	.testimonial h2 {
 		font-family: 'architects daughter';

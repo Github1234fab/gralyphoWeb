@@ -1,7 +1,7 @@
 <script>
 	import Header from '../../sections/Header.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	import serviceWeb from '../../Assets/png-gralypho/05.png';
+	import serviceWeb from '../../Assets/png-gralypho/conception.png';
 </script>
 
 <Mouse />
@@ -95,11 +95,11 @@
 		flex-basis: 50%;
 	}
 	.service-img {
-		width: 70%;
+		width: 50%;
 		height: auto;
 		border-radius: 3%;
 		margin-top: 20px;
-		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	
 	}
 	.wrapper-design, .wrapper-redaction-web, .wrapper-seo, .wrapper-conception
 	 {
@@ -165,11 +165,11 @@
 	}
 
 	.service-img {
-		width: 100%;
+		width: 50%;
 		height: auto;
 		border-radius: 0;
-		margin-top: 0px;
-		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+		margin-top: 30px;
+	
 	}
 }
 </style>

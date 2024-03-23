@@ -5,16 +5,16 @@
 		let cardBenefice = document.querySelectorAll('.wrapper-blocks');
 		cardBenefice.forEach((card) => {
 			gsap.set(card, {
-				rotateX: 180,
-				opacity: 0.3
+				x: -980,
+				opacity: 0.5
 			});
 			gsap.to(card, {
-				rotateX: 360,
-				opacity: 1,
+				x: 0,
+			opacity: 1,
 				ease: 'ease-in-out',
 				scrollTrigger: {
 					trigger: card,
-					start: 'top 950px',
+					start: 'top 1300px',
 					end: '-100px',
 					scrub: 2
 				}
@@ -99,7 +99,6 @@
 		flex: 1 1 25%;
 	}
 	.wrapper-blocks {
-		transform: translateX(180);
 		border-radius: 20px;
 		display: flex;
 		flex-direction: column;
@@ -110,7 +109,6 @@
 		box-shadow: 0px 0px 10px rgba(127, 124, 124, 0.464);
 		padding: 20px;
 		margin-bottom: 100px;
-		opacity: 0.4;
 		background-image: radial-gradient(
 				circle at 13% 47%,
 				rgba(140, 140, 140, 0.03) 0%,

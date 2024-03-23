@@ -181,10 +181,9 @@
 
   <div class="testimonial">
     <h2>
-      "Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités que peut contenir un site Web !! <br
-      />L'expertise de l'agence Gralypho nous a permis d'augmenter de 60% nos ventes en ligne ! "
+      « Mon but est d’atteindre deux choses : la simplicité et la clarté. <br> Les bons designs naissent de ces deux éléments. » – Lindon Leader 
     </h2>
-    <h4>"Éloïse Humbert - CTO Rodiggia"</h4>
+  
   </div>
 
 
@@ -269,53 +268,6 @@
     margin-top: 50px;
   }
 
-  /* .container-slider {
-    overflow-x: auto;
-    margin-left: 100px;
-    border-right: 3px double var(--primary);
-    width: 100vw;
-    background-color: white;
-  }
-  .section-slider {
-    grid-column: 1/13;
-    grid-row: 3;
-    margin-top: 50px;
-    margin-left: 0px;
-    background-color: white;
-  }
-  .wrapper-slider {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    border-radius: 20px;
-    justify-content: start;
-    align-items: center;
-    margin-bottom: 30px;
-    gap: 20px;
-  }
-
-  .section-slider h1 {
-    text-align: left;
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 700;
-    color: var(--primary);
-    margin-top: 100px;
-    letter-spacing: -3px;
-    margin-left: 70px;
-    width: 80%;
-  }
-  .section-slider h3 {
-    margin-left: 70px;
-    text-align: left;
-    font-family: poppins;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  } */
-
   .wrapper-SectionB {
     grid-column: 1/13;
     grid-row: 4;
@@ -352,32 +304,23 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    height: 130%;
-    background-color: var(--colorL);
+    height: 100%;
+    background-color: rgb(194, 118, 130);
     padding: 50px;
     gap: 20px;
   }
   .testimonial h2 {
     font-family: "architects daughter";
-    font-weight: 700;
+    font-weight: 900;
     font-size: var(--l);
     color: white;
     text-align: center;
     line-height: 40px;
     letter-spacing: 0px;
-    margin-top: -30px;
+    padding: 40px;
 
   }
-  .testimonial h4 {
-    font-family: poppins;
-    font-weight: 400;
-    font-size: var(--m);
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    letter-spacing: -1px;
-        margin-bottom: 100px;
-  }
+
   @keyframes bounce {
     0% {
       transform: scale(1) translateY(-2px);

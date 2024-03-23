@@ -32,7 +32,7 @@
 
 		<div class="wrapper-contact">
 			<a class="contact" href="/#footer">Nous contacter</a>
-			<a class="contact2" href="/#footer">Devis gratuit</a>
+			<!-- <a class="contact2" href="/#footer">Devis gratuit</a> -->
 		</div>
 	</div>
 
@@ -120,7 +120,7 @@
 		padding: 10px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 	}
-	.contact2 {
+	/* .contact2 {
 		text-decoration: none;
 		color: var(--primary);
 		background-color: var(--CTAHero2);
@@ -133,7 +133,7 @@
 		text-align: center;
 		padding: 10px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
-	}
+	} */
 	.contact:hover {
 		animation: bounce 0.4s ease-in-out;
 	}

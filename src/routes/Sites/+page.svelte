@@ -266,7 +266,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
   }
   .container-service {
     grid-column: 2/12;
@@ -380,7 +379,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+
 
     background-color: var(--bgHero);
   }

@@ -8,7 +8,7 @@
   import blog from "../../Assets/png-gralypho/blog-solid.svg";
   import corporate from "../../Assets/png-gralypho/user-tie-solid.svg";
   import institution from "../../Assets/png-gralypho/building-columns-solid.svg";
-  import imgHero from "../../Assets/png-gralypho/webExplosion.png";
+  // import imgHero from "../../Assets/png-gralypho/webExplosion.png";
   import CardsSites from "../../Components/CardsSites.svelte";
   // import FSection from "../../sections/FSection.svelte";
   import Profits from "../../sections/SectionProfitsSite.svelte";
@@ -48,63 +48,6 @@
       p: "Nos clients se posent souvent la question de la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site. ",
     },
   ];
-
-  let sitesTab = [
-    {
-      type: "Site Vitrine",
-      description:
-        "Le site Vitrine a pour objectif de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités,  etc. Mis à part un formulaire de contact, ce type de site ne propose pas de fonctionnalités avancées. Il est idéal pour les petites entreprises, les artisans, les professions libérales, les associations, les artistes, etc.",
-      delai:
-        "Délai de lancement: En règle général, le délai de création et lancement est compris entre 2 et 4 semaines, selon la complexité du projet",
-      tarif: "Tarif: À partir de 1500 euros.",
-      img: vitrineA,
-    },
-    {
-      type: "Site E-Commerce",
-      description:
-        "Le E-commerce vous permet de vendre vos produits 24/7. C'est une hyper présence en ligne nécessitant un travail soigneux aussi bien dans la gestion du front-end, comme sur la partie back-end et notamment sur la sécurité au niveau de la gestion des stocks et des paiements.",
-      delai:
-        "Délai de lancement: En règle général, le délai de lancement est au minimum de 4 semaines, ce délai peut se rallonger selon la complexité du projet",
-      tarif: "Tarif: À partir de 2500 euros.",
-      img: ecommerce,
-    },
-    {
-      type: "Blog",
-      description:
-        "Un Blog vous permet de créer et de poster des articles et d'ouvrir ces posts à des retours de commentaires de vos utilisateurs. Idéal pour obtenir des prospects et les convertir. Idéal pour les entreprises qui souhaitent partager leur expertise, leur actualité, leur veille, etc.",
-      delai:
-        "Délai de lancement: En règle général, le délai de lancement est de 2 semaines. Le blog peut également être ajouté à un autre type de site.",
-      tarif: "Tarif:  À partir de 500 euros pour un simple Blog",
-      img: Blogger,
-    },
-    {
-      type: "Portfolio",
-      description:
-        "Un Portfolio est idéal pour les artistes, les photographes, les graphistes, les designers, les architectes, les créateurs, les illustrateurs, les musiciens, les écrivains, etc. Il permet de présenter vos réalisations, vos créations, vos projets, vos oeuvres, etc.",
-      delai:
-        "Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexité du projet",
-      tarif: "Tarif: À partir de 1500 euros.",
-      img: Portfolio,
-    },
-    {
-      type: "Site Corporate",
-      description:
-        "Un site Corporate vous permet de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les entreprises, les PME, les TPE, les grandes entreprises, les multinationales, etc.",
-      delai:
-        "Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexite du projet",
-      tarif: "Tarif: À partir de 2000 euros.",
-      img: Corporated,
-    },
-    {
-      type: "Site Institutionnel",
-      description:
-        "Un site institutionnel vous permet de présenter votre institution, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les institutions, les écoles, les universités, les collectivités, les mairies, les associations, les ONG, etc.",
-      delai:
-        "Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallong",
-      tarif: "Tarif: À partir de 2000 euros.",
-      img: institutionnel,
-    },
-  ];
 </script>
 
 <Header />
@@ -114,22 +57,14 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
   <div class="hero">
-    <!-- <img src={imgHero} alt="" class="imgHero" /> -->
     <h1>Étude de stratégie<br /><span>Digitale</span></h1>
-    <h3>
-    L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre projet. Le design d'un site ou d'une application, selon plusieurs études menées aupès des utilisateurs du Web est essentiel pour plus de 75% des sondés.
-    </h3>
-    <!-- <div class="wrapper-contact">
-      <a class="contact" href="/#footer">Nous contacter</a>
-      <a class="contact2" href="/#footer">Devis gratuit</a>
-    </div> -->
-  </div>
-
+  <p>Le marketing digital est un outil puissant pour propulser votre entreprise vers de nouveaux sommets. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour stimuler la croissance de votre entreprise. Découvrez comment le marketing digital peut propulser votre entreprise vers le succès.</p>
+        </div>
+<div class="wrapper-description-marketing">
   <p>
-     <span>Marketing Digital, pour quelle utilité ?<br><br> </span>
 
-Dans l'ère numérique d'aujourd'hui, le marketing digital est la clé du succès commercial. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour propulser votre entreprise vers de nouveaux sommets. <br><br>
   <span>Visibilité et public cible.<br><br> </span>
+   Dans notre ère numérique, le marketing digital est la clé du succès commercial. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour propulser votre entreprise vers de nouveaux sommets. <br><br>
 Notre équipe spécialisée en marketing digital est déterminée à maximiser la visibilité de votre marque, attirer un public ciblé et stimuler la croissance de votre entreprise. Du référencement (SEO) pour garantir que votre site soit trouvé par ceux qui recherchent vos produits ou services, aux campagnes publicitaires percutantes sur les médias sociaux, nous concevons des stratégies sur mesure pour répondre à vos objectifs commerciaux. <br><br>
 
   <span>Rôle des médias Sociaux.<br><br> </span>
@@ -137,62 +72,9 @@ Nous exploitons la puissance des médias sociaux pour créer des connexions auth
   <span>Marketing Digital pour propulser votre entreprise vers le succès.<br><br> </span>
 Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un moyen efficace de créer des relations durables avec vos clients. Grâce à notre approche créative et axée sur les résultats, nous sommes prêts à transformer votre présence en ligne en une force motrice qui propulse votre entreprise vers de nouveaux horizons. Découvrez comment le marketing digital peut propulser votre entreprise vers le succès. <br><br>
     </p>
-
-
-  <!-- ***************SERVICES*************** -->
-
-  <div class="container-service">
-    <h1>Étude et réalisation de design sur mesure</h1>
-    <div class="wrapper-service">
-      <Service
-        text="UX"
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        img={imgDesign}
-      />
-      <Service
-        text="UI"
-        img={imgSeo}
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-      />
     </div>
-    <div class="wrapper-service">
-      <Service
-        text="Utilisateur"
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        img={imgWeb}
-      />
-      <Service
-        text="Mobile first"
-        description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
-        ,
-        img={imgFormation}
-      />
-    </div>
-  </div>
 
-  <!-- ***************SITES TYPES*************** -->
-<!-- 
-  <div class="wrapper-Csection">
-    <Csection />
-  </div> -->
-<!-- 
-  <div class="section-slider">
-    <h1>Conception de site Web</h1>
-    <h3>Découvrez les différents types de sites internet que nous concevons.</h3>
-    <div class="container-slider">
-      <div class="wrapper-slider">
-        {#each sitesTab as site}
-          <CardsSites
-            type={site.type}
-            description={site.description}
-            delai={site.delai}
-            tarif={site.tarif}
-            img={site.img}
-          />
-        {/each}
-      </div>
-    </div>
-  </div> -->
+
 
   <!-- ***************COLLAPSES*************** -->
 
@@ -203,21 +85,13 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     {/each}
   </div>
 
-  <!-- ***************SEO/SEA*************** -->
 
-  <!-- <div class="wrapper-Fsection">
-    <FSection />
-  </div> -->
-
-
-  <!-- ***************TESTIMONIAL*************** -->
 
   <div class="testimonial">
     <h2>
-      "Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités que peut contenir un site Web !! <br
-      />L'expertise de l'agence Gralypho nous a permis d'augmenter de 60% nos ventes en ligne ! "
+      Le marketing Digital, pour propulser votre entreprise vers le succès <span>🚀.</span>
     </h2>
-    <h4>"Éloïse Humbert - CTO Rodiggia"</h4>
+
   </div>
 
 
@@ -262,85 +136,40 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
   .hero h1 span {
     color: var(--rouge);
   }
-  .hero h3 {
+  .hero p{
     font-family: poppins;
     font-weight: 300;
     font-size: var(--m);
     color: rgb(224, 222, 222);
     text-align: center;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
-  .container-service {
-    grid-column: 2/12;
+.wrapper-description-marketing p{
+  font-family: poppins;
+  font-weight: 300;
+  font-size: var(--m);
+  color: var(--primary);
+  text-align: center;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wrapper-description-marketing span{
+font-weight: 700;
+}
+  .wrapper-description-marketing {
+    grid-column: 2/11;
     grid-row: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
-  }
-  .container-service h1 {
-    text-align: center;
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 700;
-    color: var(--primary);
-    margin-top: 100px;
-    letter-spacing: -1px;
-  }
-  .wrapper-service {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 30px;
-  }
-  /* .container-slider {
-    overflow-x: auto;
-    margin-left: 100px;
-    border-right: 3px double var(--primary);
-    width: 100vw;
-    background-color: white;
-  }
-  .section-slider {
-    grid-column: 1/13;
-    grid-row: 3;
-    margin-top: 50px;
-    margin-left: 0px;
-    background-color: white;
-  }
-  .wrapper-slider {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    border-radius: 20px;
-    justify-content: start;
-    align-items: center;
-    margin-bottom: 30px;
     gap: 20px;
-  }
+    margin-top: 50px;
+}
 
-  .section-slider h1 {
-    text-align: left;
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 700;
-    color: var(--primary);
-    margin-top: 100px;
-    letter-spacing: -3px;
-    margin-left: 70px;
-    width: 80%;
-  }
-  .section-slider h3 {
-    margin-left: 70px;
-    text-align: left;
-    font-family: poppins;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  } */
 
   .wrapper-SectionB {
     grid-column: 1/13;
@@ -350,6 +179,7 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    margin-bottom: 50px;
   }
   .wrapper-SectionB h1 {
     text-align: center;
@@ -364,14 +194,13 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
 
 
   .wrapper-form {
-    grid-column: 2/12;
+    grid-column: 1/13;
     grid-row: 7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    background-color: var(--bgHero);
   }
   .testimonial {
     grid-column: 1/13;
@@ -381,9 +210,9 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    height: 130%;
-    background-color: var(--colorL);
-    padding: 50px;
+    height: 100%;
+    background-color: var(--rouge);
+    padding: 0px;
     gap: 20px;
   }
   .testimonial h2 {
@@ -394,19 +223,15 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     text-align: center;
     line-height: 40px;
     letter-spacing: 0px;
-    margin-top: -30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px;
 
   }
-  .testimonial h4 {
-    font-family: poppins;
-    font-weight: 400;
-    font-size: var(--m);
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    letter-spacing: -1px;
-        margin-bottom: 100px;
+  .testimonial h2 span {
+  font-size: 1.5em;
   }
+
   @keyframes bounce {
     0% {
       transform: scale(1) translateY(-2px);
@@ -455,23 +280,6 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
       line-height: 50px;
       font-size: 3.1em;
     }
-    .hero h3 {
-      line-height: 30px;
-      font-size: 1em;
-      margin-top: 30px;
-      margin-bottom: 50px;
-      width: 60%;
-    }
 
-    .wrapper-service {
-      grid-column: 1/13;
-      grid-row: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 50px;
-      gap: 10px;
-    }
   }
 </style>

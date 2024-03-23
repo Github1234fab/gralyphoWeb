@@ -10,10 +10,6 @@
 </script>
 
 <footer class="footer">
-	<!-- <div class="wrapper-contact">
-    <a href="mailto:gralypho@gmail.com " class="contact">contact@gralypho.com</a>
-    <a href="tel:0672901614" class="contact">0672 901 614</a>
-  </div> -->
 	<div class="wrapper-contactez">
 		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 			><i class="fa-regular fa-envelope icon"></i></a
@@ -22,9 +18,9 @@
 			><i class="fa-solid fa-phone-volume icon"></i></a
 		>
 		<a
-			href="https://doodle.com/bp/fabienmarceau/rservation-de-rv-client-avec-gralypho icon"
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
 			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot"></i></a
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
 		>
 	</div>
 
@@ -102,9 +98,9 @@
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 35px;
-		background-color: var(--CTA2);
+		background: linear-gradient(45deg, var(--CTA2), var(--CTA));
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px 0px var(--primary) inset;
+		box-shadow: 0px 0px 10px 5px black;
 		display: flex;
 		align-items: center;
 		justify-content: center;

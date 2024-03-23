@@ -1,6 +1,6 @@
 <script>
 import Header from '../../sections/Header.svelte';
-import description from '../../Assets/png-gralypho/27.png';
+import description from '../../Assets/png-gralypho/30.png';
   import Mouse from "../../Components/Mouse.svelte";
 
 
@@ -68,7 +68,7 @@ import description from '../../Assets/png-gralypho/27.png';
 .container >* {
         flex-basis: 50%;
 }
-.container img {
+.description-img {
         width: 70%;
         height: auto;
 }
@@ -109,7 +109,7 @@ import description from '../../Assets/png-gralypho/27.png';
                 width: 100%;
         }
 }
-.digital-infos img {
+.description-img {
         width: 100%;
 }
 </style>
