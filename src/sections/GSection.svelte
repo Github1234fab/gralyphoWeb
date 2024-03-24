@@ -11,7 +11,7 @@
 	import PortfolioCards from '../Components/PortfolioCards.svelte';
 	import animationSite from '../Assets/png-gralypho/animationSite.png';
 	import horloge from '../Assets/png-gralypho/horloge.png';
-	import meteo from '../Assets/png-gralypho/meteo.png';
+	import meteo from '../Assets/png-gralypho/météo.png';
 	import morpion from '../Assets/png-gralypho/morpion.png';
 	import photographie from '../Assets/png-gralypho/photographie.png';
 	import booki from '../Assets/png-gralypho/booki.png';

@@ -181,6 +181,7 @@ background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254,
     margin-top: 50px;
     letter-spacing: -1px;
     margin-bottom: 50px;
+    padding: 15px;
   }
   .wrapper-application-explication {
     grid-column: 1/13;
@@ -198,6 +199,7 @@ background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254,
     font-weight: 700;
     color: var(--bleuAcier);
     letter-spacing: -1px;
+    padding: 15px;
   }
   .wrapper-application-explication h2 {
     font-family: "epilogue";

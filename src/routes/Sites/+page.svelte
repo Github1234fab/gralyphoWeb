@@ -10,12 +10,12 @@
   import institution from "../../Assets/png-gralypho/building-columns-solid.svg";
   import imgHero from "../../Assets/png-gralypho/webExplosion.png";
   import CardsSites from "../../Components/CardsSites.svelte";
-  import FSection from "../../sections/FSection.svelte";
+  // import FSection from "../../sections/FSection.svelte";
   import Profits from "../../sections/SectionProfitsSite.svelte";
   import Service from "../../Components/Services.svelte";
   import imgDesign from "../../Assets/png-gralypho/30.png";
   import imgSeo from "../../Assets/png-gralypho/05.png";
-  import imgWeb from "../../Assets/png-gralypho/36.png";
+  import imgWeb from "../../Assets/png-gralypho/cible.png";
   import imgFormation from "../../Assets/png-gralypho/Web.png";
   import Banner from "../../Components/Banner.svelte";
   import BeneficeSection from "../../sections/BeneficeSection.svelte";
@@ -204,9 +204,9 @@
 
   <!-- ***************SEO/SEA*************** -->
 
-  <div class="wrapper-Fsection">
+  <!-- <div class="wrapper-Fsection">
     <FSection />
-  </div>
+  </div> -->
 
 
 
@@ -294,52 +294,7 @@
     margin-top: 30px;
     margin-bottom: 50px;
   }
-  /* .container-slider {
-    overflow-x: auto;
-    margin-left: 100px;
-    border-right: 3px double var(--primary);
-    width: 100vw;
-    background-color: white;
-  }
-  .section-slider {
-    grid-column: 1/13;
-    grid-row: 3;
-    margin-top: 50px;
-    margin-left: 0px;
-    background-color: white;
-  }
-  .wrapper-slider {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    border-radius: 20px;
-    justify-content: start;
-    align-items: center;
-    margin-bottom: 30px;
-    gap: 20px;
-  }
 
-  .section-slider h1 {
-    text-align: left;
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 700;
-    color: var(--primary);
-    margin-top: 100px;
-    letter-spacing: -3px;
-    margin-left: 70px;
-    width: 80%;
-  }
-  .section-slider h3 {
-    margin-left: 70px;
-    text-align: left;
-    font-family: poppins;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  } */
 
   .wrapper-SectionB {
     grid-column: 1/13;
@@ -349,6 +304,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    margin-bottom: 50px;
   }
   .wrapper-SectionB h1 {
     text-align: center;
@@ -359,17 +315,6 @@
     margin-top: 0px;
     letter-spacing: -1px;
     margin-bottom: 50px;
-  }
-  .wrapper-Fsection {
-    grid-column: 1/13;
-    grid-row:7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    background-color: white;
   }
 
   .wrapper-form {
@@ -394,6 +339,7 @@
     height: 100%;
     background-color: var(--colorN);
     gap: 20px;
+    padding: 10px;
   }
   .testimonial h2 {
     font-family: "architects daughter";

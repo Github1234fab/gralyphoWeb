@@ -1,10 +1,13 @@
 
 <script>
+  import '../routes/styles.css'; 
   import { spring } from 'svelte/motion';
   const mouseCoords = spring({ x: 0, y: 0 });
   const onMouseMove = (event) => {
     $mouseCoords = { x: event.x, y: event.y };
   };
+
+  
 </script>
 
 <svelte:window on:mousemove={onMouseMove} />

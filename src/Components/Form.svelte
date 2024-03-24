@@ -197,7 +197,7 @@
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
-		color: var(--CTA);
+		color: var(--orange);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;

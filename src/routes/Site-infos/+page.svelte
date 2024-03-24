@@ -2,6 +2,7 @@
 	import Header from '../../sections/Header.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import serviceWeb from '../../Assets/png-gralypho/conception.png';
+	import SectionF from "../../sections/FSection.svelte";
 </script>
 
 <Mouse />
@@ -73,10 +74,24 @@
 				sur le future de sa vie, sa maintenance.
 			</p>
 		</div>
+		<div class="wrapper-F-section">
+	<SectionF/>
 	</div>
+	</div>
+	
 </section>
 
 <style>
+	  .wrapper-F-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: white;
+  }
+
 	.sites-infos-section {
 		display: flex;
 		justify-content: center;

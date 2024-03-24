@@ -1,19 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
 
-	// onMount(() => {
-	// 	gsap.to('.values-button', {
-	// 		scale: 1,
-	// 		opacity: 1,
-	// 		ease: 'ease-in-out',
-	// 		scrollTrigger: {
-	// 			trigger: '.values-button',
-	// 			start: 'top 900px',
-	// 			end: '-200px',
-	// 			scrub: 5
-	// 		}
-	// 	});
-	// });
 </script>
 
 <div class="wrapper-values">
@@ -23,9 +10,9 @@
 <style>
 	.wrapper-values {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
-		width: 100%;
+		width: 80%;
 		height: 100px;
 		margin-top: 40px;
 		margin-bottom: 0px;
@@ -37,7 +24,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 50%;
+		width: clamp(500px, 30vw, 700px);
 		background: linear-gradient(to right, var(--blue2), navy, var(--blue2));
 		color: white;
 		font-family: poppins;
@@ -67,11 +54,22 @@
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {
+			.wrapper-values {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 100px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+		flex-direction: column;
+		gap: 0px;
+	}
 		.values-button {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			width: 95%;
+			width: 100%;
 			height: 70px;
 			background: linear-gradient(to right, rgb(128, 73, 0), var(--blue2));
 			color: white;
@@ -81,10 +79,7 @@
 			border-radius: 80px;
 			box-shadow: 0 0 8px 3px navy inset;
 			cursor: pointer;
-			z-index: 1;
-			padding: 1cqmin;
-			transform: scale(0.8);
-			opacity: 0.4;
+			z-index: 1;	
 		}
 	}
 </style>
