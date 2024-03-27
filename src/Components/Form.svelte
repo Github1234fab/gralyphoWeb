@@ -5,8 +5,8 @@
 
 <section class="section-form" id="section-form">
 	<div class="wrapper-text">
-	<h3>Formulaire de contact</h3>
-	<h1>Contactez-nous dès aujourdhui!</h1>
+		<h3>Formulaire de contact</h3>
+		<h1>Contactez-nous dès aujourdhui!</h1>
 	</div>
 	<div class="coordonnees">
 		<a href="mailto:gralypho@gmail.com " class="contact-form">
@@ -67,16 +67,15 @@
 		background-position: center top 60%; */
 		background-color: var(--bgHero);
 	}
-	.wrapper-text{
+	.wrapper-text {
 		grid-column: 2/12;
 		grid-row: 1;
 		display: flex;
 		flex-direction: column;
 		z-index: 2;
 		margin-top: 40px;
-	
 	}
-	.section-form h3{
+	.section-form h3 {
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
@@ -85,7 +84,7 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
-		  margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	.section-form h1 {
 		margin: 0 auto;
@@ -118,7 +117,7 @@
 		width: clamp(300px, 35%, 400px);
 		text-align: left;
 	}
-	input:hover{
+	input:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	input::placeholder {
@@ -134,7 +133,6 @@
 		width: clamp(300px, 35%, 400px);
 		min-height: 200px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
-	
 	}
 	.demande::placeholder {
 		color: rgb(187, 183, 183);
@@ -146,7 +144,7 @@
 		font-weight: 500;
 		color: var(--primary);
 		letter-spacing: -0.05em;
-			color: var(--colorC);
+		color: var(--colorC);
 	}
 	.button {
 		justify-content: flex-end;
@@ -161,7 +159,7 @@
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
 	}
-	.button:hover{
+	.button:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	@keyframes bounce {
@@ -180,7 +178,6 @@
 		100% {
 			transform: scale(1) translateY(0);
 		}
-	
 	}
 	.coordonnees {
 		grid-column: 2/12;
@@ -210,7 +207,5 @@
 			margin-top: 20px;
 			gap: 5px;
 		}
-	
-	
 	}
 </style>

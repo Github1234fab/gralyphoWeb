@@ -48,7 +48,7 @@
     color: white;
     justify-content: center;
     align-items: center;
-    width: 40%;
+   width: 40%;
     height: fit-content;
     min-height: 200px;
     border-radius: 20px;
@@ -59,6 +59,7 @@ background-image: radial-gradient(circle at 67% 83%, rgba(245,245,245, 0.1) 0%, 
   }
   .wrapper-title-icon {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -134,6 +135,16 @@ background-image: radial-gradient(circle at 67% 83%, rgba(245,245,245, 0.1) 0%, 
     }
   }
 
+  @media screen and (max-width: 3000px) {
+    .card-type-site {
+      max-width: 600px;
+      min-height: 200px;
+      height: fit-content;
+    }
+  }
+
+
+
   @media screen and (max-width: 1116px) {
     .card-type-site {
       width: calc(45% - 10px);
@@ -144,8 +155,9 @@ background-image: radial-gradient(circle at 67% 83%, rgba(245,245,245, 0.1) 0%, 
 
   @media screen and (max-width: 768px) {
     .card-type-site {
-      width: calc(90% - 20px);
+      /* width: calc(90% - 20px); */
       height: fit-content;
+      min-width: 300px;
     }
     .link-decouvrir {
       padding: 13px;

@@ -261,7 +261,7 @@
   }
   .wrapper-Csection {
     grid-column: 1/13;
-    grid-row: 4;
+    grid-row: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,7 +269,7 @@
   }
   .container-service {
     grid-column: 2/12;
-    grid-row: 2;
+    grid-row: 4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -324,8 +324,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
     background-color: var(--bgHero);
   }
   .testimonial {
