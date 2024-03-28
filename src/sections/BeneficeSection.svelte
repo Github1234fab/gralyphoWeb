@@ -99,6 +99,7 @@
 		flex: 1 1 25%;
 	}
 	.wrapper-blocks {
+		margin-top: 50px;
 		border-radius: 20px;
 		display: flex;
 		flex-direction: column;

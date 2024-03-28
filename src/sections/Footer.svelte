@@ -25,7 +25,7 @@
 	</div>
 
 	<div class="wrapper-media">
-		<a href="https://www.facebook.com/" target="_blank"
+		<a href="https://www.facebook.com/profile.php?id=61556314663680" target="_blank"
 			><i class="fa-brands fa-square-facebook anim"></i></a
 		>
 		<a href="https://twitter.com/home?lang=fr" target="_blank"
@@ -34,8 +34,8 @@
 		<a href="https://www.instagram.com/" target="_blank"
 			><i class="fa-brands fa-square-instagram anim"></i></a
 		>
-		<a href="https://www.tiktok.com/fr/" target="_blank"><i class="fa-brands fa-tiktok anim"></i></a
-		>
+		<!-- <a href="https://www.tiktok.com/@gralypho" target="_blank"><i class="fa-brands fa-tiktok anim"></i></a
+		> -->
 	</div>
 	<div class="wrapper-gralypho">
 		<div class="gralypho">
@@ -98,9 +98,11 @@
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 35px;
-		background: linear-gradient(45deg, var(--CTA2), var(--CTA));
+		background-color: var(--primary);
+		border: rgb(75, 75, 75) solid 1px;
+		/* background: linear-gradient(45deg, var(--CTA2), var(--CTA)); */
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px 5px black;
+		box-shadow: 0px 0px 10px  black;
 		display: flex;
 		align-items: center;
 		justify-content: center;
