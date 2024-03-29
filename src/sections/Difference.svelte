@@ -6,7 +6,7 @@
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
 	<h2>
-		Fournir à votre entreprise un service digitale de qualité, c'est notre <span>Passion</span> et
+		Fournir à votre entreprise un service digital de qualité, c'est notre <span>Passion</span> et
 		notre <span>Métier !</span>
 	</h2>
 
@@ -17,7 +17,6 @@
 
 	<div class="wrapper-text-difference">
 		<h3 class="paragraph">Qui sommes nous ?</h3>
-
 		<p>
 			<span>Gralypho</span> est une agence digitale, spécialisé dans la
 			<span>conception de site Web</span>
@@ -25,6 +24,7 @@
 			<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
 			profonde et solide.
 		</p>
+		<br>
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
 
@@ -36,6 +36,7 @@
 			c'est à dire que nous avons les moyens de construire une site internet entièrement fait-main et
 			sur mesure et de savoir exactement ce qu'un site Web contient, sous le capot.
 		</p>
+		<br>
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
 		<p>
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
@@ -55,7 +56,7 @@
 		max-height: 300px;
 		border-radius: 20px;
 		margin-top: 50px;
-		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
+		/* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283); */
 	}
 	.difference {
 		display: flex;
@@ -113,6 +114,7 @@
 		align-items: left;
 		justify-content: left;
 		margin-top: 50px;
+		padding: 30px;
 	}
 	.paragraph {
 		font-family: epilogue;
@@ -130,7 +132,7 @@
 		font-weight: 400;
 		line-height: 1.5em;
 		width: 100%;
-		padding: 10px;
+		padding: 0px;
 	}
 	.difference p span {
 		font-family: epilogue;
@@ -167,5 +169,12 @@
 		.difference p {
 			column-count: 1;
 		}
+		.img {
+		width: auto;
+		max-height: 200px;
+		border-radius: 20px;
+		margin-top: 50px;
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
+	}
 	}
 </style>

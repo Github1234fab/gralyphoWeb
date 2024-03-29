@@ -20,7 +20,9 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
+		
 	}
+	   	
 	.card-portfolio:hover .card-img {
 		opacity: 0;
 	}
@@ -51,7 +53,20 @@
 		color: inherit;
 		cursor: pointer;
 	}
-	.card-content::after {
+	/* .card-content::after{
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color:  var(--bgHero);
+		border-radius: 30px;
+		z-index: 4;
+		opacity: 0.6;
+	} */
+
+	.card-content::after{
 		position: absolute;
 		content: '\f144';
 		top: 0;

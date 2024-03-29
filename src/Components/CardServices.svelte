@@ -29,7 +29,8 @@
 
 <button class="card-services" on:click={redirectToLink}>
 	<div class="wrapper-text-service">
-		<i class="{i} icon"></i>
+		<!-- <i class="{i} icon"></i> -->
+		<img src={i} alt="" class="img icon" />
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 	</div>
@@ -37,6 +38,10 @@
 </button>
 
 <style>
+	/* .img {
+		max-width: 80px;
+		max-height: 80px;
+	} */
 	.card-services {
 		transform: translateY(300px);
 		display: grid;
@@ -62,6 +67,7 @@
 		flex-direction: column;
 		align-items: left;
 		justify-content: left;
+		gap: 0px;
 		margin-top: 0px;
 	}
 	.card-services h2 {
@@ -72,7 +78,7 @@
 		color: var(--primary);
 		font-size: var(--m);
 		text-align: left;
-		margin-top: 30px;
+		margin-top: 40px;
 		margin-left: 10px;
 	}
 	.p {
@@ -84,13 +90,13 @@
 		color: var(--primary);
 		text-align: left;
 		line-height: 30px;
-		margin-top: 10px;
+		margin-top: 0px;
 		margin-left: 10px;
 	}
 	.lien {
-		grid-column: 10/12;
+		grid-column: 8/11;
 		grid-row: 4;
-		margin-top: 0px;
+		margin-top: 20px;
 		font-weight: 700;
 		color: var(--CTA2);
 		z-index: 44;
@@ -104,7 +110,6 @@
 		justify-content: center;
 		height: 50px;
 		width: 50px;
-		border-radius: 50%;
 		grid-column: 2;
 		grid-row: 1;
 		margin-top: 10px;
@@ -137,7 +142,7 @@
 
 	@media screen and (min-width: 1400px) and (max-width: 3000px) {
 		.card-services {
-			min-height: 360px;
+			min-height: 380px;
 		}
 	}
 
@@ -149,7 +154,8 @@
 
 	@media screen and (min-width: 992px) and (max-width: 1200px) {
 		.card-services {
-			min-height: 400px;
+			min-height: 420px;
+
 		}
 	}
 
@@ -174,6 +180,9 @@
 	@media screen and (min-width: 300px) and (max-width: 576px) {
 		.card-services {
 			min-height: 250px;
+		}
+		.lien{
+			margin-top: 20px;
 		}
 	}
 </style>

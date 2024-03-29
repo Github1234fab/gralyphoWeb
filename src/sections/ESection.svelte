@@ -1,40 +1,53 @@
 <script>
 	import CardServices from '../Components/CardServices.svelte';
+	import iconInternet from '../Assets/png-gralypho/iconInternet.png';
+	import iconApplication from '../Assets/png-gralypho/iconApplication.png';
+	import iconDesign from '../Assets/png-gralypho/iconDesign.png';
+	import iconLoupe from '../Assets/png-gralypho/loupe.png';
+		import iconFacebook from '../Assets/png-gralypho/iconFacebook.png';
+				import iconStrat from '../Assets/png-gralypho/iconStratégie.png';
+
 	const servicesTab = [
 		{
 			title: 'Developpement de Site Web',
 			lien: '/Sites',
-			i: 'fa-solid fa-globe',
+			i: iconInternet,
+			// i: 'fa-solid fa-globe',
 			p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
 		},
 		{
 			title: "Développement  d'Application Web",
 			lien: '/Applications',
-			i: 'fa-solid fa-mobile-screen',
+			i: iconApplication,
+			// i: 'fa-solid fa-mobile-screen',
 			p: 'Obtenez une application web sur mesure pour votre entreprise avec téléchargement automatisé'
 		},
 		{
 			title: 'Design',
 			lien: '/Refonte',
-			i: 'fa-solid fa-wand-magic-sparkles',
-			p: "Pour 75% des utilisateurs du Web, le Design d'un site est primordial. Nous vous proposons des designs modernes et adaptés à votre secteur d'activité."
+					i: iconDesign,
+			// i: 'fa-solid fa-wand-magic-sparkles',
+			p: "Le Design d'un site est primordial. Nous vous proposons des designs modernes et adaptés à votre secteur d'activité."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/Referencement',
-			i: 'fa-solid fa-magnifying-glass',
-			p: "C'est le nerf de la guerre, le référencement! Nous vous proposons des stratégies de référencement naturel et payant pour vous positionner en première page de Google."
+				i: iconLoupe,
+			// i: 'fa-solid fa-magnifying-glass',
+			p: "Nous vous proposons des stratégies de référencement SEO et SEA pour une place en première page de Google."
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/Marketing',
-			i: 'fa-solid fa-hashtag',
+				i: iconFacebook,
+			// i: 'fa-solid fa-hashtag',
 			p: 'Ne vous embêtez plus avec la gestion de vos réseaux sociaux, nous nous en chargeons pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/Composants',
-			i: 'fa-solid fa-chart-simple',
+					i: iconStrat,
+			// i: 'fa-solid fa-chart-simple',
 			p: 'Nous vous proposons des stratégies digitales pour booster votre visibilité sur le Web.'
 		}
 	];
@@ -44,8 +57,8 @@
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
 		<h2>
-			Nous proposons une création Web Complète.  <br>Nous créeons vos outils digitaux, vos designs, votre
-			stratégie sur les réseaux et votre référencement.
+			Nous proposons une création Web Complète. <br />Nous créeons vos outils digitaux, vos designs,
+			votre stratégie sur les réseaux et votre référencement.
 		</h2>
 	</div>
 
@@ -57,7 +70,6 @@
 </section>
 
 <style>
-	
 	.E-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -152,7 +164,6 @@
 			flex: 1 1 35%;
 		}
 	}
-	
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {
 		:global(.card-services) {

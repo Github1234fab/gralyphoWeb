@@ -11,7 +11,7 @@
 			});
 			gsap.to(card, {
 				x: 0,
-			opacity: 1,
+				opacity: 1,
 				ease: 'ease-in-out',
 				scrollTrigger: {
 					trigger: card,
@@ -26,11 +26,9 @@
 
 <section class="section-benefices">
 	<h1 class="benefice-h1">Avantages</h1>
-	<h2 class="benefice-h2">Utiliser tout tout le potentiel de votre outil Digital.</h2>
-	<img src={explosion} alt="" class="img">
+	<h2 class="benefice-h2">Utilisez tout tout le potentiel de votre outil Digital.</h2>
+	<img src={explosion} alt="" class="img" />
 	<div class="container-benefices">
-
-		
 		<!-- +++++++++++++ -->
 		<div class="wrapper-blocks">
 			<h1>
@@ -66,8 +64,8 @@
 				Votre potentiel client. <i class="fa-solid fa-sack-dollar icon-difference"></i>
 			</h1>
 			<p>
-				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO. + de
-				visibilité + de prospects + plus de clients = plus d'argent!
+				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO,  c'est le moyen d'obtenir plus de 
+				visibilité , plus de prospects, plus de clients et plus d'argent!
 			</p>
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
 		</div>
@@ -75,13 +73,11 @@
 </section>
 
 <style>
-	.img{
+	.img {
 		width: auto;
 		max-height: 300px;
 		border-radius: 20px;
 		margin-top: 50px;
-	
-	
 	}
 	.section-benefices {
 		display: flex;
@@ -112,18 +108,17 @@
 	}
 	.wrapper-blocks {
 		margin-top: 50px;
-		border-radius: 20px;
+		border-radius: 5px 30px 7px 20px;
 		display: flex;
 		flex-direction: column;
 		align-items: left;
 		justify-content: left;
 		width: 100%;
 		min-height: 360px;
-		box-shadow: 0px 0px 10px rgba(28, 28, 28, 0.464);
+		box-shadow: 0px 0px 10px rgba(28, 28, 28, 0.862);
 		padding: 20px;
 		margin-bottom: 100px;
-		border: solid 1px rgb(92, 92, 92);
-		
+		border: solid 1px rgb(22, 22, 22);
 	}
 
 	.benefice-h1 {
@@ -152,22 +147,21 @@
 		font-size: var(--m);
 		font-weight: 500;
 		font-family: poppins;
-		text-align: center;	
+		text-align: center;
 		margin-top: 20px;
 	}
 	.title-yellow {
-				color: var(--greyBg);
+		color: var(--greyBg);
 		font-size: var(--l);
 		font-weight: 900;
 		font-family: Heebo;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		text-align: center;
-	
 	}
 	.wrapper-blocks p {
 		font-size: var(--m);
 		font-weight: 400;
-			color: var(--greyBg);
+		color: var(--greyBg);
 		font-family: poppins;
 		text-align: left;
 		padding: 20px;
@@ -179,7 +173,7 @@
 		margin-top: 10px;
 		margin-left: 10px;
 		color: transparent;
-		font-size: 1.2em;
+		font-size: 1.6em;
 		-webkit-background-image: linear-gradient(to left, var(--orange) 40%, var(--blue));
 		background-image: linear-gradient(to left, var(--orange) 40%, var(--blue));
 		-webkit-background-clip: text;

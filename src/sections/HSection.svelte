@@ -173,8 +173,8 @@
 			grid-column: 8/12;
 			grid-row: 1;
 			margin: auto;
-			height: 550px;
-			margin-top: 0px;
+			height: 450px;
+			margin-top: 50px;
 			/* display: none; */
 		}
 		.wrapper-text {
@@ -222,7 +222,7 @@
 			grid-column: 1/12;
 			grid-row: 1;
 			margin: auto;
-			height: 380px;
+			height: 320px;
 			margin-top: -20px;
 			/* display: none; */
 		}
@@ -236,7 +236,7 @@
 			justify-content: flex-start;
 			border-radius: 20px;
 			margin-left: 0px;
-			margin-top: -20px;
+			margin-top: -40px;
 			margin-left: 30px;
 			z-index: 2;
 		}
