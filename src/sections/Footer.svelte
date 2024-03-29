@@ -102,7 +102,7 @@
 		border: rgb(75, 75, 75) solid 1px;
 		/* background: linear-gradient(45deg, var(--CTA2), var(--CTA)); */
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px  black;
+		box-shadow: 0px 0px 10px black;
 		display: flex;
 		align-items: center;
 		justify-content: center;

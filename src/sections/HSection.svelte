@@ -4,6 +4,7 @@
 	import { fade } from 'svelte/transition';
 	import SVG from '../Assets/png-gralypho/svgHero.svg';
 	import animationHero from '../Assets/png-gralypho/animationHero.mp4';
+	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
 	// import line from "../Assets/png-gralypho/circle-13.svg";
 	// import arrow from "../Assets/png-gralypho/arrow-34.svg";
 
@@ -19,6 +20,7 @@
 
 <Header />
 <section class="H-section">
+	<img src={heroAnime} alt="" class="img" />
 	<div class="wrapper-text">
 		<h1>Imaginer <br /> Développer <br />Créer</h1>
 
@@ -35,8 +37,6 @@
 			<!-- <a class="contact2" href="/#footer">Devis gratuit</a> -->
 		</div>
 	</div>
-
-	<img src={SVG} alt="" class="img" />
 </section>
 
 <style>
@@ -50,10 +50,10 @@
 		background-color: rgb(26, 44, 57);
 	}
 	.img {
-		grid-column: 8 / 13;
+		grid-column: 8/ 12;
 		grid-row: 1;
-		/* height: 200px;
-		width: 200px; */
+		height: 600px;
+		width: auto;
 	}
 	.wrapper-text {
 		grid-column: 1 / 8;
@@ -168,11 +168,62 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1440px) {
 		.img {
-			grid-column: 1 / 13;
+			grid-column: 8/12;
 			grid-row: 1;
-			margin-top: -40px;
+			margin: auto;
+			height: 550px;
+			margin-top: 0px;
+			/* display: none; */
+		}
+		.wrapper-text {
+			grid-column: 1 / 7;
+			grid-row: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			border-radius: 20px;
+			margin-left: 0px;
+			margin-top: -20px;
+			margin-left: 30px;
+			z-index: 2;
+		}
+	}
+
+	@media screen and (max-width: 1024px) {
+		.img {
+			grid-column: 2/12;
+			grid-row: 1;
+			margin: auto;
+			height: 550px;
+			margin-top: -50px;
+			/* display: none; */
+		}
+
+		.wrapper-text {
+			grid-column: 1 / 12;
+			grid-row: 2;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+			border-radius: 20px;
+			margin-left: 0px;
+			margin-top: -20px;
+			margin-left: 30px;
+			z-index: 2;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.img {
+			grid-column: 1/12;
+			grid-row: 1;
+			margin: auto;
+			height: 380px;
+			margin-top: -20px;
 			/* display: none; */
 		}
 

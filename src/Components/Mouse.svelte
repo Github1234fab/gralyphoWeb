@@ -39,15 +39,7 @@
     pointer-events: none; /* Allow pointer events to pass through */
   }
 
-  /* Hide the cursor on tablet and smartphone screens */
-  @media only screen and (max-width: 768px) {
-    .cursor {
-      display: none;
-    }
-
-  }
-
-  /* Custom cursor styles */
+   /* Custom cursor styles */
   .cursor {
     z-index: 100000;
     cursor: none;
@@ -63,4 +55,22 @@
     box-shadow: 0px 0px 15px 2px rgba(76, 76, 76, 0.5);
     transform: translate(-50%, -50%) translate(var(--x, 0px), var(--y, 0px));
   }
+
+
+
+    @media only screen and (max-width: 1024px) {
+    .cursor {
+      display: none;
+    }
+
+  }
+  /* Hide the cursor on tablet and smartphone screens */
+  @media only screen and (max-width: 768px) {
+    .cursor {
+      display: none;
+    }
+
+  }
+
+ 
 </style>
