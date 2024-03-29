@@ -28,7 +28,6 @@
 </script>
 
 <button class="card-services" on:click={redirectToLink}>
-	
 	<div class="wrapper-text-service">
 		<i class="{i} icon"></i>
 		<h2>{title}</h2>
@@ -53,7 +52,7 @@
 		border-radius: 30px;
 		min-height: 600px;
 	}
-	.card-services:hover .icon{
+	.card-services:hover .icon {
 		transform: rotateY(360deg);
 	}
 	.wrapper-text-service {
@@ -66,12 +65,12 @@
 		margin-top: 0px;
 	}
 	.card-services h2 {
-		font-family: Heebo;
+		font-family: Poppins;
 		grid-column: 1/12;
 		grid-row: 2;
 		font-weight: 700;
 		color: var(--primary);
-		font-size: var(--l);
+		font-size: var(--m);
 		text-align: left;
 		margin-top: 30px;
 		margin-left: 10px;
@@ -96,7 +95,7 @@
 		color: var(--CTA2);
 		z-index: 44;
 	}
-	.lien:hover{
+	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	.icon {
@@ -110,7 +109,7 @@
 		grid-row: 1;
 		margin-top: 10px;
 		transition: 0.7s ease-in-out;
-		color: var(--blue2);
+		color: var(--CTA2);
 		font-size: 2.4em;
 		z-index: 2;
 		text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.18);
@@ -137,38 +136,41 @@
 	}
 
 	@media screen and (min-width: 1400px) and (max-width: 3000px) {
-			.card-services {
+		.card-services {
 			min-height: 360px;
 		}
 	}
-	
-	
 
 	@media screen and (min-width: 1200px) and (max-width: 1400px) {
-			.card-services {
+		.card-services {
 			min-height: 450px;
 		}
 	}
 
 	@media screen and (min-width: 992px) and (max-width: 1200px) {
-			.card-services {
-			min-height: 500px;
+		.card-services {
+			min-height: 400px;
 		}
 	}
 
-	@media screen and (min-width: 768px) and (max-width: 992px) {
-			.card-services {
-			min-height: 430px;
+	@media screen and (max-width: 1024px) {
+		.card-services {
+			min-height: 360px;
+		}
+		.lien {
+			margin-top: -40px;
 		}
 	}
-	
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
-			.card-services {
+		.card-services {
 			min-height: 450px;
 		}
+		.lien {
+			margin-top: 0px;
+		}
 	}
-	
+
 	@media screen and (min-width: 300px) and (max-width: 576px) {
 		.card-services {
 			min-height: 250px;

@@ -44,7 +44,7 @@
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
 		<h2>
-			Nous proposons une création Web Complète. Nous créeons vos outils digitaux, vos designs, votre
+			Nous proposons une création Web Complète.  <br>Nous créeons vos outils digitaux, vos designs, votre
 			stratégie sur les réseaux et votre référencement.
 		</h2>
 	</div>
@@ -57,6 +57,7 @@
 </section>
 
 <style>
+	
 	.E-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -65,6 +66,7 @@
 		height: auto;
 		font-size: 16px;
 		background-color: var(--greyBg);
+		overflow: hidden;
 	}
 	:global(.card-services) {
 		flex: 1 1 25%;

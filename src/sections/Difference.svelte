@@ -1,16 +1,19 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
+	import imageDiff from '../Assets/png-gralypho/30.png';
 </script>
 
 <section class="difference">
-	<h1> <span>Gralypho</span></h1>
+	<h1><span>Gralypho</span></h1>
 	<h2>
 		Fournir à votre entreprise un service digitale de qualité, c'est notre <span>Passion</span> et
 		notre <span>Métier !</span>
 	</h2>
-	<div class="wrapper">
+
+	<img src={imageDiff} alt="" class="img" />
+	<!-- <div class="wrapper">
 		<ButtonDifference />
-	</div>
+	</div> -->
 
 	<div class="wrapper-text-difference">
 		<h3 class="paragraph">Qui sommes nous ?</h3>
@@ -36,10 +39,10 @@
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
 		<p>
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
-			sécurité, de la performance et de la pérennité. <br />Nous somme ici pour vous
-			accompagner dans la <span>réalisation </span>de votre projet, de sa conception à sa mise en
-			ligne. <br>Nous sommes là pour vous conseiller, pour vous guider et pour vous former.  <br>Nous sommes
-			là pour vous aider à atteindre vos
+			sécurité, de la performance et de la pérennité. <br />Nous somme ici pour vous accompagner
+			dans la <span>réalisation </span>de votre projet, de sa conception à sa mise en ligne.
+			<br />Nous sommes là pour vous conseiller, pour vous guider et pour vous former. <br />Nous
+			sommes là pour vous aider à atteindre vos
 			<span>objectifs</span> et à les dépasser en vous proposant et en concevant des fonctionnalités,
 			des outils, des solutions qui vous permettront de vous démarquer de la concurrence, à coup sûr.
 		</p>
@@ -47,6 +50,13 @@
 </section>
 
 <style>
+	.img {
+		width: auto;
+		max-height: 300px;
+		border-radius: 20px;
+		margin-top: 50px;
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
+	}
 	.difference {
 		display: flex;
 		flex-direction: column;
@@ -58,6 +68,7 @@
 		padding: 40px;
 		margin: 0px auto;
 		width: calc(100vw - 100px);
+		
 	}
 
 	.difference h1 {
@@ -102,7 +113,6 @@
 		align-items: left;
 		justify-content: left;
 		margin-top: 50px;
-
 	}
 	.paragraph {
 		font-family: epilogue;
@@ -110,7 +120,6 @@
 		color: var(--primary);
 		font-weight: 700;
 		letter-spacing: -0.02em;
-
 	}
 	.difference p {
 		font-family: poppins;
