@@ -225,11 +225,12 @@
 			justify-content: center;
 			margin-left: 0px;
 			margin-right: 0px;
-			gap: 5px;
+			gap: 15px;
+			padding: 10px;
 		}
 		.wrapper-blocks {
-			min-height: 600px;
-			max-width: 300px;
+			min-height: 500px;
+			max-width: 270px;
 			margin-left: 0px;
 			margin-right: 0px;
 			margin-bottom: 0;
@@ -245,7 +246,7 @@
 			justify-content: center;
 			margin-left: 0px;
 			margin-right: 0px;
-			gap: 20px;
+			gap: 0px;
 		}
 		.img {
 		min-width: auto;
@@ -254,8 +255,8 @@
 		margin-top: 50px;
 	}
 		.wrapper-blocks {
-			min-height: 500px;
-						max-width: 400px;
+			min-height: 400px;
+						min-width: 300px;
 			margin-left: 0px;
 			margin-right: 0px;
 			margin-bottom: 0;
