@@ -220,6 +220,26 @@
 
 	@media screen and (max-width: 1205px) {
 		.container-benefices {
+			/* flex-direction: column; */
+			align-items: center;
+			justify-content: center;
+			margin-left: 0px;
+			margin-right: 0px;
+			gap: 5px;
+		}
+		.wrapper-blocks {
+			min-height: 600px;
+			max-width: 300px;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-bottom: 0;
+		}
+		.button{
+			margin-top: 30px;
+		}
+	}
+	@media screen and (max-width:768px){
+			.container-benefices {
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
@@ -227,9 +247,15 @@
 			margin-right: 0px;
 			gap: 20px;
 		}
+		.img {
+		min-width: auto;
+		max-height: 200px;
+		border-radius: 20px;
+		margin-top: 50px;
+	}
 		.wrapper-blocks {
-			width: 80%;
-			min-height: 300px;
+			min-height: 500px;
+						max-width: 400px;
 			margin-left: 0px;
 			margin-right: 0px;
 			margin-bottom: 0;
