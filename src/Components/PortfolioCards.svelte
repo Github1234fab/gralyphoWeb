@@ -42,8 +42,8 @@
 		justify-content: center;
 		z-index: 0;
 		background-color: transparent;
-		min-height: 250px;
-		min-width: 250px;
+		min-height: 300px;
+		min-width: 300px;
 
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 	}
