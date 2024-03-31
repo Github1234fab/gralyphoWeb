@@ -66,8 +66,8 @@
 		flex-direction: column;
 		justify-content: left;
 		align-items: left;
-		min-height: 250px;
-		min-width: 200px;
+			min-height: 300px;
+		min-width: 300px;
 		padding: 10px;
 		background-color: white;
 		border-radius: 0px;
