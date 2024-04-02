@@ -9,19 +9,19 @@
 	let collapseTab = [
 		{
 			title: 'Étude de votre projet',
-			p: "Nous étudions votre projet pour vous proposer la meilleure solution. Le développement de votre application nécessite plusieurs phase d'approches nécessaires à sa bonne réalisation. Notamment son design, son contenu, son but, la manière de stocker les datas, l'interface utilisateur (ux/ui),  le choix de la techno.  Nous vous proposons un devis gratuit et sans engagement."
+			p: "Nous étudions votre projet pour vous proposer la meilleure des solutions. Le développement de votre application nécessite plusieurs phases d'approches nécessaires à sa bonne réalisation. Notamment son design, son contenu, son but, la manière de stocker les datas, l'interface utilisateur (ux/ui),  le choix de la techno.  Nous vous proposons un devis gratuit et sans engagement."
 		},
 		{
 			title: 'La programmation',
-			p: 'Le délai de conception et de mise en ligne dépend du type de site internet que vous souhaitez. En règle général, le délai de conception et de mise en ligne est de 2 semaines pour un blog, 3 semaines pour une landing page, 4 semaines pour un site vitrine, 5 semaines pour un site corporate, 6 semaines pour un site e-commerce, 7 semaines pour un site institutionnel, 8 semaines pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
+			p: 'Nous lançons le développement de votre application quand son design, sa navigation et son contenu sont validés par vos soins. Il faudra compter ensuite un délai de un à trois mois pour le développement de votre application, selon son dégré de complexité '
 		},
 		{
 			title: 'Les tests et la mise en ligne',
-			p: "Nos clients sont parfois surpris de découvir tout ce qu'un site internet peut contenir comme fonctionnalité et possibilité. En effet, un site internet peut contenir un blog, un portfolio, un formulaire de contact, un chatbot, un espace membre, un espace client, un espace administrateur, un espace de paiement, de réservation, de commande (etc)?.  Mais nous pouvons également collecter des données, les stocker, les consulter, les anaylser et s'en serivir pour orienter votre activité. Nous pouvons également établir des requêtes API. C'est à dire que nous pouvons consulter des données externes contenues dans un autre site, une autre application que la vôtre et les rapatrier dans votre site pour les afficher. Par exemple, nous pouvons établir une requête auprès d'un service météo et afficher toutes les données métérologiques de votre localité en temps réel ou s'en servir pour valider l'ouverture d'une activité d'accrobranche par exemple, etc."
+			p: "La phase de test est assez excitante car c'est la dernière ligne droite avant la mise en service officielle de votrez application.  Les tests côté serveurs et côté clients sont réalisés. Les tests en responsive sont réalisés également. L'application est testée dans son ensemble sur diverses plateformes et dans tous les cas de figures."
 		},
 		{
-			title: 'Propriété, hébergement, nom de domaine et abonnement',
-			p: "Nos clients se posent souvent la question de la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site. "
+			title: 'La vie de votre application',
+			p: "Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vosu pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu."
 		}
 	];
 </script>
@@ -34,7 +34,7 @@
 		<h1>Création<br /><span>d'applications</span></h1>
 		<h3>
 			L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
-			expérience parfaite.
+			expérience unique.
 		</h3>
 	</div>
 
@@ -44,11 +44,11 @@
 		<h2>Progressive Web App (PWA)</h2>
 		<h1>Notre développement d'applis.</h1>
 		<p>
-			Nous développons des application en PWA. Cela signifie que ces applications se téléchargent
+			Nous développons des application en PWA. Cela signifie que les applications  PWA se téléchargent
 			uniquement depuis un site Web. Pourquoi faire ce choix? Parce qu'une application IOS (apple)
 			ne se code pas comme une application ANDROID (google), même si maintenant certain frameworks
 			le permettent, comme ReactNative. Mais parfois une application ne se trouve pas sur ANDROID
-			mais est disponible sur IOS, et vice-versa. Pour se tenir à l'abrit des Gafas et de leur
+			mais est disponible sur IOS, et vice-versa. Pour se tenir à l'abrit des rivalités des Gafas et de leur
 			rivalités, nous faisons le choix des applications PWA. Elles présentent certains avantages:
 		</p>
 		<ol>
@@ -62,8 +62,8 @@
 				fluide.
 			</li>
 			<li>
-				Leur mises à jouer sont automatique, car elles sont effectuées depuis le site Web par le
-				développeur de l'application. Quand l'application est mise à jour par le site Web, votre
+				Leurs mise à jour sont automatiques, car elles sont effectuées depuis le site Web par le
+				développeur de l'application. Quand l'application est mise à jour par le développeur, votre
 				application se met à jour automatiquement.
 			</li>
 		</ol>

@@ -23,6 +23,8 @@
 		flex-direction: column;
 		justify-content: left;
 		align-items: left;
+		min-height: 200px;
+		min-width: 320px;
 	}
 	.wrapper-portfolio h1 {
 		font-family: Epilogue;
@@ -35,6 +37,8 @@
 		text-align: left;
 	}
 	.card-portfolio {
+		min-height: 200px;
+		min-width: 320px;
 		transition: 0.7s ease-in-out;
 		position: relative;
 		display: flex;
@@ -42,40 +46,36 @@
 		justify-content: center;
 		z-index: 0;
 		background-color: transparent;
-		min-height: 300px;
-		min-width: 300px;
-
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+		box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.515);
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
 	}
 	.card-portfolio:hover .card-img {
-		opacity: 0;
+		opacity: 1;
 	}
 	.card-portfolio:hover .card-content {
 		opacity: 1;
 	}
 	.card-portfolio:hover .card-content::after {
-		left: 80%;
+		transform: translateX(220px);
 	}
 	.card-content {
+		height: 200px;
+		width: 100%;
 		z-index: 2;
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: left;
 		align-items: left;
-			min-height: 300px;
-		min-width: 300px;
 		padding: 10px;
 		background-color: white;
 		border-radius: 0px;
-		opacity: 0;
+		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
-		border: 2px solid var(--CTA2);
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+		box-shadow: 0px 0px 10px rgba(221, 220, 220, 0.32);
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
@@ -87,9 +87,10 @@
 		top: 0;
 		bottom: 0;
 		right: 0px;
-		left: 0;
-		width: auto;
-		left: 250px;
+		left: 0px;
+		width: 100px;
+		left: 0px;
+		transform: translateX(330px);
 		background: var(--CTA2);
 		transition: 0.6s ease-in-out;
 		display: flex;
@@ -99,22 +100,23 @@
 		font-weight: 900;
 		font-size: 1.5em;
 		color: white;
-		transition: 0.7s ease-in-out;
+		transition: 0.9s ease-in-out;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 	}
 	.card-img {
+		border: rgb(209, 209, 209) solid 2px;
+		height: 50%;
+		width: 50%;
 		position: absolute;
-		top: 0;
+		top: 46%;
 		bottom: 0;
-		left: 0;
+		left: 3%;
 		right: 0;
-		width: 100%;
-		height: 100%;
 		object-fit: cover;
-		border-radius: 0px;
-		z-index: 2;
-		opacity: 1;
-		transition: 0.7s ease-in-out;
+		border-radius: 8px;
+		z-index: 3;
+		opacity: 0;
+		transition: 1.9s ease-in-out;
 		padding: 0px;
 		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
 	}

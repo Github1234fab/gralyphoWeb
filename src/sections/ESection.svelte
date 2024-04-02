@@ -102,6 +102,7 @@
 		margin-left: 0px;
 		margin-bottom: 20px;
 		text-align: center;
+		
 	}
 	.E-section h2 {
 		font-family: epilogue;
@@ -112,6 +113,7 @@
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: center;
+			line-height: 40px;
 	}
 
 	.wrapper-cards-services {

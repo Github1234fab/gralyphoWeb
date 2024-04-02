@@ -69,8 +69,8 @@
 	<div class="wrapper-text">
 		<h1>Le futur de votre business commence par un <span> site Web.</span></h1>
 		<h2>
-			Il existe couramment <span>6 types de site web</span>. Choisissez quel est le type de site
-			correspond le plus à <span>votre activité?</span>
+			Il existe couramment <span>6 types de site web</span>. Quel est celui qui correspond à votre
+			<span>activité?</span>
 		</h2>
 	</div>
 
@@ -95,7 +95,6 @@
 		font-size: 16px;
 		background-color: rgb(255, 255, 255);
 		margin-top: 0px;
-		margin-bottom: 100px;
 		overflow: hidden;
 	}
 	.wrapper-text h1 {

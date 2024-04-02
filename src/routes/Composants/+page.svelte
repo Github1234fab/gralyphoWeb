@@ -31,24 +31,7 @@
   import cible from "../../Assets/png-gralypho/cible.png";
   // import Csection from "../../sections/Csection.svelte";
 
-  let accordeonTab = [
-    {
-      title: "Tarifs",
-      p: "Nos tarifs démarrent à 500 euros pour un blog, 1000 euros pour une landing page (site page unique), 1500 euros pour un site vitrine, 2000 euros pour un site corporate, 2500 euros pour un site e-commerce, 3000 euros pour un site institutionnel, 3500 euros pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).",
-    },
-    {
-      title: "Délai de conception et de mise en ligne",
-      p: "Le délai de conception et de mise en ligne dépend du type de site internet que vous souhaitez. En règle général, le délai de conception et de mise en ligne est de 2 semaines pour un blog, 3 semaines pour une landing page, 4 semaines pour un site vitrine, 5 semaines pour un site corporate, 6 semaines pour un site e-commerce, 7 semaines pour un site institutionnel, 8 semaines pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).",
-    },
-    {
-      title: "Sites Dynamiques - Possibilités et fonctionnalités",
-      p: "Nos clients sont parfois surpris de découvir tout ce qu'un site internet peut contenir comme fonctionnalité et possibilité. En effet, un site internet peut contenir un blog, un portfolio, un formulaire de contact, un chatbot, un espace membre, un espace client, un espace administrateur, un espace de paiement, de réservation, de commande (etc)?.  Mais nous pouvons également collecter des données, les stocker, les consulter, les anaylser et s'en serivir pour orienter votre activité. Nous pouvons également établir des requêtes API. C'est à dire que nous pouvons consulter des données externes contenues dans un autre site, une autre application que la vôtre et les rapatrier dans votre site pour les afficher. Par exemple, nous pouvons établir une requête auprès d'un service météo et afficher toutes les données métérologiques de votre localité en temps réel ou s'en servir pour valider l'ouverture d'une activité d'accrobranche par exemple, etc.",
-    },
-    {
-      title: "Propriété, hébergement, nom de domaine et abonnement",
-      p: "Nos clients se posent souvent la question de la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site. ",
-    },
-  ];
+
 </script>
 
 <Header />
@@ -80,12 +63,7 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
 
   <!-- ***************COLLAPSES*************** -->
 
-  <div class="wrapper-SectionB">
-    <h1>Tarifs, Délais ...</h1>
-    {#each accordeonTab as tab}
-      <CardsSectionB title={tab.title} p={tab.p} />
-    {/each}
-  </div>
+
 
 
 
@@ -178,27 +156,6 @@ font-weight: 700;
 }
 
 
-  .wrapper-SectionB {
-    grid-column: 1/13;
-    grid-row: 4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 50px;
-  }
-  .wrapper-SectionB h1 {
-    text-align: center;
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 700;
-    color: var(--primary);
-    margin-top: 0px;
-    letter-spacing: -1px;
-    margin-bottom: 50px;
-  }
-
 
   .wrapper-form {
     grid-column: 1/13;
@@ -261,25 +218,13 @@ font-weight: 700;
     .hero h1 {
       line-height: 1em;
     }
-    .hero h3 {
-      line-height: 30px;
-      font-size: 1.2em;
-      margin-top: 30px;
-      margin-bottom: 50px;
-      width: 60%;
-    }
+ 
   }
   @media screen and (min-width: 768px) and (max-width: 1224px) {
     .hero h1 {
       line-height: 1em;
     }
-    .hero h3 {
-      line-height: 30px;
-      font-size: 1em;
-      margin-top: 30px;
-      margin-bottom: 50px;
-      width: 60%;
-    }
+
 
   }
   @media screen and (min-width: 300px) and (max-width: 768px) {

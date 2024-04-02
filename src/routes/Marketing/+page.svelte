@@ -38,78 +38,16 @@
 	let accordeonTab = [
 		{
 			title: 'Tarifs',
-			p: 'Nos tarifs démarrent à 500 euros pour un blog, 1000 euros pour une landing page (site page unique), 1500 euros pour un site vitrine, 2000 euros pour un site corporate, 2500 euros pour un site e-commerce, 3000 euros pour un site institutionnel, 3500 euros pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
+			p: 'Nos forfaits de gestion des médias sociaux démarrent autour de 500 euros. Plus la mission est complexe plus le tarif grimpe, mais nous avons des solutions sous forme de  forfait, très intéressantes et très compétitives.'
 		},
 		{
-			title: 'Délai de conception et de mise en ligne',
-			p: 'Le délai de conception et de mise en ligne dépend du type de site internet que vous souhaitez. En règle général, le délai de conception et de mise en ligne est de 2 semaines pour un blog, 3 semaines pour une landing page, 4 semaines pour un site vitrine, 5 semaines pour un site corporate, 6 semaines pour un site e-commerce, 7 semaines pour un site institutionnel, 8 semaines pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
+			title: 'Contenu des missions de gestion des médias sociaux',
+			p: 'Le contenu des missions de gestion des médias sociaux portent essentiellement sur la conception des posts et des campagnes publicitaires pour votre marque ou votre business. Nous gérons la rédaction des annonces, leur contenu, leur fréquence et leur diffusion.'
 		},
-		{
-			title: 'Sites Dynamiques - Possibilités et fonctionnalités',
-			p: "Nos clients sont parfois surpris de découvir tout ce qu'un site internet peut contenir comme fonctionnalité et possibilité. En effet, un site internet peut contenir un blog, un portfolio, un formulaire de contact, un chatbot, un espace membre, un espace client, un espace administrateur, un espace de paiement, de réservation, de commande (etc)?.  Mais nous pouvons également collecter des données, les stocker, les consulter, les anaylser et s'en serivir pour orienter votre activité. Nous pouvons également établir des requêtes API. C'est à dire que nous pouvons consulter des données externes contenues dans un autre site, une autre application que la vôtre et les rapatrier dans votre site pour les afficher. Par exemple, nous pouvons établir une requête auprès d'un service météo et afficher toutes les données métérologiques de votre localité en temps réel ou s'en servir pour valider l'ouverture d'une activité d'accrobranche par exemple, etc."
-		},
-		{
-			title: 'Propriété, hébergement, nom de domaine et abonnement',
-			p: "Nos clients se posent souvent la question de la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site. "
-		}
-	];
+	]
+	
 
-	let sitesTab = [
-		{
-			type: 'Site Vitrine',
-			description:
-				'Le site Vitrine a pour objectif de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités,  etc. Mis à part un formulaire de contact, ce type de site ne propose pas de fonctionnalités avancées. Il est idéal pour les petites entreprises, les artisans, les professions libérales, les associations, les artistes, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de création et lancement est compris entre 2 et 4 semaines, selon la complexité du projet',
-			tarif: 'Tarif: À partir de 1500 euros.',
-			img: vitrineA
-		},
-		{
-			type: 'Site E-Commerce',
-			description:
-				"Le E-commerce vous permet de vendre vos produits 24/7. C'est une hyper présence en ligne nécessitant un travail soigneux aussi bien dans la gestion du front-end, comme sur la partie back-end et notamment sur la sécurité au niveau de la gestion des stocks et des paiements.",
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement est au minimum de 4 semaines, ce délai peut se rallonger selon la complexité du projet',
-			tarif: 'Tarif: À partir de 2500 euros.',
-			img: ecommerce
-		},
-		{
-			type: 'Blog',
-			description:
-				"Un Blog vous permet de créer et de poster des articles et d'ouvrir ces posts à des retours de commentaires de vos utilisateurs. Idéal pour obtenir des prospects et les convertir. Idéal pour les entreprises qui souhaitent partager leur expertise, leur actualité, leur veille, etc.",
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement est de 2 semaines. Le blog peut également être ajouté à un autre type de site.',
-			tarif: 'Tarif:  À partir de 500 euros pour un simple Blog',
-			img: Blogger
-		},
-		{
-			type: 'Portfolio',
-			description:
-				'Un Portfolio est idéal pour les artistes, les photographes, les graphistes, les designers, les architectes, les créateurs, les illustrateurs, les musiciens, les écrivains, etc. Il permet de présenter vos réalisations, vos créations, vos projets, vos oeuvres, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexité du projet',
-			tarif: 'Tarif: À partir de 1500 euros.',
-			img: Portfolio
-		},
-		{
-			type: 'Site Corporate',
-			description:
-				'Un site Corporate vous permet de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les entreprises, les PME, les TPE, les grandes entreprises, les multinationales, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexite du projet',
-			tarif: 'Tarif: À partir de 2000 euros.',
-			img: Corporated
-		},
-		{
-			type: 'Site Institutionnel',
-			description:
-				'Un site institutionnel vous permet de présenter votre institution, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les institutions, les écoles, les universités, les collectivités, les mairies, les associations, les ONG, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallong',
-			tarif: 'Tarif: À partir de 2000 euros.',
-			img: institutionnel
-		}
-	];
+
 </script>
 
 <Mouse />
@@ -122,9 +60,9 @@
 		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
 		<h1>Gestion des <br /><span>Médias Sociaux</span></h1>
 		<h3>
-			L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. Mise à jour régulière,
-			création de contenu, gestion des interactions, etc. Nous nous occupons de tout pour vous
-			permettre de vous concentrer sur votre activité.
+			L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. <br />
+			Mises à jour régulières, création de contenu, gestion des interactions, etc. <br /> Nous nous occupons
+			de tout pour vous permettre de vous concentrer sur votre activité.
 		</h3>
 	</div>
 
@@ -135,27 +73,27 @@
 		<div class="wrapper-service">
 			<Service
 				text="Rédaction"
-				description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
+				description="Nous nous chargeons de la conception de vos annonces. Leurs titres, leur contenu textuel, leurs slogans, leurs mots clefs. Derrière cette forme d'écriture se cache une vraie stratégie marketing. "
 				img={redaction}
 				lien="/Media-infos"
 			/>
 			<Service
 				text="Création des contenus images et vidéos"
 				img={contenuMedia}
-				description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
+				description="Nous pouvons créer vos vidéos et vos images. Nous sommes formés à la conception d'image professionnelle. Que ce soit en photographie  et vidéo de produits, de portraits , de photos corporate, de groupe ou d'environnement (...), notre expertise fera la différence sur vos contenus et vos publications sortirons du lot, à coup sûr."
 				lien="/Media-infos"
 			/>
 		</div>
 		<div class="wrapper-service">
 			<Service
 				text="Campagnes publicitaires"
-				description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
+				description="Nous sommes là pour vous aider à établir vos stratégies publicitaires et vos campagnes. Quand ?  Comment ? Pourquoi ? sont les questions auxquelles nous apporterons une réponse pertinente et sans faille pour vous permettre d'atteindre vos objectifs."
 				img={publiciteMedia}
 				lien="/Media-infos"
 			/>
 			<Service
 				text="Formation et coaching"
-				description="Nous designons vos sites internet de A à Z. Nous élaborons votre UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
+				description="Et pourquoi pas se former aux médias sociaux afin de devenir autonome et d'organiser vos campagnes et votre contenu vous-même? Nous pouvons vous former à travers des ateliers en ligne ou en présentiel adaptés à vos besoins et à votre business."
 				img={socialMedia}
 				lien="/Media-infos"
 			/>
@@ -205,7 +143,8 @@
 
 	<div class="testimonial">
 		<h2>
-			J’aime les médias sociaux car ils existent à l’intersection de l’humanité et de la technologie – @jeremywaite
+			J’aime les médias sociaux car ils existent à l’intersection de l’humanité et de la technologie
+			– @jeremywaite
 		</h2>
 	</div>
 

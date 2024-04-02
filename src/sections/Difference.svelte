@@ -6,8 +6,8 @@
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
 	<h2>
-		Fournir à votre entreprise un service digital de qualité, c'est notre <span>Passion</span> et
-		notre <span>Métier !</span>
+		Fournir à votre entreprise un service digital de qualité, <br />c'est notre <span>Passion</span>
+		et notre <span>Métier !</span>
 	</h2>
 
 	<img src={imageDiff} alt="" class="img" />
@@ -24,24 +24,25 @@
 			<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
 			profonde et solide.
 		</p>
-		<br>
+		<br />
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
 
 		<p>
 			Nous sommes formés aux métiers du Web. C'est à dire que nos <span>connaissances </span> en
-			matières de design, de référencement, de normes d'accessibilité W3C, d'organisation de contenu
-			textuel et visuel sont optimales. Cela signifie aussi que nous sommes
-			<span>formés au code informatique</span>
-			c'est à dire que nous avons les moyens de construire une site internet entièrement fait-main et
-			sur mesure et de savoir exactement ce qu'un site Web contient, sous le capot.
+			matières de design UX/UI, de référencement, de normes W3C, d'organisation de contenu textuel
+			et visuel sont optimales. Cela signifie aussi que nous sommes
+			<span>formés au code informatique</span>. Nous sommes donc en capacité de construire un site
+			internet entièrement fait-main et sur mesure et de savoir exactement ce qu'un site Web
+			contient, sous le capot!
 		</p>
-		<br>
+		<br />
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
 		<p>
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
-			sécurité, de la performance et de la pérennité. <br />Nous somme ici pour vous accompagner
-			dans la <span>réalisation </span>de votre projet, de sa conception à sa mise en ligne.
+			sécurité, de la performance, de la sérénité et de la pérennité. <br />Nous somme ici pour vous
+			accompagner dans la <span>réalisation </span>de votre projet, de sa conception à sa mise en
+			ligne.
 			<br />Nous sommes là pour vous conseiller, pour vous guider et pour vous former. <br />Nous
 			sommes là pour vous aider à atteindre vos
 			<span>objectifs</span> et à les dépasser en vous proposant et en concevant des fonctionnalités,
@@ -69,7 +70,6 @@
 		padding: 40px;
 		margin: 0px auto;
 		width: calc(100vw - 100px);
-		
 	}
 
 	.difference h1 {
@@ -91,6 +91,7 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.02em;
 		text-align: center;
+		line-height: 40px;
 	}
 	.difference h2 span {
 		color: transparent;
@@ -100,13 +101,13 @@
 		background-clip: text;
 		font-weight: 900;
 	}
-	.wrapper {
+	/* .wrapper {
 		display: flex;
 		width: 100%;
 		align-items: center;
 		justify-content: center;
 		margin-top: 20px;
-	}
+	} */
 	.wrapper-text-difference {
 		width: 100%;
 		display: flex;
@@ -170,11 +171,11 @@
 			column-count: 1;
 		}
 		.img {
-		width: auto;
-		max-height: 200px;
-		border-radius: 20px;
-		margin-top: 50px;
-		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
-	}
+			width: auto;
+			max-height: 200px;
+			border-radius: 20px;
+			margin-top: 50px;
+			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
+		}
 	}
 </style>

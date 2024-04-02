@@ -115,12 +115,12 @@ animation: bounce 0.4s;
   }
 
   .p {
+    text-align: left;
     font-size: 1.2em;
     font-weight: 400;
-    color: black;
-    border: none;
+    color: var(--primary);
     margin: 0px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(239, 239, 239);
     padding: 20px;
     width: 80%;
     border-radius: 14px 22px 17px 38px;

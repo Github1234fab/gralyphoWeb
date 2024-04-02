@@ -26,10 +26,7 @@
 
 		<h3>Conception <span>{textTab[textIndex]}</span></h3>
 		<h2>
-			Nous créeons des sites Web et des Applications sur mesure pour les professionnels <br
-			/>souhaitant obtenir des résultats tangibles en terme
-			<span> d'efficacité, de gain de temps</span> <br />et d'augmentation du taux de
-			<span> conversion de clients</span>.<br />
+			Nous nous engageons à améliorer la <span>communication </span> et la <span>visibilité</span> de votre entreprise.  <br>Grâce à des solutions digitales sur <span>mesure</span>, nous vous offrons l'opportunité d'optimiser votre <span>temps</span>, d'attirer de nouveaux <span>clients </span>et d'augmenter votre <span>productivité </span>de manière significative.
 		</h2>
 
 		<div class="wrapper-contact">
@@ -88,6 +85,7 @@
 		margin-left: 0px;
 		margin-top: 20px;
 		text-align: left;
+	
 	}
 	.H-section h3 span {
 		color: var(--rouge);

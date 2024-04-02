@@ -27,19 +27,19 @@
 	</div>
 	<div class="wrapper-contenu">
 		<h1>Poster des images et des vidéos</h1>
-                <p>Comment réaliser des vidéos, quels contenus poster, quelle qualité d'image, comment les filmer, quel contenu, pour quelle raison, etc? Et il en va de même des images. <br /><br />Nous créons des contenus médias sur mesure et nous les postons sur les réseaux sociaux selon une fréquence que nous déterminons ensemble, selon vos objectifs. <br />C'est un travail en collaboration qui vous permettra de rayonner à coup sûr sur les réseaux sociaux! </p>
+                <p>Comment réaliser des vidéos, des photos? Quels contenus poster, quelle qualité d'image, comment les filmer, quel contenu, pour quelle raison, etc? <br /><br />Nous créons des contenus médias sur mesure et nous les postons sur les réseaux sociaux selon une fréquence que nous déterminons ensemble, selon vos objectifs. <br />C'est un travail en collaboration qui vous permettra de rayonner à coup sûr sur les réseaux sociaux! </p>
 	</div>
 	<div class="wrapper-campagnes">
 		<h1>Campagne publicitaires</h1>
 		<p>
-			Vous avez sûrement déjà entendu parler de Google AdWords vous permettant de lancer des campagnes payantes pour atteindre ovtre cible en première page des navigateurs web.  <br />Il existe d'autres moyens automatisés pour atteindre votre but. Que ce soit de faire parler de vous, de lancer un évènement, d'anticiper sur une période ou un évènement. Les campagnes publicitaires vous permettent à la fosi d'être visible et de toucher votre cible. Nous sommes là pour vous aider à déterminer la stratégie à adopter, le budget à allouer, les mots clés à utiliser, les médias à cibler, les périodes à privilégier, etc. <br /><br />Nous sommes là pour vous aider à atteindre vos objectifs. 
+			Vous avez sûrement déjà entendu parler de Google AdWords vous permettant de lancer des campagnes payantes pour atteindre ovtre cible en première page des navigateurs web.  <br />Il existe d'autres moyens automatisés pour atteindre votre but. Que ce soit de faire parler de vous, de lancer un évènement, d'anticiper sur une période ou un évènement. Les campagnes publicitaires vous permettent à la fois d'être visible et de toucher votre coeur de cible. Nous sommes là pour vous aider à déterminer la stratégie à adopter, le budget à allouer, les mots clés à utiliser, les médias à cibler, les périodes à privilégier, etc. <br /><br />Nous sommes là pour vous aider à atteindre vos objectifs. 
 		</p>
 	</div>
 	<div class="wrapper-coaching">
 		<h1>Formation et coaching</h1>
 		
 		<p>
-			Si vous souhaitez devenir autonome sur les réseaux sociaux, nous vous proposons des formations et du coaching. <br />Nous vous apprenons à utiliser les réseaux sociaux, à les exploiter, à les faire vivre, à les faire grandir.  <br />La formation vous rendra autonome et le coahcing vous apportera l'accompagnement nécessaire pour atteindre votre cible.
+			Si vous souhaitez devenir autonome sur les réseaux sociaux, nous vous proposons des formations et du coaching. <br />Nous vous apprenons à utiliser les réseaux sociaux, à les exploiter, à les faire vivre, à les faire grandir.  <br />La formation vous rendra autonome et le coaching vous apportera l'accompagnement nécessaire pour atteindre votre cible.
 		</p>
 	</div>
 	</div>

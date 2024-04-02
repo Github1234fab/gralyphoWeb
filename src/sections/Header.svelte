@@ -28,7 +28,7 @@
 				<a class="link-contact" href="/Sites">Sites Web</a>
 				<a class="link-contact" href="/Applications">Applications</a>
 				<a class="link-contact" href="/Referencement">Référencement</a>
-				<a class="link-contact" href="/Marketing">Media Sociaux</a>
+				<a class="link-contact" href="/Marketing">Medias Sociaux</a>
 				<a class="link-contact" href="/Refonte">Design</a>
 				<a class="link-contact" href="/Composants">Stratégie</a>
 			</div>

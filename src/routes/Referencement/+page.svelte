@@ -33,78 +33,19 @@
 	let accordeonTab = [
 		{
 			title: 'Tarifs',
-			p: 'Nos tarifs démarrent à 500 euros pour un blog, 1000 euros pour une landing page (site page unique), 1500 euros pour un site vitrine, 2000 euros pour un site corporate, 2500 euros pour un site e-commerce, 3000 euros pour un site institutionnel, 3500 euros pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
+			p: "Nous proposons des stratégies courtes, le plus souvent en répondant à une problémétiques sur des sites existant. Nous propons également des stratégies longues sous forme d'abonnement  afin d'atteindre un objectif fixé à l'avance. Nos tarfis sur les stratégie SEO et SEA débutent à partir de 500 euros et ne dépassent guère 2000 euros. ",
 		},
 		{
-			title: 'Délai de conception et de mise en ligne',
-			p: 'Le délai de conception et de mise en ligne dépend du type de site internet que vous souhaitez. En règle général, le délai de conception et de mise en ligne est de 2 semaines pour un blog, 3 semaines pour une landing page, 4 semaines pour un site vitrine, 5 semaines pour un site corporate, 6 semaines pour un site e-commerce, 7 semaines pour un site institutionnel, 8 semaines pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
+			title: 'Stratégie SEO',
+			p: "Le SEO, pour Search Engine Optimization, constitue un ensemble de techniques et de bonnes pratiques (W3C), permettant à un site web d'être convenablement référencé sur les moteurs de recherche. La quête est d'obtenir une place pribilégiée en première page des navigateurs selon la recherche utilisée par les internautes. Les normes du W3C peuvent pénaliser le site inernet en terme de référencement si elles ne sont pas respectées et les moteurs sont de plus en plus exigeants. Un référencement optimal consiste en un mix entre le respect des normes du W3C,  la syntaxe utlisée sur le site, l'usage des bons mots clefs et d'autres techniques permettant de placer un site internet dans les conditions optimales du référencement naturel",
 		},
 		{
-			title: 'Sites Dynamiques - Possibilités et fonctionnalités',
-			p: "Nos clients sont parfois surpris de découvir tout ce qu'un site internet peut contenir comme fonctionnalité et possibilité. En effet, un site internet peut contenir un blog, un portfolio, un formulaire de contact, un chatbot, un espace membre, un espace client, un espace administrateur, un espace de paiement, de réservation, de commande (etc)?.  Mais nous pouvons également collecter des données, les stocker, les consulter, les anaylser et s'en serivir pour orienter votre activité. Nous pouvons également établir des requêtes API. C'est à dire que nous pouvons consulter des données externes contenues dans un autre site, une autre application que la vôtre et les rapatrier dans votre site pour les afficher. Par exemple, nous pouvons établir une requête auprès d'un service météo et afficher toutes les données métérologiques de votre localité en temps réel ou s'en servir pour valider l'ouverture d'une activité d'accrobranche par exemple, etc."
+			title: 'Stratégie SEA',
+			p: " Le référencement payant, le SEA, il requiert de très bonnes connaissances en matière d'outil de promotion marketing. Il s'agit de campagne de publicité qui peuvent être diffusés sur des sites partenaires, sur les réseaux ou en haut de page des moteurs de recherche, ou les deux. Ces outils d'apparence assez simples sont en réalité très complexes. Chaque mot clef est payant, une stratégie est donc nécessaire en amont. La qualité de la rédaction de l'annonce doit être pertinente et s'adresser facilement et directement au coeur de cible. Les annonces peuvent être automatisées et se déclencher à des périodes déterminées."
 		},
-		{
-			title: 'Propriété, hébergement, nom de domaine et abonnement',
-			p: "Nos clients se posent souvent la question de la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site. "
-		}
+	
 	];
 
-	let sitesTab = [
-		{
-			type: 'Site Vitrine',
-			description:
-				'Le site Vitrine a pour objectif de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités,  etc. Mis à part un formulaire de contact, ce type de site ne propose pas de fonctionnalités avancées. Il est idéal pour les petites entreprises, les artisans, les professions libérales, les associations, les artistes, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de création et lancement est compris entre 2 et 4 semaines, selon la complexité du projet',
-			tarif: 'Tarif: À partir de 1500 euros.',
-			img: vitrineA
-		},
-		{
-			type: 'Site E-Commerce',
-			description:
-				"Le E-commerce vous permet de vendre vos produits 24/7. C'est une hyper présence en ligne nécessitant un travail soigneux aussi bien dans la gestion du front-end, comme sur la partie back-end et notamment sur la sécurité au niveau de la gestion des stocks et des paiements.",
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement est au minimum de 4 semaines, ce délai peut se rallonger selon la complexité du projet',
-			tarif: 'Tarif: À partir de 2500 euros.',
-			img: ecommerce
-		},
-		{
-			type: 'Blog',
-			description:
-				"Un Blog vous permet de créer et de poster des articles et d'ouvrir ces posts à des retours de commentaires de vos utilisateurs. Idéal pour obtenir des prospects et les convertir. Idéal pour les entreprises qui souhaitent partager leur expertise, leur actualité, leur veille, etc.",
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement est de 2 semaines. Le blog peut également être ajouté à un autre type de site.',
-			tarif: 'Tarif:  À partir de 500 euros pour un simple Blog',
-			img: Blogger
-		},
-		{
-			type: 'Portfolio',
-			description:
-				'Un Portfolio est idéal pour les artistes, les photographes, les graphistes, les designers, les architectes, les créateurs, les illustrateurs, les musiciens, les écrivains, etc. Il permet de présenter vos réalisations, vos créations, vos projets, vos oeuvres, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexité du projet',
-			tarif: 'Tarif: À partir de 1500 euros.',
-			img: Portfolio
-		},
-		{
-			type: 'Site Corporate',
-			description:
-				'Un site Corporate vous permet de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les entreprises, les PME, les TPE, les grandes entreprises, les multinationales, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexite du projet',
-			tarif: 'Tarif: À partir de 2000 euros.',
-			img: Corporated
-		},
-		{
-			type: 'Site Institutionnel',
-			description:
-				'Un site institutionnel vous permet de présenter votre institution, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les institutions, les écoles, les universités, les collectivités, les mairies, les associations, les ONG, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallong',
-			tarif: 'Tarif: À partir de 2000 euros.',
-			img: institutionnel
-		}
-	];
 </script>
 
 <Mouse />
@@ -117,18 +58,20 @@
 		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
 		<h1>Visibilité:<br /><span>SEO/SEA</span></h1>
 		<h3>
-			Notre possédons la meilleure des expertises pour vous garantir une visibilité optimale sur les
-			moteurs de recherche. Nous vous accompagnons dans la mise en place de votre stratégie de
-			référencement naturel (SEO) et votre stratégie de référencement payant. (SEA).
+			Nous sommes experts en straégie SEO et SEA. C'est pour vous la garantie unique d'atteindre vos
+			futurs clients et d'obtenir une visibilité optimale sur les moteurs de recherche. Nous vous
+			accompagnons dans la mise en place de votre stratégie de référencement naturel (SEO) et votre
+			stratégie de référencement payant. (SEA).
 		</h3>
-		
 	</div>
 
 	<!-- ***************SERVICES*************** -->
 
 	<div class="wrapper-SectionB">
 		<h1>Nos tarifs et nos stratégies</h1>
-		<h2>Optez pour un référencement gagnant. <br>Touchez votre ❤️  de cible <br>en étant visible.</h2>
+		<h2>
+			Optez pour un référencement gagnant. <br />Touchez votre ❤️ de cible <br />en étant visible.
+		</h2>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
@@ -144,10 +87,11 @@
 
 	<div class="testimonial">
 		<h2>
-. Le SEO génère plus de 1 000% de trafic en plus que les réseaux sociaux organiques .<br>
-. 92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br>
-. 53,3% de tout le trafic de site provient de la recherche organique. <br> 
-. 68% des expériences en ligne commencent par un moteur de recherche. <br>
+			. Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux
+			organiques .<br />
+			. 92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br />
+			. 53,3% de tout le trafic de site provient de la recherche organique. <br />
+			. 68% des expériences en ligne commencent par un moteur de recherche. <br />
 		</h2>
 	</div>
 
@@ -178,7 +122,7 @@
 		background-color: var(--primary);
 	}
 	.hero h1 {
-    word-break: break-all;
+		word-break: break-all;
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
@@ -208,7 +152,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-    margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 	.wrapper-SectionB h1 {
 		font-family: Heebo;
@@ -231,7 +175,7 @@
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: center;
-    margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 
 	.wrapper-form {
@@ -242,7 +186,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 50px;
-    background-color: var(--bgHero);
+		background-color: var(--bgHero);
 	}
 	.testimonial {
 		grid-column: 1/13;
