@@ -57,9 +57,10 @@
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
 		<h2>
-			Nous proposons une création Web Complète. <br />Nous créeons vos outils digitaux, vos designs,
-			votre stratégie sur les réseaux et votre référencement.
-		</h2>
+			Nous proposons une création Web Complète.</h2> 
+			<h3>Nous créeons vos outils digitaux, vos designs,
+			votre stratégie sur les réseaux et votre référencement.</h3>
+	
 	</div>
 
 	<div class="wrapper-cards-services">
@@ -109,11 +110,21 @@
 		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 600;
-		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: center;
-			line-height: 40px;
+	}
+.E-section h3 {
+		font-family: epilogue;
+		font-size: var(--m);
+		color: var(--primary);
+		font-weight: 400;
+		letter-spacing: -0.04em;
+		margin-left: 0px;
+		text-align: center;
+			line-height: 20px;
+			width: 60%;
+			margin: 0 auto;
 	}
 
 	.wrapper-cards-services {

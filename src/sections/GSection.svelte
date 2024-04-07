@@ -82,9 +82,9 @@
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>
-			Découvrez vite toutes les facettes des outils digitaux et leur possibilité, à travers le
-			potentiel des animations, des applications, des requêtes API, des jeux, des composants (...) !
-		</h2>
+			Les outils digitaux et leurs possibilités.</h2> 
+			<h3>Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications, les requêtes API, les jeux, les composants (...) !</h3>
+	
 	</div>
 	<div class="wrapper-portfolio">
 		{#each portfolioTab as item}
@@ -136,6 +136,18 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
+	}
+	.G-section h3 {
+		font-family: epilogue;
+		font-size: var(--m);
+		color: var(--primary);
+		font-weight: 400;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		text-align: center;
+		width: 40%;
+		margin: 0 auto;
+		line-height: 30px;
 	}
 
 	.wrapper-portfolio {

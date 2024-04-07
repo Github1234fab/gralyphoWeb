@@ -18,7 +18,7 @@
 				scrub: 5,
 				scrollTrigger: {
 					trigger: el,
-					start: 'top 900px',
+					start: 'top 1200px',
 					end: '-1000px',
 					scrub: 5
 				}

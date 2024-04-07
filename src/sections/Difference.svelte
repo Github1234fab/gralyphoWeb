@@ -91,7 +91,8 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.02em;
 		text-align: center;
-		line-height: 40px;
+		line-height: 30px;
+		width: 30%;
 	}
 	.difference h2 span {
 		color: transparent;
@@ -130,7 +131,7 @@
 		column-count: 1;
 		font-size: var--(m);
 		color: #2d2d2d;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
 		padding: 0px;
