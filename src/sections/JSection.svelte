@@ -118,11 +118,11 @@
 		/* margin-left: 50px; */
     margin-bottom: 20px;
     text-align: center;
-    color:  var(--jauneB);
+    color:  var(--bleuAcier);
   }
   .wrapper-text-testi h2{
   font-family: epilogue;
-		font-size: var(--l);
+		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 600;
 		margin-bottom: 0px;

@@ -121,7 +121,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
-		color: var(--jauneB);
+		color: var(--bleuAcier);
 		font-weight: 600;
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
@@ -130,7 +130,7 @@
 	}
 	.G-section h2 {
 		font-family: epilogue;
-		font-size: var(--l);
+		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 600;
 		margin-bottom: 0px;

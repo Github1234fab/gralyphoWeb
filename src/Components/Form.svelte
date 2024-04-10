@@ -5,8 +5,8 @@
 
 <section class="section-form" id="section-form">
 	<div class="wrapper-text">
-		<h3>Formulaire de contact</h3>
-		<h1>Contactez-nous dès aujourdhui!</h1>
+		<h3 class="form-title">Formulaire de contact</h3>
+		<h1 class="form-contactez">Contactez-nous dès aujourdhui!</h1>
 	</div>
 	<div class="coordonnees">
 		<a href="mailto:gralypho@gmail.com " class="contact-form">
@@ -75,7 +75,28 @@
 		z-index: 2;
 		margin-top: 40px;
 	}
-	.section-form h3 {
+	.form-title {
+	font-family: Heebo;
+		text-transform: uppercase;
+		font-size: var(--m);
+		color: var(--bleuAcier);
+		font-weight: 600;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		margin-top: 50px;
+		text-align: center;
+		margin-bottom: 20px;	
+	}
+	.form-contactez {
+		font-family: epilogue;
+		font-size: var(--xl);
+		color: var(--colorC);
+		font-weight: 700;
+		margin-bottom: 0px;
+		letter-spacing: -0.04em;
+		text-align: center;
+	}
+	/* .section-form h3 {
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
@@ -94,7 +115,7 @@
 		font-size: var(--l);
 		color: var(--colorC);
 		letter-spacing: -0.05em;
-	}
+	} */
 	.form {
 		grid-column: 2/12;
 		grid-row: 3;

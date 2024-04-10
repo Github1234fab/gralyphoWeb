@@ -96,7 +96,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
-		color: var(--jauneB);
+		color: var(--bleuAcier);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
@@ -107,7 +107,7 @@
 	}
 	.E-section h2 {
 		font-family: epilogue;
-		font-size: var(--l);
+		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 700;
 		letter-spacing: -0.04em;
