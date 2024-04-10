@@ -82,7 +82,7 @@
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>
-			Les outils digitaux et leurs possibilités.</h2> 
+		Des Sites Web...mais pas que !</h2> 
 			<h3>Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications, les requêtes API, les jeux, les composants (...) !</h3>
 	
 	</div>
@@ -147,7 +147,7 @@
 		text-align: center;
 		width: 40%;
 		margin: 0 auto;
-		line-height: 30px;
+		line-height: 25px;
 	}
 
 	.wrapper-portfolio {

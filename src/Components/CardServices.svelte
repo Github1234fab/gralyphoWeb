@@ -18,7 +18,7 @@
 				scrub: 5,
 				scrollTrigger: {
 					trigger: el,
-					start: 'top 1200px',
+					start: 'top 1000px',
 					end: '-1000px',
 					scrub: 5
 				}
@@ -76,7 +76,7 @@
 		grid-row: 2;
 		font-weight: 700;
 		color: var(--primary);
-		font-size: var(--m);
+		font-size: var(--lm);
 		text-align: left;
 		margin-top: 40px;
 		margin-left: 10px;

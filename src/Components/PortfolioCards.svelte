@@ -25,12 +25,14 @@
 		align-items: left;
 		min-height: 200px;
 		min-width: 320px;
+			border-radius: 15px;
+			cursor: pointer;
 	}
 	.wrapper-portfolio h1 {
-		font-family: Epilogue;
+		font-family: poppins;
 		font-size: var(--m);
 		color: var(--primary);
-		font-weight: 700;
+		font-weight: 300;
 		margin-bottom: 20px;
 		letter-spacing: -0.02em;
 		margin-top: 40px;
@@ -46,7 +48,8 @@
 		justify-content: center;
 		z-index: 0;
 		background-color: transparent;
-		box-shadow: 0px 0px 20px rgba(200, 200, 200, 0.515);
+		box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.82);
+			border-radius: 15px;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -70,12 +73,12 @@
 		justify-content: left;
 		align-items: left;
 		padding: 10px;
-		background-color: white;
-		border-radius: 0px;
+		background-color: rgb(150, 113, 113);
+		border-radius: 15px;
 		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
-		box-shadow: 0px 0px 10px rgba(221, 220, 220, 0.32);
+		box-shadow: 0px 0px 10px rgba(221, 220, 220, 0.512);
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
@@ -104,11 +107,12 @@
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 	}
 	.card-img {
-		border: rgb(209, 209, 209) solid 2px;
-		height: 50%;
-		width: 50%;
+		/* border: rgb(209, 209, 209) solid 2px; */
+
+		height: 40%;
+		width: 30%;
 		position: absolute;
-		top: 46%;
+		top: 56%;
 		bottom: 0;
 		left: 3%;
 		right: 0;
@@ -121,10 +125,10 @@
 		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
 	}
 	.card-content h3 {
-		font-size: var(--m);
+		font-size: var(--lm);
 		font-family: Heebo;
 		font-weight: 700;
-		color: var(--jauneB);
+		color: white;
 		text-align: left;
 		margin-left: 5px;
 		margin-top: 5px;
@@ -134,7 +138,7 @@
 		font-size: var(--m);
 		font-family: poppins;
 		font-weight: 400;
-		color: var(--grisF);
+		color: rgb(229, 229, 229);
 		margin-left: 5px;
 		width: 50%;
 	}

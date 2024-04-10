@@ -26,7 +26,7 @@
 
 <section class="section-benefices">
 	<h1 class="benefice-h1">Avantages</h1>
-	<h2 class="benefice-h2">Utilisez tout tout le potentiel de votre outil Digital.</h2>
+	<h2 class="benefice-h2">Utilisez tout le potentiel de votre outil Digital.</h2>
 	<img src={explosion} alt="" class="img" />
 	<div class="container-benefices">
 		<!-- +++++++++++++ -->
@@ -118,7 +118,7 @@
 		box-shadow: 0px 0px 10px rgba(28, 28, 28, 0.862);
 		padding: 20px;
 		margin-bottom: 100px;
-		border: solid 1px rgb(22, 22, 22);
+		border: solid 1px rgb(102, 102, 102);
 	}
 
 	.benefice-h1 {
@@ -137,10 +137,11 @@
 		font-family: epilogue;
 		font-size: var(--l);
 		color: var(--colorC);
-		font-weight: 600;
+		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
+		width: 70%;
 	}
 	.wrapper-blocks h1 {
 		color: var(--greyBg);

@@ -88,6 +88,7 @@ a {
 	--xxl: clamp(3rem, 8vw, 8rem);
 	--xl: clamp(2rem, 8vw, 3.5rem);
 	--l: clamp(1.4rem, 8vw, 1.2rem);
+	--lm: clamp(1.2rem, 8vw, 1.3rem);
 	--m: clamp(0.8rem, 8vw, 0.9rem);
 	--button: clamp(1.1rem, 8vw, 1.4rem);
 

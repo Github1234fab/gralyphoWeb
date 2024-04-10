@@ -57,7 +57,7 @@
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
 		<h2>
-			Nous proposons une création Web Complète.</h2> 
+			Création Web Complète.</h2> 
 			<h3>Nous créeons vos outils digitaux, vos designs,
 			votre stratégie sur les réseaux et votre référencement.</h3>
 	
@@ -86,7 +86,7 @@
 		min-height: 400px;
 	}
 	.wrapper-text {
-		grid-column: 2/ 12;
+		grid-column: 4/ 10;
 		grid-row: 1;
 		display: flex;
 		flex-direction: column;
@@ -109,7 +109,7 @@
 		font-family: epilogue;
 		font-size: var(--l);
 		color: var(--primary);
-		font-weight: 600;
+		font-weight: 700;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: center;
@@ -123,7 +123,7 @@
 		margin-left: 0px;
 		text-align: center;
 			line-height: 20px;
-			width: 60%;
+			width: 100%;
 			margin: 0 auto;
 	}
 
