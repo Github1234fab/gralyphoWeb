@@ -19,26 +19,41 @@
 	import resa from '../Assets/png-gralypho/resa.png';
 
 	let portfolioTab = [
+	
 		{
 			type: 'Site Web',
 			title: 'Rocket Agency',
-			text: 'Décrouvrez un site animé au scroll',
+			text: 'Animé au scroll',
 			img: animationSite,
 			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
 		{
+			type: 'Site Web',
+			title: 'Le Lion Taxi',
+			text: 'Compagnie de Taxi',
+			img: animationSite,
+			lien: 'https://taxi-lyon-aeroport-rhone.com'
+		},
+		{
 			type: 'Appli Météo',
 			title: 'Météo',
-			text: 'Requête API pour afficher la météo',
+			text: 'Requête API',
 			img: meteo,
 			lien: 'https://fabienmarceau.com/meteo/index.html'
 		},
 		{
 			type: 'Portfolio',
 			title: 'Photographer',
-			text: 'Parallaxe et animations CSS',
+			text: 'Parallaxe',
 			img: photographie,
 			lien: 'https://fabienmarceau.com/photographer%20V3/index.html'
+		},
+			{
+			type: 'Site Web',
+			title: 'Issetys École Musique',
+			text: 'Web',
+			img: animationSite,
+			lien: 'https://www.ecole-musique-lyon-issetys.com'
 		},
 		{
 			type: 'Composant',

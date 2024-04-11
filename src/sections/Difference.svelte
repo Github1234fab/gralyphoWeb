@@ -100,6 +100,7 @@
 		letter-spacing: -0.03em;
 		text-align: left;
 		line-height: 30px;
+		margin-top: 30px;
 	
 	}
 	.title-h3 {
@@ -112,6 +113,7 @@
 		text-align: center;
 		line-height: 25px;
 		width: 40%;
+		margin-top: 20px;
 	
 	}
 	.difference h2 span {
