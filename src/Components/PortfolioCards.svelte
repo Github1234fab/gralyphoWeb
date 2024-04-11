@@ -9,7 +9,7 @@
 <div class="wrapper-portfolio">
 	<h1>{type}</h1>
 	<div class="card-portfolio">
-		<img class="card-img" src={img} alt="" />
+		<!-- <img class="card-img" src={img} alt="" /> -->
 		<a href={lien} class="card-content" target="_blank">
 			<p>{texte}</p>
 			<h3>{titre}</h3>
@@ -42,18 +42,19 @@
 	.card-portfolio {
 		min-height: 200px;
 		min-width: 320px;
-		transition: 0.7s ease-in-out;
+		transition: 0.3s ease-in-out;
 		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		background-color: transparent;
+		background-color: var(--orange);
 		box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.82);
-			border-radius: 15px;
+			border-radius: 15px 15px 45px 65px;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
+			border-radius: 15px 56px 42px 67px;
 	}
 	.card-portfolio:hover .card-img {
 		opacity: 1;
@@ -75,7 +76,7 @@
 		align-items: left;
 		padding: 10px;
 		background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero));
-		border-radius: 15px 56px 2px 67px;
+	border-radius: 15px 56px 42px 67px;
 		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
@@ -106,6 +107,7 @@
 		color: white;
 		transition: 0.9s ease-in-out;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
+			border-radius: 15px 56px 42px 67px;
 	}
 	.card-img {
 		/* border: rgb(209, 209, 209) solid 2px; */
@@ -126,7 +128,7 @@
 		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
 	}
 	.card-content h3 {
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-family: "Red Hat Display";
 		font-weight: 700;
 		color: white;

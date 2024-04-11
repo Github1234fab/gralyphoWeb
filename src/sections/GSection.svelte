@@ -43,7 +43,7 @@
 		{
 			type: 'Composant',
 			title: 'Clock',
-			text: 'Web Design neumorphisme',
+			text: 'Neumorphisme',
 			img: horloge,
 			lien: 'https://fabienmarceau.com/horloge/index.html'
 		},
@@ -64,7 +64,7 @@
 		{
 			type: 'Plateforme réservation',
 			title: 'Booking',
-			text: 'Réservation de chambre',
+			text: 'Chambres',
 			img: booki,
 			lien: 'https://fabienmarceau.com/Booki/index.html'
 		},
@@ -82,9 +82,12 @@
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>
-		Des Sites Web...mais pas que !</h2> 
-			<h3>Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications, les requêtes API, les jeux, les composants (...) !</h3>
-	
+			Des Sites Web... <br />mais pas que !
+		</h2>
+		<h3>
+			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
+			les requêtes API, les jeux, les composants (...) !
+		</h3>
 	</div>
 	<div class="wrapper-portfolio">
 		{#each portfolioTab as item}
@@ -162,18 +165,18 @@
 		gap: 15px;
 	}
 	:global(.card-portfolio) {
-		flex: 1 1 40%;
+		flex: 1 1 50%;
 	}
 
 	@media screen and (min-width: 1400px) and (max-width: 2500px) {
 		:global(.card-portfolio) {
-			flex: 1 1 80%;
+			flex: 1 1 50%;
 		}
 	}
 
 	@media screen and (min-width: 1200px) and (max-width: 1400px) {
 		:global(.card-portfolio) {
-			flex: 1 1 65%;
+			flex: 1 1 20%;
 		}
 	}
 
