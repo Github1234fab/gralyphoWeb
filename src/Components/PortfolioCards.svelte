@@ -11,8 +11,9 @@
 	<div class="card-portfolio">
 		<img class="card-img" src={img} alt="" />
 		<a href={lien} class="card-content" target="_blank">
-			<h3>{titre}</h3>
 			<p>{texte}</p>
+			<h3>{titre}</h3>
+			
 		</a>
 	</div>
 </div>
@@ -73,8 +74,8 @@
 		justify-content: left;
 		align-items: left;
 		padding: 10px;
-		background-color: rgb(150, 113, 113);
-		border-radius: 15px;
+		background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero));
+		border-radius: 15px 56px 2px 67px;
 		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
@@ -125,13 +126,14 @@
 		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
 	}
 	.card-content h3 {
-		font-size: var(--lm);
-		font-family: Heebo;
+		font-size: var(--xl);
+		font-family: "Red Hat Display";
 		font-weight: 700;
 		color: white;
 		text-align: left;
 		margin-left: 5px;
 		margin-top: 5px;
+		text-transform: uppercase;
 	}
 	.card-content p {
 		text-align: left;
@@ -141,6 +143,7 @@
 		color: rgb(229, 229, 229);
 		margin-left: 5px;
 		width: 50%;
+		margin-top: 20px;
 	}
 	@keyframes vertical {
 		0% {

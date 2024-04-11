@@ -21,56 +21,56 @@
 	let portfolioTab = [
 		{
 			type: 'Site Web',
-			title: 'SiteWeb',
+			title: 'Rocket Agency',
 			text: 'Décrouvrez un site animé au scroll',
 			img: animationSite,
 			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
 		{
 			type: 'Appli Météo',
-			title: 'Application météorologie',
+			title: 'Météo',
 			text: 'Requête API pour afficher la météo',
 			img: meteo,
 			lien: 'https://fabienmarceau.com/meteo/index.html'
 		},
 		{
 			type: 'Portfolio',
-			title: 'Portfolio Photographe',
+			title: 'Photographer',
 			text: 'Parallaxe et animations CSS',
 			img: photographie,
 			lien: 'https://fabienmarceau.com/photographer%20V3/index.html'
 		},
 		{
 			type: 'Composant',
-			title: 'Horloge',
+			title: 'Clock',
 			text: 'Web Design neumorphisme',
 			img: horloge,
 			lien: 'https://fabienmarceau.com/horloge/index.html'
 		},
 		{
 			type: 'Jeux pédago',
-			title: 'Web Pédagogique',
+			title: 'FlagsGame',
 			text: 'Jeu de drapeaux',
 			img: flag,
 			lien: 'https://fabienmarceau.com/dist/index.html'
 		},
 		{
 			type: 'Jeux',
-			title: 'Jeux morpion',
+			title: 'Morpion',
 			text: 'Application de jeu',
 			img: morpion,
 			lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
 		},
 		{
 			type: 'Plateforme réservation',
-			title: 'Site Web',
+			title: 'Booking',
 			text: 'Réservation de chambre',
 			img: booki,
 			lien: 'https://fabienmarceau.com/Booki/index.html'
 		},
 		{
 			type: 'Plateforme réservation',
-			text: 'Réservation de table',
+			text: 'Gastronomie',
 			title: 'Site Web',
 			img: resa,
 			lien: 'https://fabienmarceau.com/myFood/index.html'
@@ -145,7 +145,7 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
-		width: 40%;
+		width: 60%;
 		margin: 0 auto;
 		line-height: 25px;
 	}
