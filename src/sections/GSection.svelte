@@ -109,7 +109,6 @@
 			<PortfolioCards
 				titre={item.title}
 				texte={item.text}
-				img={item.img}
 				lien={item.lien}
 				type={item.type}
 			/>
