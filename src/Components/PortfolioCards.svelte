@@ -1,7 +1,6 @@
 <script>
 	export let titre;
 	export let texte;
-	export let img;
 	export let lien;
 	export let type;
 </script>
@@ -9,7 +8,6 @@
 <div class="wrapper-portfolio">
 	<h1>{type}</h1>
 	<div class="card-portfolio">
-		<!-- <img class="card-img" src={img} alt="" /> -->
 		<a href={lien} class="card-content" target="_blank">
 			<p>{texte}</p>
 			<h3>{titre}</h3>
@@ -56,9 +54,7 @@
 		box-shadow: none;
 			border-radius: 15px 56px 42px 67px;
 	}
-	.card-portfolio:hover .card-img {
-		opacity: 1;
-	}
+
 	.card-portfolio:hover .card-content {
 		opacity: 1;
 	}
@@ -109,24 +105,7 @@
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
 			border-radius: 15px 56px 42px 67px;
 	}
-	.card-img {
-		/* border: rgb(209, 209, 209) solid 2px; */
 
-		height: 40%;
-		width: 30%;
-		position: absolute;
-		top: 56%;
-		bottom: 0;
-		left: 3%;
-		right: 0;
-		object-fit: cover;
-		border-radius: 8px;
-		z-index: 3;
-		opacity: 0;
-		transition: 1.9s ease-in-out;
-		padding: 0px;
-		box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.234);
-	}
 	.card-content h3 {
 		font-size: var(--l);
 		font-family: "Red Hat Display";
