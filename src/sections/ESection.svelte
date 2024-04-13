@@ -56,7 +56,7 @@
 <section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
-		<h2>Création Web Complète.</h2>
+		<h2>Création Web sur Mesure.</h2>
 		<h3>
 			Nous créeons vos outils digitaux, vos designs, votre stratégie sur les réseaux et votre
 			référencement.
@@ -119,7 +119,6 @@
 		color: var(--primary);
 		font-weight: 400;
 		letter-spacing: -0.04em;
-		
 		margin-left: 0px;
 		text-align: center;
 		line-height: 20px;
