@@ -108,7 +108,7 @@ border-radius: 15px 56px 42px 67px;
 
 	.card-content h3 {
 		font-size: var(--l);
-		font-family: "Red Hat Display";
+		font-family: "Nunito";
 		font-weight: 700;
 		color: white;
 		text-align: left;
