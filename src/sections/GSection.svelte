@@ -19,7 +19,6 @@
 	import resa from '../Assets/png-gralypho/resa.png';
 
 	let portfolioTab = [
-	
 		{
 			type: 'Site Web',
 			title: 'Rocket Agency',
@@ -48,7 +47,7 @@
 			img: photographie,
 			lien: 'https://fabienmarceau.com/photographer%20V3/index.html'
 		},
-			{
+		{
 			type: 'Site Web',
 			title: 'Issetys École Musique',
 			text: 'Web',
@@ -106,12 +105,7 @@
 	</div>
 	<div class="wrapper-portfolio">
 		{#each portfolioTab as item}
-			<PortfolioCards
-				titre={item.title}
-				texte={item.text}
-				lien={item.lien}
-				type={item.type}
-			/>
+			<PortfolioCards titre={item.title} texte={item.text} lien={item.lien} type={item.type} />
 		{/each}
 	</div>
 </section>
@@ -146,10 +140,10 @@
 		text-align: center;
 	}
 	.G-section h2 {
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		color: var(--primary);
-		font-weight: 600;
+		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
@@ -164,6 +158,7 @@
 		text-align: center;
 		width: 60%;
 		margin: 0 auto;
+		margin-top: 10px;
 		line-height: 25px;
 	}
 

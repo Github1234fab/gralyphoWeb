@@ -4,8 +4,8 @@
 	import iconApplication from '../Assets/png-gralypho/iconApplication.png';
 	import iconDesign from '../Assets/png-gralypho/iconDesign.png';
 	import iconLoupe from '../Assets/png-gralypho/loupe.png';
-		import iconFacebook from '../Assets/png-gralypho/iconFacebook.png';
-				import iconStrat from '../Assets/png-gralypho/iconStratégie.png';
+	import iconFacebook from '../Assets/png-gralypho/iconFacebook.png';
+	import iconStrat from '../Assets/png-gralypho/iconStratégie.png';
 
 	const servicesTab = [
 		{
@@ -25,28 +25,28 @@
 		{
 			title: 'Design',
 			lien: '/Refonte',
-					i: iconDesign,
+			i: iconDesign,
 			// i: 'fa-solid fa-wand-magic-sparkles',
 			p: "Le Design d'un site est primordial. Nous vous proposons des designs modernes et adaptés à votre secteur d'activité."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/Referencement',
-				i: iconLoupe,
+			i: iconLoupe,
 			// i: 'fa-solid fa-magnifying-glass',
-			p: "Nous vous proposons des stratégies de référencement SEO et SEA pour une place en première page de Google."
+			p: 'Nous vous proposons des stratégies de référencement SEO et SEA pour une place en première page de Google.'
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/Marketing',
-				i: iconFacebook,
+			i: iconFacebook,
 			// i: 'fa-solid fa-hashtag',
 			p: 'Ne vous embêtez plus avec la gestion de vos réseaux sociaux, nous nous en chargeons pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/Composants',
-					i: iconStrat,
+			i: iconStrat,
 			// i: 'fa-solid fa-chart-simple',
 			p: 'Nous vous proposons des stratégies digitales pour booster votre visibilité sur le Web.'
 		}
@@ -56,11 +56,11 @@
 <section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
-		<h2>
-			Création Web Complète.</h2> 
-			<h3>Nous créeons vos outils digitaux, vos designs,
-			votre stratégie sur les réseaux et votre référencement.</h3>
-	
+		<h2>Création Web Complète.</h2>
+		<h3>
+			Nous créeons vos outils digitaux, vos designs, votre stratégie sur les réseaux et votre
+			référencement.
+		</h3>
 	</div>
 
 	<div class="wrapper-cards-services">
@@ -103,10 +103,9 @@
 		margin-left: 0px;
 		margin-bottom: 20px;
 		text-align: center;
-		
 	}
 	.E-section h2 {
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 700;
@@ -114,17 +113,18 @@
 		margin-left: 0px;
 		text-align: center;
 	}
-.E-section h3 {
+	.E-section h3 {
 		font-family: epilogue;
 		font-size: var(--m);
 		color: var(--primary);
 		font-weight: 400;
 		letter-spacing: -0.04em;
+		
 		margin-left: 0px;
 		text-align: center;
-			line-height: 20px;
-			width: 100%;
-			margin: 0 auto;
+		line-height: 20px;
+		width: 100%;
+		margin: 5px auto;
 	}
 
 	.wrapper-cards-services {

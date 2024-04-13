@@ -134,7 +134,7 @@
 		margin-bottom: 20px;
 	}
 	.benefice-h2 {
-		font-family: epilogue;
+	font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		color: var(--colorC);
 		font-weight: 700;

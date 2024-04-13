@@ -26,7 +26,10 @@
 
 		<h3>Conception <span>{textTab[textIndex]}</span></h3>
 		<h2>
-			Nous nous engageons à améliorer la <span>communication </span> et la <span>visibilité</span> de votre entreprise.  <br>Grâce à des solutions digitales sur <span>mesure</span>, nous vous offrons l'opportunité d'optimiser votre <span>temps</span>, d'attirer de nouveaux <span>clients </span>et d'augmenter votre <span>productivité </span>de manière significative.
+			Nous nous engageons à améliorer la <span>communication </span> et la <span>visibilité</span>
+			de votre entreprise. <br />Grâce à des solutions digitales sur <span>mesure</span>, nous vous
+			offrons l'opportunité d'optimiser votre <span>temps</span>, d'attirer de nouveaux
+			<span>clients </span>et d'augmenter votre <span>productivité </span>de manière significative.
 		</h2>
 
 		<div class="wrapper-contact">
@@ -47,10 +50,11 @@
 		background-color: rgb(26, 44, 57);
 	}
 	.img {
-		grid-column: 8/ 12;
+		grid-column: 9/ 12;
 		grid-row: 1;
-		height: 600px;
+		height: 400px;
 		width: auto;
+		margin-top: 100px;
 	}
 	.wrapper-text {
 		grid-column: 1 / 8;
@@ -64,9 +68,9 @@
 
 	.H-section h1 {
 		text-align: left;
-		font-family: Heebo;
+		font-family: 'Heebo';
 		font-weight: 900;
-		font-size: clamp(4em, 12.5vw, 9em);
+		font-size: clamp(4em, 12.5vw, 10em);
 		color: #de9d12;
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
@@ -85,7 +89,6 @@
 		margin-left: 0px;
 		margin-top: 20px;
 		text-align: left;
-	
 	}
 	.H-section h3 span {
 		color: var(--rouge);
@@ -108,14 +111,15 @@
 		text-decoration: none;
 		color: var(--primary);
 		background-color: var(--CTAHero);
-		font-family: kanit;
-		font-weight: 400;
+		font-family: 'Red Hat Display';
+		font-size: var(--m);
+		font-weight: bolder;
 		margin-top: 0px;
 		margin-left: 0px;
 		width: 160px;
-		border-radius: 6px;
+		border-radius: 6px 24px 15px 26px;
 		text-align: center;
-		padding: 10px;
+		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 	}
 	/* .contact2 {
@@ -168,11 +172,11 @@
 
 	@media screen and (max-width: 1440px) {
 		.img {
-			grid-column: 8/12;
+			grid-column: 9/12;
 			grid-row: 1;
 			margin: auto;
-			height: 450px;
-			margin-top: 50px;
+			height: 350px;
+			margin-top: 100px;
 			/* display: none; */
 		}
 		.wrapper-text {
@@ -192,14 +196,13 @@
 
 	@media screen and (max-width: 1024px) {
 		.img {
-			grid-column: 2/12;
+			grid-column: 3/12;
 			grid-row: 1;
 			margin: auto;
-			height: 550px;
-			margin-top: -50px;
+			height: 320px;
+			margin-top: -20px;
 			/* display: none; */
 		}
-
 		.wrapper-text {
 			grid-column: 1 / 12;
 			grid-row: 2;
@@ -217,11 +220,12 @@
 
 	@media screen and (max-width: 767px) {
 		.img {
-			grid-column: 1/12;
+			grid-column: 3/12;
 			grid-row: 1;
 			margin: auto;
-			height: 320px;
+			height: 300px;
 			margin-top: -20px;
+			margin-left: -20px;
 			/* display: none; */
 		}
 

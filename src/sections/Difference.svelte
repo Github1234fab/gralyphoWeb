@@ -5,8 +5,11 @@
 
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
-	<h2>Notre <span>Métier</span></h2>
-	<h3 class="title-h3">Passionné par le Web et la programmation, nous souhaitons fournir à votre entreprise un service digital de qualité, qui permettra à votre business de décoller sur le Net !<br /></h3>
+	<h2><span>Notre Métier</span></h2>
+	<h3 class="title-h3">
+		Passionné par le Web et la programmation, nous souhaitons fournir à votre entreprise un service
+		digital de qualité, qui permettra à votre business de décoller sur le Net !<br />
+	</h3>
 
 	<img src={imageDiff} alt="" class="img" />
 	<!-- <div class="wrapper">
@@ -14,15 +17,15 @@
 	</div> -->
 
 	<div class="wrapper-text-difference">
-	<div class="wrapper-difference__title">
-		<h3 class="paragraph">Qui sommes nous ?</h3>
-		<p>
-			<span>Gralypho</span> est une agence digitale, spécialisé dans la
-			<span>conception de site Web</span>
-			et dans la
-			<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
-			profonde et solide.
-		</p>
+		<div class="wrapper-difference__title">
+			<h3 class="paragraph">Qui sommes nous ?</h3>
+			<p>
+				<span>Gralypho</span> est une agence digitale, spécialisé dans la
+				<span>conception de site Web</span>
+				et dans la
+				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
+				profonde et solide.
+			</p>
 		</div>
 		<br />
 
@@ -78,7 +81,6 @@
 		justify-content: center;
 		width: 100%;
 	}
-	
 
 	.difference h1 {
 		font-family: Heebo;
@@ -92,16 +94,15 @@
 		text-align: center;
 	}
 	.difference h2 {
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 700;
 		margin-bottom: 10px;
-		letter-spacing: -0.03em;
+		letter-spacing: -0.05em;
 		text-align: left;
 		line-height: 30px;
 		margin-top: 30px;
-	
 	}
 	.title-h3 {
 		font-family: epilogue;
@@ -114,15 +115,14 @@
 		line-height: 25px;
 		width: 40%;
 		margin-top: 20px;
-	
 	}
 	.difference h2 span {
 		color: transparent;
-		-webkit-background-image: linear-gradient(to right, navy, var(--blue2) 70%);
-		background-image: linear-gradient(to right, navy, var(--blue2) 70%);
+		-webkit-background-image: linear-gradient(45deg, var(--blue2), navy);
+		background-image: linear-gradient(45deg, var(--blue2), navy);
 		-webkit-background-clip: text;
 		background-clip: text;
-		font-weight: 900;
+		font-weight: 700;
 	}
 	/* .wrapper {
 		display: flex;
@@ -203,16 +203,15 @@
 			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
 		}
 		.title-h3 {
-		font-family: epilogue;
-		font-size: var(--m);
-		color: var(--primary);
-		font-weight: 400;
-		margin-bottom: 0px;
-		letter-spacing: -0.02em;
-		text-align: center;
-		line-height: 25px;
-		width: 70%;
-	
-	}
+			font-family: epilogue;
+			font-size: var(--m);
+			color: var(--primary);
+			font-weight: 400;
+			margin-bottom: 0px;
+			letter-spacing: -0.02em;
+			text-align: center;
+			line-height: 25px;
+			width: 70%;
+		}
 	}
 </style>

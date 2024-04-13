@@ -88,7 +88,7 @@
 		margin-bottom: 20px;	
 	}
 	.form-contactez {
-		font-family: epilogue;
+		font-family: "Red Hat Display";
 		font-size: var(--xl);
 		color: var(--colorC);
 		font-weight: 700;
