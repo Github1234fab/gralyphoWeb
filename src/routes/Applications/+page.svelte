@@ -21,7 +21,7 @@
 		},
 		{
 			title: 'La vie de votre application',
-			p: "Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vosu pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu."
+			p: 'Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vosu pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu.'
 		}
 	];
 </script>
@@ -44,12 +44,13 @@
 		<h2>Progressive Web App (PWA)</h2>
 		<h1>Notre développement d'applis.</h1>
 		<p>
-			Nous développons des application en PWA. Cela signifie que les applications  PWA se téléchargent
-			uniquement depuis un site Web. Pourquoi faire ce choix? Parce qu'une application IOS (apple)
-			ne se code pas comme une application ANDROID (google), même si maintenant certain frameworks
-			le permettent, comme ReactNative. Mais parfois une application ne se trouve pas sur ANDROID
-			mais est disponible sur IOS, et vice-versa. Pour se tenir à l'abrit des rivalités des Gafas et de leur
-			rivalités, nous faisons le choix des applications PWA. Elles présentent certains avantages:
+			Nous développons des application en PWA. Cela signifie que les applications PWA se
+			téléchargent uniquement depuis un site Web. Pourquoi faire ce choix? Parce qu'une application
+			IOS (apple) ne se code pas comme une application ANDROID (google), même si maintenant certain
+			frameworks le permettent, comme ReactNative. Mais parfois une application ne se trouve pas sur
+			ANDROID mais est disponible sur IOS, et vice-versa. Pour se tenir à l'abrit des rivalités des
+			Gafas et de leur rivalités, nous faisons le choix des applications PWA. Elles présentent
+			certains avantages:
 		</p>
 		<ol>
 			<li>
@@ -209,14 +210,15 @@
 	}
 	.wrapper-collapse h1 {
 		text-align: center;
-		font-family: epilogue;
-		font-size: var(--l);
+		font-family: 'Red Hat Display';
+		font-size: var(--xl);
 		font-weight: 700;
 		color: var(--bleuAcier);
 		margin-top: 50px;
 		letter-spacing: -1px;
 		margin-bottom: 50px;
 		padding: 15px;
+		width: 75%;
 	}
 	.wrapper-application-explication {
 		grid-column: 1/13;
@@ -229,7 +231,7 @@
 	}
 	.wrapper-application-explication h1 {
 		text-align: center;
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 700;
 		color: var(--bleuAcier);

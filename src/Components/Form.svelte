@@ -76,7 +76,7 @@
 		margin-top: 40px;
 	}
 	.form-title {
-	font-family: Heebo;
+		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
 		color: var(--bleuAcier);
@@ -85,10 +85,10 @@
 		letter-spacing: -0.04em;
 		margin-top: 50px;
 		text-align: center;
-		margin-bottom: 20px;	
+		margin-bottom: 20px;
 	}
 	.form-contactez {
-		font-family: "Red Hat Display";
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		color: var(--colorC);
 		font-weight: 700;
@@ -129,14 +129,16 @@
 		backdrop-filter: blur(10px); */
 	}
 	input {
-		border: 1px solid rgb(223, 218, 218);
-		font-family: epilogue;
+		background-color: transparent;
+		border: 1px solid rgb(129, 128, 128);
+		font-family: 'Red Hat Display';
 		font-weight: 400;
 		padding: 10px;
 		border-radius: 8px;
-		box-shadow: 0px 0px 8px 0px rgba(186, 185, 185, 0.478);
+		box-shadow: 0px 0px 8px 0px rgba(24, 24, 24, 0.744);
 		width: clamp(300px, 35%, 400px);
 		text-align: left;
+		color: white;
 	}
 	input:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -146,14 +148,16 @@
 		font-size: 0.7em;
 	}
 	.demande {
-		border: 1px solid rgb(223, 218, 218);
-		font-family: epilogue;
+		border: 1px solid rgb(129, 128, 128);
+		font-family: "Red Hat Display";
 		font-weight: 400;
 		padding: 10px;
 		border-radius: 8px;
 		width: clamp(300px, 35%, 400px);
 		min-height: 200px;
-		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
+		box-shadow: 0px 0px 8px 0px rgba(24, 24, 24, 0.744);
+		background-color: transparent;
+		color: white;
 	}
 	.demande::placeholder {
 		color: rgb(187, 183, 183);

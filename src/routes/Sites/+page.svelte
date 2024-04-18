@@ -277,7 +277,7 @@
 	}
 	.container-service h1 {
 		text-align: center;
-		font-family: epilogue;
+	  font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 700;
 		color: var(--primary);
@@ -306,7 +306,7 @@
 	}
 	.wrapper-SectionB h1 {
 		text-align: center;
-		font-family: epilogue;
+		  font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 700;
 		color: var(--primary);

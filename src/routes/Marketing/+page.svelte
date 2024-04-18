@@ -43,11 +43,8 @@
 		{
 			title: 'Contenu des missions de gestion des médias sociaux',
 			p: 'Le contenu des missions de gestion des médias sociaux portent essentiellement sur la conception des posts et des campagnes publicitaires pour votre marque ou votre business. Nous gérons la rédaction des annonces, leur contenu, leur fréquence et leur diffusion.'
-		},
-	]
-	
-
-
+		}
+	];
 </script>
 
 <Mouse />
@@ -208,7 +205,7 @@
 	}
 	.container-service h1 {
 		text-align: center;
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 700;
 		color: var(--primary);
@@ -283,7 +280,7 @@
 	}
 	.wrapper-SectionB h1 {
 		text-align: center;
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 700;
 		color: var(--primary);
