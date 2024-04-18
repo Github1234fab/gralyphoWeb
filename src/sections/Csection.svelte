@@ -98,7 +98,7 @@
 		overflow: hidden;
 	}
 	.wrapper-text h1 {
-		font-family: epilogue;
+	    font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 800;
 		text-align: center;

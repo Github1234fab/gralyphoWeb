@@ -113,7 +113,7 @@
 	}
 
 	a {
-		color: var(--CTA2);
+		color: var(--bleuAcier);
 		font-size: 1.8em;
 		margin: 0 0px;
 		transition: 0.4s ease-in-out;

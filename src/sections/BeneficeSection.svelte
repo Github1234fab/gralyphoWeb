@@ -108,17 +108,17 @@
 	}
 	.wrapper-blocks {
 		margin-top: 50px;
-		border-radius: 5px 30px 7px 20px;
+		border-radius: 34px 30px 0px 0px;
 		display: flex;
 		flex-direction: column;
 		align-items: left;
 		justify-content: left;
 		width: 100%;
 		min-height: 360px;
-		box-shadow: 0px 0px 10px rgba(28, 28, 28, 0.862);
+		box-shadow: 0px 0px 1px 1px rgb(218, 217, 217);
 		padding: 20px;
 		margin-bottom: 100px;
-		border: solid 1px rgb(102, 102, 102);
+		
 	}
 
 	.benefice-h1 {
@@ -147,7 +147,7 @@
 		color: var(--greyBg);
 		font-size: var(--m);
 		font-weight: 500;
-		font-family: poppins;
+	       font-family: 'Red Hat Display';
 		text-align: center;
 		margin-top: 20px;
 	}
@@ -155,8 +155,8 @@
 		color: var(--greyBg);
 		font-size: var(--l);
 		font-weight: 900;
-		font-family: Heebo;
-		/* text-transform: uppercase; */
+	font-family: 'Red Hat Display';
+		text-transform: capitalize;
 		text-align: center;
 	}
 	.wrapper-blocks p {
@@ -186,7 +186,7 @@
 	}
 	.button {
 		background-color: var(--CTAHero);
-		color: white;
+		color: var(--primary);
 		font-size: var(--m);
 		font-weight: 600;
 		font-family: Heebo;

@@ -108,7 +108,7 @@
 		text-decoration: none;
 		transition: 0.4s ease-in-out;
 		z-index: 2;
-    font-family: Epilogue;
+        font-family: 'Red Hat Display';
 	}
 	a:hover {
 		transition: 0.4s ease-in-out;
