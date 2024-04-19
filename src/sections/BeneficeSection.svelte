@@ -33,7 +33,7 @@
 		<div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Automatisez</span> <br />
-				votre outil digital. <i class="fa-solid fa-hourglass icon-difference"></i>
+				votre outil digital. <br><br><i class="fa-solid fa-hourglass icon-difference"></i>
 			</h1>
 			<p>
 				Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. Une
@@ -46,7 +46,7 @@
 		<div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Économisez</span> <br />
-				Du temps et de l'argent. <i class="fa-solid fa-chart-line icon-difference"></i>
+				Du temps et de l'argent. <br><br><i class="fa-solid fa-chart-line icon-difference"></i>
 			</h1>
 
 			<p>
@@ -61,7 +61,7 @@
 		<div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Augmentez</span><br />
-				Votre potentiel client. <i class="fa-solid fa-sack-dollar icon-difference"></i>
+				Votre potentiel client.  <br><br><i class="fa-solid fa-sack-dollar icon-difference"></i>
 			</h1>
 			<p>
 				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO,  c'est le moyen d'obtenir plus de 
@@ -115,8 +115,8 @@
 		justify-content: left;
 		width: 100%;
 		min-height: 360px;
-		box-shadow: 0px 0px 1px 1px rgb(218, 217, 217);
-		padding: 20px;
+		box-shadow: inset 0px 0px 15px 10px var(--bleuAcier);
+		padding: 30px;
 		margin-bottom: 100px;
 		
 	}
@@ -146,7 +146,7 @@
 	.wrapper-blocks h1 {
 		color: var(--greyBg);
 		font-size: var(--m);
-		font-weight: 500;
+		font-weight: 200;
 	       font-family: 'Red Hat Display';
 		text-align: center;
 		margin-top: 20px;
@@ -170,11 +170,12 @@
 		border-radius: 20px;
 	}
 	.icon-difference {
+
 		font-weight: 600;
 		margin-top: 10px;
 		margin-left: 10px;
 		color: transparent;
-		font-size: 1.6em;
+		font-size: 3em;
 		-webkit-background-image: linear-gradient(to left, var(--orange) 40%, var(--blue));
 		background-image: linear-gradient(to left, var(--orange) 40%, var(--blue));
 		-webkit-background-clip: text;

@@ -57,6 +57,7 @@
 		color: white;
 		font-family: epilogue;
 		gap: 0px;
+		border-top: 1px solid var(--bleuAcier);
 	}
 	.footer h4 {
 		margin-top: 30px;

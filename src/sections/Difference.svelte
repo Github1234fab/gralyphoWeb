@@ -1,6 +1,6 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
-	import imageDiff from '../Assets/png-gralypho/30.png';
+	import imageDiff from '../Assets/png-gralypho/photo-dev2.jpg';
 </script>
 
 <section class="difference">
@@ -211,7 +211,7 @@
 			letter-spacing: -0.02em;
 			text-align: center;
 			line-height: 25px;
-			width: 70%;
+			width: 80%;
 		}
 	}
 </style>

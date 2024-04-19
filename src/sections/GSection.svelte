@@ -156,7 +156,7 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
-		width: 60%;
+		width: 70%;
 		margin: 0 auto;
 		margin-top: 10px;
 		line-height: 25px;
