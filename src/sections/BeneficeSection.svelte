@@ -33,7 +33,7 @@
 		<div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Automatisez</span> <br />
-				votre outil digital. <br><br><i class="fa-solid fa-hourglass icon-difference"></i>
+				votre outil digital. <br /><br /><i class="fa-solid fa-hourglass icon-difference"></i>
 			</h1>
 			<p>
 				Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. Une
@@ -46,7 +46,7 @@
 		<div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Économisez</span> <br />
-				Du temps et de l'argent. <br><br><i class="fa-solid fa-chart-line icon-difference"></i>
+				Du temps et de l'argent. <br /><br /><i class="fa-solid fa-chart-line icon-difference"></i>
 			</h1>
 
 			<p>
@@ -61,11 +61,11 @@
 		<div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Augmentez</span><br />
-				Votre potentiel client.  <br><br><i class="fa-solid fa-sack-dollar icon-difference"></i>
+				Votre potentiel client. <br /><br /><i class="fa-solid fa-sack-dollar icon-difference"></i>
 			</h1>
 			<p>
-				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO,  c'est le moyen d'obtenir plus de 
-				visibilité , plus de prospects, plus de clients et plus d'argent!
+				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO, c'est le
+				moyen d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
 			</p>
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
 		</div>
@@ -102,6 +102,7 @@
 		margin-right: 50px;
 		gap: 15px;
 		flex-wrap: wrap;
+		perspective: 1500px;
 	}
 	.container-benefices > * {
 		flex: 1 1 25%;
@@ -118,7 +119,26 @@
 		box-shadow: inset 0px 0px 15px 10px var(--bleuAcier);
 		padding: 30px;
 		margin-bottom: 100px;
-		
+		animation: turnAround 10s infinite;
+	}
+
+	@keyframes turnAround {
+		0% {
+			transform: rotateY(0deg) rotateX(0deg) translateZ(0);
+		}
+		25% {
+			transform: rotateY(6deg) rotateX(-6deg) translateZ(2px);
+		}
+		50% {
+			transform: rotateY(0deg) rotateX(0deg) translateZ(0);
+		}
+
+		75% {
+			transform: rotateY(-6deg) rotateX(6deg) translateZ(2px);
+		}
+		100% {
+			transform: rotateY(0deg) rotateX(0deg) translateZ(0);
+		}
 	}
 
 	.benefice-h1 {
@@ -134,7 +154,7 @@
 		margin-bottom: 20px;
 	}
 	.benefice-h2 {
-	font-family: 'Red Hat Display';
+		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		color: var(--colorC);
 		font-weight: 700;
@@ -147,7 +167,7 @@
 		color: var(--greyBg);
 		font-size: var(--m);
 		font-weight: 200;
-	       font-family: 'Red Hat Display';
+		font-family: 'Red Hat Display';
 		text-align: center;
 		margin-top: 20px;
 	}
@@ -155,7 +175,7 @@
 		color: var(--greyBg);
 		font-size: var(--l);
 		font-weight: 900;
-	font-family: 'Red Hat Display';
+		font-family: 'Red Hat Display';
 		text-transform: capitalize;
 		text-align: center;
 	}
@@ -170,7 +190,6 @@
 		border-radius: 20px;
 	}
 	.icon-difference {
-
 		font-weight: 600;
 		margin-top: 10px;
 		margin-left: 10px;
@@ -237,12 +256,12 @@
 			margin-right: 0px;
 			margin-bottom: 0;
 		}
-		.button{
+		.button {
 			margin-top: 30px;
 		}
 	}
-	@media screen and (max-width:768px){
-			.container-benefices {
+	@media screen and (max-width: 768px) {
+		.container-benefices {
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
@@ -251,14 +270,14 @@
 			gap: 0px;
 		}
 		.img {
-		min-width: auto;
-		max-height: 200px;
-		border-radius: 20px;
-		margin-top: 50px;
-	}
+			min-width: auto;
+			max-height: 200px;
+			border-radius: 20px;
+			margin-top: 50px;
+		}
 		.wrapper-blocks {
 			min-height: 400px;
-						min-width: 300px;
+			min-width: 300px;
 			margin-left: 0px;
 			margin-right: 0px;
 			margin-bottom: 0;

@@ -114,7 +114,7 @@ border-radius: 15px 56px 42px 67px;
 		text-align: left;
 		margin-left: 5px;
 		margin-top: 5px;
-		text-transform: uppercase;
+		text-transform: capitalize;
 	}
 	.card-content p {
 		text-align: left;
