@@ -119,7 +119,7 @@
 		box-shadow: inset 0px 0px 15px 10px var(--bleuAcier);
 		padding: 30px;
 		margin-bottom: 100px;
-		animation: turnAround 10s infinite;
+		animation: turnAround 5s infinite;
 	}
 
 	@keyframes turnAround {
