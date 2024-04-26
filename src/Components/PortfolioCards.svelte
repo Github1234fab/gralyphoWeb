@@ -11,7 +11,6 @@
 		<a href={lien} class="card-content" target="_blank">
 			<p>{texte}</p>
 			<h3>{titre}</h3>
-			
 		</a>
 	</div>
 </div>
@@ -24,8 +23,8 @@
 		align-items: left;
 		min-height: 200px;
 		min-width: 320px;
-			border-radius: 15px;
-			cursor: pointer;
+		border-radius: 15px;
+		cursor: pointer;
 	}
 	.wrapper-portfolio h1 {
 		font-family: poppins;
@@ -48,11 +47,11 @@
 		z-index: 0;
 		background-color: var(--orange);
 		box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.82);
-			border-radius: 15px 56px 42px 67px;
+		border-radius: 15px 56px 42px 67px;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
-			border-radius: 15px 56px 42px 67px;
+		border-radius: 15px 56px 42px 67px;
 	}
 
 	.card-portfolio:hover .card-content {
@@ -72,7 +71,7 @@
 		align-items: left;
 		padding: 10px;
 		background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero));
-border-radius: 15px 56px 42px 67px;
+		border-radius: 15px 56px 42px 67px;
 		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
@@ -103,12 +102,12 @@ border-radius: 15px 56px 42px 67px;
 		color: white;
 		transition: 0.9s ease-in-out;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
-			border-radius: 15px 56px 42px 67px;
+		border-radius: 15px 56px 42px 67px;
 	}
 
 	.card-content h3 {
 		font-size: var(--l);
-		font-family: "Nunito";
+		font-family: 'Nunito';
 		font-weight: 700;
 		color: white;
 		text-align: left;

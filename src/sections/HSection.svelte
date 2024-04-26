@@ -91,7 +91,8 @@
 		text-align: left;
 	}
 	.H-section h3 span {
-		color: var(--rouge);
+		color: rgb(191, 191, 191);
+		font-weight: 700;
 	}
 	.H-section h2 {
 		font-family: poppins;
@@ -100,7 +101,7 @@
 		color: var(--greyBg);
 		text-align: left;
 		line-height: 30px;
-		margin-top: 20px;
+		margin-top: 40px;
 		margin-left: 0px;
 	}
 	.H-section h2 span {
