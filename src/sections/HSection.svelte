@@ -9,7 +9,7 @@
 	// import arrow from "../Assets/png-gralypho/arrow-34.svg";
 
 	let textIndex = 0;
-	let textTab = [' de Site Internet', "d'Application Web"];
+	let textTab = [' de Site Internet.', "d'Applications."];
 
 	onMount(() => {
 		setInterval(() => {
@@ -93,6 +93,7 @@
 	.H-section h3 span {
 		color: rgb(191, 191, 191);
 		font-weight: 700;
+		font-size: 1.2rem;
 	}
 	.H-section h2 {
 		font-family: poppins;
