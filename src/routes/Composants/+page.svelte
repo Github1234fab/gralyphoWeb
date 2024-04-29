@@ -46,7 +46,7 @@
         </div>
         
 <div class="wrapper-description-marketing">
-  <img src={cible} alt="" class="img-marketing">
+  <img src={cible} alt="Illustration d'une cible et une flèche symbolisant le SEO, soit une cibel à atteindre pour le référencement d'un site web." class="img-marketing">
   <p>
   <span>Visibilité et public cible.<br><br> </span>
    Dans notre ère numérique, le marketing digital est la clé du succès commercial. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour propulser votre entreprise vers de nouveaux sommets. <br><br>

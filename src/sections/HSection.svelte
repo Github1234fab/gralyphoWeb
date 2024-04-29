@@ -20,7 +20,7 @@
 
 <Header />
 <section class="H-section">
-	<img src={heroAnime} alt="" class="img" />
+	<img src={heroAnime} alt="Gif animé" class="img" />
 	<div class="wrapper-text">
 		<h1>Imaginer <br /> Développer <br />Créer</h1>
 

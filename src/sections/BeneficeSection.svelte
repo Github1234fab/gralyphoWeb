@@ -27,7 +27,7 @@
 <section class="section-benefices">
 	<h1 class="benefice-h1">Avantages</h1>
 	<h2 class="benefice-h2">Utilisez tout le potentiel de votre outil Digital.</h2>
-	<img src={explosion} alt="" class="img" />
+	<img src={explosion} alt="Illustration d'une explosion de medias, avec une fusée qui décolle" class="img" />
 	<div class="container-benefices">
 		<!-- +++++++++++++ -->
 		<div class="wrapper-blocks">

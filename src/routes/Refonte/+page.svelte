@@ -133,7 +133,7 @@
 	<div class="container-service">
 		<h1>Étude et réalisation de design sur mesure</h1>
 		<div class="wrapper-service">
-			<img src={design} alt="" class="img-design" />
+			<img src={design} alt="illustration d'un Ipad, avec des personnages qui le construisent." class="img-design" />
 		</div>
 	</div>
 

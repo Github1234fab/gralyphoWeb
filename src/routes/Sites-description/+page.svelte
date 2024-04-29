@@ -8,7 +8,7 @@
 <Header />
 <section class="description-site">
 	<div class="container">
-		<img src={description} alt="" class="description-img" />
+		<img src={description} alt="illustration d'un ordinateur avec une grue qui le construit" class="description-img" />
 		<div class="wrapper-site-description">
 			<h1>Site Vitrine</h1>
 			<p>
