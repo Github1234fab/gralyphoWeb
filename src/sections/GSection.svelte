@@ -20,6 +20,13 @@
 
 	let portfolioTab = [
 		{
+			type: 'Application',
+			title: 'Shooping List Appli',
+			text: 'Application',
+			img: animationSite,
+			lien: 'https://6635f6a885886b0008ea927a--gralyshoplist.netlify.app/'
+		},
+		{
 			type: 'Site Web',
 			title: 'Rocket Agency',
 			text: 'Animé au scroll',
