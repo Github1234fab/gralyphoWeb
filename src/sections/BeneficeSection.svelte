@@ -27,7 +27,11 @@
 <section class="section-benefices">
 	<h1 class="benefice-h1">Avantages</h1>
 	<h2 class="benefice-h2">Utilisez tout le potentiel de votre outil Digital.</h2>
-	<img src={explosion} alt="Illustration d'une explosion de medias, avec une fusée qui décolle" class="img" />
+	<img
+		src={explosion}
+		alt="Illustration d'une explosion de medias, avec une fusée qui décolle"
+		class="img"
+	/>
 	<div class="container-benefices">
 		<!-- +++++++++++++ -->
 		<div class="wrapper-blocks">
@@ -36,7 +40,7 @@
 				votre outil digital. <br /><br /><i class="fa-solid fa-hourglass icon-difference"></i>
 			</h1>
 			<p>
-				Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. Une
+				Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. <br />Une
 				hyper-présence sur le net qui vous permet d'économisez du temps pour vous consacrer à
 				d'autres tâches.
 			</p>
@@ -51,7 +55,7 @@
 
 			<p>
 				Améliorez votre productivité grâce au potentiel de votre outil digital. Votre application ou
-				votre site inetrnet peut accomplir de mutilples tâches automatisées et ainsi augmenter
+				votre site internet peut accomplir de mutilples tâches automatisées et ainsi augmenter
 				considérablement votre productivité.
 			</p>
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
@@ -64,7 +68,7 @@
 				Votre potentiel client. <br /><br /><i class="fa-solid fa-sack-dollar icon-difference"></i>
 			</h1>
 			<p>
-				Augmentez vos revenus grâce à une visibilité acquise grâce à notre expertise SEO, c'est le
+				Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO, c'est le
 				moyen d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
 			</p>
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
@@ -116,10 +120,9 @@
 		justify-content: left;
 		width: 100%;
 		min-height: 360px;
-		box-shadow: inset 0px 0px 15px 10px var(--bleuAcier);
+		box-shadow: inset 0px 0px 10px 1px var(--bleuAcier);
 		padding: 30px;
 		margin-bottom: 100px;
-		animation: turnAround 5s infinite;
 	}
 
 	@keyframes turnAround {

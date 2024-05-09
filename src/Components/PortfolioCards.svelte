@@ -45,13 +45,13 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		background-color: var(--orange);
 		box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.82);
-		border-radius: 15px 56px 42px 67px;
+			background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero));
+		/* border-radius: 15px 56px 42px 67px; */
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
-		border-radius: 15px 56px 42px 67px;
+		/* border-radius: 15px 56px 42px 67px; */
 	}
 
 	.card-portfolio:hover .card-content {
@@ -70,12 +70,12 @@
 		justify-content: left;
 		align-items: left;
 		padding: 10px;
-		background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero));
-		border-radius: 15px 56px 42px 67px;
+		/* background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero)); */
+		/* border-radius: 15px 56px 42px 67px; */
 		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
-		box-shadow: 0px 0px 10px rgba(221, 220, 220, 0.512);
+		/* box-shadow: 0px 0px 10px rgba(221, 220, 220, 0.512); */
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
@@ -91,7 +91,7 @@
 		width: 100px;
 		left: 0px;
 		transform: translateX(330px);
-		background: var(--CTA2);
+		background: var(--CTA);
 		transition: 0.6s ease-in-out;
 		display: flex;
 		align-items: center;
@@ -101,8 +101,8 @@
 		font-size: 1.5em;
 		color: white;
 		transition: 0.9s ease-in-out;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);
-		border-radius: 15px 56px 42px 67px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.496);
+		/* border-radius: 15px 56px 42px 67px; */
 	}
 
 	.card-content h3 {

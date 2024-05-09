@@ -24,7 +24,7 @@
 			title: 'Shooping List Appli',
 			text: 'Application',
 			img: animationSite,
-			lien: 'https://66362a282dae630008818103--gralyshoplist.netlify.app/'
+			lien: 'https://main--gralyshoplist.netlify.app/'
 		},
 		{
 			type: 'Site Web',

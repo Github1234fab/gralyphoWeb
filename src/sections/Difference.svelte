@@ -19,17 +19,19 @@
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
 			<h3 class="paragraph">Qui sommes nous ?</h3>
+			<br>
 			<p>
 				<span>Gralypho</span> est une agence digitale, spécialisé dans la
 				<span>conception de site Web</span>
 				et dans la
 				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
-				profonde et solide.
+				profonde et solide. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et Thurins.
 			</p>
 		</div>
 		<br />
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
+		<br>
 
 		<p>
 			Nous sommes formés aux métiers du Web. C'est à dire que nos <span>connaissances </span> en
@@ -41,9 +43,10 @@
 		</p>
 		<br />
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
+		<br>
 		<p>
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
-			sécurité, de la performance, de la sérénité et de la pérennité. <br />Nous somme ici pour vous
+			sécurité, de la performance, de la sérénité et de la pérennité. <br />Nous sommes ici pour vous
 			accompagner dans la <span>réalisation </span>de votre projet, de sa conception à sa mise en
 			ligne.
 			<br />Nous sommes là pour vous conseiller, pour vous guider et pour vous former. <br />Nous
