@@ -102,9 +102,7 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
-		<h2>
-			Des Sites Web...mais pas que !
-		</h2>
+		<h2>Des Sites Web...mais pas que !</h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
 			les requêtes API, les jeux, les composants (...) !
@@ -126,6 +124,8 @@
 		width: 100%;
 		font-size: 16px;
 		background-color: var(--bleuAcier);
+		clip-path: polygon(41% 0, 62% 4%, 78% 1%, 100% 0, 100% 100%, 32% 100%, 0 100%, 0 0, 26% 3%);
+		
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -138,8 +138,8 @@
 	.G-section h1 {
 		font-family: Heebo;
 		text-transform: uppercase;
-		font-size: var(--m);
-		color: var(--bleuAcier);
+		font-size: var(--primary);
+		color: white;
 		font-weight: 600;
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
@@ -149,7 +149,7 @@
 	.G-section h2 {
 		font-family: 'Red Hat Display';
 		font-size: var(--xl);
-		color: var(--primary);
+		color: white;
 		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;

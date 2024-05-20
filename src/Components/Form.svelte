@@ -88,7 +88,7 @@
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-		font-family: 'Red Hat Display';
+		font-family: 'Heebo';
 		font-size: var(--xl);
 		color: var(--colorC);
 		font-weight: 700;
@@ -117,6 +117,7 @@
 		letter-spacing: -0.05em;
 	} */
 	.form {
+		
 		grid-column: 2/12;
 		grid-row: 3;
 		display: flex;
@@ -177,8 +178,8 @@
 		background-color: var(--CTA);
 		color: white;
 		font-family: epilogue;
-		font-weight: 500;
-		padding: 10px;
+		font-weight: 700;
+		padding: 20px 10px;
 		border-radius: 8px;
 		width: 100px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);

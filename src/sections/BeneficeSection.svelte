@@ -373,6 +373,7 @@ background-image: url(../Assets/png-gralypho/09.png);
 		font-family: heebo;
 		padding: 20px;
 		text-align: center;
+		color: white;
 	
 	}
 	.icon-difference {
@@ -380,7 +381,7 @@ background-image: url(../Assets/png-gralypho/09.png);
 		color: blue;
 		margin-top: 20px;
 		border: solid white 1px;
-		padding: 20px;
+		padding: 30px;
 		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
 	}
 	.bloc p {
@@ -389,6 +390,7 @@ background-image: url(../Assets/png-gralypho/09.png);
 		text-align: center;
 		padding: 20px;
 		text-align: center;
+		color: white;
 	}
 	.lien-bouton {
 		background-color: var(--CTA);
@@ -396,7 +398,7 @@ background-image: url(../Assets/png-gralypho/09.png);
 		padding: 20px 14px;
 		font-family: heebo;
 		color: black;
-		font-weight: 500;
+		font-weight: 700;
 		margin-top: 50PX;
 		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
 	}

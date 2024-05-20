@@ -70,6 +70,7 @@
 		justify-content: left;
 		align-items: left;
 		padding: 10px;
+		background-color: rgba(4, 4, 72, 0.591);
 		/* background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero)); */
 		/* border-radius: 15px 56px 42px 67px; */
 		opacity: 1;
@@ -107,7 +108,7 @@
 
 	.card-content h3 {
 		font-size: var(--l);
-		font-family: 'Nunito';
+		font-family: 'heebo';
 		font-weight: 700;
 		color: white;
 		text-align: left;

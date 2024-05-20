@@ -95,7 +95,7 @@
 		color: var(--bleuAcier);
 		font-weight: 600;
 		letter-spacing: -0.04em;
-		margin-top: 0px;
+		margin-top: 50px;
 		margin-bottom: 20px;
 		text-align: left;
 		grid-column: 2/12;

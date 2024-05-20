@@ -22,7 +22,7 @@
 <section class="H-section">
 	<img src={heroAnime} alt="Gif animé" class="img" />
 	<div class="wrapper-text">
-		<h1>Imaginer <br /> Développer <br />Créer</h1>
+		<h1>Imaginer.<br /> Développer.<br />Créer.</h1>
 
 		<h3>Conception <span>{textTab[textIndex]}</span></h3>
 		<h2>
@@ -71,7 +71,8 @@
 		font-family: 'radio canada big';
 		font-weight: 900;
 		font-size: clamp(4em, 12.5vw, 10em);
-		color: #de9d12;
+		/* color: #de9d12; */
+		color:  #04a0f5;
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
 		margin-top: 50px;
@@ -111,8 +112,8 @@
 	}
 	.contact {
 		text-decoration: none;
-		color:  black;
-		background-color: var(--CTA);
+		color:  white;
+		background-color: var(--CTA2);
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: bolder;
@@ -124,26 +125,11 @@
 		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 	}
-	/* .contact2 {
-		text-decoration: none;
-		color: var(--primary);
-		background-color: var(--CTAHero2);
-		font-family: kanit;
-		font-weight: 400;
-		margin-top: 10px;
-		margin-left: 10px;
-		width: 160px;
-		border-radius: 6px;
-		text-align: center;
-		padding: 10px;
-		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
-	} */
+
 	.contact:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	/* .contact2:hover {
-		animation: bounce 0.4s ease-in-out;
-	} */
+	
 	.wrapper-contact {
 		display: flex;
 		flex-direction: column;

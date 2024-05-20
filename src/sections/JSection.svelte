@@ -57,7 +57,7 @@
 <section class="J-section">
 	<div class="wrapper-text-testi">
 		<h1>Nos témoignages</h1>
-		<h2>Nos clients racontent</h2>
+		<h2>Nos clients racontent l'agence Gralypho !</h2>
 	</div>
 	<div class="gallery">
 		<div class="wrapper-contain">
@@ -83,6 +83,7 @@
 		font-size: 16px;
 		margin-top: 0px;
 		background-color: var(--colorC);
+		
 	}
 	.gallery {
 		overflow-x: auto;

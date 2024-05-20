@@ -19,7 +19,7 @@ a {
 	text-decoration: none;
 }
 
-/* Désactiver le système de grille Bootstrap */
+
 .container,
 .container-sm,
 .container-md,
@@ -73,12 +73,12 @@ a {
 	--blue: #7f00fd;
 	--blue2: #678bf6;
 	--orange: #b49633;
-	/* --orange: #D1A617; */
+
 	--alternate: #877455;
 	--newBlue: #2993fa;
 	--CTA: #4ba4ee;
 	--CTAHero: #ffa500;
-	--CTA2: #ff7f00;
+	--CTA2: #bc5f03;
 	--CTAHero2: #add8e6;
 	--bgAssets: #4683b42b;
 	--greyBg: rgb(250, 250, 250);
