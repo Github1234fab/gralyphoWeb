@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { onMount } from 'svelte';
 	import explosion from '../Assets/png-gralypho/webExplosion.png';
 
@@ -34,7 +34,7 @@
 	/>
 	<div class="container-benefices">
 		<!-- +++++++++++++ -->
-		<div class="wrapper-blocks">
+<!-- <div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Automatisez</span> <br />
 				votre outil digital. <br /><br /><i class="fa-solid fa-hourglass icon-difference"></i>
@@ -45,9 +45,9 @@
 				d'autres tâches.
 			</p>
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
-		</div>
-		<!-- +++++++++++++ -->
-		<div class="wrapper-blocks">
+		</div> -->
+<!-- +++++++++++++ -->
+<!-- <div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Économisez</span> <br />
 				Du temps et de l'argent. <br /><br /><i class="fa-solid fa-chart-line icon-difference"></i>
@@ -59,10 +59,10 @@
 				considérablement votre productivité.
 			</p>
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
-		</div>
+		</div> -->
 
-		<!-- +++++++++++++ -->
-		<div class="wrapper-blocks">
+<!-- +++++++++++++ -->
+<!-- <div class="wrapper-blocks">
 			<h1>
 				<span class="title-yellow">Augmentez</span><br />
 				Votre potentiel client. <br /><br /><i class="fa-solid fa-sack-dollar icon-difference"></i>
@@ -74,8 +74,8 @@
 			<a href="/Digital-infos" class="lien-bouton"><button class="button">En savoir +</button></a>
 		</div>
 	</div>
-</section>
-
+</section> -->
+<!-- 
 <style>
 	.img {
 		width: auto;
@@ -286,6 +286,138 @@
 			margin-left: 0px;
 			margin-right: 0px;
 			margin-bottom: 0;
+		}
+	}
+</style> -->
+
+<div class="container">
+	<div class="section imageA"></div>
+	<div class="bloc">
+		<h1 class="title">Automatisez votre outil digital.</h1>
+		<i class="fa-solid fa-hourglass icon-difference"></i>
+		<p>
+			Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. <br />Une
+			hyper-présence sur le net qui vous permet d'économisez du temps pour vous consacrer à d'autres
+			tâches.
+		</p>
+		<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
+	</div>
+</div>
+
+<div class="section imageB"></div>
+<div class="bloc">
+	<h1 class="title">Économisez du temps et de l'argent.</h1>
+	<i class="fa-solid fa-chart-line icon-difference"></i>
+
+	<p>
+		Améliorez votre productivité grâce au potentiel de votre outil digital. Votre application ou
+		votre site internet peut accomplir de mutilples tâches automatisées et ainsi augmenter
+		considérablement votre productivité.
+	</p>
+	<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
+</div>
+
+<div class="section imageC"></div>
+<div class="bloc">
+	<h1 class="title">Augmentez Votre potentiel client.</h1>
+	<i class="fa-solid fa-sack-dollar icon-difference"></i>
+	<p>
+		Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO, c'est le moyen
+		d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
+	</p>
+	<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
+</div>
+
+<style>
+	.container {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section {
+		height: 100vh;
+		
+	}
+	.imageA{
+background-image: url(../Assets/png-gralypho/1.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+		.imageB{
+background-image: url(../Assets/png-gralypho/40.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+		.imageC{
+background-image: url(../Assets/png-gralypho/18.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bloc {
+		min-height: 900px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		/* padding: 200px; */
+		background-image: linear-gradient(45deg, navy, pink);
+		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
+
+	}
+	.title {
+		font-family: heebo;
+		padding: 20px;
+		text-align: center;
+	
+	}
+	.icon-difference {
+		font-size: 3rem;
+		color: blue;
+		margin-top: 20px;
+		border: solid white 1px;
+		padding: 20px;
+		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
+	}
+	.bloc p {
+		font-family: heebo;
+		margin-top: 30px;
+		text-align: center;
+		padding: 20px;
+		text-align: center;
+	}
+	.lien-bouton {
+		background-color: var(--CTA);
+		border-radius: 8px;
+		padding: 20px 14px;
+		font-family: heebo;
+		color: black;
+		font-weight: 500;
+		margin-top: 50PX;
+		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
+	}
+	.lien-bouton:hover {
+		animation: bounce 0.4s ease-in-out;
+	}
+
+	@keyframes bounce {
+		0% {
+			transform: scale(1) translateY(-2px);
+		}
+		25% {
+			transform: scale(1) translateY(3px);
+		}
+		50% {
+			transform: scale(1) translateY(-1px);
+		}
+		75% {
+			transform: scale(1) translateY(2px);
+		}
+		100% {
+			transform: scale(1) translateY(0);
 		}
 	}
 </style>
