@@ -56,10 +56,10 @@
 <section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
-		<h2>Création Web sur Mesure.</h2>
+		<h2>Nous créons votre site Web sur mesure.</h2>
 		<h3>
-			Nous créeons vos outils digitaux, vos designs, votre stratégie sur les réseaux et votre
-			référencement.
+			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre identité et de vos exigences.  Nous nous occupons également de la <span>création de votre identité graphique</span> , de votre logo, de votre design, de la création de vos contenus et de la gestion de vos <span>réseaux sociaux. </span><br>
+			Nous ne sommes pas dépendant des templates de sites Web, nous créons des <span>sites Web sur mesure</span> et la seule limite, c'est votre <span>imagination!</span>
 		</h3>
 	</div>
 
@@ -86,7 +86,7 @@
 		min-height: 400px;
 	}
 	.wrapper-text {
-		grid-column: 4/ 10;
+		grid-column: 2/ 10;
 		grid-row: 1;
 		display: flex;
 		flex-direction: column;
@@ -102,17 +102,19 @@
 		margin-top: 50px;
 		margin-left: 0px;
 		margin-bottom: 20px;
-		text-align: center;
+		text-align: left;
 	}
 	.E-section h2 {
-		font-family: 'Red Hat Display';
+		font-family: 'heebo';
 		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 700;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: center;
+		text-align: left;
+		line-height: 35px;
 	}
+
 	.E-section h3 {
 		font-family: epilogue;
 		font-size: var(--m);
@@ -120,10 +122,13 @@
 		font-weight: 400;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: center;
-		line-height: 20px;
+		text-align: left;
+		line-height: 30px;
 		width: 100%;
-		margin: 5px auto;
+		margin: 20px auto;
+	}
+		.E-section h3 span {
+		font-weight: 800;
 	}
 
 	.wrapper-cards-services {

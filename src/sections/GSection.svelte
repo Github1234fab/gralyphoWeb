@@ -103,7 +103,7 @@
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>
-			Des Sites Web... <br />mais pas que !
+			Des Sites Web...mais pas que !
 		</h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
@@ -144,7 +144,7 @@
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
 		margin-top: 40px;
-		text-align: center;
+		text-align: left;
 	}
 	.G-section h2 {
 		font-family: 'Red Hat Display';
@@ -153,7 +153,7 @@
 		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		text-align: center;
+		text-align: left;
 	}
 	.G-section h3 {
 		font-family: epilogue;
@@ -162,8 +162,8 @@
 		font-weight: 400;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		text-align: center;
-		width: 70%;
+		text-align: left;
+		width: 100%;
 		margin: 0 auto;
 		margin-top: 10px;
 		line-height: 25px;

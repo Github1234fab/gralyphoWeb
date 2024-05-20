@@ -103,12 +103,12 @@
 		gap: 20px;
 	}
 	.wrapper-text-testi {
-		grid-column: 1/13;
+		grid-column: 2/13;
 		grid-row: 1;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		align-items: left;
+		justify-content: left;
 		margin-top: -30px;
 	}
 
@@ -121,18 +121,18 @@
 		margin-top: 100px;
 		/* margin-left: 50px; */
 		margin-bottom: 20px;
-		text-align: center;
+		text-align: left;
 		color: var(--bleuAcier);
 	}
 	.wrapper-text-testi h2 {
-		font-family: 'Red Hat Display';
+		font-family: 'heebo';
 		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		/* margin-left: 10px; */
-		text-align: center;
+		text-align: left;
 	}
 
 	@media screen and (max-width: 768px) {

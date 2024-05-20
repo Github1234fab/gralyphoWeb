@@ -68,7 +68,7 @@
 
 	.H-section h1 {
 		text-align: left;
-		font-family: 'Heebo';
+		font-family: 'radio canada big';
 		font-weight: 900;
 		font-size: clamp(4em, 12.5vw, 10em);
 		color: #de9d12;
@@ -111,15 +111,15 @@
 	}
 	.contact {
 		text-decoration: none;
-		color: var(--primary);
-		background-color: var(--CTAHero);
+		color:  black;
+		background-color: var(--CTA);
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: bolder;
-		margin-top: 0px;
+		margin-top: 20px;
 		margin-left: 0px;
 		width: 160px;
-		border-radius: 6px 24px 15px 26px;
+		border-radius:  8px;
 		text-align: center;
 		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);

@@ -88,8 +88,8 @@
 		height: auto;
 		gap: 0px;
 		background-color: var(--bgHero);
-		align-items: center;
-		justify-content: center;
+		align-items: left;
+		justify-content: left;
 		flex-direction: column;
 		background-color: var(--bgHero);
 		/* background-color: var(--greyBg); */
@@ -153,8 +153,9 @@
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 20px;
+		margin-left: 100px;
 	}
 	.benefice-h2 {
 		font-family: 'Red Hat Display';
@@ -163,8 +164,9 @@
 		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		text-align: center;
+		text-align: left;
 		width: 70%;
+		margin-left: 100px;
 	}
 	.wrapper-blocks h1 {
 		color: var(--greyBg);

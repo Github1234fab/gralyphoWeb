@@ -9,6 +9,17 @@
 		window.location.href = lien;
 	}
 
+let rotation = false;
+
+function changeToTrue() {
+	rotation = true;
+}
+function changeToFalse() {
+	rotation = false;
+}
+
+
+
 	onMount(() => {
 		const cards = document.querySelectorAll('.card-services');
 		cards.forEach((el) => {
@@ -27,10 +38,10 @@
 	});
 </script>
 
-<button class="card-services" on:click={redirectToLink}>
+<button class="card-services" on:click={redirectToLink} on:mouseenter={changeToTrue} on:mouseleave={changeToFalse} >
 	<div class="wrapper-text-service">
 		<!-- <i class="{i} icon"></i> -->
-		<img src={i} alt="" class="img icon" />
+		<img src={i} alt="" class="img icon" class:turn={rotation} />
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 	</div>
@@ -42,6 +53,10 @@
 		max-width: 80px;
 		max-height: 80px;
 	} */
+
+	.turn{
+		transform: rotate(360deg);
+	}
 	.card-services {
 		transform: translateY(300px);
 		display: grid;
@@ -50,16 +65,17 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		background-color: white;
+		background-color:  transparent;
+		/* background-image: radial-gradient(circle 200px, rgba(210, 11, 245, 0.282), white); */
 		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.187);
 		padding: 20px;
 		border: none;
-		border-radius: 30px;
+		/* border-radius: 30px; */
 		min-height: 600px;
 	}
-	.card-services:hover .icon {
+	/* .card-services:hover .icon {
 		transform: rotateY(360deg);
-	}
+	} */
 	.wrapper-text-service {
 		grid-column: 1/12;
 		grid-row: 2;
@@ -74,7 +90,7 @@
 		font-family: Poppins;
 		grid-column: 1/12;
 		grid-row: 2;
-		font-weight: 700;
+		font-weight: 400;
 		color: var(--primary);
 		font-size: var(--lm);
 		text-align: left;
@@ -90,16 +106,18 @@
 		color: var(--primary);
 		text-align: left;
 		line-height: 30px;
-		margin-top: 0px;
+		margin-top: 30px;
 		margin-left: 10px;
 	}
 	.lien {
-		grid-column: 8/11;
+		grid-column: 11/12;
 		grid-row: 4;
 		margin-top: 20px;
 		font-weight: 700;
 		color: var(--CTA2);
 		z-index: 44;
+		border: 1px solid var(--CTA2);
+		padding: 10px 20px;
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -108,8 +126,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 50px;
-		width: 50px;
+		height: 80px;
+		width: 80px;
 		grid-column: 2;
 		grid-row: 1;
 		margin-top: 10px;

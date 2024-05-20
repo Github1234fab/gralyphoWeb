@@ -120,7 +120,7 @@
 		font-size: var(--m);
 		color: grey;
 		text-align: center;
-		line-height: 30px;
+		line-height:  30px;
 		margin-top: 20px;
 		margin-left: 10px;
 	}
