@@ -46,7 +46,7 @@
 		justify-content: center;
 		z-index: 0;
 		box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.82);
-			background: linear-gradient(45deg, var(--bleuAcier), var(--bgHero));
+			/* background: linear-gradient(45deg, transparent, var(--bgHero) 85); */
 		/* border-radius: 15px 56px 42px 67px; */
 	}
 	.card-portfolio:hover {
@@ -75,7 +75,7 @@
 		opacity: 1;
 		transition: opacity 0.7s ease-in-out;
 		overflow: hidden;
-		/* box-shadow: 0px 0px 10px rgba(221, 220, 220, 0.512); */
+			box-shadow: 0px 0px 10px rgba(85, 85, 85, 0.82);
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;

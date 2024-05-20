@@ -124,7 +124,7 @@
 		text-align: left;
 		line-height: 30px;
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 40px;
 		grid-column: 2/12;
 		grid-row: 3;
 	}

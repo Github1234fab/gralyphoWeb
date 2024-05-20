@@ -125,7 +125,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background-color: var(--greyBg);
+		background-color: var(--bleuAcier);
 	}
 	.wrapper-text {
 		grid-column: 2/12;

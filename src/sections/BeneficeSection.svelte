@@ -333,6 +333,7 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
+		scroll-behavior: smooth;
 	}
 
 	.section {
@@ -340,7 +341,7 @@
 		
 	}
 	.imageA{
-background-image: url(../Assets/png-gralypho/1.png);
+background-image: url(../Assets/png-gralypho/30.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -352,7 +353,7 @@ background-image: url(../Assets/png-gralypho/40.png);
 		background-size: cover;
 	}
 		.imageC{
-background-image: url(../Assets/png-gralypho/18.png);
+background-image: url(../Assets/png-gralypho/09.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;

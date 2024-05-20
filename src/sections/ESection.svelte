@@ -112,7 +112,7 @@
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: left;
-		line-height: 35px;
+		line-height: 55px;
 	}
 
 	.E-section h3 {
