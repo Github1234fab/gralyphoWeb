@@ -31,12 +31,13 @@
 		max-width: 350px;
 		min-height: 360px;
 		font-family: epilogue;
-		background-color: transparent;
+		background-color: rgba(226, 226, 226, 0.884);
 		margin-top: 30px;
 		margin-bottom: 20px;
 		flex-shrink: 0;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.135);
-		z-index: 0;
+z-index: 3;
+					
 	}
 	.card:hover {
 		animation: bounce 0.4s ease-in-out;

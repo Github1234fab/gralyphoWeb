@@ -22,7 +22,11 @@
 <section class="H-section">
 	<img src={heroAnime} alt="Gif animé" class="img" />
 	<div class="wrapper-text">
-		<h1>Imaginer.<br /> Développer.<br />Créer.</h1>
+		<div class="wrapper-h1">
+			<h1 class="imaginer">Imaginer.</h1>
+			<h1 class="developper">Développer.</h1>
+			<h1 class="creer">Créer.</h1>
+		</div>
 
 		<h3>Conception <span>{textTab[textIndex]}</span></h3>
 		<h2>
@@ -66,18 +70,32 @@
 		z-index: 2;
 	}
 
+	.wrapper-h1 {
+		margin-top: 80px;
+	}
 	.H-section h1 {
 		text-align: left;
 		font-family: 'radio canada big';
 		font-weight: 900;
 		font-size: clamp(4em, 12.5vw, 10em);
 		/* color: #de9d12; */
-		color:  #04a0f5;
+		/* color:  #04a0f5; */
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
-		margin-top: 50px;
+		/* margin-top: 50px; */
 		margin-left: -10px;
 		line-height: clamp(60px, 10.5vw, 150px);
+	}
+	.imaginer {
+		color: #04a1f57a;
+	}
+	.developper {
+		color: #04a1f5b7;
+		margin-top: -10px;
+	}
+	.creer {
+		color: #04a1f5;
+		margin-top: -10px;
 	}
 
 	.H-section h3 {
@@ -88,7 +106,7 @@
 		color: var(--greyBg);
 		transition: 1s ease-in-out;
 		margin-left: -5px;
-		margin-top: 20px;
+		margin-top: 40px;
 		text-align: left;
 	}
 	.H-section h3 span {
@@ -112,15 +130,15 @@
 	}
 	.contact {
 		text-decoration: none;
-		color:  white;
+		color: white;
 		background-color: var(--CTA2);
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: bolder;
 		margin-top: 20px;
 		margin-left: 0px;
-		width: 160px;
-		border-radius:  8px;
+		min-width: 200px;
+		border-radius: 8px;
 		text-align: center;
 		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
@@ -129,7 +147,7 @@
 	.contact:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	
+
 	.wrapper-contact {
 		display: flex;
 		flex-direction: column;
@@ -226,7 +244,7 @@
 			justify-content: flex-start;
 			border-radius: 20px;
 			margin-left: 0px;
-			margin-top: -40px;
+			margin-top: -80px;
 			margin-left: 30px;
 			z-index: 2;
 		}

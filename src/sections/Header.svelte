@@ -119,7 +119,8 @@
 		border: none;
 		grid-column: 6;
 		grid-row: 1;
-		width: 70px;
+		min-width: 70px;
+			min-height: 70px;
 		padding: 0px;
 		
 	}
@@ -132,7 +133,8 @@
 		color: var(--CTA);
 		border: 1px solid white;
 		border-radius: 50%;
-		padding: 20px;
+		padding: 14px;
+	
 	}
 	.burger:hover {
 		animation: bounce 0.4s ease-in-out;
