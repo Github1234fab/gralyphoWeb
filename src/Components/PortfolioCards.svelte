@@ -29,7 +29,7 @@
 	.wrapper-portfolio h1 {
 		font-family: poppins;
 		font-size: var(--m);
-		color: var(--primary);
+		color: white;
 		font-weight: 300;
 		margin-bottom: 20px;
 		letter-spacing: -0.02em;

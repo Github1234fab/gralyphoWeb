@@ -62,7 +62,7 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-left: 50px;
+		margin-left: -40px;
 		z-index: 2;
 	}
 
@@ -76,7 +76,7 @@
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
 		margin-top: 50px;
-		margin-left: 0px;
+		margin-left: -10px;
 		line-height: clamp(60px, 10.5vw, 150px);
 	}
 
@@ -87,7 +87,7 @@
 		letter-spacing: -1px;
 		color: var(--greyBg);
 		transition: 1s ease-in-out;
-		margin-left: 0px;
+		margin-left: -5px;
 		margin-top: 20px;
 		text-align: left;
 	}
@@ -104,7 +104,7 @@
 		text-align: left;
 		line-height: 30px;
 		margin-top: 40px;
-		margin-left: 0px;
+		margin-left: -10px;
 	}
 	.H-section h2 span {
 		font-weight: 600;

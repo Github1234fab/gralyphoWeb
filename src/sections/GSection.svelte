@@ -124,8 +124,6 @@
 		width: 100%;
 		font-size: 16px;
 		background-color: var(--bleuAcier);
-		clip-path: polygon(41% 0, 62% 4%, 78% 1%, 100% 0, 100% 100%, 32% 100%, 0 100%, 0 0, 26% 3%);
-		
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -158,7 +156,7 @@
 	.G-section h3 {
 		font-family: epilogue;
 		font-size: var(--m);
-		color: var(--primary);
+		color: WHITE;
 		font-weight: 400;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;

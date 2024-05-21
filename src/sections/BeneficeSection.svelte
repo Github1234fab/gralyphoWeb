@@ -319,7 +319,7 @@
 
 <div class="section imageC"></div>
 <div class="bloc">
-	<h1 class="title">Augmentez Votre potentiel client.</h1>
+	<h1 class="title">Augmentez votre potentiel de client.</h1>
 	<i class="fa-solid fa-sack-dollar icon-difference"></i>
 	<p>
 		Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO, c'est le moyen
@@ -333,7 +333,7 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		scroll-behavior: smooth;
+		/* scroll-behavior: smooth; */
 	}
 
 	.section {
@@ -341,22 +341,25 @@
 		
 	}
 	.imageA{
-background-image: url(../Assets/png-gralypho/30.png);
+background-image: url(../Assets/png-gralypho/23.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center;
 	}
 		.imageB{
-background-image: url(../Assets/png-gralypho/40.png);
+background-image: url(../Assets/png-gralypho/36.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
+			background-position: center;
 	}
 		.imageC{
 background-image: url(../Assets/png-gralypho/09.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center;
 	}
 	.bloc {
 		min-height: 900px;
