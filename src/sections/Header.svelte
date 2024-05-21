@@ -121,6 +121,7 @@
 		grid-row: 1;
 		width: 70px;
 		padding: 0px;
+		
 	}
 	.burger-menu:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -129,6 +130,9 @@
 		font-size: 2em;
 		border: none;
 		color: var(--CTA);
+		border: 1px solid white;
+		border-radius: 50%;
+		padding: 20px;
 	}
 	.burger:hover {
 		animation: bounce 0.4s ease-in-out;
