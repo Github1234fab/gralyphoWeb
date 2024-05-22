@@ -59,13 +59,14 @@
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
 		height: auto;
+		width: 100%;
 		/* background-color: white; */
 		padding: 20px;
 		/* background-image: url("../Assets/png-gralypho/cerveau5.png");
 		background-size: 50%;
 		background-repeat: no-repeat;
 		background-position: center top 60%; */
-		/* background-color: var(--bgHero); */
+		background-color: rgb(245, 243, 243);
 	}
 	.wrapper-text {
 		grid-column: 2/12;
