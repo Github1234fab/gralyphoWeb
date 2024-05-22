@@ -65,7 +65,7 @@
 		background-size: 50%;
 		background-repeat: no-repeat;
 		background-position: center top 60%; */
-		background-color: var(--bgHero);
+		/* background-color: var(--bgHero); */
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -90,7 +90,7 @@
 	.form-contactez {
 		font-family: 'Heebo';
 		font-size: var(--xl);
-		color: var(--colorC);
+		color: var(--primary);
 		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -117,7 +117,6 @@
 		letter-spacing: -0.05em;
 	} */
 	.form {
-		
 		grid-column: 2/12;
 		grid-row: 3;
 		display: flex;
@@ -134,23 +133,24 @@
 		border: 1px solid rgb(129, 128, 128);
 		font-family: 'Red Hat Display';
 		font-weight: 400;
-		padding: 10px;
+		padding: 20px;
 		border-radius: 8px;
-		box-shadow: 0px 0px 8px 0px rgba(24, 24, 24, 0.744);
+		box-shadow: 0px 0px 10px 0px rgba(24, 24, 24, 0.249);
 		width: clamp(300px, 35%, 400px);
 		text-align: left;
-		color: white;
+		color: var(--primary);
 	}
 	input:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	input::placeholder {
 		color: rgb(187, 183, 183);
-		font-size: 0.7em;
+	
+			font-size: var(--m);
 	}
 	.demande {
 		border: 1px solid rgb(129, 128, 128);
-		font-family: "Red Hat Display";
+		font-family: 'Red Hat Display';
 		font-weight: 400;
 		padding: 10px;
 		border-radius: 8px;
@@ -163,14 +163,16 @@
 	.demande::placeholder {
 		color: rgb(187, 183, 183);
 		font-size: 0.7em;
+			font-size: var(--m);
 	}
 	label {
 		border: none;
 		font-family: Poppins;
-		font-weight: 500;
+		font-weight: 700;
 		color: var(--primary);
 		letter-spacing: -0.05em;
-		color: var(--colorC);
+		font-size: var(--m);
+	
 	}
 	.button {
 		justify-content: flex-end;

@@ -37,7 +37,7 @@
 		</h2>
 
 		<div class="wrapper-contact">
-			<a class="contact" href="/#section-form">Nous contacter</a>
+			<a class="contact" href="/#section-form">Contactez-nous</a>
 			<!-- <a class="contact2" href="/#footer">Devis gratuit</a> -->
 		</div>
 	</div>
@@ -130,15 +130,15 @@
 	}
 	.contact {
 		text-decoration: none;
-		color: white;
-		background-color: var(--CTA2);
+		color:  var(--primary);
+		background-color: var(--orange);
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: bolder;
 		margin-top: 20px;
 		margin-left: 0px;
 		min-width: 200px;
-		border-radius: 8px;
+		border-radius: 2px;
 		text-align: center;
 		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);

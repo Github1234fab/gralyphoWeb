@@ -119,9 +119,8 @@
 		border: none;
 		grid-column: 6;
 		grid-row: 1;
-		min-width: 70px;
-			min-height: 70px;
-		padding: 0px;
+	
+		padding: 10px;
 		
 	}
 	.burger-menu:hover {
@@ -134,6 +133,8 @@
 		border: 1px solid white;
 		border-radius: 50%;
 		padding: 14px;
+			max-width: 70px;
+			max-height: 70px;
 	
 	}
 	.burger:hover {

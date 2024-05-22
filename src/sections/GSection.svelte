@@ -36,7 +36,7 @@
 		{
 			type: 'Site Web',
 			title: 'Le Lion Taxi',
-			text: 'Compagnie de Taxi',
+			text: 'Taxi',
 			img: animationSite,
 			lien: 'https://taxi-lyon-aeroport-rhone.com'
 		},
@@ -123,7 +123,9 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background-color: var(--bleuAcier);
+		/* background-color: var(--bleuAcier); */
+		background-image: linear-gradient(180deg, #1a2c39 0%, #0f1f2a 100%);
+
 	}
 	.wrapper-text {
 		grid-column: 2/12;

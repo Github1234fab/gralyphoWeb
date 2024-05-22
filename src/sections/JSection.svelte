@@ -146,8 +146,9 @@
 		text-align: left;
 		background-color: var(--bleuAcier);
 		padding: 20px;
+		max-width: 80%;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
-		clip-path: polygon(50% 0%, 97% 3%, 100% 43%, 100% 91%, 68% 100%, 0 96%, 0 45%, 0 5%, 17% 12%);
+		/* clip-path: polygon(50% 0%, 97% 3%, 100% 43%, 100% 91%, 68% 100%, 0 96%, 0 45%, 0 5%, 17% 12%); */
 	}
 
 	@media screen and (max-width: 768px) {
