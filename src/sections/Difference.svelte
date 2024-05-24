@@ -68,9 +68,11 @@
 
 <style>
 	.img {
-		width: auto;
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
 		max-height: 300px;
-		border-radius: 20px;
+		border-radius: 10px 10px 150px 10px;
 		margin-top: 70px;
 		grid-column: 2/12;
 		grid-row: 4;
@@ -109,7 +111,7 @@
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
 		text-align: left;
-		line-height: 35px;
+		line-height: 55px;
 		margin-top: 30px;
 		grid-column: 2/12;
 		grid-row: 2;

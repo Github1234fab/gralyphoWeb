@@ -178,7 +178,7 @@
 		align-items: center;
 		margin-top: 50px;
 		margin-bottom: 100px;
-		gap: 15px;
+		gap: 25px;
 	}
 	:global(.card-portfolio) {
 		flex: 1 1 50%;

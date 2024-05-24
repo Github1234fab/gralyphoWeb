@@ -71,7 +71,7 @@ function changeToFalse() {
 		padding: 20px;
 		border: none;
 		/* border-radius: 30px; */
-		min-height: 600px;
+		height: 500px;
 	}
 	/* .card-services:hover .icon {
 		transform: rotateY(360deg);
@@ -87,7 +87,7 @@ function changeToFalse() {
 		margin-top: 0px;
 	}
 	.card-services h2 {
-		font-family: Poppins;
+		font-family: Heebo;
 		grid-column: 1/12;
 		grid-row: 2;
 		font-weight: 400;
@@ -100,7 +100,7 @@ function changeToFalse() {
 	.p {
 		grid-column: 1/12;
 		grid-row: 3;
-		font-family: poppins;
+		font-family: Heebo;
 		font-weight: 400;
 		font-size: var(--m);
 		color: var(--primary);
@@ -114,10 +114,13 @@ function changeToFalse() {
 		grid-row: 4;
 		margin-top: 20px;
 		font-weight: 700;
-		color: var(--CTA2);
+		color: var(--primary);
+		background-color: var(--CTA-jaune);
 		z-index: 44;
 		border: 1px solid var(--CTA2);
 		padding: 10px 20px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 10px rgba(45, 45, 45, 0.163);
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -126,14 +129,14 @@ function changeToFalse() {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		height: 80px;
-		width: 80px;
+		height: 60px;
+		width: 60px;
 		grid-column: 2;
 		grid-row: 1;
 		margin-top: 10px;
 		transition: 0.7s ease-in-out;
 		color: var(--CTA2);
-		font-size: 2.4em;
+		font-size: 1.2em;
 		z-index: 2;
 		text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.18);
 	}

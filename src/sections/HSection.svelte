@@ -5,8 +5,7 @@
 	import SVG from '../Assets/png-gralypho/svgHero.svg';
 	import animationHero from '../Assets/png-gralypho/animationHero.mp4';
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
-	// import line from "../Assets/png-gralypho/circle-13.svg";
-	// import arrow from "../Assets/png-gralypho/arrow-34.svg";
+	// import Particules from '../Components/Particules.svelte';
 
 	let textIndex = 0;
 	let textTab = [' de Site Internet.', "d'Applications."];
@@ -17,9 +16,10 @@
 		}, 1200);
 	});
 </script>
-
+<!-- <Particules/> -->
 <Header />
 <section class="H-section">
+	
 	<img src={heroAnime} alt="Gif animé" class="img" />
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
@@ -38,7 +38,6 @@
 
 		<div class="wrapper-contact">
 			<a class="contact" href="/#section-form">Contactez-nous</a>
-			<!-- <a class="contact2" href="/#footer">Devis gratuit</a> -->
 		</div>
 	</div>
 </section>
@@ -66,7 +65,7 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-left: -40px;
+		margin-left: 50px;
 		z-index: 2;
 	}
 
@@ -78,12 +77,9 @@
 		font-family: 'radio canada big';
 		font-weight: 900;
 		font-size: clamp(4em, 12.5vw, 10em);
-		/* color: #de9d12; */
-		/* color:  #04a0f5; */
 		text-transform: capitalize;
 		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
-		/* margin-top: 50px; */
-		margin-left: -10px;
+		margin-left: -20px;
 		line-height: clamp(60px, 10.5vw, 150px);
 	}
 	.imaginer {
@@ -131,14 +127,14 @@
 	.contact {
 		text-decoration: none;
 		color:  var(--primary);
-		background-color: var(--orange);
-		font-family: 'Red Hat Display';
+		background-color: var(--CTA-jaune);
+		font-family: 'Heebo';
 		font-size: var(--m);
 		font-weight: bolder;
 		margin-top: 20px;
 		margin-left: 0px;
 		min-width: 200px;
-		border-radius: 2px;
+		border-radius: 5px;
 		text-align: center;
 		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);

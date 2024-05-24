@@ -1,9 +1,11 @@
 <script>
   import "./styles.css";
   import Footer from "../sections/Footer.svelte";
+  import Particules from "../Components/Particules.svelte";
 </script>
 
 <main>
+  <Particules />
   <slot />
   <div id="footer">
     <Footer />

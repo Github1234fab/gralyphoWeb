@@ -36,7 +36,6 @@
 	{/if}
 </nav>
 
-
 <style>
 	.navigation {
 		grid-template-columns: repeat(12, 1fr);
@@ -108,7 +107,7 @@
 		text-decoration: none;
 		transition: 0.4s ease-in-out;
 		z-index: 2;
-        font-family: 'Red Hat Display';
+		font-family: 'Red Hat Display';
 	}
 	a:hover {
 		transition: 0.4s ease-in-out;
@@ -119,9 +118,7 @@
 		border: none;
 		grid-column: 6;
 		grid-row: 1;
-	
 		padding: 10px;
-		
 	}
 	.burger-menu:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -130,12 +127,11 @@
 		font-size: 2em;
 		border: none;
 		color: var(--CTA);
-		border: 1px solid white;
+		border: 1px solid grey;
 		border-radius: 50%;
 		padding: 14px;
-			max-width: 70px;
-			max-height: 70px;
-	
+		max-width: 100px;
+		max-height: 70px;
 	}
 	.burger:hover {
 		animation: bounce 0.4s ease-in-out;

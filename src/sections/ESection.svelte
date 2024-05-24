@@ -16,7 +16,7 @@
 			p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
 		},
 		{
-			title: "Développement  d'Application Web",
+			title: "Développement  d'Application",
 			lien: '/Applications',
 			i: iconApplication,
 			// i: 'fa-solid fa-mobile-screen',
@@ -56,7 +56,7 @@
 <section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
-		<h2>Nous créons votre site Web sur mesure.</h2>
+		<h2>Sites sur mesure, applications, refonte, stratégie, Seo, réseaux sociaux.</h2>
 		<h3>
 			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre identité et de vos exigences.  Nous nous occupons également de la <span>création de votre identité graphique</span> , de votre logo, de votre design, de la création de vos contenus et de la gestion de vos <span>réseaux sociaux. </span><br>
 			Nous ne sommes pas dépendant des templates de sites Web, nous créons des <span>sites Web sur mesure</span> et la seule limite, c'est votre <span>imagination!</span>
@@ -82,7 +82,7 @@
 		overflow: hidden;
 	}
 	:global(.card-services) {
-		flex: 1 1 25%;
+		flex: 1 1 26%;
 		min-height: 400px;
 	}
 	.wrapper-text {
@@ -112,7 +112,8 @@
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: left;
-		line-height: 35px;
+		line-height: 49px;
+		margin-top: 20px;
 	}
 
 	.E-section h3 {
@@ -125,7 +126,7 @@
 		text-align: left;
 		line-height: 30px;
 		width: 100%;
-		margin: 20px auto;
+		margin: 50px auto;
 	}
 		.E-section h3 span {
 		font-weight: 800;

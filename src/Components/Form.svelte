@@ -1,8 +1,6 @@
 <script>
 </script>
 
-<!-- <a href="/SuccesForm">Succes</a> -->
-
 <section class="section-form" id="section-form">
 	<div class="wrapper-text">
 		<h3 class="form-title">Formulaire de contact</h3>
@@ -26,28 +24,22 @@
 	>
 		<input type="hidden" name="form-name" value="contact-form-gralypho" />
 
-		<label for="nom">Nom </label>
-		<input name="nom" type="text" id="nom" required placeholder="John" />
+		<div class="wrapper-inputs">
+		
+			<input name="nom" type="text" id="nom" required placeholder="Nom" />
+			
+			<input name="prenom" type="text" id="prenom" required placeholder="Prénom" />
+		</div>
 
-		<label for="prenom">Prénom </label>
-		<input name="prenom" type="text" id="prenom" required placeholder="Doe" />
+		<div class="wrapper-inputs">
+		
+			<input name="email" type="email" id="email" required placeholder="Adresse mail" />
+		
+			<input name="telephone" type="tel" id="telephone" required placeholder="Téléphone" />
+		</div>
 
-		<label for="societe">Société (optionnel)</label>
-		<input name="societe" type="text" id="societe" placeholder="ikea" />
 
-		<label for="email">Email </label>
-		<input name="email" type="email" id="email" required placeholder="johndoe@gmail.com" />
-
-		<label for="telephone">Téléphone </label>
-		<input name="telephone" type="tel" id="telephone" required placeholder="01020304" />
-
-		<label for="demande">Votre demande </label>
-		<textarea
-			name="demande"
-			id="demande"
-			class="demande"
-			placeholder="Votre projet, vos idées, vos questions ..."
-		></textarea>
+		<textarea name="demande" id="demande" class="demande" placeholder="Votre demande"></textarea>
 
 		<input class="button" type="submit" value="Envoyez" />
 	</form>
@@ -60,12 +52,7 @@
 		grid-template-rows: auto;
 		height: auto;
 		width: 100%;
-		/* background-color: white; */
 		padding: 20px;
-		/* background-image: url("../Assets/png-gralypho/cerveau5.png");
-		background-size: 50%;
-		background-repeat: no-repeat;
-		background-position: center top 60%; */
 		background-color: rgb(245, 243, 243);
 	}
 	.wrapper-text {
@@ -97,26 +84,7 @@
 		letter-spacing: -0.04em;
 		text-align: center;
 	}
-	/* .section-form h3 {
-		font-family: Heebo;
-		text-transform: uppercase;
-		font-size: var(--m);
-		color: var(--jauneB);
-		font-weight: 600;
-		margin-bottom: 0px;
-		letter-spacing: -0.04em;
-		text-align: center;
-		margin-bottom: 20px;
-	}
-	.section-form h1 {
-		margin: 0 auto;
-		text-align: center;
-		font-family: epilogue;
-		font-weight: 700;
-		font-size: var(--l);
-		color: var(--colorC);
-		letter-spacing: -0.05em;
-	} */
+
 	.form {
 		grid-column: 2/12;
 		grid-row: 3;
@@ -126,55 +94,50 @@
 		gap: 20px;
 		padding: 20px;
 		margin-top: 50px;
-		/* background-color: rgba(255, 255, 255, 0.277);
-		backdrop-filter: blur(10px); */
+	}
+	.wrapper-inputs {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
 	}
 	input {
 		background-color: transparent;
-		border: 1px solid rgb(129, 128, 128);
+		border: 2px solid rgb(217, 216, 216);
 		font-family: 'Red Hat Display';
 		font-weight: 400;
 		padding: 20px;
-		border-radius: 8px;
-		box-shadow: 0px 0px 10px 0px rgba(24, 24, 24, 0.249);
+		border-radius: 15px;
 		width: clamp(300px, 35%, 400px);
 		text-align: left;
 		color: var(--primary);
+		font-size: 1rem;
 	}
 	input:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	input::placeholder {
 		color: rgb(187, 183, 183);
-	
-			font-size: var(--m);
+
+		font-size: var(--m);
 	}
 	.demande {
-		border: 1px solid rgb(129, 128, 128);
+		border: 2px solid rgb(220, 219, 219);
 		font-family: 'Red Hat Display';
 		font-weight: 400;
 		padding: 10px;
-		border-radius: 8px;
-		width: clamp(300px, 35%, 400px);
+		border-radius: 15px;
+		width: 60%;
 		min-height: 200px;
-		box-shadow: 0px 0px 8px 0px rgba(24, 24, 24, 0.744);
 		background-color: transparent;
-		color: white;
+		color: var(--primary);
+				font-size: 1rem;
 	}
 	.demande::placeholder {
 		color: rgb(187, 183, 183);
 		font-size: 0.7em;
-			font-size: var(--m);
-	}
-	label {
-		border: none;
-		font-family: Poppins;
-		font-weight: 700;
-		color: var(--primary);
-		letter-spacing: -0.05em;
 		font-size: var(--m);
-	
 	}
+
 	.button {
 		justify-content: flex-end;
 		border: none;
@@ -218,23 +181,30 @@
 		gap: 20px;
 	}
 	.icon-coordonnees {
-		color: orange;
+		color: var(--primary);
 	}
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
-		color: var(--orange);
+		color: var(--primary);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;
 		word-spacing: 6px;
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 978px) {
 		.coordonnees {
 			flex-direction: column;
 			margin-top: 20px;
 			gap: 5px;
+		}
+		.wrapper-inputs{
+			display: flex;
+			flex-direction: column;
+		}
+		.demande{
+			min-width: 100%;
 		}
 	}
 </style>

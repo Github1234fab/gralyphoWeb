@@ -83,13 +83,11 @@
 		font-size: 16px;
 		margin-top: 0px;
 		/* background-color: var(--colorC); */
-		background-image: url('../Assets/png-gralypho/confetis.png');
+		/* background-image: url('../Assets/png-gralypho/confetis.png'); */
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: bottom;
 		z-index: 0;
-
-		
 	}
 	.gallery {
 		overflow-x: auto;
@@ -98,7 +96,6 @@
 		margin-left: 100px;
 		margin-bottom: 100px;
 		margin-top: 30px;
-				
 	}
 
 	.wrapper-contain {
@@ -110,8 +107,6 @@
 		align-items: center;
 		margin-bottom: 30px;
 		gap: 20px;
-
-	
 	}
 	.wrapper-text-testi {
 		grid-column: 2/13;
@@ -138,17 +133,13 @@
 	.wrapper-text-testi h2 {
 		font-family: 'heebo';
 		font-size: var(--xl);
-		color: white;
+		color: var(--primary);
 		font-weight: 700;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		/* margin-left: 10px; */
 		text-align: left;
-		background-color: var(--bleuAcier);
-		padding: 20px;
 		max-width: 80%;
-		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
-		/* clip-path: polygon(50% 0%, 97% 3%, 100% 43%, 100% 91%, 68% 100%, 0 96%, 0 45%, 0 5%, 17% 12%); */
 	}
 
 	@media screen and (max-width: 768px) {

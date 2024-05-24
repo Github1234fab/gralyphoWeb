@@ -368,7 +368,7 @@ background-image: url(../Assets/png-gralypho/09.png);
 		align-items: center;
 		justify-content: center;
 		/* padding: 200px; */
-		background-image: linear-gradient(45deg, navy, pink);
+		background-image: linear-gradient(45deg, navy 45%, pink );
 		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
 
 	}
@@ -396,11 +396,11 @@ background-image: url(../Assets/png-gralypho/09.png);
 		color: white;
 	}
 	.lien-bouton {
-		background-color: var(--CTA);
+		background-color: var(--CTA-jaune);
 		border-radius: 8px;
 		padding: 20px 14px;
 		font-family: heebo;
-		color: black;
+		color: var(--primary);
 		font-weight: 700;
 		margin-top: 50PX;
 		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
