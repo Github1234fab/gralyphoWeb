@@ -338,24 +338,23 @@
 
 	.section {
 		height: 100vh;
-		
 	}
-	.imageA{
-background-image: url(../Assets/png-gralypho/23.png);
+	.imageA {
+		background-image: url(../Assets/png-gralypho/23.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 	}
-		.imageB{
-background-image: url(../Assets/png-gralypho/36.png);
+	.imageB {
+		background-image: url(../Assets/png-gralypho/36.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-			background-position: center;
+		background-position: center;
 	}
-		.imageC{
-background-image: url(../Assets/png-gralypho/09.png);
+	.imageC {
+		background-image: url(../Assets/png-gralypho/09.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -368,24 +367,23 @@ background-image: url(../Assets/png-gralypho/09.png);
 		align-items: center;
 		justify-content: center;
 		/* padding: 200px; */
-		background-image: linear-gradient(45deg, navy 45%, pink );
-		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
-
+		background-image: linear-gradient(45deg, navy 45%, pink);
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.title {
 		font-family: heebo;
 		padding: 20px;
 		text-align: center;
 		color: white;
-	
 	}
 	.icon-difference {
 		font-size: 3rem;
-		color: blue;
+		color: var(--bleuAcier);
 		margin-top: 20px;
 		border: solid white 1px;
 		padding: 30px;
-		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
+		border-radius: 10px;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.bloc p {
 		font-family: heebo;
@@ -402,8 +400,8 @@ background-image: url(../Assets/png-gralypho/09.png);
 		font-family: heebo;
 		color: var(--primary);
 		font-weight: 700;
-		margin-top: 50PX;
-		box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.34);
+		margin-top: 50px;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.lien-bouton:hover {
 		animation: bounce 0.4s ease-in-out;
