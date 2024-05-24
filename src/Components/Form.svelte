@@ -141,7 +141,7 @@
 	.button {
 		justify-content: flex-end;
 		border: none;
-		background-color: var(--CTA);
+		background-color: var(--CTA-jaune);
 		color: white;
 		font-family: epilogue;
 		font-weight: 700;

@@ -126,9 +126,9 @@
 	}
 	.contact {
 		text-decoration: none;
-		color:  var(--primary);
+		color:  white;
 		background-color: var(--CTA-jaune);
-		font-family: 'Heebo';
+		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: bolder;
 		margin-top: 20px;

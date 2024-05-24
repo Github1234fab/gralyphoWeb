@@ -87,7 +87,7 @@
 		width: 100px;
 		left: 0px;
 		transform: translateX(330px);
-		background: var(--CTA);
+		background: var(--CTA-jaune);
 		transition: 0.6s ease-in-out;
 		display: flex;
 		align-items: center;

@@ -367,7 +367,8 @@
 		align-items: center;
 		justify-content: center;
 		/* padding: 200px; */
-		background-image: linear-gradient(45deg, navy 45%, pink);
+		/* background-image: linear-gradient(45deg, navy 45%, pink); */
+		background-color: var(--bgHero);
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.title {
@@ -397,9 +398,9 @@
 		background-color: var(--CTA-jaune);
 		border-radius: 8px;
 		padding: 20px 14px;
-		font-family: heebo;
-		color: var(--primary);
-		font-weight: 700;
+		font-family: "Red Hat Display";
+		color: white;
+		font-weight: 800;
 		margin-top: 50px;
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
