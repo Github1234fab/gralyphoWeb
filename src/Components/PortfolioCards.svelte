@@ -72,7 +72,7 @@
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
-		box-shadow: inset 0px 0px 13px 1px black;
+		box-shadow: inset 0px 0px 13px 4px black;
 		padding: 50px;
 		border-radius: 20px;
 	}

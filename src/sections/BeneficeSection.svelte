@@ -1,5 +1,3 @@
-
-
 <div class="container">
 	<div class="section imageA"></div>
 	<div class="bloc">
@@ -109,7 +107,7 @@
 		background-color: var(--CTA-jaune);
 		border-radius: 8px;
 		padding: 20px 14px;
-		font-family: "Red Hat Display";
+		font-family: 'Red Hat Display';
 		color: white;
 		font-weight: 800;
 		margin-top: 50px;
@@ -134,6 +132,14 @@
 		}
 		100% {
 			transform: scale(1) translateY(0);
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		.bloc p {
+			padding: 30px;
+			color: white;
+			max-width: 100%;
 		}
 	}
 </style>
