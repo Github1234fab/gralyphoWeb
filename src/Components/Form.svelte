@@ -86,7 +86,7 @@
 	}
 
 	.form {
-		grid-column: 2/12;
+		grid-column: 1/13;
 		grid-row: 3;
 		display: flex;
 		flex-direction: column;

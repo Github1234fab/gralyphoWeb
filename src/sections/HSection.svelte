@@ -208,7 +208,7 @@
 			justify-content: flex-start;
 			border-radius: 20px;
 			margin-left: 0px;
-			margin-top: -80px;
+			margin-top: 10px;
 			margin-left: 30px;
 			z-index: 2;
 		}
