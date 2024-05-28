@@ -23,6 +23,7 @@
 	"dependencies": {
 		"@tsparticles/svelte": "^3.0.0",
 		"particles.js": "^2.0.0",
-		"tsparticles": "^3.4.0"
+		"tsparticles": "^3.4.0",
+		"typewriter-effect": "^2.21.0"
 	}
 }

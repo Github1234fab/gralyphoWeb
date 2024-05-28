@@ -5,6 +5,7 @@
 	import SVG from '../Assets/png-gralypho/svgHero.svg';
 	import animationHero from '../Assets/png-gralypho/animationHero.mp4';
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
+	import AutoText from '../Components/AutoText.svelte';
 
 	let textIndex = 0;
 	let textTab = [' de Site Internet.', "d'Applications."];
@@ -18,16 +19,15 @@
 
 <Header />
 <section class="H-section">
+	
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="imaginer">Imaginer.</h1>
-
 			<h1 class="developper">Développer.</h1>
 			<h1 class="creer">Créer.</h1>
 			<div class="particules"></div>
 		</div>
-
-		<h3>Conception <span>{textTab[textIndex]}</span></h3>
+		<h3>Nos compétences : <span class="autoText"><AutoText/></span></h3>
 		<h2>
 			Nous nous engageons à améliorer la <span>communication </span> et la <span>visibilité</span>
 			de votre entreprise. <br />Grâce à des solutions digitales sur <span>mesure</span>, nous vous
@@ -42,6 +42,7 @@
 </section>
 
 <style>
+
 	.H-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -98,9 +99,10 @@
 		margin-left: -5px;
 		margin-top: 40px;
 		text-align: left;
+		width: 100%;
 	}
-	.H-section h3 span {
-		color: rgb(191, 191, 191);
+	.autoText {
+		color:  yellow;
 		font-weight: 700;
 		font-size: 1.2rem;
 	}
@@ -116,7 +118,7 @@
 	}
 	.H-section h2 span {
 		font-weight: 600;
-		color: var(--greyBg);
+		color: var(--CTA-jaune);
 	}
 	.contact {
 		text-decoration: none;
