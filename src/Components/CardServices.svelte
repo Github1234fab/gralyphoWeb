@@ -114,7 +114,7 @@ function changeToFalse() {
 		grid-row: 4;
 		margin-top: 20px;
 		font-weight: 700;
-		color: var(--primary);
+		color: white;
 		background-color: var(--CTA-jaune);
 		z-index: 44;
 		border: 1px solid var(--CTA2);

@@ -93,10 +93,11 @@
 		align-items: center;
 		gap: 20px;
 		padding: 20px;
-		margin-top: 50px;
+		margin: 50px auto;
 	}
 	.wrapper-inputs {
 		display: flex;
+		align-items: center;
 		flex-direction: row;
 		gap: 20px;
 	}
@@ -126,9 +127,9 @@
 		font-weight: 400;
 		padding: 10px;
 		border-radius: 15px;
-		width: 60%;
+		width: 100%;
 		min-height: 200px;
-		background-color: transparent;
+		background-color:  transparent;
 		color: var(--primary);
 				font-size: 1rem;
 	}
@@ -202,9 +203,12 @@
 		.wrapper-inputs{
 			display: flex;
 			flex-direction: column;
+			width: 100%;
+			margin: auto;
 		}
 		.demande{
-			min-width: 100%;
+		width: 100%;
+				
 		}
 	}
 </style>

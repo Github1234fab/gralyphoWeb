@@ -80,6 +80,8 @@
 		font-size: 16px;
 		background-color: var(--greyBg);
 		overflow: hidden;
+	
+
 	}
 	:global(.card-services) {
 		flex: 1 1 26%;

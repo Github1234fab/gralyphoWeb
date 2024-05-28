@@ -5,7 +5,6 @@
 	import SVG from '../Assets/png-gralypho/svgHero.svg';
 	import animationHero from '../Assets/png-gralypho/animationHero.mp4';
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
-	// import Particules from '../Components/Particules.svelte';
 
 	let textIndex = 0;
 	let textTab = [' de Site Internet.', "d'Applications."];
@@ -16,16 +15,16 @@
 		}, 1200);
 	});
 </script>
-<!-- <Particules/> -->
+
 <Header />
 <section class="H-section">
-	
-	<img src={heroAnime} alt="Gif animé" class="img" />
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="imaginer">Imaginer.</h1>
+
 			<h1 class="developper">Développer.</h1>
 			<h1 class="creer">Créer.</h1>
+			<div class="particules"></div>
 		</div>
 
 		<h3>Conception <span>{textTab[textIndex]}</span></h3>
@@ -51,21 +50,16 @@
 		font-size: 16px;
 		opacity: 1;
 		background-color: rgb(26, 44, 57);
+		z-index: 5;
 	}
-	.img {
-		grid-column: 9/ 12;
-		grid-row: 1;
-		height: 400px;
-		width: auto;
-		margin-top: 100px;
-	}
+
 	.wrapper-text {
 		grid-column: 1 / 8;
 		grid-row: 1/3;
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-left: 50px;
+		margin-left: 100px;
 		z-index: 2;
 	}
 
@@ -126,7 +120,7 @@
 	}
 	.contact {
 		text-decoration: none;
-		color:  white;
+		color: white;
 		background-color: var(--CTA-jaune);
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
@@ -173,14 +167,6 @@
 	}
 
 	@media screen and (max-width: 1440px) {
-		.img {
-			grid-column: 9/12;
-			grid-row: 1;
-			margin: auto;
-			height: 350px;
-			margin-top: 100px;
-			/* display: none; */
-		}
 		.wrapper-text {
 			grid-column: 1 / 7;
 			grid-row: 1;
@@ -191,20 +177,12 @@
 			border-radius: 20px;
 			margin-left: 0px;
 			margin-top: 20px;
-			margin-left: 30px;
+			margin-left: 100px;
 			z-index: 2;
 		}
 	}
 
 	@media screen and (max-width: 1024px) {
-		.img {
-			grid-column: 3/12;
-			grid-row: 1;
-			margin: auto;
-			height: 320px;
-			margin-top: -20px;
-			/* display: none; */
-		}
 		.wrapper-text {
 			grid-column: 1 / 12;
 			grid-row: 2;
@@ -215,22 +193,12 @@
 			border-radius: 20px;
 			margin-left: 0px;
 			margin-top: -20px;
-			margin-left: 30px;
+			margin-left: 100px;
 			z-index: 2;
 		}
 	}
 
 	@media screen and (max-width: 767px) {
-		.img {
-			grid-column: 3/12;
-			grid-row: 1;
-			margin: auto;
-			height: 300px;
-			margin-top: -20px;
-			margin-left: -20px;
-			/* display: none; */
-		}
-
 		.wrapper-text {
 			grid-column: 1 / 12;
 			grid-row: 2;
@@ -243,6 +211,12 @@
 			margin-top: -80px;
 			margin-left: 30px;
 			z-index: 2;
+		}
+		.particules {
+			grid-column: 1/12;
+			grid-row: 1;
+			margin-top: 10px;
+			margin-bottom: 40px;
 		}
 	}
 </style>

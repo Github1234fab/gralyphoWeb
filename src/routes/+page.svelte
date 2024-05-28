@@ -25,12 +25,12 @@
 	<section id="sectionE">
 		<ESection />
 	</section>
-		<Difference />
-	<BeneficeSection /> 
+	<Difference />
+	<BeneficeSection />
 	<JSection />
 	<GSection />
-	
-	<Form />  
+
+	<Form />
 </main>
 
 <style>
