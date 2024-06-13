@@ -2,7 +2,7 @@
 	<div class="section imageA"></div>
 	<div class="bloc">
 		<h1 class="title">Automatisez votre outil digital.</h1>
-		<i class="fa-solid fa-hourglass icon-difference"></i>
+		<i class="fa-solid fa-chart-line icon-difference"></i>
 		<p>
 			Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. <br />Une
 			hyper-présence sur le net qui vous permet d'économisez du temps pour vous consacrer à d'autres
@@ -15,7 +15,7 @@
 <div class="section imageB"></div>
 <div class="bloc">
 	<h1 class="title">Économisez du temps et de l'argent.</h1>
-	<i class="fa-solid fa-chart-line icon-difference"></i>
+	<i class=" fa-solid fa-hourglass icon-difference"></i>
 
 	<p>
 		Améliorez votre productivité grâce au potentiel de votre outil digital. Votre application ou
