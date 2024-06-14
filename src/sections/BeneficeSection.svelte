@@ -41,7 +41,6 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		/* scroll-behavior: smooth; */
 	}
 
 	.section {
@@ -74,8 +73,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		/* padding: 200px; */
-		/* background-image: linear-gradient(45deg, navy 45%, pink); */
 		background-color: var(--bgHero);
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}

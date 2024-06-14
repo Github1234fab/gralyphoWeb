@@ -195,7 +195,7 @@
 		align-items: center;
 		flex-direction: column;
 		height: 100%;
-		scroll-behavior: smooth;
+		
 	}
 
 	.container-p {
