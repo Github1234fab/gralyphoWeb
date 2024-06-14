@@ -34,11 +34,6 @@
 			<a href="tel:0672901614" class="contact" target="_blank"
 				><i class="fa-solid fa-phone-volume icon"></i></a
 			>
-			<a
-				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-				class="contact"
-				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-			>
 		</div>
 	</div>
 	<div class="parallax img-ecommerce"></div>
@@ -65,11 +60,6 @@
 			<a href="tel:0672901614" class="contact" target="_blank"
 				><i class="fa-solid fa-phone-volume icon"></i></a
 			>
-			<a
-				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-				class="contact"
-				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-			>
 		</div>
 	</div>
 	<div class="parallax img-blog"></div>
@@ -93,11 +83,6 @@
 			<a href="tel:0672901614" class="contact" target="_blank"
 				><i class="fa-solid fa-phone-volume icon"></i></a
 			>
-			<a
-				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-				class="contact"
-				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-			>
 		</div>
 	</div>
 	<div class="parallax img-portfolio"></div>
@@ -119,11 +104,6 @@
 			>
 			<a href="tel:0672901614" class="contact" target="_blank"
 				><i class="fa-solid fa-phone-volume icon"></i></a
-			>
-			<a
-				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-				class="contact"
-				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
 			>
 		</div>
 	</div>
@@ -150,11 +130,6 @@
 			<a href="tel:0672901614" class="contact" target="_blank"
 				><i class="fa-solid fa-phone-volume icon"></i></a
 			>
-			<a
-				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-				class="contact"
-				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-			>
 		</div>
 	</div>
 	<div class="parallax img-institutionnel"></div>
@@ -179,11 +154,6 @@
 			<a href="tel:0672901614" class="contact" target="_blank"
 				><i class="fa-solid fa-phone-volume icon"></i></a
 			>
-			<a
-				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-				class="contact"
-				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-			>
 		</div>
 	</div>
 </div>
@@ -195,7 +165,6 @@
 		align-items: center;
 		flex-direction: column;
 		height: 100%;
-		
 	}
 
 	.container-p {
@@ -279,16 +248,16 @@
 		transition: 0.2s ease-in-out;
 		padding: 35px;
 		background-color: var(--bleuAcier);
-
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px black;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		border: solid 1px white;
 	}
 	.contact:hover {
-		animation: bounce 0.4s ease-in-out;
-		font-weight: 800;
+		transform: scale(0.95);
+		border: solid 2px white;
 	}
 	.wrapper-contactez {
 		display: flex;
@@ -303,8 +272,8 @@
 			font-weight: 300;
 		}
 		.container-p {
-		height: 100%;
-		padding: 50px;
+			height: 100%;
+			padding: 50px;
 		}
 		.img-vitrine {
 			background-image: url(../../Assets/png-gralypho/vitrine.jpg);
