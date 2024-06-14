@@ -22,23 +22,24 @@
 			clients, de convertir des prospects (...). <br /><br />De nombreux sites vitrines contiennent
 			seulement un formulaire de contact et nombreux sont ceux dont seul les contacts mail,
 			téléphonique et les liens vers les réseaux sociaux figurent. En revanche le contenu du site
-			exige un design soigné, élaboré et la navigation, l'UX et l'UI sont déterminants. <br><br>
-			Vous avez besoin d'un site Vitrine? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
-
+			exige un design soigné, élaboré et la navigation, l'UX et l'UI sont déterminants. <br /><br />
+			Vous avez besoin d'un site Vitrine? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais,
+			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
+			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
-	<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
-		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
-		>
-		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-		>
-	</div>
+		<div class="wrapper-contactez">
+			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+				><i class="fa-regular fa-envelope icon"></i></a
+			>
+			<a href="tel:0672901614" class="contact" target="_blank"
+				><i class="fa-solid fa-phone-volume icon"></i></a
+			>
+			<a
+				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+				class="contact"
+				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			>
+		</div>
 	</div>
 	<div class="parallax img-ecommerce"></div>
 	<div class="container-p">
@@ -51,22 +52,25 @@
 			services en ligne, en restant ouverte 24h/24 et 7/7. <br /><br />C'est l'outil digital par
 			excellence, celui qui travaille pour vous, à votre place pednant que vous êtes occupé
 			ailleurs. La conception d'un site de E-commerce nécessite une grande expertise en gestion des
-			flux, en stockage des datas et une parfaite connaissance des paramètres de cyber-sécurité. <br><br>
-			Vous avez besoin d'un site e-commerce? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
+			flux, en stockage des datas et une parfaite connaissance des paramètres de cyber-sécurité.
+			<br /><br />
+			Vous avez besoin d'un site e-commerce? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais,
+			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
+			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
 		<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
-		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
-		>
-		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-		>
-	</div>
+			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+				><i class="fa-regular fa-envelope icon"></i></a
+			>
+			<a href="tel:0672901614" class="contact" target="_blank"
+				><i class="fa-solid fa-phone-volume icon"></i></a
+			>
+			<a
+				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+				class="contact"
+				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			>
+		</div>
 	</div>
 	<div class="parallax img-blog"></div>
 	<div class="container-p">
@@ -77,22 +81,24 @@
 			conseil que l'on donne pour attirer de nouveaux clients: entretenir un blog. Vous aller poster
 			des articles à propos de sujets qui vous concernent et ces articles attireront des client
 			potentiels vers votre blog. <br />C'est une pratique assez courante qui peut s'avérer être
-			très efficace. <br><br>
-			Vous avez besoin d'un Blog? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
+			très efficace. <br /><br />
+			Vous avez besoin d'un Blog? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les
+			communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre
+			site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
 		<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
-		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
-		>
-		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-		>
-	</div>
+			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+				><i class="fa-regular fa-envelope icon"></i></a
+			>
+			<a href="tel:0672901614" class="contact" target="_blank"
+				><i class="fa-solid fa-phone-volume icon"></i></a
+			>
+			<a
+				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+				class="contact"
+				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			>
+		</div>
 	</div>
 	<div class="parallax img-portfolio"></div>
 	<div class="container-p">
@@ -101,22 +107,25 @@
 			Le portfolio est une plateforme internet professionnelle qui permet aux créatifs,
 			photographes, designers, indépendants (...) de présenter leurs travaux et leurs réalisations. <br
 			/><br />Quoi de mieux qu'un site sur mesure pour présenter son travail et ses créations. Le
-			Portfolio exige un design sur mesure, très soigné et le plus souvent orginal et innovant. <br><br>
-			Vous avez besoin d'un Portfolio? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
+			Portfolio exige un design sur mesure, très soigné et le plus souvent orginal et innovant.
+			<br /><br />
+			Vous avez besoin d'un Portfolio? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur
+			les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre
+			site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
 		<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
-		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
-		>
-		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-		>
-	</div>
+			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+				><i class="fa-regular fa-envelope icon"></i></a
+			>
+			<a href="tel:0672901614" class="contact" target="_blank"
+				><i class="fa-solid fa-phone-volume icon"></i></a
+			>
+			<a
+				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+				class="contact"
+				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			>
+		</div>
 	</div>
 	<div class="parallax img-corporate"></div>
 	<div class="container-p">
@@ -128,22 +137,25 @@
 			immobilière (...). Utiliser un site corporate pour présenter ses services ou ses missions
 			reste la bonne idée. <br />C'est l'occasion pour l'internaute de découvrir de l'intérieur tous
 			les services qu'une société peut proposer, les missions réalisées.
-			<br />C'est une manière de pénétrer dans l'entreprise et d'en comprendre le fonctionnement. <br><br>
-			Vous avez besoin d'un site Corporate? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
+			<br />C'est une manière de pénétrer dans l'entreprise et d'en comprendre le fonctionnement.
+			<br /><br />
+			Vous avez besoin d'un site Corporate? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais,
+			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
+			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
 		<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
-		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
-		>
-		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-		>
-	</div>
+			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+				><i class="fa-regular fa-envelope icon"></i></a
+			>
+			<a href="tel:0672901614" class="contact" target="_blank"
+				><i class="fa-solid fa-phone-volume icon"></i></a
+			>
+			<a
+				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+				class="contact"
+				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			>
+		</div>
 	</div>
 	<div class="parallax img-institutionnel"></div>
 	<div class="container-p">
@@ -155,22 +167,24 @@
 			besoin d'un site internet à travers lequel l'usager pourra accéder à de nombreux de services
 			en ligne pour effectuer un des démarches et accéder à une information ciblée et hierarchisée.
 			<br />Ce type de site demande une parfaite conception UX/UI et une expertise avancée en
-			navigation et organisation des données. <br><br>
-			Vous avez besoin d'un site Institutionnel? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
+			navigation et organisation des données. <br /><br />
+			Vous avez besoin d'un site Institutionnel? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais,
+			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
+			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
 		<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
-		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
-		>
-		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
-			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
-		>
-	</div>
+			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+				><i class="fa-regular fa-envelope icon"></i></a
+			>
+			<a href="tel:0672901614" class="contact" target="_blank"
+				><i class="fa-solid fa-phone-volume icon"></i></a
+			>
+			<a
+				href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+				class="contact"
+				target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			>
+		</div>
 	</div>
 </div>
 
@@ -208,13 +222,15 @@
 		margin-bottom: 50px;
 		font-family: Heebo;
 		text-transform: uppercase;
+		text-align: center;
+		line-height: 40px;
 	}
 
 	.parallax {
 		width: 100vw;
 		height: 100vh;
 		background-attachment: fixed;
-			z-index: 0;
+		z-index: 0;
 	}
 	.img-vitrine {
 		background-image: url(../../Assets/png-gralypho/vitrine.jpg);
@@ -274,18 +290,21 @@
 		animation: bounce 0.4s ease-in-out;
 		font-weight: 800;
 	}
-	.wrapper-contactez{
+	.wrapper-contactez {
 		display: flex;
 		gap: 20px;
 		margin-top: 90px;
-	
 	}
 
 	@media screen and (max-width: 768px) {
 		.container-p p {
 			text-align: center;
-			width: 95%;
+			width: 100%;
 			font-weight: 300;
+		}
+		.container-p {
+		height: 100%;
+		padding: 50px;
 		}
 		.img-vitrine {
 			background-image: url(../../Assets/png-gralypho/vitrine.jpg);
