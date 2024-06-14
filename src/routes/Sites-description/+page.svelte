@@ -22,8 +22,23 @@
 			clients, de convertir des prospects (...). <br /><br />De nombreux sites vitrines contiennent
 			seulement un formulaire de contact et nombreux sont ceux dont seul les contacts mail,
 			téléphonique et les liens vers les réseaux sociaux figurent. En revanche le contenu du site
-			exige un design soigné, élaboré et la navigation, l'UX et l'UI sont déterminants.
+			exige un design soigné, élaboré et la navigation, l'UX et l'UI sont déterminants. <br><br>
+			Vous avez besoin d'un site Vitrine? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
+
 		</p>
+	<div class="wrapper-contactez">
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+			><i class="fa-regular fa-envelope icon"></i></a
+		>
+		<a href="tel:0672901614" class="contact" target="_blank"
+			><i class="fa-solid fa-phone-volume icon"></i></a
+		>
+		<a
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			class="contact"
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+		>
+	</div>
 	</div>
 	<div class="parallax img-ecommerce"></div>
 	<div class="container-p">
@@ -36,8 +51,22 @@
 			services en ligne, en restant ouverte 24h/24 et 7/7. <br /><br />C'est l'outil digital par
 			excellence, celui qui travaille pour vous, à votre place pednant que vous êtes occupé
 			ailleurs. La conception d'un site de E-commerce nécessite une grande expertise en gestion des
-			flux, en stockage des datas et une parfaite connaissance des paramètres de cyber-sécurité.
+			flux, en stockage des datas et une parfaite connaissance des paramètres de cyber-sécurité. <br><br>
+			Vous avez besoin d'un site e-commerce? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
 		</p>
+		<div class="wrapper-contactez">
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+			><i class="fa-regular fa-envelope icon"></i></a
+		>
+		<a href="tel:0672901614" class="contact" target="_blank"
+			><i class="fa-solid fa-phone-volume icon"></i></a
+		>
+		<a
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			class="contact"
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+		>
+	</div>
 	</div>
 	<div class="parallax img-blog"></div>
 	<div class="container-p">
@@ -48,8 +77,22 @@
 			conseil que l'on donne pour attirer de nouveaux clients: entretenir un blog. Vous aller poster
 			des articles à propos de sujets qui vous concernent et ces articles attireront des client
 			potentiels vers votre blog. <br />C'est une pratique assez courante qui peut s'avérer être
-			très efficace.
+			très efficace. <br><br>
+			Vous avez besoin d'un Blog? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
 		</p>
+		<div class="wrapper-contactez">
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+			><i class="fa-regular fa-envelope icon"></i></a
+		>
+		<a href="tel:0672901614" class="contact" target="_blank"
+			><i class="fa-solid fa-phone-volume icon"></i></a
+		>
+		<a
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			class="contact"
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+		>
+	</div>
 	</div>
 	<div class="parallax img-portfolio"></div>
 	<div class="container-p">
@@ -58,8 +101,22 @@
 			Le portfolio est une plateforme internet professionnelle qui permet aux créatifs,
 			photographes, designers, indépendants (...) de présenter leurs travaux et leurs réalisations. <br
 			/><br />Quoi de mieux qu'un site sur mesure pour présenter son travail et ses créations. Le
-			Portfolio exige un design sur mesure, très soigné et le plus souvent orginal et innovant.
+			Portfolio exige un design sur mesure, très soigné et le plus souvent orginal et innovant. <br><br>
+			Vous avez besoin d'un Portfolio? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
 		</p>
+		<div class="wrapper-contactez">
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+			><i class="fa-regular fa-envelope icon"></i></a
+		>
+		<a href="tel:0672901614" class="contact" target="_blank"
+			><i class="fa-solid fa-phone-volume icon"></i></a
+		>
+		<a
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			class="contact"
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+		>
+	</div>
 	</div>
 	<div class="parallax img-corporate"></div>
 	<div class="container-p">
@@ -71,8 +128,22 @@
 			immobilière (...). Utiliser un site corporate pour présenter ses services ou ses missions
 			reste la bonne idée. <br />C'est l'occasion pour l'internaute de découvrir de l'intérieur tous
 			les services qu'une société peut proposer, les missions réalisées.
-			<br />C'est une manière de pénétrer dans l'entreprise et d'en comprendre le fonctionnement.
+			<br />C'est une manière de pénétrer dans l'entreprise et d'en comprendre le fonctionnement. <br><br>
+			Vous avez besoin d'un site Corporate? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
 		</p>
+		<div class="wrapper-contactez">
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+			><i class="fa-regular fa-envelope icon"></i></a
+		>
+		<a href="tel:0672901614" class="contact" target="_blank"
+			><i class="fa-solid fa-phone-volume icon"></i></a
+		>
+		<a
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			class="contact"
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+		>
+	</div>
 	</div>
 	<div class="parallax img-institutionnel"></div>
 	<div class="container-p">
@@ -84,13 +155,26 @@
 			besoin d'un site internet à travers lequel l'usager pourra accéder à de nombreux de services
 			en ligne pour effectuer un des démarches et accéder à une information ciblée et hierarchisée.
 			<br />Ce type de site demande une parfaite conception UX/UI et une expertise avancée en
-			navigation et organisation des données.
+			navigation et organisation des données. <br><br>
+			Vous avez besoin d'un site Institutionnel? L'agence digitale Gralypho, implantée dans l'ouest Lyonnais, sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre site vitrine dans les meilleurs délais.   Contactez-nous !!
 		</p>
+		<div class="wrapper-contactez">
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
+			><i class="fa-regular fa-envelope icon"></i></a
+		>
+		<a href="tel:0672901614" class="contact" target="_blank"
+			><i class="fa-solid fa-phone-volume icon"></i></a
+		>
+		<a
+			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			class="contact"
+			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+		>
+	</div>
 	</div>
 </div>
 
 <style>
-
 	.container {
 		display: flex;
 		justify-content: center;
@@ -99,99 +183,145 @@
 		height: 100%;
 		scroll-behavior: smooth;
 	}
-	
-	
+
 	.container-p {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background: transparent;
-		padding: 20px;
-		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.324);
+		/* padding: 20px; */
 		font-family: Heebo;
 		line-height: 25px;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
-		border: solid white 1px;
+		box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.34);
 		height: 100vh;
 		width: 100vw;
-
-	
+		z-index: 1;
 	}
-		.container-p p {
-				text-align: center;
-				width: 50%;
-				font-weight: 300;
-			
+	.container-p p {
+		text-align: justify;
+		width: 50%;
+		font-weight: 300;
 	}
-	.container-p h1{
-	font-weight: 400;
-margin-bottom: 50px;
+	.container-p h1 {
+		font-weight: 400;
+		margin-bottom: 50px;
 		font-family: Heebo;
-			text-transform: uppercase;
+		text-transform: uppercase;
 	}
 
-	.parallax{
-                width: 100vw;
-		height:100vh;
+	.parallax {
+		width: 100vw;
+		height: 100vh;
 		background-attachment: fixed;
-	
-
+			z-index: 0;
 	}
 	.img-vitrine {
 		background-image: url(../../Assets/png-gralypho/vitrine.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		
 	}
 	.img-ecommerce {
 		background-image: url(../../Assets/png-gralypho/ecommerce.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		
 	}
 	.img-blog {
 		background-image: url(../../Assets/png-gralypho/blog.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		
 	}
 	.img-portfolio {
 		background-image: url(../../Assets/png-gralypho/portfolio.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		
 	}
 	.img-corporate {
 		background-image: url(../../Assets/png-gralypho/corporate.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		
 	}
 	.img-institutionnel {
 		background-image: url(../../Assets/png-gralypho/louvres.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		
 	}
+	.contact {
+		text-decoration: none;
+		color: white;
+		font-size: 1.5em;
+		font-family: poppins;
+		width: 50px;
+		height: 50px;
+		transform: rotate(0deg);
+		transition: 0.2s ease-in-out;
+		padding: 35px;
+		background-color: var(--bleuAcier);
 
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact:hover {
+		animation: bounce 0.4s ease-in-out;
+		font-weight: 800;
+	}
+	.wrapper-contactez{
+		display: flex;
+		gap: 20px;
+		margin-top: 90px;
 	
-
-	/* .wrapper-digital-infos p span {
-        font-weight: 700;
-}
+	}
 
 	@media screen and (max-width: 768px) {
-		.wrapper-site-description {
-			width: 100%;
+		.container-p p {
+			text-align: center;
+			width: 95%;
+			font-weight: 300;
+		}
+		.img-vitrine {
+			background-image: url(../../Assets/png-gralypho/vitrine.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.img-ecommerce {
+			background-image: url(../../Assets/png-gralypho/e-commerce.jpg);
+			background-repeat: no-epeat;
+			background-size: cover;
+			background-position: 40% center;
+		}
+		.img-blog {
+			background-image: url(../../Assets/png-gralypho/blog.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.img-portfolio {
+			background-image: url(../../Assets/png-gralypho/portfolio.jpg);
+			background-repeat: no-repeat;
+			background-size: 80%;
+			background-position: center;
+		}
+		.img-corporate {
+			background-image: url(../../Assets/png-gralypho/corporate.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.img-institutionnel {
+			background-image: url(../../Assets/png-gralypho/louvres.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
 		}
 	}
-	
-
 </style>
