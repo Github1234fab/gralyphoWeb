@@ -42,6 +42,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
+
   } 
   .button {
     position: relative;
@@ -59,11 +60,12 @@
     border-bottom: 1px rgb(219, 219, 219) solid;
     background-color: white;
     width: 90%;
-    /* background: linear-gradient(to left, rgb(192, 191, 191), rgb(228, 228, 228)); */
+   box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%);
     height: 100px;
     text-align: left;
     letter-spacing: -1px;
     font-family: epilogue;
+    margin-bottom: 10px;
   }
   .button-after {
     position: absolute;
@@ -115,15 +117,17 @@ animation: bounce 0.4s;
   }
 
   .p {
+  font-family: Heebo;
     text-align: left;
     font-size: 1.2em;
-    font-weight: 400;
+    font-weight: 200;
     color: var(--primary);
     margin: 0px;
     background-color: rgb(239, 239, 239);
-    padding: 20px;
+    padding: 30px;
     width: 80%;
     border-radius: 14px 22px 17px 38px;
+    box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%);
   }
 
   @media screen and (max-width: 768px) {
