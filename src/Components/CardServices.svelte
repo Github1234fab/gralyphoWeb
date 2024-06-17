@@ -9,16 +9,14 @@
 		window.location.href = lien;
 	}
 
-let rotation = false;
+	let rotation = false;
 
-function changeToTrue() {
-	rotation = true;
-}
-function changeToFalse() {
-	rotation = false;
-}
-
-
+	function changeToTrue() {
+		rotation = true;
+	}
+	function changeToFalse() {
+		rotation = false;
+	}
 
 	onMount(() => {
 		const cards = document.querySelectorAll('.card-services');
@@ -38,10 +36,16 @@ function changeToFalse() {
 	});
 </script>
 
-<button class="card-services" on:click={redirectToLink} on:mouseenter={changeToTrue} on:mouseleave={changeToFalse} >
+<button
+	class="card-services"
+	on:click={redirectToLink}
+	on:mouseenter={changeToTrue}
+	on:mouseleave={changeToFalse}
+>
 	<div class="wrapper-text-service">
-		<!-- <i class="{i} icon"></i> -->
-		<img src={i} alt="" class="img icon" class:turn={rotation} />
+		<div class="wrapper-icon">
+			<img src={i} alt="Icon description de service" class="img icon" class:turn={rotation} />
+		</div>
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 	</div>
@@ -49,12 +53,18 @@ function changeToFalse() {
 </button>
 
 <style>
-	/* .img {
-		max-width: 80px;
-		max-height: 80px;
-	} */
+	.wrapper-icon {
+		background-color: transparent;
+		width: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+		border-radius: 20px;
+		box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.152);
+	}
 
-	.turn{
+	.turn {
 		transform: rotate(360deg);
 	}
 	.card-services {
@@ -63,14 +73,13 @@ function changeToFalse() {
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		background-color:  transparent;
+		background-color: transparent;
 		box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.152);
 		padding: 20px;
 		border: 5px solid rgb(238, 238, 238);
 		border-radius: 30px;
 		min-height: 600px;
 		max-width: 400px;
-	
 	}
 	/* .card-services:hover .icon {
 		transform: rotateY(360deg);
@@ -86,7 +95,7 @@ function changeToFalse() {
 		margin-top: 0px;
 	}
 	.card-services h2 {
-		font-family: "radio canada big";
+		font-family: 'radio canada big';
 		grid-column: 1/12;
 		grid-row: 2;
 		font-weight: 700;
@@ -176,7 +185,6 @@ function changeToFalse() {
 	@media screen and (min-width: 992px) and (max-width: 1200px) {
 		.card-services {
 			min-height: 420px;
-
 		}
 	}
 
@@ -195,16 +203,14 @@ function changeToFalse() {
 		}
 		.lien {
 			margin-top: 0px;
-				
 		}
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 576px) {
 		.card-services {
 			min-height: 250px;
-		
 		}
-		.lien{
+		.lien {
 			margin-top: 20px;
 		}
 	}

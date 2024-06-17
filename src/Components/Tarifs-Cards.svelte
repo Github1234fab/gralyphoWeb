@@ -138,19 +138,31 @@
 	}
 
 	.title-banner-bg-color2 {
-		background-color: #00ff00; /* Remplacez par la couleur que vous voulez */
+		background-color: #127012; /* Remplacez par la couleur que vous voulez */
 	}
 
 	.title-banner-bg-color3 {
-		background-color: #0000ff; /* Remplacez par la couleur que vous voulez */
+		background-color: #4040bb; /* Remplacez par la couleur que vous voulez */
 	}
         	.title-banner-bg-color4 {
 		background-color: #e84b70; /* Remplacez par la couleur que vous voulez */
 	}
         	.title-banner-bg-color5 {
-		background-color: #6868f0; /* Remplacez par la couleur que vous voulez */
+		background-color: #3c1e63; /* Remplacez par la couleur que vous voulez */
 	}
         	.title-banner-bg-color6 {
-		background-color: #6b3260; /* Remplacez par la couleur que vous voulez */
+		background-color: #4a1a40; /* Remplacez par la couleur que vous voulez */
+	}
+
+	@media (max-width: 768px) {
+		.card-tarif {
+			min-width: 300px;
+		}
+		.title-banner h1 {
+		font-size: 2.5rem;
+		color: rgb(255, 255, 255);
+		font-family: 'Radio Canada Big';
+	}
+		
 	}
 </style>

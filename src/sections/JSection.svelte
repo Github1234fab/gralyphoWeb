@@ -147,5 +147,9 @@
 			grid-row: 2;
 			margin-left: 20px;
 		}
+		.wrapper-text-testi h2 {
+	line-height: 30px;
+	
+	}
 	}
 </style>

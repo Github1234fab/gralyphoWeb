@@ -159,7 +159,7 @@
 		font-family: epilogue;
 		font-size: var(--m);
 		color: WHITE;
-		font-weight: 400;
+		font-weight: 300;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: left;

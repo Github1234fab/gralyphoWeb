@@ -3,7 +3,7 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import Header from '../../sections/Header.svelte';
 	import { fade, slide } from 'svelte/transition';
-    import Form from '../../Components/Form.svelte';
+	import Form from '../../Components/Form.svelte';
 
 	let tabTarifs = [
 		{
@@ -17,7 +17,7 @@
 				'Formulaire de contact',
 				'Référencement SEO',
 				'Design Responsive',
-				'Déploiement sur serveur',
+				'Déploiement sur serveur'
 			]
 		},
 		{
@@ -41,11 +41,11 @@
 			tarifEuro: '699€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Création du Design',
-				'Développement Front-End',
-				'Développement Back-End',
-				'Référencement',
-				'Maintenance'
+				'Analyse de la concurrence',
+				'Analyse des mots Clés',
+				'Implémentation des mots clés',
+				'Optimisation du contenu',
+				'Test et rapport de performance'
 			]
 		},
 		{
@@ -54,11 +54,10 @@
 			tarifEuro: '599€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Création du Design',
-				'Développement Front-End',
-				'Développement Back-End',
-				'Référencement',
-				'Maintenance'
+				"Plan d'action",
+				'Définition des objectifs',
+				'Rédaction des contenus',
+				'Organisation des publications'
 			]
 		},
 		{
@@ -67,24 +66,24 @@
 			tarifEuro: '890€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Création du Design',
-				'Développement Front-End',
-				'Développement Back-End',
-				'Référencement',
-				'Maintenance'
+				"Création d'identité graphique",
+				'Création de logo',
+				'Refonte du site web',
+				'Référencement'
 			]
 		},
 		{
-			titleH1: 'Stratégie Digitale',
-			titleH2: "Conseils Marketing",
+			titleH1: 'Stratégie',
+			titleH2: 'Conseils Marketing',
 			tarifEuro: '990€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Création du Design',
-				'Développement Front-End',
-				'Développement Back-End',
-				'Référencement',
-				'Maintenance'
+				'Audit de site web',
+				'Audit des besoins',
+				'Analyse du marché',
+				'Définition de stratégie',
+				'mise en place de plan d\'action',
+				'Analyse des performances'
 			]
 		}
 	];
@@ -104,9 +103,9 @@
 			rubriques={tarif.rubriques}
 		/>
 	{/each}
-    <div id="form">
-    <Form/>
-    </div>
+	<div id="form">
+		<Form />
+	</div>
 </section>
 
 <style>
@@ -118,7 +117,7 @@
 		gap: 30px;
 		height: 100%;
 	}
-    #form{
-        width: 100vw;
-    }
+	#form {
+		width: 100vw;
+	}
 </style>

@@ -129,7 +129,7 @@
 		font-weight: 400;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: center;
+		text-align: justify;
 		line-height: 30px;
 		width: 100%;
 		margin: 50px auto;

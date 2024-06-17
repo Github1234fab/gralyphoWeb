@@ -211,20 +211,20 @@
 			text-align: center;
 			font-family: 'radio canada big';
 			font-weight: 300;
-			font-size: 6rem;
+			font-size: 4rem;
 			text-transform: capitalize;
 			letter-spacing: -5px;
-			line-height: 70px;
+			line-height: 60px;
 		}
 			.H-section h2 {
 		font-family: poppins;
 		font-weight: 300;
-		font-size: var(--m);
+		font-size: 1rem;
 		color: var(--greyBg);
-		text-align: center;
+		text-align: justify;
 		line-height: 30px;
 		margin-top: 40px;
-		max-width: 70%;
+		max-width: 80%;
 		justify-self: center;
 		align-self: center;
 	}

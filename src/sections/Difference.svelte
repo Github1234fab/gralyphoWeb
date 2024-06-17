@@ -7,15 +7,18 @@
 	<h1><span>Gralypho</span></h1>
 	<h2>Le Web, c'est Notre Métier.</h2>
 	<h3 class="title-h3">
-		Passionné par le Web et la programmation informatique, nous souhaitons fournir à votre entreprise <span>un service
-		digital de qualité</span>, qui permettra à <span>votre business</span> de décoller sur le Net ! Installé dans
-		l'Ouest Lyonnais, l'agence Gralypho est experte dans le domaine du Web. Nous considérons qu'un
-		site internet ne se créé pas seulement en ajoutant du contenu à un template existant. Les
-		tendances de Design évoluent très vite sur le Web, alors quoi de mieux q'un <span>Design original et
-		sur mesure </span> qui correspondra le plus à votre business!
-		<br />Nous sommes <span>experts en SEO</span> et le référencement étant le nerf de la guerre, il vaut mieux
-		s'adresser à des pros! Un site internet c'est un outil, présent sur le Web 24/7. Alors plutôt
-		qu'une simple vitrine, nous créeons <span>des sites intelligents</span>, qui vous rapporterons des clients.
+		Passionné par le Web et la programmation informatique, nous souhaitons fournir à votre
+		entreprise <span>un service digital de qualité</span>, qui permettra à
+		<span>votre business</span>
+		de décoller sur le Net ! Installé dans l'Ouest Lyonnais, l'agence Gralypho est experte dans le
+		domaine du Web. Nous considérons qu'un site internet ne se créé pas seulement en ajoutant du
+		contenu à un template existant. Les tendances de Design évoluent très vite sur le Web, alors
+		quoi de mieux q'un <span>Design original et sur mesure </span> qui correspondra le plus à votre
+		business!
+		<br />Nous sommes <span>experts en SEO</span> et le référencement étant le nerf de la guerre, il
+		vaut mieux s'adresser à des pros! Un site internet c'est un outil, présent sur le Web 24/7.
+		Alors plutôt qu'une simple vitrine, nous créeons <span>des sites intelligents</span>, qui vous
+		rapporterons des clients.
 		<br />
 	</h3>
 
@@ -198,9 +201,9 @@
 		line-height: 1.5em;
 		width: 100%;
 	}
-.marginBottom{
-	margin-bottom: 50px;
-}
+	.marginBottom {
+		margin-bottom: 50px;
+	}
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
@@ -232,6 +235,9 @@
 			border-radius: 20px;
 			margin-top: 50px;
 			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
+		}
+		.difference h2 {
+			line-height: 35px;
 		}
 		.title-h3 {
 			font-family: epilogue;
