@@ -7,19 +7,18 @@
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
 	import AutoText from '../Components/AutoText.svelte';
 
-	let textIndex = 0;
-	let textTab = [' de Site Internet.', "d'Applications."];
+	// let textIndex = 0;
+	// let textTab = [' de Site Internet.', "d'Applications."];
 
-	onMount(() => {
-		setInterval(() => {
-			textIndex = (textIndex + 1) % textTab.length;
-		}, 1200);
-	});
+	// onMount(() => {
+	// 	setInterval(() => {
+	// 		textIndex = (textIndex + 1) % textTab.length;
+	// 	}, 1200);
+	// });
 </script>
 
 <Header />
 <section class="H-section">
-	
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="imaginer">Imaginer.</h1>
@@ -27,7 +26,9 @@
 			<h1 class="creer">Créer.</h1>
 			<div class="particules"></div>
 		</div>
-		<h3>Nos compétences : <span class="autoText"><AutoText/></span></h3>
+		<div class="autoText">
+			<AutoText />
+		</div>
 		<h2>
 			Nous nous engageons à améliorer la <span>communication </span> et la <span>visibilité</span>
 			de votre entreprise. <br />Grâce à des solutions digitales sur <span>mesure</span>, nous vous
@@ -42,7 +43,6 @@
 </section>
 
 <style>
-
 	.H-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -55,27 +55,29 @@
 	}
 
 	.wrapper-text {
-		grid-column: 1 / 8;
+		grid-column: 2 / 12;
 		grid-row: 1/3;
 		display: flex;
+		justify-self: center;
+		align-self: center;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-left: 100px;
+		margin: auto;
 		z-index: 2;
 	}
 
 	.wrapper-h1 {
-		margin-top: 80px;
+		margin-top: 100px;
+		margin-bottom: 30px;
 	}
 	.H-section h1 {
-		text-align: left;
+		text-align: center;
 		font-family: 'radio canada big';
-		font-weight: 900;
-		font-size: clamp(4em, 12.5vw, 10em);
+		font-weight: 300;
+		font-size: 9rem;
 		text-transform: capitalize;
-		letter-spacing: clamp(-5px, 14.5vw, -0.03em);
-		margin-left: -20px;
-		line-height: clamp(60px, 10.5vw, 150px);
+		letter-spacing: -10px;
+		line-height: 110px;
 	}
 	.imaginer {
 		color: #04a1f57a;
@@ -89,36 +91,29 @@
 		margin-top: -10px;
 	}
 
-	.H-section h3 {
-		font-family: poppins;
-		font-weight: 500;
-		font-size: 1em;
-		letter-spacing: -1px;
-		color: var(--greyBg);
-		transition: 1s ease-in-out;
-		margin-left: -5px;
-		margin-top: 40px;
-		text-align: left;
-		width: 100%;
-	}
 	.autoText {
-		color:  yellow;
-		font-weight: 700;
+		color: yellow;
+		font-weight: 300;
 		font-size: 1.2rem;
+		font-family: 'poppins';
+		justify-self: center;
+		align-self: center;
 	}
 	.H-section h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--greyBg);
-		text-align: left;
+		text-align: center;
 		line-height: 30px;
 		margin-top: 40px;
-		margin-left: -10px;
+		max-width: 50%;
+		justify-self: center;
+		align-self: center;
 	}
 	.H-section h2 span {
 		font-weight: 600;
-		color: var(--CTA-jaune);
+		/* color: var(--CTA); */
 	}
 	.contact {
 		text-decoration: none;
@@ -134,6 +129,8 @@
 		text-align: center;
 		padding: 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
+		justify-self: center;
+		align-self: center;
 	}
 
 	.contact:hover {
@@ -170,55 +167,66 @@
 
 	@media screen and (max-width: 1440px) {
 		.wrapper-text {
-			grid-column: 1 / 7;
-			grid-row: 1;
+			grid-column: 2 / 12;
+			grid-row: 1/3;
 			display: flex;
 			flex-direction: column;
-			align-items: flex-start;
-			justify-content: flex-start;
+			justify-self: center;
+			align-self: center;
 			border-radius: 20px;
-			margin-left: 0px;
-			margin-top: 20px;
-			margin-left: 100px;
+			margin: auto;
+			align-items: center;
+			justify-content: center;
 			z-index: 2;
 		}
 	}
 
 	@media screen and (max-width: 1024px) {
 		.wrapper-text {
-			grid-column: 1 / 12;
-			grid-row: 2;
+			grid-column: 2 / 12;
+			grid-row: 1/3;
 			display: flex;
 			flex-direction: column;
-			align-items: flex-start;
-			justify-content: flex-start;
+			justify-self: center;
+			align-self: center;
 			border-radius: 20px;
-			margin-left: 0px;
-			margin-top: -20px;
-			margin-left: 100px;
+			margin: auto;
 			z-index: 2;
 		}
 	}
 
 	@media screen and (max-width: 767px) {
 		.wrapper-text {
-			grid-column: 1 / 12;
-			grid-row: 2;
+			grid-column: 2 / 12;
+			grid-row: 1/3;
 			display: flex;
 			flex-direction: column;
-			align-items: flex-start;
-			justify-content: flex-start;
+			justify-self: center;
+			align-self: center;
 			border-radius: 20px;
-			margin-left: 0px;
-			margin-top: 10px;
-			margin-left: 30px;
+			margin: auto;
 			z-index: 2;
 		}
-		.particules {
-			grid-column: 1/12;
-			grid-row: 1;
-			margin-top: 10px;
-			margin-bottom: 40px;
+		.H-section h1 {
+			text-align: center;
+			font-family: 'radio canada big';
+			font-weight: 300;
+			font-size: 6rem;
+			text-transform: capitalize;
+			letter-spacing: -5px;
+			line-height: 70px;
 		}
+			.H-section h2 {
+		font-family: poppins;
+		font-weight: 300;
+		font-size: var(--m);
+		color: var(--greyBg);
+		text-align: center;
+		line-height: 30px;
+		margin-top: 40px;
+		max-width: 70%;
+		justify-self: center;
+		align-self: center;
+	}
 	}
 </style>

@@ -78,7 +78,7 @@ background-image: radial-gradient(circle at 67% 83%, rgba(245,245,245, 0.1) 0%, 
     font-size: var(--l);
     border-radius: 8px;
     text-decoration: none;
-    color: var(--colorC);
+    color: var(--primary);
     letter-spacing: -1px;
   }
   .title:hover {

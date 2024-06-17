@@ -58,8 +58,14 @@
 		<h1>Notre proposition</h1>
 		<h2>Sites sur mesure, applications, refonte, stratégie, Seo, réseaux sociaux.</h2>
 		<h3>
-			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre identité et de vos exigences.  Nous nous occupons également de la <span>création de votre identité graphique</span> , de votre logo, de votre design, de la création de vos contenus et de la gestion de vos <span>réseaux sociaux. </span><br>
-			Nous ne sommes pas dépendant des templates de sites Web, nous créons des <span>sites Web sur mesure</span> et la seule limite, c'est votre <span>imagination!</span>
+			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre
+			identité et de vos exigences. Nous nous occupons également de la
+			<span>création de votre identité graphique</span>
+			, de votre logo, de votre design, de la création de vos contenus et de la gestion de vos
+			<span>réseaux sociaux. </span><br />
+			Nous ne sommes pas dépendant des templates de sites Web, nous créons des
+			<span>sites Web sur mesure</span>
+			et la seule limite, c'est votre <span>imagination!</span>
 		</h3>
 	</div>
 
@@ -80,22 +86,20 @@
 		font-size: 16px;
 		background-color: var(--greyBg);
 		overflow: hidden;
-	
-
 	}
 	:global(.card-services) {
-		flex: 1 1 26%;
+		flex: 1 1 25%;
 		min-height: 400px;
 	}
 	.wrapper-text {
-		grid-column: 2/ 10;
+		grid-column: 2/ 12;
 		grid-row: 1;
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
 	}
 	.E-section h1 {
-		font-family: Heebo;
+		font-family: "Heebo";
 		text-transform: uppercase;
 		font-size: var(--m);
 		color: var(--bleuAcier);
@@ -104,16 +108,16 @@
 		margin-top: 50px;
 		margin-left: 0px;
 		margin-bottom: 20px;
-		text-align: left;
+		text-align: center;
 	}
 	.E-section h2 {
-		font-family: 'heebo';
+		font-family: 'radio canada big';
 		font-size: var(--xl);
 		color: var(--primary);
-		font-weight: 700;
+		font-weight: 500;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: left;
+		text-align: center;
 		line-height: 49px;
 		margin-top: 20px;
 	}
@@ -125,12 +129,12 @@
 		font-weight: 400;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: left;
+		text-align: center;
 		line-height: 30px;
 		width: 100%;
 		margin: 50px auto;
 	}
-		.E-section h3 span {
+	.E-section h3 span {
 		font-weight: 800;
 	}
 
@@ -188,6 +192,9 @@
 	@media screen and (min-width: 300px) and (max-width: 575px) {
 		:global(.card-services) {
 			flex: 1 1 50%;
+		}
+		.E-section h2 {
+			line-height: 39px;
 		}
 	}
 </style>

@@ -9,7 +9,7 @@
 	<div class="coordonnees">
 		<a href="mailto:gralypho@gmail.com " class="contact-form">
 			<i class="fa-regular fa-envelope icon-coordonnees"></i> contact@gralypho.com</a
-		>
+		> 
 		<a href="tel:0672901614" class="contact-form"
 			><i class="fa-solid fa-phone-volume icon-coordonnees"></i> 0672 901 614</a
 		>
@@ -53,7 +53,8 @@
 		height: auto;
 		width: 100%;
 		padding: 20px;
-		background-color: rgb(245, 243, 243);
+		background-color: rgb(52, 77, 150);
+		/* background-color: rgb(245, 243, 243); */
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -67,7 +68,8 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
-		color: var(--bleuAcier);
+		color: rgb(232, 232, 232);
+		/* color: var(--bleuAcier); */
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -76,10 +78,11 @@
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-		font-family: 'Heebo';
+				color: rgb(232, 232, 232);
+				font-family: 'radio canada big';
 		font-size: var(--xl);
-		color: var(--primary);
-		font-weight: 700;
+		/* color: var(--primary); */
+		font-weight: 500;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
@@ -110,7 +113,7 @@
 		border-radius: 15px;
 		width: clamp(300px, 35%, 400px);
 		text-align: left;
-		color: var(--primary);
+		color: white;
 		font-size: 1rem;
 	}
 	input:hover {
@@ -130,8 +133,11 @@
 		width: 100%;
 		min-height: 200px;
 		background-color:  transparent;
-		color: var(--primary);
+		color: white;
 				font-size: 1rem;
+	}
+	.demande:hover {
+		animation: bounce 0.4s ease-in-out;
 	}
 	.demande::placeholder {
 		color: rgb(187, 183, 183);
@@ -142,7 +148,8 @@
 	.button {
 		justify-content: flex-end;
 		border: none;
-		background-color: var(--CTA-jaune);
+		background-color: var(--bleuAcier);
+		/* background-color: var(--CTA-jaune); */
 		color: white;
 		font-family: epilogue;
 		font-weight: 700;
@@ -151,6 +158,7 @@
 		width: 100px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
+		margin-top: 40px;
 	}
 	.button:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -179,15 +187,17 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 20px;
+		gap: 50px;
 	}
 	.icon-coordonnees {
-		color: var(--primary);
+		/* color: var(--primary); */
+				color: rgb(232, 232, 232);
 	}
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
-		color: var(--primary);
+		/* color: var(--primary); */
+				color: rgb(232, 232, 232);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;

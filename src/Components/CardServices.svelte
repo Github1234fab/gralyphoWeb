@@ -45,7 +45,7 @@ function changeToFalse() {
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 	</div>
-	<a href={lien} class="lien">Lire +</a>
+	<a href={lien} class="lien"> En savoir +</a>
 </button>
 
 <style>
@@ -59,19 +59,18 @@ function changeToFalse() {
 	}
 	.card-services {
 		transform: translateY(300px);
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-row: auto;
+		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 		background-color:  transparent;
-		/* background-image: radial-gradient(circle 200px, rgba(210, 11, 245, 0.282), white); */
-		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.187);
+		box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.152);
 		padding: 20px;
-		border: none;
-		/* border-radius: 30px; */
-		height: 500px;
+		border: 5px solid rgb(238, 238, 238);
+		border-radius: 30px;
+		min-height: 600px;
+		max-width: 400px;
+	
 	}
 	/* .card-services:hover .icon {
 		transform: rotateY(360deg);
@@ -81,19 +80,19 @@ function changeToFalse() {
 		grid-row: 2;
 		display: flex;
 		flex-direction: column;
-		align-items: left;
-		justify-content: left;
+		align-items: center;
+		justify-content: center;
 		gap: 0px;
 		margin-top: 0px;
 	}
 	.card-services h2 {
-		font-family: Heebo;
+		font-family: "radio canada big";
 		grid-column: 1/12;
 		grid-row: 2;
-		font-weight: 400;
+		font-weight: 700;
 		color: var(--primary);
 		font-size: var(--lm);
-		text-align: left;
+		text-align: center;
 		margin-top: 40px;
 		margin-left: 10px;
 	}
@@ -101,26 +100,29 @@ function changeToFalse() {
 		grid-column: 1/12;
 		grid-row: 3;
 		font-family: Heebo;
-		font-weight: 400;
+		font-weight: 300;
 		font-size: var(--m);
 		color: var(--primary);
-		text-align: left;
+		text-align: justify;
 		line-height: 30px;
 		margin-top: 30px;
+		margin-bottom: 40px;
 		margin-left: 10px;
 	}
 	.lien {
 		grid-column: 11/12;
 		grid-row: 4;
-		margin-top: 20px;
+		min-width: 130px;
+		margin-top: 30px;
+		margin-bottom: 50px;
 		font-weight: 700;
 		color: white;
 		background-color: var(--CTA-jaune);
 		z-index: 44;
-		border: 1px solid var(--CTA2);
-		padding: 10px 20px;
-		border-radius: 4px;
-		box-shadow: 0px 0px 10px rgba(45, 45, 45, 0.163);
+		border: 2px solid white;
+		padding: 25px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px 2px rgba(45, 45, 45, 0.265);
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -136,9 +138,7 @@ function changeToFalse() {
 		margin-top: 10px;
 		transition: 0.7s ease-in-out;
 		color: var(--CTA2);
-		font-size: 1.2em;
 		z-index: 2;
-		text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.18);
 	}
 	.icon:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -195,12 +195,14 @@ function changeToFalse() {
 		}
 		.lien {
 			margin-top: 0px;
+				
 		}
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 576px) {
 		.card-services {
 			min-height: 250px;
+		
 		}
 		.lien{
 			margin-top: 20px;

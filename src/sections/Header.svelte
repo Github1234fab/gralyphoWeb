@@ -31,6 +31,7 @@
 				<a class="link-contact" href="/Marketing">Medias Sociaux</a>
 				<a class="link-contact" href="/Refonte">Design</a>
 				<a class="link-contact" href="/Composants">Stratégie</a>
+				<a class="link-contact" href="/Tarifs">Tarifs</a>
 			</div>
 		</span>
 	{/if}

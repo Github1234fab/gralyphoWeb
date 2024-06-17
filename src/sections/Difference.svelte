@@ -104,10 +104,10 @@
 		grid-row: 1;
 	}
 	.difference h2 {
-		font-family: 'heebo';
+		font-family: 'radio canada big';
 		font-size: var(--xl);
 		color: var(--primary);
-		font-weight: 700;
+		font-weight: 500;
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
 		text-align: left;

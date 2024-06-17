@@ -82,8 +82,6 @@
 		height: auto;
 		font-size: 16px;
 		margin-top: 0px;
-		/* background-color: var(--colorC); */
-		/* background-image: url('../Assets/png-gralypho/confetis.png'); */
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: bottom;
@@ -131,10 +129,10 @@
 		color: var(--bleuAcier);
 	}
 	.wrapper-text-testi h2 {
-		font-family: 'heebo';
+		font-family: 'radio canada big';
 		font-size: var(--xl);
 		color: var(--primary);
-		font-weight: 700;
+		font-weight: 500;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		/* margin-left: 10px; */

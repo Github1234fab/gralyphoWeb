@@ -147,10 +147,10 @@
 		text-align: left;
 	}
 	.G-section h2 {
-		font-family: 'Red Hat Display';
+			font-family: 'radio canada big';
 		font-size: var(--xl);
 		color: white;
-		font-weight: 700;
+		font-weight: 500;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: left;
