@@ -243,7 +243,7 @@
 			font-family: epilogue;
 			font-size: var(--m);
 			color: var(--primary);
-			font-weight: 400;
+			font-weight: 300;
 			margin-bottom: 0px;
 			letter-spacing: -0.02em;
 			text-align: left;

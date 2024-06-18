@@ -106,8 +106,9 @@
 		padding: 20px 14px;
 		font-family: 'Red Hat Display';
 		color: white;
-		font-weight: 800;
+		font-weight: 600;
 		margin-top: 50px;
+		font-size: 1rem;
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.lien-bouton:hover {

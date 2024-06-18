@@ -120,14 +120,14 @@
 		color: white;
 		background-color: var(--CTA-jaune);
 		font-family: 'Red Hat Display';
-		font-size: var(--m);
+		font-size: 1rem;
 		font-weight: bolder;
 		margin-top: 20px;
 		margin-left: 0px;
 		min-width: 200px;
 		border-radius: 5px;
 		text-align: center;
-		padding: 20px;
+		padding: 15px 5px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		justify-self: center;
 		align-self: center;

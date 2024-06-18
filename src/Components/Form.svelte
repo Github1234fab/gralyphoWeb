@@ -94,8 +94,9 @@
 		align-items: center;
 		gap: 20px;
 		padding: 20px;
-		margin-top: 50px ;
+		margin-top: 50px;
 		min-width: 80%;
+		margin-bottom: 50px;
 	}
 	.wrapper-inputs {
 		display: flex;
@@ -158,6 +159,7 @@
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
 		margin-top: 0px;
+		margin-bottom: 70px;
 	}
 	.button:hover {
 		animation: bounce 0.4s ease-in-out;
