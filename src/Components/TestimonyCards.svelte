@@ -117,7 +117,7 @@
 		
 	}
 	.stars {
-		background-color: rgb(108, 173, 234);
+		background-color: transparent;
 		border-radius: 10px;
 		max-width: 120px;
 		max-height: 40px;

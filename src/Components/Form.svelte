@@ -95,7 +95,7 @@
 		gap: 20px;
 		padding: 20px;
 		margin-top: 50px ;
-		min-width: 100%;
+		min-width: 80%;
 	}
 	.wrapper-inputs {
 		display: flex;

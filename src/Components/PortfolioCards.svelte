@@ -45,6 +45,7 @@
 		justify-content: center;
 		z-index: 0;
 		border: 2px white solid;
+		border-radius: 5px;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -72,9 +73,9 @@
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
-		box-shadow: inset 0px 0px 13px 4px black;
+		box-shadow: inset 0px 0px 5px 10px black;
 		padding: 50px;
-		/* border-radius: 20px; */
+		border-radius: 5px;
 	}
 	.card-content::after {
 		z-index: 2;
