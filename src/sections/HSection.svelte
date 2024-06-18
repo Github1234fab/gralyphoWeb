@@ -95,7 +95,7 @@
 		color: yellow;
 		font-weight: 300;
 		font-size: 1.2rem;
-		font-family: 'poppins';
+		font-family: 'Red Hat Display';
 		justify-self: center;
 		align-self: center;
 	}

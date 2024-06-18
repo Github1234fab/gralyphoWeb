@@ -4,7 +4,7 @@
 
     onMount(() => {
         new Typewriter('#typewriter', {
-            strings: ["Création de sites internet", "Création d'application", "Gestion des Medias Sociaux", "Refonte", "SEO", "Design" ],
+            strings: ["Création de sites internet", "Création d'application", "Gestion des Medias Sociaux", "Refonte", "SEO", "SEA" ,"Design", "Marketing Digital" ],
             autoStart: true,
             loop: true,
         });
