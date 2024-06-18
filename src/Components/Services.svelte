@@ -21,8 +21,8 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    min-width: 300px;
-    max-height: 600px;
+    max-width: 600px;
+    min-height: 700px;
     /* box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35); */
     background-color: white;
     overflow: hidden;
@@ -90,10 +90,10 @@ height: 200px;
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1633px) {
     .card-services {
-      width: 220px;
-      min-height: 350px;
+      max-width: 500px;
+      max-height: 500px;
     }
   }
 </style>

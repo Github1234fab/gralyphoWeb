@@ -4,21 +4,18 @@
 	export let tarifEuro;
 	export let subTarifEuro;
 	export let rubriques;
-      export let index; 
+	export let index;
 </script>
 
 <div class="card-tarif">
-        <div class="title-banner title-banner-bg-color{index % 6 + 1}">
-
+	<div class="title-banner title-banner-bg-color{(index % 6) + 1}">
 		<h1>{titleH1}</h1>
 		<h2>{titleH2}</h2>
 	</div>
-
 	<div class="center-card">
 		<div class="wrapper-tarif-euro">
-                        	<h3 class="subtarif-euro">{subTarifEuro}</h3>
+			<h3 class="subtarif-euro">{subTarifEuro}</h3>
 			<h2 class="tarif-euro">{tarifEuro}</h2>
-		
 		</div>
 		<div class="rubriques">
 			<ul>
@@ -27,8 +24,8 @@
 				{/each}
 			</ul>
 		</div>
-		<a href="#form" class="contact-tarif">Je veux en savoir plus</a>
 	</div>
+	<a href="#form" class="contact-tarif">Je veux en savoir plus</a>
 </div>
 
 <style>
@@ -73,14 +70,15 @@
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
+		min-height: 400px;
 	}
 	.wrapper-tarif-euro {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 60px;
-                margin-top: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
 	}
 
 	.tarif-euro {
@@ -100,6 +98,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 50px;
+		min-height: 300px;
 	}
 	.li-rubrique {
 		color: var(--primary);
@@ -144,25 +143,28 @@
 	.title-banner-bg-color3 {
 		background-color: #4040bb; /* Remplacez par la couleur que vous voulez */
 	}
-        	.title-banner-bg-color4 {
+	.title-banner-bg-color4 {
 		background-color: #e84b70; /* Remplacez par la couleur que vous voulez */
 	}
-        	.title-banner-bg-color5 {
+	.title-banner-bg-color5 {
 		background-color: #3c1e63; /* Remplacez par la couleur que vous voulez */
 	}
-        	.title-banner-bg-color6 {
+	.title-banner-bg-color6 {
 		background-color: #4a1a40; /* Remplacez par la couleur que vous voulez */
 	}
-
+	@media screen and (max-width: 1365px) {
+		.title-banner h1 {
+		font-size: 2em;
+		}
+	}
 	@media (max-width: 768px) {
 		.card-tarif {
-			min-width: 300px;
+				min-height: 900px;
 		}
 		.title-banner h1 {
-		font-size: 2.5rem;
-		color: rgb(255, 255, 255);
-		font-family: 'Radio Canada Big';
-	}
-		
+			font-size: 2.5rem;
+			color: rgb(255, 255, 255);
+			font-family: 'Radio Canada Big';
+		}
 	}
 </style>

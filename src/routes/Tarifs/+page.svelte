@@ -31,8 +31,7 @@
 				'Diagramme de séquence',
 				'Développement Front-End',
 				'Développement Back-End',
-				'Déploiement sur serveur',
-				'Maintenance'
+				'Déploiement sur serveur'
 			]
 		},
 		{
@@ -82,7 +81,7 @@
 				'Audit des besoins',
 				'Analyse du marché',
 				'Définition de stratégie',
-				'mise en place de plan d\'action',
+				"mise en place de plan d'action",
 				'Analyse des performances'
 			]
 		}
@@ -93,6 +92,12 @@
 <Mouse />
 
 <section class="tarifs" in:fade={{ duration: 1000 }}>
+	<div class="hero">
+		<h1>Nos <br /><span>Tarifs</span></h1>
+		<h3>
+			L'agence Gralypho pratique des tarifs réfléchis et très adaptatifs. Chaque projet est différent et la tarification dépend du besoin technologique qui est employé pour réaliser votre projet.
+		</h3>
+	</div>
 	{#each tabTarifs as tarif, index (tarif)}
 		<TarifsCards
 			{index}
@@ -119,5 +124,53 @@
 	}
 	#form {
 		width: 100vw;
+	}
+	.hero {
+	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+		width: 100%;
+		background-color: var(--primary);
+	}
+	.hero h1 {
+		text-align: center;
+		font-family: Epilogue;
+		font-weight: 900;
+		font-size: 9em;
+		color: rgb(255, 255, 255);
+		margin-top: 0px;
+		letter-spacing: -1px;
+		padding: 0px;
+		line-height: 120px;
+		margin-top: 50px;
+	}
+	.hero h1 span {
+		color: rgb(183, 44, 146);
+	}
+	.hero h3 {
+		font-family: poppins;
+		font-weight: 300;
+		font-size: var(--m);
+		color: rgb(224, 222, 222);
+		text-align: center;
+		width: 50%;
+		padding: 30px;
+	}
+
+
+
+	@media screen and (max-width: 768px) {
+		.hero h1 {
+			font-size: 5em;
+			line-height: 80px;
+		}
+		.hero h3 {
+			width: 80%;
+			text-align: center;
+			padding: 40px;
+		}
 	}
 </style>

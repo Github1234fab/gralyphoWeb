@@ -9,7 +9,7 @@
 	<div class="coordonnees">
 		<a href="mailto:gralypho@gmail.com " class="contact-form">
 			<i class="fa-regular fa-envelope icon-coordonnees"></i> contact@gralypho.com</a
-		> 
+		>
 		<a href="tel:0672901614" class="contact-form"
 			><i class="fa-solid fa-phone-volume icon-coordonnees"></i> 0672 901 614</a
 		>
@@ -25,35 +25,32 @@
 		<input type="hidden" name="form-name" value="contact-form-gralypho" />
 
 		<div class="wrapper-inputs">
-		
 			<input name="nom" type="text" id="nom" required placeholder="Nom" />
-			
+
 			<input name="prenom" type="text" id="prenom" required placeholder="Prénom" />
 		</div>
 
 		<div class="wrapper-inputs">
-		
 			<input name="email" type="email" id="email" required placeholder="Adresse mail" />
-		
+
 			<input name="telephone" type="tel" id="telephone" required placeholder="Téléphone" />
 		</div>
 
-
 		<textarea name="demande" id="demande" class="demande" placeholder="Votre demande"></textarea>
-
-		<input class="button" type="submit" value="Envoyez" />
 	</form>
+	<input class="button" type="submit" value="Envoyez" />
 </section>
 
 <style>
 	.section-form {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
+		display: flex;
+		flex-direction: column;
 		height: auto;
 		width: 100%;
 		padding: 20px;
-		background-color: rgb(52, 77, 150);
+		background-color: rgb(37, 55, 109);
+		justify-content: center;
+		align-items: center;
 		/* background-color: rgb(245, 243, 243); */
 	}
 	.wrapper-text {
@@ -62,6 +59,8 @@
 		display: flex;
 		flex-direction: column;
 		z-index: 2;
+		justify-self: center;
+		align-self: center;
 		margin-top: 40px;
 	}
 	.form-title {
@@ -78,8 +77,8 @@
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-				color: rgb(232, 232, 232);
-				font-family: 'radio canada big';
+		color: rgb(232, 232, 232);
+		font-family: 'radio canada big';
 		font-size: var(--xl);
 		/* color: var(--primary); */
 		font-weight: 500;
@@ -89,29 +88,31 @@
 	}
 
 	.form {
-		grid-column: 1/13;
-		grid-row: 3;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		gap: 20px;
 		padding: 20px;
-		margin: 50px auto;
+		margin-top: 50px ;
+		min-width: 100%;
 	}
 	.wrapper-inputs {
 		display: flex;
-		align-items: center;
 		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 		gap: 20px;
+		width: 90%;
 	}
 	input {
 		background-color: transparent;
 		border: 2px solid rgb(217, 216, 216);
 		font-family: 'Red Hat Display';
-		font-weight: 400;
+		font-weight: 600;
 		padding: 20px;
 		border-radius: 15px;
-		width: clamp(300px, 35%, 400px);
+		width: 100%;
 		text-align: left;
 		color: white;
 		font-size: 1rem;
@@ -130,11 +131,11 @@
 		font-weight: 400;
 		padding: 10px;
 		border-radius: 15px;
-		width: 100%;
+		width: 90%;
 		min-height: 200px;
-		background-color:  transparent;
+		background-color: transparent;
 		color: white;
-				font-size: 1rem;
+		font-size: 1rem;
 	}
 	.demande:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -146,19 +147,17 @@
 	}
 
 	.button {
-		justify-content: flex-end;
 		border: none;
 		background-color: var(--bleuAcier);
-		/* background-color: var(--CTA-jaune); */
 		color: white;
 		font-family: epilogue;
 		font-weight: 700;
 		padding: 20px 10px;
 		border-radius: 8px;
-		width: 100px;
+		max-width: 100px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
-		margin-top: 40px;
+		margin-top: 0px;
 	}
 	.button:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -191,34 +190,37 @@
 	}
 	.icon-coordonnees {
 		/* color: var(--primary); */
-				color: rgb(232, 232, 232);
+		color: rgb(232, 232, 232);
 	}
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
 		/* color: var(--primary); */
-				color: rgb(232, 232, 232);
+		color: rgb(232, 232, 232);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;
 		word-spacing: 6px;
 	}
 
-	@media screen and (max-width: 978px) {
+	@media screen and (max-width: 768px) {
 		.coordonnees {
 			flex-direction: column;
 			margin-top: 20px;
 			gap: 5px;
 		}
-		.wrapper-inputs{
+		.wrapper-inputs {
 			display: flex;
 			flex-direction: column;
-			width: 100%;
-			margin: auto;
+			width: 100vw;
 		}
-		.demande{
-		width: 100%;
-				
+		input {
+			width: 90%;
+			justify-content: center;
+			align-items: center;
+		}
+		.demande {
+			width: 90%;
 		}
 	}
 </style>
