@@ -23,7 +23,6 @@
 		align-items: left;
 		min-height: 200px;
 		min-width: 320px;
-		border-radius: 15px;
 		cursor: pointer;
 		border-radius: 20px;
 	}
@@ -45,6 +44,7 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
+		border: 2px white solid;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -74,7 +74,7 @@
 		cursor: pointer;
 		box-shadow: inset 0px 0px 13px 4px black;
 		padding: 50px;
-		border-radius: 20px;
+		/* border-radius: 20px; */
 	}
 	.card-content::after {
 		z-index: 2;
@@ -97,7 +97,7 @@
 		font-size: 1.5em;
 		color: white;
 		transition: 0.9s ease-in-out;
-		box-shadow:  0px 0px 20px 10px black;
+		box-shadow: 0px 0px 20px 10px black;
 		/* border-radius: 15px 56px 42px 67px; */
 	}
 

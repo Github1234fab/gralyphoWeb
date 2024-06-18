@@ -31,13 +31,13 @@
 		max-width: 350px;
 		min-height: 360px;
 		font-family: epilogue;
-		background-color: rgba(226, 226, 226, 0.884);
+		background-color: rgba(114, 164, 251, 0.884);
 		margin-top: 30px;
 		margin-bottom: 20px;
 		flex-shrink: 0;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.135);
-z-index: 3;
-					
+		box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.135);
+		z-index: 3;
+		border-radius: 30px;
 	}
 	.card:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -105,19 +105,25 @@ z-index: 3;
 		align-items: center;
 		padding: 20px;
 	}
-   
+
 	.wrapper-text-img {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
 		margin-left: 10px;
+		
 	}
 	.stars {
-		background-color: rgb(206, 206, 206);
-		border-radius: 8px;
-		max-width: 100%;
-		height: 20px;
-		margin-top: 10px;
+		background-color: rgb(43, 131, 212);
+		border-radius: 10px;
+		max-width: 120px;
+		max-height: 40px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		
 	}
 </style>
