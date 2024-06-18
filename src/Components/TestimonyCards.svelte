@@ -28,16 +28,17 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 0px;
-		max-width: 350px;
-		min-height: 360px;
+		max-width: 300px;
+		min-height: 450px;
 		font-family: epilogue;
-		background-color: rgba(114, 164, 251, 0.884);
+		background-color: var(--bgHero);
 		margin-top: 30px;
 		margin-bottom: 20px;
 		flex-shrink: 0;
-		box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.135);
+		box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.452);
 		z-index: 3;
 		border-radius: 30px;
+		padding: 20px;
 	}
 	.card:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -62,7 +63,7 @@
 	}
 	.card h3 {
 		font-size: 1.3em;
-		color: var(--bg);
+		color: white;
 		font-weight: 700;
 		font-family: kanit;
 		text-align: left;
@@ -70,7 +71,7 @@
 	.card h5 {
 		font-family: kanit;
 		font-size: 1em;
-		color: var(--bg);
+		color: white;
 		font-weight: 500;
 		text-align: center;
 		line-height: 20px;
@@ -89,8 +90,9 @@
 
 	.card h4 {
 		font-size: 0.8em;
-		color: var(--bg);
+		color: white;
 		text-align: left;
+		font-weight: 200;
 	}
 	.wrapper-text {
 		flex-direction: column;
@@ -115,7 +117,7 @@
 		
 	}
 	.stars {
-		background-color: rgb(43, 131, 212);
+		background-color: rgb(108, 173, 234);
 		border-radius: 10px;
 		max-width: 120px;
 		max-height: 40px;

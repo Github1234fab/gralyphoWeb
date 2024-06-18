@@ -133,11 +133,12 @@
 		font-size: var(--xl);
 		color: var(--primary);
 		font-weight: 500;
-		margin-bottom: 0px;
+		margin-bottom: 30px;
 		letter-spacing: -0.04em;
 		/* margin-left: 10px; */
 		text-align: left;
 		max-width: 80%;
+
 	}
 
 	@media screen and (max-width: 768px) {
@@ -148,7 +149,7 @@
 			margin-left: 20px;
 		}
 		.wrapper-text-testi h2 {
-	line-height: 30px;
+	line-height: 50px;
 	
 	}
 	}
