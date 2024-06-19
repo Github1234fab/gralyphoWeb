@@ -172,7 +172,7 @@
 		}
 	}
 
-	@media screen and (min-width: 1400px) and (max-width: 3000px) {
+		@media screen and (min-width: 3000px) and (max-width: 5000px) {
 		.card-services {
 			min-height: 650px;
 			min-width: 700px;
@@ -180,18 +180,26 @@
 	}
 
 
+	@media screen and (min-width: 1430px) and (max-width: 3000px) {
+		.card-services {
+			min-height: 650px;
+			min-width: 600px;
+		}
+	}
 
-	@media screen and (min-width: 1024px) and (max-width: 1400px) {
+
+
+	@media screen and (min-width: 1020px) and (max-width: 1430px) {
 		.card-services {
 			min-height: 690px;
 			min-width: 420px;
 		}
 	}
 
-	@media screen and (min-width: 768px)  and (max-width: 1024px) {
+	@media screen and (min-width: 768px)  and (max-width: 1020px) {
 		.card-services {
 			min-height: 620px;
-			min-width: 500px;
+			min-width: 450px;
 		}
 		.lien {
 			margin-top: -40px;
