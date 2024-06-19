@@ -39,6 +39,7 @@
 		z-index: 3;
 		border-radius: 30px;
 		padding: 20px;
+		border: 1px solid white;
 	}
 	.card:hover {
 		animation: bounce 0.4s ease-in-out;

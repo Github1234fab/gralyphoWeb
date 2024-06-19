@@ -25,6 +25,7 @@
 		min-width: 320px;
 		cursor: pointer;
 		border-radius: 20px;
+		
 	}
 	.wrapper-portfolio h1 {
 		font-family: poppins;
@@ -44,7 +45,7 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		border: 2px white solid;
+		border: 1px white solid;
 		border-radius: 5px;
 	}
 	.card-portfolio:hover {
@@ -73,7 +74,7 @@
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
-		box-shadow: inset 0px 0px 5px 10px black;
+		box-shadow: inset 0px 0px 15px 4px black;
 		padding: 50px;
 		border-radius: 5px;
 	}

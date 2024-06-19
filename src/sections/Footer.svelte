@@ -53,7 +53,7 @@
 		justify-content: center;
 		height: 100%;
 		font-size: 16px;
-		background-color: var(--primary);
+		background-color: var(--bgHero);
 		color: white;
 		font-family: epilogue;
 		gap: 0px;

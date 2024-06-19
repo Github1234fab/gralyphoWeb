@@ -55,12 +55,14 @@
 <style>
 	.wrapper-icon {
 		background-color: transparent;
-		width: 50%;
+		width: 100px;
+		height: 100px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin-top: 30px;
 		padding: 20px;
-		border-radius: 20px;
+		border-radius: 50%;
 		box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.152);
 	}
 
@@ -71,15 +73,15 @@
 		transform: translateY(300px);
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		flex-direction: column;
 		background-color: transparent;
 		box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.152);
 		padding: 20px;
 		border: 5px solid rgb(238, 238, 238);
 		border-radius: 30px;
-		min-height: 600px;
-		max-width: 400px;
+		min-height: 650px;
+		max-width: 500px;
 	}
 	/* .card-services:hover .icon {
 		transform: rotateY(360deg);
@@ -102,7 +104,7 @@
 		color: var(--primary);
 		font-size: var(--lm);
 		text-align: center;
-		margin-top: 40px;
+		margin-top: 100px;
 		margin-left: 10px;
 	}
 	.p {
@@ -138,13 +140,13 @@
 	}
 	.icon {
 		display: flex;
-		align-items: center;
-		justify-content: center;
+		align-self: center;
+		justify-self: center;
+		margin: auto;
 		height: 60px;
 		width: 60px;
 		grid-column: 2;
 		grid-row: 1;
-		margin-top: 10px;
 		transition: 0.7s ease-in-out;
 		color: var(--CTA2);
 		z-index: 2;
@@ -172,25 +174,24 @@
 
 	@media screen and (min-width: 1400px) and (max-width: 3000px) {
 		.card-services {
-			min-height: 380px;
+			min-height: 650px;
+			min-width: 700px;
 		}
 	}
 
-	@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+
+	@media screen and (min-width: 1024px) and (max-width: 1400px) {
 		.card-services {
-			min-height: 450px;
+			min-height: 690px;
+			min-width: 420px;
 		}
 	}
 
-	@media screen and (min-width: 992px) and (max-width: 1200px) {
+	@media screen and (min-width: 768px)  and (max-width: 1024px) {
 		.card-services {
-			min-height: 420px;
-		}
-	}
-
-	@media screen and (max-width: 1024px) {
-		.card-services {
-			min-height: 360px;
+			min-height: 620px;
+			min-width: 500px;
 		}
 		.lien {
 			margin-top: -40px;
@@ -199,7 +200,8 @@
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
 		.card-services {
-			min-height: 450px;
+			min-height: 750px;
+			min-width: 430px;
 		}
 		.lien {
 			margin-top: 0px;
