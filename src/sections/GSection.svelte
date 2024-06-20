@@ -99,7 +99,7 @@
 	];
 </script>
 
-<section class="G-section">
+<section class="G-section clip-path">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>Des Sites Web...mais pas que !</h2>
@@ -116,6 +116,9 @@
 </section>
 
 <style>
+	.clip-path {
+		clip-path: polygon(0 0, 51% 0, 100% 0, 100% 100%, 81% 96%, 71% 100%, 57% 98%, 29% 98%, 0 100%);
+	}
 	.G-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -125,7 +128,7 @@
 		font-size: 16px;
 		/* background-color: var(--bleuAcier); */
 		background-image: linear-gradient(180deg, #1a2c39 0%, #0f1f2a 100%);
-
+		padding: 40px;
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -147,7 +150,7 @@
 		text-align: left;
 	}
 	.G-section h2 {
-			font-family: 'radio canada big';
+		font-family: 'radio canada big';
 		font-size: var(--xl);
 		color: white;
 		font-weight: 500;

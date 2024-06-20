@@ -18,7 +18,8 @@
 </script>
 
 <Header />
-<section class="H-section">
+
+<section class="H-section clip-path">
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="imaginer">Imaginer.</h1>
@@ -42,7 +43,9 @@
 	</div>
 </section>
 
+
 <style>
+
 	.H-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -51,7 +54,8 @@
 		font-size: 16px;
 		opacity: 1;
 		background-color: rgb(26, 44, 57);
-		z-index: 5;
+		z-index: 5;	 
+		/* clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);   */
 	}
 
 	.wrapper-text {
@@ -144,7 +148,7 @@
 		margin-top: 60px;
 		align-items: baseline;
 		justify-content: flex-start;
-		margin-bottom: 100px;
+		margin-bottom: 200px;
 	}
 
 	@keyframes bounce {

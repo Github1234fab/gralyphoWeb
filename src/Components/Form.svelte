@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="section-form" id="section-form">
+<section class="section-form clip-path" id="section-form">
 	<div class="wrapper-text">
 		<h3 class="form-title">Formulaire de contact</h3>
 		<h1 class="form-contactez">Contactez-nous dès aujourdhui!</h1>
@@ -53,6 +53,10 @@
 		justify-content: center;
 		align-items: center;
 		/* background-color: rgb(245, 243, 243); */
+	}
+	.clip-path{
+	clip-path: polygon(35% 4%, 72% 0, 83% 3%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0, 12% 3%, 21% 0);
+
 	}
 	.wrapper-text {
 		grid-column: 2/12;

@@ -31,7 +31,7 @@
 		max-width: 300px;
 		min-height: 450px;
 		font-family: epilogue;
-		background-color: var(--bgHero);
+		background-color: rgba(70, 70, 119, 0.755);
 		margin-top: 30px;
 		margin-bottom: 20px;
 		flex-shrink: 0;

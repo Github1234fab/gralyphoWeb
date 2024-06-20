@@ -26,7 +26,7 @@
 </div>
 
 <div class="section imageC"></div>
-<div class="bloc">
+<div class="bloc clip-path">
 	<h1 class="title">Augmentez votre potentiel de client.</h1>
 	<i class="fa-solid fa-sack-dollar icon-difference"></i>
 	<p>
@@ -47,11 +47,25 @@
 		height: 100vh;
 	}
 	.imageA {
+		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
 		background-image: url(../Assets/png-gralypho/23.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+		clip-path: polygon(
+			39% 2%,
+			59% 0,
+			80% 3%,
+			100% 0,
+			100% 100%,
+			59% 100%,
+			0 100%,
+			0 0,
+			12% 3%,
+			25% 0
+		);
+		
 	}
 	.imageB {
 		background-image: url(../Assets/png-gralypho/36.png);
@@ -74,10 +88,14 @@
 		align-items: center;
 		justify-content: center;
 		background-color: var(--bgHero);
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
+		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
+		
+	}
+	.clip-path {
+		clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);
 	}
 	.title {
-			font-family: 'radio canada big';
+		font-family: 'radio canada big';
 		padding: 20px;
 		text-align: center;
 		color: white;

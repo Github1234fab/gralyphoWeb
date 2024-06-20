@@ -53,7 +53,7 @@
 	];
 </script>
 
-<section class="E-section">
+<section class="E-section clip-path">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
 		<h2>Sites sur mesure, applications, refonte, stratégie, Seo, réseaux sociaux.</h2>
@@ -87,6 +87,10 @@
 		background-color: var(--greyBg);
 		overflow: hidden;
 	}
+	.clip-path {
+		clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);
+	}
+
 	:global(.card-services) {
 		flex: 1 1 25%;
 		min-height: 400px;
@@ -99,7 +103,7 @@
 		border-radius: 20px;
 	}
 	.E-section h1 {
-		font-family: "Heebo";
+		font-family: 'Heebo';
 		text-transform: uppercase;
 		font-size: var(--m);
 		color: var(--bleuAcier);
@@ -136,6 +140,9 @@
 	}
 	.E-section h3 span {
 		font-weight: 800;
+	}
+	.clip-path {
+		clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);
 	}
 
 	.wrapper-cards-services {

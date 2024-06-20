@@ -126,7 +126,7 @@
 		width: 100vw;
 	}
 	.hero {
-	
+	padding: 30px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

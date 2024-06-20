@@ -183,7 +183,7 @@
 	@media screen and (min-width: 1430px) and (max-width: 3000px) {
 		.card-services {
 			min-height: 650px;
-			min-width: 600px;
+			min-width: 500px;
 		}
 	}
 
