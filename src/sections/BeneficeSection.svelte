@@ -51,7 +51,7 @@
 		background-image: url(../Assets/png-gralypho/23.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 70%;
 		background-position: center;
 		 clip-path: polygon(
 			39% 2%,
@@ -71,14 +71,14 @@
 		background-image: url(../Assets/png-gralypho/36.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 70%;
 		background-position: center;
 	}
 	.imageC {
 		background-image: url(../Assets/png-gralypho/09.png);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 70%;
 		background-position: center;
 	}
 	.bloc {

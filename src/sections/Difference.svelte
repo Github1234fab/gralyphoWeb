@@ -244,11 +244,10 @@
 			font-size: var(--m);
 			color: var(--primary);
 			font-weight: 300;
-			margin-bottom: 0px;
 			letter-spacing: -0.02em;
-			text-align: left;
+			text-align: justify;
 			line-height: 25px;
-			width: 80%;
+			width: 90%;
 		}
 	}
 </style>

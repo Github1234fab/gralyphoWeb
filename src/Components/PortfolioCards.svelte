@@ -25,7 +25,6 @@
 		min-width: 320px;
 		cursor: pointer;
 		border-radius: 20px;
-		
 	}
 	.wrapper-portfolio h1 {
 		font-family: poppins;
@@ -100,26 +99,18 @@
 		color: white;
 		transition: 0.9s ease-in-out;
 		box-shadow: 0px 0px 20px 10px black;
-		/* border-radius: 15px 56px 42px 67px; */
 	}
 
 	.card-content h3 {
 		font-size: var(--l);
 		font-family: 'heebo';
 		font-weight: 500;
-		color: var(--bleuAcier);
+		/* color: var(--bleuAcier); */
+		color: var(--CTA-jaune);
 		text-align: left;
 		text-transform: capitalize;
 	}
-	/* .card-content p {
-		text-align: left;
-		font-size: var(--m);
-		font-family: poppins;
-		font-weight: 400;
-		text-align: center;
-		color: rgb(229, 229, 229);
-		margin-top: 20px;
-	} */
+
 	@keyframes vertical {
 		0% {
 			transform: translateY(0);
@@ -129,6 +120,15 @@
 		}
 		100% {
 			transform: translateY(0);
+		}
+	}
+	@media screen and (max-width: 768px) {
+		
+		.card-portfolio {
+			min-width: 100%;
+		}
+		.card-content {
+			padding: 20px;
 		}
 	}
 </style>
