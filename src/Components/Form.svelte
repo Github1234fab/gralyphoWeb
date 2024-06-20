@@ -49,10 +49,10 @@
 		width: 100%;
 		padding: 20px;
 		background-color: var(--bgHero);
-		/* background-color: rgb(37, 55, 109); */
 		justify-content: center;
 		align-items: center;
-		/* background-color: rgb(245, 243, 243); */
+	
+	
 	}
 	.clip-path{
 	clip-path: polygon(35% 4%, 72% 0, 83% 3%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0, 12% 3%, 21% 0);
@@ -164,7 +164,7 @@
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
 		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 100px;
 	}
 	.button:hover {
 		animation: bounce 0.4s ease-in-out;

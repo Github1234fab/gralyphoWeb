@@ -99,7 +99,7 @@
 	];
 </script>
 
-<section class="G-section clip-path">
+<section class="G-section ">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>Des Sites Web...mais pas que !</h2>
@@ -116,9 +116,7 @@
 </section>
 
 <style>
-	.clip-path {
-		clip-path: polygon(0 0, 51% 0, 100% 0, 100% 100%, 81% 96%, 71% 100%, 57% 98%, 29% 98%, 0 100%);
-	}
+
 	.G-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);

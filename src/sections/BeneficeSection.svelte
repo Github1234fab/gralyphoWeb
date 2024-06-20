@@ -53,7 +53,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		clip-path: polygon(
+		 clip-path: polygon(
 			39% 2%,
 			59% 0,
 			80% 3%,
@@ -64,7 +64,7 @@
 			0 0,
 			12% 3%,
 			25% 0
-		);
+		); 
 		
 	}
 	.imageB {
@@ -91,9 +91,7 @@
 		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
 		
 	}
-	.clip-path {
-		clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);
-	}
+
 	.title {
 		font-family: 'radio canada big';
 		padding: 20px;

@@ -102,7 +102,7 @@
 		grid-row: 2;
 		font-weight: 700;
 		color: var(--primary);
-		font-size: var(--lm);
+		font-size: 2em;
 		text-align: center;
 		margin-top: 100px;
 		margin-left: 10px;

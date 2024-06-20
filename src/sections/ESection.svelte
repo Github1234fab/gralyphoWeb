@@ -53,7 +53,7 @@
 	];
 </script>
 
-<section class="E-section clip-path">
+<section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
 		<h2>Sites sur mesure, applications, refonte, stratégie, Seo, réseaux sociaux.</h2>
@@ -86,9 +86,6 @@
 		font-size: 16px;
 		background-color: var(--greyBg);
 		overflow: hidden;
-	}
-	.clip-path {
-		clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);
 	}
 
 	:global(.card-services) {
@@ -141,9 +138,7 @@
 	.E-section h3 span {
 		font-weight: 800;
 	}
-	.clip-path {
-		clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);
-	}
+
 
 	.wrapper-cards-services {
 		grid-column: 2/12;

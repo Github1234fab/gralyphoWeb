@@ -34,11 +34,11 @@
       </div>
       <div class="wrapper-text-cards">
         <h3>Captez</h3>
-        <p>
+        <!-- <p>
           Boostez votre visibilité en ligne et captez l'attention de vos prospects potentiels. Grâce à des stratégies
           numériques efficaces et une présence web percutante, nous mettons en avant votre entreprise là où se trouvent
           vos clients.
-        </p>
+        </p> -->
       </div>
     </div>
     <div class="card-action">
