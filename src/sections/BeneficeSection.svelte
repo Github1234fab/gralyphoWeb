@@ -88,7 +88,7 @@
 		align-items: center;
 		justify-content: center;
 		background-color: var(--bgHero);
-		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
+		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 		
 	}
 
@@ -155,5 +155,41 @@
 			color: white;
 			max-width: 100%;
 		}
+	
+	.imageA {
+		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
+		background-image: url(../Assets/png-gralypho/23.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		 clip-path: polygon(
+			39% 2%,
+			59% 0,
+			80% 3%,
+			100% 0,
+			100% 100%,
+			59% 100%,
+			0 100%,
+			0 0,
+			12% 3%,
+			25% 0
+		); 
+		
+	}
+	.imageB {
+		background-image: url(../Assets/png-gralypho/36.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+	}
+	.imageC {
+		background-image: url(../Assets/png-gralypho/09.png);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: -240px center;
+	}
 	}
 </style>

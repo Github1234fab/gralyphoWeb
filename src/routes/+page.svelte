@@ -28,7 +28,6 @@
 	<BeneficeSection />
 	<Difference />
 	<GSection />
-	
 	<JSection />
 	
 

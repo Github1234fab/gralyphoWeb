@@ -23,9 +23,7 @@
 	</h3>
 
 	<img src={imageDiff} alt="" class="img" />
-	<!-- <div class="wrapper">
-		<ButtonDifference />
-	</div> -->
+	
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">

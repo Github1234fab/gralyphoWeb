@@ -95,7 +95,9 @@
 	<div class="hero">
 		<h1>Nos <br /><span>Tarifs</span></h1>
 		<h3>
-			L'agence Gralypho pratique des tarifs réfléchis et très adaptatifs. Chaque projet est différent et la tarification dépend du besoin technologique qui est employé pour réaliser votre projet.
+			L'agence Gralypho pratique des tarifs réfléchis et très adaptatifs. Chaque projet est
+			différent et la tarification dépend du besoin technologique qui est employé pour réaliser
+			votre projet.
 		</h3>
 	</div>
 	{#each tabTarifs as tarif, index (tarif)}
@@ -126,7 +128,7 @@
 		width: 100vw;
 	}
 	.hero {
-	padding: 30px;
+		padding: 30px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -160,16 +162,14 @@
 		padding: 30px;
 	}
 
-
-
 	@media screen and (max-width: 768px) {
 		.hero h1 {
 			font-size: 5em;
 			line-height: 80px;
 		}
 		.hero h3 {
-			width: 80%;
-			text-align: center;
+			width: 110%;
+			text-align: justify;
 			padding: 40px;
 		}
 	}

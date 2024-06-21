@@ -106,7 +106,7 @@
 		font-family: 'heebo';
 		font-weight: 500;
 		/* color: var(--bleuAcier); */
-		color: var(--CTA-jaune);
+			color: var(--CTA-jaune);
 		text-align: left;
 		text-transform: capitalize;
 	}
@@ -125,8 +125,9 @@
 	@media screen and (max-width: 768px) {
 		
 		.card-portfolio {
-			min-width: 100%;
+			min-width: 300px;
 		}
+	
 		.card-content {
 			padding: 20px;
 		}
