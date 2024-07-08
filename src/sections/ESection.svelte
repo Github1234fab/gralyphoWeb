@@ -56,16 +56,16 @@
 <section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
-		<h2>Sites sur mesure, applications, refonte, stratégie, Seo, réseaux sociaux.</h2>
+		<h2>Sites sur mesure <br>  Applications <br>  Refonte <br>  Stratégie Seo <br> Réseaux sociaux<br>  Photos pros  <br> E-commerce</h2>
 		<h3>
 			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre
-			identité et de vos exigences. Nous nous occupons également de la
+			identité et de vos exigences. <br>Nous nous occupons également de la
 			<span>création de votre identité graphique</span>
 			, de votre logo, de votre design, de la création de vos contenus et de la gestion de vos
 			<span>réseaux sociaux. </span><br />
 			Nous ne sommes pas dépendant des templates de sites Web, nous créons des
 			<span>sites Web sur mesure</span>
-			et la seule limite, c'est votre <span>imagination!</span>
+			et la seule limite dans le processus de création, sera votre <span>imagination!</span>
 		</h3>
 	</div>
 
@@ -114,11 +114,11 @@
 	.E-section h2 {
 		font-family: 'radio canada big';
 		font-size: var(--xl);
-		color: var(--primary);
+		color: rgb(87, 83, 83);
 		font-weight: 500;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: center;
+		text-align: left;
 		line-height: 49px;
 		margin-top: 20px;
 	}
@@ -127,10 +127,10 @@
 		font-family: epilogue;
 		font-size: var(--m);
 		color: var(--primary);
-		font-weight: 400;
+		font-weight: 300;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: justify;
+		text-align: left;
 		line-height: 30px;
 		width: 100%;
 		margin: 50px auto;

@@ -36,11 +36,12 @@
 		text-align: left;
 	}
 	.card-portfolio {
-		min-height: 200px;
-		min-width: 320px;
+		max-height: 200px;
+		width: 300px;
 		transition: 0.3s ease-in-out;
 		position: relative;
 		display: flex;
+		align-self: center;
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
@@ -58,7 +59,7 @@
 		transform: translateX(220px);
 	}
 	.card-content {
-		height: 200px;
+		height: 180px;
 		width: 100%;
 		z-index: 2;
 		position: relative;
@@ -73,9 +74,9 @@
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
-		box-shadow: inset 0px 0px 15px 4px black;
+		box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.607);
 		padding: 50px;
-		border-radius: 5px;
+		border-radius: 0px;
 	}
 	.card-content::after {
 		z-index: 2;
@@ -102,11 +103,11 @@
 	}
 
 	.card-content h3 {
-		font-size: var(--l);
+		font-size: var(--m);
 		font-family: 'heebo';
 		font-weight: 500;
 		/* color: var(--bleuAcier); */
-			color: var(--CTA-jaune);
+		color: var(--CTA-jaune);
 		text-align: left;
 		text-transform: capitalize;
 	}
@@ -123,11 +124,10 @@
 		}
 	}
 	@media screen and (max-width: 768px) {
-		
 		.card-portfolio {
-			min-width: 300px;
+			max-width: 200px;
 		}
-	
+
 		.card-content {
 			padding: 20px;
 		}

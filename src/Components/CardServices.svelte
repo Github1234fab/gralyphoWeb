@@ -114,7 +114,7 @@
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--primary);
-		text-align: justify;
+		text-align: left;
 		line-height: 30px;
 		margin-top: 30px;
 		margin-bottom: 40px;

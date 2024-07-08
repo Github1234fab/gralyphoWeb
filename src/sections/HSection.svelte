@@ -108,12 +108,12 @@
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--greyBg);
-		text-align: center;
+		text-align: left;
 		line-height: 30px;
 		margin-top: 40px;
 		max-width: 50%;
-		justify-self: center;
-		align-self: center;
+		/* justify-self: center;
+		align-self: center; */
 	}
 	.H-section h2 span {
 		font-weight: 600;
@@ -148,7 +148,7 @@
 		margin-top: 60px;
 		align-items: baseline;
 		justify-content: flex-start;
-		margin-bottom: 200px;
+		margin-bottom: 100px;
 	}
 
 	@keyframes bounce {
@@ -180,7 +180,7 @@
 			border-radius: 20px;
 			margin: auto;
 			align-items: center;
-			justify-content: center;
+			justify-content: left;
 			z-index: 2;
 		}
 	}
@@ -225,10 +225,10 @@
 		font-weight: 300;
 		font-size: 1rem;
 		color: var(--greyBg);
-		text-align: justify;
+		text-align: center;
 		line-height: 30px;
 		margin-top: 40px;
-		max-width: 80%;
+		max-width: 90%;
 		justify-self: center;
 		align-self: center;
 	}

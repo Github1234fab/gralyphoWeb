@@ -1,29 +1,31 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
-	import imageDiff from '../Assets/png-gralypho/photo-dev2.jpg';
 </script>
 
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
 	<h2>Le Web, c'est Notre Métier.</h2>
 	<h3 class="title-h3">
-		Passionné par le Web et la programmation informatique, nous souhaitons fournir à votre
-		entreprise <span>un service digital de qualité</span>, qui permettra à
+		Passionné par le Web et la programmation informatique, nous créeons des sites webs et des
+		applications webs pour fournir à votre entreprise <span>un service digital de qualité</span>,
+		qui permettra à
 		<span>votre business</span>
-		de décoller sur le Net ! Installé dans l'Ouest Lyonnais, l'agence Gralypho est experte dans le
-		domaine du Web. Nous considérons qu'un site internet ne se créé pas seulement en ajoutant du
-		contenu à un template existant. Les tendances de Design évoluent très vite sur le Web, alors
-		quoi de mieux q'un <span>Design original et sur mesure </span> qui correspondra le plus à votre
-		business!
+		de décoller sur le Net ! <br /><br />Installé dans l'Ouest Lyonnais, sur les communes de
+		Vaugneray et Thurins, l'agence Gralypho est experte dans le domaine du Web. Notre expertise nous
+		permet de concevoir des sites et des applications qui vous ressemblent menant une étude précise
+		de votre identité et de vos besoins. Nous aimons créer des
+		<span>designs originaux et sur mesure </span> qui correspondront le plus à votre activité!
+		<br />
+
 		<br />Nous sommes <span>experts en SEO</span> et le référencement étant le nerf de la guerre, il
 		vaut mieux s'adresser à des pros! Un site internet c'est un outil, présent sur le Web 24/7.
-		Alors plutôt qu'une simple vitrine, nous créeons <span>des sites intelligents</span>, qui vous
-		rapporterons des clients.
+		Alors plutôt que créer de simples sites vitrine via des templates existants, nous nous creusons
+		la tête pour vous livrer<span>des sites webs et des applications "intelligentes"</span>, qui
+		vous rapporterons à coup sûr, de nombreux clients.
 		<br />
 	</h3>
 
-	<img src={imageDiff} alt="" class="img" />
-	
+	<div class="img"></div>
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
@@ -68,17 +70,7 @@
 </section>
 
 <style>
-	.img {
-		width: 100%;
-		object-fit: cover;
-		object-position: center;
-		max-height: 300px;
-		border-radius: 10px 10px 150px 10px;
-		margin-top: 70px;
-		grid-column: 2/12;
-		grid-row: 4;
-		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
-	}
+
 	.difference {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -90,6 +82,16 @@
 		margin: 0px auto;
 		width: calc(100vw - 100px);
 	}
+		.img {
+		background-image: url('../Assets/png-gralypho/photo-dev2.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 400px;
+		width: 100%;
+		grid-column: 2/12;
+		grid-row: 4;
+	}
+
 
 	.difference h1 {
 		font-family: Heebo;
@@ -119,12 +121,12 @@
 	}
 	.title-h3 {
 		font-family: epilogue;
-		font-size: var(--m);
+		font-size: var(--lm);
 		color: var(--primary);
 		font-weight: 400;
 		margin-bottom: 0px;
 		letter-spacing: -0.02em;
-		text-align: left;
+		text-align: center;
 		line-height: 30px;
 		width: 100%;
 		margin-top: 40px;
@@ -242,8 +244,7 @@
 			font-size: var(--m);
 			color: var(--primary);
 			font-weight: 300;
-			letter-spacing: -0.02em;
-			text-align: justify;
+			text-align: left;
 			line-height: 25px;
 			width: 90%;
 		}
