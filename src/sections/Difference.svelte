@@ -70,7 +70,6 @@
 </section>
 
 <style>
-
 	.difference {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -81,8 +80,8 @@
 		margin: 0px auto;
 		width: calc(100vw - 100px);
 	}
-		.img {
-		background-image: url('../Assets/png-gralypho/photo-dev2.jpg');
+	.img {
+		background-image: url('../Assets/png-gralypho/photoDev.jpg');
 		background-size: cover;
 		background-position: center;
 		height: 400px;
@@ -91,7 +90,6 @@
 		grid-row: 4;
 		margin-top: 30px;
 	}
-
 
 	.difference h1 {
 		font-family: Heebo;
@@ -138,7 +136,6 @@
 		font-weight: 700;
 		color: var(--CTA-jaune);
 	}
-
 
 	.wrapper-difference__title {
 		display: flex;
@@ -217,7 +214,7 @@
 		.difference p {
 			column-count: 1;
 		}
-	
+
 		.title-h3 {
 			font-family: epilogue;
 			font-size: var(--m);
