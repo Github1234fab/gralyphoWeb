@@ -224,5 +224,10 @@
 			line-height: 25px;
 			width: 90%;
 		}
+		.difference h2 {
+		
+		line-height: 40px;
+		
+	}
 	}
 </style>
