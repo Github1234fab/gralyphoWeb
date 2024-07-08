@@ -25,7 +25,7 @@
 		<br />
 	</h3>
 
-	<div class="img"></div>
+	<!-- <div class="img"></div> -->
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
@@ -82,7 +82,7 @@
 		margin: 0px auto;
 		width: calc(100vw - 100px);
 	}
-		.img {
+		/* .img {
 		background-image: url('../Assets/png-gralypho/photo-dev2.jpg');
 		background-size: cover;
 		background-position: center;
@@ -90,7 +90,7 @@
 		width: 100%;
 		grid-column: 2/12;
 		grid-row: 4;
-	}
+	} */
 
 
 	.difference h1 {
@@ -229,16 +229,7 @@
 		.difference p {
 			column-count: 1;
 		}
-		.img {
-			width: auto;
-			max-height: 200px;
-			border-radius: 20px;
-			margin-top: 50px;
-			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.283);
-		}
-		.difference h2 {
-			line-height: 35px;
-		}
+	
 		.title-h3 {
 			font-family: epilogue;
 			font-size: var(--m);
