@@ -20,12 +20,12 @@
 		<br />Nous sommes <span>experts en SEO</span> et le référencement étant le nerf de la guerre, il
 		vaut mieux s'adresser à des pros! Un site internet c'est un outil, présent sur le Web 24/7.
 		Alors plutôt que créer de simples sites vitrine via des templates existants, nous nous creusons
-		la tête pour vous livrer<span>des sites webs et des applications "intelligentes"</span>, qui
+		la tête pour vous livrer <span> des sites webs et des applications "intelligentes"</span>, qui
 		vous rapporterons à coup sûr, de nombreux clients.
 		<br />
 	</h3>
 
-	<!-- <div class="img"></div> -->
+	<div class="img"></div>
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
@@ -78,11 +78,10 @@
 		height: auto;
 		font-size: 16px;
 		background-color: white;
-		/* padding: 40px; */
 		margin: 0px auto;
 		width: calc(100vw - 100px);
 	}
-		/* .img {
+		.img {
 		background-image: url('../Assets/png-gralypho/photo-dev2.jpg');
 		background-size: cover;
 		background-position: center;
@@ -90,7 +89,8 @@
 		width: 100%;
 		grid-column: 2/12;
 		grid-row: 4;
-	} */
+		margin-top: 30px;
+	}
 
 
 	.difference h1 {
@@ -120,37 +120,25 @@
 		grid-row: 2;
 	}
 	.title-h3 {
-		font-family: epilogue;
-		font-size: var(--lm);
-		color: var(--primary);
-		font-weight: 400;
-		margin-bottom: 0px;
-		letter-spacing: -0.02em;
-		text-align: center;
-		line-height: 30px;
+		font-family: poppins;
+		color: grey;
+		column-count: 1;
+		font-size: 1.1rem;
+		color: #2d2d2d;
+		font-weight: 300;
+		line-height: 1.5em;
 		width: 100%;
-		margin-top: 40px;
+		padding: 0px;
+		text-align: left;
 		grid-column: 2/12;
 		grid-row: 3;
+		margin-top: 30px;
 	}
 	.title-h3 span {
 		font-weight: 700;
+		color: var(--CTA-jaune);
 	}
-	/* .difference h2 span {
-		color: transparent;
-		-webkit-background-image: linear-gradient(45deg, var(--blue2), navy);
-		background-image: linear-gradient(45deg, var(--blue2), navy);
-		-webkit-background-clip: text;
-		background-clip: text;
-		font-weight: 700;
-	} */
-	/* .wrapper {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		justify-content: center;
-		margin-top: 20px;
-	} */
+
 
 	.wrapper-difference__title {
 		display: flex;

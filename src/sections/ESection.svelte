@@ -56,10 +56,13 @@
 <section class="E-section">
 	<div class="wrapper-text">
 		<h1>Notre proposition</h1>
-		<h2>Sites sur mesure <br>  Applications <br>  Refonte <br>  Stratégie Seo <br> Réseaux sociaux<br>  Photos pros  <br> E-commerce</h2>
+		<h2>
+			Sites sur mesure <br /> Applications <br /> Refonte <br /> Stratégie Seo <br /> Réseaux
+			sociaux<br /> Photos pros <br /> E-commerce
+		</h2>
 		<h3>
 			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre
-			identité et de vos exigences. <br>Nous nous occupons également de la
+			identité et de vos exigences. <br />Nous nous occupons également de la
 			<span>création de votre identité graphique</span>
 			, de votre logo, de votre design, de la création de vos contenus et de la gestion de vos
 			<span>réseaux sociaux. </span><br />
@@ -138,7 +141,6 @@
 	.E-section h3 span {
 		font-weight: 800;
 	}
-
 
 	.wrapper-cards-services {
 		grid-column: 2/12;

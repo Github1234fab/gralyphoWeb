@@ -189,7 +189,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: -240px center;
+		background-position: -440px center;
 	}
 	}
 </style>
