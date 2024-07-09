@@ -19,6 +19,13 @@
 	import resa from '../Assets/png-gralypho/resa.png';
 
 	let portfolioTab = [
+			{
+			type: 'Application',
+			title: 'Tables',
+			text: 'Application',
+			img: animationSite,
+			lien: 'https://fabienmarceau.com/theTables/index.html'
+		},
 		{
 			type: 'Application',
 			title: 'Shooping List Appli',

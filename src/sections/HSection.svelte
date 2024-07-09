@@ -77,7 +77,7 @@
 	.H-section h1 {
 		text-align: center;
 		font-family: 'radio canada big';
-		font-weight: 300;
+		font-weight: 500;
 		font-size: 9rem;
 		text-transform: capitalize;
 		letter-spacing: -10px;
@@ -128,10 +128,10 @@
 		font-weight: bolder;
 		margin-top: 20px;
 		margin-left: 0px;
-		min-width: 200px;
+		max-width: 260px;
 		border-radius: 5px;
 		text-align: center;
-		padding: 15px 5px;
+		padding: 15px 10px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		justify-self: center;
 		align-self: center;
