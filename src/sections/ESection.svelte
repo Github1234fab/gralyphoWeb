@@ -139,7 +139,7 @@
 		margin: 50px auto;
 	}
 	.E-section h3 span {
-		font-weight: 800;
+		font-weight: 600;
 	}
 
 	.wrapper-cards-services {

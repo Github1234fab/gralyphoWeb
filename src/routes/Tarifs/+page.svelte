@@ -9,12 +9,12 @@
 		{
 			titleH1: 'Site Web',
 			titleH2: 'Création de site Internet',
-			tarifEuro: '790€',
+			tarifEuro: '799€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
 				'Landing Page (page unique)',
 				'Développement Front-End',
-				'Formulaire de contact',
+				'Sans formulaire de contact',
 				'Référencement SEO',
 				'Design Responsive',
 				'Déploiement sur serveur'
@@ -23,7 +23,7 @@
 		{
 			titleH1: 'Applications',
 			titleH2: "Création d'applications Web",
-			tarifEuro: '5590€',
+			tarifEuro: '5499€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
 				'Création du Design',
@@ -48,7 +48,7 @@
 			]
 		},
 		{
-			titleH1: 'Médias Sociaux',
+			titleH1: 'Médias ',
 			titleH2: 'Community Manager',
 			tarifEuro: '599€',
 			subTarifEuro: 'À partir de ',
@@ -62,7 +62,7 @@
 		{
 			titleH1: 'Design',
 			titleH2: "Création d'identité et refonte",
-			tarifEuro: '890€',
+			tarifEuro: '899€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
 				"Création d'identité graphique",
@@ -74,7 +74,7 @@
 		{
 			titleH1: 'Stratégie',
 			titleH2: 'Conseils Marketing',
-			tarifEuro: '990€',
+			tarifEuro: '999€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
 				'Audit de site web',
@@ -169,7 +169,7 @@
 		}
 		.hero h3 {
 			width: 110%;
-			text-align: justify;
+			text-align: center;
 			padding: 40px;
 		}
 	}

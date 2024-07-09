@@ -159,7 +159,7 @@
 	}
 	@media (max-width: 768px) {
 		.card-tarif {
-				min-height: 900px;
+				min-height: 800px;
 				min-width: 320px;
 		}
 		.title-banner h1 {
