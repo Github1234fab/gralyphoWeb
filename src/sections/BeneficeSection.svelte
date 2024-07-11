@@ -118,6 +118,7 @@
 	}
 	.lien-bouton {
 		background-color: var(--CTA-jaune);
+		border: 2px solid white;
 		border-radius: 8px;
 		padding: 20px 14px;
 		font-family: 'Red Hat Display';

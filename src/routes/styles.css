@@ -7,8 +7,8 @@
 }
 body {
 	background-color: white;
-	scroll-behavior: smooth;
-	cursor: none;
+	/* scroll-behavior: smooth; */
+	/* cursor: none; */
 }
 
 html {
@@ -107,14 +107,14 @@ a {
 	--bgHero: rgb(26, 44, 57);
 	--titleHero: #3a3a58;
 	/* --CTA-jaune:#B97D4B ; */
-		--CTA-jaune: rgb(226, 160, 37);
+		--CTA-jaune: rgb(226, 158, 49);
 	  /* --CTA-jaune: linear-gradient(90deg, rgb(205, 153, 55), rgb(231, 164, 82)); */
 
 	--line-url: url(../Assets/png-gralypho/line-4.svg);
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 	body {
 		cursor: auto;
 	}
-}
+} */

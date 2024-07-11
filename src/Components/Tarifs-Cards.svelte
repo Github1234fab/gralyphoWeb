@@ -25,7 +25,7 @@
 			</ul>
 		</div>
 	</div>
-	<a href="#form" class="contact-tarif">Je veux en savoir plus</a>
+	<a href="#form" class="contact-tarif">Je veux en savoir +</a>
 </div>
 
 <style>
@@ -119,14 +119,16 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: rgb(226, 160, 37);
-		color: rgb(248, 244, 244);
-		border-radius: 5px;
+		color: var(--colorC);
+		border: 3px solid rgb(239, 238, 238);
+		background-color: var(--CTA-jaune);
+		font-size: 1rem;
+		border-radius: 8px;
 		padding: 20px 20px;
 		text-decoration: none;
 		font-size: 1.2rem;
 		margin-bottom: 20px;
-		font-weight: 700;
+		font-weight: 500;
 	}
 	.contact-tarif:hover {
 		background-color: rgb(0, 0, 0);

@@ -51,12 +51,20 @@
 		background-color: var(--bgHero);
 		justify-content: center;
 		align-items: center;
-	
-	
 	}
-	.clip-path{
-	clip-path: polygon(35% 4%, 72% 0, 83% 3%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0, 12% 3%, 21% 0);
-
+	.clip-path {
+		clip-path: polygon(
+			35% 4%,
+			72% 0,
+			83% 3%,
+			100% 0,
+			100% 100%,
+			50% 100%,
+			0 100%,
+			0 0,
+			12% 3%,
+			21% 0
+		);
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -154,10 +162,11 @@
 
 	.button {
 		border: none;
-		background-color: var(--bleuAcier);
+		background-color: var(--CTA-jaune);
+		border: 2px solid white;
 		color: white;
 		font-family: epilogue;
-		font-weight: 700;
+		font-weight: 500;
 		padding: 20px 10px;
 		border-radius: 8px;
 		max-width: 100px;

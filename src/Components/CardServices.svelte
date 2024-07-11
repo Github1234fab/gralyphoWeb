@@ -127,7 +127,7 @@
 		margin-top: 30px;
 		margin-bottom: 50px;
 		font-weight: 700;
-		color: white;
+		color: var(--colorC);
 		background-color: var(--CTA-jaune);
 		z-index: 44;
 		border: 2px solid white;

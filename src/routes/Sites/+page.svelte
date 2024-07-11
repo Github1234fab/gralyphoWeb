@@ -274,6 +274,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
+			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 	}
 	.container-service h1 {
 		text-align: center;
@@ -283,6 +284,7 @@
 		color: var(--primary);
 		margin-top: 100px;
 		letter-spacing: -1px;
+	
 	}
 	.wrapper-service {
 		display: flex;
@@ -292,6 +294,7 @@
 		gap: 10px;
 		margin-top: 30px;
 		margin-bottom: 50px;
+	
 	}
 
 	.wrapper-SectionB {

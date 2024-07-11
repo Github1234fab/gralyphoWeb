@@ -65,7 +65,7 @@
     left: 0;
     background-color: rgba(83, 100, 194, 0.275);
     border: solid 1px white;
-    /* backdrop-filter: brightness(1.2); */
+    backdrop-filter: brightness(1.2);
     width: 25px;
     height: 25px;
     border-radius: 50%;

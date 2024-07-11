@@ -43,9 +43,7 @@
 	</div>
 </section>
 
-
 <style>
-
 	.H-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -54,7 +52,7 @@
 		font-size: 16px;
 		opacity: 1;
 		background-color: rgb(26, 44, 57);
-		z-index: 5;	 
+		z-index: 5;
 		/* clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);   */
 	}
 
@@ -121,11 +119,12 @@
 	}
 	.contact {
 		text-decoration: none;
-		color: white;
+		color: var(--colorC);
+		border: 2px solid white;
 		background-color: var(--CTA-jaune);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
-		font-weight: bolder;
+		font-weight: 600;
 		margin-top: 20px;
 		margin-left: 0px;
 		max-width: 260px;
@@ -220,17 +219,17 @@
 			letter-spacing: -5px;
 			line-height: 60px;
 		}
-			.H-section h2 {
-		font-family: poppins;
-		font-weight: 300;
-		font-size: 1rem;
-		color: var(--greyBg);
-		text-align: center;
-		line-height: 30px;
-		margin-top: 40px;
-		max-width: 90%;
-		justify-self: center;
-		align-self: center;
-	}
+		.H-section h2 {
+			font-family: poppins;
+			font-weight: 300;
+			font-size: 1rem;
+			color: var(--greyBg);
+			text-align: center;
+			line-height: 30px;
+			margin-top: 40px;
+			max-width: 90%;
+			justify-self: center;
+			align-self: center;
+		}
 	}
 </style>

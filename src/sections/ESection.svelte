@@ -6,6 +6,7 @@
 	import iconLoupe from '../Assets/png-gralypho/loupe.png';
 	import iconFacebook from '../Assets/png-gralypho/iconFacebook.png';
 	import iconStrat from '../Assets/png-gralypho/iconStratégie.png';
+	import CircleAnimation from '../Components/CircleAnimation.svelte';
 
 	const servicesTab = [
 		{
@@ -54,12 +55,38 @@
 </script>
 
 <section class="E-section">
+	<h1>Notre proposition</h1>
+	<div class="container-text-circles">
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>Sites sur mesure</h2>
+		</div>
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>Applications</h2>
+		</div>
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>Refonte</h2>
+		</div>
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>Stratégie Seo</h2>
+		</div>
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>Réseaux sociaux</h2>
+		</div>
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>Photos pros</h2>
+		</div>
+		<div class="wrapper-circle">
+			<CircleAnimation />
+			<h2>E-commerce</h2>
+		</div>
+	</div>
 	<div class="wrapper-text">
-		<h1>Notre proposition</h1>
-		<h2>
-			Sites sur mesure <br /> Applications <br /> Refonte <br /> Stratégie Seo <br /> Réseaux
-			sociaux<br /> Photos pros <br /> E-commerce
-		</h2>
 		<h3>
 			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre
 			identité et de vos exigences. <br />Nous nous occupons également de la
@@ -95,14 +122,28 @@
 		flex: 1 1 25%;
 		min-height: 400px;
 	}
+	.container-text-circles {
+		grid-column: 2/12;
+		grid-row: 2;
+		height: 300px;
+	}
+	.wrapper-circle {
+		display: flex;
+		max-height: 30px;
+		max-width: 100%;
+		gap: 30px;
+	}
 	.wrapper-text {
 		grid-column: 2/ 12;
-		grid-row: 1;
+		grid-row: 3;
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
+		margin-top: 0px;
 	}
 	.E-section h1 {
+		grid-column: 2/ 12;
+		grid-row: 1;
 		font-family: 'Heebo';
 		text-transform: uppercase;
 		font-size: var(--m);
@@ -112,11 +153,11 @@
 		margin-top: 50px;
 		margin-left: 0px;
 		margin-bottom: 20px;
-		text-align: center;
+		text-align: left;
 	}
 	.E-section h2 {
 		font-family: 'radio canada big';
-		font-size: var(--xl);
+		font-size: 1.4rem;
 		color: rgb(87, 83, 83);
 		font-weight: 500;
 		letter-spacing: -0.04em;
@@ -124,6 +165,7 @@
 		text-align: left;
 		line-height: 49px;
 		margin-top: 20px;
+		min-width: 100%;
 	}
 
 	.E-section h3 {
@@ -144,7 +186,7 @@
 
 	.wrapper-cards-services {
 		grid-column: 2/12;
-		grid-row: 2;
+		grid-row: 4;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
