@@ -38,7 +38,7 @@
 <style>
   :global(body) {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
   }
 
   :global(*),
@@ -63,6 +63,21 @@
     position: absolute;
     top: 0;
     left: 0;
+    background-color: rgba(83, 100, 194, 0.275);
+    border: solid 1px white;
+    /* backdrop-filter: brightness(1.2); */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 15px 2px rgba(76, 76, 76, 0.5); */
+    transform: translate(-50%, -50%) translate(var(--x, 0px), var(--y, 0px));
+  }
+    /* .cursor {
+    z-index: 100000;
+    cursor: none;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: rgba(255, 255, 255, 0.151);
     border: solid 1px white;
     backdrop-filter: brightness(1.2);
@@ -71,7 +86,8 @@
     border-radius: 50%;
     box-shadow: 0px 0px 15px 2px rgba(76, 76, 76, 0.5);
     transform: translate(-50%, -50%) translate(var(--x, 0px), var(--y, 0px));
-  }
+  } */
+
 
   @media only screen and (max-width: 1024px) {
     .cursor {

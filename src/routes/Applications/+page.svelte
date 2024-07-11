@@ -21,7 +21,7 @@
 		},
 		{
 			title: 'La vie de votre application',
-			p: 'Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vosu pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu.'
+			p: 'Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vous pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu.'
 		}
 	];
 </script>
