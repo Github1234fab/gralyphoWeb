@@ -131,7 +131,7 @@
 		display: flex;
 		max-height: 30px;
 		max-width: 100%;
-		gap: 30px;
+		gap: 20px;
 	}
 	.wrapper-text {
 		grid-column: 2/ 12;
@@ -139,7 +139,7 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-top: 0px;
+		margin-top: -20px;
 	}
 	.E-section h1 {
 		grid-column: 2/ 12;

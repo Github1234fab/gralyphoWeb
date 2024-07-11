@@ -60,14 +60,21 @@
 			transform: scale(1);
 		}
 		50% {
-			transform: scale(1.5);
+			transform: scale(2);
 		}
 		100% {
 			transform: scale(1);
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px) {.circle {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: var(--orange);
+		margin-top: 50px;
+		/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.53); */
+	}
 		.circles .circle:nth-child(4) {
 			display: none;
 		}
