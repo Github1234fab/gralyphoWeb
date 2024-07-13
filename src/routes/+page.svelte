@@ -20,7 +20,7 @@
 </script>
 
 <main in:fade={{ duration: 2000 }}>
-	<Mouse />
+	<!-- <Mouse /> -->
 	<HSection />
 	<section id="sectionE">
 		<ESection />

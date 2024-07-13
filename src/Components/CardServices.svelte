@@ -79,8 +79,8 @@
 		box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.152);
 		padding: 20px;
 		border: 5px solid rgb(238, 238, 238);
-		border-radius: 30px;
-		min-height: 650px;
+		border-radius: 8px;
+		max-height: 550px;
 		max-width: 500px;
 	}
 	/* .card-services:hover .icon {
