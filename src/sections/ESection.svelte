@@ -233,6 +233,7 @@
 		:global(.card-services) {
 			flex: 1 1 35%;
 		}
+		
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {

@@ -208,7 +208,7 @@
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
 		.card-services {
-			min-height: 750px;
+			min-height: 550px;
 			min-width: 430px;
 		}
 		.lien {
@@ -218,7 +218,8 @@
 
 	@media screen and (min-width: 300px) and (max-width: 576px) {
 		.card-services {
-			min-height: 250px;
+		min-height: 
+		650px;
 		}
 		.lien {
 			margin-top: 20px;
