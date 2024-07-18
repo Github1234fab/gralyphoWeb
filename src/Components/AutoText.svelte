@@ -6,7 +6,9 @@
         new Typewriter('#typewriter', {
             strings: ["Création de sites internet", "Création d'application", "Gestion des Medias Sociaux", "Refonte", "SEO", "SEA" ,"Design", "Marketing Digital" ],
             autoStart: true,
-            loop: true,
+          loop: true,
+            delay: 50, // Vitesse de frappe en millisecondes
+            deleteSpeed: 10, 
         });
     });
 </script>

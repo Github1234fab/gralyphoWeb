@@ -25,7 +25,6 @@
 			<h1 class="imaginer">Imaginer.</h1>
 			<h1 class="developper">Développer.</h1>
 			<h1 class="creer">Créer.</h1>
-			<div class="particules"></div>
 		</div>
 		<div class="autoText">
 			<AutoText />
@@ -62,6 +61,8 @@
 		display: flex;
 		justify-self: center;
 		align-self: center;
+		align-items: center;
+		justify-content: center;
 		flex-direction: column;
 		border-radius: 20px;
 		margin: auto;
@@ -95,18 +96,19 @@
 
 	.autoText {
 		color: yellow;
-		font-weight: 300;
+		font-weight: 500;
 		font-size: 1.2rem;
 		font-family: 'Red Hat Display';
 		justify-self: center;
 		align-self: center;
+		text-align: center;
 	}
 	.H-section h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--greyBg);
-		text-align: left;
+		text-align: center;
 		line-height: 30px;
 		margin-top: 40px;
 		max-width: 50%;
