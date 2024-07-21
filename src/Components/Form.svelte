@@ -178,6 +178,9 @@
 	.button:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
+	.button:active {
+	border: solid white 5px;
+	}
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
