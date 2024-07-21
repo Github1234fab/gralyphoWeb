@@ -37,8 +37,10 @@
 		</div>
 
 		<textarea name="demande" id="demande" class="demande" placeholder="Votre demande"></textarea>
+
+			<input class="button" type="submit" value="Envoyez" />
 	</form>
-	<input class="button" type="submit" value="Envoyez" />
+
 </section>
 
 <style>
