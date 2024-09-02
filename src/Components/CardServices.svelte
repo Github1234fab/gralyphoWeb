@@ -48,11 +48,23 @@
 		</div>
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
+		<a href={lien} class="lien"> En savoir +</a>
 	</div>
-	<a href={lien} class="lien"> En savoir +</a>
 </button>
 
 <style>
+	.card-services {
+		transform: translateY(300px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: transparent;
+		box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.152);
+		padding: 20px;
+		border: 5px solid rgb(238, 238, 238);
+		border-radius: 8px;
+		min-height: 500px;
+	}
 	.wrapper-icon {
 		background-color: transparent;
 		width: 100px;
@@ -60,72 +72,42 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-top: 30px;
+		margin-top: 10px;
 		padding: 20px;
 		border-radius: 50%;
-		box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.152);
+		border: 1px grey solid;
+		
 	}
 
 	.turn {
 		transform: rotate(360deg);
 	}
-	.card-services {
-		transform: translateY(300px);
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-direction: column;
-		background-color: transparent;
-		box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.152);
-		padding: 20px;
-		border: 5px solid rgb(238, 238, 238);
-		border-radius: 8px;
-		max-height: 550px;
-		max-width: 500px;
-	}
-	/* .card-services:hover .icon {
-		transform: rotateY(360deg);
-	} */
+
 	.wrapper-text-service {
-		grid-column: 1/12;
-		grid-row: 2;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 0px;
-		margin-top: 0px;
+		gap: 30px;
 	}
 	.card-services h2 {
 		font-family: 'radio canada big';
-		grid-column: 1/12;
-		grid-row: 2;
 		font-weight: 700;
 		color: var(--primary);
-		font-size: 2em;
+		font-size: 1.4rem;
 		text-align: center;
-		margin-top: 100px;
-		margin-left: 10px;
 	}
 	.p {
-		grid-column: 1/12;
-		grid-row: 3;
 		font-family: Heebo;
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--primary);
-		text-align: left;
+		text-align: center;
 		line-height: 30px;
-		margin-top: 30px;
-		margin-bottom: 40px;
-		margin-left: 10px;
+			min-height: 150px;
 	}
 	.lien {
-		grid-column: 11/12;
-		grid-row: 4;
 		min-width: 130px;
-		margin-top: 30px;
-		margin-bottom: 50px;
 		font-weight: 700;
 		color: var(--colorC);
 		background-color: var(--CTA-jaune);
@@ -172,7 +154,7 @@
 		}
 	}
 
-		@media screen and (min-width: 3000px) and (max-width: 5000px) {
+	/* @media screen and (min-width: 3000px) and (max-width: 5000px) {
 		.card-services {
 			min-height: 650px;
 			min-width: 700px;
@@ -224,5 +206,5 @@
 		.lien {
 			margin-top: 20px;
 		}
-	}
+	} */
 </style>
