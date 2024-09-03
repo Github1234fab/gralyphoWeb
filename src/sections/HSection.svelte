@@ -121,9 +121,9 @@
 	}
 	.contact {
 		text-decoration: none;
-		color: var(--colorC);
-		border: 2px solid white;
-		background-color: var(--CTA-jaune);
+		color: var(--primary);
+		/* border: 2px solid white; */
+		background-color: white;
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
 		font-weight: 600;
@@ -132,7 +132,7 @@
 		max-width: 260px;
 		border-radius: 5px;
 		text-align: center;
-		padding: 15px 10px;
+		padding: 15px 15px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		justify-self: center;
 		align-self: center;

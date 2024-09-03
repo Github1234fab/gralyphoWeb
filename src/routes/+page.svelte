@@ -22,13 +22,18 @@
 <main in:fade={{ duration: 2000 }}>
 	<!-- <Mouse /> -->
 	<HSection />
+	<Difference />
 	<section id="sectionE">
 		<ESection />
 	</section>
-	<BeneficeSection />
-	<Difference />
+	
+	
 	<GSection />
+		
+	<BeneficeSection />
 	<JSection />
+	
+
 	
 
 	<Form />

@@ -130,9 +130,9 @@
 		grid-template-rows: auto;
 		height: auto;
 		width: 100%;
-		font-size: 16px;
+		font-size: 16px; 
 		/* background-color: var(--bleuAcier); */
-		background-image: linear-gradient(180deg, #1a2c39 0%, #0f1f2a 100%);
+		background: radial-gradient(circle, rgb(6, 6, 141) 30%, rgb(11, 11, 42) );
 		padding: 40px;
 	}
 	.wrapper-text {

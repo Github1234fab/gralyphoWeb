@@ -53,19 +53,7 @@
 		background-repeat: no-repeat;
 		background-size: 70%;
 		background-position: center;
-		 clip-path: polygon(
-			39% 2%,
-			59% 0,
-			80% 3%,
-			100% 0,
-			100% 100%,
-			59% 100%,
-			0 100%,
-			0 0,
-			12% 3%,
-			25% 0
-		); 
-		
+	
 	}
 	.imageB {
 		background-image: url(../Assets/png-gralypho/36.png);
@@ -117,12 +105,12 @@
 		max-width: 50%;
 	}
 	.lien-bouton {
-		background-color: var(--CTA-jaune);
+		background-color: white;
 		border: 2px solid white;
 		border-radius: 8px;
 		padding: 20px 14px;
 		font-family: 'Red Hat Display';
-		color: white;
+		color: var(--primary);
 		font-weight: 600;
 		margin-top: 50px;
 		font-size: 1rem;
@@ -164,18 +152,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		 clip-path: polygon(
-			39% 2%,
-			59% 0,
-			80% 3%,
-			100% 0,
-			100% 100%,
-			59% 100%,
-			0 100%,
-			0 0,
-			12% 3%,
-			25% 0
-		); 
+	
 		
 	}
 	.imageB {
