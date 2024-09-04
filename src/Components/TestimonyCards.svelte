@@ -27,15 +27,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 		gap: 0px;
-		max-width: 300px;
+		min-width: 300px;
 		min-height: 450px;
 		font-family: epilogue;
-		background-color: transparent;
+		background-color: white;
 		margin-top: 30px;
-		margin-bottom: 20px;
-		flex-shrink: 0;
-		/* box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.221); */
 		z-index: 3;
 		border-radius: 30px;
 		padding: 20px;
@@ -67,21 +65,22 @@
 		color: var(--primary);
 		font-weight: 400;
 		font-family: kanit;
-		text-align: left;
+		text-align: center;
 	}
-	.card h5 {
-		font-family: kanit;
+	.wrapper-text h5 {
+		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 1em;
 		color: black;
 		font-weight: 300;
 		text-align: center;
 		line-height: 20px;
-		width: 70%;
+		min-width: 70%;
 		margin: 0 auto;
 	}
-	.card h5 span {
+	.wrapper-text h5 span {
 		font-size: 2em;
 		font-family: 'Times New Roman', Times, serif;
+		text-align: center;
 	}
 	.img {
 		width: 90px;
@@ -92,13 +91,14 @@
 	.card h4 {
 		font-size: 0.8em;
 		color: white;
-		text-align: left;
+		text-align: center;
 		font-weight: 200;
 	}
 	.wrapper-text {
 		flex-direction: column;
 		padding: 10px;
 	}
+
 	.wrapper-img {
 		display: flex;
 		width: auto;
@@ -112,10 +112,8 @@
 	.wrapper-text-img {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-		margin-left: 10px;
-		
+		justify-content: center;
+		align-items: center;
 	}
 	.stars {
 		background-color: rgb(203, 202, 202);
@@ -127,6 +125,5 @@
 		justify-content: center;
 		align-items: center;
 		padding: 10px;
-		
 	}
 </style>

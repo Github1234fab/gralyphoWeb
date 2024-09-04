@@ -55,10 +55,6 @@
 </script>
 
 <section class="J-section">
-	<div class="wrapper-text-testi">
-		<h1>Nos témoignages</h1>
-		<h2>Nos clients racontent l'agence Gralypho !</h2>
-	</div>
 	<div class="gallery">
 		<div class="wrapper-contain">
 			{#each dataCard as card}
@@ -79,13 +75,12 @@
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
-		height: auto;
+		min-height: auto;
 		font-size: 16px;
 		margin-top: 0px;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: bottom;
 		z-index: 0;
+		background-color: rgb(243, 242, 242);
+		background-image: url('../Assets/png-gralypho/bgFive.png');
 	}
 	.gallery {
 		overflow-x: auto;
@@ -106,40 +101,6 @@
 		margin-bottom: 30px;
 		gap: 20px;
 	}
-	.wrapper-text-testi {
-		grid-column: 2/13;
-		grid-row: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: left;
-		justify-content: left;
-		margin-top: -30px;
-	}
-
-	.wrapper-text-testi h1 {
-		font-family: Heebo;
-		text-transform: uppercase;
-		font-size: var(--s);
-		font-weight: 600;
-		letter-spacing: -0.04em;
-		margin-top: 100px;
-		/* margin-left: 50px; */
-		margin-bottom: 20px;
-		text-align: left;
-		color: var(--bleuAcier);
-	}
-	.wrapper-text-testi h2 {
-		font-family: 'radio canada big';
-		font-size: var(--l);
-		color: var(--primary);
-		font-weight: 500;
-		margin-bottom: 30px;
-		letter-spacing: -0.04em;
-		/* margin-left: 10px; */
-		text-align: left;
-		max-width: 80%;
-
-	}
 
 	@media screen and (max-width: 768px) {
 		.gallery {
@@ -148,9 +109,5 @@
 			grid-row: 2;
 			margin-left: 20px;
 		}
-		.wrapper-text-testi h2 {
-	line-height: 27px;
-	
-	}
 	}
 </style>

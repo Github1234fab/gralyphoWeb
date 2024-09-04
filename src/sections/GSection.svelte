@@ -109,7 +109,7 @@
 <section class="G-section ">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
-		<h2>Des Sites Web...mais pas que !</h2>
+		<h2>Sites Web, applications, composants, jeux..!</h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
 			les requêtes API, les jeux, les composants (...) !

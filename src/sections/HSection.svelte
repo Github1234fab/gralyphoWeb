@@ -98,7 +98,7 @@
 
 	.autoText {
 		color: yellow;
-		font-weight: 200;
+		font-weight: 400;
 		font-size: 1.2rem;
 		font-family: 'Red Hat Display';
 		justify-self: center;

@@ -113,12 +113,11 @@
 		grid-template-rows: auto;
 		margin-bottom: 0px;
 		height: auto;
-		font-size: 16px;
-
-		background: -webkit-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
-		background: -moz-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
-		background: -o-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
-		background: radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
+		font-size: 16px; 
+		background: -webkit-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
+		background: -moz-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
+		background: -o-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
+		background: radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
 		overflow: hidden;
 	}
 

@@ -5,56 +5,49 @@
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
 	<h2>Le Web, c'est Notre Métier.</h2>
-	<h3 class="title-h3">
-		Passionné par le Web et la programmation informatique, nous créeons des sites webs et des
-		applications webs pour fournir à votre entreprise <span>un service digital de qualité</span>,
-		qui permettra à
-		<span>votre business</span>
-		de décoller sur le Net ! <br /><br />Installé dans l'Ouest Lyonnais, sur les communes de
-		Vaugneray et Thurins, l'agence Gralypho est experte dans le domaine du Web. Notre expertise nous
-		permet de concevoir des sites et des applications qui vous ressemblent menant une étude précise
-		de votre identité et de vos besoins. Nous aimons créer des
-		<span>designs originaux et sur mesure </span> qui correspondront le plus à votre activité!
+	<!-- <h3 class="title-h3">
+
+		<span>Passionné par le Web</span> <br> et la programmation informatique, nous créeons des sites webs et des
+		applications sur mesure. <br> Notre expertise dans le domaine du Web est sans faille. <br /><br /><span>Installé dans l'Ouest Lyonnais</span> <br> sur les communes de
+		Vaugneray et Thurins, l'agence Gralypho fournit ses services localement et dans le monde entier.  
+	
 		<br />
 
-		<br />Nous sommes <span>experts en SEO</span> et le référencement étant le nerf de la guerre, il
-		vaut mieux s'adresser à des pros! Un site internet c'est un outil, présent sur le Web 24/7.
-		Alors plutôt que créer de simples sites vitrine via des templates existants, nous nous creusons
-		la tête pour vous livrer <span> des sites webs et des applications "intelligentes"</span>, qui
-		vous rapporterons à coup sûr, de nombreux clients.
+		<br /> <span>Nous sommes experts </span> <br> en stratgie SEO, en design UX/UI, en création et rédaction de contenu. <br> Nous sommes formés au code informatique et nous sommes en capacité de construire des outils digitaux en sachant  <br>toujours ce qui se passe sous le capot! Ce qui vous garantit une sécurité optimale et un accompagnement serein.<br> 
 		<br />
-	</h3>
+	</h3> -->
 
 	<div class="img"></div>
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
 			<h3 class="paragraph">Qui sommes nous ?</h3>
+				<h3 class="answer">Des passionnés, formés au code informatique et au développement Web.</h3>
 			<br />
 			<p>
-				<span>Gralypho</span> est une agence digitale, spécialisé dans la
+				Gralypho est une agence digitale, spécialisé dans la
 				<span>conception de site Web</span>
 				et dans la
 				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
 				profonde et solide. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et
-				Thurins.
+				Thurins et connecté au monde entier !
 			</p>
 		</div>
 		<br />
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
+			<h3 class="answer">Seo, Sea, Ux/UI, code côté serveur, code côté client, création de contenu, design, community management ...</h3>
 		<br />
 
 		<p>
-			Nous sommes formés aux métiers du Web. C'est à dire que nos <span>connaissances </span> en
-			matières de design UX/UI, de référencement, de normes W3C, d'organisation de contenu textuel
-			et visuel sont optimales. Cela signifie aussi que nous sommes
-			<span>formés au code informatique</span>. Nous sommes donc en capacité de construire un site
-			internet entièrement fait-main et sur mesure et de savoir exactement ce qu'un site Web
-			contient, sous le capot!
+			Nous sommes formés aux métiers du Web et au code informatique. C'est à dire que nous disposons des  connaissances  nécessaires en
+			<span>design UX/UI, en référencement SEAO et SEA, en norme W3C, en création de contenu textuel
+			et visuel. 	</span>Cela signifie aussi que nous sommes en capacité de gérer le côté serveur et le côté client. En d'autres terme nous savons tout ce qui se passe sous el capot d'une application ou d'un site internet !
+
 		</p>
 		<br />
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
+		<h3 class="answer">Parce que nous savons ce qui se passe sous le capot !</h3>
 		<br />
 		<p class="marginBottom">
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
@@ -76,9 +69,10 @@
 		grid-template-rows: auto;
 		height: auto;
 		font-size: 16px;
-		background-color: white;
-		margin: 0px auto;
-		width: calc(100vw - 100px);
+		background-color: green;
+		background-image: url("../Assets/png-gralypho/bgFive.png");
+		/* margin: 0px auto; */
+		/* width: calc(100vw - 100px); */
 	}
 	.img {
 		background-image: url('../Assets/png-gralypho/photoDev.jpg');
@@ -89,13 +83,14 @@
 		grid-column: 2/12;
 		grid-row: 4;
 		margin-top: 30px;
+		border-radius: 15px;
 	}
 
 	.difference h1 {
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: var(--bleuAcier);
+		color: white;
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
@@ -107,7 +102,7 @@
 	.difference h2 {
 		font-family: 'radio canada big';
 		font-size: var(--l);
-		color: var(--primary);
+		color: white;
 		font-weight: 500;
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
@@ -117,11 +112,10 @@
 		grid-column: 2/12;
 		grid-row: 2;
 	}
-	.title-h3 {
+	/* .title-h3 {
 		font-family: epilogue;
-		color: grey;
+		color:  white;
 		font-size: 1.1rem;
-		color: #2d2d2d;
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
@@ -133,9 +127,9 @@
 	}
 	.title-h3 span {
 		font-weight: 700;
-		color: var(--CTA-jaune);
-	}
-
+		color: white;
+	} */
+	
 	.wrapper-difference__title {
 		display: flex;
 		flex-direction: column;
@@ -156,20 +150,31 @@
 	}
 	.paragraph {
 		font-family: epilogue;
-		font-size: var(--lm);
-		color: var(--primary);
+		font-size: var(--m);
+		color: white;
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		text-align: center;
 		align-self: flex-start;
 		margin-top: 40px;
 	}
+	.answer{
+		font-family: 'Dosis';
+		font-size: var(--m);
+		color: white;
+		font-weight: 700;
+		letter-spacing: -0.02em;
+		text-align: left;
+		align-self: flex-start;
+		margin-top: 40px;
+	}
+
 	.difference p {
 		font-family: epilogue;
 		color: grey;
 		column-count: 1;
 		font-size: var--(m);
-		color: #2d2d2d;
+		color: white;
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
@@ -178,9 +183,8 @@
 	}
 	.difference p span {
 		font-family: epilogue;
-		color: grey;
+		color: white;
 		font-size: var--(m);
-		color: orange;
 		font-weight: 700;
 		line-height: 1.5em;
 		width: 100%;
@@ -214,7 +218,7 @@
 			column-count: 1;
 		}
 
-		.title-h3 {
+		/* .title-h3 {
 			font-family: epilogue;
 			font-size: var(--m);
 			color: var(--primary);
@@ -222,7 +226,7 @@
 			text-align: center;
 			line-height: 25px;
 			width: 100%;
-		}
+		} */
 		.difference h2 {
 		
 		line-height: 40px;

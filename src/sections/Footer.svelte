@@ -53,7 +53,7 @@
 		justify-content: center;
 		height: 100%;
 		font-size: 16px;
-			background: radial-gradient( rgb(41, 52, 99), rgb(26, 44, 57));
+		background: linear-gradient(rgb(26, 30, 52), rgb(3, 28, 46));
 		color: white;
 		font-family: epilogue;
 		gap: 0px;
@@ -61,10 +61,10 @@
 	}
 	.footer h4 {
 		margin-top: 30px;
-		font-family: epilogue;
+		font-family: 'Dosis';
 		font-weight: 400;
-		font-size: 0.6em;
-		color: black;
+		font-size: 0.7em;
+		color: white;
 		text-align: center;
 		margin-bottom: 50px;
 	}

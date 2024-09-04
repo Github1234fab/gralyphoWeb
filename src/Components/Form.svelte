@@ -50,7 +50,7 @@
 		height: auto;
 		width: 100%;
 		padding: 20px;
-		background-color: var(--bgHero);
+		background-color: rgb(255, 255, 255);
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.781);
@@ -70,8 +70,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: rgb(232, 232, 232);
-		/* color: var(--bleuAcier); */
+		color: rgb(48, 48, 48);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -80,7 +79,7 @@
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-		color: rgb(232, 232, 232);
+		color:rgb(48, 48, 48);
 		font-family: 'radio canada big';
 		font-size: var(--l);
 		/* color: var(--primary); */
@@ -118,7 +117,7 @@
 		border-radius: 15px;
 		width: 100%;
 		text-align: left;
-		color: white;
+		color: black;
 		font-size: 1rem;
 	}
 	input:hover {
@@ -138,7 +137,7 @@
 		width: 90%;
 		min-height: 200px;
 		background-color: transparent;
-		color: white;
+		color: black;
 		font-size: 1rem;
 	}
 	.demande:hover {
@@ -199,13 +198,13 @@
 	}
 	.icon-coordonnees {
 		/* color: var(--primary); */
-		color: rgb(232, 232, 232);
+			color:rgb(48, 48, 48);
 	}
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
 		/* color: var(--primary); */
-		color: rgb(232, 232, 232);
+	color:rgb(48, 48, 48);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;
