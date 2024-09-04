@@ -88,14 +88,14 @@
 	</div> -->
 	<div class="wrapper-text">
 		<h3>
-			Nous souhaitons créer un site internet <span>qui vous ressemble</span>, au plus près de votre
+			Nous souhaitons créer le site internet <span>qui vous ressemble</span>, au plus près de votre
 			identité et de vos exigences. <br />Nous nous occupons également de la
 			<span>création de votre identité graphique</span>
 			, de votre logo, de votre design, de la création de vos contenus et de la gestion de vos
 			<span>réseaux sociaux. </span><br />
 			Nous ne sommes pas dépendant des templates de sites Web, nous créons des
 			<span>sites Web sur mesure</span>
-			et la seule limite dans le processus de création, sera votre <span>imagination!</span>
+			et la seule limite dans le processus de création est votre <span>imagination!</span>
 		</h3>
 	</div>
 
@@ -114,7 +114,7 @@
 		margin-bottom: 0px;
 		height: auto;
 		font-size: 16px;
-		background: radial-gradient(circle, rgb(223, 53, 152)20% , rgb(93, 18, 54) );
+		background: radial-gradient(circle, rgb(145, 35, 99)20% , rgb(86, 5, 44) );
 		overflow: hidden;
 	}
 

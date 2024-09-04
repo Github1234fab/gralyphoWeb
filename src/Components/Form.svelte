@@ -68,7 +68,7 @@
 	.form-title {
 		font-family: Heebo;
 		text-transform: uppercase;
-		font-size: var(--m);
+		font-size: var(--s);
 		color: rgb(232, 232, 232);
 		/* color: var(--bleuAcier); */
 		font-weight: 600;
@@ -81,7 +81,7 @@
 	.form-contactez {
 		color: rgb(232, 232, 232);
 		font-family: 'radio canada big';
-		font-size: var(--xl);
+		font-size: var(--l);
 		/* color: var(--primary); */
 		font-weight: 500;
 		margin-bottom: 0px;
@@ -110,7 +110,7 @@
 	}
 	input {
 		background-color: transparent;
-		border: 2px solid rgb(217, 216, 216);
+		border: 1px solid rgb(217, 216, 216);
 		font-family: 'Red Hat Display';
 		font-weight: 600;
 		padding: 20px;

@@ -37,7 +37,7 @@
 		</h2>
 
 		<div class="wrapper-contact">
-			<a class="contact" href="/#section-form">Contactez-nous</a>
+			<a class="contact" href="/#section-form">Contact</a>
 		</div>
 	</div>
 </section>
@@ -96,7 +96,7 @@
 
 	.autoText {
 		color: yellow;
-		font-weight: 500;
+		font-weight: 200;
 		font-size: 1.2rem;
 		font-family: 'Red Hat Display';
 		justify-self: center;
@@ -121,18 +121,18 @@
 	}
 	.contact {
 		text-decoration: none;
-		color: var(--primary);
-		/* border: 2px solid white; */
-		background-color: white;
+		color: rgb(255, 255, 255);
+		/* border: 1px solid rgb(192, 194, 248); */
+		background-color: var(--bleuAcier);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
-		font-weight: 600;
+		font-weight: 500;
 		margin-top: 20px;
 		margin-left: 0px;
 		max-width: 260px;
-		border-radius: 5px;
+		border-radius: 10px;
 		text-align: center;
-		padding: 15px 15px;
+		padding: 10px 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		justify-self: center;
 		align-self: center;

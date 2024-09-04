@@ -31,11 +31,11 @@
 		max-width: 300px;
 		min-height: 450px;
 		font-family: epilogue;
-		background-color: rgba(70, 70, 119, 0.755);
+		background-color: transparent;
 		margin-top: 30px;
 		margin-bottom: 20px;
 		flex-shrink: 0;
-		box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.452);
+		box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.221);
 		z-index: 3;
 		border-radius: 30px;
 		padding: 20px;
@@ -64,16 +64,16 @@
 	}
 	.card h3 {
 		font-size: 1.3em;
-		color: white;
-		font-weight: 700;
+		color: var(--primary);
+		font-weight: 400;
 		font-family: kanit;
 		text-align: left;
 	}
 	.card h5 {
 		font-family: kanit;
 		font-size: 1em;
-		color: white;
-		font-weight: 500;
+		color: black;
+		font-weight: 300;
 		text-align: center;
 		line-height: 20px;
 		width: 70%;
@@ -118,7 +118,7 @@
 		
 	}
 	.stars {
-		background-color: transparent;
+		background-color: rgb(203, 202, 202);
 		border-radius: 10px;
 		max-width: 120px;
 		max-height: 40px;

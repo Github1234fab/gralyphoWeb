@@ -119,7 +119,7 @@
 	.wrapper-text-testi h1 {
 		font-family: Heebo;
 		text-transform: uppercase;
-		font-size: var(--m);
+		font-size: var(--s);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 100px;
@@ -130,7 +130,7 @@
 	}
 	.wrapper-text-testi h2 {
 		font-family: 'radio canada big';
-		font-size: var(--xl);
+		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 500;
 		margin-bottom: 30px;

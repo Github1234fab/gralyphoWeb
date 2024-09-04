@@ -110,15 +110,16 @@
 			min-height: 150px;
 	}
 	.lien {
+		font-family: "red hat display";
+		border: 1px solid white;
 		min-width: 130px;
-		font-weight: 700;
-		color: var(--primary);
-		background-color: white;
+		font-weight: 500;
+		color: white;
+		background-color: var(--bleuAcier);
 		z-index: 44;
-		/* border: 1px solid white; */
-		padding: 25px;
+		padding: 10px 20px;
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px 2px rgba(45, 45, 45, 0.265);
+		box-shadow: 0px 0px 10px  rgba(45, 45, 45, 0.265);
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -128,8 +129,8 @@
 		align-self: center;
 		justify-self: center;
 		margin: auto;
-		height: 60px;
-		width: 60px;
+		height: 40px;
+		width: 40px;
 		grid-column: 2;
 		grid-row: 1;
 		transition: 0.7s ease-in-out;

@@ -121,6 +121,7 @@
 		grid-row: 1;
 		padding: 10px;
 		z-index: 4;
+		margin-right: 5px;
 	}
 	.burger-menu:hover {
 		animation: bounce 0.4s ease-in-out;

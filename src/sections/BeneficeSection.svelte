@@ -75,7 +75,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: var(--bgHero);
+		background: radial-gradient(#605846, #5c4739);
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 		
 	}
@@ -88,15 +88,15 @@
 	}
 	.icon-difference {
 		font-size: 3rem;
-		color: var(--bleuAcier);
+		color: white;
 		margin-top: 20px;
-		border: solid white 1px;
+		/* border: solid white 1px; */
 		padding: 30px;
 		border-radius: 10px;
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.bloc p {
-		font-family: heebo;
+		font-family: epilogue;
 		margin-top: 30px;
 		text-align: center;
 		padding: 20px;
@@ -105,12 +105,12 @@
 		max-width: 50%;
 	}
 	.lien-bouton {
-		background-color: white;
-		border: 2px solid white;
+		background-color: var(--bleuAcier);
+		border: 1px solid white;
 		border-radius: 8px;
-		padding: 20px 14px;
+		padding: 10px 20px;
 		font-family: 'Red Hat Display';
-		color: var(--primary);
+		color: white;
 		font-weight: 600;
 		margin-top: 50px;
 		font-size: 1rem;

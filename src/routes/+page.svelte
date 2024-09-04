@@ -26,12 +26,12 @@
 	<section id="sectionE">
 		<ESection />
 	</section>
-	
+		<JSection />
 	
 	<GSection />
 		
 	<BeneficeSection />
-	<JSection />
+
 	
 
 	

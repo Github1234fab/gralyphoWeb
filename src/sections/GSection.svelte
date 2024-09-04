@@ -131,8 +131,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px; 
-		/* background-color: var(--bleuAcier); */
-		background: radial-gradient(circle, rgb(6, 6, 141) 30%, rgb(11, 11, 42) );
+		background: radial-gradient(circle, rgb(54, 54, 109) 30%, rgb(23, 23, 78) );
 		padding: 40px;
 	}
 	.wrapper-text {
@@ -146,7 +145,7 @@
 	.G-section h1 {
 		font-family: Heebo;
 		text-transform: uppercase;
-		font-size: var(--primary);
+		font-size: var(--s);
 		color: white;
 		font-weight: 600;
 		margin-bottom: 40px;
@@ -156,7 +155,7 @@
 	}
 	.G-section h2 {
 		font-family: 'radio canada big';
-		font-size: var(--xl);
+		font-size: var(--l);
 		color: white;
 		font-weight: 500;
 		margin-bottom: 0px;
@@ -181,18 +180,20 @@
 		grid-column: 2/12;
 		grid-row: 2;
 		display: flex;
+		/* flex-direction: column; */
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		margin-top: 50px;
 		margin-bottom: 100px;
-		gap: 45px;
+		gap: 15px;
+			
 	}
-	:global(.card-portfolio) {
-		flex: 1 1 50%;
+	:global(.wrapper-portfolio) {
+		flex: 1 1 10%;
 	}
 
-	@media screen and (min-width: 1400px) and (max-width: 2500px) {
+	/* @media screen and (min-width: 1400px) and (max-width: 2500px) {
 		:global(.card-portfolio) {
 			flex: 1 1 50%;
 		}
@@ -212,7 +213,7 @@
 
 	@media screen and (min-width: 768px) and (max-width: 992px) {
 		:global(.card-portfolio) {
-			flex: 1 1 30%;
+			flex: 1 1 20%;
 		}
 	}
 
@@ -224,7 +225,7 @@
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {
 		:global(.card-portfolio) {
-			flex: 1 1 35%;
+			flex: 1 1 5%;
 		}
-	}
+	} */
 </style>

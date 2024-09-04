@@ -94,7 +94,7 @@
 	.difference h1 {
 		font-family: Heebo;
 		text-transform: uppercase;
-		font-size: var(--m);
+		font-size: var(--s);
 		color: var(--bleuAcier);
 		font-weight: 600;
 		letter-spacing: -0.04em;
@@ -106,7 +106,7 @@
 	}
 	.difference h2 {
 		font-family: 'radio canada big';
-		font-size: var(--xl);
+		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 500;
 		margin-bottom: 10px;
@@ -118,7 +118,7 @@
 		grid-row: 2;
 	}
 	.title-h3 {
-		font-family: poppins;
+		font-family: epilogue;
 		color: grey;
 		column-count: 1;
 		font-size: 1.1rem;
@@ -166,7 +166,7 @@
 		margin-top: 40px;
 	}
 	.difference p {
-		font-family: poppins;
+		font-family: epilogue;
 		color: grey;
 		column-count: 1;
 		font-size: var--(m);

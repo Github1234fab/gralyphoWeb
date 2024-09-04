@@ -45,8 +45,8 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		border: 1px white solid;
-		border-radius: 5px;
+		/* border: 1px white solid; */
+		border-radius: 12px;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -76,7 +76,7 @@
 		cursor: pointer;
 		box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.607);
 		padding: 50px;
-		border-radius: 0px;
+		border-radius: 20px;
 	}
 	.card-content::after {
 		z-index: 2;
