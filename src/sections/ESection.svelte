@@ -114,7 +114,8 @@
 		margin-bottom: 0px;
 		height: auto;
 		font-size: 16px;
-		background: radial-gradient(rgb(145, 35, 99)40% , rgb(86, 5, 44) );
+		background-color: blue;
+		/* background: radial-gradient(rgb(145, 35, 99)40% , rgb(86, 5, 44) ); */
 		overflow: hidden;
 	}
 
