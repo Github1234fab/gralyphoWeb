@@ -25,6 +25,7 @@
 		min-width: 320px;
 		cursor: pointer;
 		border-radius: 20px;
+		
 	}
 	.wrapper-portfolio h1 {
 		font-family: poppins;
@@ -47,6 +48,7 @@
 		z-index: 0;
 		/* border: 1px white solid; */
 		border-radius: 12px;
+		background-image: url('../Assets/bgtwo.png');
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -56,7 +58,7 @@
 		opacity: 1;
 	}
 	.card-portfolio:hover .card-content::after {
-		transform: translateX(220px);
+		transform: translateX(200px);
 	}
 	.card-content {
 		height: 180px;
@@ -88,7 +90,7 @@
 		left: 0px;
 		width: 100px;
 		left: 0px;
-		transform: translateX(330px);
+		transform: translateX(310px);
 		background: var(--CTA-jaune);
 		transition: 0.6s ease-in-out;
 		display: flex;

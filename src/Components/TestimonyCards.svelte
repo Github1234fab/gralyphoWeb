@@ -35,11 +35,11 @@
 		margin-top: 30px;
 		margin-bottom: 20px;
 		flex-shrink: 0;
-		box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.221);
+		/* box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.221); */
 		z-index: 3;
 		border-radius: 30px;
 		padding: 20px;
-		border: 1px solid white;
+		border: 1px solid rgb(205, 205, 205);
 	}
 	.card:hover {
 		animation: bounce 0.4s ease-in-out;

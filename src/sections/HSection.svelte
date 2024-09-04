@@ -50,9 +50,11 @@
 		height: auto;
 		font-size: 16px;
 		opacity: 1;
-		background: radial-gradient( rgb(41, 52, 99), rgb(26, 44, 57));
+		/* background: radial-gradient( rgb(41, 52, 99), rgb(26, 44, 57)); */
 		z-index: 5;
-		/* clip-path: polygon(50% 0%, 63% 0, 100% 0, 100% 100%, 68% 100%, 33% 95%, 0 100%, 0 0, 18% 0);   */
+		background-color: #1b2442;
+		background-image: url("../Assets/png-gralypho/bgFive.png");
+	
 	}
 
 	.wrapper-text {

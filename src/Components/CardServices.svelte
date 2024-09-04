@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 	export let title;
 	export let lien;
-	export let i;
 	export let p;
 
 	function redirectToLink() {
@@ -43,9 +42,9 @@
 	on:mouseleave={changeToFalse}
 >
 	<div class="wrapper-text-service">
-		<div class="wrapper-icon">
+		<!-- <div class="wrapper-icon">
 			<img src={i} alt="Icon description de service" class="img icon" class:turn={rotation} />
-		</div>
+		</div> -->
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 		<a href={lien} class="lien"> En savoir +</a>
@@ -53,8 +52,8 @@
 </button>
 
 <style>
-	button{
-		border: none;
+	button {
+		border: 1px solid rgb(93, 93, 93);
 	}
 	.card-services {
 		transform: translateY(300px);
@@ -62,12 +61,13 @@
 		align-items: center;
 		justify-content: center;
 		background-color: transparent;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.285);
+		/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.285); */
 		padding: 20px;
 		border-radius: 12px;
 		min-height: 500px;
+		background-image: url('../Assets/png-gralypho/bgSix.png');
 	}
-	.wrapper-icon {
+	/* .wrapper-icon {
 		background-color: transparent;
 		width: 100px;
 		height: 100px;
@@ -77,13 +77,11 @@
 		margin-top: 10px;
 		padding: 20px;
 		border-radius: 50%;
-		/* border: 1px grey solid; */
-		
-	}
+	} */
 
-	.turn {
+	/* .turn {
 		transform: rotate(360deg);
-	}
+	} */
 
 	.wrapper-text-service {
 		display: flex;
@@ -95,7 +93,7 @@
 	.card-services h2 {
 		font-family: 'DM Sans';
 		font-weight: 700;
-		color: white;
+		color: rgb(210, 200, 205);
 		font-size: 1.4rem;
 		text-align: center;
 		letter-spacing: -0.4px;
@@ -107,24 +105,24 @@
 		color: white;
 		text-align: center;
 		line-height: 30px;
-			min-height: 150px;
+		min-height: 150px;
 	}
 	.lien {
-		font-family: "red hat display";
-		/* border: 1px solid white; */
+		font-family: 'red hat display';
+		border: 1px solid white;
 		min-width: 130px;
 		font-weight: 500;
 		color: white;
-		background-color: rgb(194, 79, 160);
+		/* background-color: rgb(194, 79, 160); */
 		z-index: 44;
 		padding: 13px 20px;
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px  rgba(45, 45, 45, 0.265);
+		/* box-shadow: 0px 0px 10px  rgba(45, 45, 45, 0.265); */
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	.icon {
+	/* .icon {
 		display: flex;
 		align-self: center;
 		justify-self: center;
@@ -139,7 +137,7 @@
 	}
 	.icon:hover {
 		animation: bounce 0.4s ease-in-out;
-	}
+	} */
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
@@ -157,6 +155,4 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-
-	
 </style>

@@ -149,7 +149,7 @@
 			margin-left: 20px;
 		}
 		.wrapper-text-testi h2 {
-	line-height: 50px;
+	line-height: 27px;
 	
 	}
 	}

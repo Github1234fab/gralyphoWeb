@@ -100,7 +100,7 @@
 		letter-spacing: -0.04em;
 		margin-top: 50px;
 		margin-bottom: 20px;
-		text-align: left;
+		text-align: center;
 		grid-column: 2/12;
 		grid-row: 1;
 	}
@@ -111,7 +111,7 @@
 		font-weight: 500;
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
-		text-align: left;
+		text-align: center;
 		line-height: 55px;
 		margin-top: 30px;
 		grid-column: 2/12;
@@ -120,14 +120,13 @@
 	.title-h3 {
 		font-family: epilogue;
 		color: grey;
-		column-count: 1;
 		font-size: 1.1rem;
 		color: #2d2d2d;
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
 		padding: 0px;
-		text-align: left;
+		text-align: center;
 		grid-column: 2/12;
 		grid-row: 3;
 		margin-top: 30px;
@@ -161,7 +160,7 @@
 		color: var(--primary);
 		font-weight: 700;
 		letter-spacing: -0.02em;
-		text-align: left;
+		text-align: center;
 		align-self: flex-start;
 		margin-top: 40px;
 	}
@@ -220,9 +219,9 @@
 			font-size: var(--m);
 			color: var(--primary);
 			font-weight: 300;
-			text-align: left;
+			text-align: center;
 			line-height: 25px;
-			width: 90%;
+			width: 100%;
 		}
 		.difference h2 {
 		

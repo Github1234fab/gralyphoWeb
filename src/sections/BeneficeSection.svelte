@@ -99,13 +99,14 @@
 		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
 	}
 	.bloc p {
-		font-family: epilogue;
+		font-family: 'Red Hat Display';
 		margin-top: 30px;
 		text-align: center;
 		padding: 20px;
 		text-align: center;
 		color: white;
 		max-width: 50%;
+		line-height: 25px;
 	}
 	.lien-bouton {
 		background-color: var(--bleuAcier);
@@ -150,7 +151,7 @@
 	
 	.imageA {
 		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
-		background-image: url(../Assets/png-gralypho/23.png);
+	
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -159,18 +160,18 @@
 		
 	}
 	.imageB {
-		background-image: url(../Assets/png-gralypho/36.png);
+		
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: bottom;
+		background-position: center;
 	}
 	.imageC {
-		background-image: url(../Assets/png-gralypho/09.png);
+
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: -440px center;
+		background-position: center;
 	}
 	}
 </style>
