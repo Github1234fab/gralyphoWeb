@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="section imageA"></div>
+
 	<div class="bloc">
 		<h1 class="title">Automatisez votre outil digital.</h1>
 		<i class="fa-solid fa-chart-line icon-difference"></i>
@@ -11,8 +11,9 @@
 		<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
 	</div>
 </div>
+	<div class="section imageA"></div>
 
-<div class="section imageB"></div>
+
 <div class="bloc">
 	<h1 class="title">Économisez du temps et de l'argent.</h1>
 	<i class=" fa-solid fa-hourglass icon-difference"></i>
@@ -24,8 +25,9 @@
 	</p>
 	<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
 </div>
+<div class="section imageB"></div>
 
-<div class="section imageC"></div>
+
 <div class="bloc clip-path">
 	<h1 class="title">Augmentez votre potentiel de client.</h1>
 	<i class="fa-solid fa-sack-dollar icon-difference"></i>
@@ -35,6 +37,7 @@
 	</p>
 	<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
 </div>
+<div class="section imageC"></div>
 
 <style>
 	.container {
@@ -48,7 +51,7 @@
 	}
 	.imageA {
 		box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.74);
-		background-image: url(../Assets/png-gralypho/23.png);
+		background-image: url(../Assets/png-gralypho/automatiser.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: 70%;
@@ -56,14 +59,14 @@
 	
 	}
 	.imageB {
-		background-image: url(../Assets/png-gralypho/36.png);
+		background-image: url(../Assets/png-gralypho/hamac.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: 70%;
 		background-position: center;
 	}
 	.imageC {
-		background-image: url(../Assets/png-gralypho/09.png);
+		background-image: url(../Assets/png-gralypho/client.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: 70%;
@@ -75,7 +78,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background: radial-gradient(#605846, #5c4739);
+		background: radial-gradient(#303458, #2e0202);
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 		
 	}

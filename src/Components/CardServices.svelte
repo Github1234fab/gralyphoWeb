@@ -111,13 +111,13 @@
 	}
 	.lien {
 		font-family: "red hat display";
-		border: 1px solid white;
+		/* border: 1px solid white; */
 		min-width: 130px;
 		font-weight: 500;
 		color: white;
-		background-color: var(--bleuAcier);
+		background-color: rgb(194, 79, 160);
 		z-index: 44;
-		padding: 10px 20px;
+		padding: 13px 20px;
 		border-radius: 10px;
 		box-shadow: 0px 0px 10px  rgba(45, 45, 45, 0.265);
 	}

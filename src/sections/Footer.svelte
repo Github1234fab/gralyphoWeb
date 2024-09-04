@@ -53,7 +53,7 @@
 		justify-content: center;
 		height: 100%;
 		font-size: 16px;
-		background-color: rgb(232, 231, 235);
+			background: radial-gradient( rgb(41, 52, 99), rgb(26, 44, 57));
 		color: white;
 		font-family: epilogue;
 		gap: 0px;

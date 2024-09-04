@@ -17,7 +17,7 @@
 			p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
 		},
 		{
-			title: "Applications",
+			title: 'Applications',
 			lien: '/Applications',
 			i: iconApplication,
 			// i: 'fa-solid fa-mobile-screen',
@@ -114,11 +114,11 @@
 		margin-bottom: 0px;
 		height: auto;
 		font-size: 16px;
-		/* background-color: blue; */
-	background: -webkit-radial-gradient(rgb(145, 35, 99) 40%, rgb(86, 5, 44));
-background: -moz-radial-gradient(rgb(145, 35, 99) 40%, rgb(86, 5, 44));
-background: -o-radial-gradient(rgb(145, 35, 99) 40%, rgb(86, 5, 44));
-background: radial-gradient(rgb(145, 35, 99) 40%, rgb(86, 5, 44));
+
+		background: -webkit-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
+		background: -moz-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
+		background: -o-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
+		background: radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105)60%);
 		overflow: hidden;
 	}
 
@@ -240,7 +240,6 @@ background: radial-gradient(rgb(145, 35, 99) 40%, rgb(86, 5, 44));
 		:global(.card-services) {
 			flex: 1 1 35%;
 		}
-		
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {
