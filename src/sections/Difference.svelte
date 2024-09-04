@@ -22,28 +22,35 @@
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
 			<h3 class="paragraph">Qui sommes nous ?</h3>
-				<h3 class="answer">Des passionnés, formés au code informatique et au développement Web.</h3>
+			<h3 class="answer">Des passionnés, formés au code informatique et au développement Web.</h3>
 			<br />
 			<p>
 				Gralypho est une agence digitale, spécialisé dans la
 				<span>conception de site Web</span>
 				et dans la
 				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
-				profonde et solide. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et
-				Thurins et connecté au monde entier !
+				profonde et solide. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et Thurins
+				et connecté au monde entier !
 			</p>
 		</div>
 		<br />
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
-			<h3 class="answer">Seo, Sea, Ux/UI, code côté serveur, code côté client, création de contenu, design, community management ...</h3>
+		<h3 class="answer">
+			Seo, Sea, Ux/UI, code côté serveur, code côté client, création de contenu, design, community
+			management ...
+		</h3>
 		<br />
 
 		<p>
-			Nous sommes formés aux métiers du Web et au code informatique. C'est à dire que nous disposons des  connaissances  nécessaires en
-			<span>design UX/UI, en référencement SEAO et SEA, en norme W3C, en création de contenu textuel
-			et visuel. 	</span>Cela signifie aussi que nous sommes en capacité de gérer le côté serveur et le côté client. En d'autres terme nous savons tout ce qui se passe sous el capot d'une application ou d'un site internet !
-
+			Nous sommes formés aux métiers du Web et au code informatique. C'est à dire que nous disposons
+			des connaissances nécessaires en
+			<span
+				>design UX/UI, en référencement SEAO et SEA, en norme W3C, en création de contenu textuel et
+				visuel.
+			</span>Cela signifie aussi que nous sommes en capacité de gérer le côté serveur et le côté
+			client. En d'autres terme nous savons tout ce qui se passe sous el capot d'une application ou
+			d'un site internet !
 		</p>
 		<br />
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
@@ -70,9 +77,7 @@
 		height: auto;
 		font-size: 16px;
 		background-color: green;
-		background-image: url("../Assets/png-gralypho/bgFive.png");
-		/* margin: 0px auto; */
-		/* width: calc(100vw - 100px); */
+		background-image: url('../Assets/png-gralypho/bgFive.png');
 	}
 	.img {
 		background-image: url('../Assets/png-gralypho/photoDev.jpg');
@@ -129,7 +134,7 @@
 		font-weight: 700;
 		color: white;
 	} */
-	
+
 	.wrapper-difference__title {
 		display: flex;
 		flex-direction: column;
@@ -158,7 +163,7 @@
 		align-self: flex-start;
 		margin-top: 40px;
 	}
-	.answer{
+	.answer {
 		font-family: 'Dosis';
 		font-size: var(--m);
 		color: white;
@@ -210,13 +215,13 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	/* @media screen and (max-width: 768px) {
 		.difference {
 			width: calc(100vw - 10px);
 		}
 		.difference p {
 			column-count: 1;
-		}
+		} */
 
 		/* .title-h3 {
 			font-family: epilogue;
@@ -227,10 +232,8 @@
 			line-height: 25px;
 			width: 100%;
 		} */
-		.difference h2 {
-		
-		line-height: 40px;
-		
-	}
-	}
+		/* .difference h2 {
+			line-height: 40px;
+		} */
+	
 </style>
