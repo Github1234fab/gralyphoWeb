@@ -88,11 +88,11 @@
 		color: #f544047a;
 	}
 	.developper {
-		color: #ee840cb7;
+		color: rgba(238, 132, 12, 0.834);
 		margin-top: -10px;
 	}
 	.creer {
-		color: #f50474;
+	color: #f54404;
 		margin-top: -10px;
 	}
 
