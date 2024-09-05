@@ -50,10 +50,11 @@
 		height: auto;
 		width: 100%;
 		padding: 20px;
-		background-color: rgb(255, 255, 255);
+		background-color: rgb(143, 59, 59);
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.781);
+		background-image: url("../Assets/bgthree.png");
 	}
 
 	.wrapper-text {
@@ -70,7 +71,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: rgb(48, 48, 48);
+		color: rgb(253, 252, 252);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -79,7 +80,7 @@
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-		color:rgb(48, 48, 48);
+		color:rgb(255, 255, 255);
 		font-family: 'radio canada big';
 		font-size: var(--l);
 		/* color: var(--primary); */
@@ -112,13 +113,13 @@
 		background-color: transparent;
 		border: 1px solid rgb(217, 216, 216);
 		font-family: 'Red Hat Display';
-		font-weight: 600;
+		font-weight: bolder;
 		padding: 20px;
 		border-radius: 15px;
 		width: 100%;
 		text-align: left;
-		color: black;
-		font-size: 1rem;
+		color: rgb(255, 255, 255);
+		font-size: 1.2rem;
 	}
 	input:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -131,13 +132,13 @@
 	.demande {
 		border: 2px solid rgb(220, 219, 219);
 		font-family: 'Red Hat Display';
-		font-weight: 400;
+		font-weight: 800;
 		padding: 10px;
 		border-radius: 15px;
 		width: 90%;
 		min-height: 200px;
 		background-color: transparent;
-		color: black;
+		color: rgb(255, 255, 255);
 		font-size: 1rem;
 	}
 	.demande:hover {
@@ -197,13 +198,13 @@
 	}
 	.icon-coordonnees {
 		/* color: var(--primary); */
-			color:rgb(48, 48, 48);
+			color:rgb(255, 255, 255);
 	}
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
 		/* color: var(--primary); */
-	color:rgb(48, 48, 48);
+	color:rgb(255, 255, 255);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;
