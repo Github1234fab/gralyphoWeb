@@ -70,8 +70,8 @@
 	.wrapper-text h5 {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 1em;
-		color: black;
-		font-weight: 300;
+		color: rgb(134, 133, 133);
+		font-weight: 100;
 		text-align: center;
 		line-height: 20px;
 		min-width: 70%;

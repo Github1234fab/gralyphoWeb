@@ -17,25 +17,25 @@
 	import Difference from '../sections/Difference.svelte';
 	import Form from '../Components/Form.svelte';
 	import Mouse from '../Components/Mouse.svelte';
+	import BannerOne from '../Components/bannerOne.svelte';
+	import BannerTwo from '../Components/bannerTwo.svelte';
+	import BannerThree from '../Components/bannerThree.svelte';
 </script>
 
 <main in:fade={{ duration: 2000 }}>
 	<!-- <Mouse /> -->
 	<HSection />
 	<Difference />
+	<BannerOne />
 	<section id="sectionE">
 		<ESection />
 	</section>
-		<JSection />
-	
+	<BannerTwo />
+
+
 	<GSection />
-		
-	<BeneficeSection />
-
-	
-
-	
-
+	<BannerThree />
+	<JSection />
 	<Form />
 </main>
 

@@ -100,6 +100,8 @@
 		align-items: center;
 		margin-bottom: 30px;
 		gap: 20px;
+		overflow-x: scroll; /* Permet le défilement horizontal */
+		scrollbar-width: none;
 	}
 
 	@media screen and (max-width: 768px) {

@@ -53,7 +53,7 @@
 		/* background: radial-gradient( rgb(41, 52, 99), rgb(26, 44, 57)); */
 		z-index: 5;
 		background-color: #1b2442;
-		background-image: url("../Assets/png-gralypho/bgFive.png");
+		background-image: url("../Assets/bgtwo.png");
 	
 	}
 
