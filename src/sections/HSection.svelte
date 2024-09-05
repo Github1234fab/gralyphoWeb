@@ -45,16 +45,16 @@
 <style>
 	.H-section {
 		display: grid;
-		grid-template-columns: repeat(12, 1fr);
+		grid-template-columns: repeat(12, 1fr), ;
 		grid-template-rows: auto;
 		height: auto;
 		font-size: 16px;
 		opacity: 1;
-		/* background: radial-gradient( rgb(41, 52, 99), rgb(26, 44, 57)); */
+		background: url('../Assets/bgtwo.png'), radial-gradient(rgb(27, 50, 155), rgb(23, 26, 52)) ;
 		z-index: 5;
-		background-color: #1b2442;
-		background-image: url("../Assets/bgtwo.png");
-	
+		/* background-color: #1b2442; */
+		/* background-image: url('../Assets/bgtwo.png'); */
+		
 	}
 
 	.wrapper-text {
@@ -85,14 +85,14 @@
 		line-height: 110px;
 	}
 	.imaginer {
-		color: #04a1f57a;
+		color: #f544047a;
 	}
 	.developper {
-		color: #04a1f5b7;
+		color: #ee840cb7;
 		margin-top: -10px;
 	}
 	.creer {
-		color: #04a1f5;
+		color: #f50474;
 		margin-top: -10px;
 	}
 

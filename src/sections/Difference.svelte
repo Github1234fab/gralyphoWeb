@@ -150,7 +150,7 @@
 		font-family: 'Dosis';
 		font-size: 1.6rem;
 		color: rgb(73, 71, 71);
-		font-weight: 700;
+		font-weight: 400;
 		letter-spacing: -0.02em;
 		text-align: left;
 		align-self: flex-start;
