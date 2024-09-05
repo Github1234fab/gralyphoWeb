@@ -21,7 +21,7 @@
 	}
 
 	.bloc {
-		min-height: 70vh;
+		max-height: 70vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
@@ -31,7 +31,7 @@
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 	}
 	.sub-bloc {
-		min-height: 70vh;
+		min-height: 50vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
@@ -45,7 +45,7 @@
 		background-image: url('../Assets/png-gralypho/client.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: bottom;
+		background-position: center;
 	}
 
 	.title {

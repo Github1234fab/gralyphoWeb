@@ -2,9 +2,9 @@
 	<div class="bloc imgA">
 		<div class="sub-bloc">
 			<h1 class="title">Automatisez votre outil digital.</h1>
-	
+
 			<p>
-						<i class="fa-solid fa-chart-line icon-difference"></i>
+				<i class="fa-solid fa-chart-line icon-difference"></i>
 				Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. <br />Une
 				hyper-présence sur le net qui vous permet d'économisez du temps pour vous consacrer à
 				d'autres tâches.
@@ -22,23 +22,23 @@
 	}
 
 	.bloc {
-		min-height: 70vh;
+		max-height: 70vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 50px;
 		background-color: rgb(21, 21, 46);
-		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
+		/* box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411); */
 	}
 	.sub-bloc {
-		min-height: 70vh;
+		min-height: 50vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 50px;
-		background-color: rgba(38, 38, 42, 0.553);
+		background-color: rgba(38, 38, 42, 0.696);
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 	}
 	.imgA {
@@ -46,7 +46,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
 
 	.title {
 		font-family: 'radio canada big';
@@ -61,7 +60,7 @@
 		max-width: 30%;
 		padding: 30px;
 		border-radius: 10px;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
+		/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34); */
 		margin-bottom: 20px;
 	}
 	.bloc p {
@@ -112,15 +111,4 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-
-	/* @media screen and (max-width: 900px) {
-		.bloc p {
-			padding: 30px;
-			color: white;
-			max-width: 100%;
-		}
-
-	
-	} */
 </style>
-

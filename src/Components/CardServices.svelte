@@ -61,27 +61,11 @@
 		align-items: center;
 		justify-content: center;
 		background-color: transparent;
-		/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.285); */
 		padding: 20px;
 		border-radius: 12px;
 		min-height: 500px;
 		background-image: url('../Assets/png-gralypho/bgSix.png');
 	}
-	/* .wrapper-icon {
-		background-color: transparent;
-		width: 100px;
-		height: 100px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-top: 10px;
-		padding: 20px;
-		border-radius: 50%;
-	} */
-
-	/* .turn {
-		transform: rotate(360deg);
-	} */
 
 	.wrapper-text-service {
 		display: flex;
@@ -93,7 +77,7 @@
 	.card-services h2 {
 		font-family: 'DM Sans';
 		font-weight: 700;
-		color: rgb(210, 200, 205);
+		color: rgb(227, 214, 220);
 		font-size: 1.4rem;
 		text-align: center;
 		letter-spacing: -0.4px;

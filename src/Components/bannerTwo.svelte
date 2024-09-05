@@ -78,7 +78,7 @@
 		color: white;
 		min-width: 50%;
 		line-height: 25px;
-		background-color: rgba(42, 40, 40, 0.376);
+		/* background-color: rgba(42, 40, 40, 0.376); */
 	}
 	.lien-bouton {
 		background-color: var(--bleuAcier);

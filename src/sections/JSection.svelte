@@ -79,7 +79,7 @@
 		font-size: 16px;
 		margin-top: 0px;
 		z-index: 0;
-		background-color: rgb(243, 242, 242);
+		background-color: rgb(128, 74, 74);
 		background-image: url('../Assets/png-gralypho/bgFive.png');
 	}
 	.gallery {
@@ -99,7 +99,7 @@
 		justify-content: start;
 		align-items: center;
 		margin-bottom: 30px;
-		gap: 20px;
+		gap: 50px;
 		overflow-x: scroll; /* Permet le défilement horizontal */
 		scrollbar-width: none;
 	}

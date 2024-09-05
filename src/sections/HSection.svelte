@@ -50,11 +50,8 @@
 		height: auto;
 		font-size: 16px;
 		opacity: 1;
-		background: url('../Assets/bgtwo.png'), radial-gradient(rgb(27, 50, 155), rgb(23, 26, 52)) ;
-		z-index: 5;
-		/* background-color: #1b2442; */
-		/* background-image: url('../Assets/bgtwo.png'); */
-		
+		background: url('../Assets/bgtwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52)) ;
+		z-index: 5;	
 	}
 
 	.wrapper-text {
@@ -85,14 +82,14 @@
 		line-height: 110px;
 	}
 	.imaginer {
-		color: #f544047a;
+		color: #ffa6004e;
 	}
 	.developper {
-		color: rgba(238, 132, 12, 0.834);
+		color: #ffa6008e;
 		margin-top: -10px;
 	}
 	.creer {
-	color: #f54404;
+	color: #ffa600e4;
 		margin-top: -10px;
 	}
 
@@ -134,7 +131,7 @@
 		max-width: 260px;
 		border-radius: 10px;
 		text-align: center;
-		padding: 10px 20px;
+		padding: 15px 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		justify-self: center;
 		align-self: center;

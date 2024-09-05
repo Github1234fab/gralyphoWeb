@@ -26,13 +26,13 @@
 	<!-- <Mouse /> -->
 	<HSection />
 	<Difference />
-	<BannerOne />
+	
 	<section id="sectionE">
 		<ESection />
 	</section>
-	<BannerTwo />
+	<!-- <BannerTwo /> -->
 
-
+<BannerOne />
 	<GSection />
 	<BannerThree />
 	<JSection />

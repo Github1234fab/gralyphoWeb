@@ -132,7 +132,7 @@
 		width: 100%;
 		font-size: 16px; 
 		background: radial-gradient(circle, rgb(54, 54, 109) 30%, rgb(23, 23, 78) );
-		padding: 40px;
+		padding: 60px;
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -184,7 +184,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-bottom: 100px;
 		gap: 15px;
 			
