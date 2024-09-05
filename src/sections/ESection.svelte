@@ -56,6 +56,7 @@
 
 <section class="E-section">
 	<h1>Notre proposition</h1>
+
 	<!-- <div class="container-text-circles">
 		<div class="wrapper-circle">
 			<CircleAnimation />
@@ -87,6 +88,7 @@
 		</div>
 	</div> -->
 	<div class="wrapper-text">
+			<h2>Nos services</h2>
 		<h3>
 			Nous souhaitons créer le site internet <span>qui vous ressemble</span>, au plus près de votre
 			identité et de vos exigences. <br />Nous nous occupons également de la
@@ -161,18 +163,18 @@
 		margin-bottom: 20px;
 		text-align: center;
 	}
-	/* .E-section h2 {
+	.E-section h2 {
 		font-family: 'radio canada big';
-		font-size: 1.4rem;
+		font-size: var(--l);
 		color: rgb(254, 254, 254);
 		font-weight: 100;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: left;
-		line-height: 49px;
+		text-align: center;
+		line-height: 25px;
 		margin-top: 20px;
 		min-width: 100%;
-	} */
+	}
 
 	.E-section h3 {
 		font-family: epilogue;

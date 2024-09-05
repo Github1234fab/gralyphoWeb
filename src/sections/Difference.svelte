@@ -76,8 +76,8 @@
 		grid-template-rows: auto;
 		height: auto;
 		font-size: 16px;
-		background-color: green;
-		background-image: url('../Assets/png-gralypho/bgFive.png');
+		background-color: rgb(245, 245, 245);
+		/* background-image: url('../Assets/bgfour.png'); */
 	}
 	.img {
 		background-image: url('../Assets/png-gralypho/photoDev.jpg');
@@ -95,7 +95,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: white;
+		color: rgb(26, 25, 25);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
@@ -107,7 +107,7 @@
 	.difference h2 {
 		font-family: 'radio canada big';
 		font-size: var(--l);
-		color: white;
+		color: var(--colorH);
 		font-weight: 500;
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
@@ -117,23 +117,6 @@
 		grid-column: 2/12;
 		grid-row: 2;
 	}
-	/* .title-h3 {
-		font-family: epilogue;
-		color:  white;
-		font-size: 1.1rem;
-		font-weight: 300;
-		line-height: 1.5em;
-		width: 100%;
-		padding: 0px;
-		text-align: center;
-		grid-column: 2/12;
-		grid-row: 3;
-		margin-top: 30px;
-	}
-	.title-h3 span {
-		font-weight: 700;
-		color: white;
-	} */
 
 	.wrapper-difference__title {
 		display: flex;
@@ -155,18 +138,18 @@
 	}
 	.paragraph {
 		font-family: epilogue;
-		font-size: var(--m);
-		color: white;
+		font-size: var(--lm);
+		color: var(--colorH);
 		font-weight: 700;
 		letter-spacing: -0.02em;
-		text-align: center;
+		text-align: left;
 		align-self: flex-start;
 		margin-top: 40px;
 	}
 	.answer {
 		font-family: 'Dosis';
-		font-size: var(--m);
-		color: white;
+		font-size: 1.6rem;
+		color: rgb(73, 71, 71);
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		text-align: left;
@@ -178,8 +161,8 @@
 		font-family: epilogue;
 		color: grey;
 		column-count: 1;
-		font-size: var--(m);
-		color: white;
+		font-size: var(--m);
+		color: grey;
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
@@ -188,11 +171,15 @@
 	}
 	.difference p span {
 		font-family: epilogue;
-		color: white;
-		font-size: var--(m);
-		font-weight: 700;
+		color: grey;
+		column-count: 1;
+		font-size: var(--m);
+		color: grey;
+		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
+		padding: 0px;
+		text-align: left;
 	}
 	.marginBottom {
 		margin-bottom: 50px;
@@ -223,7 +210,7 @@
 			column-count: 1;
 		} */
 
-		/* .title-h3 {
+	/* .title-h3 {
 			font-family: epilogue;
 			font-size: var(--m);
 			color: var(--primary);
@@ -232,8 +219,7 @@
 			line-height: 25px;
 			width: 100%;
 		} */
-		/* .difference h2 {
+	/* .difference h2 {
 			line-height: 40px;
 		} */
-	
 </style>

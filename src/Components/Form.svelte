@@ -151,9 +151,8 @@
 
 	.button {
 		border: none;
-		background-color: white;
-		
-		color:  var(--primary);
+		background-color: var(--bleuAcier);
+		color:  white;
 		font-family: epilogue;
 		font-weight: 500;
 		padding: 20px 10px;
@@ -161,8 +160,8 @@
 		max-width: 100px;
 		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
 		text-align: center;
-		margin-top: 0px;
-		margin-bottom: 100px;
+		margin-top: 40px;
+		margin-bottom: 10px;
 	}
 	.button:hover {
 		animation: bounce 0.4s ease-in-out;

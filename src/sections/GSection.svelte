@@ -151,7 +151,7 @@
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
 		margin-top: 40px;
-		text-align: left;
+		text-align: center;
 	}
 	.G-section h2 {
 		font-family: 'radio canada big';
@@ -160,7 +160,7 @@
 		font-weight: 500;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		text-align: left;
+		text-align: center;
 	}
 	.G-section h3 {
 		font-family: epilogue;
@@ -169,7 +169,7 @@
 		font-weight: 300;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
-		text-align: left;
+		text-align: center;
 		width: 100%;
 		margin: 0 auto;
 		margin-top: 10px;
