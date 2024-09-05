@@ -218,7 +218,7 @@
 			text-align: center;
 			font-family: 'radio canada big';
 			font-weight: 300;
-			font-size: 5rem;
+			font-size: 4.2rem;
 			text-transform: capitalize;
 			letter-spacing: -5px;
 			line-height: 60px;

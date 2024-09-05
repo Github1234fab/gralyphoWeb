@@ -112,7 +112,7 @@
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
 		text-align: center;
-		line-height: 55px;
+		line-height: 25px;
 		margin-top: 30px;
 		grid-column: 2/12;
 		grid-row: 2;
@@ -202,24 +202,4 @@
 		}
 	}
 
-	/* @media screen and (max-width: 768px) {
-		.difference {
-			width: calc(100vw - 10px);
-		}
-		.difference p {
-			column-count: 1;
-		} */
-
-	/* .title-h3 {
-			font-family: epilogue;
-			font-size: var(--m);
-			color: var(--primary);
-			font-weight: 300;
-			text-align: center;
-			line-height: 25px;
-			width: 100%;
-		} */
-	/* .difference h2 {
-			line-height: 40px;
-		} */
 </style>
