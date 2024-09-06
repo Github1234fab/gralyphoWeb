@@ -35,7 +35,7 @@
 <BannerOne />
 	<GSection />
 	<BannerThree />
-	<JSection />
+	<!-- <JSection /> -->
 	<Form />
 </main>
 

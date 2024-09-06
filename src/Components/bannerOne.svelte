@@ -56,9 +56,7 @@
 	.icon-difference {
 		font-size: 3rem;
 		color: white;
-		margin-top: 20px;
 		max-width: 30%;
-		padding: 30px;
 		border-radius: 10px;
 		/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34); */
 		margin-bottom: 20px;
@@ -71,7 +69,6 @@
 		font-family: 'Red Hat Display';
 		/* margin-top: 30px; */
 		text-align: center;
-		padding: 40px;
 		text-align: center;
 		color: white;
 		min-width: 50%;
@@ -79,7 +76,7 @@
 		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
-		background-color: var(--bleuAcier);
+		/* background-color: var(--bleuAcier); */
 		border: 1px solid white;
 		border-radius: 8px;
 		padding: 10px 20px;

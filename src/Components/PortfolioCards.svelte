@@ -60,6 +60,9 @@
 	.card-portfolio:hover .card-content::after {
 		transform: translateX(200px);
 	}
+	/* .card-portfolio:active .card-content::after {
+		transform: translateX(200px);
+	} */
 	.card-content {
 		height: 180px;
 		width: 100%;

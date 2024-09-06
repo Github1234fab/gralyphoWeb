@@ -121,7 +121,7 @@
 	.contact {
 		text-decoration: none;
 		color: rgb(255, 255, 255);
-		/* border: 1px solid rgb(192, 194, 248); */
+		border: 1px solid rgb(192, 194, 248);
 		background-color: var(--bleuAcier);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
@@ -215,7 +215,7 @@
 			text-align: center;
 			font-family: 'radio canada big';
 			font-weight: 300;
-			font-size: 4.8rem;
+			font-size: 4.0rem;
 			text-transform: capitalize;
 			letter-spacing: -5px;
 			line-height: 56px;

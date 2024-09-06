@@ -5,8 +5,8 @@
 
 			<p>
 				<i class="fa-solid fa-sack-dollar icon-difference"></i>
-				Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO. <br> C'est le moyen
-				d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
+				Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO. <br /> C'est
+				le moyen d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
 			</p>
 			<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
 		</div>
@@ -31,18 +31,19 @@
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 	}
 	.sub-bloc {
-		min-height: 50vh;
+		min-height: 30vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 50px;
-		background-color: rgba(79, 19, 7, 0.547);
+		margin-top: 30px;
+		background-color: rgba(79, 19, 7, 0.585);
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 	}
 
 	.imgC {
-		background-image: url('../Assets/png-gralypho/client.jpg');
+		background-image: url('../Assets/png-gralypho/barThree.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -57,11 +58,9 @@
 	.icon-difference {
 		font-size: 3rem;
 		color: white;
-		margin-top: 20px;
 		max-width: 30%;
-		padding: 30px;
 		border-radius: 10px;
-		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34);
+		/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34); */
 		margin-bottom: 20px;
 	}
 	.bloc p {
@@ -72,15 +71,14 @@
 		font-family: 'Red Hat Display';
 		/* margin-top: 30px; */
 		text-align: center;
-		padding: 40px;
 		text-align: center;
 		color: white;
 		min-width: 50%;
 		line-height: 25px;
-		/* background-color: rgba(42, 40, 40, 0.384); */
+		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
-		background-color: var(--bleuAcier);
+		/* background-color: var(--bleuAcier); */
 		border: 1px solid white;
 		border-radius: 8px;
 		padding: 10px 20px;
@@ -113,13 +111,16 @@
 		}
 	}
 
-	/* @media screen and (max-width: 900px) {
-		.bloc p {
-			padding: 30px;
-			color: white;
-			max-width: 100%;
+	@media screen and (max-width: 768px) {
+		.sub-bloc {
+			margin-top: 170px;
 		}
 
-	
-	} */
+		.imgC {
+		
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 40% center;
+		}
+	}
 </style>

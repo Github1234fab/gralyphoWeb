@@ -26,13 +26,13 @@
 
 	<div class="wrapper-media">
 		<a href="https://www.facebook.com/profile.php?id=61556314663680" target="_blank"
-			><i class="fa-brands fa-square-facebook anim"></i></a
+			><i class="fa-brands fa-square-facebook anim icon"></i></a
 		>
 		<a href="https://twitter.com/home?lang=fr" target="_blank"
-			><i class="fa-brands fa-square-twitter anim"></i></a
+			><i class="fa-brands fa-square-twitter anim icon"></i></a
 		>
 		<a href="https://www.instagram.com/" target="_blank"
-			><i class="fa-brands fa-square-instagram anim"></i></a
+			><i class="fa-brands fa-square-instagram anim icon"></i></a
 		>
 		<!-- <a href="https://www.tiktok.com/@gralypho" target="_blank"><i class="fa-brands fa-tiktok anim"></i></a
 		> -->
@@ -53,7 +53,7 @@
 		justify-content: center;
 		height: 100%;
 		font-size: 16px;
-		background: linear-gradient(rgb(26, 30, 52), rgb(3, 28, 46));
+		background: radial-gradient(rgb(49, 56, 101), rgb(3, 28, 46));
 		color: white;
 		font-family: epilogue;
 		gap: 0px;
@@ -63,7 +63,7 @@
 		margin-top: 30px;
 		font-family: 'Dosis';
 		font-weight: 400;
-		font-size: 0.7em;
+		font-size: 0.9rem;
 		color: white;
 		text-align: center;
 		margin-bottom: 50px;
@@ -118,6 +118,9 @@
 		font-size: 1.8em;
 		margin: 0 0px;
 		transition: 0.4s ease-in-out;
+	}
+	.icon{
+		color: rgb(189, 189, 252);
 	}
 
 	.anim:hover {

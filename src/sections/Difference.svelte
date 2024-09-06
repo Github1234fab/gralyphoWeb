@@ -66,14 +66,16 @@
 			<span>objectifs</span> et à les dépasser en vous proposant et en concevant des fonctionnalités,
 			des outils, des solutions qui vous permettront de vous démarquer de la concurrence, à coup sûr.
 		</p>
+	
 	</div>
+		<button class="contact">Contact-nous</button>
 </section>
 
 <style>
 	.difference {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
+		grid-template-rows: repeat(4, auto);
 		height: auto;
 		font-size: 16px;
 		background-color: rgb(245, 245, 245);
@@ -112,7 +114,7 @@
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
 		text-align: center;
-		line-height: 25px;
+		line-height: 30px;
 		margin-top: 30px;
 		grid-column: 2/12;
 		grid-row: 2;
@@ -181,6 +183,29 @@
 		padding: 0px;
 		text-align: left;
 	}
+	.contact{
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		border: none;
+		background-color: var(--bleuAcier);
+		font-family: 'Red Hat Display';
+		font-size: 1rem;
+		font-weight: 500;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		margin-left: 0px;
+		max-width: 260px;
+		border-radius: 10px;
+		text-align: center;
+		padding: 15px 20px;
+		box-shadow: 0px 0px 10px rgba(58, 57, 57, 0.799);
+		justify-self: center;
+		align-self: center;
+		grid-column: 2/12;
+		grid-row: 6;
+	}
+
+
 	.marginBottom {
 		margin-bottom: 50px;
 	}
