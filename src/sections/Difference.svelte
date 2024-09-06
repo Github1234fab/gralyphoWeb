@@ -68,7 +68,7 @@
 		</p>
 	
 	</div>
-		<button class="contact">Contact-nous</button>
+		<button class="contact">Contactez-nous</button>
 </section>
 
 <style>
