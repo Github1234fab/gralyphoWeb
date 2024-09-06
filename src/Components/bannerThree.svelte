@@ -5,7 +5,7 @@
 
 			<p>
 				<i class="fa-solid fa-sack-dollar icon-difference"></i>
-				Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO, c'est le moyen
+				Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO. <br> C'est le moyen
 				d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
 			</p>
 			<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
@@ -21,7 +21,7 @@
 	}
 
 	.bloc {
-		max-height: 70vh;
+		min-height: 80vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
@@ -37,7 +37,7 @@
 		align-items: center;
 		justify-content: center;
 		padding: 50px;
-		background-color: rgba(228, 51, 16, 0.374);
+		background-color: rgba(79, 19, 7, 0.547);
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
 	}
 
@@ -70,14 +70,14 @@
 		align-items: center;
 		justify-content: center;
 		font-family: 'Red Hat Display';
-		margin-top: 30px;
+		/* margin-top: 30px; */
 		text-align: center;
 		padding: 40px;
 		text-align: center;
 		color: white;
 		min-width: 50%;
 		line-height: 25px;
-		background-color: rgba(42, 40, 40, 0.384);
+		/* background-color: rgba(42, 40, 40, 0.384); */
 	}
 	.lien-bouton {
 		background-color: var(--bleuAcier);

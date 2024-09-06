@@ -22,7 +22,7 @@
 	}
 
 	.bloc {
-		max-height: 70vh;
+		min-height: 70vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
@@ -69,14 +69,14 @@
 		align-items: center;
 		justify-content: center;
 		font-family: 'Red Hat Display';
-		margin-top: 30px;
+		/* margin-top: 30px; */
 		text-align: center;
 		padding: 40px;
 		text-align: center;
 		color: white;
 		min-width: 50%;
 		line-height: 25px;
-		background-color: rgba(42, 40, 40, 0.73);
+		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
 		background-color: var(--bleuAcier);

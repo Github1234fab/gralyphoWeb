@@ -22,9 +22,9 @@
 <section class="H-section clip-path">
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
-			<h1 class="imaginer">Imaginer.</h1>
-			<h1 class="developper">Développer.</h1>
-			<h1 class="creer">Créer.</h1>
+			<h1 class="imaginer">Imaginer</h1>
+			<h1 class="developper">Développer</h1>
+			<h1 class="creer">Créer</h1>
 		</div>
 		<div class="autoText">
 			<AutoText />
@@ -76,21 +76,21 @@
 		text-align: center;
 		font-family: 'radio canada big';
 		font-weight: 500;
-		font-size: 9rem;
+		font-size: 6rem;
 		text-transform: capitalize;
-		letter-spacing: -10px;
-		line-height: 110px;
+		letter-spacing: -5px;
+		line-height: 70px;
 	}
 	.imaginer {
-		color: #ffa6004e;
+		color: #ffa60071;
 	}
 	.developper {
-		color: #ffa6008e;
-		margin-top: -10px;
+		color: #ffa600ab;
+
 	}
 	.creer {
-	color: #ffa600e4;
-		margin-top: -10px;
+	color: #ffa600;
+	
 	}
 
 	.autoText {
@@ -215,10 +215,10 @@
 			text-align: center;
 			font-family: 'radio canada big';
 			font-weight: 300;
-			font-size: 4.2rem;
+			font-size: 4.8rem;
 			text-transform: capitalize;
 			letter-spacing: -5px;
-			line-height: 60px;
+			line-height: 56px;
 		}
 		.H-section h2 {
 			font-family: poppins;
