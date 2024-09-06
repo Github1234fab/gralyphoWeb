@@ -27,8 +27,8 @@
 		border-radius: 20px;
 		
 	}
-	.wrapper-portfolio h1 {
-		font-family: poppins;
+	.wrapper-portfolio h3 {
+		font-family: heebo;
 		font-size: var(--m);
 		color: white;
 		font-weight: 200;
@@ -107,11 +107,11 @@
 		box-shadow: 0px 0px 20px 10px black;
 	}
 
-	.card-content h3 {
-		font-size: var(--m);
-		font-family: 'heebo';
+	.card-content h1 {
+		font-size: 1.2rem;
+		font-family: 'poppins';
 		font-weight: 500;
-		/* color: var(--bleuAcier); */
+	
 		color: var(--CTA-jaune);
 		text-align: left;
 		text-transform: capitalize;
