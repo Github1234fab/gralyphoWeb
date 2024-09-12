@@ -130,7 +130,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background: linear-gradient(30deg, var(--secondary) 30%, var(--quatrieme));
+		background: radial-gradient(var(--secondary), var(--primary));
 		padding: 60px;
 	}
 	.wrapper-text {

@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="section-form " id="section-form">
+<section class="section-form" id="section-form">
 	<div class="wrapper-text">
 		<h3 class="form-title">Formulaire de contact</h3>
 		<h1 class="form-contactez">Contactez-nous dès aujourdhui!</h1>
@@ -38,9 +38,8 @@
 
 		<textarea name="demande" id="demande" class="demande" placeholder="Votre demande"></textarea>
 
-			<input class="button" type="submit" value="Envoyez" />
+		<button type="submit">Envoyez</button>
 	</form>
-
 </section>
 
 <style>
@@ -53,7 +52,7 @@
 		background-color: var(--primary);
 		justify-content: center;
 		align-items: center;
-background-image: linear-gradient(var(--primary), var(--secondary));
+		background-image: radial-gradient(var(--secondary), var(--primary));
 		/* background-image: url("../Assets/bgthree.png"); */
 	}
 
@@ -71,7 +70,7 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color:  var(--whiteGrey);
+		color: var(--whiteGrey);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -80,7 +79,7 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-		color:  var(--whiteGrey);
+		color: var(--whiteGrey);
 		font-family: 'radio canada big';
 		font-size: var(--l);
 		/* color: var(--primary); */
@@ -118,15 +117,15 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		border-radius: 15px;
 		width: 100%;
 		text-align: left;
-		color:  var(--whiteGrey);
+		color: var(--whiteGrey);
 		font-size: 1.2rem;
 	}
 	input:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	input::placeholder {
-		color: rgb(187, 183, 183);
-
+		color: rgb(209, 209, 209);
+font-weight: 300;
 		font-size: var(--m);
 	}
 	.demande {
@@ -150,25 +149,24 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		font-size: var(--m);
 	}
 
-	.button {
+	button {
 		border: none;
-		background: radial-gradient(var(--primary), transparent );
-		color:  var(--whiteGrey);
+		background-color: transparent;
+		color: var(--whiteGrey);
 		border: var(--whiteGrey) 1px solid;
 		font-family: epilogue;
-		font-weight: 500;
+		font-weight: 400;
 		padding: 20px 20px;
-		max-width: 20%;
 		border-radius: 15px;
 		text-align: center;
 		margin-top: 40px;
 		margin-bottom: 10px;
 	}
-	.button:hover {
+	button:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	.button:active {
-	border: solid white 5px;
+	button:active {
+		border: solid white 5px;
 	}
 	@keyframes bounce {
 		0% {
@@ -198,13 +196,13 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 	}
 	.icon-coordonnees {
 		/* color: var(--primary); */
-			color:rgb(255, 255, 255);
+		color: rgb(255, 255, 255);
 	}
 	.contact-form {
 		font-family: epilogue;
 		font-weight: 500;
 		/* color: var(--primary); */
-	color:rgb(255, 255, 255);
+		color: rgb(255, 255, 255);
 		letter-spacing: -0.05em;
 		font-size: var(--m);
 		text-align: center;
@@ -230,8 +228,6 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		.demande {
 			width: 90%;
 		}
-		.button{
-					max-width: 40%;
-		}
+	
 	}
 </style>

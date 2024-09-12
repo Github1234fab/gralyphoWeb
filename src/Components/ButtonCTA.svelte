@@ -3,7 +3,7 @@
 <style>
 	a {
 		background-color: var(--cta);
-		color:  var(--secondary);
+		color:  var(--whiteGrey);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
 		font-weight: 700;

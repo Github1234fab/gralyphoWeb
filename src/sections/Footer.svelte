@@ -91,7 +91,7 @@
 	}
 	.contact {
 		text-decoration: none;
-		border: 1px solid var(--whiteGrey);
+		border: 1px solid var(--cta);
 		color: white;
 		font-size: 1.5em;
 		font-family: poppins;
@@ -119,7 +119,7 @@
 		transition: 0.4s ease-in-out;
 	}
 	.icon {
-		color: var(--cta);
+		color: var(--whiteGrey);
 	}
 
 	.anim:hover {

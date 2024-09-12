@@ -78,26 +78,26 @@
 		text-align: center;
 		font-family: 'radio canada big';
 		font-weight: 500;
-		font-size: 6rem;
+		font-size: 3.5rem;
 		text-transform: capitalize;
-		letter-spacing: -5px;
-		line-height: 70px;
+		letter-spacing: -3px;
+		line-height: 50px;
 	}
 	.imaginer {
-		color: #ffb85a6d;
+		color: #ceb28e93;
 	}
 	.developper {
-		color: #ffb85aa7;
+		color: #c99653b1;
 	}
 	.creer {
-	color: #f6a73e;
+	color: #cf9242;
 	
 	}
 
 	.autoText {
 		color: yellow;
 		font-weight: 400;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		font-family: 'Red Hat Display';
 		justify-self: center;
 		align-self: center;
@@ -107,7 +107,7 @@
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: var(--greyBg);
+		color: var(--whiteGrey);
 		text-align: center;
 		line-height: 30px;
 		margin-top: 40px;
@@ -116,7 +116,7 @@
 		align-self: center; */
 	}
 	.H-section h2 span {
-		font-weight: 600;
+		font-weight: 300;
 		/* color: var(--CTA); */
 	}
 	/* .contact {
@@ -223,7 +223,7 @@
 		}
 		.H-section h2 {
 			font-family: poppins;
-			font-weight: 300;
+			font-weight: 200;
 			font-size: 1rem;
 			color: var(--greyBg);
 			text-align: center;
