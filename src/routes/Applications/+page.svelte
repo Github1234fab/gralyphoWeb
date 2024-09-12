@@ -80,7 +80,7 @@
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
 
 	<div class="wrapper-collapse">
-		<h1>Les étapes de développement de votre Appli.</h1>
+		<h1>Les étapes de développement de votre Application.</h1>
 		{#each collapseTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
@@ -108,22 +108,22 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background-color: var(--primary);
+		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero-applications h1 {
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: clamp(3rem, 8vw, 13rem);
+		font-size: var(--xl);
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
 		letter-spacing: -1px;
 		padding: 0px;
-		line-height: clamp(3rem, 8vw, 8.2rem);
+		line-height: 50px;
 		margin-top: 70px;
 	}
 	.hero-applications h1 span {
-		color: var(--bleuAcier);
+		color: var(--cta);
 	}
 	.hero-applications h3 {
 		font-family: poppins;
@@ -138,53 +138,19 @@
 
 	.wrapper-testimonial {
 		grid-column: 1/13;
-		grid-row: 3;
+		grid-row: 4;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		background-image: linear-gradient(
-				45deg,
-				rgba(254, 246, 210, 0.53) 0%,
-				rgba(254, 246, 210, 0.53) 14.286%,
-				rgba(221, 240, 216, 0.53) 14.286%,
-				rgba(221, 240, 216, 0.53) 28.572%,
-				rgba(188, 233, 223, 0.53) 28.572%,
-				rgba(188, 233, 223, 0.53) 42.858%,
-				rgba(156, 227, 229, 0.53) 42.858%,
-				rgba(156, 227, 229, 0.53) 57.144%,
-				rgba(123, 220, 235, 0.53) 57.144%,
-				rgba(123, 220, 235, 0.53) 71.42999999999999%,
-				rgba(90, 214, 242, 0.53) 71.43%,
-				rgba(90, 214, 242, 0.53) 85.71600000000001%,
-				rgba(57, 207, 248, 0.53) 85.716%,
-				rgba(57, 207, 248, 0.53) 100.002%
-			),
-			linear-gradient(
-				135deg,
-				rgb(246, 99, 200) 0%,
-				rgb(246, 99, 200) 12.5%,
-				rgb(223, 98, 196) 12.5%,
-				rgb(223, 98, 196) 25%,
-				rgb(199, 97, 192) 25%,
-				rgb(199, 97, 192) 37.5%,
-				rgb(176, 96, 188) 37.5%,
-				rgb(176, 96, 188) 50%,
-				rgb(152, 95, 184) 50%,
-				rgb(152, 95, 184) 62.5%,
-				rgb(129, 94, 180) 62.5%,
-				rgb(129, 94, 180) 75%,
-				rgb(105, 93, 176) 75%,
-				rgb(105, 93, 176) 87.5%,
-				rgb(82, 92, 172) 87.5%,
-				rgb(82, 92, 172) 100%
-			);
+		background-image: linear-gradient(var(--primary), var(--secondary));
+				
 	}
 
 	.wrapper-testimonial h2 {
 		font-family: 'architects daughter';
 		font-weight: 900;
-		font-size: var(--l);
+		font-size: var(--m);
 		color: white;
 		text-align: center;
 		margin-top: 70px;
@@ -194,13 +160,13 @@
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(240, 237, 237);
+		color: var(--whiteGrey);
 		text-align: center;
 		margin-bottom: 50px;
 	}
 	.wrapper-collapse {
 		grid-column: 1/13;
-		grid-row: 4;
+		grid-row: 3;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -211,7 +177,7 @@
 	.wrapper-collapse h1 {
 		text-align: center;
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--bleuAcier);
 		margin-top: 50px;
@@ -234,7 +200,7 @@
 		font-family: 'Red Hat Display';
 		font-size: var(--xl);
 		font-weight: 700;
-		color: var(--bleuAcier);
+			color: var(--primary);
 		letter-spacing: -1px;
 		padding: 15px;
 	}
@@ -242,7 +208,7 @@
 		font-family: 'epilogue';
 		font-weight: 700;
 		font-size: var(--m);
-		color: var(--jauneB);
+		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 20px;
@@ -252,7 +218,7 @@
 		font-family: 'poppins';
 		font-weight: 300;
 		font-size: var(--m);
-		color: var(--bleuAcier);
+		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
 		width: 60%;

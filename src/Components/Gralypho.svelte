@@ -18,7 +18,7 @@
   }
   .rect h1{
     font-size: 0.7em;
-    color: #6CA0DC;
+    color: var(--cta);
     margin-top: 2px;
   }
 
@@ -28,7 +28,7 @@
   .rec-left {
     width: 30%;
     height: 90%;
-    color: #6CA0DC;
+    color: var(--cta);
     font-size: 1.8em;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
     background-color: var(--bg);
     font-weight: 600;
     border-radius: 4px;
-    border: solid 1px #6CA0DC;
+    border: solid 1px var(--cta);
     margin-top: -3px;
   }
   

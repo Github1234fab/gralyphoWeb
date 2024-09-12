@@ -6,6 +6,7 @@
 	import animationHero from '../Assets/png-gralypho/animationHero.mp4';
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
 	import AutoText from '../Components/AutoText.svelte';
+	import ButtonCta from '../Components/ButtonCTA.svelte';
 
 	// let textIndex = 0;
 	// let textTab = [' de Site Internet.', "d'Applications."];
@@ -37,7 +38,8 @@
 		</h2>
 
 		<div class="wrapper-contact">
-			<a class="contact" href="/#section-form">Contact</a>
+			<!-- <a class="contact" href="/#section-form">Contact</a> -->
+			<ButtonCta />
 		</div>
 	</div>
 </section>
@@ -82,14 +84,13 @@
 		line-height: 70px;
 	}
 	.imaginer {
-		color: #ffa60071;
+		color: #ffb85a6d;
 	}
 	.developper {
-		color: #ffa600ab;
-
+		color: #ffb85aa7;
 	}
 	.creer {
-	color: #ffa600;
+	color: #f6a73e;
 	
 	}
 
@@ -118,7 +119,7 @@
 		font-weight: 600;
 		/* color: var(--CTA); */
 	}
-	.contact {
+	/* .contact {
 		text-decoration: none;
 		color: rgb(255, 255, 255);
 		border: 1px solid rgb(192, 194, 248);
@@ -135,11 +136,11 @@
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		justify-self: center;
 		align-self: center;
-	}
+	} */
 
-	.contact:hover {
+	/* .contact:hover {
 		animation: bounce 0.4s ease-in-out;
-	}
+	} */
 
 	.wrapper-contact {
 		display: flex;

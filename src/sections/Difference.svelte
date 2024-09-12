@@ -1,5 +1,6 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
+	import ButtonCta from '../Components/ButtonCTA.svelte';
 </script>
 
 <section class="difference">
@@ -66,9 +67,8 @@
 			<span>objectifs</span> et à les dépasser en vous proposant et en concevant des fonctionnalités,
 			des outils, des solutions qui vous permettront de vous démarquer de la concurrence, à coup sûr.
 		</p>
-	
 	</div>
-		<button class="contact">Contactez-nous</button>
+	<!-- <div class="contact"><ButtonCta /></div> -->
 </section>
 
 <style>
@@ -78,7 +78,7 @@
 		grid-template-rows: repeat(4, auto);
 		height: auto;
 		font-size: 16px;
-		background-color: rgb(245, 245, 245);
+		background-color: var(--whiteGrey);
 		/* background-image: url('../Assets/bgfour.png'); */
 	}
 	.img {
@@ -97,7 +97,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: rgb(26, 25, 25);
+		color: var(--secondary);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
@@ -109,7 +109,7 @@
 	.difference h2 {
 		font-family: 'radio canada big';
 		font-size: var(--l);
-		color: var(--colorH);
+		color: var(--secondary);
 		font-weight: 500;
 		margin-bottom: 10px;
 		letter-spacing: -0.05em;
@@ -141,7 +141,7 @@
 	.paragraph {
 		font-family: epilogue;
 		font-size: var(--lm);
-		color: var(--colorH);
+		color: var(--secondary);
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		text-align: left;
@@ -151,7 +151,7 @@
 	.answer {
 		font-family: 'Dosis';
 		font-size: 1.6rem;
-		color: rgb(73, 71, 71);
+		color: var(--secondary);
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		text-align: left;
@@ -161,10 +161,10 @@
 
 	.difference p {
 		font-family: epilogue;
-		color: grey;
+
 		column-count: 1;
 		font-size: var(--m);
-		color: grey;
+		color: var(--secondary);
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
@@ -173,38 +173,23 @@
 	}
 	.difference p span {
 		font-family: epilogue;
-		color: grey;
+		color: var(--secondary);
 		column-count: 1;
 		font-size: var(--m);
-		color: grey;
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
 		padding: 0px;
 		text-align: left;
 	}
-	.contact{
-		text-decoration: none;
-		color: rgb(255, 255, 255);
-		border: none;
-		background-color: var(--bleuAcier);
-		font-family: 'Red Hat Display';
-		font-size: 1rem;
-		font-weight: 500;
-		margin-top: 20px;
-		margin-bottom: 50px;
-		margin-left: 0px;
-		max-width: 260px;
-		border-radius: 10px;
-		text-align: center;
-		padding: 15px 20px;
-		box-shadow: 0px 0px 10px rgba(58, 57, 57, 0.799);
+	/* .contact {
+		margin-top: 50px;
+		margin-bottom: 100px;
 		justify-self: center;
 		align-self: center;
 		grid-column: 2/12;
 		grid-row: 6;
-	}
-
+	} */
 
 	.marginBottom {
 		margin-bottom: 50px;
@@ -226,5 +211,4 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-
 </style>

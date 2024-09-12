@@ -88,7 +88,7 @@
 		</div>
 	</div> -->
 	<div class="wrapper-text">
-			<h2>Nos services</h2>
+		<h2>Nos services</h2>
 		<h3>
 			Nous souhaitons créer le site internet <span>qui vous ressemble</span>, au plus près de votre
 			identité et de vos exigences. <br />Nous nous occupons également de la
@@ -115,11 +115,11 @@
 		grid-template-rows: auto;
 		margin-bottom: 0px;
 		height: auto;
-		font-size: 16px; 
-		background: -webkit-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
-		background: -moz-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
-		background: -o-radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
-		background: radial-gradient(circle, rgb(209, 49, 142) , rgb(61, 53, 105));
+		font-size: 16px;
+		background: -webkit-radial-gradient(var(--tertiary) 50%, var(--secondary));
+		background: -moz-radial-gradient(var(--tertiary) 50%, var(--secondary));
+		background: -o-radial-gradient(var(--tertiary) 50%, var(--secondary));
+		background: radial-gradient(var(--tertiary) 50%, var(--secondary));
 		overflow: hidden;
 	}
 
@@ -155,7 +155,7 @@
 		font-family: 'Heebo';
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: white;
+		color: var(--whiteGrey);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
@@ -166,7 +166,7 @@
 	.E-section h2 {
 		font-family: 'radio canada big';
 		font-size: var(--l);
-		color: rgb(254, 254, 254);
+		color: var(--whiteGrey);
 		font-weight: 100;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
@@ -179,7 +179,7 @@
 	.E-section h3 {
 		font-family: epilogue;
 		font-size: var(--m);
-		color: white;
+		color: var(--whiteGrey);
 		font-weight: 300;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
@@ -190,6 +190,7 @@
 	}
 	.E-section h3 span {
 		font-weight: 600;
+			color: var(--whiteGrey);
 	}
 
 	.wrapper-cards-services {

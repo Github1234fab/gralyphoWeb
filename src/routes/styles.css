@@ -45,6 +45,19 @@ a {
 }
 
 :root {
+--cta: #f6a73e;
+--primary: #f47d64;
+--secondary: #2e2b66;
+--tertiary: #823976;
+--quatrieme: #c65173;
+--whiteGrey: #f1f1f1;
+
+
+
+
+
+
+
 	--colorA: #e13e3b;
 	--colorB: #0c0b2e;
 	--colorC: white;

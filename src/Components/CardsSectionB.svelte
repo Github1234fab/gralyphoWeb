@@ -63,7 +63,7 @@
 		border-bottom: 1px rgb(219, 219, 219) solid;
 		background-color: white;
 		width: 90%;
-		box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%);
+		/* box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%); */
 		height: 100px;
 		text-align: left;
 		letter-spacing: -1px;
@@ -73,7 +73,7 @@
 	.button-after {
 		position: absolute;
 		content: '{buttonText}';
-		color: rgb(100, 100, 229);
+		color: var(--secondary);
 		font-size: 1em;
 		font-weight: bolder;
 		right: 50px;
@@ -122,15 +122,15 @@
 	.p {
 		font-family: Heebo;
 		text-align: left;
-		font-size: 1.2em;
-		font-weight: 200;
+		font-size: var(--m);
+		font-weight: 300;
 		color: var(--primary);
 		margin: 0px;
-		background-color: rgb(239, 239, 239);
+		background-color: var(--whiteGrey);
 		padding: 30px;
-		width: 80%;
-		border-radius: 14px 22px 17px 38px;
-		box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%);
+		width: 90%;
+		/* border-radius: 14px 22px 17px 38px; */
+		/* box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%); */
 	}
 
 	@media screen and (max-width: 768px) {

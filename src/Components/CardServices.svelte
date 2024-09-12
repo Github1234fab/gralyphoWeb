@@ -77,7 +77,7 @@
 	.card-services h2 {
 		font-family: 'DM Sans';
 		font-weight: 700;
-		color: rgb(227, 197, 210);
+		color: var(--whiteGrey);
 		font-size: 1.4rem;
 		text-align: center;
 		letter-spacing: -0.4px;
@@ -86,7 +86,7 @@
 		font-family: Heebo;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(216, 216, 216);
+		color: var(--whiteGrey);
 		text-align: center;
 		line-height: 30px;
 		min-height: 150px;
@@ -96,7 +96,7 @@
 		border: 1px solid white;
 		min-width: 130px;
 		font-weight: 500;
-		color: white;
+		color: var(--whiteGrey);
 		/* background-color: rgb(194, 79, 160); */
 		z-index: 44;
 		padding: 13px 20px;
@@ -145,14 +145,14 @@
 			min-height: 370px;
 		}
 		.p {
-		font-family: Heebo;
-		font-weight: 00;
-		font-size: var(--m);
-	color: rgb(216, 216, 216);
-		text-align: center;
-		line-height: 30px;
-min-height: 100px;
-max-width: 200px;
-	}
+			font-family: Heebo;
+			font-weight: 00;
+			font-size: var(--m);
+			color: var(--whiteGrey);
+			text-align: center;
+			line-height: 30px;
+			min-height: 100px;
+			max-width: 200px;
+		}
 	}
 </style>

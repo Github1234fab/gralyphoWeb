@@ -31,7 +31,7 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
+		/* box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411); */
 		z-index: 0;
 		position: relative;
 	}

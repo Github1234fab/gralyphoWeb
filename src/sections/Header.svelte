@@ -129,8 +129,8 @@
 	.burger {
 		font-size: 2em;
 		border: none;
-		color: var(--CTA);
-		border: 1px solid grey;
+		color: var(--cta);
+		/* border: 1px solid var(--whiteGrey); */
 		border-radius: 50%;
 		padding: 14px;
 		max-width: 100px;

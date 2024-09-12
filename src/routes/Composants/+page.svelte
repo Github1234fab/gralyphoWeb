@@ -99,14 +99,14 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     align-items: center;
     justify-content: center;
     height: auto;
-    background-color: var(--primary);
+		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
   }
   .hero h1 {
     text-align: center;
     font-family: Epilogue;
     font-weight: 900;
-    font-size: var(--xlhero);
-    color: rgb(255, 255, 255);
+    font-size: var(--xl);
+    color: var(--whiteGrey);
     margin-top: 0px;
     letter-spacing: -1px;
     padding: 0px;
@@ -175,14 +175,14 @@ font-weight: 700;
     align-items: center;
     margin-top: 0px;
     height: 100%;
-    background-color: var(--rouge);
+background-image: linear-gradient(var(--primary), var(--secondary));
     padding: 0px;
     gap: 20px;
   }
   .testimonial h2 {
     font-family: "architects daughter";
     font-weight: 700;
-    font-size: var(--l);
+    font-size: var(--m);
     color: white;
     text-align: center;
     line-height: 40px;

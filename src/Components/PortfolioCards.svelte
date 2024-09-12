@@ -25,12 +25,11 @@
 		min-width: 320px;
 		cursor: pointer;
 		border-radius: 20px;
-		
 	}
 	.wrapper-portfolio h3 {
 		font-family: heebo;
 		font-size: var(--m);
-		color: white;
+		color: var(--whiteGrey);
 		font-weight: 200;
 		letter-spacing: -0.02em;
 		margin-top: 10px;
@@ -94,7 +93,7 @@
 		width: 100px;
 		left: 0px;
 		transform: translateX(310px);
-		background: var(--CTA-jaune);
+		background: var(--cta);
 		transition: 0.6s ease-in-out;
 		display: flex;
 		align-items: center;
@@ -108,11 +107,11 @@
 	}
 
 	.card-content h1 {
-				font-size: var(--m);
+		font-size: var(--m);
 		font-family: 'poppins';
 		font-weight: 500;
-	
-		color: var(--CTA-jaune);
+
+		color: var(--cta);
 		text-align: left;
 		text-transform: capitalize;
 	}

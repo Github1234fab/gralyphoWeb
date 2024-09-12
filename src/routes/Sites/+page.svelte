@@ -29,6 +29,7 @@
 	import Form from '../../Components/Form.svelte';
 	import Csection from '../../sections/Csection.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
+	import Profil from '../../Assets/Profils-gralypho/Ellipse 54.png';
 
 	let accordeonTab = [
 		{
@@ -114,16 +115,11 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
 		<h1>Création de <br /><span>Site Web</span></h1>
-		<h3>
-			L'agence Gralypho crée vos sites Webs sur mesure en les adaptant à vos besoins, votre business
-			et vos objectifs.
-		</h3>
-		<!-- <div class="wrapper-contact">
-      <a class="contact" href="/#footer">Nous contacter</a>
-      <a class="contact2" href="/#footer">Devis gratuit</a>
-    </div> -->
+		<h2 class="subtitle">
+			L'agence Gralypho créer vos sites Webs sur mesure, en les adaptant à vos besoins, votre
+			business et vos objectifs.
+		</h2>
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -169,6 +165,7 @@
 			53% nos ventes en ligne ! "
 		</h2>
 		<h4>"Éloïse Humbert - CTO Rodiggia"</h4>
+		<img class="img" src={Profil} alt="" />
 	</div>
 
 	<!-- ***************SITES TYPES*************** -->
@@ -176,24 +173,6 @@
 	<div class="wrapper-Csection">
 		<Csection />
 	</div>
-	<!-- 
-  <div class="section-slider">
-    <h1>Conception de site Web</h1>
-    <h3>Découvrez les différents types de sites internet que nous concevons.</h3>
-    <div class="container-slider">
-      <div class="wrapper-slider">
-        {#each sitesTab as site}
-          <CardsSites
-            type={site.type}
-            description={site.description}
-            delai={site.delai}
-            tarif={site.tarif}
-            img={site.img}
-          />
-        {/each}
-      </div>
-    </div>
-  </div> -->
 
 	<!-- ***************COLLAPSES*************** -->
 
@@ -234,29 +213,32 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background-color: var(--primary);
+		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: var(--xlhero);
+		font-size: var(--xl);
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
 		letter-spacing: -1px;
 		padding: 0px;
 		line-height: 50px;
-		margin-top: 100px;
+		margin-top: 70px;
 	}
 	.hero h1 span {
-		color: yellow;
+		color: var(--cta);
 	}
-	.hero h3 {
+	.subtitle {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
 		color: rgb(224, 222, 222);
 		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		width: 80%;
 	}
 	.wrapper-Csection {
 		grid-column: 1/13;
@@ -270,31 +252,35 @@
 		grid-column: 2/12;
 		grid-row: 4;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 	}
 	.container-service h1 {
 		text-align: center;
-	  font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-family: 'Red Hat Display';
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
-		margin-top: 100px;
+		margin-top: 50px;
 		letter-spacing: -1px;
-	
 	}
 	.wrapper-service {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		gap: 10px;
 		margin-top: 30px;
 		margin-bottom: 50px;
-	
+	}
+	.img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
 	}
 
 	.wrapper-SectionB {
@@ -309,8 +295,8 @@
 	}
 	.wrapper-SectionB h1 {
 		text-align: center;
-		  font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-family: 'Red Hat Display';
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
 		margin-top: 0px;
@@ -335,20 +321,18 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		height: 100%;
-		background-color: var(--colorN);
+			background-image: linear-gradient(var(--primary), var(--secondary));
 		gap: 20px;
-		padding: 10px;
+		padding: 30px;
 	}
 	.testimonial h2 {
 		font-family: 'architects daughter';
 		font-weight: 700;
-		font-size: var(--l);
-		color: white;
+		font-size: var(--m);
+		color: var(--whiteGrey);
 		text-align: center;
-		line-height: 40px;
+		line-height: 25px;
 		letter-spacing: 0px;
-		margin-top: 100px;
 	}
 	.testimonial h4 {
 		font-family: poppins;
@@ -358,7 +342,6 @@
 		text-align: center;
 		line-height: 40px;
 		letter-spacing: -1px;
-		margin-bottom: 100px;
 	}
 	@keyframes bounce {
 		0% {
@@ -382,48 +365,28 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1.2em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
-	}
-	@media screen and (min-width: 768px) and (max-width: 1224px) {
-		.hero h1 {
-			line-height: 1em;
-		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
-	}
-	@media screen and (min-width: 300px) and (max-width: 768px) {
-		.hero h1 {
-			line-height: 50px;
-			font-size: 3.1em;
-		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
 
-		.wrapper-service {
-			grid-column: 1/13;
-			grid-row: 2;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			margin-top: 50px;
-			gap: 10px;
+		@media screen and (min-width: 768px) and (max-width: 1224px) {
+			.hero h1 {
+				line-height: 1em;
+			}
+		}
+		@media screen and (min-width: 300px) and (max-width: 768px) {
+			.hero h1 {
+				line-height: 50px;
+				font-size: 3.1em;
+			}
+
+			.wrapper-service {
+				grid-column: 1/13;
+				grid-row: 2;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin-top: 50px;
+				gap: 10px;
+			}
 		}
 	}
 </style>

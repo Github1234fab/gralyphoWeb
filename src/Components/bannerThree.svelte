@@ -21,7 +21,7 @@
 	}
 
 	.bloc {
-		min-height: 70vh;
+		min-height: 90vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
@@ -37,7 +37,7 @@
 	}
 
 	.sub-bloc {
-		min-height: 70vh;
+		min-height: 90vh;
 		min-width: 100vw;
 		flex-direction: column;
 		display: flex;

@@ -117,11 +117,11 @@
 	<div class="hero">
 		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
 		<h1>Création de <br /><span>Design</span></h1>
-		<h3>
+		<h2>
 			L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre
 			projet. Le design d'un site ou d'une application, selon plusieurs études menées aupès des
 			utilisateurs du Web est essentiel pour plus de 75% des sondés.
-		</h3>
+		</h2>
 		<!-- <div class="wrapper-contact">
       <a class="contact" href="/#footer">Nous contacter</a>
       <a class="contact2" href="/#footer">Devis gratuit</a>
@@ -133,7 +133,11 @@
 	<div class="container-service">
 		<h1>Étude et réalisation de design sur mesure</h1>
 		<div class="wrapper-service">
-			<img src={design} alt="illustration d'un Ipad, avec des personnages qui le construisent." class="img-design" />
+			<img
+				src={design}
+				alt="illustration d'un Ipad, avec des personnages qui le construisent."
+				class="img-design"
+			/>
 		</div>
 	</div>
 
@@ -209,14 +213,14 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background-color: var(--primary);
+		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: var(--xlhero);
-		color: rgb(255, 255, 255);
+		font-size: var(--xl);
+		color: var(--whiteGrey);
 		margin-top: 0px;
 		letter-spacing: -1px;
 		padding: 0px;
@@ -224,14 +228,17 @@
 		margin-top: 100px;
 	}
 	.hero h1 span {
-		color: var(--jauneC);
+		color: var(--cta);
 	}
-	.hero h3 {
+	.hero h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
 		color: rgb(224, 222, 222);
 		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		width: 80%;
 	}
 
 	.container-service {
@@ -246,7 +253,7 @@
 	.container-service h1 {
 		text-align: center;
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
 		margin-top: 100px;
@@ -279,7 +286,7 @@
 	.wrapper-SectionB h1 {
 		text-align: center;
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
 		margin-top: 0px;
@@ -304,17 +311,17 @@
 		align-items: center;
 		margin-top: 0px;
 		height: 100%;
-		background-color: rgb(194, 118, 130);
+		background-image: linear-gradient(var(--primary), var(--secondary));
 		padding: 50px;
 		gap: 20px;
 	}
 	.testimonial h2 {
 		font-family: 'architects daughter';
 		font-weight: 900;
-		font-size: var(--l);
+		font-size: var(--m);
 		color: white;
 		text-align: center;
-		line-height: 40px;
+		line-height: 30px;
 		letter-spacing: 0px;
 		padding: 40px;
 	}
@@ -341,37 +348,17 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1.2em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+	
 	}
 	@media screen and (min-width: 768px) and (max-width: 1224px) {
 		.hero h1 {
 			line-height: 1em;
-		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
 		}
 	}
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
 			line-height: 50px;
 			font-size: 3.1em;
-		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
 		}
 
 		.wrapper-service {

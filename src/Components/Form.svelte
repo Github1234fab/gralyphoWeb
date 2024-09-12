@@ -50,10 +50,10 @@
 		height: auto;
 		width: 100%;
 		padding: 20px;
-		background-color: rgb(143, 59, 59);
+		background-color: var(--primary);
 		justify-content: center;
 		align-items: center;
-		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.781);
+background-image: linear-gradient(var(--primary), var(--secondary));
 		background-image: url("../Assets/bgthree.png");
 	}
 
@@ -71,7 +71,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: rgb(253, 252, 252);
+		color:  var(--whiteGrey);
 		font-weight: 600;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -80,7 +80,7 @@
 		margin-bottom: 20px;
 	}
 	.form-contactez {
-		color:rgb(255, 255, 255);
+		color:  var(--whiteGrey);
 		font-family: 'radio canada big';
 		font-size: var(--l);
 		/* color: var(--primary); */
@@ -118,7 +118,7 @@
 		border-radius: 15px;
 		width: 100%;
 		text-align: left;
-		color: rgb(255, 255, 255);
+		color:  var(--whiteGrey);
 		font-size: 1.2rem;
 	}
 	input:hover {
@@ -152,14 +152,14 @@
 
 	.button {
 		border: none;
-		background-color: var(--bleuAcier);
-		color:  white;
+		background: radial-gradient(var(--primary), transparent );
+		color:  var(--whiteGrey);
+		border: var(--whiteGrey) 2px solid;
 		font-family: epilogue;
 		font-weight: 500;
-		padding: 20px 10px;
-		border-radius: 8px;
-		max-width: 100px;
-		box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.14);
+		padding: 20px 20px;
+		max-width: 20%;
+		border-radius: 15px;
 		text-align: center;
 		margin-top: 40px;
 		margin-bottom: 10px;

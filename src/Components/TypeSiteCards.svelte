@@ -45,17 +45,14 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 3px;
-		color: white;
+		color: var(--whiteGrey);
 		justify-content: center;
 		align-items: center;
-		width: 40%;
 		height: fit-content;
 		min-height: 200px;
+		min-width: 200px;
 		border-radius: 20px;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
-		/* background-color: white; */
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.132);
-		background-image: radial-gradient(rgb(64, 57, 114), rgb(40, 40, 75));
+		background-color: var(--quatrieme);
 	}
 	.wrapper-title-icon {
 		display: flex;
@@ -63,6 +60,9 @@
 		justify-content: center;
 		align-items: center;
 		gap: 15px;
+		background-color: var(--quatrieme);
+		padding: 10px;
+		border-radius: 10%;
 	}
 	.wrapper-text {
 		display: flex;
@@ -75,46 +75,38 @@
 	.title {
 		font-family: poppins;
 		font-weight: 300;
-		font-size: var(--l);
+		font-size: var(--m);
 		border-radius: 8px;
 		text-decoration: none;
-		color: var(--colorC);
+		color: var(--whiteGrey);
 		letter-spacing: -1px;
 	}
 	.title:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	/* .wrapper-text p {
-    font-size: var(--m);
-    color: var(--primary);
-    font-weight: 300;
-    text-align: left;
-    line-height: 30px;
-    padding: 0px;
-  } */
+
 	.link-decouvrir {
 		text-decoration: none;
-		background-color: var(--bleuAcier);
-		color: white;
-		font-family: Epilogue;
-		font-weight: 600;
-		width: 160px;
+		color: var(--whiteGrey);
+		font-family: 'radio canada big';
+		font-weight: 400;
 		border-radius: 6px;
 		text-align: center;
-		padding: 20px;
+		padding: 10px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 30px;
 		margin-bottom: 10px;
-		box-shadow: 0px 0px 10px 3px rgba(94, 94, 94, 0.254);
 		font-size: 1rem;
+		border: 1px solid var(--whiteGrey);
 	}
 	.link-decouvrir:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	.icon {
-		height: 30px;
-		color: var(--colorC);
+		height: 20px;
+	
+	
 	}
 
 	@keyframes bounce {

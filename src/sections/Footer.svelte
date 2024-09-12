@@ -53,7 +53,7 @@
 		justify-content: center;
 		height: 100%;
 		font-size: 16px;
-		background: radial-gradient(rgb(49, 56, 101), rgb(3, 28, 46));
+		background-color: var(--primary);
 		color: white;
 		font-family: epilogue;
 		gap: 0px;
@@ -91,6 +91,7 @@
 	}
 	.contact {
 		text-decoration: none;
+		border: 1px solid var(--whiteGrey);
 		color: white;
 		font-size: 1.5em;
 		font-family: poppins;
@@ -100,10 +101,8 @@
 		transition: 0.2s ease-in-out;
 		padding: 35px;
 		background-color: var(--primary);
-		border: rgb(75, 75, 75) solid 1px;
-		/* background: linear-gradient(45deg, var(--CTA2), var(--CTA)); */
 		border-radius: 10px;
-		box-shadow: 0px 0px 10px black;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -119,8 +118,8 @@
 		margin: 0 0px;
 		transition: 0.4s ease-in-out;
 	}
-	.icon{
-		color: rgb(189, 189, 252);
+	.icon {
+		color: var(--cta);
 	}
 
 	.anim:hover {

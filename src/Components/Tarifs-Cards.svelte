@@ -33,8 +33,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 800px;
-		min-width: 350px;
+		min-height: 600px;
+		max-width: 300px;
 		border-radius: 15px;
 		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.182);
 		margin-top: 20px;
@@ -54,7 +54,7 @@
 		width: 100%;
 	}
 	.title-banner h1 {
-		font-size: 3rem;
+		font-size: var(--l);
 		color: rgb(255, 255, 255);
 		font-family: 'Radio Canada Big';
 	}
@@ -83,7 +83,7 @@
 
 	.tarif-euro {
 		font-family: 'Radio Canada Big';
-		font-size: 3rem;
+		font-size: var(--l);
 		color: var(--primary);
 	}
 	.subtarif-euro {
@@ -121,12 +121,12 @@
 		align-items: center;
 		color: var(--colorC);
 		border: 3px solid rgb(239, 238, 238);
-		background-color: var(--CTA-jaune);
+		background-color: var(--cta);
 		font-size: 1rem;
 		border-radius: 8px;
 		padding: 20px 20px;
 		text-decoration: none;
-		font-size: 1.2rem;
+		font-size: var(--m);
 		margin-bottom: 20px;
 		font-weight: 500;
 	}

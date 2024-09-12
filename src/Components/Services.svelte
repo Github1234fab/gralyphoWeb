@@ -21,9 +21,8 @@
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
-		max-width: 600px;
-		min-height: 700px;
-		/* box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35); */
+		min-width: 300px;
+		min-height: 550px;
 		background-color: white;
 		overflow: hidden;
 		padding: 20px;
@@ -40,15 +39,15 @@
 		font-family: epilogue;
 		font-weight: 700;
 		color: var(--primary);
-		font-size: var(--l);
+		font-size: var(--m);
 		text-align: left;
 		letter-spacing: -0.05em;
 	}
 	.description-services {
 		font-family: poppins;
 		font-weight: 400;
-		color: grey;
-		font-size: var(--m);
+		color: var(--primary);
+		font-size: var(--s);
 		text-align: left;
 		letter-spacing: -0em;
 		margin-top: 20px;
@@ -61,16 +60,16 @@
 		min-width: 150px;
 		height: 50px;
 		color: var(--colorC);
-		border: 2px solid white;
-		background-color: var(--CTA-jaune);
-    border-radius: 8px;
-		color: white;
+		border: 2px solid var(--whiteGrey);
+		background-color: var(--cta);
+		border-radius: 8px;
+		color: var(--whiteGrey);
 		font-family: epilogue;
-		font-weight: 600;
+		font-weight: 500;
 		font-size: 1rem;
 		cursor: pointer;
 		box-shadow: 0px 0px 10px rgba(76, 76, 76, 0.35);
-    margin-top: 40px;
+		margin-top: 40px;
 	}
 	.button-service:hover {
 		animation: bounce 0.4s ease-in-out;

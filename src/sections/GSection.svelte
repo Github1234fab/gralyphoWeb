@@ -19,7 +19,7 @@
 	import resa from '../Assets/png-gralypho/resa.png';
 
 	let portfolioTab = [
-			{
+		{
 			type: 'Application',
 			title: 'Tables',
 			text: 'Application',
@@ -106,7 +106,7 @@
 	];
 </script>
 
-<section class="G-section ">
+<section class="G-section">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>Sites Web, applications, composants, jeux ...</h2>
@@ -123,15 +123,14 @@
 </section>
 
 <style>
-
 	.G-section {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
 		height: auto;
 		width: 100%;
-		font-size: 16px; 
-		background: radial-gradient(circle, rgb(54, 54, 109) 30%, rgb(23, 23, 78) );
+		font-size: 16px;
+		background: linear-gradient(30deg, var(--secondary) 30%, var(--quatrieme));
 		padding: 60px;
 	}
 	.wrapper-text {
@@ -146,7 +145,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: white;
+		color: var(--whiteGrey);
 		font-weight: 600;
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
@@ -156,7 +155,7 @@
 	.G-section h2 {
 		font-family: 'radio canada big';
 		font-size: var(--l);
-		color: white;
+		color: var(--whiteGrey);
 		font-weight: 500;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
@@ -165,7 +164,7 @@
 	.G-section h3 {
 		font-family: epilogue;
 		font-size: var(--m);
-		color: WHITE;
+		color: var(--whiteGrey);
 		font-weight: 300;
 		margin-bottom: 0px;
 		letter-spacing: -0.02em;
@@ -187,7 +186,6 @@
 		margin-top: 100px;
 		margin-bottom: 100px;
 		gap: 15px;
-			
 	}
 	:global(.wrapper-portfolio) {
 		flex: 1 1 10%;

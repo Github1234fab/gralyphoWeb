@@ -56,11 +56,11 @@
 	<div class="hero">
 		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
 		<h1>Gestion des <br /><span>Médias Sociaux</span></h1>
-		<h3>
+		<h2>
 			L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. <br />
 			Mises à jour régulières, création de contenu, gestion des interactions, etc. <br /> Nous nous occupons
 			de tout pour vous permettre de vous concentrer sur votre activité.
-		</h3>
+		</h2>
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -169,29 +169,32 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background-color: var(--primary);
+		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: var(--xlhero);
+		font-size: var(--xl);
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
 		letter-spacing: -1px;
 		padding: 0px;
 		line-height: 50px;
-		margin-top: 100px;
+		margin-top: 70px;
 	}
 	.hero h1 span {
-		color: var(--vert);
+		color: var(--cta);
 	}
-	.hero h3 {
+	.hero h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
 		color: rgb(224, 222, 222);
 		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		width: 80%;
 	}
 
 	.container-service {
@@ -206,7 +209,7 @@
 	.container-service h1 {
 		text-align: center;
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
 		margin-top: 100px;
@@ -276,12 +279,12 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		background-color: white;
+		background-color: var(--whiteGrey);
 	}
 	.wrapper-SectionB h1 {
 		text-align: center;
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
 		margin-top: 0px;
@@ -308,7 +311,7 @@
 		align-items: center;
 		margin-top: 0px;
 		height: 100%;
-		background-color: var(--colorF);
+		background-image: linear-gradient(var(--primary), var(--secondary));
 		padding: 50px;
 		gap: 20px;
 		border-bottom: 1px solid rgb(79, 78, 78);
@@ -316,7 +319,7 @@
 	.testimonial h2 {
 		font-family: 'architects daughter';
 		font-weight: 700;
-		font-size: var(--l);
+		font-size: var(--m);
 		color: white;
 		text-align: center;
 		line-height: 40px;
@@ -345,38 +348,20 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1.2em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+		
 	}
 	@media screen and (min-width: 768px) and (max-width: 1224px) {
 		.hero h1 {
 			line-height: 1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+	
 	}
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
 			line-height: 50px;
 			font-size: 3.1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+	
 
 		.wrapper-service {
 			grid-column: 1/13;

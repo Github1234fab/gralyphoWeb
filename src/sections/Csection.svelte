@@ -69,7 +69,7 @@
 	<div class="wrapper-text">
 		<h1>Le futur de votre business commence par un <span> site Web.</span></h1>
 		<h2>
-			Il existe couramment <span>6 types de site web</span>. Quel est celui qui correspond à votre
+			Il existe couramment <span>6 types de site web</span>.  <br> Quel est celui qui correspond à votre
 			<span>activité?</span>
 		</h2>
 	</div>
@@ -99,7 +99,7 @@
 	}
 	.wrapper-text h1 {
 	    font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 800;
 		text-align: center;
 		color: var(--primary);
@@ -118,15 +118,15 @@
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: grey;
+		color: var(--primary);
 		text-align: center;
-		line-height:  30px;
+		line-height:  25px;
 		margin-top: 20px;
 		margin-left: 10px;
 	}
 	.wrapper-text h2 span {
 		font-weight: 500;
-		color: rgb(84, 84, 84);
+		color: var(--primary);
 	}
 	.wrapper-text {
 		grid-column: 2/12;

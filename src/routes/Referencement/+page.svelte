@@ -55,12 +55,12 @@
 	<div class="hero">
 		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
 		<h1>Visibilité:<br /><span>SEO/SEA</span></h1>
-		<h3>
+		<h2>
 			Nous sommes experts en straégie SEO et SEA. C'est pour vous la garantie unique d'atteindre vos
 			futurs clients et d'obtenir une visibilité optimale sur les moteurs de recherche. Nous vous
 			accompagnons dans la mise en place de votre stratégie de référencement naturel (SEO) et votre
 			stratégie de référencement payant. (SEA).
-		</h3>
+		</h2>
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -117,30 +117,32 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background-color: var(--primary);
+		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero h1 {
-		word-break: break-all;
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: var(--xlhero);
+		font-size: var(--xl);
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
 		letter-spacing: -1px;
-		padding: 20px;
+		padding: 0px;
 		line-height: 50px;
-		margin-top: 100px;
+		margin-top: 70px;
 	}
 	.hero h1 span {
-		color: violet;
+		color: var(--cta);
 	}
-	.hero h3 {
+	.hero h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
 		color: rgb(224, 222, 222);
 		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		width: 80%;
 	}
 	.wrapper-SectionB {
 		grid-column: 1/13;
@@ -156,7 +158,7 @@
 		font-family: Heebo;
 		text-transform: uppercase;
 		font-size: var(--m);
-		color: var(--jauneB);
+		color: var(--primary);
 		font-weight: 600;
 		letter-spacing: -0.04em;
 		margin-top: 50px;
@@ -166,7 +168,7 @@
 	}
 	.wrapper-SectionB h2 {
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 700;
 		margin-bottom: 0px;
@@ -195,15 +197,15 @@
 		align-items: center;
 		margin-top: 0px;
 		height: 130%;
-		background-color: rgb(83, 10, 83);
+				background-image: linear-gradient(var(--primary), var(--secondary));
 		padding: 50px;
 		gap: 20px;
 	}
 	.testimonial h2 {
 		font-family: 'architects daughter';
 		font-weight: 700;
-		font-size: var(--l);
-		color: white;
+		font-size: var(--m);
+		color: var(--whiteGrey);
 		text-align: left;
 		line-height: 40px;
 		letter-spacing: 0px;
