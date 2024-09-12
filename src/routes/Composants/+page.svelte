@@ -105,7 +105,7 @@ Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un mo
     text-align: center;
     font-family: Epilogue;
     font-weight: 900;
-    font-size: var(--xl);
+    font-size: 2.5rem;
     color: var(--whiteGrey);
     margin-top: 0px;
     letter-spacing: -1px;

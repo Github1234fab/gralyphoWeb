@@ -70,6 +70,7 @@
 		cursor: pointer;
 		box-shadow: 0px 0px 10px rgba(76, 76, 76, 0.35);
 		margin-top: 40px;
+		margin-bottom: 30px;
 	}
 	.button-service:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -95,7 +96,7 @@
 	@media screen and (max-width: 1633px) {
 		.card-services {
 			max-width: 500px;
-			max-height: 500px;
+			max-height: 650px;
 		}
 	}
 </style>

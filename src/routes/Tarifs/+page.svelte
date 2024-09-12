@@ -164,8 +164,8 @@
 
 	@media screen and (max-width: 768px) {
 		.hero h1 {
-			font-size: 5em;
-			line-height: 80px;
+			font-size: 2.5rem;
+			line-height: 50px;
 		}
 		.hero h3 {
 			width: 110%;

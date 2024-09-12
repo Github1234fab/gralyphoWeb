@@ -123,7 +123,7 @@
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: var(--xl);
+		font-size: 2.5rem;
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
 		letter-spacing: -1px;
@@ -168,7 +168,7 @@
 	}
 	.wrapper-SectionB h2 {
 		font-family: 'Red Hat Display';
-		font-size: var(--l);
+		font-size: var(--m);
 		color: var(--primary);
 		font-weight: 700;
 		margin-bottom: 0px;
@@ -234,37 +234,19 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1.2em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+	
 	}
 	@media screen and (min-width: 768px) and (max-width: 1224px) {
 		.hero h1 {
 			line-height: 1em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+	
 	}
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
 			line-height: 50px;
-			font-size: 3.1em;
+			font-size: 2.5em;
 		}
-		.hero h3 {
-			line-height: 30px;
-			font-size: 1em;
-			margin-top: 30px;
-			margin-bottom: 50px;
-			width: 60%;
-		}
+	
 	}
 </style>

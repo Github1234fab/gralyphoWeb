@@ -54,7 +54,7 @@
 		justify-content: center;
 		align-items: center;
 background-image: linear-gradient(var(--primary), var(--secondary));
-		background-image: url("../Assets/bgthree.png");
+		/* background-image: url("../Assets/bgthree.png"); */
 	}
 
 	.wrapper-text {

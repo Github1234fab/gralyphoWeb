@@ -114,7 +114,7 @@
 		text-align: center;
 		font-family: Epilogue;
 		font-weight: 900;
-		font-size: var(--xl);
+		font-size: 2.5rem;
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
 		letter-spacing: -1px;
