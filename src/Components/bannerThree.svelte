@@ -21,29 +21,48 @@
 	}
 
 	.bloc {
-		min-height: 80vh;
+		min-height: 70vh;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 50px;
-		background-color: rgb(21, 21, 46);
+		background-image: url('../Assets/png-gralypho/coiffeur.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
+		z-index: 0;
+		position: relative;
 	}
+
 	.sub-bloc {
-		min-height: 30vh;
+		min-height: 70vh;
+		min-width: 100vw;
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding: 50px;
-		margin-top: 30px;
-		background-color: rgba(79, 19, 7, 0.585);
-		box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411);
+		z-index: 3;
+	}
+	.bloc::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(
+			to top,
+			rgba(239, 164, 164, 0.469),
+			rgba(0, 0, 0, 0.696) 50%,
+			rgba(230, 175, 175, 0.49)
+		);
+		z-index: 2;
 	}
 
 	.imgC {
-		background-image: url('../Assets/png-gralypho/barThree.jpg');
+		background-image: url('../Assets/png-gralypho/coiffeur.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -117,7 +136,6 @@
 		}
 
 		.imgC {
-		
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 40% center;
