@@ -154,7 +154,7 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		border: none;
 		background: radial-gradient(var(--primary), transparent );
 		color:  var(--whiteGrey);
-		border: var(--whiteGrey) 2px solid;
+		border: var(--whiteGrey) 1px solid;
 		font-family: epilogue;
 		font-weight: 500;
 		padding: 20px 20px;
@@ -229,6 +229,9 @@ background-image: linear-gradient(var(--primary), var(--secondary));
 		}
 		.demande {
 			width: 90%;
+		}
+		.button{
+					max-width: 40%;
 		}
 	}
 </style>

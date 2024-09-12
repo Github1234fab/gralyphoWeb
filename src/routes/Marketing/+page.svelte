@@ -169,7 +169,7 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
+	background: url("../../Assets/bgtwo.png"), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero h1 {
 		text-align: center;

@@ -108,7 +108,7 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
+			background: url("../../Assets/bgtwo.png"), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
 	}
 	.hero-applications h1 {
 		text-align: center;
@@ -198,7 +198,7 @@
 	.wrapper-application-explication h1 {
 		text-align: center;
 		font-family: 'Red Hat Display';
-		font-size: var(--xl);
+		font-size: var(--l);
 		font-weight: 700;
 			color: var(--primary);
 		letter-spacing: -1px;
