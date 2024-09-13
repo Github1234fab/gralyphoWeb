@@ -317,8 +317,8 @@
 		border-bottom: 1px solid rgb(79, 78, 78);
 	}
 	.testimonial h2 {
-		font-family: 'architects daughter';
-		font-weight: 700;
+			font-family: "Poppins";
+		font-weight: 100;
 		font-size: var(--m);
 		color: white;
 		text-align: center;

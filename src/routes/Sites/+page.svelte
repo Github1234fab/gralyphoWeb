@@ -201,7 +201,7 @@
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
-		background-color: rgb(245, 244, 244);
+		background-color: var(--whiteGrey);
 		height: auto;
 		font-size: 16px;
 	}
@@ -326,8 +326,8 @@
 		padding: 30px;
 	}
 	.testimonial h2 {
-		font-family: 'architects daughter';
-		font-weight: 700;
+	font-family: "Poppins";
+		font-weight: 100;
 		font-size: var(--m);
 		color: var(--whiteGrey);
 		text-align: center;

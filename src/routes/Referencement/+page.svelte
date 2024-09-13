@@ -202,8 +202,8 @@
 		gap: 20px;
 	}
 	.testimonial h2 {
-		font-family: 'architects daughter';
-		font-weight: 700;
+			font-family: "Poppins";
+		font-weight: 100;
 		font-size: var(--m);
 		color: var(--whiteGrey);
 		text-align: left;

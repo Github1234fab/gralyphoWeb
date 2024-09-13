@@ -93,7 +93,7 @@
 		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
 		font-size: 16px;
-		background-color: rgb(255, 255, 255);
+		background-color: var(--whiteGrey);
 		margin-top: 0px;
 		overflow: hidden;
 	}

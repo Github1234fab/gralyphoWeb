@@ -81,13 +81,13 @@
 		font-size: 3.5rem;
 		text-transform: capitalize;
 		letter-spacing: -3px;
-		line-height: 50px;
+		line-height: 45px;
 	}
 	.imaginer {
-		color: #ceb28e93;
+		color: #cf924264;
 	}
 	.developper {
-		color: #c99653b1;
+	color: #cf9242b3;
 	}
 	.creer {
 	color: #cf9242;

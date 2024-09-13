@@ -180,8 +180,8 @@ background-image: linear-gradient(var(--primary), var(--secondary));
     gap: 20px;
   }
   .testimonial h2 {
-    font-family: "architects daughter";
-    font-weight: 700;
+  	font-family: "Poppins";
+		font-weight: 100;
     font-size: var(--m);
     color: white;
     text-align: center;
