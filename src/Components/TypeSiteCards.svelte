@@ -53,6 +53,7 @@
 		min-width: 200px;
 		border-radius: 20px;
 		background-color: var(--primary);
+		box-shadow: 0px 0px 14px  rgba(0, 0, 0, 0.659);
 	}
 	.wrapper-title-icon {
 		display: flex;
@@ -60,7 +61,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 15px;
-		background-color: var(--secondary);
+		background-color: var(--primary);
 		padding: 10px;
 		border-radius: 10%;
 	}
@@ -73,12 +74,12 @@
 		padding: 20px;
 	}
 	.title {
-		font-family: poppins;
-		font-weight: 300;
+		font-family: var(--Geologica);
+		font-weight: 600;
 		font-size: var(--m);
 		border-radius: 8px;
 		text-decoration: none;
-		color: var(--whiteGrey);
+		color: var(--cta);
 		letter-spacing: -1px;
 	}
 	.title:hover {
@@ -89,7 +90,7 @@
 		text-decoration: none;
 		color: var(--whiteGrey);
 		font-family: 'radio canada big';
-		font-weight: 400;
+		font-weight: 100;
 		border-radius: 6px;
 		text-align: center;
 		padding: 10px;
@@ -97,7 +98,7 @@
 		margin-right: auto;
 		margin-top: 30px;
 		margin-bottom: 10px;
-		font-size: 1rem;
+		font-size: 0.9rem;
 		border: 1px solid var(--whiteGrey);
 	}
 	.link-decouvrir:hover {
