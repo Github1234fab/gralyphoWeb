@@ -18,8 +18,9 @@
   }
   .rect h1{
     font-size: 0.7em;
-    color: var(--cta);
+    color: var(--primary);
     margin-top: 2px;
+    font-weight: 400;
   }
 
   .rect:hover{
@@ -28,15 +29,15 @@
   .rec-left {
     width: 30%;
     height: 90%;
-    color: var(--cta);
+    color: var(--whiteGrey);
     font-size: 1.8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg);
+    background-color: var(--primary);
     font-weight: 600;
     border-radius: 4px;
-    border: solid 1px var(--cta);
+    border: solid 1px var(--primary);
     margin-top: -3px;
   }
   

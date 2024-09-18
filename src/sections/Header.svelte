@@ -16,7 +16,7 @@
 		<a href="/" class="logo"><Logo /></a>
 
 		<!-- <Engrenage/> -->
-		<h1 class="title">Gralypho, créateur de site Web & Application</h1>
+		<h1 class="title">Création de site Web & Application</h1>
 		<button class="burger-menu" aria-label="Menu" on:click={display}>
 			<i class="fa-solid fa-bars burger" class:visible={toggle}></i>
 		</button>
@@ -46,12 +46,13 @@
 		flex-direction: column;
 		padding: 10px;
 		font-size: 16px;
-		background-color: var(--primary);
+		background-color: transparent;
 		z-index: 2;
+	
 	}
 
 	.navigation h1 span {
-		color: rgb(218, 216, 216);
+		color: rgb(29, 27, 27);
 		font-weight: 900;
 	}
 	.wrapper-logo-burger {
@@ -71,16 +72,16 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-bottom: 5px;
 	}
 
 	.title {
-		font-family: poppins;
+		font-family: var(--Red);
 		font-size: 0.8em;
-		font-weight: 300;
-		color: rgb(209, 205, 205);
-		margin-top: 20px;
+		font-weight: 500;
+		color: rgb(44, 41, 41);
+		margin-top: 0px;
 	}
 	.span {
 		grid-column: 2/12;
@@ -102,7 +103,7 @@
 	}
 
 	.link-contact {
-		color: white;
+		color: var(--primary);
 		font-size: 1em;
 		font-weight: 400;
 		text-decoration: none;
@@ -129,12 +130,13 @@
 	.burger {
 		font-size: 2em;
 		border: none;
-		color: var(--cta);
+		color: var(--primary);
 		/* border: 1px solid var(--whiteGrey); */
 		border-radius: 50%;
 		padding: 14px;
 		max-width: 100px;
 		max-height: 70px;
+		z-index:4;
 	}
 	.burger:hover {
 		animation: bounce 0.4s ease-in-out;

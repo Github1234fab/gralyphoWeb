@@ -116,10 +116,11 @@
 		margin-bottom: 0px;
 		height: auto;
 		font-size: 16px;
-		background: -webkit-radial-gradient(var(--tertiary) 50%, var(--secondary));
-		background: -moz-radial-gradient(var(--tertiary) 50%, var(--secondary));
-		background: -o-radial-gradient(var(--tertiary) 50%, var(--secondary));
-		background: radial-gradient(var(--tertiary) 50%, var(--secondary));
+		background-color: var(--primary);
+		/* background: -webkit-radial-gradient(var(--primary) 50%, var(--secondary));
+		background: -moz-radial-gradient(var(--primary) 50%, var(--secondary));
+		background: -o-radial-gradient(var(--primary) 50%, var(--secondary));
+		background: radial-gradient(var(--primary) 50%, var(--secondary)); */
 		overflow: hidden;
 	}
 
@@ -152,7 +153,7 @@
 	.E-section h1 {
 		grid-column: 2/ 12;
 		grid-row: 1;
-		font-family: 'Heebo';
+		font-family: var(--Geologica);
 		text-transform: uppercase;
 		font-size: var(--s);
 		color: var(--whiteGrey);
@@ -164,11 +165,11 @@
 		text-align: center;
 	}
 	.E-section h2 {
-		font-family: 'radio canada big';
+		font-family: var(--Geologica);
 		font-size: var(--l);
 		color: var(--whiteGrey);
-		font-weight: 100;
-		letter-spacing: -0.04em;
+		font-weight: 900;
+			letter-spacing: -1px;
 		margin-left: 0px;
 		text-align: center;
 		line-height: 25px;
@@ -177,7 +178,7 @@
 	}
 
 	.E-section h3 {
-		font-family: epilogue;
+		font-family: var(--Poppins);
 		font-size: var(--m);
 		color: var(--whiteGrey);
 		font-weight: 300;

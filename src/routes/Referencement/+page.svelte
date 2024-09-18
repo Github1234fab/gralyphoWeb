@@ -117,16 +117,16 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background: url('../../Assets/bgTwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
+		background: url('../../Assets/bgTwo.png'), var(--primary);
 	}
 	.hero h1 {
 		text-align: center;
-		font-family: Epilogue;
+		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: 2.5rem;
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
-		letter-spacing: -1px;
+		letter-spacing: -2px;
 		padding: 0px;
 		line-height: 50px;
 		margin-top: 70px;

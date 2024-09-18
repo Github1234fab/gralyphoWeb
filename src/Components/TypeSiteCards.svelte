@@ -52,7 +52,7 @@
 		min-height: 200px;
 		min-width: 200px;
 		border-radius: 20px;
-		background-color: var(--quatrieme);
+		background-color: var(--primary);
 	}
 	.wrapper-title-icon {
 		display: flex;
@@ -60,7 +60,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 15px;
-		background-color: var(--quatrieme);
+		background-color: var(--secondary);
 		padding: 10px;
 		border-radius: 10%;
 	}

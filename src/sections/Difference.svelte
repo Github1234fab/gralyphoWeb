@@ -94,7 +94,7 @@
 	}
 
 	.difference h1 {
-		font-family: Heebo;
+		font-family: Geologica;
 		text-transform: uppercase;
 		font-size: var(--s);
 		color: var(--secondary);
@@ -107,12 +107,12 @@
 		grid-row: 1;
 	}
 	.difference h2 {
-		font-family: 'radio canada big';
+		font-family: var(--Geologica);
 		font-size: var(--l);
-		color: var(--secondary);
-		font-weight: 500;
+		color: var(--primary);
+		font-weight: 900;
 		margin-bottom: 10px;
-		letter-spacing: -0.05em;
+		letter-spacing: -1px;
 		text-align: center;
 		line-height: 30px;
 		margin-top: 30px;
@@ -139,9 +139,9 @@
 		grid-row: 5;
 	}
 	.paragraph {
-		font-family: epilogue;
+		font-family: var(--Poppins);
 		font-size: var(--lm);
-		color: var(--secondary);
+		color: var(--primary);
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		text-align: left;
@@ -151,8 +151,8 @@
 	.answer {
 		font-family: 'Dosis';
 		font-size: 1.6rem;
-		color: var(--secondary);
-		font-weight: 400;
+		color: var(--primary);
+		font-weight: 200;
 		letter-spacing: -0.02em;
 		text-align: left;
 		align-self: flex-start;
@@ -160,11 +160,10 @@
 	}
 
 	.difference p {
-		font-family: epilogue;
-
+		font-family: var(--Poppins);
 		column-count: 1;
 		font-size: var(--m);
-		color: var(--secondary);
+		color: var(--primary);
 		font-weight: 300;
 		line-height: 1.5em;
 		width: 100%;
@@ -173,7 +172,7 @@
 	}
 	.difference p span {
 		font-family: epilogue;
-		color: var(--secondary);
+		color: var(--primary);
 		column-count: 1;
 		font-size: var(--m);
 		font-weight: 300;

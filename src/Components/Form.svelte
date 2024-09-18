@@ -52,7 +52,7 @@
 		background-color: var(--primary);
 		justify-content: center;
 		align-items: center;
-		background-image: radial-gradient(var(--secondary), var(--primary));
+		background-image: var(--primary);
 		/* background-image: url("../Assets/bgthree.png"); */
 	}
 
@@ -67,7 +67,7 @@
 		margin-top: 40px;
 	}
 	.form-title {
-		font-family: Heebo;
+		font-family: var(--Geologica);
 		text-transform: uppercase;
 		font-size: var(--s);
 		color: var(--whiteGrey);
@@ -80,10 +80,10 @@
 	}
 	.form-contactez {
 		color: var(--whiteGrey);
-		font-family: 'radio canada big';
+		font-family: var(--Geologica);
 		font-size: var(--l);
 		/* color: var(--primary); */
-		font-weight: 500;
+		font-weight: 900;
 		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		text-align: center;
@@ -125,7 +125,7 @@
 	}
 	input::placeholder {
 		color: rgb(209, 209, 209);
-font-weight: 300;
+		font-weight: 300;
 		font-size: var(--m);
 	}
 	.demande {
@@ -228,6 +228,5 @@ font-weight: 300;
 		.demande {
 			width: 90%;
 		}
-	
 	}
 </style>

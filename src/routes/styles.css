@@ -45,11 +45,43 @@ a {
 }
 
 :root {
---cta: #cf9242;
---secondary: #2e2b66;
---tertiary: #823976;
---quatrieme: #c65173;
---whiteGrey: #f1f1f1;
+--cta: #009df8;
+--primary: #0F1A23;
+--secondary: #2f3747;
+--tertiary:#56556c;
+--quatrieme: #d3fbd8;
+--whiteGrey: #f8f8f8;
+
+--DM: "DM sans:posz";
+--Dosis: "Dosis";
+--Epilogue: "Epilogue";
+--Geologica: "Geologica";
+--Heebo: "Heebo";
+--Kanit:"Kanit";
+--Poppins: "poppins";
+--Nunito: "Nunito";
+--Poppins:"Poppins";
+--Architects: "Architects Daughter";
+--Radio: "Radio Canada Big";
+--Red:"Red Hat Display";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------
+---------------------------------------- */
+
 
 
 
@@ -74,7 +106,7 @@ a {
 	--colorO: #11232e;
 	--colorO2: rgba(17, 35, 46, 0.645);
 
-	--primary: #1a1c21;
+	
 	--bg: #1b1e22;
 	--ca: #4d3d3d;
 	--ca1: #006666;

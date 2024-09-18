@@ -69,7 +69,8 @@
 	}
 
 	.title {
-		font-family: 'radio canada big';
+		font-family: var(--Geologica);
+		font-weight: 900;
 		padding: 20px;
 		text-align: center;
 		color: white;

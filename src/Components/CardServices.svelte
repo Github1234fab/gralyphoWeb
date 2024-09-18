@@ -60,11 +60,11 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: transparent;
+		background-color: var(--primary);
 		padding: 20px;
 		border-radius: 12px;
 		min-height: 500px;
-		background-image: url('../Assets/png-gralypho/bgSix.png');
+		/* background: url('../Assets/png-gralypho/bgSix.png'), var(--primary); */
 	}
 
 	.wrapper-text-service {
@@ -75,15 +75,15 @@
 		gap: 30px;
 	}
 	.card-services h2 {
-		font-family: 'DM Sans';
-		font-weight: 700;
-		color: var(--whiteGrey);
+		font-family: var(--Geologica);
+		font-weight: 900;
+		color: var(--cta);
 		font-size: 1.4rem;
 		text-align: center;
 		letter-spacing: -0.4px;
 	}
 	.p {
-		font-family: Heebo;
+		font-family: var(--Poppins);
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--whiteGrey);
@@ -101,7 +101,7 @@
 		z-index: 44;
 		padding: 13px 20px;
 		border-radius: 10px;
-		/* box-shadow: 0px 0px 10px  rgba(45, 45, 45, 0.265); */
+		margin-top: 10px;
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;

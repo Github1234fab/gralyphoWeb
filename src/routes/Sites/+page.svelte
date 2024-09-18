@@ -213,16 +213,16 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background: url("../../Assets/bgtwo.png"), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52));
+		background: url('../../Assets/bgtwo.png'), var(--primary);
 	}
 	.hero h1 {
 		text-align: center;
-		font-family: Epilogue;
+		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: 2.5rem;
 		color: rgb(255, 255, 255);
 		margin-top: 0px;
-		letter-spacing: -1px;
+		letter-spacing: -2px;
 		padding: 0px;
 		line-height: 50px;
 		margin-top: 70px;
@@ -321,12 +321,12 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-			background-image: linear-gradient(var(--primary), var(--secondary));
+		background-image: linear-gradient(var(--primary), var(--secondary));
 		gap: 20px;
 		padding: 30px;
 	}
 	.testimonial h2 {
-	font-family: "Poppins";
+		font-family: 'Poppins';
 		font-weight: 100;
 		font-size: var(--m);
 		color: var(--whiteGrey);

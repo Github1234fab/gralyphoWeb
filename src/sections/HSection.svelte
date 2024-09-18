@@ -23,9 +23,9 @@
 <section class="H-section clip-path">
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
-			<h1 class="imaginer">Imaginer</h1>
-			<h1 class="developper">Développer</h1>
-			<h1 class="creer">Créer</h1>
+			<h1 class="imaginer">Gralypho</h1>
+			<!-- <h1 class="developper">Développer</h1>
+			<h1 class="creer">Créer</h1> -->
 		</div>
 		<div class="autoText">
 			<AutoText />
@@ -52,8 +52,10 @@
 		height: auto;
 		font-size: 16px;
 		opacity: 1;
-		background: url('../Assets/bgtwo.png'), radial-gradient(rgb(48, 45, 110), rgb(23, 26, 52)) ;
+		background: url('../Assets/bgtwo.png');
+		background-color: var(--primary);
 		z-index: 5;	
+		box-shadow: -3px -4px 10px rgba(34, 33, 33, 0.519);
 	}
 
 	.wrapper-text {
@@ -76,29 +78,23 @@
 	}
 	.H-section h1 {
 		text-align: center;
-		font-family: 'radio canada big';
-		font-weight: 500;
-		font-size: 3.5rem;
+		font-family: var(--Geologica);
+		font-weight: 900;
 		text-transform: capitalize;
-		letter-spacing: -3px;
-		line-height: 45px;
+		letter-spacing: -2px;
+		line-height: 40px;
 	}
 	.imaginer {
-		color: #cf924264;
-	}
-	.developper {
-	color: #cf9242b3;
-	}
-	.creer {
-	color: #cf9242;
-	
+		color: var(--whiteGrey);
+			font-size: 3rem;
 	}
 
+
 	.autoText {
-		color: yellow;
+		color: var(--quatrieme);
 		font-weight: 400;
 		font-size: 1rem;
-		font-family: 'Red Hat Display';
+		font-family: var(--Dosis);
 		justify-self: center;
 		align-self: center;
 		text-align: center;
@@ -111,7 +107,7 @@
 		text-align: center;
 		line-height: 30px;
 		margin-top: 40px;
-		max-width: 50%;
+		max-width: 60%;
 		/* justify-self: center;
 		align-self: center; */
 	}
@@ -201,7 +197,7 @@
 	}
 
 	@media screen and (max-width: 767px) {
-		.wrapper-text {
+		/* .wrapper-text {
 			grid-column: 2 / 12;
 			grid-row: 1/3;
 			display: flex;
@@ -211,17 +207,16 @@
 			border-radius: 20px;
 			margin: auto;
 			z-index: 2;
-		}
-		.H-section h1 {
+		} */
+		/* .H-section h1 {
 			text-align: center;
-			font-family: 'radio canada big';
-			font-weight: 300;
-			font-size: 4.0rem;
-			text-transform: capitalize;
-			letter-spacing: -5px;
-			line-height: 56px;
-		}
-		.H-section h2 {
+		font-family: var(--Kanit);
+		font-weight: 900;
+		text-transform: capitalize;
+		letter-spacing: 0px;
+		line-height: 40px; */
+		/* } */
+		/* .H-section h2 {
 			font-family: poppins;
 			font-weight: 200;
 			font-size: 1rem;
@@ -232,6 +227,6 @@
 			max-width: 90%;
 			justify-self: center;
 			align-self: center;
-		}
+		} */
 	}
 </style>

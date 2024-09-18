@@ -112,7 +112,7 @@
 		<h2>Sites Web, applications, composants, jeux ...</h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
-			les requêtes API, les jeux, les composants (...) !
+			les requêtes API, les jeux, les composants (...) .
 		</h3>
 	</div>
 	<div class="wrapper-portfolio">
@@ -130,7 +130,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background: radial-gradient(var(--secondary), var(--primary));
+		background-color: var(--primary);
 		padding: 60px;
 	}
 	.wrapper-text {
@@ -142,7 +142,7 @@
 		margin-top: 0px;
 	}
 	.G-section h1 {
-		font-family: Heebo;
+		font-family: var(--Geologica);
 		text-transform: uppercase;
 		font-size: var(--s);
 		color: var(--whiteGrey);
@@ -153,21 +153,21 @@
 		text-align: center;
 	}
 	.G-section h2 {
-		font-family: 'radio canada big';
+		font-family: var(--Geologica);
 		font-size: var(--l);
 		color: var(--whiteGrey);
-		font-weight: 500;
+		font-weight: 900;
 		margin-bottom: 0px;
-		letter-spacing: -0.04em;
+		letter-spacing: -1px;
 		text-align: center;
 	}
 	.G-section h3 {
-		font-family: epilogue;
+		font-family: poppins;
 		font-size: var(--m);
 		color: var(--whiteGrey);
 		font-weight: 300;
 		margin-bottom: 0px;
-		letter-spacing: -0.02em;
+		letter-spacing: -0.01em;
 		text-align: center;
 		width: 100%;
 		margin: 0 auto;
