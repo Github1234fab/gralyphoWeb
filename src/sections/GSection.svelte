@@ -109,7 +109,7 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
-		<h2> Découvrez notre éventail de compétences <br> <span>Sites Web, Applis, Jeux</span></h2>
+		<h2> Découvrez l'étendue de nos compétences <br> <span>Sites Web, Applis, programmation</span></h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
 			les requêtes API, les jeux, les composants (...) .
@@ -162,7 +162,8 @@
 		text-align: center;
 	}
 	.G-section h2 span {
-		font-weight: 600;
+		font-weight: 500;
+		font-size: 1.5rem;
 	}
 	.G-section h3 {
 		font-family: poppins;

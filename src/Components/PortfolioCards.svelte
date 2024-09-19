@@ -110,11 +110,11 @@
 		font-size: 1.3rem;
 		font-family: var(--Geologica);
 		font-weight: 900;
-		color: var(--cta);
-		text-align: left;
+		color: var(--secondary);
+		text-align: center;
 		text-transform: capitalize;
 		padding: 20px;
-		letter-spacing: -1px;;
+		letter-spacing: -1px;
 	}
 
 	@keyframes vertical {

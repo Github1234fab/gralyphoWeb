@@ -88,10 +88,7 @@
 		color: var(--whiteGrey);
 			font-size: 3rem;
 	}
-	.imaginer span {
-		color: var(--whiteGrey);
-			font-size: 4rem;
-	}
+	
 
 
 	.autoText {

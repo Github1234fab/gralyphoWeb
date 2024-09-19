@@ -1,42 +1,48 @@
 <script>
 	import CardServices from '../Components/CardServices.svelte';
-
+	import IconWifi from '../Assets/icon-wifi.svg';
+	import iconApplication from '../Assets/icon-application.svg';
+	import iconPalette from '../Assets/icon-palette.svg';
+	import iconSatelit from '../Assets/icon-satelit.svg';
+		import IconFB from '../Assets/icon-fb.svg';
+				import IconStrategy from '../Assets/icon-strategy.svg';
 
 	const servicesTab = [
 		{
 			title: 'Sites Web',
 			lien: '/Sites',
-			icon: 'fa-user',
+			icon: IconWifi,
 			p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
 		},
 		{
 			title: 'Applications',
 			lien: '/Applications',
-			icon: 'fa-user',
+			icon: iconApplication,
 			p: 'Obtenez une application web sur mesure pour votre entreprise avec téléchargement automatisé'
 		},
 		{
 			title: 'Design',
 			lien: '/Refonte',
-
+			icon: iconPalette,
 			p: "Le Design d'un site est primordial. Nous vous proposons des designs modernes et adaptés à votre secteur d'activité."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/Referencement',
-
+			icon: iconSatelit,
 			p: 'Nous vous proposons des stratégies de référencement SEO et SEA pour une place en première page de Google.'
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/Marketing',
+				icon: IconFB,
 
 			p: 'Ne vous embêtez plus avec la gestion de vos réseaux sociaux, nous nous en chargeons pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/Composants',
-
+		icon: IconStrategy,
 			p: 'Nous vous proposons des stratégies digitales pour booster votre visibilité sur le Web.'
 		}
 	];
@@ -81,7 +87,6 @@
 		height: auto;
 		font-size: 16px;
 		background-color: var(--primary);
-
 		overflow: hidden;
 	}
 

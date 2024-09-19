@@ -5,7 +5,6 @@
 	export let p;
 	export let icon;
 
-
 	function redirectToLink() {
 		window.location.href = lien;
 	}
@@ -45,7 +44,7 @@
 >
 	<div class="wrapper-text-service">
 		<div class="wrapper-icon">
-<i class={icon}></i>
+			<img class ="icon " src={icon} alt="" />
 		</div>
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
@@ -92,6 +91,10 @@
 		text-align: center;
 		line-height: 30px;
 		min-height: 150px;
+	}
+	.icon {
+		width: 60px;
+		height: 60px;
 	}
 	.lien {
 		font-family: 'red hat display';
