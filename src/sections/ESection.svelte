@@ -6,44 +6,45 @@
 	import iconSatelit from '../Assets/icon-satelit.svg';
 		import IconFB from '../Assets/icon-fb.svg';
 				import IconStrategy from '../Assets/icon-strategy.svg';
+	import { bounceIn } from 'svelte/easing';
 
 	const servicesTab = [
 		{
 			title: 'Sites Web',
 			lien: '/Sites',
 			icon: IconWifi,
-			p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
+			p: "Nous créons les sites Web qui vous ressemblent et répondent à vos besoins !"
 		},
 		{
 			title: 'Applications',
 			lien: '/Applications',
 			icon: iconApplication,
-			p: 'Obtenez une application web sur mesure pour votre entreprise avec téléchargement automatisé'
+			p: 'Obtenez une application web pour effectuer...ce que vous voulez !'
 		},
 		{
 			title: 'Design',
 			lien: '/Refonte',
 			icon: iconPalette,
-			p: "Le Design d'un site est primordial. Nous vous proposons des designs modernes et adaptés à votre secteur d'activité."
+			p: "Conception d'UX et d'UI design. C'est à dire parcours utilisateur et fonctionnalités."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/Referencement',
 			icon: iconSatelit,
-			p: 'Nous vous proposons des stratégies de référencement SEO et SEA pour une place en première page de Google.'
+			p: 'Référecnement naturel ou gratuit, selon vos objectifs et vos besoins..'
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/Marketing',
 				icon: IconFB,
 
-			p: 'Ne vous embêtez plus avec la gestion de vos réseaux sociaux, nous nous en chargeons pour vous!'
+			p: 'Nous gérons vos réseaux pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/Composants',
 		icon: IconStrategy,
-			p: 'Nous vous proposons des stratégies digitales pour booster votre visibilité sur le Web.'
+			p: "Avoir un site Web c'est bien et avec une stratégie, c'est encore mieux."
 		}
 	];
 </script>

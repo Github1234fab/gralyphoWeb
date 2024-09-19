@@ -109,7 +109,7 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
-		<h2> Découvrez l'étendue de nos compétences <br> <span>Sites Web, Applis, programmation</span></h2>
+		<h2> Découvrez l'étendue de nos compétences <br> <span>Sites Web, Applis, programmation.</span></h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
 			les requêtes API, les jeux, les composants (...) .
@@ -157,9 +157,9 @@
 		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 900;
-		margin-bottom: 0px;
 		letter-spacing: -1px;
 		text-align: center;
+		min-width: 80%;
 	}
 	.G-section h2 span {
 		font-weight: 500;

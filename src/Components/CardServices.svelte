@@ -93,8 +93,8 @@
 		min-height: 150px;
 	}
 	.icon {
-		width: 60px;
-		height: 60px;
+		width: 70px;
+		height: 70px;
 	}
 	.lien {
 		font-family: 'red hat display';

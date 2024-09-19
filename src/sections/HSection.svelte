@@ -7,6 +7,7 @@
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
 	import AutoText from '../Components/AutoText.svelte';
 	import ButtonCta from '../Components/ButtonCTA.svelte';
+	import Line from "../Assets/line.svg";
 
 	// let textIndex = 0;
 	// let textTab = [' de Site Internet.', "d'Applications."];
@@ -24,6 +25,7 @@
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="imaginer"><span>G</span>ralypho</h1>
+			<img class = "line" src={Line} alt="">
 			<!-- <h1 class="developper">Développer</h1>
 			<h1 class="creer">Créer</h1> -->
 		</div>
@@ -74,7 +76,11 @@
 
 	.wrapper-h1 {
 		margin-top: 100px;
-		margin-bottom: 30px;
+
+	}
+	.line{
+		width: 100%;
+		margin-top: -60px;
 	}
 	.H-section h1 {
 		text-align: center;

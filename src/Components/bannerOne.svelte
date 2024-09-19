@@ -92,7 +92,7 @@
 		text-align: center;
 		text-align: center;
 		color: white;
-		min-width: 50%;
+		max-width: 70%;
 		line-height: 25px;
 		/* background-color: rgba(42, 40, 40, 0.73); */
 	}

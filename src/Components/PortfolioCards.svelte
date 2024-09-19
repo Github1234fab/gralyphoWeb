@@ -24,11 +24,12 @@
 		min-width: 320px;
 		cursor: pointer;
 		border-radius: 20px;
+	
 	}
 	.wrapper-portfolio h3 {
 		font-family: var(--Kanit);
-		font-size: 1.3rem;
-		color: var(--whiteGrey);
+		font-size: 1.1rem;
+		color: var(--colorC);
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		margin-top: 10px;
@@ -48,6 +49,7 @@
 		border-radius: 12px;
 		background-image: url('../Assets/bgthree.png');
 		background-size: cover;
+			box-shadow: inset 0px 0px 7px 7px rgb(0, 0, 0);
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
