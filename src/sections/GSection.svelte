@@ -109,7 +109,7 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
-		<h2>Sites Web, applications, composants, jeux ...</h2>
+		<h2> Découvrez notre éventail de compétences <br> <span>Sites Web, Applis, Jeux</span></h2>
 		<h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
 			les requêtes API, les jeux, les composants (...) .
@@ -130,7 +130,7 @@
 		height: auto;
 		width: 100%;
 		font-size: 16px;
-		background-color: var(--primary);
+		background-color: var(--whiteGrey);
 		padding: 60px;
 	}
 	.wrapper-text {
@@ -145,7 +145,7 @@
 		font-family: var(--Geologica);
 		text-transform: uppercase;
 		font-size: var(--s);
-		color: var(--whiteGrey);
+		color: var(--primary);
 		font-weight: 600;
 		margin-bottom: 40px;
 		letter-spacing: -0.04em;
@@ -155,16 +155,19 @@
 	.G-section h2 {
 		font-family: var(--Geologica);
 		font-size: var(--l);
-		color: var(--whiteGrey);
+		color: var(--primary);
 		font-weight: 900;
 		margin-bottom: 0px;
 		letter-spacing: -1px;
 		text-align: center;
 	}
+	.G-section h2 span {
+		font-weight: 600;
+	}
 	.G-section h3 {
 		font-family: poppins;
 		font-size: var(--m);
-		color: var(--whiteGrey);
+		color: var(--primary);
 		font-weight: 300;
 		margin-bottom: 0px;
 		letter-spacing: -0.01em;

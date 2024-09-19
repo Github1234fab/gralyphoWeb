@@ -3,6 +3,8 @@
 	export let title;
 	export let lien;
 	export let p;
+	export let icon;
+
 
 	function redirectToLink() {
 		window.location.href = lien;
@@ -42,9 +44,9 @@
 	on:mouseleave={changeToFalse}
 >
 	<div class="wrapper-text-service">
-		<!-- <div class="wrapper-icon">
-			<img src={i} alt="Icon description de service" class="img icon" class:turn={rotation} />
-		</div> -->
+		<div class="wrapper-icon">
+<i class={icon}></i>
+		</div>
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
 		<a href={lien} class="lien"> En savoir +</a>
@@ -63,7 +65,7 @@
 		background-color: var(--primary);
 		padding: 20px;
 		border-radius: 12px;
-		min-height: 500px;
+		min-height: 400px;
 		/* background: url('../Assets/png-gralypho/bgSix.png'), var(--primary); */
 	}
 

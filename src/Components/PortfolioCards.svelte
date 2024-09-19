@@ -6,10 +6,9 @@
 </script>
 
 <div class="wrapper-portfolio">
+	<h1 class="title">{type}</h1>
 	<div class="card-portfolio">
 		<a href={lien} class="card-content" target="_blank">
-			<h1>{type}</h1>
-			<!-- <p>{texte}</p> -->
 			<h3>{titre}</h3>
 		</a>
 	</div>
@@ -27,10 +26,10 @@
 		border-radius: 20px;
 	}
 	.wrapper-portfolio h3 {
-		font-family: heebo;
-		font-size: var(--m);
+		font-family: var(--Kanit);
+		font-size: 1.3rem;
 		color: var(--whiteGrey);
-		font-weight: 200;
+		font-weight: 400;
 		letter-spacing: -0.02em;
 		margin-top: 10px;
 		text-align: left;
@@ -45,9 +44,10 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		/* border: 1px white solid; */
+		background-color: var(--secondary);
 		border-radius: 12px;
-		background-image: url('../Assets/bgtwo.png');
+		background-image: url('../Assets/bgthree.png');
+		background-size: cover;
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -78,9 +78,9 @@
 		text-decoration: none;
 		color: inherit;
 		cursor: pointer;
-		box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.607);
+		box-shadow: inset 0px 0px 15px 4px rgba(0, 0, 0, 0.917);
 		padding: 50px;
-		border-radius: 20px;
+		border-radius: 12px;
 	}
 	.card-content::after {
 		z-index: 2;
@@ -103,17 +103,18 @@
 		font-size: 1.5em;
 		color: white;
 		transition: 0.9s ease-in-out;
-		box-shadow: 0px 0px 20px 10px black;
+		box-shadow: 0px 0px 20px 20px black;
 	}
 
-	.card-content h1 {
-		font-size: var(--m);
-		font-family: 'poppins';
-		font-weight: 500;
-
+	.title {
+		font-size: 1.3rem;
+		font-family: var(--Geologica);
+		font-weight: 900;
 		color: var(--cta);
 		text-align: left;
 		text-transform: capitalize;
+		padding: 20px;
+		letter-spacing: -1px;;
 	}
 
 	@keyframes vertical {

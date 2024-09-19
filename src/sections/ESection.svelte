@@ -1,54 +1,42 @@
 <script>
 	import CardServices from '../Components/CardServices.svelte';
-	import iconInternet from '../Assets/png-gralypho/iconInternet.png';
-	import iconApplication from '../Assets/png-gralypho/iconApplication.png';
-	import iconDesign from '../Assets/png-gralypho/iconDesign.png';
-	import iconLoupe from '../Assets/png-gralypho/loupe.png';
-	import iconFacebook from '../Assets/png-gralypho/iconFacebook.png';
-	import iconStrat from '../Assets/png-gralypho/iconStratégie.png';
-	import CircleAnimation from '../Components/CircleAnimation.svelte';
+
 
 	const servicesTab = [
 		{
 			title: 'Sites Web',
 			lien: '/Sites',
-			i: iconInternet,
-			// i: 'fa-solid fa-globe',
+			icon: 'fa-user',
 			p: "Nous créons des sites Web sur mesure et la seule limite, c'est votre imagination!"
 		},
 		{
 			title: 'Applications',
 			lien: '/Applications',
-			i: iconApplication,
-			// i: 'fa-solid fa-mobile-screen',
+			icon: 'fa-user',
 			p: 'Obtenez une application web sur mesure pour votre entreprise avec téléchargement automatisé'
 		},
 		{
 			title: 'Design',
 			lien: '/Refonte',
-			i: iconDesign,
-			// i: 'fa-solid fa-wand-magic-sparkles',
+
 			p: "Le Design d'un site est primordial. Nous vous proposons des designs modernes et adaptés à votre secteur d'activité."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/Referencement',
-			i: iconLoupe,
-			// i: 'fa-solid fa-magnifying-glass',
+
 			p: 'Nous vous proposons des stratégies de référencement SEO et SEA pour une place en première page de Google.'
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/Marketing',
-			i: iconFacebook,
-			// i: 'fa-solid fa-hashtag',
+
 			p: 'Ne vous embêtez plus avec la gestion de vos réseaux sociaux, nous nous en chargeons pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/Composants',
-			i: iconStrat,
-			// i: 'fa-solid fa-chart-simple',
+
 			p: 'Nous vous proposons des stratégies digitales pour booster votre visibilité sur le Web.'
 		}
 	];
@@ -57,36 +45,6 @@
 <section class="E-section">
 	<h1>Notre proposition</h1>
 
-	<!-- <div class="container-text-circles">
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">Sites sur mesure</h2>
-		</div>
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">Applications</h2>
-		</div>
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">Refonte</h2>
-		</div>
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">Stratégie Seo</h2>
-		</div>
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">Réseaux sociaux</h2>
-		</div>
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">Photos pros</h2>
-		</div>
-		<div class="wrapper-circle">
-			<CircleAnimation />
-			<h2 class="title-circle-animation">E-commerce</h2>
-		</div>
-	</div> -->
 	<div class="wrapper-text">
 		<h2>Nos services</h2>
 		<h3>
@@ -103,7 +61,13 @@
 
 	<div class="wrapper-cards-services">
 		{#each servicesTab as service}
-			<CardServices title={service.title} lien={service.lien} i={service.i} p={service.p} />
+			<CardServices
+				title={service.title}
+				lien={service.lien}
+				i={service.i}
+				p={service.p}
+				icon={service.icon}
+			/>
 		{/each}
 	</div>
 </section>
@@ -117,10 +81,7 @@
 		height: auto;
 		font-size: 16px;
 		background-color: var(--primary);
-		/* background: -webkit-radial-gradient(var(--primary) 50%, var(--secondary));
-		background: -moz-radial-gradient(var(--primary) 50%, var(--secondary));
-		background: -o-radial-gradient(var(--primary) 50%, var(--secondary));
-		background: radial-gradient(var(--primary) 50%, var(--secondary)); */
+
 		overflow: hidden;
 	}
 
@@ -128,19 +89,7 @@
 		flex: 1 1 25%;
 		min-height: 400px;
 	}
-	/* .container-text-circles {
-		grid-column: 1/12;
-		grid-row: 2;
-		margin: 0 auto;
-		height: 300px;
-	
-	}
-	.wrapper-circle {
-		display: flex;
-		max-height: 30px;
-		max-width: 100%;
-		gap: 40px;
-	} */
+
 	.wrapper-text {
 		grid-column: 2/ 12;
 		grid-row: 3;
@@ -169,7 +118,7 @@
 		font-size: var(--l);
 		color: var(--whiteGrey);
 		font-weight: 900;
-			letter-spacing: -1px;
+		letter-spacing: -1px;
 		margin-left: 0px;
 		text-align: center;
 		line-height: 25px;
@@ -191,7 +140,7 @@
 	}
 	.E-section h3 span {
 		font-weight: 600;
-			color: var(--whiteGrey);
+		color: var(--whiteGrey);
 	}
 
 	.wrapper-cards-services {

@@ -23,7 +23,7 @@
 <section class="H-section clip-path">
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
-			<h1 class="imaginer">Gralypho</h1>
+			<h1 class="imaginer"><span>G</span>ralypho</h1>
 			<!-- <h1 class="developper">Développer</h1>
 			<h1 class="creer">Créer</h1> -->
 		</div>
@@ -55,7 +55,7 @@
 		background: url('../Assets/bgtwo.png');
 		background-color: var(--primary);
 		z-index: 5;	
-		box-shadow: -3px -4px 10px rgba(34, 33, 33, 0.519);
+
 	}
 
 	.wrapper-text {
@@ -87,6 +87,10 @@
 	.imaginer {
 		color: var(--whiteGrey);
 			font-size: 3rem;
+	}
+	.imaginer span {
+		color: var(--whiteGrey);
+			font-size: 4rem;
 	}
 
 
