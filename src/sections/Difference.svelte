@@ -5,18 +5,7 @@
 
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
-	<h2>Le Web, c'est Notre Métier.</h2>
-	<!-- <h3 class="title-h3">
-
-		<span>Passionné par le Web</span> <br> et la programmation informatique, nous créeons des sites webs et des
-		applications sur mesure. <br> Notre expertise dans le domaine du Web est sans faille. <br /><br /><span>Installé dans l'Ouest Lyonnais</span> <br> sur les communes de
-		Vaugneray et Thurins, l'agence Gralypho fournit ses services localement et dans le monde entier.  
-	
-		<br />
-
-		<br /> <span>Nous sommes experts </span> <br> en stratgie SEO, en design UX/UI, en création et rédaction de contenu. <br> Nous sommes formés au code informatique et nous sommes en capacité de construire des outils digitaux en sachant  <br>toujours ce qui se passe sous le capot! Ce qui vous garantit une sécurité optimale et un accompagnement serein.<br> 
-		<br />
-	</h3> -->
+	<h2>Le Web, <br> c'est Notre Métier.</h2>
 
 	<div class="img"></div>
 
@@ -68,28 +57,25 @@
 			des outils, des solutions qui vous permettront de vous démarquer de la concurrence, à coup sûr.
 		</p>
 	</div>
-	<!-- <div class="contact"><ButtonCta /></div> -->
 </section>
 
 <style>
 	.difference {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(4, auto);
-		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		min-height: auto;
 		font-size: 16px;
 		background-color: var(--whiteGrey);
-		/* background-image: url('../Assets/bgfour.png'); */
 	}
 	.img {
 		background-image: url('../Assets/png-gralypho/photoDev.jpg');
 		background-size: cover;
 		background-position: center;
 		height: 400px;
-		width: 100%;
-		grid-column: 2/12;
-		grid-row: 4;
-		margin-top: 30px;
+		min-width: 60%;
+		margin: 40px auto;
 		border-radius: 15px;
 	}
 
@@ -103,8 +89,6 @@
 		margin-top: 50px;
 		margin-bottom: 20px;
 		text-align: center;
-		grid-column: 2/12;
-		grid-row: 1;
 	}
 	.difference h2 {
 		font-family: var(--Geologica);
@@ -114,10 +98,9 @@
 		margin-bottom: 10px;
 		letter-spacing: -1px;
 		text-align: center;
-		line-height: 30px;
+		line-height: 40px;
 		margin-top: 30px;
-		grid-column: 2/12;
-		grid-row: 2;
+	
 	}
 
 	.wrapper-difference__title {
@@ -134,9 +117,8 @@
 		flex-direction: column;
 		align-items: left;
 		justify-content: left;
-		margin-top: 50px;
-		grid-column: 2/12;
-		grid-row: 5;
+		padding: 40px;
+	
 	}
 	.paragraph {
 		font-family: var(--Poppins);
@@ -181,14 +163,6 @@
 		padding: 0px;
 		text-align: left;
 	}
-	/* .contact {
-		margin-top: 50px;
-		margin-bottom: 100px;
-		justify-self: center;
-		align-self: center;
-		grid-column: 2/12;
-		grid-row: 6;
-	} */
 
 	.marginBottom {
 		margin-bottom: 50px;
@@ -208,6 +182,13 @@
 		}
 		100% {
 			transform: scale(1) translateY(0);
+		}
+	}
+	@media screen and (max-width: 768px) {
+	
+		.img {
+			height: 300px;
+			min-width: 80%;
 		}
 	}
 </style>
