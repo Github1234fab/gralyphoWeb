@@ -189,5 +189,8 @@
 			box-shadow: 0px 0px 20px 20px black;
 			display: block;
 		}
+		.wrapper-portfolio h3 {
+			margin-top: 0px;
+		}
 	}
 </style>
