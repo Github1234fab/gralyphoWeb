@@ -156,7 +156,7 @@
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		gap: 15px;
+		gap: 35px;
 		margin-bottom: 150px;
 		margin-top: 80px;
 	}

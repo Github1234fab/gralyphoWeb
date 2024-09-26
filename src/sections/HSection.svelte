@@ -100,7 +100,7 @@
 	.autoText {
 		color: var(--quatrieme);
 		font-weight: 400;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		font-family: var(--Dosis);
 		justify-self: center;
 		align-self: center;

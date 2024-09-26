@@ -1,16 +1,16 @@
 <div class="container">
-	<div class="bloc imgA">
-		<div class="sub-bloc">
-			<h1 class="title">Automatisez votre outil digital.</h1>
-
-			<p>
-				<i class="fa-solid fa-chart-line icon-difference"></i>
-				Votre site E-commerce ou votre Application travaille pour vous 24h/24 et 7j/7. <br />Une
-				hyper-présence sur le net qui vous permet d'économisez du temps pour vous consacrer à
-				d'autres tâches.
-			</p>
-			<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
+	<div class="bloc">
+		<h1 class="title">Automatisez votre outil digital.</h1>
+		<div class="wrapper">
+			<div class="disc2"></div>
 		</div>
+
+		<p>
+			Votre site E-commerce ou votre Application est présente sur le Web 24h/24 et 7j/7. <br />Cette
+			hyper-présence sur le net peut vous permettre de générer des revenus supplémentaires, <br />de
+			fidéliser davantage de clients et d'effectuer des tâches à votre place.
+		</p>
+		<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
 	</div>
 </div>
 
@@ -19,32 +19,22 @@
 		min-height: auto;
 		display: flex;
 		flex-direction: column;
+		background: url('../Assets/bgtwo.png');
+		background-color: var(--primary);
 	}
-.bloc {
-		min-height: 70vh;
+	.bloc {
+		/* min-height: 70vh; */
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 50px;
-		background-image: url('../Assets/png-gralypho/coiffeur.jpg');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		/* box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411); */
 		z-index: 0;
-		position: relative;
+		gap: 70px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 
-	.sub-bloc {
-		min-height: 70vh;
-		min-width: 100vw;
-		flex-direction: column;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 3;
-	}
 	.bloc::after {
 		content: '';
 		position: absolute;
@@ -52,20 +42,71 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(
+		/* background: linear-gradient(
 			to top,
 			rgba(239, 164, 164, 0.469),
 			rgba(0, 0, 0, 0.696) 50%,
 			rgba(230, 175, 175, 0.49)
-		);
+		); */
 		z-index: 2;
 	}
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 30px;
+		min-width: 50%;
+		margin: 0 auto;
+		position: relative;
+	}
 
-	.imgA {
+	.disc2::before {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 200px;
+		min-width: 200px;
+		border-radius: 50%;
+		background-color: var(--secondary);
+		z-index: 20;
+		z-index: 4;
+		content: '\f042';
+		position: absolute;
+		left: -50px;
+		top: -10px;
+		font-size: 5rem;
+		color: white;
+		font-family: 'Font Awesome 5 Free';
+	}
+	.disc2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: var(--Radio);
+		color: var(--whiteGrey);
+		font-weight: 600;
+		font-size: 1.2rem;
+		background-color: var(--cta);
+		min-height: 230px;
+		min-width: 230px;
+		border-radius: 50%;
+		opacity: 0.5;
+		z-index: 10;
+		position: relative;
+		margin-left: 70px;
+	}
+	/* .disc2::after {
+		content: '';
+		position: absolute;
 		background-image: url('../Assets/png-gralypho/automatiser.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
+		min-height: 200px;
+		min-width: 200px;
+		border-radius: 50%;
+		z-index: 0;
+		left: 150px;
+	} */
 
 	.title {
 		font-family: var(--Geologica);
@@ -74,21 +115,14 @@
 		text-align: center;
 		color: white;
 	}
-	.icon-difference {
-		font-size: 3rem;
-		color: white;
-		max-width: 30%;
-		border-radius: 10px;
-		/* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.34); */
-		margin-bottom: 20px;
-	}
+	
 	.bloc p {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		font-family: 'Red Hat Display';
-		/* margin-top: 30px; */
+		margin-top: 30px;
 		text-align: center;
 		text-align: center;
 		color: white;
@@ -128,5 +162,11 @@
 		100% {
 			transform: scale(1) translateY(0);
 		}
+	}
+
+	@media (max-width: 768px) {
+		.wrapper {
+			width: 100%;
+		}	
 	}
 </style>

@@ -24,7 +24,6 @@
 		min-width: 320px;
 		cursor: pointer;
 		border-radius: 20px;
-	
 	}
 	.wrapper-portfolio h3 {
 		font-family: var(--Kanit);
@@ -32,7 +31,7 @@
 		color: var(--colorC);
 		font-weight: 400;
 		letter-spacing: -0.02em;
-		margin-top: 10px;
+		margin-top: -30px;
 		text-align: left;
 	}
 	.card-portfolio {
@@ -49,7 +48,7 @@
 		border-radius: 12px;
 		background-image: url('../Assets/bgthree.png');
 		background-size: cover;
-			box-shadow: inset 0px 0px 7px 7px rgb(0, 0, 0);
+		box-shadow: inset 0px 0px 7px 7px rgb(0, 0, 0);
 	}
 	.card-portfolio:hover {
 		box-shadow: none;
@@ -105,13 +104,37 @@
 		font-size: 1.5em;
 		color: white;
 		transition: 0.9s ease-in-out;
+		/* box-shadow: 0px 0px 20px 20px black; */
+	}
+	.card-content::before {
+		z-index: 2;
+		position: absolute;
+		content: '\f144';
+		top: 0;
+		bottom: 0;
+		right: 0px;
+		left: 0px;
+		width: 100px;
+		left: 0px;
+		transform: translateX(200px);
+		background: var(--cta);
+		transition: 0.6s ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		font-size: 1.5em;
+		color: white;
+		transition: 0.9s ease-in-out;
 		box-shadow: 0px 0px 20px 20px black;
+		display: none;
 	}
 
 	.title {
 		font-size: 1.3rem;
 		font-family: var(--Geologica);
-		font-weight: 900;
+		font-weight: 700;
 		color: var(--secondary);
 		text-align: center;
 		text-transform: capitalize;
@@ -130,13 +153,41 @@
 			transform: translateY(0);
 		}
 	}
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 784px) {
 		.card-portfolio {
 			min-width: 200px;
 		}
 
 		.card-content {
 			padding: 20px;
+		}
+		.card-content::after {
+			display: none;
+		}
+		.card-content::before {
+			z-index: 2;
+			position: absolute;
+			content: '\f144';
+			bottom: 0;
+			right: 0px;
+			left: 0px;
+			width: 100px;
+			top: -1px;
+			transform: translateX(200px);
+			background: var(--cta);
+			transition: 0.6s ease-in-out;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+			font-family: 'Font Awesome 5 Free';
+			text-align: center;
+			font-weight: 900;
+			font-size: 1.5em;
+			color: white;
+			transition: 0.9s ease-in-out;
+			box-shadow: 0px 0px 20px 20px black;
+			display: block;
 		}
 	}
 </style>

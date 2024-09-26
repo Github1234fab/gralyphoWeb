@@ -77,7 +77,7 @@
 	}
 	.card-services h2 {
 		font-family: var(--Geologica);
-		font-weight: 900;
+		font-weight: 600;
 		color: var(--cta);
 		font-size: 1.4rem;
 		text-align: center;

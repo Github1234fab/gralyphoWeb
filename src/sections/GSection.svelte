@@ -99,7 +99,7 @@
 		{
 			type: 'Plateforme réservation',
 			text: 'Gastronomie',
-			title: 'Site Web',
+			title: 'Resto',
 			img: resa,
 			lien: 'https://fabienmarceau.com/myFood/index.html'
 		}
