@@ -44,10 +44,9 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		background-color: var(--primary);
 		border-radius: 12px;
-		background-image: url('../Assets/bgTwo.png');
-		background-size: cover;
+		background: url('../Assets/bgTwo.png'), var(--primary);
+		background-size: contain;
 		box-shadow: inset 0px 0px 7px 7px rgb(0, 0, 0);
 	}
 	.card-portfolio:hover {
