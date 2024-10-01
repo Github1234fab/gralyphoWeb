@@ -44,9 +44,9 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
-		background-color: var(--secondary);
+		background-color: var(--primary);
 		border-radius: 12px;
-		background-image: url('../Assets/bgthree.png');
+		background-image: url('../Assets/bgTwo.png');
 		background-size: cover;
 		box-shadow: inset 0px 0px 7px 7px rgb(0, 0, 0);
 	}
@@ -93,7 +93,7 @@
 		left: 0px;
 		width: 100px;
 		left: 0px;
-		transform: translateX(310px);
+		transform: translateX(210px);
 		background: var(--cta);
 		transition: 0.6s ease-in-out;
 		display: flex;
@@ -104,7 +104,7 @@
 		font-size: 1.5em;
 		color: white;
 		transition: 0.9s ease-in-out;
-		/* box-shadow: 0px 0px 20px 20px black; */
+		box-shadow: 0px 0px 20px 20px black;
 	}
 	.card-content::before {
 		z-index: 2;

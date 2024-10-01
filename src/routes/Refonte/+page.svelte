@@ -28,7 +28,7 @@
 	import institutionnel from '../../Assets/png-gralypho/institutionnel.png';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	import design from '../../Assets/png-gralypho/design.png';
+	import design from '../../Assets/png-gralypho/Design.jpg';
 	// import Csection from "../../sections/Csection.svelte";
 
 	let accordeonTab = [
@@ -272,6 +272,7 @@
 		width: auto;
 		height: 400px;
 		margin-top: 50px;
+		border-radius: 5px;
 	}
 
 	.wrapper-SectionB {
@@ -281,7 +282,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
+		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 	.wrapper-SectionB h1 {
