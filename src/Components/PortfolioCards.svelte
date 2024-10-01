@@ -32,7 +32,7 @@
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		margin-top: -30px;
-		text-align: left;
+		text-align: left;	
 	}
 	.card-portfolio {
 		max-height: 200px;
@@ -44,6 +44,7 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 0;
+		background-image: url("../Assets/bgTwo.png");
 		border-radius: 12px;
 		background: url('../Assets/bgTwo.png'), var(--primary);
 		background-size: contain;
