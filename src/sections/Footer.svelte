@@ -22,6 +22,9 @@
 			class="contact"
 			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
 		>
+		<a href="https://fabienmarceau.com/gralyphoPhotography/index.html" class="contact" target="_blank"
+			><i class="fa-solid fa-camera"></i></a
+		>
 	</div>
 
 	<div class="wrapper-media">
