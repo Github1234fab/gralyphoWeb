@@ -98,7 +98,7 @@
 
 
 	.autoText {
-		color: var(--quatrieme);
+		color: pink;
 		font-weight: 400;
 		font-size: 1.2rem;
 		font-family: var(--Dosis);

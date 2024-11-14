@@ -7,35 +7,37 @@
 
 <div class="wrapper-portfolio">
 	<h1 class="title">{type}</h1>
-	<div class="card-portfolio">
-		<a href={lien} class="card-content" target="_blank">
+	<a href={lien} class="card-content" target="_blank">
 			<h3>{titre}</h3>
 		</a>
-	</div>
+	<!-- <div class="card-portfolio">
+		
+	</div> -->
 </div>
 
 <style>
 	.wrapper-portfolio {
 		display: flex;
 		flex-direction: column;
-		justify-content: left;
-		align-items: left;
-		min-height: 200px;
-		min-width: 320px;
+		justify-content: center;
+		align-items: center;
+		min-height: 150px;
+		min-width: 250px;
 		cursor: pointer;
 		border-radius: 20px;
+		border: 1px solid var(--cta);
 	}
 	.wrapper-portfolio h3 {
 		font-family: var(--Kanit);
 		font-size: 1.1rem;
-		color: var(--colorC);
+		color: var(--cta);
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		margin-top: -30px;
 		text-align: left;	
 	}
-	.card-portfolio {
-		max-height: 200px;
+	/* .card-portfolio {
+		min-height: 200px;
 		width: 300px;
 		transition: 0.3s ease-in-out;
 		position: relative;
@@ -59,11 +61,11 @@
 	}
 	.card-portfolio:hover .card-content::after {
 		transform: translateX(200px);
-	}
+	} */
 	/* .card-portfolio:active .card-content::after {
 		transform: translateX(200px);
 	} */
-	.card-content {
+	/* .card-content {
 		height: 180px;
 		width: 100%;
 		z-index: 2;
@@ -129,7 +131,7 @@
 		transition: 0.9s ease-in-out;
 		box-shadow: 0px 0px 20px 20px black;
 		display: none;
-	}
+	} */
 
 	.title {
 		font-size: 1.3rem;
@@ -140,6 +142,7 @@
 		text-transform: capitalize;
 		padding: 20px;
 		letter-spacing: -1px;
+		margin-bottom: 20px;
 	}
 
 	@keyframes vertical {
@@ -154,9 +157,9 @@
 		}
 	}
 	@media screen and (max-width: 784px) {
-		.card-portfolio {
+		/* .card-portfolio {
 			min-width: 200px;
-		}
+		} */
 
 		.card-content {
 			padding: 20px;

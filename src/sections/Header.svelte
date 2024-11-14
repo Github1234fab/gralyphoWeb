@@ -47,6 +47,7 @@
 		padding: 10px;
 		font-size: 16px;
 		background-color: transparent;
+		/* background-color: var(--primary); */
 		z-index: 2;
 	
 	}
