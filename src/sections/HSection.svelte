@@ -7,7 +7,7 @@
 	import heroAnime from '../Assets/png-gralypho/heroAnimated.gif';
 	import AutoText from '../Components/AutoText.svelte';
 	import ButtonCta from '../Components/ButtonCTA.svelte';
-	import Line from "../Assets/line.svg";
+	import Line from '../Assets/line.svg';
 
 	// let textIndex = 0;
 	// let textTab = [' de Site Internet.', "d'Applications."];
@@ -24,17 +24,16 @@
 <section class="H-section clip-path">
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
-			<h1 class="imaginer"><span>G</span>ralypho</h1>
-			<img class = "line" src={Line} alt="">
-			<!-- <h1 class="developper">Développer</h1>
-			<h1 class="creer">Créer</h1> -->
+			<h1 class="title"><span>G</span>ralypho</h1>
+			<h1 class="subtitle">Créer, c'est notre métier.</h1>
+			<!-- <img class="line" src={Line} alt="" /> -->
 		</div>
 		<div class="autoText">
 			<AutoText />
 		</div>
 		<h2>
-			Nous nous engageons à améliorer la <span>communication </span> et la <span>visibilité</span>
-			de votre entreprise. <br />Grâce à des solutions digitales sur <span>mesure</span>, nous vous
+			Vous êtes en PME ou PMI, en indépendant ? Vous êtes commerçant ou artisan ? <br>Nous vous accompagnons sur tous vos projets digitaux.
+			<br />Grâce à des solutions digitales sur <span>mesure</span>, nous vous
 			offrons l'opportunité d'optimiser votre <span>temps</span>, d'attirer de nouveaux
 			<span>clients </span>et d'augmenter votre <span>productivité </span>de manière significative.
 		</h2>
@@ -49,15 +48,15 @@
 <style>
 	.H-section {
 		display: grid;
-		grid-template-columns: repeat(12, 1fr), ;
+		grid-template-columns: repeat(12, 1fr);
 		grid-template-rows: auto;
 		height: auto;
 		font-size: 16px;
 		opacity: 1;
 		background: url('../Assets/bgtwo.png');
 		background-color: var(--primary);
-		z-index: 5;	
-
+		z-index: 5;
+		
 	}
 
 	.wrapper-text {
@@ -76,36 +75,41 @@
 
 	.wrapper-h1 {
 		margin-top: 100px;
+		/* background-color: red; */
+	}
+	/* .line {
+		width: 50%;
+	} */
 
-	}
-	.line{
-		width: 100%;
-		margin-top: -60px;
-	}
-	.H-section h1 {
+	.title {
+		color: var(--whiteGrey);
+		font-size: 3rem;
 		text-align: center;
 		font-family: var(--Geologica);
 		font-weight: 900;
 		text-transform: capitalize;
 		letter-spacing: -2px;
-		line-height: 40px;
 	}
-	.imaginer {
+	.subtitle {
 		color: var(--whiteGrey);
-			font-size: 3rem;
+		font-size: 2.6rem;
+		text-align: center;
+		font-family: var(--Geologica);
+		font-weight: 100;
+		letter-spacing: -2px;
+		margin-top: -5px;
 	}
-	
-
 
 	.autoText {
-		color: var(--whiteGrey);
-		font-weight: 400;
+		color: rgb(198, 198, 243);
+		font-weight: 500;
 		font-size: 1.2rem;
 		font-family: var(--Dosis);
 		justify-self: center;
 		align-self: center;
 		text-align: center;
-		margin-top: 4px;
+		margin-top: 30px;
+		/* text-shadow: 0px 0px 40px white; */
 	}
 	.H-section h2 {
 		font-family: poppins;

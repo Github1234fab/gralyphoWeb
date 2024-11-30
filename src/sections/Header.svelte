@@ -47,13 +47,13 @@
 		padding: 10px;
 		font-size: 16px;
 		background-color: transparent;
-		/* background-color: var(--primary); */
+		background-color: var(--primary);
 		z-index: 2;
 	
 	}
 
 	.navigation h1 span {
-		color: rgb(29, 27, 27);
+		color: rgb(236, 228, 228);
 		font-weight: 900;
 	}
 	.wrapper-logo-burger {
@@ -81,7 +81,7 @@
 		font-family: var(--Red);
 		font-size: 0.8em;
 		font-weight: 500;
-		color: rgb(44, 41, 41);
+		color:  var(--whiteGrey);
 		margin-top: 0px;
 	}
 	.span {
@@ -104,7 +104,7 @@
 	}
 
 	.link-contact {
-		color: var(--primary);
+		color: var(--whiteGrey);
 		font-size: 1em;
 		font-weight: 400;
 		text-decoration: none;
@@ -132,7 +132,7 @@
 	.burger {
 		font-size: 2em;
 		border: none;
-		color: var(--primary);
+		color: var(--whiteGrey);
 		/* border: 1px solid var(--whiteGrey); */
 		border-radius: 50%;
 		padding: 14px;
