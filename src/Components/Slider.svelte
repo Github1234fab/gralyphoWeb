@@ -140,12 +140,7 @@
 	button:hover {
 		background-color: rgba(0, 0, 0, 0.8);
 	}
-	/* .title {
-                font-family: var(--Epilogue);
-                font-weight: 300;
-                padding: 30px;
-                letter-spacing: -0.01em;
-        } */
+
 	.slide a {
 		font-family: var(--Epilogue);
 		font-weight: 300;
