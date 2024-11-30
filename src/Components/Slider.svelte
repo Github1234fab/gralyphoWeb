@@ -1,6 +1,6 @@
 <script>
 	import Rocket from '../Assets/png-gralypho/rocketAgency.png';
-	import Todo from '../Assets/png-gralypho/applicatoin todolist.png';
+	import Todo from '../Assets/png-gralypho/application_todolist.png';
 	import Morpion from '../Assets/png-gralypho/morpion.png';
 	import Meteo from '../Assets/png-gralypho/météo.png';
 	import Horloge from '../Assets/png-gralypho/horloge.png';
