@@ -119,11 +119,7 @@
 		</h3> -->
 	</div>
 
-	<!-- <div class="wrapper-portfolio">
-		{#each portfolioTab as item}
-			<PortfolioCards titre={item.title} texte={item.text} lien={item.lien} type={item.type} />
-		{/each}
-	</div> -->
+
 	<Slider />
 </section>
 
