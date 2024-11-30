@@ -17,6 +17,7 @@
 	import booki from '../Assets/png-gralypho/booki.png';
 	import flag from '../Assets/png-gralypho/flag.png';
 	import resa from '../Assets/png-gralypho/resa.png';
+	import Slider from '../Components/Slider.svelte';
 
 	let portfolioTab = [
 		{
@@ -109,29 +110,35 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
-		<h2> Découvrez l'étendue de nos compétences <br> <span>Sites Web, Applis, programmation.</span></h2>
-		<h3>
+		<h2>
+			Découvrez l'étendue de nos compétences ! <br /> <span>Sites Web & Applications</span>
+		</h2>
+		<!-- <h3>
 			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
 			les requêtes API, les jeux, les composants (...) .
-		</h3>
+		</h3> -->
 	</div>
-	<div class="wrapper-portfolio">
+
+	<!-- <div class="wrapper-portfolio">
 		{#each portfolioTab as item}
 			<PortfolioCards titre={item.title} texte={item.text} lien={item.lien} type={item.type} />
 		{/each}
-	</div>
+	</div> -->
+	<Slider />
 </section>
 
 <style>
 	.G-section {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
 		height: auto;
 		width: 100%;
 		font-size: 16px;
 		background-color: var(--whiteGrey);
-		padding: 60px;
+		padding: 20px;
 	}
 	.wrapper-text {
 		grid-column: 2/12;
@@ -165,7 +172,7 @@
 		font-weight: 500;
 		font-size: 1.5rem;
 	}
-	.G-section h3 {
+	/* .G-section h3 {
 		font-family: poppins;
 		font-size: var(--m);
 		color: var(--primary);
@@ -177,57 +184,20 @@
 		margin: 0 auto;
 		margin-top: 10px;
 		line-height: 25px;
-	}
+	} */
 
-	.wrapper-portfolio {
+	/* .wrapper-portfolio {
 		grid-column: 2/12;
 		grid-row: 2;
 		display: flex;
-		/* flex-direction: column; */
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		margin-top: 100px;
 		margin-bottom: 100px;
 		gap: 15px;
-	}
+	} */
 	:global(.wrapper-portfolio) {
 		flex: 1 1 10%;
 	}
-
-	/* @media screen and (min-width: 1400px) and (max-width: 2500px) {
-		:global(.card-portfolio) {
-			flex: 1 1 50%;
-		}
-	}
-
-	@media screen and (min-width: 1200px) and (max-width: 1400px) {
-		:global(.card-portfolio) {
-			flex: 1 1 20%;
-		}
-	}
-
-	@media screen and (min-width: 992px) and (max-width: 1200px) {
-		:global(.card-portfolio) {
-			flex: 1 1 20%;
-		}
-	}
-
-	@media screen and (min-width: 768px) and (max-width: 992px) {
-		:global(.card-portfolio) {
-			flex: 1 1 20%;
-		}
-	}
-
-	@media screen and (min-width: 576px) and (max-width: 767px) {
-		:global(.card-portfolio) {
-			flex: 1 1 20%;
-		}
-	}
-
-	@media screen and (min-width: 300px) and (max-width: 575px) {
-		:global(.card-portfolio) {
-			flex: 1 1 5%;
-		}
-	} */
 </style>

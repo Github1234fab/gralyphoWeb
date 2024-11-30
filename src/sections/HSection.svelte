@@ -98,13 +98,14 @@
 
 
 	.autoText {
-		color: pink;
+		color: var(--whiteGrey);
 		font-weight: 400;
 		font-size: 1.2rem;
 		font-family: var(--Dosis);
 		justify-self: center;
 		align-self: center;
 		text-align: center;
+		margin-top: 4px;
 	}
 	.H-section h2 {
 		font-family: poppins;

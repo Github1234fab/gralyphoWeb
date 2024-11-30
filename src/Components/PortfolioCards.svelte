@@ -156,44 +156,5 @@
 			transform: translateY(0);
 		}
 	}
-	@media screen and (max-width: 784px) {
-		/* .card-portfolio {
-			min-width: 200px;
-		} */
 
-		.card-content {
-			padding: 20px;
-		}
-		.card-content::after {
-			display: none;
-		}
-		.card-content::before {
-			z-index: 2;
-			position: absolute;
-			content: '\f144';
-			bottom: 0;
-			right: 0px;
-			left: 0px;
-			width: 100px;
-			top: -1px;
-			transform: translateX(200px);
-			background: var(--cta);
-			transition: 0.6s ease-in-out;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			align-content: center;
-			font-family: 'Font Awesome 5 Free';
-			text-align: center;
-			font-weight: 900;
-			font-size: 1.5em;
-			color: white;
-			transition: 0.9s ease-in-out;
-			box-shadow: 0px 0px 20px 20px black;
-			display: block;
-		}
-		.wrapper-portfolio h3 {
-			margin-top: 0px;
-		}
-	}
 </style>
