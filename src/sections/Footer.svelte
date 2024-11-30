@@ -103,7 +103,7 @@
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 35px;
-		background-color: var(--primary);
+		background-color: var(--cta);
 		border-radius: 10px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;

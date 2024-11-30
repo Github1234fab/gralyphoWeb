@@ -4,8 +4,8 @@
 	import iconApplication from '../Assets/icon-application.svg';
 	import iconPalette from '../Assets/icon-palette.svg';
 	import iconSatelit from '../Assets/icon-satelit.svg';
-		import IconFB from '../Assets/icon-fb.svg';
-				import IconStrategy from '../Assets/icon-strategy.svg';
+	import IconFB from '../Assets/icon-fb.svg';
+	import IconStrategy from '../Assets/icon-strategy.svg';
 	import { bounceIn } from 'svelte/easing';
 
 	const servicesTab = [
@@ -13,7 +13,7 @@
 			title: 'Sites Web',
 			lien: '/Sites',
 			icon: IconWifi,
-			p: "Nous créons les sites Web qui vous ressemblent et répondent à vos besoins !"
+			p: 'Nous créons les sites Web qui vous ressemblent et répondent à vos besoins !'
 		},
 		{
 			title: 'Applications',
@@ -36,14 +36,14 @@
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/Marketing',
-				icon: IconFB,
+			icon: IconFB,
 
 			p: 'Nous gérons vos réseaux pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/Composants',
-		icon: IconStrategy,
+			icon: IconStrategy,
 			p: "Avoir un site Web c'est bien et avec une stratégie, c'est encore mieux."
 		}
 	];
@@ -141,7 +141,7 @@
 		margin-left: 0px;
 		text-align: center;
 		line-height: 30px;
-		width: 100%;
+		max-width: 80%;
 		margin: 50px auto;
 	}
 	.E-section h3 span {

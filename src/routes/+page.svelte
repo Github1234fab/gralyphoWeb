@@ -25,11 +25,12 @@
 <main in:fade={{ duration: 2000 }}>
 	<!-- <Mouse /> -->
 	<HSection />
-	<Difference />
-	
 	<section id="sectionE">
 		<ESection />
 	</section>
+	<Difference />
+	
+	
 	<!-- <BannerTwo /> -->
 
 <BannerOne />

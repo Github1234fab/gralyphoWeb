@@ -153,7 +153,7 @@
 		border: none;
 		background-color: transparent;
 		color: var(--whiteGrey);
-		border: var(--whiteGrey) 1px solid;
+		border: var(--cta) 1px solid;
 		font-family: epilogue;
 		font-weight: 400;
 		padding: 20px 20px;

@@ -1,13 +1,25 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
 	import ButtonCta from '../Components/ButtonCTA.svelte';
+	import video from '../Assets/png-gralypho/videocode.mp4';
 </script>
 
 <section class="difference">
 	<h1><span>Gralypho</span></h1>
-	<h2>Le Web, <br> c'est Notre Métier.</h2>
+	<h2>Le <span>Web</span>, <br /> c'est notre métier.</h2>
 
-	<div class="img"></div>
+	<!-- <div class="img"></div> -->
+	<video  class="video" autoplay muted loop>
+		<source src={video} type="video/mp4" />
+		<track
+			kind="captions"
+			src="path/to/captions.vtt"
+			srclang="en"
+			label="English subtitles"
+			default
+		/>
+		Votre navigateur ne supporte pas l'élément vidéo.
+	</video>
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
@@ -68,16 +80,14 @@
 		min-height: auto;
 		font-size: 16px;
 		background-color: var(--whiteGrey);
-	background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140,0.03) 0%, rgba(140, 140, 140,0.03) 25%,transparent 25%, transparent 100%),radial-gradient(circle at 28% 63%, rgba(143, 143, 143,0.03) 0%, rgba(143, 143, 143,0.03) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 81% 56%, rgba(65, 65, 65,0.03) 0%, rgba(65, 65, 65,0.03) 12%,transparent 12%, transparent 100%),radial-gradient(circle at 26% 48%, rgba(60, 60, 60,0.03) 0%, rgba(60, 60, 60,0.03) 6%,transparent 6%, transparent 100%),radial-gradient(circle at 97% 17%, rgba(150, 150, 150,0.03) 0%, rgba(150, 150, 150,0.03) 56%,transparent 56%, transparent 100%),radial-gradient(circle at 50% 100%, rgba(25, 25, 25,0.03) 0%, rgba(25, 25, 25,0.03) 36%,transparent 36%, transparent 100%),radial-gradient(circle at 55% 52%, rgba(69, 69, 69,0.03) 0%, rgba(69, 69, 69,0.03) 6%,transparent 6%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+		z-index: 0;
+		position: relative;
+		padding: 20px;
 	}
-	.img {
-		background-image: url('../Assets/png-gralypho/photoDev.jpg');
-		background-size: cover;
-		background-position: center;
-		height: 400px;
-		min-width: 60%;
-		margin: 40px auto;
-		border-radius: 15px;
+	.video {
+		width: 100%;
+		height: 100%;
+		margin-top: 30px;
 	}
 
 	.difference h1 {
@@ -101,7 +111,13 @@
 		text-align: center;
 		line-height: 40px;
 		margin-top: 30px;
-	
+	}
+	.difference h2 span {
+		color: var(--green);
+		font-weight: bolder;
+		font-size: 3rem;
+		font-family: var(--Architects);
+		rotate: -5deg;
 	}
 
 	.wrapper-difference__title {
@@ -110,16 +126,15 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		text-align: left;
+		text-align: center;
 	}
 	.wrapper-text-difference {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: left;
-		justify-content: left;
+		align-items: center;
+		justify-content: center;
 		padding: 40px;
-	
 	}
 	.paragraph {
 		font-family: var(--Poppins);
@@ -127,8 +142,8 @@
 		color: var(--primary);
 		font-weight: 700;
 		letter-spacing: -0.02em;
-		text-align: left;
-		align-self: flex-start;
+		text-align: center;
+		align-self: center;
 		margin-top: 40px;
 	}
 	.answer {
@@ -137,8 +152,8 @@
 		color: var(--primary);
 		font-weight: 200;
 		letter-spacing: -0.02em;
-		text-align: left;
-		align-self: flex-start;
+		text-align: center;
+		align-self: center;
 		margin-top: 40px;
 	}
 
@@ -185,11 +200,5 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-	@media screen and (max-width: 768px) {
-	
-		.img {
-			height: 300px;
-			min-width: 80%;
-		}
-	}
+
 </style>

@@ -22,14 +22,13 @@
 		const cards = document.querySelectorAll('.card-services');
 		cards.forEach((el) => {
 			gsap.to(el, {
-				y: 0,
+				x: 0,
+				opacity: 1,
 				ease: 'ease-in-out',
-				scrub: 5,
 				scrollTrigger: {
 					trigger: el,
-					start: 'top 1000px',
-					end: '-1000px',
-					scrub: 5
+					start: 'top 150%',
+					scrub: true
 				}
 			});
 		});
@@ -44,7 +43,7 @@
 >
 	<div class="wrapper-text-service">
 		<div class="wrapper-icon">
-			<img class ="icon " src={icon} alt="" />
+			<img class="icon" src={icon} alt="" />
 		</div>
 		<h2>{title}</h2>
 		<p class="p">{p}</p>
@@ -53,19 +52,19 @@
 </button>
 
 <style>
-	button {
-		border: 1px solid rgb(93, 93, 93);
-	}
 	.card-services {
-		transform: translateY(300px);
+		transform: translateX(200px) ;
+		opacity: 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: var(--primary);
-		padding: 20px;
-		border-radius: 12px;
+		background-color: transparent;
+		padding: 40px;
 		min-height: 400px;
-		/* background: url('../Assets/png-gralypho/bgSix.png'), var(--primary); */
+		border-top: 1px solid var(--whiteGrey);
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
 	}
 
 	.wrapper-text-service {
@@ -78,7 +77,7 @@
 	.card-services h2 {
 		font-family: var(--Geologica);
 		font-weight: 600;
-		color: var(--cta);
+		color: var(--whiteGrey);
 		font-size: 1.4rem;
 		text-align: center;
 		letter-spacing: -0.4px;
@@ -98,11 +97,10 @@
 	}
 	.lien {
 		font-family: 'red hat display';
-		border: 1px solid white;
+		border: 3px solid white;
 		min-width: 130px;
 		font-weight: 500;
 		color: var(--whiteGrey);
-		/* background-color: rgb(194, 79, 160); */
 		z-index: 44;
 		padding: 13px 20px;
 		border-radius: 10px;
@@ -111,22 +109,7 @@
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	/* .icon {
-		display: flex;
-		align-self: center;
-		justify-self: center;
-		margin: auto;
-		height: 40px;
-		width: 40px;
-		grid-column: 2;
-		grid-row: 1;
-		transition: 0.7s ease-in-out;
-		color: var(--CTA2);
-		z-index: 2;
-	}
-	.icon:hover {
-		animation: bounce 0.4s ease-in-out;
-	} */
+
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);

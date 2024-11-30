@@ -93,9 +93,9 @@
 
 <style>
 	.slider {
-		width: 100%;
+		width: 85%;
 		border-radius: 5px;
-		max-width: 800px;
+		/* max-width: 800px; */
 		overflow: hidden;
 		margin: 40px auto;
 		position: relative;
@@ -104,7 +104,16 @@
 
 	.slides {
 		display: flex;
-		transition: transform 0.5s ease-in-out;
+		transition: fade 0.5s ease-in-out;
+	}
+
+	@keyframes fade {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
 	}
 
 	.slide {
@@ -129,22 +138,29 @@
 	}
 
 	button {
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: transparent;
 		border: none;
 		color: white;
 		padding: 10px;
 		cursor: pointer;
 		transition: background-color 0.3s;
+		width: 100px;
+		font-size: 2rem;
+		font-weight: bolder;
+	}
+	button:hover {
+		background-color: transparent;
+		color: var(--cta);
 	}
 
 	button:hover {
-		background-color: rgba(0, 0, 0, 0.8);
+		background-color: transparent;
 	}
 
 	.slide a {
 		font-family: var(--Epilogue);
 		font-weight: 300;
-		padding: 10px;
+		padding: 20px;
 		letter-spacing: -0.01em;
 		font-size: 1rem;
 		text-decoration: none;
@@ -156,7 +172,9 @@
 		justify-content: center;
 	}
 	.slide a:hover {
-		background-color: var(--cta);
+		background-color: var(--green);
+		color: var(--primary);
+		transition: 0.5s ease-in-out;
 	}
 
 	@media screen and (max-width: 768px) {
