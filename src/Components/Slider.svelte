@@ -97,7 +97,7 @@
 		border-radius: 5px;
 		/* max-width: 800px; */
 		overflow: hidden;
-		margin: 40px auto;
+		margin: 60px auto;
 		position: relative;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 	}

@@ -1,7 +1,7 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
 	import ButtonCta from '../Components/ButtonCTA.svelte';
-	import video from '../Assets/png-gralypho/videocode.mp4';
+	import video from '../Assets/png-gralypho/videocodecomp.mp4';
 </script>
 
 <section class="difference">
