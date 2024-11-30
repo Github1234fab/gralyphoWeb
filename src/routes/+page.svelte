@@ -29,11 +29,10 @@
 		<ESection />
 	</section>
 	<Difference />
-	
-	
+
 	<!-- <BannerTwo /> -->
 
-<BannerOne />
+	<BannerOne />
 	<GSection />
 	<BannerThree />
 	<!-- <JSection /> -->

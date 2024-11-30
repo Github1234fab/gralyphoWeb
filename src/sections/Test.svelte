@@ -13,7 +13,6 @@
 <Header />
 
 <section class="H-section">
-	<div class="test"></div>
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="title">Gralypho</h1>
@@ -32,9 +31,8 @@
 <style>
 	.H-section {
 		display: flex;
-		min-height: 700px;
+		min-height: 100vh;
 		font-size: 16px;
-		background-color: blue;
 		background-image: url('/fusee.jpg');
 		background-color: red;
 		background-repeat: no-repeat;
@@ -42,6 +40,10 @@
 		background-size: cover;
 		z-index: 0;
 		position: relative;
+		pointer-events: none;
+	}
+	.H-section:hover {
+		opacity: 0.5;
 	}
 
 	.wrapper-text {
@@ -53,13 +55,16 @@
 		max-height: auto;
 		padding: 20px;
 		border: 1px solid whitesmoke;
-		/* background: linear-gradient(rgba(161, 161, 231, 0.436), rgba(2, 2, 59, 0.436)); */
+		background: linear-gradient(rgba(161, 161, 231, 0.436), rgba(2, 2, 59, 0.436));
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 		border-radius: 20px;
 		z-index: 9;
+	}
+	.wrapper-text:hover {
+		border-radius: 30px;
 	}
 
 	.title {
@@ -92,7 +97,6 @@
 		align-self: center;
 		text-align: center;
 		margin-top: 30px;
-		z-index: 10;
 	}
 
 	.wrapper-contact {
