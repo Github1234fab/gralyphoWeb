@@ -64,7 +64,7 @@
 	.wrapper-text {
 		position: absolute;
 		top: 50%;
-		left: 74%;
+		left: 80%;
 		transform: translate(-50%, -50%);
 		width: 30%;
 		max-height: auto;
