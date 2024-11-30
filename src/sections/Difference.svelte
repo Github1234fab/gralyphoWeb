@@ -9,17 +9,10 @@
 	<h2>Le <span>Web</span>, <br /> c'est notre métier.</h2>
 
 	<!-- <div class="img"></div> -->
-	<video  class="video" autoplay muted loop>
-		<source src={video} type="video/mp4" />
-		<track
-			kind="captions"
-			src="path/to/captions.vtt"
-			srclang="en"
-			label="English subtitles"
-			default
-		/>
-		Votre navigateur ne supporte pas l'élément vidéo.
-	</video>
+<video class="video" autoplay muted loop>
+  <source src={video} type="video/mp4" />
+  Votre navigateur ne supporte pas l'élément vidéo.
+</video>
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
