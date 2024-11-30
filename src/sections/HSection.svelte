@@ -52,7 +52,7 @@
 		min-height: 100vh;
 		font-size: 16px;
 		opacity: 1;
-		background-image: url('/fuseeguyane.png');
+		background-image: url('/fusee.jpg');
 		background-repeat: no-repeat;
 		background-position: top;
 		background-size: cover;
