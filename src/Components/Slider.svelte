@@ -95,11 +95,9 @@
 	.slider {
 		width: 85%;
 		border-radius: 5px;
-		/* max-width: 800px; */
 		overflow: hidden;
 		margin: 60px auto;
 		position: relative;
-		/* box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35); */
 	}
 
 	.slides {
@@ -181,12 +179,17 @@
 		.slide a {
 			max-width: 25%;
 		}
-		.slider {
-			width: 100%;
-			height: 100%;
-			border-radius: 5px;
-			margin: 40px;
-		}
+		.slider {	
+		width: 100%;
+		border-radius: 5px;
+		height: auto;
+		/* max-width: 800px; */
+		overflow: hidden;
+		margin: 120px auto;
+		position: relative;
+		/* box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35); */
+	}
+		
 		.img {
 			width: 100%;
 			height: auto;

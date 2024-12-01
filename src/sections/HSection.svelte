@@ -17,7 +17,7 @@
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="title">Gralypho</h1>
-			<h2 class="subtitle">Un business qui décolle, <br />ça passe rarement inaperçu !</h2>
+			<h2 class="subtitle">Un business qui décolle, <br />ça ne passe jamais inaperçu !</h2>
 		</div>
 		<!-- <div class="autoText">
 			<AutoText />
@@ -124,12 +124,24 @@
 	@media screen and (max-width: 1156px) {
 		.wrapper-text {
 			min-width: 40%;
-			top: 80%;
-			left: 50%;
-			background: linear-gradient(rgba(52, 52, 93, 0.436), rgba(1, 1, 40, 0.436));
-			border: none;
+			top: 74%;
+			left: 65%;
+			background: linear-gradient(to top, rgba(3, 3, 40, 0.679), rgba(255, 255, 255, 0));
+			border: 1px solid white;
 			max-height: 300px;
-	}
+			z-index: 99;
+		}
+		.H-section::after {
+			position: absolute;
+			content: '';
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			/* background: linear-gradient(to top, rgba(17, 17, 17, 0.572) 1%, rgba(0, 0, 255, 0)); */
+			height: 100%;
+			width: 100%;
+			z-index: 5;
+		}
 		.title {
 			color: var(--whiteGrey);
 			font-size: 3rem;
@@ -144,7 +156,7 @@
 
 		.subtitle {
 			color: var(--whiteGrey);
-			font-size: 1.2rem;
+			font-size: 1.1rem;
 			text-align: center;
 			font-family: var(--Geologica);
 			font-weight: 300;
@@ -152,7 +164,7 @@
 			margin-top: 0px;
 		}
 		.wrapper-contact {
-			margin-top:20px;
+			margin-top: 20px;
 		}
 		/* .autoText {
 			margin-top: 0px;

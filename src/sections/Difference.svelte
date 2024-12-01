@@ -160,7 +160,7 @@
 		line-height: 1.5em;
 		width: 100%;
 		padding: 0px;
-		text-align: left;
+		text-align: center;
 	}
 	.difference p span {
 		font-family: epilogue;
