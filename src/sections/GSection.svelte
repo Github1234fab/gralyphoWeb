@@ -111,12 +111,9 @@
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>
-			Découvrez notre portfolio et l'étendue de nos compétences ! <br /> <span>Sites Web & Applications</span>
+			Découvrez notre portfolio et la diversité de nos compétences ! <br /> 
 		</h2>
-		<!-- <h3>
-			Découvrez vite tout le potentiel du digital à travers les sites webs animés, les applications,
-			les requêtes API, les jeux, les composants (...) .
-		</h3> -->
+	
 	</div>
 
 

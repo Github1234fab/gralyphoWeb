@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="bloc">
-		<h1 class="title">Automatisez votre outil digital.</h1>
+		<h1 class="title">Un outil digital, c'est comme un robot. <br>Il travaille pour vous <span>24/7 </span>!</h1>
 		<div class="wrapper">
 			<div class="disc2"></div>
 		</div>
@@ -114,6 +114,10 @@
 		padding: 20px;
 		text-align: center;
 		color: white;
+		font-size: var(--l);
+	}
+	.title span {
+		color: var(--green);
 	}
 	
 	.bloc p {
@@ -128,6 +132,7 @@
 		color: white;
 		max-width: 70%;
 		line-height: 25px;
+		font-size: 1.2rem;
 		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
@@ -168,5 +173,9 @@
 		.wrapper {
 			width: 100%;
 		}	
+		.bloc p{
+			max-width: 100%;
+			line-height: 30px;
+		}
 	}
 </style>

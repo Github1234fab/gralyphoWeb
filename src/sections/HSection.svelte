@@ -19,9 +19,9 @@
 			<h1 class="title">Gralypho</h1>
 			<h2 class="subtitle">Un business qui décolle, <br />ça ne passe jamais inaperçu !</h2>
 		</div>
-		<div class="autoText">
+		<!-- <div class="autoText">
 			<AutoText />
-		</div>
+		</div> -->
 
 		<div class="wrapper-contact">
 			<ButtonCta />
@@ -34,8 +34,7 @@
 		display: flex;
 		min-height: 700px;
 		font-size: 16px;
-		background-image: url('/fusee.jpg');
-		background-color: red;
+		background-image: url('../assets/png-gralypho/fusee.jpg');
 		background-repeat: no-repeat;
 		background-position: top;
 		background-size: cover;
@@ -82,7 +81,7 @@
 		margin-top: 20px;
 	}
 
-	.autoText {
+	/* .autoText {
 		color: var(--green);
 		font-weight: 500;
 		font-size: 1.2rem;
@@ -92,7 +91,7 @@
 		text-align: center;
 		margin-top: 30px;
 		z-index: 10;
-	}
+	} */
 
 	.wrapper-contact {
 		display: flex;
@@ -122,34 +121,41 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1156px) {
 		.wrapper-text {
 			width: 70%;
-			top: 70%;
+			top: 80%;
 			left: 50%;
-			background: linear-gradient(rgba(145, 145, 216, 0.436), rgba(2, 2, 32, 0.436)); 
+			background: linear-gradient(rgba(52, 52, 93, 0.436), rgba(1, 1, 40, 0.436));
 			border: none;
-		}
+			max-height: 300px;
+	}
 		.title {
-		color: var(--whiteGrey);
-		font-size: 3rem;
-		text-align: center;
-		font-family: var(--Geologica);
-		font-weight: 900;
-		text-transform: capitalize;
-		letter-spacing: -2px;
-		position: relative;
-	}
+			color: var(--whiteGrey);
+			font-size: 3rem;
+			text-align: center;
+			font-family: var(--Geologica);
+			font-weight: 900;
+			text-transform: capitalize;
+			letter-spacing: -2px;
+			position: relative;
+			margin-top: -10px;
+		}
 
-	.subtitle {
-		color: var(--whiteGrey);
-		font-size: 1.2rem;
-		text-align: center;
-		font-family: var(--Geologica);
-		font-weight: 300;
-		letter-spacing: -0.5px;
-		margin-top: 20px;
-	}
-
+		.subtitle {
+			color: var(--whiteGrey);
+			font-size: 1.2rem;
+			text-align: center;
+			font-family: var(--Geologica);
+			font-weight: 300;
+			letter-spacing: -0.5px;
+			margin-top: 0px;
+		}
+		.wrapper-contact {
+			margin-top:20px;
+		}
+		/* .autoText {
+			margin-top: 0px;
+		} */
 	}
 </style>

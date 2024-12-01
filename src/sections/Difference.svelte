@@ -9,10 +9,10 @@
 	<h2>Le <span>Web</span>, <br /> c'est notre métier.</h2>
 
 	<!-- <div class="img"></div> -->
-<video class="video" autoplay muted loop>
-  <source src={video} type="video/mp4" />
-  Votre navigateur ne supporte pas l'élément vidéo.
-</video>
+	<video class="video" autoplay muted loop>
+		<source src={video} type="video/mp4" />
+		Votre navigateur ne supporte pas l'élément vidéo.
+	</video>
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
@@ -76,6 +76,7 @@
 		z-index: 0;
 		position: relative;
 		padding: 20px;
+		background-image: radial-gradient(circle at center center, transparent,rgb(255,255,255)),linear-gradient(309deg, rgba(90, 90, 90,0.05) 0%, rgba(90, 90, 90,0.05) 50%,rgba(206, 206, 206,0.05) 50%, rgba(206, 206, 206,0.05) 100%),linear-gradient(39deg, rgba(13, 13, 13,0.05) 0%, rgba(13, 13, 13,0.05) 50%,rgba(189, 189, 189,0.05) 50%, rgba(189, 189, 189,0.05) 100%),linear-gradient(144deg, rgba(249, 249, 249,0.05) 0%, rgba(249, 249, 249,0.05) 50%,rgba(111, 111, 111,0.05) 50%, rgba(111, 111, 111,0.05) 100%),linear-gradient(166deg, rgba(231, 231, 231,0.05) 0%, rgba(231, 231, 231,0.05) 50%,rgba(220, 220, 220,0.05) 50%, rgba(220, 220, 220,0.05) 100%),linear-gradient(212deg, rgba(80, 80, 80,0.05) 0%, rgba(80, 80, 80,0.05) 50%,rgba(243, 243, 243,0.05) 50%, rgba(243, 243, 243,0.05) 100%),radial-gradient(circle at center center, hsl(107,19%,100%),hsl(107,19%,100%));
 	}
 	.video {
 		width: 100%;
@@ -103,7 +104,7 @@
 		letter-spacing: -1px;
 		text-align: center;
 		line-height: 40px;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.difference h2 span {
 		color: var(--green);
@@ -193,5 +194,10 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-
+	@media screen and (max-width: 768px) {
+		.video {
+			width: 150%;
+			margin-top: 30px;
+		}
+	}
 </style>

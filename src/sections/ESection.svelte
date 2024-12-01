@@ -6,6 +6,7 @@
 	import iconSatelit from '../Assets/icon-satelit.svg';
 	import IconFB from '../Assets/icon-fb.svg';
 	import IconStrategy from '../Assets/icon-strategy.svg';
+		import AutoText from '../Components/AutoText.svelte';
 	import { bounceIn } from 'svelte/easing';
 
 	const servicesTab = [
@@ -50,19 +51,18 @@
 </script>
 
 <section class="E-section">
-	<h1>Notre proposition</h1>
+	<!-- <h1>Notre proposition</h1> -->
 
 	<div class="wrapper-text">
 		<h2>Nos services</h2>
+		<div class="autoText">	<AutoText/></div>
+	
 		<h3>
-			Nous souhaitons créer le site internet <span>qui vous ressemble</span>, au plus près de votre
-			identité et de vos exigences. <br />Nous nous occupons également de la
-			<span>création de votre identité graphique</span>
-			, de votre logo, de votre design, de la création de vos contenus et de la gestion de vos
-			<span>réseaux sociaux. </span><br />
-			Nous ne sommes pas dépendant des templates de sites Web, nous créons des
-			<span>sites Web sur mesure</span>
-			et la seule limite dans le processus de création est votre <span>imagination!</span>
+			Nous répondons à vos besoins avec des produits digitaux <span>adaptés à votre business</span>, au plus près de votre
+			identité et de vos exigences. <br />Nous vous accompagnons
+			<span>sur toutes les étapes de votre projet.</span>
+			, de la conception à la livraison.
+			
 		</h3>
 	</div>
 
@@ -105,7 +105,7 @@
 		margin-top: -20px;
 	}
 
-	.E-section h1 {
+	/* .E-section h1 {
 		grid-column: 2/ 12;
 		grid-row: 1;
 		font-family: var(--Geologica);
@@ -118,7 +118,19 @@
 		margin-left: 0px;
 		margin-bottom: 20px;
 		text-align: center;
+	} */
+	.autoText {
+		color: var(--green);
+		font-weight: 500;
+		font-size: 1.2rem;
+		font-family: var(--Dosis);
+		justify-self: center;
+		align-self: center;
+		text-align: center;
+		margin-top: 30px;
+		z-index: 10;
 	}
+
 	.E-section h2 {
 		font-family: var(--Geologica);
 		font-size: var(--l);
@@ -128,7 +140,7 @@
 		margin-left: 0px;
 		text-align: center;
 		line-height: 25px;
-		margin-top: 20px;
+		margin-top: 100px;
 		min-width: 100%;
 	}
 
@@ -139,9 +151,10 @@
 		font-weight: 300;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
-		text-align: center;
+		text-align: justify;
+		text-justify: inter-word;
 		line-height: 30px;
-		max-width: 80%;
+		max-width: 90%;
 		margin: 50px auto;
 	}
 	.E-section h3 span {
