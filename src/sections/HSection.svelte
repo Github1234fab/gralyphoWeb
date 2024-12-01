@@ -34,7 +34,6 @@
 		display: flex;
 		min-height: 700px;
 		font-size: 16px;
-		background-color: blue;
 		background-image: url('/fusee.jpg');
 		background-color: red;
 		background-repeat: no-repeat;
@@ -121,5 +120,36 @@
 		100% {
 			transform: scale(1) translateY(0);
 		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.wrapper-text {
+			width: 70%;
+			top: 70%;
+			left: 50%;
+			background: linear-gradient(rgba(145, 145, 216, 0.436), rgba(2, 2, 32, 0.436)); 
+			border: none;
+		}
+		.title {
+		color: var(--whiteGrey);
+		font-size: 3rem;
+		text-align: center;
+		font-family: var(--Geologica);
+		font-weight: 900;
+		text-transform: capitalize;
+		letter-spacing: -2px;
+		position: relative;
+	}
+
+	.subtitle {
+		color: var(--whiteGrey);
+		font-size: 1.2rem;
+		text-align: center;
+		font-family: var(--Geologica);
+		font-weight: 300;
+		letter-spacing: -0.5px;
+		margin-top: 20px;
+	}
+
 	}
 </style>
