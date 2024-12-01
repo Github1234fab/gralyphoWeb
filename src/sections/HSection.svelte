@@ -17,7 +17,7 @@
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
 			<h1 class="title">Gralypho</h1>
-			<h2 class="subtitle">Un business qui décolle, <br />ça ne passe jamais inaperçu !</h2>
+			<h2 class="subtitle">Un business qui décolle, <br />ça passe rarement inaperçu !</h2>
 		</div>
 		<!-- <div class="autoText">
 			<AutoText />
@@ -47,7 +47,7 @@
 		top: 50%;
 		left: 80%;
 		transform: translate(-50%, -50%);
-		width: 30%;
+		min-width: 30%;
 		max-height: auto;
 		padding: 20px;
 		border: 1px solid whitesmoke;
@@ -123,7 +123,7 @@
 
 	@media screen and (max-width: 1156px) {
 		.wrapper-text {
-			width: 70%;
+			min-width: 40%;
 			top: 80%;
 			left: 50%;
 			background: linear-gradient(rgba(52, 52, 93, 0.436), rgba(1, 1, 40, 0.436));
