@@ -34,7 +34,7 @@
 		display: flex;
 		min-height: 700px;
 		font-size: 16px;
-		background-image: url('../assets/png-gralypho/fusee.jpg');
+		background-image: url('/fusee.jpg');
 		background-repeat: no-repeat;
 		background-position: top;
 		background-size: cover;
