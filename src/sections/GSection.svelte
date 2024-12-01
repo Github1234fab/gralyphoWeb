@@ -111,7 +111,7 @@
 	<div class="wrapper-text">
 		<h1>Nos <span>réalisations </span></h1>
 		<h2>
-			Découvrez notre portfolio et la diversité de nos compétences ! <br /> 
+			Découvrez la diversité de nos compétences à travers notre portfolio ! <br /> 
 		</h2>
 	
 	</div>
