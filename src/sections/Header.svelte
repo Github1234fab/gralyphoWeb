@@ -16,7 +16,7 @@
 		<a href="/" class="logo"><Logo /></a>
 
 		<!-- <Engrenage/> -->
-		<h1 class="title">Création de site Web & Application</h1>
+		<!-- <h1 class="title">Création de site Web & Application</h1> -->
 		<button class="burger-menu" aria-label="Menu" on:click={display}>
 			<i class="fa-solid fa-bars burger" class:visible={toggle}></i>
 		</button>
@@ -77,13 +77,14 @@
 		margin-bottom: 5px;
 	}
 
-	.title {
+	/* .title {
 		font-family: var(--Red);
 		font-size: 0.8em;
 		font-weight: 500;
 		color:  var(--whiteGrey);
-		margin-top: 0px;
-	}
+		margin-top: 0 auto;
+		text-align: center;
+	} */
 	.span {
 		grid-column: 2/12;
 		grid-row: 2;
@@ -168,10 +169,10 @@
 			align-items: center;
 			gap: 10px;
 		}
-		.title {
+		/* .title {
 			width: 0px;
 			display: none;
-		}
+		} */
 		.navigation {
 			font-size: 16px;
 		}

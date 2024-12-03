@@ -16,8 +16,8 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<div class="wrapper-h1">
-			<h1 class="title">Gralypho</h1>
-			<h2 class="subtitle">Un business qui décolle, <br />ça ne passe jamais inaperçu !</h2>
+			<!-- <h1 class="title">Gralypho</h1> -->
+			<h2 class="subtitle">Un business qui décolle, <br />ça passe rarement inaperçu !</h2>
 		</div>
 		<!-- <div class="autoText">
 			<AutoText />
@@ -49,7 +49,7 @@
 		transform: translate(-50%, -50%);
 		min-width: 30%;
 		max-height: auto;
-		padding: 20px;
+		padding: 10px 10px;
 		border: 1px solid whitesmoke;
 		/* background: linear-gradient(rgba(161, 161, 231, 0.436), rgba(2, 2, 59, 0.436)); */
 		display: flex;
@@ -60,7 +60,7 @@
 		z-index: 9;
 	}
 
-	.title {
+	/* .title {
 		color: var(--whiteGrey);
 		font-size: 4rem;
 		text-align: center;
@@ -69,7 +69,7 @@
 		text-transform: capitalize;
 		letter-spacing: -2px;
 		position: relative;
-	}
+	} */
 
 	.subtitle {
 		color: var(--whiteGrey);
@@ -97,7 +97,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0px;
-		margin-top: 60px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 		align-items: baseline;
 		justify-content: flex-start;
 		z-index: 10;
@@ -123,10 +124,10 @@
 
 	@media screen and (max-width: 1156px) {
 		.wrapper-text {
-			min-width: 40%;
-			top: 74%;
-			left: 65%;
-			background: linear-gradient(to top, rgba(3, 3, 40, 0.679), rgba(255, 255, 255, 0));
+			min-width: 30%;
+			top: 54%;
+			left: 75%;
+			/* background: linear-gradient(to top, rgba(3, 3, 40, 0.679), rgba(255, 255, 255, 0)); */
 			border: 1px solid white;
 			max-height: 300px;
 			z-index: 99;
@@ -142,26 +143,55 @@
 			width: 100%;
 			z-index: 5;
 		}
-		.title {
+
+		.subtitle {
 			color: var(--whiteGrey);
-			font-size: 3rem;
+			font-size: 1.5rem;
 			text-align: center;
 			font-family: var(--Geologica);
-			font-weight: 900;
-			text-transform: capitalize;
-			letter-spacing: -2px;
-			position: relative;
-			margin-top: -10px;
+			font-weight: 200;
+			letter-spacing: -0.5px;
+			margin-top: 0px;
+			padding: 10px 0px;
+		}
+		.wrapper-contact {
+			margin-top: 20px;
+		}
+		/* .autoText {
+			margin-top: 0px;
+		} */
+	}
+	@media screen and (max-width: 768px) {
+		.wrapper-text {
+			min-width: 40%;
+			top: 54%;
+			left: 75%;
+			/* background: linear-gradient(to top, rgba(3, 3, 40, 0.679), rgba(255, 255, 255, 0)); */
+			border: 1px solid white;
+			max-height: 300px;
+			z-index: 99;
+		}
+		.H-section::after {
+			position: absolute;
+			content: '';
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			/* background: linear-gradient(to top, rgba(17, 17, 17, 0.572) 1%, rgba(0, 0, 255, 0)); */
+			height: 100%;
+			width: 100%;
+			z-index: 5;
 		}
 
 		.subtitle {
 			color: var(--whiteGrey);
-			font-size: 1.1rem;
+			font-size: 1.5rem;
 			text-align: center;
 			font-family: var(--Geologica);
-			font-weight: 300;
+			font-weight: 200;
 			letter-spacing: -0.5px;
 			margin-top: 0px;
+			padding: 10px 0px;
 		}
 		.wrapper-contact {
 			margin-top: 20px;

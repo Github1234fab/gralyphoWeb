@@ -1,5 +1,5 @@
 <div class="rect">
-	<h1 class="title">Gralypho</h1>
+	<h1 class="title">Gralypho - Communication</h1>
 	<h2 class="subtitle">Agence Web</h2>
 </div>
 
@@ -7,13 +7,13 @@
 	.rect {
 		display: flex;
 		flex-direction: column;
-		width: 130px;
+		min-width: 20%;
 		height: 40px;
 		font-weight: 600;
 		justify-content: center;
 		align-items: center;
 		border-radius: 5px;
-		margin-left: -30px;
+		margin-left: 20px;
 	}
 	.title {
 		font-family: var(--Red);
@@ -27,16 +27,16 @@
 		animation: bounce 0.4s ease-in-out;
 	}
 	.subtitle {
-    		font-family: var(--Architects);
+		font-family: var(--Architects);
 		color: var(--green);
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-weight: 600;
 		border-radius: 4px;
-		margin-top: -3px;
-    rotate : -5deg;
+		margin-top: 0px;
+		rotate: -5deg;
 	}
 
 	@keyframes bounce {

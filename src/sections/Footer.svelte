@@ -75,12 +75,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin: auto;
+		margin: 0 auto;
 		margin-top: 30px;
 	}
-	.gralypho {
-		margin-left: 30px;
-	}
+	
 	.wrapper-contactez {
 		display: flex;
 		flex-direction: row;
@@ -91,6 +89,7 @@
 		padding: 40px;
 		gap: 10px;
 		margin-top: 30px;
+		border-top: 1px solid white;
 	}
 	.contact {
 		text-decoration: none;

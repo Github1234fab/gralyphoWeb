@@ -48,11 +48,12 @@
 		color: var(--whiteGrey);
 		justify-content: center;
 		align-items: center;
-		height: fit-content;
-		min-height: 200px;
+		min-height: 20%;
+		max-height: 40%;
 		min-width: 200px;
+		max-width: 40%;
 		border-radius: 20px;
-		background-color: var(--primary);
+		background-color: transparent;
 		box-shadow: 0px 0px 14px  rgba(0, 0, 0, 0.659);
 	}
 	.wrapper-title-icon {
@@ -61,7 +62,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 15px;
-		background-color: var(--primary);
+		background-color: transparent;
 		padding: 10px;
 		border-radius: 10%;
 	}
@@ -79,7 +80,7 @@
 		font-size: var(--m);
 		border-radius: 8px;
 		text-decoration: none;
-		color: var(--cta);
+		color: var(--primary);
 		letter-spacing: -1px;
 	}
 	.title:hover {
@@ -99,13 +100,15 @@
 		margin-top: 30px;
 		margin-bottom: 10px;
 		font-size: 0.9rem;
-		border: 1px solid var(--whiteGrey);
+		/* border: 1px solid var(--whiteGrey); */
+		background-color: var(--cta);
 	}
 	.link-decouvrir:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
 	.icon {
 		height: 20px;
+		
 	
 	
 	}
@@ -136,20 +139,10 @@
 		}
 	}
 
-	@media screen and (max-width: 1116px) {
-		.card-type-site {
-			width: calc(45% - 10px);
-			min-height: 200px;
-			height: fit-content;
-		}
-	}
+
 
 	@media screen and (max-width: 768px) {
-		.card-type-site {
-			/* width: calc(90% - 20px); */
-			height: fit-content;
-			min-width: 300px;
-		}
+	
 		.link-decouvrir {
 			padding: 13px;
 			width: auto;

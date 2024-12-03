@@ -66,13 +66,13 @@
 </script>
 
 <section class="C-section">
-	<div class="wrapper-text">
+	<!-- <div class="wrapper-text">
 		<h1>Le futur de votre business commence par un <span> site Web.</span></h1>
 		<h2>
 			Il existe couramment <span>6 types de site web</span>.  <br> Quel est celui qui correspond à votre
 			<span>activité?</span>
 		</h2>
-	</div>
+	</div> -->
 
 	<div class="wrapper-cards">
 		{#each SiteCards as Cards}
@@ -97,7 +97,7 @@
 		margin-top: 0px;
 		overflow: hidden;
 	}
-	.wrapper-text h1 {
+	/* .wrapper-text h1 {
 	    font-family: 'Red Hat Display';
 		font-size: var(--l);
 		font-weight: 800;
@@ -131,17 +131,24 @@
 	.wrapper-text {
 		grid-column: 2/12;
 		grid-row: 1;
-	}
+	} */
 	.wrapper-cards {
 		grid-column: 1/13;
 		grid-row: 2/3;
 		display: flex;
 		flex-wrap: wrap;
-		margin-top: 65px;
+	margin: 0px auto;
 		align-items: center;
 		justify-content: center;
 		gap: 20px;
-		margin-bottom: 100px;
+		max-width: 70%;
+		padding: 20px 10px;
+	}
+
+	@media screen and (min-width: 1270px) {
+		.wrapper-cards {
+			max-width: 50%;
+		}
 	}
 
 	@media screen and (max-width: 1120px) {

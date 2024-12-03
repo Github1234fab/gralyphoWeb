@@ -30,6 +30,7 @@
 	import Csection from '../../sections/Csection.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import Profil from '../../Assets/Profils-gralypho/Ellipse 54.png';
+	import siteWeb from '../../Assets/png-gralypho/heroSiteWeb.png';
 
 	let accordeonTab = [
 		{
@@ -115,11 +116,16 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<h1>Création de <br /><span>Site Web</span></h1>
-		<h2 class="subtitle">
-			L'agence Gralypho créer vos sites Webs sur mesure, en les adaptant à vos besoins, votre
-			business et vos objectifs.
-		</h2>
+		<img src={siteWeb} alt=" site web illustrés sur des écrans" class="img-hero" />
+		<div class="wrapper-text-hero">
+			<h1>Création de <br /><span>Site Web</span></h1>
+			<h2 class="subtitle">
+				Créer un site internet, c'est à la portée de tous. <br /> Mais concevoir un site bien
+				référencé, doté d'un design percutant et d'une stratégie dynamique <br />qui transforme vos
+				visiteurs en clients, là, c'est une autre histoire. <br />Et cette hsitoire nous en
+				maîtrisons parfaitement l'écriture !
+			</h2>
+		</div>
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -211,16 +217,28 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		height: auto;
-		background: url('../../Assets/bgtwo.png'), var(--primary);
+		position: relative;
+		z-index: 0;
+	}
+	.wrapper-text-hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.img-hero {
+		max-width: 70%;
+		margin-top: 30px;
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: 2.5rem;
-		color: rgb(255, 255, 255);
+		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
 		padding: 0px;
@@ -228,17 +246,18 @@
 		margin-top: 70px;
 	}
 	.hero h1 span {
-		color: var(--cta);
+		color: var(--green);
 	}
 	.subtitle {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(224, 222, 222);
+		color: var(--primary);
 		text-align: center;
+
 		margin-top: 50px;
 		margin-bottom: 100px;
-		width: 80%;
+		max-width: 70%;
 	}
 	.wrapper-Csection {
 		grid-column: 1/13;
@@ -320,14 +339,14 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
+		margin-top: 100px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
 		gap: 20px;
 		padding: 30px;
 	}
 	.testimonial h2 {
 		font-family: 'Poppins';
-		font-weight: 100;
+		font-weight: 300;
 		font-size: var(--m);
 		color: var(--whiteGrey);
 		text-align: center;
@@ -336,7 +355,7 @@
 	}
 	.testimonial h4 {
 		font-family: poppins;
-		font-weight: 400;
+		font-weight: 800;
 		font-size: var(--m);
 		color: white;
 		text-align: center;
@@ -370,6 +389,7 @@
 			.hero h1 {
 				line-height: 1em;
 			}
+		
 		}
 		@media screen and (min-width: 300px) and (max-width: 768px) {
 			.hero h1 {
