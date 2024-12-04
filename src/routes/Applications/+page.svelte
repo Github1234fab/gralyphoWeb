@@ -32,7 +32,11 @@
 
 <section class="application-section" in:fade={{ duration: 3000 }}>
 	<div class="hero-applications">
-		<img src={imageApplication} alt="illustration d'un bonhomme qui ouvre un portable dans lequel il y a des logos d'applications" class="image">
+		<img
+			src={imageApplication}
+			alt="illustration d'un bonhomme qui ouvre un portable dans lequel il y a des logos d'applications"
+			class="image"
+		/>
 		<h1>Création<br /><span>d'applications</span></h1>
 		<h3>
 			L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
@@ -111,8 +115,9 @@
 		justify-content: center;
 		height: auto;
 	}
-	.image{
-		max-width: 20%;
+	.image {
+		max-width: 30%;
+		min-width: 30%;
 		margin-top: 30px;
 	}
 	.hero-applications h1 {
@@ -136,7 +141,7 @@
 		font-size: var(--m);
 		color: var(--primary);
 		text-align: center;
-		margin-top:20px;
+		margin-top: 20px;
 		margin-bottom: 100px;
 		width: 80%;
 	}
@@ -150,11 +155,10 @@
 		flex-direction: column;
 		height: 400px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
-				
 	}
 
 	.wrapper-testimonial h2 {
-		font-family: "Poppins";
+		font-family: 'Poppins';
 		font-weight: 300;
 		font-size: var(--m);
 		color: white;
@@ -206,7 +210,7 @@
 		font-family: 'Red Hat Display';
 		font-size: var(--l);
 		font-weight: 700;
-			color: var(--primary);
+		color: var(--primary);
 		letter-spacing: -1px;
 		padding: 15px;
 	}
@@ -286,6 +290,9 @@
 		.wrapper-application-explication ol {
 			width: 90%;
 		}
+		.image {
+			min-width: 50%;
+		}
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 575px) {
@@ -294,6 +301,9 @@
 		}
 		.wrapper-application-explication ol {
 			width: 90%;
+		}
+		.image {
+			min-width: 40%;
 		}
 	}
 </style>
