@@ -165,6 +165,7 @@
 	<!-- ***************TESTIMONIAL*************** -->
 
 	<div class="testimonial">
+		<h1>Amazing Gralypho !</h1>
 		<h2>
 			"Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités <br />que peut
 			contenir un site Web !! <br />L'expertise de l'agence Gralypho nous a permis d'augmenter de
@@ -210,6 +211,18 @@
 		background-color: var(--whiteGrey);
 		height: auto;
 		font-size: 16px;
+	}
+	.testimonial h1 {
+		text-align: center;
+		font-family: var(--Geologica);
+		font-weight: 400;
+		font-size: 2rem;
+		color: var(--whiteGrey);
+		margin-top: 0px;
+		letter-spacing: -2px;
+		padding: 0px;
+		line-height: 50px;
+		margin-top: 70px;
 	}
 	.hero {
 		grid-column: 1/13;
@@ -275,7 +288,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
+		margin-top: 30px;
 	}
 	.container-service h1 {
 		text-align: center;
@@ -284,6 +297,7 @@
 		font-weight: 700;
 		color: var(--primary);
 		margin-top: 50px;
+		margin-bottom: 50px;
 		letter-spacing: -1px;
 	}
 	.wrapper-service {
@@ -340,6 +354,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 100px;
+		height: 600px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
 		gap: 20px;
 		padding: 30px;
@@ -355,7 +370,7 @@
 	}
 	.testimonial h4 {
 		font-family: poppins;
-		font-weight: 800;
+		font-weight: 600;
 		font-size: var(--m);
 		color: white;
 		text-align: center;
@@ -389,7 +404,6 @@
 			.hero h1 {
 				line-height: 1em;
 			}
-		
 		}
 		@media screen and (min-width: 300px) and (max-width: 768px) {
 			.hero h1 {

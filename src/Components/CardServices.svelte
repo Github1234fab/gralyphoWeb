@@ -22,7 +22,7 @@
 		const cards = document.querySelectorAll('.card-services');
 		cards.forEach((el) => {
 			gsap.to(el, {
-				x: 0,
+				
 				opacity: 1,
 				ease: 'ease-in-out',
 				scrollTrigger: {
@@ -53,7 +53,7 @@
 
 <style>
 	.card-services {
-		transform: translateX(200px) ;
+		/* transform: translateY(400px) ; */
 		opacity: 0;
 		display: flex;
 		align-items: center;

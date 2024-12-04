@@ -179,20 +179,38 @@
 		.slide a {
 			max-width: 25%;
 		}
-		.slider {	
-		width: 100%;
-		border-radius: 5px;
-		height: auto;
-		/* max-width: 800px; */
-		overflow: hidden;
-		margin: 120px auto;
-		position: relative;
-		/* box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35); */
-	}
-		
+		.slider {
+			width: 100%;
+			border-radius: 5px;
+			height: auto;
+			overflow: hidden;
+			margin: 120px auto;
+			position: relative;
+		}
+
 		.img {
 			width: 100%;
 			height: auto;
+			display: block;
+		}
+	}
+	@media screen and (max-width: 550px) {
+		.slide a {
+			max-width: 25%;
+		}
+		.slider {
+			width: 100%;
+			border-radius: 5px;
+			height: 400px;
+			overflow: hidden;
+			margin: 120px auto;
+			position: relative;
+			border: 1px solid grey;
+		}
+
+		.img {
+			width: 100%;
+			height: 100%;
 			display: block;
 		}
 	}

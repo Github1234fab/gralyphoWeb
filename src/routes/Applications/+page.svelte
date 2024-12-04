@@ -5,6 +5,7 @@
 	import CardsSectionB from '../../Components/CardsSectionB.svelte';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
+	import imageApplication from '../../Assets/png-gralypho/applicationImg.png';
 
 	let collapseTab = [
 		{
@@ -31,6 +32,7 @@
 
 <section class="application-section" in:fade={{ duration: 3000 }}>
 	<div class="hero-applications">
+		<img src={imageApplication} alt="illustration d'un bonhomme qui ouvre un portable dans lequel il y a des logos d'applications" class="image">
 		<h1>Création<br /><span>d'applications</span></h1>
 		<h3>
 			L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
@@ -108,14 +110,17 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-			background: url("../../Assets/bgtwo.png"), var(--primary);
+	}
+	.image{
+		max-width: 20%;
+		margin-top: 30px;
 	}
 	.hero-applications h1 {
 		text-align: center;
 		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: 2.5rem;
-		color: rgb(255, 255, 255);
+		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
 		padding: 0px;
@@ -123,15 +128,15 @@
 		margin-top: 70px;
 	}
 	.hero-applications h1 span {
-		color: var(--cta);
+		color: var(--green);
 	}
 	.hero-applications h3 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(224, 222, 222);
+		color: var(--primary);
 		text-align: center;
-		margin-top: 50px;
+		margin-top:20px;
 		margin-bottom: 100px;
 		width: 80%;
 	}
@@ -143,13 +148,14 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+		height: 400px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
 				
 	}
 
 	.wrapper-testimonial h2 {
 		font-family: "Poppins";
-		font-weight: 100;
+		font-weight: 300;
 		font-size: var(--m);
 		color: white;
 		text-align: center;

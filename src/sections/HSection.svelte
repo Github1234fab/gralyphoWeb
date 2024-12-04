@@ -15,14 +15,9 @@
 <section class="H-section">
 	<div class="test"></div>
 	<div class="wrapper-text">
-		<div class="wrapper-h1">
-			<!-- <h1 class="title">Gralypho</h1> -->
-			<h2 class="subtitle">Un business qui décolle, <br />ça passe rarement inaperçu !</h2>
-		</div>
-		<!-- <div class="autoText">
-			<AutoText />
-		</div> -->
-
+		<h2 class="subtitle">
+			Un business qui décolle, <br />généralement, ça ne passe <br />pas inaperçu !
+		</h2>
 		<div class="wrapper-contact">
 			<ButtonCta />
 		</div>
@@ -36,7 +31,7 @@
 		font-size: 16px;
 		background-image: url('/fusee.jpg');
 		background-repeat: no-repeat;
-		background-position: top;
+		background-position: center;
 		background-size: cover;
 		z-index: 0;
 		position: relative;
@@ -44,14 +39,12 @@
 
 	.wrapper-text {
 		position: absolute;
-		top: 50%;
+		top: 60%;
 		left: 80%;
 		transform: translate(-50%, -50%);
-		min-width: 30%;
+		/* min-width: 30%; */
 		max-height: auto;
-		padding: 10px 10px;
 		border: 1px solid whitesmoke;
-		/* background: linear-gradient(rgba(161, 161, 231, 0.436), rgba(2, 2, 59, 0.436)); */
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -59,17 +52,6 @@
 		border-radius: 20px;
 		z-index: 9;
 	}
-
-	/* .title {
-		color: var(--whiteGrey);
-		font-size: 4rem;
-		text-align: center;
-		font-family: var(--Geologica);
-		font-weight: 900;
-		text-transform: capitalize;
-		letter-spacing: -2px;
-		position: relative;
-	} */
 
 	.subtitle {
 		color: var(--whiteGrey);
@@ -79,19 +61,8 @@
 		font-weight: 100;
 		letter-spacing: -2px;
 		margin-top: 20px;
+		padding: 20px 10px;
 	}
-
-	/* .autoText {
-		color: var(--green);
-		font-weight: 500;
-		font-size: 1.2rem;
-		font-family: var(--Dosis);
-		justify-self: center;
-		align-self: center;
-		text-align: center;
-		margin-top: 30px;
-		z-index: 10;
-	} */
 
 	.wrapper-contact {
 		display: flex;
@@ -127,7 +98,6 @@
 			min-width: 30%;
 			top: 54%;
 			left: 75%;
-			/* background: linear-gradient(to top, rgba(3, 3, 40, 0.679), rgba(255, 255, 255, 0)); */
 			border: 1px solid white;
 			max-height: 300px;
 			z-index: 99;
@@ -138,7 +108,6 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-			/* background: linear-gradient(to top, rgba(17, 17, 17, 0.572) 1%, rgba(0, 0, 255, 0)); */
 			height: 100%;
 			width: 100%;
 			z-index: 5;
@@ -152,7 +121,6 @@
 			font-weight: 200;
 			letter-spacing: -0.5px;
 			margin-top: 0px;
-			padding: 10px 0px;
 		}
 		.wrapper-contact {
 			margin-top: 20px;
@@ -164,9 +132,8 @@
 	@media screen and (max-width: 768px) {
 		.wrapper-text {
 			min-width: 40%;
-			top: 54%;
-			left: 75%;
-			/* background: linear-gradient(to top, rgba(3, 3, 40, 0.679), rgba(255, 255, 255, 0)); */
+			top: 25%;
+			left: 70%;
 			border: 1px solid white;
 			max-height: 300px;
 			z-index: 99;
@@ -177,7 +144,6 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-			/* background: linear-gradient(to top, rgba(17, 17, 17, 0.572) 1%, rgba(0, 0, 255, 0)); */
 			height: 100%;
 			width: 100%;
 			z-index: 5;
@@ -191,13 +157,9 @@
 			font-weight: 200;
 			letter-spacing: -0.5px;
 			margin-top: 0px;
-			padding: 10px 0px;
 		}
 		.wrapper-contact {
 			margin-top: 20px;
 		}
-		/* .autoText {
-			margin-top: 0px;
-		} */
 	}
 </style>

@@ -107,7 +107,7 @@
 		animation: bounce 0.4s ease-in-out;
 	}
 	.icon {
-		height: 20px;
+		height: 35px;
 		
 	
 	
