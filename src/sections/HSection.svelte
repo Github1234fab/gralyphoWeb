@@ -16,7 +16,7 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un business qui décolle, <br>c'est toujours une voie ouverte vers les étoiles.
+			Un business qui décolle, <br>ça ne passe jamais inaperçu !
 			 	<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 
 		</h2>
@@ -133,7 +133,7 @@
 	}
 	@media screen and (max-width: 768px) {
 		.wrapper-text {
-			min-width: 45%;
+			min-width: 48%;
 			top: 45%;
 			left: 73%;
 			border: 1px solid white;
@@ -164,4 +164,6 @@
 			margin-top: 20px;
 		}
 	}
+
+
 </style>

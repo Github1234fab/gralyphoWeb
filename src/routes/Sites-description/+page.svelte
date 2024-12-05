@@ -11,7 +11,7 @@
 <div class="container">
 	<div class="parallax img-vitrine"></div>
 	<div class="container-p">
-		<h1>Site <span>Vitrine</span></h1>
+		<h1>Site <br><span>Vitrine</span></h1>
 		<p>
 			Créer un site vitrine, cela permet de présenter la société, ses produits et ses services. <br
 			/><br />
@@ -40,7 +40,7 @@
 	</div>
 	<div class="parallax img-ecommerce"></div>
 	<div class="container-p">
-		<h1>Sites <span>E-Commerce</span></h1>
+		<h1>Sites <br><span>E-Commerce</span></h1>
 		<p>
 			Un site e-commerce est une plateforme en ligne permettant la vente de biens ou de services. Il
 			inclut généralement des fonctionnalités telles que des paniers d'achat, des passerelles de
@@ -68,7 +68,7 @@
 	</div>
 	<div class="parallax img-blog"></div>
 	<div class="container-p">
-		<h1>Blog - <span>Actualité</span></h1>
+		<h1>Blog <br><span>Actualité</span></h1>
 		<p>
 			Le blog d’entreprise est un site éditorial animé par un ou plusieurs auteurs qui publient des
 			articles et des contenus sur des sujets spécifiques B2C ou B2B. <br /><br />C'est souvent un
@@ -92,7 +92,7 @@
 	</div>
 	<div class="parallax img-portfolio"></div>
 	<div class="container-p">
-		<h1>Portfolio <span>Custom</span></h1>
+		<h1>Portfolio <br><span>Custom</span></h1>
 		<p>
 			Le portfolio est une plateforme internet professionnelle qui permet aux créatifs,
 			photographes, designers, indépendants (...) de présenter leurs travaux et leurs réalisations. <br
@@ -115,7 +115,7 @@
 	</div>
 	<div class="parallax img-corporate"></div>
 	<div class="container-p">
-		<h1>Site <span>Corporate</span></h1>
+		<h1>Site <br><span>Corporate</span></h1>
 		<p>
 			Les entreprises privées ou publique, les cabinets, les indépendants ont besoin de présenter
 			leurs activités et leur service. <br />Un site web corporate apporte les réponses nécessaires
@@ -141,7 +141,7 @@
 	</div>
 	<div class="parallax img-institutionnel"></div>
 	<div class="container-p">
-		<h1>Site institutionnel</h1>
+		<h1>Site <br><span>institutionnel</span></h1>
 		<p>
 			Le site institutionnel est destiné à promouvoir l’image d’une organisation telle que les
 			établissements d’enseignement, les associations, les organismes à but non lucratif, les
@@ -181,13 +181,13 @@
 		align-items: center;
 		justify-content: center;
 		background-color: rgba(255, 255, 255, 0.324);
-		/* padding: 20px; */
 		font-family: Heebo;
 		line-height: 25px;
 		box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.34);
-		height: 100vh;
+		height: 100%;
 		width: 100vw;
 		z-index: 1;
+		padding: 40px;
 	}
 	.container-p p {
 		text-align: justify;
@@ -282,7 +282,7 @@
 		gap: 20px;
 		margin-top: 90px;
 	}
-	.wrapper-button{
+	.wrapper-button {
 		margin-top: 100px;
 	}
 
