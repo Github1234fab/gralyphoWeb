@@ -29,6 +29,7 @@
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	// import Csection from "../../sections/Csection.svelte";
+	import seo from '../../Assets/png-gralypho/seo3.png';
 
 	let accordeonTab = [
 		{
@@ -53,13 +54,15 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
+		<img src={seo} alt="" class="imgHero" />
 		<h1>Visibilité:<br /><span>SEO/SEA</span></h1>
 		<h2>
 			Nous sommes experts en straégie SEO et SEA. C'est pour vous la garantie unique d'atteindre vos
-			futurs clients et d'obtenir une visibilité optimale sur les moteurs de recherche. Nous vous
-			accompagnons dans la mise en place de votre stratégie de référencement naturel (SEO) et votre
-			stratégie de référencement payant. (SEA).
+			futurs clients et d'obtenir une visibilité optimale sur les moteurs de recherche. <br /><br
+			/>Nous vous accompagnons dans la mise en place de votre stratégie de référencement naturel
+			(SEO) et votre stratégie de référencement payant. (SEA). <br /><br />Il faut maintenant
+			compter avec les IA et notamment "Search" d'openAI. C'est une nouvelle stratégie qui constitue
+			un enjeu crucial dans les nouvelles satrtégies de référencement.
 		</h2>
 	</div>
 
@@ -84,12 +87,13 @@
 	<!-- ***************TESTIMONIAL*************** -->
 
 	<div class="testimonial">
+		<h1>Stratégie SEO, <br /> les chiffres .</h1>
 		<h2>
-			. Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux
-			organiques .<br />
-			. 92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br />
-			. 53,3% de tout le trafic de site provient de la recherche organique. <br />
-			. 68% des expériences en ligne commencent par un moteur de recherche. <br />
+			Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux
+			organiques .<br /><br>
+			92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br /><br>
+			53,3% de tout le trafic de site provient de la recherche organique. <br /><br>
+			68% des expériences en ligne commencent par un moteur de recherche. <br /><br>
 		</h2>
 	</div>
 
@@ -117,14 +121,14 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background: url('../../Assets/bgTwo.png'), var(--primary);
+		/* background: url('../../Assets/bgTwo.png'), var(--primary); */
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: 2.5rem;
-		color: rgb(255, 255, 255);
+		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
 		padding: 0px;
@@ -132,21 +136,26 @@
 		margin-top: 70px;
 	}
 	.hero h1 span {
-		color: var(--cta);
+		color: var(--green);
 	}
 	.hero h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(224, 222, 222);
+		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 100px;
 		width: 80%;
 	}
+	.imgHero {
+		max-width: 30%;
+		min-width: 30%;
+		margin-top: 30px;
+	}
 	.wrapper-SectionB {
 		grid-column: 1/13;
-		grid-row: 4;
+		grid-row: 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -185,31 +194,43 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 50px;
+		/* margin-top: 50px; */
 		background-color: var(--bgHero);
 	}
 	.testimonial {
 		grid-column: 1/13;
-		grid-row: 6;
+		grid-row: 5;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		height: 130%;
-				background-image: linear-gradient(var(--primary), var(--secondary));
-		padding: 50px;
-		gap: 20px;
+		min-height: 700px;
+		background-image: linear-gradient(var(--primary), var(--secondary));
+		padding: 30px;
+		gap: 60px;
+	}
+	.testimonial h1 {
+		font-family: 'Poppins';
+		font-weight: 700;
+		font-size: var(--l);
+		color: var(--whiteGrey);
+		text-align: center;
+		line-height: 40px;
+		letter-spacing: 0px;
+				margin-bottom: 30px;
+				margin-top: 30px;
 	}
 	.testimonial h2 {
-			font-family: "Poppins";
-		font-weight: 100;
+		font-family: 'Poppins';
+		font-weight: 300;
 		font-size: var(--m);
 		color: var(--whiteGrey);
-		text-align: left;
+		text-align: center;
 		line-height: 40px;
 		letter-spacing: 0px;
 		margin-top: -30px;
+
 	}
 
 	@keyframes bounce {
@@ -234,19 +255,21 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-	
 	}
 	@media screen and (min-width: 768px) and (max-width: 1224px) {
 		.hero h1 {
 			line-height: 1em;
 		}
-	
 	}
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
 			line-height: 50px;
 			font-size: 2.5em;
 		}
-	
+		.imgHero {
+			max-width: 60%;
+			min-width: 60%;
+			margin-top: 30px;
+		}
 	}
 </style>

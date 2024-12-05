@@ -21,8 +21,9 @@
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
-		min-width: 300px;
-		min-height: 550px;
+		flex: 1 1 calc(50% - 20px); /* Chaque carte occupe 50% de la largeur moins l'espacement */
+		max-width: calc(40% - 20px); /* Limiter la largeur maximale pour les grands écrans */
+		/* min-height: 60%; */
 		background-color: white;
 		overflow: hidden;
 		padding: 20px;
@@ -93,10 +94,16 @@
 		}
 	}
 
-	@media screen and (max-width: 1633px) {
+	@media screen and (max-width: 768px) {
 		.card-services {
-			max-width: 500px;
-			max-height: 650px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+			flex: none;
+			max-width: 90%;
+			min-height: 0%;
 		}
 	}
 </style>

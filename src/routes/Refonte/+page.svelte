@@ -115,11 +115,11 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
+		<img src={imgHero} alt="" class="imgHero" />
 		<h1>Création de <br /><span>Design</span></h1>
 		<h2>
 			L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre
-			projet. Le design d'un site ou d'une application, selon plusieurs études menées aupès des
+			projet. <br>Le design d'un site ou d'une application, selon plusieurs études menées aupès des
 			utilisateurs du Web est essentiel pour plus de 75% des sondés.
 		</h2>
 		<!-- <div class="wrapper-contact">
@@ -213,7 +213,11 @@
 		align-items: center;
 		justify-content: center;
 		height: auto;
-		background: url("../../Assets/bgtwo.png"), var(--primary)
+	}
+	.imgHero{
+		max-width: 60%;
+		min-width: 60%;
+		margin-top: 30px;
 	}
 	.hero h1 {
 		text-align: center;
@@ -221,7 +225,7 @@
 		font-weight: 900;
 		font-weight: 900;
 		font-size: 2.5rem;
-		color: var(--whiteGrey);
+		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
 		padding: 0px;
@@ -229,13 +233,13 @@
 		margin-top: 100px;
 	}
 	.hero h1 span {
-		color: var(--cta);
+		color: var(--green);
 	}
 	.hero h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(224, 222, 222);
+		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 100px;
@@ -373,5 +377,11 @@
 			margin-top: 50px;
 			gap: 10px;
 		}
+			.imgHero{
+		max-width: 100%;
+		min-width: 
+		100%;
+		margin-top: 30px;
+	}
 	}
 </style>

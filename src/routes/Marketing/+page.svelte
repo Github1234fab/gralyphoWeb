@@ -54,7 +54,7 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<!-- <img src={imgHero} alt="" class="imgHero" /> -->
+		<img src={socialMedia} alt="" class="imgHero" />
 		<h1>Gestion des <br /><span>Médias Sociaux</span></h1>
 		<h2>
 			L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. <br />
@@ -80,8 +80,6 @@
 				description="Nous pouvons créer vos vidéos et vos images. Nous sommes formés à la conception d'image professionnelle. Que ce soit en photographie  et vidéo de produits, de portraits , de photos corporate, de groupe ou d'environnement (...), notre expertise fera la différence sur vos contenus et vos publications sortirons du lot, à coup sûr."
 				lien="/Media-infos"
 			/>
-		</div>
-		<div class="wrapper-service">
 			<Service
 				text="Campagnes publicitaires"
 				description="Nous sommes là pour vous aider à établir vos stratégies publicitaires et vos campagnes. Quand ?  Comment ? Pourquoi ? sont les questions auxquelles nous apporterons une réponse pertinente et sans faille pour vous permettre d'atteindre vos objectifs."
@@ -124,7 +122,7 @@
 	<!-- ***************COLLAPSES*************** -->
 
 	<div class="wrapper-SectionB">
-		<h1>Les avantages de la gestion de médias sociaux</h1>
+		<h1>Les avantages de la gestion <br /> des médias sociaux</h1>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
@@ -154,29 +152,30 @@
 
 <style>
 	.sites-section {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
+		display: flex;
+		flex-direction: column;
 		background-color: rgb(245, 244, 244);
 		height: auto;
 		font-size: 16px;
 	}
+	.imgHero {
+		max-width: 30%;
+		min-width: 30%;
+		margin-top: 30px;
+	}
 	.hero {
-		grid-column: 1/13;
-		grid-row: 1;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		height: auto;
-	background: url("../../Assets/bgtwo.png"), var(--primary);
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: 2rem;
-		color: rgb(255, 255, 255);
+		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -1px;
 		padding: 0px;
@@ -184,27 +183,26 @@
 		margin-top: 70px;
 	}
 	.hero h1 span {
-		color: var(--cta);
+		color: var(--green);
 	}
 	.hero h2 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(224, 222, 222);
+		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
-		margin-bottom: 100px;
 		width: 80%;
 	}
 
 	.container-service {
-		grid-column: 2/12;
-		grid-row: 2;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
+		margin-bottom: 100px;
+		padding: 20px;
 	}
 	.container-service h1 {
 		text-align: center;
@@ -212,73 +210,27 @@
 		font-size: var(--l);
 		font-weight: 700;
 		color: var(--primary);
-		margin-top: 100px;
+		margin-top: 50px;
+		margin-bottom: 100px;
 		letter-spacing: -1px;
 	}
 	.wrapper-service {
 		display: flex;
-		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: center;
-		align-items: center;
-		gap: 10px;
-		margin-top: 30px;
-		margin-bottom: 50px;
+		align-items: stretch;
+		gap: 20px;
+		margin-top: 20px;
+		min-height: 100%;
 	}
-	/* .container-slider {
-    overflow-x: auto;
-    margin-left: 100px;
-    border-right: 3px double var(--primary);
-    width: 100vw;
-    background-color: white;
-  }
-  .section-slider {
-    grid-column: 1/13;
-    grid-row: 3;
-    margin-top: 50px;
-    margin-left: 0px;
-    background-color: white;
-  }
-  .wrapper-slider {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    border-radius: 20px;
-    justify-content: start;
-    align-items: center;
-    margin-bottom: 30px;
-    gap: 20px;
-  }
-
-  .section-slider h1 {
-    text-align: left;
-    font-family: epilogue;
-    font-size: var(--xl);
-    font-weight: 700;
-    color: var(--primary);
-    margin-top: 100px;
-    letter-spacing: -3px;
-    margin-left: 70px;
-    width: 80%;
-  }
-  .section-slider h3 {
-    margin-left: 70px;
-    text-align: left;
-    font-family: poppins;
-    font-weight: 300;
-    font-size: var(--m);
-    color: grey;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  } */
 
 	.wrapper-SectionB {
-		grid-column: 1/13;
-		grid-row: 4;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
+		margin-bottom: 100px;
 		background-color: var(--whiteGrey);
 	}
 	.wrapper-SectionB h1 {
@@ -290,12 +242,10 @@
 		margin-top: 0px;
 		letter-spacing: -1px;
 		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-bottom: 100px;
 	}
 
 	.wrapper-form {
-		grid-column: 1/13;
-		grid-row: 7;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -303,22 +253,20 @@
 		background-color: var(--bgHero);
 	}
 	.testimonial {
-		grid-column: 1/13;
-		grid-row: 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		height: 100%;
+		height: 500px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
 		padding: 50px;
 		gap: 20px;
 		border-bottom: 1px solid rgb(79, 78, 78);
 	}
 	.testimonial h2 {
-			font-family: "Poppins";
-		font-weight: 100;
+		font-family: 'Poppins';
+		font-weight: 400;
 		font-size: var(--m);
 		color: white;
 		text-align: center;
@@ -348,30 +296,31 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-		
 	}
 	@media screen and (min-width: 768px) and (max-width: 1224px) {
 		.hero h1 {
 			line-height: 1em;
 		}
-	
 	}
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
 			line-height: 50px;
 			font-size: 2.5em;
 		}
-	
-
+		.imgHero {
+			max-width: 60%;
+			min-width: 60%;
+			margin-top: 30px;
+		}
 		.wrapper-service {
-			grid-column: 1/13;
-			grid-row: 2;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			margin-top: 50px;
 			gap: 10px;
+			margin-top: 20px;
+			margin-bottom: 50px;
+			flex-wrap: nowrap;
 		}
 	}
 </style>

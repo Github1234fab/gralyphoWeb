@@ -135,14 +135,13 @@
 		justify-content: center;
 		height: auto;
 		width: 100%;
-				background: url('../../Assets/bgTwo.png'), var(--primary);
 	}
 	.hero h1 {
 		text-align: center;
 		font-family: var(--Geologica);
 		font-weight: 900;
 		font-size: var(--xl);
-		color: rgb(255, 255, 255);
+		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
 		padding: 0px;
@@ -150,13 +149,13 @@
 		margin-top: 50px;
 	}
 	.hero h1 span {
-		color: var(--cta);
+		color: var(--green);
 	}
 	.hero h3 {
 		font-family: poppins;
 		font-weight: 300;
 		font-size: var(--m);
-		color: rgb(224, 222, 222);
+		color: var(--primary);
 		text-align: center;
 		width: 50%;
 		padding: 30px;
