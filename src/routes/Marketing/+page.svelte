@@ -31,6 +31,7 @@
 	import contenuMedia from '../../Assets/png-gralypho/contenuMedia.png';
 	import publiciteMedia from '../../Assets/png-gralypho/publiciteMedia.png';
 	import socialMedia from '../../Assets/png-gralypho/socialMedia.png';
+	import Button from '../../Components/ButtonCTA.svelte';
 
 	// import Csection from "../../sections/Csection.svelte";
 	import Mouse from '../../Components/Mouse.svelte';
@@ -61,6 +62,7 @@
 			Mises à jour régulières, création de contenu, gestion des interactions, etc. <br /> Nous nous occupons
 			de tout pour vous permettre de vous concentrer sur votre activité.
 		</h2>
+		<Button />
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -94,30 +96,6 @@
 			/>
 		</div>
 	</div>
-
-	<!-- ***************SITES TYPES*************** -->
-	<!-- 
-  <div class="wrapper-Csection">
-    <Csection />
-  </div> -->
-	<!-- 
-  <div class="section-slider">
-    <h1>Conception de site Web</h1>
-    <h3>Découvrez les différents types de sites internet que nous concevons.</h3>
-    <div class="container-slider">
-      <div class="wrapper-slider">
-        {#each sitesTab as site}
-          <CardsSites
-            type={site.type}
-            description={site.description}
-            delai={site.delai}
-            tarif={site.tarif}
-            img={site.img}
-          />
-        {/each}
-      </div>
-    </div>
-  </div> -->
 
 	<!-- ***************COLLAPSES*************** -->
 
@@ -192,6 +170,7 @@
 		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
+		margin-bottom: 50px;
 		width: 80%;
 	}
 

@@ -29,24 +29,19 @@
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import design from '../../Assets/png-gralypho/Design.jpg';
+	import communication from '../../Assets/png-gralypho/supportCommunication.png';
+	import logoCrea from '../../Assets/png-gralypho/logoBiere.png';
 	// import Csection from "../../sections/Csection.svelte";
+	import Button from "../../Components/ButtonCTA.svelte";
 
 	let accordeonTab = [
 		{
 			title: 'Tarifs',
-			p: 'Nos tarifs démarrent à 500 euros pour un blog, 1000 euros pour une landing page (site page unique), 1500 euros pour un site vitrine, 2000 euros pour un site corporate, 2500 euros pour un site e-commerce, 3000 euros pour un site institutionnel, 3500 euros pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
+			p: 'Pour la création de logo et la création de page Web et refonte, nous pratiquons un tarif de 100€/heure. Pour les logos nous pouvons ajouter un droit de diffusion. Pour la création de supports de communication, nous bénéficions de tarifs négociers avec nos imprimeurs partenaires.'
 		},
 		{
 			title: 'Délai de conception et de mise en ligne',
-			p: 'Le délai de conception et de mise en ligne dépend du type de site internet que vous souhaitez. En règle général, le délai de conception et de mise en ligne est de 2 semaines pour un blog, 3 semaines pour une landing page, 4 semaines pour un site vitrine, 5 semaines pour un site corporate, 6 semaines pour un site e-commerce, 7 semaines pour un site institutionnel, 8 semaines pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
-		},
-		{
-			title: 'Sites Dynamiques - Possibilités et fonctionnalités',
-			p: "Nos clients sont parfois surpris de découvir tout ce qu'un site internet peut contenir comme fonctionnalité et possibilité. En effet, un site internet peut contenir un blog, un portfolio, un formulaire de contact, un chatbot, un espace membre, un espace client, un espace administrateur, un espace de paiement, de réservation, de commande (etc)?.  Mais nous pouvons également collecter des données, les stocker, les consulter, les anaylser et s'en serivir pour orienter votre activité. Nous pouvons également établir des requêtes API. C'est à dire que nous pouvons consulter des données externes contenues dans un autre site, une autre application que la vôtre et les rapatrier dans votre site pour les afficher. Par exemple, nous pouvons établir une requête auprès d'un service météo et afficher toutes les données métérologiques de votre localité en temps réel ou s'en servir pour valider l'ouverture d'une activité d'accrobranche par exemple, etc."
-		},
-		{
-			title: 'Propriété, hébergement, nom de domaine et abonnement',
-			p: "Nos clients se posent souvent la question de la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site. "
+			p: 'Pour les logos et support de communication les délais peuvent être de quelques jours à un 15 jours de la création à la livraison. Pour le spages Web les délais peuvent être sensiblement les mêmes.'
 		}
 	];
 
@@ -119,13 +114,10 @@
 		<h1>Création de <br /><span>Design, Logos et supports de Com'</span></h1>
 		<h2>
 			L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre
-			projet. <br>Le design d'un site ou d'une application, selon plusieurs études menées aupès des
-			utilisateurs du Web est essentiel pour plus de 75% des sondés.
+			projet. <br />Le design d'un site ou d'une application, selon plusieurs études menées aupès
+			des utilisateurs du Web est essentiel pour plus de 75% des sondés.
 		</h2>
-		<!-- <div class="wrapper-contact">
-      <a class="contact" href="/#footer">Nous contacter</a>
-      <a class="contact2" href="/#footer">Devis gratuit</a>
-    </div> -->
+<Button/>
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -133,37 +125,30 @@
 	<div class="container-service">
 		<h1>Étude et réalisation de design sur mesure</h1>
 		<div class="wrapper-service">
-			<img
-				src={design}
-				alt="illustration d'un Ipad, avec des personnages qui le construisent."
-				class="img-design"
-			/>
+			<div class="wrapper-img">
+				<h2>Design Page Web</h2>
+				<img
+					src={design}
+					alt="illustration de différents logo pour apiculteur"
+					class="img-design"
+				/>
+			</div>
+
+			<div class="wrapper-img">
+				<h2>Création de logos</h2>
+				<img
+					src={logoCrea}
+					alt="illustration de différents logo pour apiculteur"
+					class="img-biere"
+				/>
+			</div>
+
+			<div class="wrapper-img">
+				<h2>Création de support de communication</h2>
+				<img src={communication} alt="Photos de cartes de visites" class="img-design" />
+			</div>
 		</div>
 	</div>
-
-	<!-- ***************SITES TYPES*************** -->
-	<!-- 
-  <div class="wrapper-Csection">
-    <Csection />
-  </div> -->
-	<!-- 
-  <div class="section-slider">
-    <h1>Conception de site Web</h1>
-    <h3>Découvrez les différents types de sites internet que nous concevons.</h3>
-    <div class="container-slider">
-      <div class="wrapper-slider">
-        {#each sitesTab as site}
-          <CardsSites
-            type={site.type}
-            description={site.description}
-            delai={site.delai}
-            tarif={site.tarif}
-            img={site.img}
-          />
-        {/each}
-      </div>
-    </div>
-  </div> -->
 
 	<!-- ***************COLLAPSES*************** -->
 
@@ -173,12 +158,6 @@
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
 	</div>
-
-	<!-- ***************SEO/SEA*************** -->
-
-	<!-- <div class="wrapper-Fsection">
-    <FSection />
-  </div> -->
 
 	<!-- ***************TESTIMONIAL*************** -->
 
@@ -214,7 +193,7 @@
 		justify-content: center;
 		height: auto;
 	}
-	.imgHero{
+	.imgHero {
 		max-width: 60%;
 		min-width: 60%;
 		margin-top: 30px;
@@ -268,13 +247,39 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
-		gap: 10px;
+		align-items: stretch;
+		gap: 20px;
 		margin-top: 30px;
 	}
+	.wrapper-img {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.204);
+		border-radius: 5px;
+		padding: 20px;
+		min-width: 35%;
+		max-height: 100%;
+	}
+	.wrapper-img h2 {
+		font-family: 'Red Hat Display';
+		font-size: var(--m);
+		font-weight: 700;
+		color: var(--primary);
+		margin-top: 0px;
+		letter-spacing: -1px;
+	}
 	.img-design {
-		width: auto;
-		height: 400px;
+		max-width: 100%;
+		max-height: 50%;
+		margin-top: 50px;
+		border-radius: 5px;
+	}
+	.img-biere {
+		max-width: 100%;
+		min-height: 60%;
 		margin-top: 50px;
 		border-radius: 5px;
 	}
@@ -316,14 +321,14 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		height: 100%;
+		height: 400px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
 		padding: 50px;
 		gap: 20px;
 	}
 	.testimonial h2 {
-	font-family: "Poppins";
-		font-weight: 100;
+		font-family: 'Poppins';
+		font-weight: 400;
 		font-size: var(--m);
 		color: white;
 		text-align: center;
@@ -354,7 +359,6 @@
 		.hero h1 {
 			line-height: 1em;
 		}
-	
 	}
 	@media screen and (min-width: 768px) and (max-width: 1224px) {
 		.hero h1 {
@@ -376,12 +380,28 @@
 			align-items: center;
 			margin-top: 50px;
 			gap: 10px;
+			max-width: 90%;
 		}
-			.imgHero{
-		max-width: 100%;
-		min-width: 
-		100%;
-		margin-top: 30px;
-	}
+		.imgHero {
+			max-width: 100%;
+			min-width: 100%;
+			margin-top: 30px;
+		}
+		.img-design {
+			min-width: 100%;
+			min-height: 60%;
+			margin-top: 50px;
+			border-radius: 5px;
+		}
+		.img-biere {
+			max-width: 100%;
+			max-height: 60%;
+			margin-top: 50px;
+			border-radius: 5px;
+		}
+		.wrapper-img {
+			min-width: 100%;
+			max-height: 100%;
+		}
 	}
 </style>

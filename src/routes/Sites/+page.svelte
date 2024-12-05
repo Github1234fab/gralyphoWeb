@@ -31,6 +31,7 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import Profil from '../../Assets/Profils-gralypho/Ellipse 54.png';
 	import siteWeb from '../../Assets/png-gralypho/heroSiteWeb.png';
+	import Button from "../../Components/ButtonCTA.svelte";
 
 	let accordeonTab = [
 		{
@@ -125,6 +126,7 @@
 				visiteurs en clients, là, c'est une autre histoire. <br />Et cette hsitoire nous en
 				maîtrisons parfaitement l'écriture !
 			</h2>
+			<Button />
 		</div>
 	</div>
 

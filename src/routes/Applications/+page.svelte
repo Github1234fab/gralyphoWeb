@@ -6,6 +6,7 @@
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import imageApplication from '../../Assets/png-gralypho/applications.png';
+	import Button from "../../Components/ButtonCTA.svelte";
 
 	let collapseTab = [
 		{
@@ -42,6 +43,7 @@
 			L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
 			expérience unique.
 		</h3>
+		<Button/>
 	</div>
 
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
@@ -198,6 +200,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 	.wrapper-application-explication h1 {

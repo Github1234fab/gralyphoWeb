@@ -30,6 +30,8 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import cible from '../../Assets/png-gralypho/cible.png';
 	// import Csection from "../../sections/Csection.svelte";
+		import Button from '../../Components/ButtonCTA.svelte';
+
 </script>
 
 <Header />
@@ -51,6 +53,7 @@
 			forte et impactante pour stimuler la croissance de votre entreprise. Découvrez comment le
 			marketing digital peut propulser votre entreprise vers le succès.
 		</p>
+		<Button />
 	</div>
 
 	<div class="wrapper-description-marketing">

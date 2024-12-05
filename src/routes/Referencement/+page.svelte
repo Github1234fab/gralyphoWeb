@@ -30,6 +30,7 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	// import Csection from "../../sections/Csection.svelte";
 	import seo from '../../Assets/png-gralypho/seo3.png';
+	import Button from '../../Components/ButtonCTA.svelte';
 
 	let accordeonTab = [
 		{
@@ -64,14 +65,14 @@
 			compter avec les IA et notamment "Search" d'openAI. C'est une nouvelle stratégie qui constitue
 			un enjeu crucial dans les nouvelles satrtégies de référencement.
 		</h2>
+		<Button />
 	</div>
 
 	<!-- ***************SERVICES*************** -->
 
 	<div class="wrapper-SectionB">
-		<h1>Nos tarifs et nos stratégies</h1>
 		<h2>
-			Optez pour un référencement gagnant. <br />Touchez votre ❤️ de cible <br />en étant visible.
+			Optez pour un référencement gagnant. <br />Touchez votre ❤️ de cible <br />pour être visible.
 		</h2>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
@@ -90,10 +91,10 @@
 		<h1>Stratégie SEO, <br /> les chiffres .</h1>
 		<h2>
 			Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux
-			organiques .<br /><br>
-			92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br /><br>
-			53,3% de tout le trafic de site provient de la recherche organique. <br /><br>
-			68% des expériences en ligne commencent par un moteur de recherche. <br /><br>
+			organiques .<br /><br />
+			92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br /><br />
+			53,3% de tout le trafic de site provient de la recherche organique. <br /><br />
+			68% des expériences en ligne commencent par un moteur de recherche. <br /><br />
 		</h2>
 	</div>
 
@@ -163,24 +164,13 @@
 		margin-top: 0px;
 		margin-bottom: 50px;
 	}
-	.wrapper-SectionB h1 {
-		font-family: Heebo;
-		text-transform: uppercase;
-		font-size: var(--m);
-		color: var(--primary);
-		font-weight: 600;
-		letter-spacing: -0.04em;
-		margin-top: 50px;
-		margin-left: 0px;
-		margin-bottom: 20px;
-		text-align: center;
-	}
+
 	.wrapper-SectionB h2 {
 		font-family: 'Red Hat Display';
-		font-size: var(--m);
+		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 700;
-		margin-bottom: 0px;
+		margin-top: 50px;
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: center;
@@ -204,7 +194,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
+		margin-top: 100px;
 		min-height: 700px;
 		background-image: linear-gradient(var(--primary), var(--secondary));
 		padding: 30px;
@@ -218,8 +208,8 @@
 		text-align: center;
 		line-height: 40px;
 		letter-spacing: 0px;
-				margin-bottom: 30px;
-				margin-top: 30px;
+		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 	.testimonial h2 {
 		font-family: 'Poppins';
@@ -230,7 +220,6 @@
 		line-height: 40px;
 		letter-spacing: 0px;
 		margin-top: -30px;
-
 	}
 
 	@keyframes bounce {
