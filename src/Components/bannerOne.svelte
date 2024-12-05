@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="bloc">
-		<h1 class="title">Un outil digital, c'est comme un robot. <br>Il travaille pour vous <span>24/7 </span>!</h1>
+		<h1 class="title">Un outil digital, c'est comme un robot <br>qui travaille pour vous <span>24/7 </span>!</h1>
 		<div class="wrapper">
 			<div class="disc2"></div>
 		</div>
@@ -19,7 +19,7 @@
 		min-height: auto;
 		display: flex;
 		flex-direction: column;
-		background: url('../Assets/bgtwo.png');
+		/* background: url('../Assets/bgtwo.png'); */
 		background-color: var(--primary);
 	}
 	.bloc {

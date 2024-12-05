@@ -16,7 +16,9 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un business qui décolle, <br />généralement, ça ne passe <br />pas inaperçu !
+			<!-- Un business qui décolle, <br>c'est la voie ouverte aux étoiles. -->
+			 	Un business qui décolle <br>attire toujours l'attention. 
+
 		</h2>
 		<div class="wrapper-contact">
 			<ButtonCta />
@@ -131,9 +133,9 @@
 	}
 	@media screen and (max-width: 768px) {
 		.wrapper-text {
-			min-width: 40%;
-			top: 25%;
-			left: 70%;
+			min-width: 45%;
+			top: 45%;
+			left: 73%;
 			border: 1px solid white;
 			max-height: 300px;
 			z-index: 99;

@@ -3,6 +3,7 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import serviceWeb from '../../Assets/png-gralypho/conception.png';
 	import SectionF from '../../sections/FSection.svelte';
+	import Button from '../../Components/ButtonCTA.svelte';
 </script>
 
 <Mouse />
@@ -125,8 +126,8 @@
 	.wrapper-conception {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
+		justify-content: center;
+		align-items: center;
 		gap: 20px;
 		padding: 0px;
 		color: var(--textHero);
@@ -139,22 +140,23 @@
 	.wrapper-redaction-web h1,
 	.wrapper-seo h1,
 	.wrapper-conception h1 {
-		font-family: Epilogue;
+		font-family: var(--Radio);
 		font-size: var(--l);
 		font-weight: 700;
 		text-align: center;
-		color: var(--jauneB);
+		color: var(--green);
 		margin-top: 15px;
-		text-transform: uppercase;
+		line-height: 45px;
+	
 	}
 	.wrapper-design h2,
 	.wrapper-redaction-web h2,
 	.wrapper-seo h2,
 	.wrapper-conception h2 {
-		font-family: Epilogue;
+		font-family: var(--Radio);
 		font-size: var(--l);
 		font-weight: 700;
-		text-align: left;
+		text-align: center;
 		color: var(--primary);
 		margin-top: 15px;
 		letter-spacing: -0.4px;
@@ -162,8 +164,8 @@
 	.wrapper-design h3 {
 		font-family: Heebo;
 		font-size: var(--l);
-		font-weight: 700;
-		text-align: left;
+		font-weight: 400;
+		text-align: center;
 		color: var(--primary);
 		margin-top: 15px;
 	}
@@ -171,12 +173,13 @@
 	.wrapper-redaction-web p,
 	.wrapper-seo p,
 	.wrapper-conception p {
-		font-family: epilogue;
+		font-family: poppins;
 		font-size: var(--m);
-		font-weight: 400;
+		font-weight: 300;
 		text-align: left;
 		padding: 0px;
 	}
+	
 
 	@media screen and (max-width: 768px) {
 		.wrapper-design,
@@ -185,8 +188,8 @@
 		.wrapper-conception {
 			display: flex;
 			flex-direction: column;
-			justify-content: flex-start;
-			align-items: flex-start;
+			justify-content: center;
+			align-items: center;
 			gap: 20px;
 			padding: 0px;
 			color: var(--textHero);
@@ -196,7 +199,7 @@
 		}
 
 		.service-img {
-			width: 50%;
+			width: 60%;
 			height: auto;
 			border-radius: 0;
 			margin-top: 30px;

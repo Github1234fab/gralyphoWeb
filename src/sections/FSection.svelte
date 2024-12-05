@@ -41,8 +41,8 @@
   .wrapper-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items:center;
+    justify-content: center;
     font-size: 16px;
     background-color: white;
     margin: 0 100px;
@@ -52,12 +52,11 @@
   .wrapper-text h1 {
     text-align: left;
     grid-row: 2;
-    font-family: epilogue;
+    font-family: var(--Radio);
     font-weight: 700;
     font-size: var(--l);
-    color: black;
+    color: var(--primary);
     margin-top: 50px;
-    line-height: 50px;
     letter-spacing: -1px;
   }
   .wrapper-text h2 {
@@ -75,12 +74,13 @@
 
   @media screen and (max-width: 768px) {
     .wrapper-text {
+      min-width: 90%;
       margin: 0 20px;
           margin-bottom: 100px;
     }
     .wrapper-text h1 {
       font-size: var(--xl);
-      line-height: 40px;
+      line-height: 60px;
     }
     .wrapper-text h2 {
       column-count: 1;
