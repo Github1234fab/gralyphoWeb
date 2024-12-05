@@ -2,6 +2,7 @@
 	import Header from '../../sections/Header.svelte';
 	import description from '../../Assets/png-gralypho/ConceptionSites.png';
 	import Mouse from '../../Components/Mouse.svelte';
+	import Button from '../../Components/ButtonCTA.svelte';
 </script>
 
 <Mouse />
@@ -10,13 +11,13 @@
 <div class="container">
 	<div class="parallax img-vitrine"></div>
 	<div class="container-p">
-		<h1>Site Vitrine</h1>
+		<h1>Site <span>Vitrine</span></h1>
 		<p>
 			Créer un site vitrine, cela permet de présenter la société, ses produits et ses services. <br
 			/><br />
 			Il permet de fournir des informations aux clients potentiels et de les diriger vers les canaux
 			de vente. C'est une formidable opportunité pour présenter une activité, une marque, un produit,
-			un service (...). <br /><br />Le site vitrine peut se rélaiser rapidement car il ne contient
+			un service (...). <br /><br />Le site vitrine peut se réaliser rapidement car il ne contient
 			généralement pas beaucoup de fonctionnalités ni de dynamique car là n'est pas son but. Son but
 			est de montrer, d'expliquer, de sensibiliser, de créer un besoin, d'obtenir d'avantage de
 			clients, de convertir des prospects (...). <br /><br />De nombreux sites vitrines contiennent
@@ -27,6 +28,7 @@
 			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
 			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
+		<div class="wrapper-button"><Button /></div>
 		<div class="wrapper-contactez">
 			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 				><i class="fa-regular fa-envelope icon"></i></a
@@ -38,7 +40,7 @@
 	</div>
 	<div class="parallax img-ecommerce"></div>
 	<div class="container-p">
-		<h1>Site E-commerce</h1>
+		<h1>Sites <span>E-Commerce</span></h1>
 		<p>
 			Un site e-commerce est une plateforme en ligne permettant la vente de biens ou de services. Il
 			inclut généralement des fonctionnalités telles que des paniers d'achat, des passerelles de
@@ -53,6 +55,8 @@
 			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
 			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
+		<div class="wrapper-button"><Button /></div>
+
 		<div class="wrapper-contactez">
 			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 				><i class="fa-regular fa-envelope icon"></i></a
@@ -64,7 +68,7 @@
 	</div>
 	<div class="parallax img-blog"></div>
 	<div class="container-p">
-		<h1>Blog</h1>
+		<h1>Blog - <span>Actualité</span></h1>
 		<p>
 			Le blog d’entreprise est un site éditorial animé par un ou plusieurs auteurs qui publient des
 			articles et des contenus sur des sujets spécifiques B2C ou B2B. <br /><br />C'est souvent un
@@ -76,6 +80,7 @@
 			communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre
 			site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
+		<div class="wrapper-button"><Button /></div>
 		<div class="wrapper-contactez">
 			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 				><i class="fa-regular fa-envelope icon"></i></a
@@ -87,7 +92,7 @@
 	</div>
 	<div class="parallax img-portfolio"></div>
 	<div class="container-p">
-		<h1>Portfolio</h1>
+		<h1>Portfolio <span>Custom</span></h1>
 		<p>
 			Le portfolio est une plateforme internet professionnelle qui permet aux créatifs,
 			photographes, designers, indépendants (...) de présenter leurs travaux et leurs réalisations. <br
@@ -98,6 +103,7 @@
 			les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer votre
 			site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
+		<div class="wrapper-button"><Button /></div>
 		<div class="wrapper-contactez">
 			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 				><i class="fa-regular fa-envelope icon"></i></a
@@ -109,7 +115,7 @@
 	</div>
 	<div class="parallax img-corporate"></div>
 	<div class="container-p">
-		<h1>Site Corporate</h1>
+		<h1>Site <span>Corporate</span></h1>
 		<p>
 			Les entreprises privées ou publique, les cabinets, les indépendants ont besoin de présenter
 			leurs activités et leur service. <br />Un site web corporate apporte les réponses nécessaires
@@ -123,6 +129,7 @@
 			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
 			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
+		<div class="wrapper-button"><Button /></div>
 		<div class="wrapper-contactez">
 			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 				><i class="fa-regular fa-envelope icon"></i></a
@@ -147,6 +154,7 @@
 			sur les communes de Vaugneray et Thurins répond à toutes vos exigences et s'engage à vous livrer
 			votre site vitrine dans les meilleurs délais. Contactez-nous !!
 		</p>
+		<div class="wrapper-button"><Button /></div>
 		<div class="wrapper-contactez">
 			<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
 				><i class="fa-regular fa-envelope icon"></i></a
@@ -185,14 +193,24 @@
 		text-align: justify;
 		width: 50%;
 		font-weight: 300;
+		font-family: var(--Poppins);
 	}
 	.container-p h1 {
 		font-weight: 400;
 		margin-bottom: 50px;
-		font-family: Heebo;
+		font-family: var(--Red);
 		text-transform: uppercase;
 		text-align: center;
 		line-height: 40px;
+	}
+	.container-p h1 span {
+		font-weight: 900;
+		font-family: var(--Architects);
+		text-transform: lowercase;
+		text-align: center;
+		color: var(--green);
+		transform: rotate(-5deg);
+		font-size: 2.5rem;
 	}
 
 	.parallax {
@@ -263,6 +281,9 @@
 		display: flex;
 		gap: 20px;
 		margin-top: 90px;
+	}
+	.wrapper-button{
+		margin-top: 100px;
 	}
 
 	@media screen and (max-width: 768px) {
