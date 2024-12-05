@@ -30,6 +30,8 @@
 				comment il le trouve. <br />De là ce dégagera une statégie de conception pour que le site
 				remplisse son objectif.
 			</p>
+			<div class="wrapper-button"><Button /></div>
+
 			<h3>L'UI</h3>
 			<p>
 				L'UI, c'est le design à proprement parler. <br />Nous construisons pour la création de votre
@@ -39,6 +41,7 @@
 				collapses (...). <br />
 				C'est ce que nous appelons des composants.
 			</p>
+			<Button />
 		</div>
 		<div class="wrapper-redaction-web" id="#wrapper-redaction-web">
 			<h1>Rédaction des contenus textuels</h1>
@@ -52,6 +55,7 @@
 				syllabes, les lettres, les mots se cache une véritable architecture digitale, une stratégie
 				cachée, mais essentielle, névralgique.
 			</p>
+			<Button />
 		</div>
 		<div class="wrapper-seo">
 			<h1>Référencement SEO et SEA</h1>
@@ -67,6 +71,7 @@
 				généralement , le SEO est l'objectif premier, il est déterminant dans la vie de votre futur
 				site internet.
 			</p>
+			<Button />
 		</div>
 		<div class="wrapper-conception">
 			<h1>Conception et stratégie</h1>
@@ -80,10 +85,12 @@
 				contre de chaque technos à utliser, son délai de mise en ligne, de conception, son coût et
 				anticiper sur le future de sa vie, sa maintenance.
 			</p>
+			<Button />
 		</div>
 		<div class="wrapper-F-section">
 			<SectionF />
 		</div>
+		<Button />
 	</div>
 </section>
 
@@ -145,9 +152,8 @@
 		font-weight: 700;
 		text-align: center;
 		color: var(--green);
-		margin-top: 15px;
+		margin-top: 50px;
 		line-height: 45px;
-	
 	}
 	.wrapper-design h2,
 	.wrapper-redaction-web h2,
@@ -158,7 +164,7 @@
 		font-weight: 700;
 		text-align: center;
 		color: var(--primary);
-		margin-top: 15px;
+		margin-top: 50px;
 		letter-spacing: -0.4px;
 	}
 	.wrapper-design h3 {
@@ -178,8 +184,16 @@
 		font-weight: 300;
 		text-align: left;
 		padding: 0px;
+		margin-top: 50px;
+			margin-bottom: 50px;
 	}
-	
+	.wrapper-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
 
 	@media screen and (max-width: 768px) {
 		.wrapper-design,
