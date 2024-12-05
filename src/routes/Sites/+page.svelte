@@ -243,7 +243,8 @@
 	}
 
 	.img-hero {
-		max-width: 70%;
+		max-width: 30%;
+		min-width: 30%;
 		margin-top: 30px;
 	}
 	.hero h1 {
@@ -395,22 +396,21 @@
 		}
 	}
 
-	@media screen and (min-width: 1224px) and (max-width: 2500px) {
+	@media screen and (max-width: 2500px) {
 		.hero h1 {
 			line-height: 1em;
 		}
 
-		@media screen and (min-width: 768px) and (max-width: 1224px) {
+		@media screen  and (max-width: 1224px) {
 			.hero h1 {
 				line-height: 1em;
 			}
 		}
-		@media screen and (min-width: 300px) and (max-width: 768px) {
+		@media screen and (max-width: 768px) {
 			.hero h1 {
 				line-height: 50px;
-				font-size: 3.1em;
+				font-size: var(--l);
 			}
-
 			.wrapper-service {
 				grid-column: 1/13;
 				grid-row: 2;
@@ -420,6 +420,11 @@
 				align-items: center;
 				margin-top: 50px;
 				gap: 10px;
+			}
+			.img-hero {
+				max-width: 70%;
+				min-width: 70%;
+				margin-top: 30px;
 			}
 		}
 	}

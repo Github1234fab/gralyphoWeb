@@ -5,7 +5,7 @@
 	import CardsSectionB from '../../Components/CardsSectionB.svelte';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	import imageApplication from '../../Assets/png-gralypho/applicationImg.png';
+	import imageApplication from '../../Assets/png-gralypho/applications.png';
 
 	let collapseTab = [
 		{
@@ -47,16 +47,9 @@
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
 
 	<div class="wrapper-application-explication">
-		<h2>Progressive Web App (PWA)</h2>
 		<h1>Notre développement d'applis.</h1>
 		<p>
-			Nous développons des application en PWA. Cela signifie que les applications PWA se
-			téléchargent uniquement depuis un site Web. Pourquoi faire ce choix? Parce qu'une application
-			IOS (apple) ne se code pas comme une application ANDROID (google), même si maintenant certain
-			frameworks le permettent, comme ReactNative. Mais parfois une application ne se trouve pas sur
-			ANDROID mais est disponible sur IOS, et vice-versa. Pour se tenir à l'abrit des rivalités des
-			Gafas et de leur rivalités, nous faisons le choix des applications PWA. Elles présentent
-			certains avantages:
+			Nous développons principalement des application en PWA, parce que nous pensons qu'elles constituent l'avenir de l'application. <br><br>les applciations PWA  ont un double rôle. L'utilisateur accède à l'application par le web, depuis une url. C'est à dire qu'elle se comprte finalement comme un site web, coomme une page web masi présente l'avantage de se télécharger sur le téléphone de l'utilisateur, sa tablette ou son ordinateur. Les applications PWA ne souffrent pas du conlfit adnroid/ios. <br><br> Elles sont compatibles avec tous les navigateurs, tous les systèmes d'exploitation et tous les appareils. Elles sont également très légères et ne prennent pas de place sur le téléphone de l'utilisateur. <br><br>Elles comportent maintenant toutes les  fonctionnalités  des application natives (accès au smartphone, à la caméra, au gps, aux notifications push, etc.). Elles sont également très rapides et très fluides. Elles sont moins intrusives puisque l'utilisateur n'est pas obligé de les télécharger depuis un store. Elles sont également moins coûteuses à développer.
 		</p>
 		<ol>
 			<li>
@@ -65,7 +58,7 @@
 			</li>
 			<li>
 				Les applications PWA se téléchargent depuis votre site internet. C'est une bonne manière de
-				conserver l'uitlisateur sur le site et de le fidéliser. De son côté, l'expérience est très
+				conserver l'utilisateur sur le site et de le fidéliser. De son côté, l'expérience est très
 				fluide.
 			</li>
 			<li>
@@ -119,7 +112,9 @@
 		max-width: 30%;
 		min-width: 30%;
 		margin-top: 30px;
+		z-index: 2;
 	}
+
 	.hero-applications h1 {
 		text-align: center;
 		font-family: var(--Geologica);
@@ -159,7 +154,7 @@
 
 	.wrapper-testimonial h2 {
 		font-family: 'Poppins';
-		font-weight: 300;
+		font-weight: 500;
 		font-size: var(--m);
 		color: white;
 		text-align: center;
@@ -214,7 +209,7 @@
 		letter-spacing: -1px;
 		padding: 15px;
 	}
-	.wrapper-application-explication h2 {
+	/* .wrapper-application-explication h2 {
 		font-family: 'epilogue';
 		font-weight: 700;
 		font-size: var(--m);
@@ -223,7 +218,7 @@
 		margin-top: 50px;
 		margin-bottom: 20px;
 		width: 90%;
-	}
+	} */
 	.wrapper-application-explication p {
 		font-family: 'poppins';
 		font-weight: 300;
@@ -240,7 +235,7 @@
 		color: var(--bleuAcier);
 		text-align: center;
 		margin-top: 50px;
-		width: 60%;
+		max-width: 50%;
 	}
 
 	.wrapper-form {
@@ -271,17 +266,7 @@
 		}
 	}
 
-	@media screen and (min-width: 1400px) and (max-width: 2500px) {
-	}
 
-	@media screen and (min-width: 1200px) and (max-width: 1400px) {
-	}
-
-	@media screen and (min-width: 992px) and (max-width: 1200px) {
-	}
-
-	@media screen and (min-width: 768px) and (max-width: 992px) {
-	}
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
 		.wrapper-application-explication p {
@@ -291,7 +276,7 @@
 			width: 90%;
 		}
 		.image {
-			min-width: 50%;
+			min-width: 60%;
 		}
 	}
 
@@ -303,7 +288,7 @@
 			width: 90%;
 		}
 		.image {
-			min-width: 40%;
+			min-width: 60%;
 		}
 	}
 </style>

@@ -29,7 +29,7 @@
 				<a class="link-contact" href="/Applications">Applications</a>
 				<a class="link-contact" href="/Referencement">Référencement</a>
 				<a class="link-contact" href="/Marketing">Medias Sociaux</a>
-				<a class="link-contact" href="/Refonte">Design</a>
+				<a class="link-contact" href="/Refonte">Design, Logos et Com'</a>
 				<a class="link-contact" href="/Composants">Stratégie</a>
 				<a class="link-contact" href="/Tarifs">Tarifs</a>
 			</div>
@@ -169,10 +169,7 @@
 			align-items: center;
 			gap: 10px;
 		}
-		/* .title {
-			width: 0px;
-			display: none;
-		} */
+	
 		.navigation {
 			font-size: 16px;
 		}

@@ -116,7 +116,7 @@
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
 		<img src={imgHero} alt="" class="imgHero" />
-		<h1>Création de <br /><span>Design</span></h1>
+		<h1>Création de <br /><span>Design, Logos et supports de Com'</span></h1>
 		<h2>
 			L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre
 			projet. <br>Le design d'un site ou d'une application, selon plusieurs études menées aupès des
