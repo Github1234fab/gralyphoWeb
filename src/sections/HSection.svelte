@@ -16,7 +16,7 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un business qui décolle, <br>ça ne passe jamais inaperçu !
+			Un business qui décolle ne passe jamais inaperçu.
 			 	<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 
 		</h2>
@@ -44,7 +44,6 @@
 		top: 60%;
 		left: 80%;
 		transform: translate(-50%, -50%);
-		/* min-width: 30%; */
 		max-height: auto;
 		border: 1px solid whitesmoke;
 		display: flex;
@@ -53,6 +52,8 @@
 		flex-direction: column;
 		border-radius: 20px;
 		z-index: 9;
+		background-color: rgba(255, 255, 255, 0);
+		backdrop-filter: blur(40px);
 	}
 
 	.subtitle {
@@ -64,6 +65,7 @@
 		letter-spacing: -2px;
 		margin-top: 20px;
 		padding: 20px 10px;
+		line-height: 50px;
 	}
 
 	.wrapper-contact {
@@ -98,7 +100,7 @@
 	@media screen and (max-width: 1156px) {
 		.wrapper-text {
 			min-width: 30%;
-			top: 54%;
+			top: 56%;
 			left: 75%;
 			border: 1px solid white;
 			max-height: 300px;
@@ -123,6 +125,7 @@
 			font-weight: 200;
 			letter-spacing: -0.5px;
 			margin-top: 0px;
+				line-height: 32px;
 		}
 		.wrapper-contact {
 			margin-top: 20px;
@@ -134,7 +137,7 @@
 	@media screen and (max-width: 768px) {
 		.wrapper-text {
 			min-width: 48%;
-			top: 45%;
+			top: 53%;
 			left: 73%;
 			border: 1px solid white;
 			max-height: 300px;

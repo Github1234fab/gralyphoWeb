@@ -37,6 +37,7 @@
 		border-radius: 4px;
 		margin-top: 0px;
 		rotate: -5deg;
+		margin-left: -20px;
 	}
 
 	@keyframes bounce {
