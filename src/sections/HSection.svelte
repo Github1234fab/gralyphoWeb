@@ -16,7 +16,7 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un business qui décolle ne passe jamais inaperçu.
+			Quand votre business décolle, il ne passe jamais inaperçu.
 			 	<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 
 		</h2>
@@ -52,8 +52,8 @@
 		flex-direction: column;
 		border-radius: 20px;
 		z-index: 9;
-		background-color: rgba(255, 255, 255, 0);
-		backdrop-filter: blur(40px);
+		background-color: rgba(255, 255, 255, 0.068);
+		backdrop-filter: blur(10px);
 	}
 
 	.subtitle {

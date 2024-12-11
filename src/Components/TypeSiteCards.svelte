@@ -29,8 +29,9 @@
 <div class="card-type-site">
 	<div class="wrapper-text">
 		<div class="wrapper-title-icon">
-			<a href={lien2} class="title">{title}</a>
+		
 			<a href={lien}><img src={icon} alt="icon de types de sites" class="icon" /></a>
+				<a href={lien2} class="title">{title}</a>
 		</div>
 		<!-- <p>
       {p}

@@ -20,19 +20,19 @@
 			title: 'Applications',
 			lien: '/creation-application-web-lyon',
 			icon: iconApplication,
-			p: 'Obtenez une application web pour effectuer...ce que vous voulez !'
+			p: 'Obtenez une application web qui va optimiser votre business'
 		},
 		{
 			title: 'Design',
 			lien: '/creation-logos-publicite-communication-thurins-web',
 			icon: iconPalette,
-			p: "Conception d'UX et d'UI design. C'est à dire parcours utilisateur et fonctionnalités."
+			p: "Design Web, UX/UI, Logos & supports de communications'."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/Referencement-seo-sea-thurins-web',
 			icon: iconSatelit,
-			p: 'Référecnement naturel ou gratuit, selon vos objectifs et vos besoins..'
+			p: 'Référencement naturel ou gratuit, selon vos objectifs et vos besoins..'
 		},
 		{
 			title: 'Réseaux Sociaux',
