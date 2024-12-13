@@ -139,27 +139,27 @@
 				text="Design UX/UI"
 				description="Nous concevons vos sites internet de A à Z. Nous élaborons votre design UX/UI sur mesure pour garantir à vos utilisateurs une expérience unique."
 				img={imgDesign}
-				lien="/creation-site-web-thurins/#wrapper-design"
+				lien="/Design-site-web-thurins/#wrapper-design"
 			/>
 			<Service
 				text="Rédaction Web"
 				img={imgSeo}
 				description="Nous nous chargeons de rédiger pour vous l'ensemble du contenu textuel de votre site internet. Titre, paragraphe, slogan, CTA, bannière, section ..."
-				lien="/creation-site-web-thurins/#wrapper-redaction-web"
+				lien="/Design-site-web-thurins/#wrapper-redaction-web"
 			/>
 		</div>
 		<div class="wrapper-service">
 			<Service
 				text="SEO"
 				description="Nous sommes experts en stratégie SEO. C'est pour vous la garantie d'être convenablement référencé sur les moteurs de recherche, d'être visible pour toucher vos cibles."
-				lien="/creation-site-web-thurins"
+				lien="/Design-site-web-thurins"
 				img={imgWeb}
 			/>
 			<Service
 				text="Conception et stratégie sur mesure"
 				description="Votre stratégie sur le Web est déterminante de votre succès. Déterminez simplement votre objectif et nous ferons le reste !"
 				img={imgFormation}
-				lien="/creation-site-web-thurins"
+				lien="/Design-site-web-thurins"
 			/>
 		</div>
 	</div>
