@@ -16,9 +16,8 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Votre succès,<br>c'est notre misson.
-			 	<!-- Un business qui décolle <br>attire toujours l'attention.  -->
-
+			Un lancement réussi,<br />ça fait toujours du bruit !
+			<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 		</h2>
 		<div class="wrapper-contact">
 			<ButtonCta />
@@ -41,6 +40,7 @@
 
 	.wrapper-text {
 		position: absolute;
+		min-width: 25%;
 		top: 60%;
 		left: 80%;
 		transform: translate(-50%, -50%);
@@ -53,7 +53,7 @@
 		border-radius: 20px;
 		z-index: 9;
 		background-color: rgba(255, 255, 255, 0.068);
-		backdrop-filter: blur(10px);
+		backdrop-filter: blur(20px);
 	}
 
 	.subtitle {
@@ -99,7 +99,7 @@
 
 	@media screen and (max-width: 1156px) {
 		.wrapper-text {
-			min-width: 30%;
+			min-width: 40%;
 			top: 56%;
 			left: 75%;
 			border: 1px solid white;
@@ -125,7 +125,7 @@
 			font-weight: 200;
 			letter-spacing: -0.5px;
 			margin-top: 0px;
-				line-height: 32px;
+			line-height: 32px;
 		}
 		.wrapper-contact {
 			margin-top: 20px;
@@ -136,9 +136,9 @@
 	}
 	@media screen and (max-width: 768px) {
 		.wrapper-text {
-			min-width: 48%;
-			top: 53%;
-			left: 73%;
+			min-width: 60%;
+			top: 80%;
+			left: 50%;
 			border: 1px solid white;
 			max-height: 300px;
 			z-index: 99;
@@ -167,6 +167,14 @@
 			margin-top: 20px;
 		}
 	}
-
-
+	@media screen and (max-width: 500px) {
+		.wrapper-text {
+			min-width: 80%;
+			top: 80%;
+			left: 50%;
+			border: 1px solid white;
+			max-height: 300px;
+			z-index: 99;
+		}
+	}
 </style>
