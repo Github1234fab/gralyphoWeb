@@ -16,7 +16,7 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Quand votre business décolle, il ne passe jamais inaperçu.
+			Votre succès,<br>c'est notre misson.
 			 	<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 
 		</h2>
