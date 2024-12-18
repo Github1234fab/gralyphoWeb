@@ -18,12 +18,13 @@
 		<!-- <Engrenage/> -->
 		<!-- <h1 class="title">Création de site Web & Application</h1> -->
 		<button class="burger-menu" aria-label="Menu" on:click={display}>
-			<i class="fa-solid fa-bars burger" class:visible={toggle}></i>
+		<i class="fa-solid fa-bars burger {toggle ? 'visible' : ''}"></i>
+
 		</button>
 	</div>
 
 	{#if toggle}
-		<span class="span" transition:slide={{ duration: 1900 }}>
+		<span class="span" transition:slide={{ duration: 800 }}>
 			<div in:fade={{ duration: 600 }} out:fade={{ duration: 600 }} class="wrapper-links">
 				<a class="link-contact" href="/creation-site-web-lyon">Sites Web</a>
 				<a class="link-contact" href="/creation-application-web-lyon">Applications Web</a>
@@ -125,7 +126,7 @@
 		padding: 10px;
 		z-index: 4;
 		margin-right: 5px;
-		z-index: 4;
+		z-index: 100;
 	}
 	.burger-menu:hover {
 		animation: bounce 0.4s ease-in-out;
