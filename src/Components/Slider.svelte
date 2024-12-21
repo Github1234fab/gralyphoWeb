@@ -1,5 +1,5 @@
 <script>
-	import Photo from '../Assets/Visuels portfolio gralypho/pFolio__img-m.png';
+	// import Photo from '../Assets/Visuels portfolio gralypho/pFolio__img-m.png';
 	// import Guitare from '../Assets/Visuels portfolio gralypho/pFolio__img-c.png';
 	// import OhMyFood from '../Assets/Visuels portfolio gralypho/pFolio__mg-d.png';
 	// import Booki from '../Assets/Visuels portfolio gralypho/pFolio__img-e.png';
@@ -24,11 +24,11 @@
 		// 	lien: 'https://taxi-lyon-aeroport-rhone.com'
 		// },
 		// { title: 'Site web - Booki', image: Booki, lien: 'https://fabienmarceau.com/Booki/index.html' },
-		{
-			title: 'Landing Page-Photographie',
-			image: Photo,
-			lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
-		},
+		// {
+		// 	title: 'Landing Page-Photographie',
+		// 	image: Photo,
+		// 	lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
+		// },
 		// {
 		// 	title: 'Site web - Oh my Food',
 		// 	image: OhMyFood,
