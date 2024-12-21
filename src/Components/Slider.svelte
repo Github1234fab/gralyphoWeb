@@ -1,5 +1,5 @@
 <script>
-	import Photo from '../Assets/Visuels portfolio gralypho/pFolio__img-k.png';
+	import Photo from '../Assets/Visuels portfolio gralypho/pFolio__img-m.png';
 	import Guitare from '../Assets/Visuels portfolio gralypho/pFolio__img-c.png';
 	import OhMyFood from '../Assets/Visuels portfolio gralypho/pFolio__mg-d.png';
 	import Booki from '../Assets/Visuels portfolio gralypho/pFolio__img-e.png';
@@ -17,11 +17,7 @@
 			image: Rocket,
 			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
-		// {
-		// 	title: 'Site web - École de musique Issétys',
-		// 	image: Issétys,
-		// 	lien: 'https://www.ecole-musique-lyon-issetys.com'
-		// },
+	
 		{
 			title: 'Site web - Le lion Taxi',
 			image: LionTaxi,
