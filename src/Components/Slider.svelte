@@ -1,64 +1,65 @@
 <script>
-	// import Photo from '../Assets/Visuels portfolio gralypho/pFolio__img-m.png';
-	// import Guitare from '../Assets/Visuels portfolio gralypho/pFolio__img-c.png';
-	// import OhMyFood from '../Assets/Visuels portfolio gralypho/pFolio__mg-d.png';
-	// import Booki from '../Assets/Visuels portfolio gralypho/pFolio__img-e.png';
-	// import Morpion from '../Assets/Visuels portfolio gralypho/pFolio__img-f.png';
-	// import Meteo from '../Assets/Visuels portfolio gralypho/pFolio__img-g.png';
-	// import Rocket from '../Assets/Visuels portfolio gralypho/pFolio__img-h.png';
-	// import LionTaxi from '../Assets/Visuels portfolio gralypho/pFolio__img-i.png';
-	// import Todo from '../Assets/Visuels portfolio gralypho/pFolio__img-j.png';
-	// import Issétys from '../Assets/Visuels portfolio gralypho/pFolio__img-l.png';
+	import Photo from '../Assets/portfolio/photo.png';
+	import Guitare from '../Assets/portfolio/guitare.png';
+		import myFood from '../Assets/portfolio/myFood.png';
+	
+	import Booki from '../Assets/portfolio/booki.png';
+	import Morpion from '../Assets/portfolio/morpion.png';
+	import Meteo from '../Assets/portfolio/meteo.png';
+	import Rocket from '../Assets/portfolio/rocket.png';
+	import LionTaxi from '../Assets/portfolio/taxi.png';
+	import Todo from '../Assets/portfolio/todo.png';
+	import Issétys from '../Assets/portfolio/issetys.png';
 
 	let currentIndex = 0;
 	const slides = [
-		// {
-		// 	title: 'Site web - Rocket Agency',
-		// 	image: Rocket,
-		// 	lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
-		// },
+		{
+			title: 'Site web - Rocket Agency',
+			image: Rocket,
+			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
+		},
 	
-		// {
-		// 	title: 'Site web - Le lion Taxi',
-		// 	image: LionTaxi,
-		// 	lien: 'https://taxi-lyon-aeroport-rhone.com'
-		// },
-		// { title: 'Site web - Booki', image: Booki, lien: 'https://fabienmarceau.com/Booki/index.html' },
-		// {
-		// 	title: 'Landing Page-Photographie',
-		// 	image: Photo,
-		// 	lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
-		// },
-		// {
-		// 	title: 'Site web - Oh my Food',
-		// 	image: OhMyFood,
-		// 	lien: 'https://fabienmarceau.com/myFood/index.html'
-		// },
-		// {
-		// 	title: 'Site web - Issétys',
-		// 	image: Issétys,
-		// 	lien: 'https://www.ecole-musique-lyon-issetys.com/'
-		// },
-		// {
-		// 	title: 'Application  - Météo',
-		// 	image: Meteo,
-		// 	lien: 'https://fabienmarceau.com/meteo/index.html'
-		// },
-		// {
-		// 	title: 'Application - Morpion',
-		// 	image: Morpion,
-		// 	lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
-		// },
-		// {
-		// 	title: 'Composant - Horloge',
-		// 	image: Guitare,
-		// 	lien: 'https://cours-guitare-domicile-lyon.com/'
-		// },
-		// {
-		// 	title: 'Application-To Do List',
-		// 	image: Todo,
-		// 	lien: 'https://main--gralyshoplist.netlify.app/'
-		// }
+		{
+			title: 'Site web - Le lion Taxi',
+			image: LionTaxi,
+			lien: 'https://taxi-lyon-aeroport-rhone.com'
+		},
+		{ title: 'Site web - Booki', image: Booki, lien: 'https://fabienmarceau.com/Booki/index.html' },
+		{
+			title: 'Landing Page-Photographie',
+			image: Photo,
+			lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
+		},
+		{
+			title: 'Site web - Oh my Food',
+			image: myFood,
+			lien: 'https://fabienmarceau.com/myFood/index.html'
+		},
+		{
+			title: 'Site web - Issétys',
+			image: Issétys,
+			lien: 'https://www.ecole-musique-lyon-issetys.com/'
+		},
+		{
+			title: 'Application  - Météo',
+			image: Meteo,
+			lien: 'https://fabienmarceau.com/meteo/index.html'
+		},
+		{
+			title: 'Application - Morpion',
+			image: Morpion,
+			lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
+		},
+		{
+			title: 'Composant - Horloge',
+			image: Guitare,
+			lien: 'https://cours-guitare-domicile-lyon.com/'
+		},
+		{
+			title: 'Application-To Do List',
+			image: Todo,
+			lien: 'https://main--gralyshoplist.netlify.app/'
+		}
 	];
 
 	const nextSlide = () => {
