@@ -1,15 +1,14 @@
 <script>
-	import Rocket from '../Assets/png-gralypho/rocketAgency.png';
-	import Todo from '../Assets/png-gralypho/todolist.png';
-	import Morpion from '../Assets/png-gralypho/morpion.png';
-	import Meteo from '../Assets/png-gralypho/météo.png';
-	import Horloge from '../Assets/png-gralypho/horloge.png';
-	import Drapeaux from '../Assets/png-gralypho/flaggame.png';
-	import OhMyFood from '../Assets/png-gralypho/ohmyfood.png';
-	import Booki from '../Assets/png-gralypho/booki.png';
-	import LionTaxi from '../Assets/png-gralypho/leliontaxi.png';
-	import Issétys from '../Assets/png-gralypho/issétys.png';
-	import photographie from '../Assets/png-gralypho/photographie.png';
+	import Photo from '../Assets/Visuels portfolio gralypho/pFolio__img-k.png';
+	import Guitare from '../Assets/Visuels portfolio gralypho/pFolio__img-c.png';
+	import OhMyFood from '../Assets/Visuels portfolio gralypho/pFolio__mg-d.png';
+	import Booki from '../Assets/Visuels portfolio gralypho/pFolio__img-e.png';
+	import Morpion from '../Assets/Visuels portfolio gralypho/pFolio__img-f.png';
+	import Meteo from '../Assets/Visuels portfolio gralypho/pFolio__img-g.png';
+	import Rocket from '../Assets/Visuels portfolio gralypho/pFolio__img-h.png';
+	import LionTaxi from '../Assets/Visuels portfolio gralypho/pFolio__img-i.png';
+	import Todo from '../Assets/Visuels portfolio gralypho/pFolio__img-j.png';
+	import Issétys from '../Assets/Visuels portfolio gralypho/pFolio__img-l.png';
 
 	let currentIndex = 0;
 	const slides = [
@@ -18,11 +17,11 @@
 			image: Rocket,
 			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
-		{
-			title: 'Site web - École de musique Issétys',
-			image: Issétys,
-			lien: 'https://www.ecole-musique-lyon-issetys.com'
-		},
+		// {
+		// 	title: 'Site web - École de musique Issétys',
+		// 	image: Issétys,
+		// 	lien: 'https://www.ecole-musique-lyon-issetys.com'
+		// },
 		{
 			title: 'Site web - Le lion Taxi',
 			image: LionTaxi,
@@ -31,7 +30,7 @@
 		{ title: 'Site web - Booki', image: Booki, lien: 'https://fabienmarceau.com/Booki/index.html' },
 		{
 			title: 'Landing Page-Photographie',
-			image: photographie,
+			image: Photo,
 			lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
 		},
 		{
@@ -40,9 +39,9 @@
 			lien: 'https://fabienmarceau.com/myFood/index.html'
 		},
 		{
-			title: 'Application jeux - Drapeaux',
-			image: Drapeaux,
-			lien: 'https://fabienmarceau.com/dist/index.html'
+			title: 'Site web - Issétys',
+			image: Issétys,
+			lien: 'https://www.ecole-musique-lyon-issetys.com/'
 		},
 		{
 			title: 'Application  - Météo',
@@ -56,8 +55,8 @@
 		},
 		{
 			title: 'Composant - Horloge',
-			image: Horloge,
-			lien: 'https://fabienmarceau.com/horloge/index.html'
+			image: Guitare,
+			lien: 'https://cours-guitare-domicile-lyon.com/'
 		},
 		{
 			title: 'Application-To Do List',
@@ -182,10 +181,11 @@
 		.slider {
 			width: 100%;
 			border-radius: 5px;
-			height: auto;
+			height: 450px;
 			overflow: hidden;
-			margin: 120px auto;
+			margin: 90px auto;
 			position: relative;
+		
 		}
 
 		.img {
@@ -199,13 +199,13 @@
 			max-width: 25%;
 		}
 		.slider {
-			width: 100%;
+			min-width: 100%;
 			border-radius: 5px;
 			height: 400px;
 			overflow: hidden;
-			margin: 120px auto;
+			margin: 50px auto;
 			position: relative;
-			border: 1px solid grey;
+			/* border: 1px solid grey; */
 		}
 
 		.img {
