@@ -12,18 +12,18 @@
 <footer class="footer">
 	<div class="wrapper-contactez">
 		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			><i class="fa-regular fa-envelope icon"></i></a
+			><p>Mail</p><i class="fa-regular fa-envelope icon"></i></a
 		>
 		<a href="tel:0672901614" class="contact" target="_blank"
-			><i class="fa-solid fa-phone-volume icon"></i></a
+			><p>Tel</p><i class="fa-solid fa-phone-volume icon"></i></a
 		>
 		<a
 			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
 			class="contact"
-			target="_blank"><i class="fa-solid fa-mug-hot icon"></i></a
+			target="_blank"><p>RV</p><i class="fa-solid fa-mug-hot icon"></i></a
 		>
 		<a href="https://fabienmarceau.com/gralyphoPhotography/index.html" class="contact" target="_blank"
-			><i class="fa-solid fa-camera"></i></a
+			><p>Photo</p><i class="fa-solid fa-camera icon"></i></a
 		>
 	</div>
 
@@ -45,7 +45,7 @@
 			<Gralypho />
 		</div>
 	</div>
-	<h4>© {Year} GRALYPHO. <br /> Tous droits réservés.</h4>
+	<h1>© {Year} GRALYPHO. <br /> Tous droits réservés.</h1>
 </footer>
 
 <style>
@@ -62,7 +62,7 @@
 		gap: 0px;
 		/* border-top: 1px solid var(--bleuAcier); */
 	}
-	.footer h4 {
+	.footer h1 {
 		margin-top: 30px;
 		font-family: 'Dosis';
 		font-weight: 400;
@@ -94,21 +94,26 @@
 	.contact {
 		text-decoration: none;
 		border: none;
-		color: white;
-		font-size: 1.5em;
+		color: rgb(255, 255, 255);
+		font-weight: 200;
+		font-size: 1rem;
 		font-family: poppins;
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
-		padding: 35px;
+		padding: 50px;
 		background-color: #8c7357;
 		border-radius: 10px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		gap: 10px;
 	}
+
 	.contact:hover {
 		animation: bounce 0.4s ease-in-out;
 		font-weight: 800;
@@ -116,12 +121,14 @@
 
 	a {
 		color: var(--bleuAcier);
-		font-size: 1.8em;
+		font-size: 1.5rem;
 		margin: 0 0px;
 		transition: 0.4s ease-in-out;
+		
 	}
 	.icon {
 		color: var(--whiteGrey);
+		font-size: 1.5rem;
 	}
 
 	.anim:hover {

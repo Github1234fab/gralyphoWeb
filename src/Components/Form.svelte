@@ -3,15 +3,15 @@
 
 <section class="section-form" id="section-form">
 	<div class="wrapper-text">
-		<h3 class="form-title">Formulaire de contact</h3>
-		<h1 class="form-contactez">Contactez-nous dès aujourdhui!</h1>
+		<h1 class="form-title">Formulaire de contact</h1>
+		<h2 class="form-contactez">Contactez-nous dès aujourdhui!</h2>
 	</div>
 	<div class="coordonnees">
-		<a href="mailto:gralypho@gmail.com " class="contact-form">
-			<i class="fa-regular fa-envelope icon-coordonnees"></i> contact@gralypho.com</a
+		<a href="mailto:gralypho@gmail.com " class="contact-form"> Mail
+			<i class="fa-regular fa-envelope icon-coordonnees"></i> :  contact@gralypho.com</a
 		>
 		<a href="tel:0672901614" class="contact-form"
-			><i class="fa-solid fa-phone-volume icon-coordonnees"></i> 0672 901 614</a
+			> Téléphone <i class="fa-solid fa-phone-volume icon-coordonnees"></i> :  0672 901 614</a
 		>
 	</div>
 
