@@ -13,7 +13,6 @@
 <Header />
 
 <section class="H-section">
-	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
 			Un site web réussi,<br />ça fait toujours du bruit !
