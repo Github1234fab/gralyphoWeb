@@ -16,7 +16,7 @@
 	<div class="test"></div>
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un lancement réussi,<br />ça fait toujours du bruit !
+			Un site web réussi,<br />ça fait toujours du bruit !
 			<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 		</h2>
 		<div class="wrapper-contact">
@@ -30,7 +30,7 @@
 		display: flex;
 		min-height: 700px;
 		font-size: 16px;
-		background-image: url('/fusee.jpg');
+		background-image: url('/fusee.avif');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;

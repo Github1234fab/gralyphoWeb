@@ -2,6 +2,7 @@
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
 	import ButtonCta from '../Components/ButtonCTA.svelte';
 	import video from '../Assets/png-gralypho/videocodecomp.mp4';
+	import ButtonCTA from "../Components/ButtonCTA.svelte";
 </script>
 
 <section class="difference">
@@ -61,6 +62,9 @@
 			<span>objectifs</span> et à les dépasser en vous proposant et en concevant des fonctionnalités,
 			des outils, des solutions qui vous permettront de vous démarquer de la concurrence, à coup sûr.
 		</p>
+	</div>
+	<div class="wrapper-cta">
+	<ButtonCTA/>
 	</div>
 </section>
 
@@ -176,6 +180,9 @@
 
 	.marginBottom {
 		margin-bottom: 50px;
+	}
+	.wrapper-cta{
+		margin-bottom: 100px;
 	}
 	@keyframes bounce {
 		0% {

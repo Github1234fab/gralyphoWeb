@@ -2,8 +2,8 @@
 
 <style>
 	a {
-		background-color: var(--cta);
-		color:  var(--whiteGrey);
+		background-color: #e79b25;
+		color:  white;
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
 		font-weight: 700;
