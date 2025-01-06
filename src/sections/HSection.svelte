@@ -15,7 +15,7 @@
 <section class="H-section">
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un site web réussi,<br />ça fait toujours du bruit !
+			Un site web abouti,<br />c'est la garantie d'un décollage réussi!
 			<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 		</h2>
 		<div class="wrapper-contact">
@@ -39,7 +39,7 @@
 
 	.wrapper-text {
 		position: absolute;
-		min-width: 25%;
+		min-width: 30%;
 		top: 60%;
 		left: 80%;
 		transform: translate(-50%, -50%);
@@ -64,7 +64,7 @@
 		letter-spacing: -2px;
 		margin-top: 20px;
 		padding: 20px 10px;
-		line-height: 50px;
+		line-height: 60px;
 	}
 
 	.wrapper-contact {
@@ -161,6 +161,7 @@
 			font-weight: 200;
 			letter-spacing: -0.5px;
 			margin-top: 0px;
+			line-height: 40px;
 		}
 		.wrapper-contact {
 			margin-top: 20px;

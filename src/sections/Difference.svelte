@@ -18,10 +18,8 @@
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
 			<h3 class="paragraph">Qui sommes nous ?</h3>
-			<h3 class="answer">Des passionnés, formés au code informatique et au développement Web.</h3>
-			<br />
-			<p>
-				Gralypho est une agence digitale, spécialisé dans la
+		<p>
+				Nous sommes des passionnés du Web , formés au langage informatique et au développement Web.Nous avons créé l'agence Gralypho en 2019, qui est une agence digitale, spécialisée dans la
 				<span>conception de site Web</span>
 				et dans la
 				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
@@ -32,25 +30,22 @@
 		<br />
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
-		<h3 class="answer">
-			Seo, Sea, Ux/UI, code côté serveur, code côté client, création de contenu, design, community
-			management ...
-		</h3>
+
 		<br />
 
 		<p>
-			Nous sommes formés aux métiers du Web et au code informatique. C'est à dire que nous disposons
+			Nos compétences sont diverses et variées. Seo, Sea, Ux/UI, code côté serveur, code côté client, création de contenu, design, community
+			management ...Nous sommes formés aux métiers du Web et au code informatique. C'est à dire que nous disposons
 			des connaissances nécessaires en
 			<span
 				>design UX/UI, en référencement SEAO et SEA, en norme W3C, en création de contenu textuel et
 				visuel.
 			</span>Cela signifie aussi que nous sommes en capacité de gérer le côté serveur et le côté
-			client. En d'autres terme nous savons tout ce qui se passe sous el capot d'une application ou
+			client. En d'autres terme nous savons tout ce qui se passe sous le capot d'une application ou
 			d'un site internet !
 		</p>
 		<br />
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
-		<h3 class="answer">Parce que nous savons ce qui se passe sous le capot !</h3>
 		<br />
 		<p class="marginBottom">
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
@@ -143,18 +138,9 @@
 		text-align: center;
 		align-self: center;
 		margin-top: 40px;
+		white-space: normal;
 	}
-	.answer {
-		font-family: 'Dosis';
-		font-size: 1.6rem;
-		color: var(--primary);
-		font-weight: 200;
-		letter-spacing: -0.02em;
-		text-align: center;
-		align-self: center;
-		margin-top: 40px;
-	}
-
+	
 	.difference p {
 		font-family: var(--Poppins);
 		column-count: 1;
@@ -165,6 +151,9 @@
 		width: 100%;
 		padding: 0px;
 		text-align: center;
+		text-align: justify;
+		hyphens: auto;
+		
 	}
 	.difference p span {
 		font-family: epilogue;
@@ -206,5 +195,18 @@
 			width: 150%;
 			margin-top: 30px;
 		}
+			.difference p {
+		font-family: var(--Poppins);
+		font-size: var(--m);
+		color: var(--primary);
+		font-weight: 300;
+		line-height: 1.5em;
+		width: 110%;
+		padding: 0px;
+		text-align: center;
+		text-align: justify;
+		hyphens: auto;
+		
+	}
 	}
 </style>
