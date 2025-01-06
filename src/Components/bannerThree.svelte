@@ -98,10 +98,10 @@
 		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
-		/* background-color: var(--bleuAcier); */
+		background-color: #8c7357;
 		border: 1px solid white;
 		border-radius: 8px;
-		padding: 10px 20px;
+		padding: 15px 20px;
 		font-family: 'Red Hat Display';
 		color: white;
 		font-weight: 600;

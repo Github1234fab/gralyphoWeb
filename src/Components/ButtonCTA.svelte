@@ -2,7 +2,7 @@
 
 <style>
 	a {
-		background-color: #e79b25;
+		background-color: #8c7357;
 		color:  white;
 		font-family: 'Red Hat Display';
 		font-size: 1rem;

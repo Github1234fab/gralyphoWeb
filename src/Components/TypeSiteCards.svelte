@@ -103,6 +103,7 @@
 		font-size: 0.9rem;
 		/* border: 1px solid var(--whiteGrey); */
 		background-color: var(--cta);
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.273);
 	}
 	.link-decouvrir:hover {
 		animation: bounce 0.4s ease-in-out;

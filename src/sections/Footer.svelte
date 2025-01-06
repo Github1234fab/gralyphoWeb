@@ -93,7 +93,7 @@
 	}
 	.contact {
 		text-decoration: none;
-		border: 1px solid var(--cta);
+		border: none;
 		color: white;
 		font-size: 1.5em;
 		font-family: poppins;
@@ -102,7 +102,7 @@
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 35px;
-		background-color: var(--cta);
+		background-color: #8c7357;
 		border-radius: 10px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;

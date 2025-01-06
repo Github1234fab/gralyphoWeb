@@ -49,7 +49,7 @@
 		height: auto;
 		width: 100%;
 		padding: 20px;
-		background-color: var(--primary);
+		background-color: #27121e;
 		justify-content: center;
 		align-items: center;
 		background-image: var(--primary);
@@ -151,12 +151,12 @@
 
 	button {
 		border: none;
-		background-color: transparent;
+		background-color:#8c7357;
 		color: var(--whiteGrey);
-		border: var(--cta) 1px solid;
+		border: none;
 		font-family: epilogue;
-		font-weight: 400;
-		padding: 20px 20px;
+		font-weight: 600;
+		padding: 25px 20px;
 		border-radius: 15px;
 		text-align: center;
 		margin-top: 40px;
