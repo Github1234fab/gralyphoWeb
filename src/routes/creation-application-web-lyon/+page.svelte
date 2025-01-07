@@ -151,7 +151,7 @@
 		align-items: center;
 		flex-direction: column;
 		height: 400px;
-		background-image: linear-gradient(var(--primary), var(--secondary));
+		background: var(--gradient);
 	}
 
 	.wrapper-testimonial h2 {

@@ -45,13 +45,18 @@ a {
 }
 
 :root {
---cta: #8c7357;
---primary: #0F1A23;
---secondary: #2f3747;
+/* --cta: #8c7357; */
+--cta: #1481ba;
+/* --primary: #0F1A23; */
+--primary: #0a2239;
+--secondary: #f5f5f5;
+--text:rgb(33, 32, 32);
+    --gradient: linear-gradient(90deg, var(--primary), var(--cta));
+
 --tertiary:#56556c;
 --quatrieme: #d3fbd8;
 --whiteGrey: #f8f8f8;
---green :rgb(59, 228, 36);
+--green :#f1c40f;
 
 --DM: "DM Sans";
 --Dosis: "Dosis";
@@ -112,7 +117,7 @@ a {
 	--ca: #4d3d3d;
 	--ca1: #006666;
 	--ca2: #004d66;
-	--gradient: #1d2f4f;
+	/* --gradient: #1d2f4f; */
 	--button: #6ca0dc;
 	--blueGradient: linear-gradient(to right, #3f00e6, #7f00fd);
 	--blue: #7f00fd;

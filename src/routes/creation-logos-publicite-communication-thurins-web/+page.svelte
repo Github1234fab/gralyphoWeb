@@ -322,7 +322,7 @@
 		align-items: center;
 		margin-top: 0px;
 		height: 400px;
-		background-image: linear-gradient(var(--primary), var(--secondary));
+		background: var(--gradient);
 		padding: 50px;
 		gap: 20px;
 	}

@@ -196,7 +196,7 @@
 		align-items: center;
 		margin-top: 100px;
 		min-height: 700px;
-		background-image: linear-gradient(var(--primary), var(--secondary));
+		background: var(--gradient);
 		padding: 30px;
 		gap: 60px;
 	}

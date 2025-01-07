@@ -20,7 +20,7 @@
 		display: flex;
 		flex-direction: column;
 		/* background: url('../Assets/bgtwo.png'); */
-		background-color: var(--primary);
+		background: var(--gradient);
 	}
 	.bloc {
 		/* min-height: 70vh; */
@@ -67,7 +67,7 @@
 		min-height: 200px;
 		min-width: 200px;
 		border-radius: 50%;
-		background-color: var(--secondary);
+		background-color: var(--green);
 		z-index: 20;
 		z-index: 4;
 		content: '\f042';
@@ -137,7 +137,7 @@
 		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
-		background-color: #8c7357;
+		background-color: var(--cta);
 		border: 1px solid white;
 		border-radius: 8px;
 		padding: 15px 20px;

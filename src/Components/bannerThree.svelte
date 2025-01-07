@@ -52,12 +52,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(
-			to top,
-			rgba(239, 164, 164, 0.469),
-			rgba(0, 0, 0, 0.696) 50%,
-			rgba(230, 175, 175, 0.49)
-		);
+		background-color: rgba(0, 0, 0, 0.377);
 		z-index: 2;
 	}
 
@@ -98,7 +93,7 @@
 		/* background-color: rgba(42, 40, 40, 0.73); */
 	}
 	.lien-bouton {
-		background-color: #8c7357;
+		background-color: var(--cta);
 		border: 1px solid white;
 		border-radius: 8px;
 		padding: 15px 20px;

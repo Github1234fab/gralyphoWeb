@@ -238,7 +238,7 @@
 		align-items: center;
 		margin-top: 0px;
 		height: 500px;
-		background-image: linear-gradient(var(--primary), var(--secondary));
+		background: var(--gradient);
 		padding: 50px;
 		gap: 20px;
 		border-bottom: 1px solid rgb(79, 78, 78);

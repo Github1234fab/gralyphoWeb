@@ -191,7 +191,7 @@
 		margin-top: 0px;
     width: 100%;
 		height: 400px;
-		background-image: linear-gradient(var(--primary), var(--secondary));
+	background: var(--gradient);
 		padding: 0px;
 		gap: 20px;
 	}
