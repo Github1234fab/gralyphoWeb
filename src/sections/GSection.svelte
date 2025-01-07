@@ -145,7 +145,7 @@
 		font-size: var(--l);
 		color: var(--primary);
 		font-weight: 800;
-		margin-bottom: 40px;
+		margin-bottom: 0px;
 		letter-spacing: -0.04em;
 		margin-top: 40px;
 		text-align: center;
@@ -167,7 +167,7 @@
 
 	@media screen and (max-width: 768px){
 		.G-section{
-			height: 550px;
+			height: fit-content;
 		}
 			.G-section h1{
 			font-size: 1.4rem;

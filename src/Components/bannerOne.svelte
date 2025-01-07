@@ -126,15 +126,17 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		font-family: 'Red Hat Display';
+		font-family: var(--Poppins);
+		font-size: var(--m);
+		color: var(--primary);
+		font-weight: 300;
 		margin-top: 30px;
 		text-align: justify;
 		hyphens: auto;
 		color: white;
 		max-width: 70%;
-		line-height: 25px;
-		font-size: 1.2rem;
-		/* background-color: rgba(42, 40, 40, 0.73); */
+		line-height:1.5rem;
+	
 	}
 	.lien-bouton {
 		background-color: var(--cta);
@@ -180,3 +182,4 @@
 		}
 	}
 </style>
+

@@ -58,9 +58,10 @@
 			des outils, des solutions qui vous permettront de vous démarquer de la concurrence, à coup sûr.
 		</p>
 	</div>
-	<div class="wrapper-cta">
+	<div class="wrapper__cta">
 		<ButtonCTA />
-	</div>
+		</div>
+	
 </section>
 
 <style>
@@ -191,11 +192,15 @@
 	}
 
 	.marginBottom {
-		margin-bottom: 50px;
-	}
-	.wrapper-cta {
 		margin-bottom: 100px;
 	}
+	.wrapper__cta {
+		margin-bottom: 50px;
+	}
+	.wrapper__cta:hover {
+		animation: bounce 0.5s ease-in-out;
+	}
+	
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);

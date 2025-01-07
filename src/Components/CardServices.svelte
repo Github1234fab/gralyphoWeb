@@ -18,21 +18,37 @@
 		rotation = false;
 	}
 
-	onMount(() => {
-		const cards = document.querySelectorAll('.card-services');
-		cards.forEach((el) => {
-			gsap.to(el, {
+	// onMount(() => {
+	// 	const cards = document.querySelectorAll('.card-services');
+	// 	cards.forEach((el) => {
+	// 		gsap.to(el, {
 				
-				opacity: 1,
-				ease: 'ease-in-out',
-				scrollTrigger: {
-					trigger: el,
-					start: 'top 95%',
-					scrub: true
-				}
-			});
-		});
-	});
+	// 			// opacity: 1,
+	// 			x:0,
+	// 			ease: 'ease-in-out',
+	// 			scrollTrigger: {
+	// 				trigger: el,
+	// 				start: 'top 100%',
+	// 				scrub: true
+	// 			}
+	// 		});
+	// 	});
+	// });
+onMount(() => {
+    // Applique l'animation à chaque élément avec la classe ".icon"
+    document.querySelectorAll(".icon").forEach((el) => {
+        gsap.to(el, {
+            scale: 1, // La valeur cible de l'échelle
+            ease: "ease-in-out",
+            scrollTrigger: {
+                trigger: el,
+                start: "top 100%",
+                scrub: 0.5,
+            },
+        });
+    });
+});
+
 </script>
 
 <button
@@ -53,8 +69,7 @@
 
 <style>
 	.card-services {
-		/* transform: translateY(400px) ; */
-		opacity: 0;
+		opacity: 1;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -65,6 +80,7 @@
 		border-bottom: none;
 		border-right: none;
 		border-left: none;
+		/* transform: translateX(200px); */
 	}
 
 	.wrapper-text-service {
@@ -92,8 +108,10 @@
 		min-height: 150px;
 	}
 	.icon {
+		rotate: 0;
 		width: 50px;
 		height: 50px;
+		transform: scale(0);
 	}
 	.lien {
 		font-family: 'red hat display';

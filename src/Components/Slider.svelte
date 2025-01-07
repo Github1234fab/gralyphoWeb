@@ -92,7 +92,7 @@
 		width: 85%;
 		border-radius: 5px;
 		overflow: hidden;
-		margin: 60px auto;
+		margin: 40px auto;
 		position: relative;
 	}
 
@@ -180,7 +180,7 @@
 			border-radius: 5px;
 			height: 450px;
 			overflow: hidden;
-			margin: 90px auto;
+			margin: 0px auto;
 			position: relative;
 		
 		}
@@ -200,7 +200,7 @@
 			border-radius: 5px;
 			height: 400px;
 			overflow: hidden;
-			margin: 50px auto;
+			margin: 60px auto;
 			position: relative;
 			/* border: 1px solid grey; */
 		}
