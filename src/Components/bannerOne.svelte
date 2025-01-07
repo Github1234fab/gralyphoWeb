@@ -21,6 +21,7 @@
 		flex-direction: column;
 		/* background: url('../Assets/bgtwo.png'); */
 		background: var(--gradient);
+		z-index: 0;	
 	}
 	.bloc {
 		/* min-height: 70vh; */
@@ -48,7 +49,7 @@
 			rgba(0, 0, 0, 0.696) 50%,
 			rgba(230, 175, 175, 0.49)
 		); */
-		z-index: 2;
+		z-index: 0;
 	}
 	.wrapper {
 		display: flex;
@@ -68,8 +69,7 @@
 		min-width: 200px;
 		border-radius: 50%;
 		background-color: var(--green);
-		z-index: 20;
-		z-index: 4;
+		z-index: 10;
 		content: '\f042';
 		position: absolute;
 		left: -50px;
@@ -91,7 +91,7 @@
 		min-width: 230px;
 		border-radius: 50%;
 		opacity: 0.5;
-		z-index: 10;
+		z-index: 12;
 		position: relative;
 		margin-left: 70px;
 	}

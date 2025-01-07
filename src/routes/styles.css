@@ -19,7 +19,6 @@ a {
 	text-decoration: none;
 }
 
-
 .container,
 .container-sm,
 .container-md,
@@ -45,55 +44,36 @@ a {
 }
 
 :root {
-/* --cta: #8c7357; */
---cta: #1481ba;
-/* --primary: #0F1A23; */
---primary: #0a2239;
---secondary: #f5f5f5;
---text:rgb(33, 32, 32);
-    --gradient: linear-gradient(90deg, var(--primary), var(--cta));
-
---tertiary:#56556c;
---quatrieme: #d3fbd8;
---whiteGrey: #f8f8f8;
---green :#f1c40f;
-
---DM: "DM Sans";
---Dosis: "Dosis";
---Epilogue: "Epilogue";
---Geologica: "Geologica";
---Heebo: "Heebo";
---Kanit:"Kanit";
---Poppins: "poppins";
---Nunito: "Nunito";
---Poppins:"Poppins";
---Architects: "Architects Daughter";
---Radio: "Radio Canada Big";
---Red:"Red Hat Display";
+	/* --cta: #8c7357; */
+	--cta: #1481ba;
+	/* --primary: #0F1A23; */
+	--primary: #0a2239;
+	--secondary: #f5f5f5;
+	--text: rgb(33, 32, 32);
+	--gradient: linear-gradient(120deg, var(--primary)50%, var(--cta)50%, var(--primary)100%); 
+	/* --gradient: linear-gradient(90deg, var(--primary), var(--cta)); */
 
 
+	--tertiary: #56556c;
+	--quatrieme: #d3fbd8;
+	--whiteGrey: #f8f8f8;
+	--green: #f1c40f;
 
+	--DM: 'DM Sans';
+	--Dosis: 'Dosis';
+	--Epilogue: 'Epilogue';
+	--Geologica: 'Geologica';
+	--Heebo: 'Heebo';
+	--Kanit: 'Kanit';
+	--Poppins: 'poppins';
+	--Nunito: 'Nunito';
+	--Poppins: 'Poppins';
+	--Architects: 'Architects Daughter';
+	--Radio: 'Radio Canada Big';
+	--Red: 'Red Hat Display';
 
-
-
-
-
-
-
-
-
-
-
-
-/* -----------------------------------------
+	/* -----------------------------------------
 ---------------------------------------- */
-
-
-
-
-
-
-
 
 	--colorA: #e13e3b;
 	--colorB: #0c0b2e;
@@ -112,7 +92,6 @@ a {
 	--colorO: #11232e;
 	--colorO2: rgba(17, 35, 46, 0.645);
 
-	
 	--bg: #1b1e22;
 	--ca: #4d3d3d;
 	--ca1: #006666;
@@ -158,8 +137,8 @@ a {
 	--bgHero: rgb(26, 44, 57);
 	--titleHero: #3a3a58;
 	/* --CTA-jaune:#B97D4B ; */
-		--CTA-jaune: rgb(226, 158, 49);
-	  /* --CTA-jaune: linear-gradient(90deg, rgb(205, 153, 55), rgb(231, 164, 82)); */
+	--CTA-jaune: rgb(226, 158, 49);
+	/* --CTA-jaune: linear-gradient(90deg, rgb(205, 153, 55), rgb(231, 164, 82)); */
 
 	--line-url: url(../Assets/png-gralypho/line-4.svg);
 }
