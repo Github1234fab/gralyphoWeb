@@ -111,10 +111,11 @@
 	.title {
 		font-family: var(--Geologica);
 		font-weight: 900;
-		padding: 20px;
+		padding: 0px;
 		text-align: center;
 		color: white;
 		font-size: var(--l);
+		text-align: center;
 	}
 	.title span {
 		color: var(--green);
@@ -127,8 +128,8 @@
 		justify-content: center;
 		font-family: 'Red Hat Display';
 		margin-top: 30px;
-		text-align: center;
-		text-align: center;
+		text-align: justify;
+		hyphens: auto;
 		color: white;
 		max-width: 70%;
 		line-height: 25px;

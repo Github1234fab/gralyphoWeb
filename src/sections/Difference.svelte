@@ -2,12 +2,11 @@
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
 	import ButtonCta from '../Components/ButtonCTA.svelte';
 	import video from '../Assets/png-gralypho/videocodecomp.mp4';
-	import ButtonCTA from "../Components/ButtonCTA.svelte";
+	import ButtonCTA from '../Components/ButtonCTA.svelte';
 </script>
 
 <section class="difference">
-	<h1><span>Gralypho</span></h1>
-	<h2>Le <span>Web</span>, <br /> c'est notre métier.</h2>
+	<h1>Le <span>Web</span>, <br /> c'est notre métier.</h1>
 
 	<!-- <div class="img"></div> -->
 	<video class="video" autoplay muted loop>
@@ -18,8 +17,11 @@
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
 			<h3 class="paragraph">Qui sommes nous ?</h3>
-		<p>
-				Nous sommes des passionnés du Web , formés au langage informatique et au développement Web.Nous avons créé l'agence Gralypho en 2019, qui est une agence digitale, spécialisée dans la
+				<br />
+			<p>
+				Nous sommes des passionnés du Web , formés au langage informatique et au développement
+				Web.Nous avons créé l'agence Gralypho en 2019, qui est une agence digitale, spécialisée dans
+				la
 				<span>conception de site Web</span>
 				et dans la
 				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
@@ -30,13 +32,11 @@
 		<br />
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
-
 		<br />
-
 		<p>
-			Nos compétences sont diverses et variées. Seo, Sea, Ux/UI, code côté serveur, code côté client, création de contenu, design, community
-			management ...Nous sommes formés aux métiers du Web et au code informatique. C'est à dire que nous disposons
-			des connaissances nécessaires en
+			Nos compétences sont diverses et variées. Seo, Sea, Ux/UI, code côté serveur, code côté
+			client, création de contenu, design, community management ...Nous sommes formés aux métiers du
+			Web et au code informatique. C'est à dire que nous disposons des connaissances nécessaires en
 			<span
 				>design UX/UI, en référencement SEAO et SEA, en norme W3C, en création de contenu textuel et
 				visuel.
@@ -59,7 +59,7 @@
 		</p>
 	</div>
 	<div class="wrapper-cta">
-	<ButtonCTA/>
+		<ButtonCTA />
 	</div>
 </section>
 
@@ -75,7 +75,43 @@
 		z-index: 0;
 		position: relative;
 		padding: 20px;
-		background-image: radial-gradient(circle at center center, transparent,rgb(255,255,255)),linear-gradient(309deg, rgba(90, 90, 90,0.05) 0%, rgba(90, 90, 90,0.05) 50%,rgba(206, 206, 206,0.05) 50%, rgba(206, 206, 206,0.05) 100%),linear-gradient(39deg, rgba(13, 13, 13,0.05) 0%, rgba(13, 13, 13,0.05) 50%,rgba(189, 189, 189,0.05) 50%, rgba(189, 189, 189,0.05) 100%),linear-gradient(144deg, rgba(249, 249, 249,0.05) 0%, rgba(249, 249, 249,0.05) 50%,rgba(111, 111, 111,0.05) 50%, rgba(111, 111, 111,0.05) 100%),linear-gradient(166deg, rgba(231, 231, 231,0.05) 0%, rgba(231, 231, 231,0.05) 50%,rgba(220, 220, 220,0.05) 50%, rgba(220, 220, 220,0.05) 100%),linear-gradient(212deg, rgba(80, 80, 80,0.05) 0%, rgba(80, 80, 80,0.05) 50%,rgba(243, 243, 243,0.05) 50%, rgba(243, 243, 243,0.05) 100%),radial-gradient(circle at center center, hsl(107,19%,100%),hsl(107,19%,100%));
+		background-image: radial-gradient(circle at center center, transparent, rgb(255, 255, 255)),
+			linear-gradient(
+				309deg,
+				rgba(90, 90, 90, 0.05) 0%,
+				rgba(90, 90, 90, 0.05) 50%,
+				rgba(206, 206, 206, 0.05) 50%,
+				rgba(206, 206, 206, 0.05) 100%
+			),
+			linear-gradient(
+				39deg,
+				rgba(13, 13, 13, 0.05) 0%,
+				rgba(13, 13, 13, 0.05) 50%,
+				rgba(189, 189, 189, 0.05) 50%,
+				rgba(189, 189, 189, 0.05) 100%
+			),
+			linear-gradient(
+				144deg,
+				rgba(249, 249, 249, 0.05) 0%,
+				rgba(249, 249, 249, 0.05) 50%,
+				rgba(111, 111, 111, 0.05) 50%,
+				rgba(111, 111, 111, 0.05) 100%
+			),
+			linear-gradient(
+				166deg,
+				rgba(231, 231, 231, 0.05) 0%,
+				rgba(231, 231, 231, 0.05) 50%,
+				rgba(220, 220, 220, 0.05) 50%,
+				rgba(220, 220, 220, 0.05) 100%
+			),
+			linear-gradient(
+				212deg,
+				rgba(80, 80, 80, 0.05) 0%,
+				rgba(80, 80, 80, 0.05) 50%,
+				rgba(243, 243, 243, 0.05) 50%,
+				rgba(243, 243, 243, 0.05) 100%
+			),
+			radial-gradient(circle at center center, hsl(107, 19%, 100%), hsl(107, 19%, 100%));
 	}
 	.video {
 		width: 100%;
@@ -84,17 +120,6 @@
 	}
 
 	.difference h1 {
-		font-family: Geologica;
-		text-transform: uppercase;
-		font-size: var(--s);
-		color: var(--secondary);
-		font-weight: 600;
-		letter-spacing: -0.04em;
-		margin-top: 50px;
-		margin-bottom: 20px;
-		text-align: center;
-	}
-	.difference h2 {
 		font-family: var(--Geologica);
 		font-size: var(--l);
 		color: var(--primary);
@@ -102,10 +127,10 @@
 		margin-bottom: 10px;
 		letter-spacing: -1px;
 		text-align: center;
-		line-height: 40px;
+		line-height: 50px;
 		margin-top: 20px;
 	}
-	.difference h2 span {
+	.difference h1 span {
 		color: var(--green);
 		font-weight: bolder;
 		font-size: 3rem;
@@ -138,9 +163,8 @@
 		text-align: center;
 		align-self: center;
 		margin-top: 40px;
-		white-space: normal;
 	}
-	
+
 	.difference p {
 		font-family: var(--Poppins);
 		column-count: 1;
@@ -153,7 +177,6 @@
 		text-align: center;
 		text-align: justify;
 		hyphens: auto;
-		
 	}
 	.difference p span {
 		font-family: epilogue;
@@ -170,7 +193,7 @@
 	.marginBottom {
 		margin-bottom: 50px;
 	}
-	.wrapper-cta{
+	.wrapper-cta {
 		margin-bottom: 100px;
 	}
 	@keyframes bounce {
@@ -195,18 +218,17 @@
 			width: 150%;
 			margin-top: 30px;
 		}
-			.difference p {
-		font-family: var(--Poppins);
-		font-size: var(--m);
-		color: var(--primary);
-		font-weight: 300;
-		line-height: 1.5em;
-		width: 110%;
-		padding: 0px;
-		text-align: center;
-		text-align: justify;
-		hyphens: auto;
-		
-	}
+		.difference p {
+			font-family: var(--Poppins);
+			font-size: var(--m);
+			color: var(--primary);
+			font-weight: 300;
+			line-height: 1.5em;
+			width: 110%;
+			padding: 0px;
+			text-align: center;
+			text-align: justify;
+			hyphens: auto;
+		}
 	}
 </style>

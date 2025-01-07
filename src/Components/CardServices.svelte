@@ -27,7 +27,7 @@
 				ease: 'ease-in-out',
 				scrollTrigger: {
 					trigger: el,
-					start: 'top 70%',
+					start: 'top 95%',
 					scrub: true
 				}
 			});

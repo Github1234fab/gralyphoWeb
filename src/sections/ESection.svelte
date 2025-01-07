@@ -153,7 +153,7 @@
 		letter-spacing: -0.04em;
 		margin-left: 0px;
 		text-align: justify;
-		text-justify: inter-word;
+		hyphens: auto;
 		line-height: 30px;
 		max-width: 90%;
 		margin: 50px auto;

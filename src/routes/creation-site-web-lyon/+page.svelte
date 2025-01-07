@@ -126,7 +126,6 @@
 				visiteurs en clients, là, c'est une autre histoire. <br />Et cette hsitoire nous en
 				maîtrisons parfaitement l'écriture !
 			</h2>
-			<Button />
 		</div>
 	</div>
 
