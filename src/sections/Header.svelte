@@ -26,13 +26,13 @@
 	{#if toggle}
 		<span class="span" transition:slide={{ duration: 800 }}>
 			<div in:fade={{ duration: 600 }} out:fade={{ duration: 600 }} class="wrapper-links">
-				<a class="link-contact" href="/creation-site-web-lyon">Sites Web</a>
-				<a class="link-contact" href="/creation-application-web-lyon">Applications Web</a>
-				<a class="link-contact" href="/Referencement-seo-sea-thurins-web">Référencement</a>
-				<a class="link-contact" href="/Medias-sociaux-thurins-web">Medias Sociaux</a>
-				<a class="link-contact" href="/creation-logos-publicite-communication-thurins-web">Design, Logos et pub</a>
-				<a class="link-contact" href="/strategie-communication-web">Communication</a>
-				<a class="link-contact" href="/Tarifs-creation-site-web-lyon">Tarifs</a>
+				<a class="link-contact" href="/creation-sites-web">Sites Web</a>
+				<a class="link-contact" href="/creation-application">Applications Web</a>
+				<a class="link-contact" href="/referencement-seo-sea">Référencement</a>
+				<a class="link-contact" href="/gestion-media-sociaux">Medias Sociaux</a>
+				<a class="link-contact" href="/creation-design-logos">Design, Logos et pub</a>
+				<a class="link-contact" href="/etude-strategie-digitale">Communication</a>
+				<a class="link-contact" href="/tarifs">Tarifs</a>
 			</div>
 		</span>
 	{/if}

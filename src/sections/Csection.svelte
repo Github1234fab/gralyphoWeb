@@ -16,38 +16,38 @@
 			title: 'Site vitrine',
 			icon: vitrine,
 			// p: "Créer un site internet vitrine permet de présenter la société, ses produits et ses services. Il permet de fournir des informations aux clients potentiels et de les diriger vers les canaux de vente ...",
-			lien: '/creation-site-web-ouest-lyonnais'
+			lien: '/types-site-web'
 			// lien2: "/Sites",
 		},
 		{
 			title: 'Site E-commerce',
 			icon: commerce,
 			// p: "Réaliser un site internet E-commerce permet à une entreprise de vendre des produits, des contenus ou des services en ligne, en restant ouverte 24h/24 et 7/7.",
-			lien: '/creation-site-web-ouest-lyonnais'
+			lien: '/types-site-web'
 		},
 		{
 			title: 'Blog',
 			icon: blog,
 			// p: "Le blog d’entreprise est un site éditorial animé par un ou plusieurs auteurs qui publient des articles et des contenus sur des sujets spécifiques B2C ou B2B. ",
-			lien: '/creation-site-web-ouest-lyonnais'
+			lien: '/types-site-web'
 		},
 		{
 			title: 'Portfolio',
 			icon: portfolio,
 			// p: "Le portfolio est une plateforme internet professionnelle qui permet aux créatifs, photographes, designers, indépendants (...) de présenter leurs travaux et leurs réalisations. ",
-			lien: '/creation-site-web-ouest-lyonnais'
+			lien: '/types-site-web'
 		},
 		{
 			title: 'Site Corporate',
 			icon: corporate,
 			// p: "Les grandes entreprises, institutions ou organisations ont besoin de présenter leurs activités. Un site web corporate apporte les réponses nécessaires de ce point de vue.",
-			lien: '/creation-site-web-ouest-lyonnais'
+			lien: '/types-site-web'
 		},
 		{
 			title: 'Site Institutionnel',
 			icon: institution,
 			// p: "Le site institutionnel est destiné à promouvoir l’image d’une organisation telle que les établissements d’enseignement, les associations et les organismes à but non lucratif. ",
-			lien: '/creation-site-web-ouest-lyonnais'
+			lien: '/types-site-web'
 		}
 	];
 	onMount(() => {
@@ -137,7 +137,7 @@
 		grid-row: 2/3;
 		display: flex;
 		flex-wrap: wrap;
-	margin: 0px auto;
+		margin: 0px auto;
 		align-items: center;
 		justify-content: center;
 		gap: 20px;
