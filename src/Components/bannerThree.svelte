@@ -8,7 +8,7 @@
 				Augmentez vos revenus grâce à une visibilité accrue, grâce à notre expertise SEO. <br /> C'est
 				le moyen d'obtenir plus de visibilité , plus de prospects, plus de clients et plus d'argent!
 			</p>
-			<a href="/Referencement-seo-sea" class="lien-bouton">En savoir +</a>
+			<a href="/referencement-seo-sea" class="lien-bouton">En savoir +</a>
 		</div>
 	</div>
 </div>
