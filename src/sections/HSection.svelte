@@ -15,7 +15,7 @@
 <section class="H-section">
 	<div class="wrapper-text">
 		<h2 class="subtitle">
-			Un site web abouti,<br />c'est la garantie d'un décollage réussi!
+			Un site web abouti<br />vous garantit un décollage réussi!
 			<!-- Un business qui décolle <br>attire toujours l'attention.  -->
 		</h2>
 		<div class="wrapper-contact">
@@ -44,7 +44,7 @@
 		left: 80%;
 		transform: translate(-50%, -50%);
 		max-height: auto;
-		border: 1px solid whitesmoke;
+		/* border: 1px solid whitesmoke; */
 		display: flex;
 		align-items: center;
 		justify-content: center;

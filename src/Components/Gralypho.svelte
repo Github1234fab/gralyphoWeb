@@ -1,5 +1,5 @@
 <div class="rect">
-	<h1 class="title">Gralypho - Communication</h1>
+	<h1 class="title">Gralypho</h1>
 	<h2 class="subtitle">Agence Web</h2>
 </div>
 
@@ -37,7 +37,7 @@
 		border-radius: 4px;
 		margin-top: 0px;
 		rotate: -5deg;
-		margin-left: -20px;
+		margin-left: 0px;
 	}
 
 	@keyframes bounce {
