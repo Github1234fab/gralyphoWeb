@@ -30,7 +30,7 @@
 		},
 		{
 			title: 'Stratégie SEO/SEA',
-			lien: '/referencement-seo-sea',
+			lien: '/Referencement-seo-sea-thurins-web ',
 			icon: iconSatelit,
 			p: 'Référencement naturel ou gratuit, selon vos objectifs et vos besoins..'
 		},

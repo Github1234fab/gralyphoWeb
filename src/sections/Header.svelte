@@ -28,7 +28,7 @@
 			<div in:fade={{ duration: 600 }} out:fade={{ duration: 600 }} class="wrapper-links">
 				<a class="link-contact" href="/creation-sites-web">Sites Web</a>
 				<a class="link-contact" href="/creation-application">Applications Web</a>
-				<a class="link-contact" href="/referencement-seo-sea">Référencement</a>
+				<a class="link-contact" href="/Referencement-seo-sea-thurins-web ">Référencement</a>
 				<a class="link-contact" href="/gestion-media-sociaux">Medias Sociaux</a>
 				<a class="link-contact" href="/creation-design-logos">Design, Logos et pub</a>
 				<a class="link-contact" href="/etude-strategie-digitale">Communication</a>
