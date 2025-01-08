@@ -86,11 +86,11 @@
 		color: var(--whiteGrey);
 		font-weight: 600;
 		font-size: 1.2rem;
-		background-color: var(--cta);
+		background-color: var(--primary);
 		min-height: 230px;
 		min-width: 230px;
 		border-radius: 50%;
-		opacity: 0.5;
+		opacity: 0.8;
 		z-index: 12;
 		position: relative;
 		margin-left: 70px;

@@ -50,7 +50,7 @@ a {
 	--primary: #0a2239;
 	--secondary: #f5f5f5;
 	--text: rgb(33, 32, 32);
-	--gradient: linear-gradient(120deg, var(--primary)50%, var(--cta)50%, var(--primary)100%); 
+	--gradient: linear-gradient(120deg,   var(--cta)20%,    var(--primary)50%, var(--cta)50%, var(--primary)100%); 
 	/* --gradient: linear-gradient(90deg, var(--primary), var(--cta)); */
 
 

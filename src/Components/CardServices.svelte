@@ -18,36 +18,41 @@
 		rotation = false;
 	}
 
-	// onMount(() => {
-	// 	const cards = document.querySelectorAll('.card-services');
-	// 	cards.forEach((el) => {
-	// 		gsap.to(el, {
-				
-	// 			// opacity: 1,
-	// 			x:0,
-	// 			ease: 'ease-in-out',
-	// 			scrollTrigger: {
-	// 				trigger: el,
-	// 				start: 'top 100%',
-	// 				scrub: true
-	// 			}
-	// 		});
-	// 	});
-	// });
+
 onMount(() => {
     // Applique l'animation à chaque élément avec la classe ".icon"
     document.querySelectorAll(".icon").forEach((el) => {
         gsap.to(el, {
             scale: 1, // La valeur cible de l'échelle
-            ease: "ease-in-out",
+             ease: "power1.inOut",
+	  duration: 1,
             scrollTrigger: {
                 trigger: el,
-                start: "top 100%",
-                scrub: 0.5,
+              start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
+                end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
+                scrub: true,     
             },
         });
     });
 });
+
+onMount(() => {
+    // Applique l'animation à chaque élément avec la classe ".icon"
+    document.querySelectorAll(".card-services").forEach((el) => {
+        gsap.to(el, {
+            x: 0, // La valeur cible de l'échelle
+          ease: "power1.inOut",
+	  duration: 1,
+            scrollTrigger: {
+                trigger: el,
+              start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
+                end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
+                scrub: true,     
+            },
+        });
+    });
+});
+
 
 </script>
 
@@ -80,7 +85,7 @@ onMount(() => {
 		border-bottom: none;
 		border-right: none;
 		border-left: none;
-		/* transform: translateX(200px); */
+		transform: translateX(200px);
 	}
 
 	.wrapper-text-service {

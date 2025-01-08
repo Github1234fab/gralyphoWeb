@@ -1,8 +1,9 @@
 <script>
 	import ButtonDifference from '../Components/ButtonDifference.svelte';
-	import ButtonCta from '../Components/ButtonCTA.svelte';
 	import video from '../Assets/png-gralypho/videocodecomp.mp4';
 	import ButtonCTA from '../Components/ButtonCTA.svelte';
+
+
 </script>
 
 <section class="difference">
@@ -17,8 +18,8 @@
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
 			<h3 class="paragraph">Qui sommes nous ?</h3>
-				<br />
-			<p>
+			<br />
+			<p class="sub-paragraph">
 				Nous sommes des passionnés du Web , formés au langage informatique et au développement
 				Web.Nous avons créé l'agence Gralypho en 2019, qui est une agence digitale, spécialisée dans
 				la
@@ -33,7 +34,7 @@
 
 		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
 		<br />
-		<p>
+		<p class="sub-paragraph">
 			Nos compétences sont diverses et variées. Seo, Sea, Ux/UI, code côté serveur, code côté
 			client, création de contenu, design, community management ...Nous sommes formés aux métiers du
 			Web et au code informatique. C'est à dire que nous disposons des connaissances nécessaires en
@@ -47,7 +48,7 @@
 		<br />
 		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
 		<br />
-		<p class="marginBottom">
+		<p class="marginBottom sub-paragraph">
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
 			sécurité, de la performance, de la sérénité et de la pérennité. <br />Nous sommes ici pour
 			vous accompagner dans la <span>réalisation </span>de votre projet, de sa conception à sa mise
@@ -60,8 +61,7 @@
 	</div>
 	<div class="wrapper__cta">
 		<ButtonCTA />
-		</div>
-	
+	</div>
 </section>
 
 <style>
@@ -166,20 +166,21 @@
 		margin-top: 40px;
 	}
 
-	.difference p {
+	.sub-paragraph{
 		font-family: var(--Poppins);
 		column-count: 1;
 		font-size: var(--m);
 		color: var(--primary);
 		font-weight: 300;
 		line-height: 1.5em;
-		width: 100%;
+		width: 80%;
 		padding: 0px;
 		text-align: center;
 		text-align: justify;
 		hyphens: auto;
+		transform: scale(1);
 	}
-	.difference p span {
+	.sub-paragraph span {
 		font-family: epilogue;
 		color: var(--primary);
 		column-count: 1;
@@ -200,7 +201,7 @@
 	.wrapper__cta:hover {
 		animation: bounce 0.5s ease-in-out;
 	}
-	
+
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
@@ -223,7 +224,7 @@
 			width: 150%;
 			margin-top: 30px;
 		}
-		.difference p {
+		.sub-paragraph {
 			font-family: var(--Poppins);
 			font-size: var(--m);
 			color: var(--primary);

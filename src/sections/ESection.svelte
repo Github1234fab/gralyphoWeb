@@ -49,6 +49,8 @@
 			p: "Avoir un site Web c'est bien et avec une stratégie, c'est encore mieux."
 		}
 	];
+
+
 </script>
 
 <section class="E-section">
@@ -123,7 +125,7 @@
 	} */
 	.autoText {
 		color: var(--green);
-		font-weight: 500;
+		font-weight: 900;
 		font-size: 1.2rem;
 		font-family: var(--Dosis);
 		justify-self: center;

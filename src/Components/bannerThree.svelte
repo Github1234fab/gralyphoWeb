@@ -31,6 +31,7 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+		
 		/* box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411); */
 		z-index: 0;
 	position: relative;	
@@ -44,6 +45,7 @@
 		align-items: center;
 		justify-content: center;
 		z-index: 3;
+		gap: 50px;
 	}
 	.bloc::after {
 		content: '';
@@ -52,7 +54,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.377);
+		background-color: rgba(0, 0, 0, 0.548);
 		z-index: 2;
 	}
 

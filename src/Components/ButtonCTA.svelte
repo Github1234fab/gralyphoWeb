@@ -12,6 +12,7 @@
 		padding: 15px 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		z-index: 999;
+		border: white 1px solid;
  
 	}
         a:hover{

@@ -170,7 +170,7 @@
 	@media screen and (max-width: 500px) {
 		.wrapper-text {
 			min-width: 80%;
-			top: 80%;
+			top: 70%;
 			left: 50%;
 			border: 1px solid white;
 			max-height: 300px;
