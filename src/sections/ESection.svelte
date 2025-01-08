@@ -12,38 +12,38 @@
 	const servicesTab = [
 		{
 			title: 'Sites Web',
-			lien: '/creation-site-web-lyon',
+			lien: '/creation-sites-web',
 			icon: IconWifi,
 			p: 'Nous créons les sites Web qui vous ressemblent et répondent à vos besoins !'
 		},
 		{
 			title: 'Applications',
-			lien: '/creation-application-web-lyon',
+			lien: '/creation-application',
 			icon: iconApplication,
 			p: 'Obtenez une application web qui va optimiser votre business'
 		},
 		{
 			title: 'Design',
-			lien: '/creation-logos-publicite-communication-thurins-web',
+			lien: '/creation-design-logos',
 			icon: iconPalette,
 			p: "Design Web, UX/UI, Logos & supports de communications'."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
-			lien: '/Referencement-seo-sea-thurins-web',
+			lien: '/referencement-seo-sea',
 			icon: iconSatelit,
 			p: 'Référencement naturel ou gratuit, selon vos objectifs et vos besoins..'
 		},
 		{
 			title: 'Réseaux Sociaux',
-			lien: '/Medias-sociaux-thurins-web',
+			lien: '/gestion-media-sociaux',
 			icon: IconFB,
 
 			p: 'Nous gérons vos réseaux pour vous!'
 		},
 		{
 			title: 'Stratégie Digitale',
-			lien: '/strategie-communication-web',
+			lien: '/etude-strategie-digitale',	
 			
 			icon: IconStrategy,
 			p: "Avoir un site Web c'est bien et avec une stratégie, c'est encore mieux."
