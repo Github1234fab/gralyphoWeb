@@ -27,7 +27,7 @@
 <style>
 	.H-section {
 		display: flex;
-		min-height: 700px;
+		min-height: 800px;
 		font-size: 16px;
 		background-image: url('/fusee.avif');
 		background-repeat: no-repeat;
@@ -133,6 +133,18 @@
 			margin-top: 0px;
 		} */
 	}
+
+@media screen and (min-width: 2000px) {
+	.H-section {
+	
+		min-height: 1500px;
+		
+	}
+
+}
+
+
+
 	@media screen and (max-width: 768px) {
 		.wrapper-text {
 			min-width: 60%;
