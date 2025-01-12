@@ -20,14 +20,17 @@
 	import BannerOne from '../Components/bannerOne.svelte';
 	import BannerTwo from '../Components/bannerTwo.svelte';
 	import BannerThree from '../Components/bannerThree.svelte';
+	import HomePage from '../Components/HomePage.svelte';
 </script>
 
 <main in:fade={{ duration: 2000 }}>
 	<!-- <Mouse /> -->
 	<HSection />
+	<HomePage />
 	<section id="sectionE">
 		<ESection />
 	</section>
+
 	<Difference />
 
 	<!-- <BannerTwo /> -->

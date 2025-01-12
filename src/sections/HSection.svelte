@@ -64,7 +64,7 @@
 		letter-spacing: -2px;
 		margin-top: 20px;
 		padding: 20px 10px;
-		line-height: 60px;
+		line-height: 50px;
 	}
 
 	.wrapper-contact {
@@ -134,16 +134,11 @@
 		} */
 	}
 
-@media screen and (min-width: 2000px) {
-	.H-section {
-	
-		min-height: 1500px;
-		
+	@media screen and (min-width: 2000px) {
+		.H-section {
+			min-height: 1500px;
+		}
 	}
-
-}
-
-
 
 	@media screen and (max-width: 768px) {
 		.wrapper-text {

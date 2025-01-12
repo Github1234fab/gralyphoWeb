@@ -25,12 +25,12 @@ onMount(() => {
         gsap.to(el, {
             scale: 1, // La valeur cible de l'échelle
              ease: "power1.inOut",
-	  duration: 1,
+	  duration: 3,
             scrollTrigger: {
                 trigger: el,
               start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
                 end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
-                scrub: true,     
+                scrub: 2,     
             },
         });
     });

@@ -14,39 +14,39 @@
 			title: 'Sites Web',
 			lien: '/creation-sites-web',
 			icon: IconWifi,
-			p: 'Nous créons les sites Web qui vous ressemblent et répondent à vos besoins !'
+			p: 'Nous créons votre site Web professionnel sur mesure. '
 		},
 		{
 			title: 'Applications',
 			lien: '/creation-application',
 			icon: iconApplication,
-			p: 'Obtenez une application web qui va optimiser votre business'
+			p: 'Obtenez une application web pour optimiser votre business'
 		},
 		{
 			title: 'Design',
 			lien: '/creation-design-logos',
 			icon: iconPalette,
-			p: "Design Web, UX/UI, Logos & supports de communications'."
+			p: "Design Web, UX/UI, Logos & supports de communications."
 		},
 		{
 			title: 'Stratégie SEO/SEA',
 			lien: '/referencement-seo-sea', 
 			icon: iconSatelit,
-			p: 'Référencement naturel ou gratuit, selon vos objectifs et vos besoins..'
+			p: 'Référencement naturel ou gratuit. Expertise professionnelle SEO.'
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/gestion-media-sociaux',
 			icon: IconFB,
 
-			p: 'Nous gérons vos réseaux pour vous!'
+			p: 'Laissez nous gérer vos réseaux sociaux pour optimiser votre temps!'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/etude-strategie-digitale',	
 			
 			icon: IconStrategy,
-			p: "Avoir un site Web c'est bien et avec une stratégie, c'est encore mieux."
+			p: "Étude de stratégie digitale sur mesure. Contenu - Seo - Marketing"
 		}
 	];
 
