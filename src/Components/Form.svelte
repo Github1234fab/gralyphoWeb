@@ -52,7 +52,8 @@
 		background-color: var(--primary);
 		justify-content: center;
 		align-items: center;
-		background-image: var(--primary);
+background: linear-gradient(0deg, var(--primary) 30%, var(--cta) 80%);
+		/* background-image: var(--primary); */
 		/* background-image: url("../Assets/bgthree.png"); */
 	}
 
