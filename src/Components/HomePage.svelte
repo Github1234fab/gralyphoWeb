@@ -33,39 +33,33 @@
 					>Votre futur site web sera conçu sur trois piliers fondamentaux:
 				</span>
 			</p>
-
 			<ol>
 				<li>
-					L'UX design: <br /> c'est à dire l'expérience de vos utilisateurs sur votre site ( facilité
-					de navigation, informations facilement accessibles, moyen de contact mis en évidence, etc).
+					<span>L'UX design: </span><br /> c'est à dire l'expérience de vos utilisateurs sur votre site
+					( facilité de navigation, informations facilement accessibles, moyen de contact mis en évidence,
+					etc).
 				</li>
 				<br />
 				<li>
-					Le SEO ou plus familièrement, le référencement : <br /> Vous souhaitez être premier dans
-					les résultats de Google (<a
+					<span>Le SEO</span> ou plus communément appelé, le référencement : <br /> Vous souhaitez
+					être premier dans les résultats de Google (<a
 						target="_blank"
 						href="https://fr.wikipedia.org/wiki/R%C3%A9sultats_d%27un_moteur_de_recherche">SERP</a
-					>), mais tout le monde, vos concurrents y comprit, souhaitent obtenir ce même résultat.
-					Nous mettons tout en oeuvre chez Gralypho à travers un panel de techniques SEO, pour que
-					vous puissiez aisément atteindre les premières positions des intentions de recherche de
-					vos clients et propsects.
+					>), mais tout le monde, vos concurrents y comprit, souhaitent obtenir ce même résultat. Il
+					s'agit alors d'appliquer différentes techniques de SEO pour apparaître en première page.
 				</li>
 				<br />
 				<li>
-					Les fonctionnalites: Votre site internet peut vous permettre de collecter des données, de
-					vendre des produits, de proposer des devis en ligne, de prendre des RV, de gérer vos
-					stocks, de tenir un blog (très utilie pour le <a
+					<span>Les fonctionnalites: </span> <br />Votre site internet peut vous permettre de
+					collecter des données, de vendre des produits, de proposer des devis en ligne, de prendre
+					des RV, de gérer vos stocks, de tenir un blog (très utile pour le
+					<a
 						target="_blank"
 						href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">SEO</a
-					>), etc. Ces fonctionnalités sont essentielles pour profiter à 100% de votre futur outil
-					digital.
+					>), etc. Ces fonctionnalités sont essentielles et très stratégiques.
 				</li>
 			</ol>
 			<p class="text">
-				Avec des solutions modernes et adaptées, nous faisons de votre site un outil performant et
-				unique qui vous permettra de répondre au mieux aux intentions de recherche de vos clients et
-				vous apportera des fonctionnalites esssentielles au développement de votre business.<br
-				/><br />
 				<span>Contactez-nous dès aujourd’hui pour discuter de votre projet !</span>
 			</p>
 
@@ -82,22 +76,15 @@
 				<div class="img bg__B"></div>
 			</div>
 			<p class="text">
-				Le coût d’un site internet professionnel dépend de nombreux facteurs comme : la complexité du
-				design, de l' <a
+				Le coût d’un site internet professionnel dépend de nombreux facteurs comme : la complexité
+				du design, de l' <a
 					target="_blank"
 					href="https://fr.wikipedia.org/wiki/Exp%C3%A9rience_utilisateur">UX</a
 				>
-				, le nombre de pages, les fonctionnalités spécifiques (boutique en ligne,
-				réservation, etc.), les exigences SEO et vos besoins en termes de maintenance. <br />Chez
-				Gralypho, nous proposons des solutions adaptées à tous les budgets, avec une transparence
-				totale sur les prix.
-			</p>
-			<p class="text">
-				<span> À titre indicatif, voici nos tarifs de base :</span>
-				<li>Site vitrine : à partir de 699 euros.</li>
-				<li>Site e-commerce : à partir de 999 euros.</li>
-				Obtenez un devis personnalisé en quelques clics!
-				<br /><br />
+				, le nombre de pages, les fonctionnalités spécifiques (boutique en ligne, réservation, etc.),
+				les exigences SEO, les objectifs marketings et vos besoins en termes de maintenance.
+				<br />Chez Gralypho, nous proposons des solutions adaptées à tous les budgets, avec une
+				transparence totale sur les prix.
 				<span>Demandez un devis gratuit dès maintenant.</span>
 			</p>
 			<div class="wrapper__button-cta">
@@ -113,11 +100,9 @@
 				<div class="img bg__C"></div>
 			</div>
 			<p class="text">
-				La création d’un site sur mesure peut prendre <span>entre 4 et 8 semaines</span>, selon la complexité du
-				projet et votre disponibilité pour valider les étapes (design (UX et <a
-					target="_blank"
-					href="https://en.wikipedia.org/wiki/User_interface_design">UI</a
-				>
+				La création d’un site sur mesure peut prendre <span>entre 4 et 8 semaines</span>, selon la
+				complexité du projet et votre disponibilité pour valider les étapes (design (UX et
+				<a target="_blank" href="https://en.wikipedia.org/wiki/User_interface_design">UI</a>
 				), contenu, SEO, développement, etc). Voici les principales étapes :
 				<li>Proposition d’un design unique.</li>
 				<li>Validation du design et des fonctionnalités.</li>
@@ -147,7 +132,7 @@
 				optimisé pour le référencement (SEO) dès sa création. Des fonctionnalités modernes pour
 				répondre aux attentes de vos clients. Un accompagnement de A à Z, même après la mise en
 				ligne. Un site internet conçu par une agence, c’est l’assurance d’un résultat professionnel
-				qui vous démarque de vos concurrents. <br /><br />
+				qui vous démarque de vos concurrents. <br />
 				<span>Prenez rendez-vous pour discuter de vos besoins.</span>
 			</p>
 			<div class="wrapper__button-cta">
@@ -175,8 +160,6 @@
 				<li>Des backlinks de qualité.</li>
 				<li>Une stratégie de contenu et de netlinking.</li>
 				<li>Une optimisation technique et sémantique.</li>
-				<br />
-
 				<span
 					>Contactez-nous pour en savoir plus sur nos solutions SEO et obtenir un audit gratuit de
 					votre site internet.</span
@@ -191,22 +174,22 @@
 	<div class="container ctn__F">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Vaut-il mieux créer son site web soi-même avec l’IA ou en faisant appel à une
-				agence Web ?
+				Vaut-il mieux créer son site web soi-même avec l’IA ou en faisant appel à une agence Web ?
 			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__F"></div>
 			</div>
 			<p class="text">
 				Avec les nombreuses options disponibles aujourd’hui, il peut être tentant de créer votre
-				site vous-même ou d’utiliser une IA. Cependant, ces solutions présentent des limites. <br>
-				<span>DIY ou IA ? </span>Les sites réalisées avec l'IA manquent souvent de personnalisation et d’optimisation SEO. Certes le résultat peut être rapide, mais attention, le web reste un métier et de nombreuses phases technqiues vous attendent si vous décidez de vous alncer dans l'anventure, comme le SEO, la rédaction du contenu, le design UX et UI, l'intégration, le déploiement, etc. Une IA peut vous faire tout cela, vous pouvez aussi le faire sur Wordpress, mais lorsque tout est automatisé, nosu n'avons en somme la main sur rien du tout! Et s'il y a bugg sur un des aspects essentielles au bon focntionnent de votre site ou son référencement, ce sera difficile voir quasiment impossible d'y remédier. <br><br>
-                                Une Agence
-				web comme Gralypho vous propose un site unique, performant et adapté à vos besoins spécifiques. <br />Faites
-				le bon choix pour garantir un site internet sur mesure qui attire et convertit vos visiteurs
-				en clients !
-				<br /><br>
-				<span>Conctactez-nous Parlez à un expert pour comprendre pourquoi un site sur mesure est un investissement rentable</span>
+				site vous-même ou d’utiliser une IA. Cependant, ces solutions présentent des limites. <br />
+				Certes le résultat peut être rapide, mais attention, le web reste un métier et de nombreuses
+				phases techniques sont encore essentielles (SEO, rédaction du contenu, le design UX et UI, l'intégration,
+				le déploiement, les backlinks, etc.) L'agence web Gralypho vous propose un site unique, performant
+				et adapté à vos besoins spécifiques. <br />
+				<span
+					>Conctactez-nous Parlez à un expert pour comprendre pourquoi un site sur mesure est un
+					investissement rentable</span
+				>
 			</p>
 			<div class="wrapper__button-cta">
 				<ButtonCta />
@@ -216,18 +199,22 @@
 
 	<div class="container ctn__G">
 		<div class="wrapper__section-text">
-			<h2 class="subtitle">Est-ce que je pourrai modifier des éléments sur mon site internet  une fois qu'il me sera livré?</h2>
+			<h2 class="subtitle">
+				Est-ce que je pourrai modifier des éléments sur mon site internet  une fois qu'il me sera
+				livré?
+			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__G"></div>
 			</div>
 			<p class="text">
-				Oui ! Nous concevons tous nos sites pour qu’ils soient faciles à gérer. Grâce à des outils
-				intuitifs (comme WordPress, Wix ou un CMS personnalisé), vous pourrez modifier les textes et
-				images. Ajouter de nouvelles pages ou articles. Mettre à jour les informations en quelques
-				clics. Nous proposons également des formations pour vous aider à prendre en main votre site. <br><br>
+				Absolument! Nous concevons tous nos sites pour qu’ils soient faciles à gérer. Grâce à des
+				outils intuitifs (comme WordPress, Wix ou un CMS personnalisé), vous pourrez modifier les
+				textes et images. Ajouter de nouvelles pages ou articles. Mettre à jour vos informations en
+				quelques clics. Nous vous proposons également des formations pour vous aider à prendre en
+				main votre site, une fois livré.
 				<span>Découvrez nos options de formation et d’assistance.</span>
 			</p>
-                        <div class="wrapper__button-cta">
+			<div class="wrapper__button-cta">
 				<ButtonCta />
 			</div>
 		</div>
@@ -241,13 +228,12 @@
 			</div>
 
 			<p class="text">
-				Absolument. Lorsque nous réalisons un site internet pour vous, vous en êtes le propriétaire
-				exclusif. Cela signifie que : Vous avez accès à tous les fichiers et codes sources. Vous
-				pouvez changer d’hébergeur ou d’agence si nécessaire. Vous n’êtes pas lié par un abonnement
-				à long terme. Chez [Nom de ton agence], nous croyons en la transparence et en votre
-				indépendance.
+				Oui. Lorsque nous réalisons un site internet, vous en êtes le propriétaire exclusif. Cela
+				signifie que : Vous avez accès à tous les fichiers et codes sources. Vous pouvez changer
+				d’hébergeur ou d’agence si nécessaire. Vous n’êtes pas lié par un abonnement à long terme.
+				Chez Gralypho, nous croyons en la transparence et en votre indépendance.
 				<br />
-				Contactez-nous pour en savoir plus sur notre approche.
+				<span>Contactez-nous pour en savoir plus sur notre approche.</span>
 			</p>
 			<div class="wrapper__button-cta">
 				<ButtonCta />
@@ -280,12 +266,11 @@
 				<div class="img bg__J"></div>
 			</div>
 			<p class="text">
-				Faites confiances à des experts pour obtenir un outil performant et personnalisé. Avec
+				Faites confiances à nos experts pour obtenir un outil performant et personnalisé. Avec
 				Gralyho, vous bénéficiez d’un accompagnement complet et d’une qualité professionnelle à
-				chaque étape.
-				<br />
-
-				Contactez-nous ou demandez un devis gratuit dès aujourd’hui !
+				chaque étape de conception de votre site web.
+                                <br>
+				<span>Contactez-nous ou demandez un devis gratuit dès aujourd’hui !</span>
 				<br />
 			</p>
 			<div class="wrapper__button-cta">
@@ -388,7 +373,7 @@
 		padding: 20px;
 	}
 	.text span {
-		font-weight: 600;
+		font-weight: 700;
 	}
 
 	ol {
@@ -401,6 +386,9 @@
 		width: 60%;
 		text-align: center;
 		padding: 20px;
+	}
+	li span {
+		font-weight: 600;
 	}
 	a {
 		text-decoration: underline;
@@ -478,16 +466,22 @@
 			top: -20px;
 			left: 30px;
 		}
+		.wrapper__img {
+			margin-top: 50px;
+		}
 		.title {
-			font-size: 2.5rem;
-			line-height: 50px;
+			font-size: 2.3rem;
+			line-height: 45px;
 			padding: 20px;
 			margin-top: 50px;
 			margin-bottom: -20px;
 		}
 		.title span {
-			font-size: 2rem;
-			line-height: 0px;
+			font-size: 1rem;
+		}
+		.subtitle {
+			font-size: 1.5rem;
+			line-height: 30px;
 		}
 	}
 </style>
