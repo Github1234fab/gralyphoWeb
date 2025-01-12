@@ -82,12 +82,12 @@
 				<div class="img bg__B"></div>
 			</div>
 			<p class="text">
-				Le coût d’un site internet professionnel dépend de nombreux facteurs : la complexité du
+				Le coût d’un site internet professionnel dépend de nombreux facteurs comme : la complexité du
 				design, de l' <a
 					target="_blank"
 					href="https://fr.wikipedia.org/wiki/Exp%C3%A9rience_utilisateur">UX</a
 				>
-				souhaitée, le nombre de pages, les fonctionnalités spécifiques (boutique en ligne,
+				, le nombre de pages, les fonctionnalités spécifiques (boutique en ligne,
 				réservation, etc.), les exigences SEO et vos besoins en termes de maintenance. <br />Chez
 				Gralypho, nous proposons des solutions adaptées à tous les budgets, avec une transparence
 				totale sur les prix.
@@ -108,17 +108,17 @@
 
 	<div class="container ctn__C">
 		<div class="wrapper__section-text">
-			<h2 class="subtitle">Quel sera délai pour obtenir mon site internet sur mesure ?</h2>
+			<h2 class="subtitle">Quel est le délai pour obtenir un site internet sur mesure ?</h2>
 			<div class="wrapper__img">
 				<div class="img bg__C"></div>
 			</div>
 			<p class="text">
-				La création d’un site sur mesure peut prendre entre 4 et 8 semaines, selon la complexité du
+				La création d’un site sur mesure peut prendre <span>entre 4 et 8 semaines</span>, selon la complexité du
 				projet et votre disponibilité pour valider les étapes (design (UX et <a
 					target="_blank"
 					href="https://en.wikipedia.org/wiki/User_interface_design">UI</a
 				>
-				), contenu, SEO, développement). Voici les principales étapes :
+				), contenu, SEO, développement, etc). Voici les principales étapes :
 				<li>Proposition d’un design unique.</li>
 				<li>Validation du design et des fonctionnalités.</li>
 				<li>Intégration, création du contenu et optimisation SEO.</li>
@@ -159,7 +159,7 @@
 	<div class="container ctn__E">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Est-ce que mon site internet professionnel sera le premier sur Google ?
+				Est-ce que mon site internet professionnel sera référencé en premier sur Google ?
 			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__E"></div>
@@ -191,7 +191,7 @@
 	<div class="container ctn__F">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Est-ce que je dois construire mon site web moi-même avec l’IA ou en faisant appel à une
+				Vaut-il mieux créer son site web soi-même avec l’IA ou en faisant appel à une
 				agence Web ?
 			</h2>
 			<div class="wrapper__img">
@@ -216,7 +216,7 @@
 
 	<div class="container ctn__G">
 		<div class="wrapper__section-text">
-			<h2 class="subtitle">Est-ce que je pourrai modifier des éléments sur mon site internet ?</h2>
+			<h2 class="subtitle">Est-ce que je pourrai modifier des éléments sur mon site internet  une fois qu'il me sera livré?</h2>
 			<div class="wrapper__img">
 				<div class="img bg__G"></div>
 			</div>
@@ -323,7 +323,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin: 30px;
+		margin-bottom: 50px;
 	}
 	.wrapper__img {
 		display: flex;
@@ -371,7 +371,7 @@
 		font-size: 1.8rem;
 		letter-spacing: -1px;
 		line-height: 40px;
-		font-weight: 400;
+		font-weight: 600;
 		text-align: center;
 		font-family: var(--Geologica);
 		color: var(--primary);
@@ -388,7 +388,7 @@
 		padding: 20px;
 	}
 	.text span {
-		font-weight: 800;
+		font-weight: 600;
 	}
 
 	ol {
@@ -399,7 +399,7 @@
 		letter-spacing: -0.02em;
 		line-height: 40px;
 		width: 60%;
-		text-align: left;
+		text-align: center;
 		padding: 20px;
 	}
 	a {
@@ -427,25 +427,25 @@
 		background-image: url('../Assets/png-gralypho/timing.png');
 	}
 	.bg__D {
-		background-image: url('../Assets/png-gralypho/design.png');
+		background-image: url('../Assets/png-gralypho/web-agency.png');
 	}
 	.bg__E {
-		background-image: url('../Assets/png-gralypho/design.png');
+		background-image: url('../Assets/png-gralypho/google-visuel.png');
 	}
 	.bg__F {
-		background-image: url('../Assets/png-gralypho/design.png');
+		background-image: url('../Assets/png-gralypho/question.png');
 	}
 	.bg__G {
-		background-image: url('../Assets/png-gralypho/design.png');
+		background-image: url('../Assets/png-gralypho/icon-change.png');
 	}
 	.bg__H {
-		background-image: url('../Assets/png-gralypho/design.png');
+		background-image: url('../Assets/png-gralypho/clefs.png');
 	}
 	/* .bg__I {
 		background-image: url('../Assets/png-gralypho/design.png');
 	} */
 	.bg__J {
-		background-image: url('../Assets/png-gralypho/ideasColor.png');
+		background-image: url('../Assets/png-gralypho/confiance.png');
 	}
 
 	@media screen and (max-width: 768px) {

@@ -84,12 +84,12 @@
 				<img class="img" src={slide.image} alt={slide.title} />
 			</div>
 		{/each}
-	</div>
+	</div>v
 </div>
 
 <style>
 	.slider {
-		width: 85%;
+		width: 55%;
 		border-radius: 5px;
 		overflow: hidden;
 		margin: 40px auto;

@@ -131,8 +131,8 @@
 		color: var(--primary);
 		font-weight: 300;
 		margin-top: 30px;
-		text-align: justify;
-		hyphens: auto;
+		text-align: center;
+		
 		color: white;
 		max-width: 70%;
 		line-height:1.5rem;

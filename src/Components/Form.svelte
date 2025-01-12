@@ -7,11 +7,12 @@
 		<h2 class="form-contactez">Contactez-nous dès aujourdhui!</h2>
 	</div>
 	<div class="coordonnees">
-		<a href="mailto:gralypho@gmail.com " class="contact-form"> Mail
-			<i class="fa-regular fa-envelope icon-coordonnees"></i> :  contact@gralypho.com</a
+		<a href="mailto:gralypho@gmail.com " class="contact-form">
+			Mail
+			<i class="fa-regular fa-envelope icon-coordonnees"></i> : contact@gralypho.com</a
 		>
-		<a href="tel:0672901614" class="contact-form"
-			> Téléphone <i class="fa-solid fa-phone-volume icon-coordonnees"></i> :  0672 901 614</a
+		<a href="tel:0672901614" class="contact-form">
+			Téléphone <i class="fa-solid fa-phone-volume icon-coordonnees"></i> : 0672 901 614</a
 		>
 	</div>
 
@@ -52,7 +53,7 @@
 		background-color: var(--primary);
 		justify-content: center;
 		align-items: center;
-background: linear-gradient(0deg, var(--primary) 30%, var(--cta) 80%);
+		background: linear-gradient(0deg, var(--primary) 30%, var(--cta) 80%);
 		/* background-image: var(--primary); */
 		/* background-image: url("../Assets/bgthree.png"); */
 	}
@@ -152,7 +153,7 @@ background: linear-gradient(0deg, var(--primary) 30%, var(--cta) 80%);
 
 	button {
 		border: none;
-		background-color:transparent;
+		background-color: transparent;
 		font-size: var(--m);
 		border: 1px solid white;
 		color: var(--whiteGrey);

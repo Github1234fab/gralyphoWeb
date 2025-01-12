@@ -17,36 +17,30 @@
 
 	<div class="wrapper-text-difference">
 		<div class="wrapper-difference__title">
-			<h3 class="paragraph">Qui sommes nous ?</h3>
+			<h3 class="paragraph">Une agence web à Lyon et dans l'Ouest Lyonnais.</h3>
 			<br />
 			<p class="sub-paragraph">
-				Nous sommes des passionnés du Web , formés au langage informatique et au développement
-				Web.Nous avons créé l'agence Gralypho en 2019, qui est une agence digitale, spécialisée dans
-				la
-				<span>conception de site Web</span>
+				Nous sommes des passionnés du Web , formés au langage informatique (html, css, js) et au développement
+				Web. Nous avons créé l'agence Gralypho en 2019, pour répondre aux besoins digitaux des entreprises de notre belle région Lyonnaise. Nous intervenons également dans la France entière. Notre principale activité réside dans la
+				<span>conception de site web</span>
 				et dans la
-				<span>création d'application </span>sur mesure. Notre expertise dans le domaine du Web est
-				profonde et solide. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et Thurins
-				et connecté au monde entier !
+				<span>création d'application </span>sur mesure. <br>Notre expertise dans le domaine du Web est
+				profonde et solide. Notre métier consiste à apporter des solutions digitales aux entreprises et aux professionnels dont les besoins en la matière sont fondamentaux, car de ceux-ci, dépend la bonne santé et la croissance de leur business. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et à Thurins, relié à toute la région Lyonnaise et connecté au monde entier !
 			</p>
 		</div>
 		<br />
 
-		<h3 class="paragraph">Quelles sont nos compétences ?</h3>
+		<h3 class="paragraph">Répondre au besoin des entreprises et des professionnels avec des outils digitaux sur mesure.</h3>
 		<br />
 		<p class="sub-paragraph">
-			Nos compétences sont diverses et variées. Seo, Sea, Ux/UI, code côté serveur, code côté
-			client, création de contenu, design, community management ...Nous sommes formés aux métiers du
-			Web et au code informatique. C'est à dire que nous disposons des connaissances nécessaires en
-			<span
-				>design UX/UI, en référencement SEAO et SEA, en norme W3C, en création de contenu textuel et
-				visuel.
-			</span>Cela signifie aussi que nous sommes en capacité de gérer le côté serveur et le côté
-			client. En d'autres terme nous savons tout ce qui se passe sous le capot d'une application ou
+			Nos compétences dans le domaine du Web sont diverses et variées. De l'expertise Seo, Sea, Ux/UI, code côté serveur, code côté
+			client, à la création de contenu, design (Ux, UI), community management ...Nous sommes formés aux métiers du
+			Web et au code informatique. C'est à dire que nous disposons des connaissances nécessaires, théoriques et techniques  pour créer des outils digitaux adaptés à vos besoins et à votre budget. Cela signifie aussi que nous sommes en capacité de gérer le côté <a target="_blank" href="https://aws.amazon.com/fr/compare/the-difference-between-frontend-and-backend/">front-end </a> et le côté
+			<a target="_blank" href="https://fr.wikipedia.org/wiki/Backend">back-end</a>. En d'autres terme nous savons tout ce qui se passe sous le capot d'une application ou
 			d'un site internet !
 		</p>
 		<br />
-		<h3 class="paragraph">Pourquoi nous faire confiance ?</h3>
+		<h3 class="paragraph">Confier son projet digital à une agence web?</h3>
 		<br />
 		<p class="marginBottom sub-paragraph">
 			Faire confiance à <span>l'agence Gralypho</span>, c'est faire le choix de la qualité, de la
@@ -172,8 +166,8 @@
 		font-size: var(--m);
 		color: var(--primary);
 		font-weight: 300;
-		line-height: 1.5em;
-		width: 80%;
+		line-height: 2rem;
+		width: 70%;
 		padding: 0px;
 		text-align: center;
 		text-align: justify;
@@ -200,6 +194,10 @@
 	}
 	.wrapper__cta:hover {
 		animation: bounce 0.5s ease-in-out;
+	}
+	a{
+		text-decoration: underline;
+		font-weight: 700;
 	}
 
 	@keyframes bounce {
