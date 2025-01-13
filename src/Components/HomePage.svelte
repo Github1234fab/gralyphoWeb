@@ -327,7 +327,7 @@
 		align-items: center;
 		height: auto;
 		margin-top: 100px;
-		border-bottom: rgb(224, 224, 228) 1px solid;
+		border-bottom: rgb(189, 189, 189) 1px solid;
 	}
 	.wrapper__section-text {
 		display: flex;
