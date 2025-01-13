@@ -31,43 +31,41 @@
 				Notre agence web, spécialisée dans la création de site internet sur mesure, vous accompagne
 				dans la réalisation de votre projet digital. <br /><span
 					>Votre futur site web sera conçu sur trois piliers fondamentaux:
-				</span>
-			</p>
-			<ol>
-				<li>
-					<span>L'UX design: </span><br /> c'est à dire l'expérience de vos utilisateurs sur votre site
-					( facilité de navigation, informations facilement accessibles, moyen de contact mis en évidence,
-					etc).
-				</li>
-				<br />
-				<li>
-					<span>Le SEO</span> ou plus communément appelé, le référencement : <br /> Vous souhaitez
-					être premier dans les résultats de Google (<a
-						target="_blank"
-						href="https://fr.wikipedia.org/wiki/R%C3%A9sultats_d%27un_moteur_de_recherche">SERP</a
-					>), mais tout le monde, vos concurrents y comprit, souhaitent obtenir ce même résultat. Il
-					s'agit alors d'appliquer différentes techniques de SEO pour apparaître en première page.
-				</li>
-				<br />
-				<li>
-					<span>Les fonctionnalites: </span> <br />Votre site internet peut vous permettre de
-					collecter des données, de vendre des produits, de proposer des devis en ligne, de prendre
-					des RV, de gérer vos stocks, de tenir un blog (très utile pour le
-					<a
-						target="_blank"
-						href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">SEO</a
-					>), etc. Ces fonctionnalités sont essentielles et très stratégiques.
-				</li>
-			</ol>
-			<p class="text">
-				<span>Contactez-nous dès aujourd’hui pour discuter de votre projet !</span>
-			</p>
+				</span> <br />
 
+				<span>L'UX design: </span>c'est à dire l'expérience de vos utilisateurs sur votre
+				site ( facilité de navigation, informations facilement accessibles, moyen de contact mis en
+				évidence, etc).
+
+				<br />
+
+				<span>Le SEO</span> ou plus communément appelé, le référencement : <br /> Vous souhaitez
+				être premier dans les résultats de Google (<a
+					target="_blank"
+					href="https://fr.wikipedia.org/wiki/R%C3%A9sultats_d%27un_moteur_de_recherche">SERP</a
+				>), mais tout le monde, vos concurrents y comprit, souhaitent obtenir ce même résultat. Il
+				s'agit alors d'appliquer différentes techniques de SEO pour apparaître en première page.
+
+				<br />
+
+				<span>Les fonctionnalites: </span> <br />Votre site internet peut vous permettre de
+				collecter des données, de vendre des produits, de proposer des devis en ligne, de prendre
+				des RV, de gérer vos stocks, de tenir un blog (très utile pour le
+				<a
+					target="_blank"
+					href="https://fr.wikipedia.org/wiki/Optimisation_pour_les_moteurs_de_recherche">SEO</a
+				>), etc. Ces fonctionnalités sont essentielles et très stratégiques.
+			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span>Contactez-nous dès aujourd’hui pour discuter de votre projet !</span>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
+
+	<!-- =============================================================== -->
 
 	<div class="container ctn__B">
 		<div class="wrapper__section-text">
@@ -85,13 +83,17 @@
 				les exigences SEO, les objectifs marketings et vos besoins en termes de maintenance.
 				<br />Chez Gralypho, nous proposons des solutions adaptées à tous les budgets, avec une
 				transparence totale sur les prix.
-				<span>Demandez un devis gratuit dès maintenant.</span>
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span>Demandez un devis gratuit dès maintenant.</span>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
+
+	<!-- =============================================================== -->
 
 	<div class="container ctn__C">
 		<div class="wrapper__section-text">
@@ -109,16 +111,20 @@
 				<li>Intégration, création du contenu et optimisation SEO.</li>
 				<li>Développement et intégration des fonctionnalités.</li>
 				<li>Tests, ajustements et mise en ligne.</li>
-				<br />
-				Nous travaillons avec la plus grande rigueur afin de respecter les délais tout en vous garantissant
-				un site de qualité.
-				<br />
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span>
+						Nous travaillons avec la plus grande rigueur afin de respecter les délais tout en vous
+						garantissant un site de qualité.</span
+					>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
+
+	<!-- =============================================================== -->
 
 	<div class="container ctn__D">
 		<div class="wrapper__section-text">
@@ -133,13 +139,17 @@
 				répondre aux attentes de vos clients. Un accompagnement de A à Z, même après la mise en
 				ligne. Un site internet conçu par une agence, c’est l’assurance d’un résultat professionnel
 				qui vous démarque de vos concurrents. <br />
-				<span>Prenez rendez-vous pour discuter de vos besoins.</span>
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span>Prenez rendez-vous pour discuter de vos besoins.</span>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
+
+	<!-- =============================================================== -->
 
 	<div class="container ctn__E">
 		<div class="wrapper__section-text">
@@ -160,16 +170,20 @@
 				<li>Des backlinks de qualité.</li>
 				<li>Une stratégie de contenu et de netlinking.</li>
 				<li>Une optimisation technique et sémantique.</li>
-				<span
-					>Contactez-nous pour en savoir plus sur nos solutions SEO et obtenir un audit gratuit de
-					votre site internet.</span
-				>
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span
+						>Contactez-nous pour en savoir plus sur nos solutions SEO et obtenir un audit gratuit de
+						votre site internet.</span
+					>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
+
+	<!-- =============================================================== -->
 
 	<div class="container ctn__F">
 		<div class="wrapper__section-text">
@@ -186,22 +200,26 @@
 				phases techniques sont encore essentielles (SEO, rédaction du contenu, le design UX et UI, l'intégration,
 				le déploiement, les backlinks, etc.) L'agence web Gralypho vous propose un site unique, performant
 				et adapté à vos besoins spécifiques. <br />
-				<span
-					>Conctactez-nous Parlez à un expert pour comprendre pourquoi un site sur mesure est un
-					investissement rentable</span
-				>
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span
+						>Conctactez-nous Parlez à un expert pour comprendre pourquoi un site sur mesure est un
+						investissement rentable</span
+					>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
 
+	<!-- =============================================================== -->
+
 	<div class="container ctn__G">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
 				Est-ce que je pourrai modifier des éléments sur mon site internet  une fois qu'il me sera
-				livré?
+				livré ?
 			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__G"></div>
@@ -212,13 +230,20 @@
 				textes et images. Ajouter de nouvelles pages ou articles. Mettre à jour vos informations en
 				quelques clics. Nous vous proposons également des formations pour vous aider à prendre en
 				main votre site, une fois livré.
-				<span>Découvrez nos options de formation et d’assistance.</span>
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span
+						>Parlez à un expert pour comprendre pourquoi un site sur mesure est un investissement
+						rentable</span
+					>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
 	</div>
+
+	<!-- =============================================================== -->
 
 	<div class="container ctn__H">
 		<div class="wrapper__section-text">
@@ -233,9 +258,14 @@
 				d’hébergeur ou d’agence si nécessaire. Vous n’êtes pas lié par un abonnement à long terme.
 				Chez Gralypho, nous croyons en la transparence et en votre indépendance.
 				<br />
-				<span>Contactez-nous pour en savoir plus sur notre approche.</span>
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<span
+						>Parlez à un expert pour comprendre pourquoi un site sur mesure est un investissement
+						rentable</span
+					>
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
@@ -259,6 +289,8 @@
 		</div>
 	</div> -->
 
+	<!-- =============================================================== -->
+
 	<div class="container ctn__J">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">Confiez nous la création de votre site web sur mesure.</h2>
@@ -269,11 +301,14 @@
 				Faites confiances à nos experts pour obtenir un outil performant et personnalisé. Avec
 				Gralyho, vous bénéficiez d’un accompagnement complet et d’une qualité professionnelle à
 				chaque étape de conception de votre site web.
-                                <br>
-				<span>Contactez-nous ou demandez un devis gratuit dès aujourd’hui !</span>
+				<br />
+
 				<br />
 			</p>
 			<div class="wrapper__button-cta">
+				<p class="button__text">
+					<!-- <span>Contactez-nous ou demandez un devis gratuit dès aujourd’hui !</span> -->
+				</p>
 				<ButtonCta />
 			</div>
 		</div>
@@ -292,6 +327,7 @@
 		align-items: center;
 		height: auto;
 		margin-top: 100px;
+		border-bottom: rgb(224, 224, 228) 1px solid;
 	}
 	.wrapper__section-text {
 		display: flex;
@@ -306,9 +342,11 @@
 	}
 	.wrapper__button-cta {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 50px;
+		width: 100%;
 	}
 	.wrapper__img {
 		display: flex;
@@ -346,8 +384,8 @@
 		margin-bottom: 0px;
 	}
 	.title span {
-		color: var(--green);
-		font-weight: 400;
+		color: var(--primary);
+		font-weight: 100;
 		font-size: 2rem;
 		rotate: -5deg;
 		letter-spacing: -1px;
@@ -368,7 +406,7 @@
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		line-height: 40px;
-		width: 60%;
+		width: 90%;
 		text-align: center;
 		padding: 20px;
 	}
@@ -376,20 +414,19 @@
 		font-weight: 700;
 	}
 
-	ol {
+	.button__text {
 		font-family: var(--Poppins);
 		font-size: var(--m);
 		color: var(--primary);
-		font-weight: 400;
+		font-weight: 700;
 		letter-spacing: -0.02em;
 		line-height: 40px;
 		width: 60%;
 		text-align: center;
 		padding: 20px;
 	}
-	li span {
-		font-weight: 600;
-	}
+
+	
 	a {
 		text-decoration: underline;
 	}
@@ -458,9 +495,7 @@
 		.text span {
 			width: 100%;
 		}
-		ol {
-			width: 100%;
-		}
+		
 
 		.wrapper__img::before {
 			top: -20px;
