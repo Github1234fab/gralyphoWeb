@@ -52,7 +52,7 @@
 		display: flex;
 		align-items: center;
 		padding: 40px;
-		color: var(--colorH);
+		color: var(--whiteGrey);
 		font-size: var(--m);
 		font-weight: 500;
 		cursor: pointer;
@@ -61,14 +61,14 @@
 		border-right: none;
 		border-left: none;
 		border-bottom: 1px rgb(219, 219, 219) solid;
-		background-color: white;
+		background: linear-gradient(90deg, var(--primary) 0%, var(--cta));
 		width: 90%;
-		/* box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%); */
 		height: 100px;
 		text-align: left;
 		letter-spacing: -1px;
 		font-family: epilogue;
 		margin-bottom: 10px;
+		box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.281);
 	}
 	.button-after {
 		position: absolute;
@@ -124,13 +124,12 @@
 		text-align: left;
 		font-size: var(--m);
 		font-weight: 300;
+		line-height: 36px;
 		color: var(--primary);
 		margin: 0px;
 		background-color: var(--whiteGrey);
 		padding: 30px;
 		width: 90%;
-		/* border-radius: 14px 22px 17px 38px; */
-		/* box-shadow: 0px 0px 15px 4px rgb(0 0 0 / 10%); */
 	}
 
 	@media screen and (max-width: 768px) {
@@ -143,11 +142,14 @@
 		}
 		.button {
 			font-size: 1em;
+			height: 200px;
+			line-height: 30px;
 		}
 
 		.button-after {
 			right: 0px;
 			margin-top: -30px;
+			line-height: 30px;
 		}
 	}
 </style>

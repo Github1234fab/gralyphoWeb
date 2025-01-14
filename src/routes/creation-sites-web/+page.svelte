@@ -35,11 +35,15 @@
 
 	let accordeonTab = [
 		{
-			title: 'Tarifs',
+			title: 'Créer un site internet pour développer son activité est-il encore pertinent en 2025 ?',
+			p: "Les choses ont changé, ça c’est indéniable! Les intentions de recherche de la part des internautes ont explosées sur les réseaux sociaux ces trois dernières années. Aujourd’hui, les gens recherchent d’abord un produit sur Tik tok, FB ou insta, parfois avant même de consulter le web. Pourquoi ? Parce que les contenus des réseaux sociaux sont rapides (les shorts), efficaces, concis. Prenons un exemple: je cherche un aspirateur-laveur. Je cherche sur tik-tok et je trouve rapidement une vidéo sur un produit ou un comparatif de plusieurs produits. C’est rapide et efficace. Cette vidéo me donne des liens vers le fabricant. Je clique et je suis dirigé vers le lien du fabriquant. J’achète. C’est rapide et net. Prenons maintenant le cas du web et ses moteurs de recherche classiques  J’effectue la même recherche. Google me propose des liens sur une page que je dois scroller et je dois cliquer sur chacun de ses liens qui ouvrent la page d’accueil d’un site de fabriquant d’apirateur laveur ou d’un comparatif de prix. Je dois naviguer sur les pages pour trouver la réponse à ma recherche , mais parfois, je ne trouve pas l’info tout de suite et les réseaux peuvent donc faire la différence. Alors chez Gralypho, agence web experte dans le domaine du web et de la création de site internet et application, nous pensons comme beaucoup de spécialistes du seo qu’une présence en ligne sur le web à travers un site est essentielle et qu'une présence sur les réseaux l’est tout autant, car l’un mènera à l’autre et vice versa. C’est une maïeutique, essentielle à un développement d'activité sans faille et d'un business pérenne."
+		},
+		{
+			title: 'Avec quels outils créer son site internet en 2025 ?',
 			p: 'Nos tarifs démarrent à 500 euros pour un blog, 1000 euros pour une landing page (site page unique), 1500 euros pour un site vitrine, 2000 euros pour un site corporate, 2500 euros pour un site e-commerce, 3000 euros pour un site institutionnel, 3500 euros pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
 		},
 		{
-			title: 'Délai de conception et de mise en ligne',
+			title: "Aujourd'hui je peux créer mon site internet avec l'IA, comment - pourquoi ?",
 			p: 'Le délai de conception et de mise en ligne dépend du type de site internet que vous souhaitez. En règle général, le délai de conception et de mise en ligne est de 2 semaines pour un blog, 3 semaines pour une landing page, 4 semaines pour un site vitrine, 5 semaines pour un site corporate, 6 semaines pour un site e-commerce, 7 semaines pour un site institutionnel, 8 semaines pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
 		},
 		{
@@ -48,6 +52,14 @@
 		},
 		{
 			title: 'Propriété, hébergement, nom de domaine et abonnement',
+			p: "Nos clients se posent se questionnent souvent quant à la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site.  Dans le cas ou nos codons votre site internet de A à Z, nous signons un contrat de maintenance et quand vous souhaiterez rompre ce contrat de maintenance, le site vous reviendra en main propre (le dossier contenant l'ensemble du code de votre site)."
+		},
+		{
+			title: "Qu'est-ce que peut m'apporter une agence Web?",
+			p: "Nos clients se posent se questionnent souvent quant à la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site.  Dans le cas ou nos codons votre site internet de A à Z, nous signons un contrat de maintenance et quand vous souhaiterez rompre ce contrat de maintenance, le site vous reviendra en main propre (le dossier contenant l'ensemble du code de votre site)."
+		},
+		{
+			title: "Comment être premier sur Google?",
 			p: "Nos clients se posent se questionnent souvent quant à la propriété de leur site. À qui appartient-il? Il vous appartient, parce que vous allez souscrire auprès d'un hebergeur et bien souvent cet hébergeur sera également la plateforme sur laquelle votre site sera réalisée et sur laquelle votre nom de domaine sera acheté. Cet souscription est à votre nom dès lors, vous êtes propriétaire de votre site.  Dans le cas ou nos codons votre site internet de A à Z, nous signons un contrat de maintenance et quand vous souhaiterez rompre ce contrat de maintenance, le site vous reviendra en main propre (le dossier contenant l'ensemble du code de votre site)."
 		}
 	];
@@ -123,7 +135,7 @@
 			<h2 class="subtitle">
 				Créer un site internet, c'est à la portée de tous. <br /> Mais concevoir un site bien
 				référencé, doté d'un design percutant et d'une stratégie dynamique <br />qui transforme vos
-				visiteurs en clients, là, c'est une autre histoire. <br />Et cette hsitoire nous en
+				visiteurs en clients, là, c'est une autre histoire. <br />Et cette histoire là, nous en
 				maîtrisons parfaitement l'écriture !
 			</h2>
 		</div>
@@ -185,7 +197,7 @@
 	<!-- ***************COLLAPSES*************** -->
 
 	<div class="wrapper-SectionB">
-		<h1>Vos questions</h1>
+		<h1>Tout ce que vous souhaitez savoir <br>sur la création de site internet sur mesure.</h1>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
@@ -325,7 +337,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
+		margin-top: 150px;
 		margin-bottom: 50px;
 	}
 	.wrapper-SectionB h1 {
