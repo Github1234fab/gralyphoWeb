@@ -420,7 +420,8 @@
 		rotate: -5deg;
 		letter-spacing: -1px;
 		background-color: var(--primary);
-		padding: 10px;
+		padding: 10px 25px;
+		border-radius: 70px 20px 70px 7px
 		
 	}
 	.subtitle {
