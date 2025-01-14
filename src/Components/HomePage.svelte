@@ -1,17 +1,42 @@
 <script>
 	import ButtonCta from './ButtonCTA.svelte';
+	import { onMount } from 'svelte';
 
-	// gsap.to(".text", {
-	//     x: 0, // La valeur cible de l'échelle
-	//      ease: "power1.inOut",
-	//   duration: 3,
-	//     scrollTrigger: {
-	//         trigger: ".text",
-	//       start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
-	//         end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
-	//         scrub: true,
-	//     },
+	// onMount(() => {
+	// 	const text = document.querySelectorAll('.text');
+	// 	text.forEach((text) => {
+	// 		gsap.to(text, {
+	// 			x: 0,
+	// 			opacity: 1,
+	// 			ease: 'power4',
+	// 			scrollTrigger: {
+	// 				trigger: text,
+	// 				start: 'top 80%',
+	// 				en: 'top 50%',
+	// 				scrub: 2
+	// 			}
+	// 		});
+	// 	});
 	// });
+
+
+	
+	onMount(() => {
+		const cta = document.querySelectorAll('.wrapper__button-cta');
+		cta.forEach((cta) => {
+			gsap.to(cta, {
+				x: 0,
+				opacity: 1,
+				ease: 'power4',
+				scrollTrigger: {
+					trigger: cta,
+					start: 'top 90%',
+					en: 'top 50%',
+					scrub: true
+				}
+			});
+		});
+	});
 </script>
 
 <main class="main">
@@ -22,7 +47,8 @@
 	<div class="container ctn__A">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Vous cherchez à créer un site internet qui reflète votre entreprise et attire vos clients ?
+				Vous cherchez à créer un site internet
+				<br />qui reflète votre entreprise et attire vos clients ?
 			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__A"></div>
@@ -33,8 +59,8 @@
 					>Votre futur site web sera conçu sur trois piliers fondamentaux:
 				</span> <br />
 
-				<span>L'UX design: </span>c'est à dire l'expérience de vos utilisateurs sur votre
-				site ( facilité de navigation, informations facilement accessibles, moyen de contact mis en
+				<span>L'UX design: </span>c'est à dire l'expérience de vos utilisateurs sur votre site (
+				facilité de navigation, informations facilement accessibles, moyen de contact mis en
 				évidence, etc).
 
 				<br />
@@ -154,7 +180,7 @@
 	<div class="container ctn__E">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Est-ce que mon site internet professionnel sera référencé en premier sur Google ?
+				Est-ce que mon site internet professionnel <br /> sera référencé en premier sur Google ?
 			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__E"></div>
@@ -188,7 +214,7 @@
 	<div class="container ctn__F">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Vaut-il mieux créer son site web soi-même avec l’IA ou en faisant appel à une agence Web ?
+				Vaut-il mieux créer son site web soi-même avec l’IA <br /> ou en faisant appel à une agence Web ?
 			</h2>
 			<div class="wrapper__img">
 				<div class="img bg__F"></div>
@@ -218,7 +244,7 @@
 	<div class="container ctn__G">
 		<div class="wrapper__section-text">
 			<h2 class="subtitle">
-				Est-ce que je pourrai modifier des éléments sur mon site internet  une fois qu'il me sera
+				Est-ce que je pourrai modifier des éléments sur mon site internet <br /> une fois qu'il me sera
 				livré ?
 			</h2>
 			<div class="wrapper__img">
@@ -307,7 +333,7 @@
 			</p>
 			<div class="wrapper__button-cta">
 				<p class="button__text">
-					<!-- <span>Contactez-nous ou demandez un devis gratuit dès aujourd’hui !</span> -->
+					<span>Contactez-nous ou demandez un devis gratuit dès aujourd’hui !</span>
 				</p>
 				<ButtonCta />
 			</div>
@@ -327,7 +353,8 @@
 		align-items: center;
 		height: auto;
 		margin-top: 100px;
-		border-bottom: rgb(189, 189, 189) 1px solid;
+		margin-bottom: 100px;
+	
 	}
 	.wrapper__section-text {
 		display: flex;
@@ -347,6 +374,9 @@
 		align-items: center;
 		margin-bottom: 50px;
 		width: 100%;
+		opacity: 0.4;
+		transform: translateX(-200px);
+		
 	}
 	.wrapper__img {
 		display: flex;
@@ -384,16 +414,19 @@
 		margin-bottom: 0px;
 	}
 	.title span {
-		color: var(--primary);
-		font-weight: 100;
+		color: var(--green);
+		font-weight: 600;
 		font-size: 2rem;
 		rotate: -5deg;
 		letter-spacing: -1px;
+		background-color: var(--primary);
+		padding: 10px;
+		
 	}
 	.subtitle {
 		font-size: 1.8rem;
 		letter-spacing: -1px;
-		line-height: 40px;
+		line-height: 45px;
 		font-weight: 600;
 		text-align: center;
 		font-family: var(--Geologica);
@@ -406,9 +439,11 @@
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		line-height: 40px;
-		width: 90%;
+		width: 70%;
 		text-align: center;
 		padding: 20px;
+		/* opacity: 0.4;
+		transform: translateX(200px); */
 	}
 	.text span {
 		font-weight: 700;
@@ -426,7 +461,6 @@
 		padding: 20px;
 	}
 
-	
 	a {
 		text-decoration: underline;
 	}
@@ -495,7 +529,6 @@
 		.text span {
 			width: 100%;
 		}
-		
 
 		.wrapper__img::before {
 			top: -20px;
@@ -516,7 +549,10 @@
 		}
 		.subtitle {
 			font-size: 1.5rem;
-			line-height: 30px;
+			line-height: 40px;
+		}
+		.button__text {
+			width: 100%;
 		}
 	}
 </style>

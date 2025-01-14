@@ -10,7 +10,6 @@
 
 	onMount(() => {
 		const catalog = document.querySelectorAll('.card-type-site');
-
 		catalog.forEach((el) => {
 			gsap.to(el, {
 				y: 0,
@@ -24,6 +23,7 @@
 			});
 		});
 	});
+
 </script>
 
 <div class="card-type-site">
