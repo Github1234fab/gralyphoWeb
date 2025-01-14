@@ -19,8 +19,6 @@
 	// 	});
 	// });
 
-
-	
 	onMount(() => {
 		const cta = document.querySelectorAll('.wrapper__button-cta');
 		cta.forEach((cta) => {
@@ -354,7 +352,6 @@
 		height: auto;
 		margin-top: 100px;
 		margin-bottom: 100px;
-	
 	}
 	.wrapper__section-text {
 		display: flex;
@@ -376,7 +373,6 @@
 		width: 100%;
 		opacity: 0.4;
 		transform: translateX(-200px);
-		
 	}
 	.wrapper__img {
 		display: flex;
@@ -414,15 +410,11 @@
 		margin-bottom: 0px;
 	}
 	.title span {
+		font-family: var(--Architects);
 		color: var(--green);
-		font-weight: 600;
-		font-size: 2rem;
-		rotate: -5deg;
-		letter-spacing: -1px;
-		background-color: var(--primary);
-		padding: 10px 25px;
-		border-radius: 70px 20px 70px 7px
-		
+		font-weight: 900;
+		letter-spacing: 0px;
+		font-size: var(--l);
 	}
 	.subtitle {
 		font-size: 1.8rem;
