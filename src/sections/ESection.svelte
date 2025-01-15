@@ -11,42 +11,42 @@
 
 	const servicesTab = [
 		{
-			title: 'Sites Web',
+			title: 'Site Web',
 			lien: '/creation-sites-web',
 			icon: IconWifi,
-			p: 'Nous créons votre site Web professionnel sur mesure. '
+			p: "Un site web unique et sur mesure, créé et développé pour optimiser le développement et la croissance de votre entreprise."
 		},
 		{
-			title: 'Applications',
+			title: 'Application',
 			lien: '/creation-application',
 			icon: iconApplication,
-			p: 'Obtenez une application web pour optimiser votre business'
+			p: "Une application web sur mesure pour vous permettre au quoitidien de gérer, de calculer, d'optimiser, de générer, d'automatiser, etc."
 		},
 		{
-			title: 'Design',
+			title: 'Communication',
 			lien: '/creation-design-logos',
 			icon: iconPalette,
-			p: "Design Web, UX/UI, Logos & supports de communications."
+			p: "Création de logos et de supports de communication."
 		},
 		{
-			title: 'Stratégie SEO/SEA',
+			title: 'Référencement et SEO',
 			lien: '/referencement-seo-sea', 
 			icon: iconSatelit,
-			p: 'Référencement naturel ou gratuit. Expertise professionnelle SEO.'
+			p: 'Stratégie de référencement naturel pour une première place dans les moteurs de recherche.'
 		},
 		{
 			title: 'Réseaux Sociaux',
 			lien: '/gestion-media-sociaux',
 			icon: IconFB,
 
-			p: 'Laissez nous gérer vos réseaux sociaux pour optimiser votre temps!'
+			p: 'Gestion de vos réseaux sociaux, plublications et rédactions.'
 		},
 		{
 			title: 'Stratégie Digitale',
 			lien: '/etude-strategie-digitale',	
 			
 			icon: IconStrategy,
-			p: "Étude de stratégie digitale sur mesure. Contenu - Seo - Marketing"
+			p: "Étude de stratégie digitale sur mesure. Benchmarking - Seo - Marketing"
 		}
 	];
 
@@ -57,16 +57,15 @@
 	<!-- <h1>Notre proposition</h1> -->
 
 	<div class="wrapper-text">
-		<h2>Nos services digitaux, pour le succès de votre entreprise.</h2>
+		<h2>Nos solutions digitales, pour le succès de votre entreprise.</h2>
 		<div class="autoText">	<AutoText/></div>
 	
-		<h3>
+		<!-- <h3>
 			Nous répondons à vos besoins avec des produits digitaux <span>adaptés à votre business</span>, au plus près de votre
 			identité et de vos exigences. <br />Nous vous accompagnons
-			<span>sur toutes les étapes de votre projet.</span>
-			, de la conception à la livraison.
+			<span>sur toutes les étapes de votre projet</span>, de la conception à la livraison.
 			
-		</h3>
+		</h3> -->
 	</div>
 
 	<div class="wrapper-cards-services">
@@ -148,7 +147,7 @@
 		min-width: 100%;
 	}
 
-	.E-section h3 {
+	/* .E-section h3 {
 		font-family: var(--Poppins);
 		font-size: var(--m);
 		color: var(--whiteGrey);
@@ -164,7 +163,7 @@
 	.E-section h3 span {
 		font-weight: 600;
 		color: var(--whiteGrey);
-	}
+	} */
 
 	.wrapper-cards-services {
 		grid-column: 2/12;
