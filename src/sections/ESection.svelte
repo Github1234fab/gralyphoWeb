@@ -57,7 +57,7 @@
 	<!-- <h1>Notre proposition</h1> -->
 
 	<div class="wrapper-text">
-		<h2>Nos services</h2>
+		<h2>Nos services digitaux, pour le succès de votre entreprise.</h2>
 		<div class="autoText">	<AutoText/></div>
 	
 		<h3>
@@ -143,7 +143,7 @@
 		letter-spacing: -1px;
 		margin-left: 0px;
 		text-align: center;
-		line-height: 25px;
+		line-height: 45px;
 		margin-top: 100px;
 		min-width: 100%;
 	}

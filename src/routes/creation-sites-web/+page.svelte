@@ -32,12 +32,13 @@
 	import Profil from '../../Assets/Profils-gralypho/Ellipse 54.png';
 	import siteWeb from '../../Assets/png-gralypho/heroSiteWeb.png';
 	import Button from "../../Components/ButtonCTA.svelte";
+	import HomePage from '../../Components/HomePage.svelte';
 
 	let accordeonTab = [
 		{
 			title: 'Créer un site internet pour développer son activité est-il encore pertinent en 2025 ?',
-			p: "Les choses ont changé, ça c’est indéniable! Les intentions de recherche de la part des internautes ont explosées sur les réseaux sociaux ces trois dernières années. Aujourd’hui, les gens recherchent d’abord un produit sur Tik tok, FB ou insta, parfois avant même de consulter le web. Pourquoi ? Parce que les contenus des réseaux sociaux sont rapides (les shorts), efficaces, concis. Prenons un exemple: je cherche un aspirateur-laveur. Je cherche sur tik-tok et je trouve rapidement une vidéo sur un produit ou un comparatif de plusieurs produits. C’est rapide et efficace. Cette vidéo me donne des liens vers le fabricant. Je clique et je suis dirigé vers le lien du fabriquant. J’achète. C’est rapide et net. Prenons maintenant le cas du web et ses moteurs de recherche classiques  J’effectue la même recherche. Google me propose des liens sur une page que je dois scroller et je dois cliquer sur chacun de ses liens qui ouvrent la page d’accueil d’un site de fabriquant d’apirateur laveur ou d’un comparatif de prix. Je dois naviguer sur les pages pour trouver la réponse à ma recherche , mais parfois, je ne trouve pas l’info tout de suite et les réseaux peuvent donc faire la différence. Alors chez Gralypho, agence web experte dans le domaine du web et de la création de site internet et application, nous pensons comme beaucoup de spécialistes du seo qu’une présence en ligne sur le web à travers un site est essentielle et qu'une présence sur les réseaux l’est tout autant, car l’un mènera à l’autre et vice versa. C’est une maïeutique, essentielle à un développement d'activité sans faille et d'un business pérenne."
-		},
+			p:"Les choses ont changé, c’est indéniable ! Les intentions de recherche de la part des internautes ont explosé sur les réseaux sociaux ces trois dernières années. Aujourd’hui, les gens recherchent d’abord un produit sur TikTok, Facebook ou Instagram, parfois avant même de consulter le web. Pourquoi ? Parce que les contenus des réseaux sociaux sont rapides (les shorts), efficaces et concis. Prenons un exemple : je cherche un aspirateur-laveur. Je recherche sur TikTok et trouve rapidement une vidéo sur un produit ou un comparatif de plusieurs produits. C’est rapide et efficace. Cette vidéo me fournit des liens vers le fabricant. Je clique et suis dirigé vers le lien du fabricant. J’achète. C’est rapide et direct. Prenons maintenant le cas du web et de ses moteurs de recherche classiques. J’effectue la même recherche. Google me propose des liens sur une page que je dois faire défiler, et je dois cliquer sur chacun de ces liens qui ouvrent la page d’accueil d’un site de fabricant d’aspirateurs-laveurs ou d’un comparatif de prix. Je dois naviguer sur les pages pour trouver la réponse à ma recherche. Parfois, je ne trouve pas l’information tout de suite, et c’est là que les réseaux sociaux peuvent faire la différence. Chez Gralypho, agence web experte dans le domaine du web et de la création de sites internet et d’applications, nous pensons, comme beaucoup de spécialistes du SEO, qu’une présence en ligne à travers un site web est essentielle, tout comme une présence sur les réseaux sociaux. L’un mène à l’autre, et vice versa. C’est une maïeutique essentielle à un développement d’activité sans faille et à un business pérenne."	
+	},
 		{
 			title: 'Avec quels outils créer son site internet en 2025 ?',
 			p: 'Nos tarifs démarrent à 500 euros pour un blog, 1000 euros pour une landing page (site page unique), 1500 euros pour un site vitrine, 2000 euros pour un site corporate, 2500 euros pour un site e-commerce, 3000 euros pour un site institutionnel, 3500 euros pour un site sur mesure entièrement codé (garantie sécurité et design innovant et sur mesure).'
@@ -175,10 +176,14 @@
 		</div>
 	</div>
 
+	<div class="wrapper__homepage">
+<HomePage />
+</div>
+
 	<!-- ***************TESTIMONIAL*************** -->
 
 	<div class="testimonial">
-		<h1>Amazing Gralypho !</h1>
+		<h1>Amazing <br>Gralypho !</h1>
 		<h2>
 			"Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités <br />que peut
 			contenir un site Web !! <br />L'expertise de l'agence Gralypho nous a permis d'augmenter de
@@ -253,6 +258,14 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+	}
+	.wrapper__homepage{
+		grid-column: 1/13;
+		grid-row: 3;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.img-hero {
@@ -362,7 +375,7 @@
 	}
 	.testimonial {
 		grid-column: 1/13;
-		grid-row: 3;
+		grid-row: 5;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

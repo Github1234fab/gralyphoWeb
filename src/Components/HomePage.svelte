@@ -350,7 +350,6 @@
 		justify-content: center;
 		align-items: center;
 		height: auto;
-		margin-top: 100px;
 		margin-bottom: 100px;
 	}
 	.wrapper__section-text {
@@ -538,7 +537,7 @@
 			margin-bottom: -20px;
 		}
 		.title span {
-			font-size: 1rem;
+			font-size: 1.2rem;
 		}
 		.subtitle {
 			font-size: 1.5rem;

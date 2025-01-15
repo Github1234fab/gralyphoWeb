@@ -11,7 +11,7 @@
 			duration: 3,
 			scrollTrigger: {
 				trigger: '.sub-bloc',
-				start: 'top 60%', // Débute lorsque le haut de l'élément atteint 80% du viewport
+				start: 'top 80%', // Débute lorsque le haut de l'élément atteint 80% du viewport
 				end: 'top 50%', // Termine lorsque le haut de l'élément atteint 50% du viewport
 				scrub: 2
 			}
@@ -20,7 +20,7 @@
 </script>
 
 <div class="container">
-	<div class="bloc"></div>
+	<!-- <div class="bloc"></div> -->
 	<div class="sub-bloc">
 		<h1 class="title">Augmentez votre potentiel de client.</h1>
 		<p>
@@ -41,7 +41,7 @@
 		background-color: var(--cta);
 	}
 
-	.bloc {
+	/* .bloc {
 		flex: 1;
 		height: 100%;
 		width: 100%;
@@ -55,10 +55,9 @@
 		background-position: center;
 		background-repeat: no-repeat;
 
-		/* box-shadow: 0px -10px 20px 2px rgba(0, 0, 0, 0.411); */
 		z-index: 0;
 		position: relative;
-	}
+	} */
 
 	.sub-bloc {
 		flex: 1;
@@ -150,11 +149,14 @@
 
 	@media screen and (max-width: 768px) {
 		.container {
-			height: 1300px;
+			height: 800px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
+		}
+		.sub-bloc p{
+			width: 90%;
 		}
 	}
 </style>

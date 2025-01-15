@@ -16,11 +16,11 @@
 		margin-left: 20px;
 	}
 	.title {
-		font-family: var(--Red);
-		font-size: 1rem;
+		font-family: "Baumans";
+		font-size: 1.5rem;
 		color: var(--whiteGrey);
 		margin-top: 2px;
-		font-weight: 400;
+		font-weight: 900;
 	}
 
 	.rect:hover {
@@ -29,14 +29,14 @@
 	.subtitle {
 		font-family: var(--Architects);
 		color: var(--green);
-		font-size: 0.8rem;
+		font-size: 1rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-weight: 600;
 		border-radius: 4px;
-		margin-top: 0px;
-		rotate: -5deg;
+		margin-top: -7px;
+		rotate: 0deg;
 		margin-left: 0px;
 	}
 

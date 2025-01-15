@@ -141,7 +141,7 @@
 			width: 100vw;
 		}
 		.button {
-			font-size: 1em;
+			font-size: 1.2em;
 			height: 200px;
 			line-height: 30px;
 		}
