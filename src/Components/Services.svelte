@@ -22,6 +22,7 @@
 		align-items: center;
 		gap: 20px;
 		min-height: 600px;
+		width: 80%;
 		background-color: white;
 		overflow: hidden;
 		padding: 20px;
@@ -41,6 +42,7 @@
 		font-size: var(--m);
 		text-align: left;
 		letter-spacing: -0.05em;
+
 	}
 	.description-services {
 		font-family: poppins;
