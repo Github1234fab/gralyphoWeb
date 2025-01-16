@@ -95,7 +95,7 @@
 		padding: 10px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 30px;
+		margin-top: 0px;
 		margin-bottom: 10px;
 		font-size: 0.9rem;
 		/* border: 1px solid var(--whiteGrey); */
