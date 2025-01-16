@@ -4,7 +4,7 @@
 	// export let p;
 	// export let lien;
 	export let lien;
-	export let lien2;
+	// export let lien2;
 	import { onMount } from 'svelte';
 	import Cards from './Cards.svelte';
 
@@ -23,20 +23,16 @@
 			});
 		});
 	});
-
 </script>
 
 <div class="card-type-site">
 	<div class="wrapper-text">
 		<div class="wrapper-title-icon">
-		
-			<a href={lien}><img src={icon} alt="icon de types de sites" class="icon" /></a>
-				<a href={lien2} class="title">{title}</a>
+			<img src={icon} alt="icon pour chaque type de sites" class="icon" />
+			<a class="title" href={lien}>{title}</a>
+			<!-- <a href={lien2} class="title">{title}</a> -->
+			<a href={lien} class="link-decouvrir">Découvrir</a>
 		</div>
-		<!-- <p>
-      {p}
-    </p> -->
-		<a href={lien} class="link-decouvrir">Découvrir</a>
 	</div>
 </div>
 
@@ -55,17 +51,18 @@
 		max-width: 40%;
 		border-radius: 20px;
 		background-color: transparent;
-		box-shadow: 0px 0px 14px  rgba(0, 0, 0, 0.659);
+		box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.659);
 	}
 	.wrapper-title-icon {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 15px;
+		gap: 25px;
 		background-color: transparent;
 		padding: 10px;
 		border-radius: 10%;
+		margin-top: 20px;
 	}
 	.wrapper-text {
 		display: flex;
@@ -110,9 +107,6 @@
 	}
 	.icon {
 		height: 35px;
-		
-	
-	
 	}
 
 	@keyframes bounce {
@@ -141,10 +135,7 @@
 		}
 	}
 
-
-
 	@media screen and (max-width: 768px) {
-	
 		.link-decouvrir {
 			padding: 13px;
 			width: auto;
