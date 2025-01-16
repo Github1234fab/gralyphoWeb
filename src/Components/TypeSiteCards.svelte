@@ -13,12 +13,12 @@
 		catalog.forEach((el) => {
 			gsap.to(el, {
 				y: 0,
-				ease: 'power4',
+				ease: 'power2',
 				scrollTrigger: {
 					trigger: el,
-					start: 'top 900px',
-					end: '-200px',
-					scrub: 5
+					start: 'top 90%',
+					end: 'top 50%',
+					scrub: 2
 				}
 			});
 		});

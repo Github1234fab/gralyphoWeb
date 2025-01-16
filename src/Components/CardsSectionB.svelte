@@ -16,7 +16,7 @@
 
 <div class="wrapper {close ? 'active' : ''}">
 	<button class="button" on:click={collapse}>
-		{title}
+		<h2 class="title">{title}</h2>
 		<span class="button-after">
 			{#if close}
 				<img src={arrowUp} alt="Arrow Up" in:fade={{ duration: 1200 }} />
@@ -51,7 +51,7 @@
 		position: relative;
 		display: flex;
 		align-items: center;
-		padding: 40px;
+		padding: 20px;
 		color: var(--whiteGrey);
 		font-size: var(--m);
 		font-weight: 500;
@@ -81,6 +81,14 @@
 		align-items: center;
 		justify-content: center;
 		padding: 10px;
+	}
+	.title{
+		font-family: epilogue;
+		font-size: var(--m);
+		font-weight: 500;
+		color: var(--whiteGrey);
+		letter-spacing: -1px;
+		width: 70%;
 	}
 	.button-after img {
 		margin-top: 12px;

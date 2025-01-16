@@ -80,7 +80,7 @@ onMount(() => {
 		justify-content: center;
 		background-color: transparent;
 		padding: 40px;
-		min-height: 400px;
+		min-height: 500px;
 		border-top: 1px solid var(--whiteGrey);
 		border-bottom: none;
 		border-right: none;
@@ -153,7 +153,7 @@ onMount(() => {
 
 	@media screen and (max-width: 1440px) {
 		.card-services {
-			min-height: 370px;
+			max-height: 50px;
 		}
 		.p {
 			font-family: Heebo;

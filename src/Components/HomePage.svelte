@@ -350,7 +350,7 @@
 		justify-content: center;
 		align-items: center;
 		height: auto;
-		margin-bottom: 100px;
+		margin-bottom: 300px;
 	}
 	.wrapper__section-text {
 		display: flex;
@@ -409,11 +409,11 @@
 		margin-bottom: 0px;
 	}
 	.title span {
-		font-family: var(--Architects);
+		font-family: var(--Poppins);
 		color: var(--green);
-		font-weight: 900;
+		font-weight: 500;
 		letter-spacing: 0px;
-		font-size: var(--l);
+		font-size: var(--m);
 	}
 	.subtitle {
 		font-size: 1.8rem;

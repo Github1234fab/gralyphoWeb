@@ -21,9 +21,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
-		flex: 1 1 calc(50% - 20px); /* Chaque carte occupe 50% de la largeur moins l'espacement */
-		max-width: calc(40% - 20px); /* Limiter la largeur maximale pour les grands écrans */
-		/* min-height: 60%; */
+		min-height: 600px;
 		background-color: white;
 		overflow: hidden;
 		padding: 20px;

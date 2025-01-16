@@ -50,19 +50,19 @@
 			lien: '/types-site-web'
 		}
 	];
-	onMount(() => {
-		gsap.to('.wrapper-cards', {
-			y: 0,
-			opacity: 1,
-			ease: 'power4',
-			scrollTrigger: {
-				trigger: '.wrapper-cards',
-				start: 'top 800px',
-				end: '-200px',
-				scrub: 5
-			}
-		});
-	});
+	// onMount(() => {
+	// 	gsap.to('.wrapper-cards', {
+	// 		y: 0,
+	// 		opacity: 1,
+	// 		ease: 'power4',
+	// 		scrollTrigger: {
+	// 			trigger: '.wrapper-cards',
+	// 			start: 'top 800px',
+	// 			end: '-200px',
+	// 			scrub: 5
+	// 		}
+	// 	});
+	// });
 </script>
 
 <section class="C-section">
@@ -81,7 +81,6 @@
 				icon={Cards.icon}
 				p={Cards.p}
 				lien={Cards.lien}
-				lien2={Cards.lien2}
 			/>
 		{/each}
 	</div>
@@ -96,6 +95,7 @@
 		background-color: var(--whiteGrey);
 		margin-top: 0px;
 		overflow: hidden;
+	margin-bottom: 200px;
 	}
 	/* .wrapper-text h1 {
 	    font-family: 'Red Hat Display';
