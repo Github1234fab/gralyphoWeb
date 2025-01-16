@@ -423,6 +423,7 @@
 		text-align: center;
 		font-family: var(--Geologica);
 		color: var(--primary);
+		width: 70%;
 	}
 	.text {
 		font-family: var(--Poppins);
@@ -431,9 +432,9 @@
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		line-height: 40px;
-		width: 70%;
+		width: 50%;
 		text-align: center;
-		padding: 20px;
+		
 		/* opacity: 0.4;
 		transform: translateX(200px); */
 	}
