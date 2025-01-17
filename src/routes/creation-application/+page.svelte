@@ -8,24 +8,24 @@
 	import imageApplication from '../../Assets/png-gralypho/applications.png';
 	import Button from "../../Components/ButtonCTA.svelte";
 
-	let collapseTab = [
-		{
-			title: 'Étude de votre projet',
-			p: "Nous étudions votre projet pour vous proposer la meilleure des solutions. Le développement de votre application nécessite plusieurs phases d'approches nécessaires à sa bonne réalisation. Notamment son design, son contenu, son but, la manière de stocker les datas, l'interface utilisateur (ux/ui),  le choix de la techno.  Nous vous proposons un devis gratuit et sans engagement."
-		},
-		{
-			title: 'La programmation',
-			p: 'Nous lançons le développement de votre application quand son design, sa navigation et son contenu sont validés par vos soins. Il faudra compter ensuite un délai de un à trois mois pour le développement de votre application, selon son dégré de complexité '
-		},
-		{
-			title: 'Les tests et la mise en ligne',
-			p: "La phase de test est assez excitante car c'est la dernière ligne droite avant la mise en service officielle de votrez application.  Les tests côté serveurs et côté clients sont réalisés. Les tests en responsive sont réalisés également. L'application est testée dans son ensemble sur diverses plateformes et dans tous les cas de figures."
-		},
-		{
-			title: 'La vie de votre application',
-			p: 'Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vous pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu.'
-		}
-	];
+	// let collapseTab = [
+	// 	{
+	// 		title: 'Étude de votre projet',
+	// 		p: "Nous étudions votre projet pour vous proposer la meilleure des solutions. Le développement de votre application nécessite plusieurs phases d'approches nécessaires à sa bonne réalisation. Notamment son design, son contenu, son but, la manière de stocker les datas, l'interface utilisateur (ux/ui),  le choix de la techno.  Nous vous proposons un devis gratuit et sans engagement."
+	// 	},
+	// 	{
+	// 		title: 'La programmation',
+	// 		p: 'Nous lançons le développement de votre application quand son design, sa navigation et son contenu sont validés par vos soins. Il faudra compter ensuite un délai de un à trois mois pour le développement de votre application, selon son dégré de complexité '
+	// 	},
+	// 	{
+	// 		title: 'Les tests et la mise en ligne',
+	// 		p: "La phase de test est assez excitante car c'est la dernière ligne droite avant la mise en service officielle de votrez application.  Les tests côté serveurs et côté clients sont réalisés. Les tests en responsive sont réalisés également. L'application est testée dans son ensemble sur diverses plateformes et dans tous les cas de figures."
+	// 	},
+	// 	{
+	// 		title: 'La vie de votre application',
+	// 		p: 'Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vous pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu.'
+	// 	}
+	// ];
 </script>
 
 <Header />
@@ -79,13 +79,13 @@
 	</div>
 
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
-
+<!-- 
 	<div class="wrapper-collapse">
 		<h1>Les étapes de développement de votre Application.</h1>
 		{#each collapseTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
-	</div>
+	</div> -->
 
 	<div class="wrapper-form">
 		<Form />
@@ -171,7 +171,7 @@
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	.wrapper-collapse {
+	/* .wrapper-collapse {
 		grid-column: 1/13;
 		grid-row: 4;
 		display: flex;
@@ -192,7 +192,7 @@
 		margin-bottom: 50px;
 		padding: 15px;
 		width: 75%;
-	}
+	} */
 	.wrapper-application-explication {
 		grid-column: 1/13;
 		grid-row: 2;

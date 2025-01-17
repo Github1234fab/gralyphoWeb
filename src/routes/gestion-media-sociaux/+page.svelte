@@ -36,16 +36,16 @@
 	// import Csection from "../../sections/Csection.svelte";
 	import Mouse from '../../Components/Mouse.svelte';
 
-	let accordeonTab = [
-		{
-			title: 'Tarifs',
-			p: 'Nos forfaits de gestion des médias sociaux démarrent autour de 500 euros. Plus la mission est complexe plus le tarif grimpe, mais nous avons des solutions sous forme de  forfait, très intéressantes et très compétitives.'
-		},
-		{
-			title: 'Contenu des missions de gestion des médias sociaux',
-			p: 'Le contenu des missions de gestion des médias sociaux portent essentiellement sur la conception des posts et des campagnes publicitaires pour votre marque ou votre business. Nous gérons la rédaction des annonces, leur contenu, leur fréquence et leur diffusion.'
-		}
-	];
+	// let accordeonTab = [
+	// 	{
+	// 		title: 'Tarifs',
+	// 		p: 'Nos forfaits de gestion des médias sociaux démarrent autour de 500 euros. Plus la mission est complexe plus le tarif grimpe, mais nous avons des solutions sous forme de  forfait, très intéressantes et très compétitives.'
+	// 	},
+	// 	{
+	// 		title: 'Contenu des missions de gestion des médias sociaux',
+	// 		p: 'Le contenu des missions de gestion des médias sociaux portent essentiellement sur la conception des posts et des campagnes publicitaires pour votre marque ou votre business. Nous gérons la rédaction des annonces, leur contenu, leur fréquence et leur diffusion.'
+	// 	}
+	// ];
 </script>
 
 <Mouse />
@@ -99,12 +99,12 @@
 
 	<!-- ***************COLLAPSES*************** -->
 
-	<div class="wrapper-SectionB">
+	<!-- <div class="wrapper-SectionB">
 		<h1>Les avantages de la gestion <br /> des médias sociaux</h1>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
-	</div>
+	</div> -->
 
 	<!-- ***************SEO/SEA*************** -->
 
@@ -159,6 +159,7 @@
 		padding: 0px;
 		line-height: 50px;
 		margin-top: 70px;
+		padding: 15px;
 	}
 	.hero h1 span {
 		color: var(--green);
@@ -203,7 +204,7 @@
 		min-height: 100%;
 	}
 
-	.wrapper-SectionB {
+	/* .wrapper-SectionB {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -222,7 +223,7 @@
 		letter-spacing: -1px;
 		margin-top: 50px;
 		margin-bottom: 100px;
-	}
+	} */
 
 	.wrapper-form {
 		display: flex;

@@ -152,12 +152,12 @@
 
 	<!-- ***************COLLAPSES*************** -->
 
-	<div class="wrapper-SectionB">
+	<!-- <div class="wrapper-SectionB">
 		<h1>Tarifs, Délais ...</h1>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
-	</div>
+	</div> -->
 
 	<!-- ***************TESTIMONIAL*************** -->
 
@@ -207,9 +207,10 @@
 		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
-		padding: 0px;
+		padding: 15px;
 		line-height: 50px;
 		margin-top: 100px;
+
 	}
 	.hero h1 span {
 		color: var(--green);
@@ -284,7 +285,7 @@
 		border-radius: 5px;
 	}
 
-	.wrapper-SectionB {
+	/* .wrapper-SectionB {
 		grid-column: 1/13;
 		grid-row: 4;
 		display: flex;
@@ -303,7 +304,7 @@
 		margin-top: 0px;
 		letter-spacing: -1px;
 		margin-bottom: 50px;
-	}
+	} */
 	.wrapper-form {
 		grid-column: 1/13;
 		grid-row: 7;

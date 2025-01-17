@@ -32,20 +32,20 @@
 	import seo from '../../Assets/png-gralypho/seo3.png';
 	import Button from '../../Components/ButtonCTA.svelte';
 
-	let accordeonTab = [
-		{
-			title: 'Tarifs',
-			p: "Nous proposons des stratégies courtes, le plus souvent en répondant à une problémétiques sur des sites existant. Nous proposons également des stratégies longues sous forme d'abonnement  afin d'atteindre un objectif fixé à l'avance. Nos tarfis sur les stratégie SEO et SEA débutent à partir de 500 euros et ne dépassent guère 2000 euros. "
-		},
-		{
-			title: 'Stratégie SEO',
-			p: "Le SEO, pour Search Engine Optimization, constitue un ensemble de techniques et de bonnes pratiques (W3C), permettant à un site web d'être convenablement référencé sur les moteurs de recherche. La quête est d'obtenir une place privilégiée en première page des navigateurs selon la recherche utilisée par les internautes. Les normes du W3C peuvent pénaliser le site inernet en terme de référencement si elles ne sont pas respectées et les moteurs sont de plus en plus exigeants. Un référencement optimal consiste en un mix entre le respect des normes du W3C,  la syntaxe utlisée sur le site, l'usage des bons mots clefs et d'autres techniques permettant de placer un site internet dans les conditions optimales du référencement naturel"
-		},
-		{
-			title: 'Stratégie SEA',
-			p: " Le référencement payant, le SEA, il requiert de très bonnes connaissances en matière d'outil de promotion marketing. Il s'agit de campagne de publicité qui peuvent être diffusés sur des sites partenaires, sur les réseaux ou en haut de page des moteurs de recherche, ou les deux. Ces outils d'apparence assez simples sont en réalité très complexes. Chaque mot clef est payant, une stratégie est donc nécessaire en amont. La qualité de la rédaction de l'annonce doit être pertinente et s'adresser facilement et directement au coeur de cible. Les annonces peuvent être automatisées et se déclencher à des périodes déterminées."
-		}
-	];
+	// let accordeonTab = [
+	// 	{
+	// 		title: 'Tarifs',
+	// 		p: "Nous proposons des stratégies courtes, le plus souvent en répondant à une problémétiques sur des sites existant. Nous proposons également des stratégies longues sous forme d'abonnement  afin d'atteindre un objectif fixé à l'avance. Nos tarfis sur les stratégie SEO et SEA débutent à partir de 500 euros et ne dépassent guère 2000 euros. "
+	// 	},
+	// 	{
+	// 		title: 'Stratégie SEO',
+	// 		p: "Le SEO, pour Search Engine Optimization, constitue un ensemble de techniques et de bonnes pratiques (W3C), permettant à un site web d'être convenablement référencé sur les moteurs de recherche. La quête est d'obtenir une place privilégiée en première page des navigateurs selon la recherche utilisée par les internautes. Les normes du W3C peuvent pénaliser le site inernet en terme de référencement si elles ne sont pas respectées et les moteurs sont de plus en plus exigeants. Un référencement optimal consiste en un mix entre le respect des normes du W3C,  la syntaxe utlisée sur le site, l'usage des bons mots clefs et d'autres techniques permettant de placer un site internet dans les conditions optimales du référencement naturel"
+	// 	},
+	// 	{
+	// 		title: 'Stratégie SEA',
+	// 		p: " Le référencement payant, le SEA, il requiert de très bonnes connaissances en matière d'outil de promotion marketing. Il s'agit de campagne de publicité qui peuvent être diffusés sur des sites partenaires, sur les réseaux ou en haut de page des moteurs de recherche, ou les deux. Ces outils d'apparence assez simples sont en réalité très complexes. Chaque mot clef est payant, une stratégie est donc nécessaire en amont. La qualité de la rédaction de l'annonce doit être pertinente et s'adresser facilement et directement au coeur de cible. Les annonces peuvent être automatisées et se déclencher à des périodes déterminées."
+	// 	}
+	// ];
 </script>
 
 <Mouse />
@@ -70,14 +70,14 @@
 
 	<!-- ***************SERVICES*************** -->
 
-	<div class="wrapper-SectionB">
+	<!-- <div class="wrapper-SectionB">
 		<h2>
 			Optez pour un référencement gagnant. <br />Touchez votre ❤️ de cible <br />pour être visible.
 		</h2>
 		{#each accordeonTab as tab}
 			<CardsSectionB title={tab.title} p={tab.p} />
 		{/each}
-	</div>
+	</div> -->
 
 	<!-- ***************SEO/SEA*************** -->
 
@@ -154,7 +154,7 @@
 		min-width: 30%;
 		margin-top: 30px;
 	}
-	.wrapper-SectionB {
+	/* .wrapper-SectionB {
 		grid-column: 1/13;
 		grid-row: 6;
 		display: flex;
@@ -175,7 +175,7 @@
 		margin-left: 0px;
 		text-align: center;
 		margin-bottom: 50px;
-	}
+	} */
 
 	.wrapper-form {
 		grid-column: 1/13;

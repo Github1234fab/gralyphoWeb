@@ -31,7 +31,8 @@
 				<a class="link-contact" href="/referencement-seo-sea">Référencement</a>
 				<a class="link-contact" href="/gestion-media-sociaux">Medias Sociaux</a>
 				<a class="link-contact" href="/creation-design-logos">Design, Logos et pub</a>
-				<a class="link-contact" href="/etude-strategie-digitale">Communication</a>
+				<a class="link-contact" href="/etude-strategie-digitale">Stratégie digitale</a>
+				<a class="link-contact" href="/FAQ">FAQ</a>
 				<a class="link-contact" href="/tarifs">Tarifs</a>
 			</div>
 		</span>
