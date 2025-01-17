@@ -7,6 +7,7 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import imageApplication from '../../Assets/png-gralypho/applications.png';
 	import Button from "../../Components/ButtonCTA.svelte";
+	import FaqLink from "../../Components/FaqLink.svelte";
 
 	// let collapseTab = [
 	// 	{
@@ -77,6 +78,12 @@
 		<h2>"La seule limite à ce que vous pouvez réaliser est celle que vous imaginez."</h2>
 		<h3>Roy T. Bennett</h3>
 	</div>
+
+	<div class="wrapper__faqLink">
+		<FaqLink/>
+		<a href="/FAQ/#application">FAQ</a>
+	</div>
+	
 
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
 <!-- 
@@ -171,28 +178,27 @@
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	/* .wrapper-collapse {
+	.wrapper__faqLink{
 		grid-column: 1/13;
 		grid-row: 4;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex-direction: column;
-		margin-bottom: 50px;
-		background-color: var(--greyBg);
 	}
-	.wrapper-collapse h1 {
-		text-align: center;
+	.wrapper__faqLink a{
 		font-family: 'Red Hat Display';
-		font-size: var(--l);
+		font-size: var(--m);
 		font-weight: 700;
-		color: var(--bleuAcier);
-		margin-top: 50px;
-		letter-spacing: -1px;
-		margin-bottom: 50px;
-		padding: 15px;
-		width: 75%;
-	} */
+		color: var(--whiteGrey);
+		background-color: var(--cta);
+		padding: 20px 30px;
+		text-decoration: none;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		margin-bottom: 100px;
+		border-radius: 5px;
+		margin-top: -50px;
+	}
 	.wrapper-application-explication {
 		grid-column: 1/13;
 		grid-row: 2;

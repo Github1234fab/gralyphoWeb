@@ -9,7 +9,7 @@
 <Header />
 
 <div class="container">
-	<div class="parallax img-vitrine"></div>
+	<div id="vitrine" class="parallax img-vitrine"></div>
 	<div class="container-p">
 		<h1>Site <br><span>Vitrine</span></h1>
 		<p>
@@ -38,7 +38,7 @@
 			>
 		</div>
 	</div>
-	<div class="parallax img-ecommerce"></div>
+	<div id="e-commerce" class="parallax img-ecommerce"></div>
 	<div class="container-p">
 		<h1>Sites <br><span>E-Commerce</span></h1>
 		<p>
@@ -66,7 +66,7 @@
 			>
 		</div>
 	</div>
-	<div class="parallax img-blog"></div>
+	<div id="blog" class="parallax img-blog"></div>
 	<div class="container-p">
 		<h1>Blog <br><span>Actualité</span></h1>
 		<p>
@@ -90,7 +90,7 @@
 			>
 		</div>
 	</div>
-	<div class="parallax img-portfolio"></div>
+	<div id="portfolio"  class="parallax img-portfolio"></div>
 	<div class="container-p">
 		<h1>Portfolio <br><span>Custom</span></h1>
 		<p>
@@ -113,7 +113,7 @@
 			>
 		</div>
 	</div>
-	<div class="parallax img-corporate"></div>
+	<div id="corporate"  class="parallax img-corporate"></div>
 	<div class="container-p">
 		<h1>Site <br><span>Corporate</span></h1>
 		<p>
@@ -139,7 +139,7 @@
 			>
 		</div>
 	</div>
-	<div class="parallax img-institutionnel"></div>
+	<div  id="institutionnel" class="parallax img-institutionnel"></div>
 	<div class="container-p">
 		<h1>Site <br><span>institutionnel</span></h1>
 		<p>

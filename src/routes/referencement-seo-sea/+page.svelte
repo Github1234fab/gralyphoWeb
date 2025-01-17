@@ -31,6 +31,7 @@
 	// import Csection from "../../sections/Csection.svelte";
 	import seo from '../../Assets/png-gralypho/seo3.png';
 	import Button from '../../Components/ButtonCTA.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
 
 	// let accordeonTab = [
 	// 	{
@@ -98,6 +99,11 @@
 		</h2>
 	</div>
 
+	<div class="wrapper__faqLink">
+		<FaqLink/>
+		<a href="/FAQ/#seo">FAQ</a>
+	</div>
+
 	<!-- ***************CONTACT*************** -->
 
 	<div class="wrapper-form">
@@ -154,29 +160,28 @@
 		min-width: 30%;
 		margin-top: 30px;
 	}
-	/* .wrapper-SectionB {
+
+	.wrapper__faqLink{
 		grid-column: 1/13;
 		grid-row: 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
-		margin-bottom: 50px;
 	}
-
-	.wrapper-SectionB h2 {
+	.wrapper__faqLink a{
 		font-family: 'Red Hat Display';
-		font-size: var(--l);
-		color: var(--primary);
+		font-size: var(--m);
 		font-weight: 700;
-		margin-top: 50px;
-		letter-spacing: -0.04em;
-		margin-left: 0px;
-		text-align: center;
-		margin-bottom: 50px;
-	} */
-
+		color: var(--whiteGrey);
+		background-color: var(--cta);
+		padding: 20px 30px;
+		text-decoration: none;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		margin-bottom: 100px;
+		border-radius: 5px;
+		margin-top: -50px;
+	}
 	.wrapper-form {
 		grid-column: 1/13;
 		grid-row: 7;

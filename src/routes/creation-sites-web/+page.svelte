@@ -33,6 +33,7 @@
 	import siteWeb from '../../Assets/png-gralypho/heroSiteWeb.png';
 	import Button from "../../Components/ButtonCTA.svelte";
 	import HomePage from '../../Components/HomePage.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
 
 	// let accordeonTab = [
 	// 	{
@@ -185,11 +186,9 @@
 	<div class="testimonial">
 		<h1>Amazing <br>Gralypho !</h1>
 		<h2>
-			"Je n'aurais jamais pensé en apprendre autant sur toutes les fonctionnalités <br />que peut
-			contenir un site Web !! <br />L'expertise de l'agence Gralypho nous a permis d'augmenter de
-			53% nos ventes en ligne ! "
+			"Merci à toute l'équipe de Gralypho. Une superbe collaboration pour un produit très efficace! "
 		</h2>
-		<h4>"Éloïse Humbert - CTO Rodiggia"</h4>
+		<h4>"Éloïse Nguyen - CTO Rodiggia"</h4>
 		<img class="img" src={Profil} alt="" />
 	</div>
 
@@ -198,6 +197,11 @@
 	<div class="wrapper-Csection">
 		<Csection />
 	</div>
+
+	<div class="wrapper__faqLink">
+	<FaqLink/>
+	<a href="/FAQ/#site">FAQ</a>
+</div>
 
 	<!-- ***************COLLAPSES*************** -->
 
@@ -267,6 +271,27 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	.wrapper__faqLink{
+		grid-column: 1/13;
+		grid-row: 8;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.wrapper__faqLink a{
+		font-family: 'Red Hat Display';
+		font-size: var(--m);
+		font-weight: 700;
+		color: var(--whiteGrey);
+		background-color: var(--cta);
+		padding: 20px 30px;
+		text-decoration: none;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		margin-bottom: 100px;
+		border-radius: 5px;
+		margin-top: -50px;
 	}
 
 	.img-hero {
@@ -377,7 +402,7 @@
 
 	.wrapper-form {
 		grid-column: 1/13;
-		grid-row: 8;
+		grid-row: 9;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -462,6 +487,9 @@
 				max-width: 70%;
 				min-width: 70%;
 				margin-top: 30px;
+			}
+			.wrapper__faqLink{
+				height: 700px
 			}
 		}
 	}

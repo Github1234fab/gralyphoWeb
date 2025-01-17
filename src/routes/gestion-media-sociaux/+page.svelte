@@ -32,6 +32,7 @@
 	import publiciteMedia from '../../Assets/png-gralypho/publiciteMedia.png';
 	import socialMedia from '../../Assets/png-gralypho/socialMedia.png';
 	import Button from '../../Components/ButtonCTA.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
 
 	// import Csection from "../../sections/Csection.svelte";
 	import Mouse from '../../Components/Mouse.svelte';
@@ -123,6 +124,12 @@
 
 	<!-- ***************CONTACT*************** -->
 
+	<div class="wrapper__faqLink">
+		<FaqLink/>
+		<a href="/FAQ/#reseau">FAQ</a>
+	</div>
+
+
 	<div class="wrapper-form">
 		<Form />
 	</div>
@@ -204,26 +211,27 @@
 		min-height: 100%;
 	}
 
-	/* .wrapper-SectionB {
+	.wrapper__faqLink{
+		grid-column: 1/13;
+		grid-row: 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
-		margin-bottom: 100px;
-		background-color: var(--whiteGrey);
 	}
-	.wrapper-SectionB h1 {
-		text-align: center;
+	.wrapper__faqLink a{
 		font-family: 'Red Hat Display';
-		font-size: var(--l);
+		font-size: var(--m);
 		font-weight: 700;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -1px;
-		margin-top: 50px;
+		color: var(--whiteGrey);
+		background-color: var(--cta);
+		padding: 20px 30px;
+		text-decoration: none;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
 		margin-bottom: 100px;
-	} */
+		border-radius: 5px;
+		margin-top: -50px;
+	}
 
 	.wrapper-form {
 		display: flex;

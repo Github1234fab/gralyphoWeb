@@ -87,7 +87,7 @@
 		font-size: var(--m);
 		font-weight: 500;
 		color: var(--whiteGrey);
-		letter-spacing: -1px;
+		letter-spacing: 0px;
 		width: 70%;
 	}
 	.button-after img {
@@ -131,7 +131,7 @@
 		font-family: Heebo;
 		text-align: left;
 		font-size: var(--m);
-		font-weight: 300;
+		font-weight: 500;
 		line-height: 36px;
 		color: var(--primary);
 		margin: 0px;
