@@ -14,8 +14,8 @@
 		<h2 class="subtitle">Les acteurs tech de la région de l'ouest Lyonnais</h2>
 		<h3 class="subtitle__h3">À 15 km de Lyon, un vivier de pépites.</h3>
 		<p class="paragraph">
-		Avec des ZA accueillant des entreprises de renom, les monts du Lyonnais constitue un territoire dynamique et innovant, à moins de 15km de Lyon. <br>Le cadre verdoyant et préservé attire de nombreux visiteurs et si l'authenticité des monts attire, la qualité des prestations des acteurs tech de la région est également un atout majeur.
-        Gralypho a choisit de s'implanter dans cette région pour couvrir les besoins digitaux des entreprises locales, de Lyon et de la région Lyonnaise.
+		Avec des ZA accueillant des entreprises de renom, les monts du Lyonnais constituent un territoire dynamique et innovant, à moins de 15 km de Lyon. <br>Le cadre verdoyant et préservé attire de nombreux visiteurs et si l'authenticité des monts attire, la qualité des prestations des acteurs tech de la région est également un atout majeur.
+        Gralypho a choisi de s'implanter dans cette région pour couvrir les besoins digitaux des entreprises locales, de Lyon et de la région Lyonnaise.
 		</p>
 		<h3 class="subtitle__h3">Un territoire stratégique</h3>
 		<p class="paragraph">

@@ -13,35 +13,34 @@
 		<h2 class="subtitle">Comment trouver une bonne agence Web à Lyon ?</h2>
 		<h3 class="subtitle__h3">La clarté des informations</h3>
 		<p class="paragraph">
-			Il est important de bien comprendre ce que l'agence Web vous propose. En terme technique, on
-			parle d''UX design'. L'UX design définit l'ergonomie des pages que vous consultez. Elle doit
+			Il est important de bien comprendre ce que l'agence Web vous propose. Son UX design doit être parfait. L'UX design définit l'ergonomie des pages que vous consultez. Elles doivent
 			permettre une navigation simple, aérée, facile, lisible, compréhensible.
 		</p>
 		<h3 class="subtitle__h3">La qualité des prestations</h3>
 		<p class="paragraph">
-			Vous devez comprendre que l'agence Web expose des prestations fondées par une vraie exeprtise
-			et que les pages que vous consultez ne consite pas en un simple rempolissage de template, pour
+			Vous devez comprendre que l'agence Web expose des prestations fondées par une vraie expertise
+			et que les pages que vous consultez ne consiste pas en un simple remplissage de template, pour
 			faire joli et en mettre plein les yeux. Les prestations de création de site internet,
 			d'applications Web, de design, de création d'identité visuelles (...) doivent être perçues
 			comme des compétences maîtrisées et démontrées.
 		</p>
 		<h3 class="subtitle__h3">Portfolio</h3>
 		<p class="paragraph">
-			Le porfolio, contenant des liens vers les réalisations effectuées par l'agence est essentiel.
+			Le portfolio, contenant des liens vers les réalisations effectuées par l'agence, est essentiel.
 			Il vaut mieux accéder à quelques réalisations que vous pouvez physiquement consulter, plutôt
 			qu'une suite d'image sans lien qui peuvent être fictifs
 		</p>
 		<h3 class="subtitle__h3">Avis</h3>
 		<p class="paragraph">
-			Evidemment les avis sont essentiels, mais là aussi, ce peut-être des fakes...
+			Evidemment les avis sont essentiels, mais ce peut-être des fakes...
 		</p>
 		<h2 class="subtitle">En résumé</h2>
 		<p class="paragraph">
 			En conclusion, nous pouvons dire que l'expertise proposée par l'agence web doit être
-			quantifiable et vérifiée. Une agence digitale devrait pouvoir prouvée qu'elle contient des
+			quantifiable et vérifiée. Une agence digitale devrait pouvoir prouver qu'elle contient des
 			développeurs Web dans son équipe et que le code est une compétence maîtrisée. Surtout si elle
 			vous propose un service d'application Web. Consultez le portfolio et assurez-vous que les
-			réalisations sont consultables et qu'elles ont bien été réalises par l'agence.
+			réalisations sont consultables et qu'elles ont bien été réalisées par l'agence.
 		</p>
 	</div>
 	<div class="wrapper__faqLink">

@@ -15,11 +15,11 @@
 	</div>
 	<div class="wrapper__text">
 		<h2 class="subtitle">Annecy, Genève, Lyon, Saint-Etienne, Bourg-en-Bresse, Valence ...</h2>
-		<h3 class="subtitle__h3">De grandes villes à moins de 100km</h3>
+		<h3 class="subtitle__h3">De grandes villes, à moins de 100km</h3>
 		<p class="paragraph">
 		La région Lyonnaise est dense et dynamique. Les villes de la région sont proches les unes des autres et les échanges sont nombreux. 
-        <br> Les entreprises de la région Lyonnaise ont des besoins digitaux variés, des sites web Vitrine aux sites internet e-commerce, des sites web corporate au site institionnel, tous les besoins sont exprimés. 
-        <br> En tant qu'agence Web nous visons l'excellence et la satisfaction de nos clients. La concurrence est rude et nous devons nous démarquer par la qualité de nos prestations.
+        <br> Les entreprises de la région Lyonnaise ont des besoins digitaux variés, des sites web Vitrine aux sites internet e-commerce, des sites web corporate au site institutionnel, tous les besoins sont exprimés. 
+        <br> En tant qu'agence Web, nous visons l'excellence et la satisfaction de nos clients. La concurrence est rude et nous devons nous démarquer par la qualité de nos prestations.
 
 		</p>
 		<!-- <h3 class="subtitle__h3">Applications et outils digitaux</h3>
