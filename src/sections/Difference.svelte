@@ -20,12 +20,13 @@
 			<h3 class="paragraph">Une agence web à Lyon et dans l'Ouest Lyonnais.</h3>
 			<br />
 			<p class="sub-paragraph">
-				Nous sommes des passionnés du Web , formés au langage informatique (html, css, js) et au développement
-				Web. Nous avons créé l'agence Gralypho en 2019, pour répondre aux besoins digitaux des entreprises de notre belle région Lyonnaise. Nous intervenons également dans la France entière. Notre principale activité réside dans la
+				Nous sommes des passionnés du Web , formés au langage informatique (html, css, js) et au développement Web.
+				<br> Nous avons créé l'agence Gralypho en 2019, pour répondre aux besoins digitaux des entreprises de notre belle région Lyonnaise. Nous intervenons également dans la France entière. Notre principale activité réside dans la
 				<span>conception de site web</span>
 				et dans la
 				<span>création d'application </span>sur mesure. <br>Notre expertise dans le domaine du Web est
-				profonde et solide. Notre métier consiste à apporter des solutions digitales aux entreprises et aux professionnels dont les besoins en la matière sont fondamentaux, car de ceux-ci, dépend la bonne santé et la croissance de leur business. Nous sommes implantés dans les monts du Lyonnais, à Vaugneray et à Thurins, relié à toute la région Lyonnaise et connecté au monde entier !
+				profonde et solide. Notre métier consiste à apporter des solutions digitales aux entreprises et aux professionnels dont les besoins en la matière sont fondamentaux, car de ceux-ci, dépend la bonne santé et la croissance de leur business. 
+				<br>Nous sommes implantés dans les <a href="/agence-web-monts-du-Lyonnais">monts du Lyonnais</a> et à <a href="/agence-web-Lyon">Lyon</a>. Nous sommes relié à toute la <a href="/agence-web-region-Lyonnaise">région Lyonnaise</a> et connectés au monde entier !
 			</p>
 		</div>
 		<br />

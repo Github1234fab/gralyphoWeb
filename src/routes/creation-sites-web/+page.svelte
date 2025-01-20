@@ -135,10 +135,10 @@
 		<div class="wrapper-text-hero">
 			<h1>Création de <br /><span>Site Web</span></h1>
 			<h2 class="subtitle">
-				Créer un site internet, c'est à la portée de tous. <br /> Mais concevoir un site bien
-				référencé, doté d'un design percutant et d'une stratégie dynamique <br />qui transforme vos
-				visiteurs en clients, là, c'est une autre histoire. <br />Et cette histoire là, nous en
-				maîtrisons parfaitement l'écriture !
+				La création de site internet professionnel et sur mesure requiert une excellente expertise. 
+				<br> Dans le domaine du Web, la création du design (UI) représente seulement la face cachée de l'iceberg. <br>La partie immergée : le code, la sécurité, le référencement (SEO), l'expérience utilisateur (UX-design), la stratégie digitale, le marketing (...) est absolument fondamentale.
+
+				<br><br>L'agence Web Gralypho, implantée dans la région Lyonnaise vous accommpagne sur toutes les phases de création de votre site internet avec des étapes claires et des tarifs maîtrisés.
 			</h2>
 		</div>
 	</div>
@@ -310,6 +310,7 @@
 		padding: 0px;
 		line-height: 50px;
 		margin-top: 70px;
+		width: 50%;
 	}
 	.hero h1 span {
 		color: var(--green);
@@ -320,7 +321,7 @@
 		font-size: var(--m);
 		color: var(--primary);
 		text-align: center;
-
+		width: 50%;
 		margin-top: 50px;
 		margin-bottom: 100px;
 		max-width: 70%;
@@ -490,6 +491,10 @@
 			}
 			.wrapper__faqLink{
 				height: 700px
+			}
+			.subtitle{
+				width: 100%;
+				padding: 0px;
 			}
 		}
 	}
