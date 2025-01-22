@@ -4,7 +4,7 @@
 <section class="faqLink">
 <h2 class="title">Vous vous posez des questions?</h2>
 <p class="subtitle">
-	Consultez toutes nos réponses à propos de la création de site internet, de la création d'applications, des technologies utilisées, des
+	Consultez toutes nos réponses à propos de la création de site internet, de la création d'applications,<br> des technologies utilisées, des
 	tarifs, du référencement, etc.
 </p>
 
@@ -17,7 +17,8 @@
         align-items: center;
         justify-content: center;
         gap: 40px;
-        height: 500px;
+        height: auto;
+		width: 60%;
     }
 	.title {
 		text-align: center;
@@ -40,17 +41,27 @@
 		margin-top: 0px;
 		letter-spacing: -1px;
 		padding: 10px;
-		line-height: 50px;
-		margin-top: 0px;
+		line-height: 40px;
+		margin-bottom: 50px;
 	}
 	
 
     @media screen and (max-width: 768px) {
+		
        
         .subtitle {
             font-size: 1rem;
-            line-height: 30px;
+            line-height: 30px;	
         }
+		.faqLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        height: auto;
+		width: 80%;
+    }
        
     }
 </style>

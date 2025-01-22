@@ -13,7 +13,7 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 5px;
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 	.title {
 		font-family: "Baumans";

@@ -51,6 +51,14 @@
 	.container {
 		height: 100%;
 	}
+	.wrapper__text{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+	}
 	.title {
 		font-family: var(--Geologica);
 		font-size: var(--l);

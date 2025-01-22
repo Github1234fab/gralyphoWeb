@@ -13,7 +13,7 @@
 		<h2 class="subtitle">Comment trouver une bonne agence Web à Lyon ?</h2>
 		<h3 class="subtitle__h3">La clarté des informations</h3>
 		<p class="paragraph">
-			Il est important de bien comprendre ce que l'agence Web vous propose. Son UX design doit être parfait. L'UX design définit l'ergonomie des pages que vous consultez. Elles doivent
+			Il est important de bien comprendre ce que l'agence Web à Lyon vous propose. Son UX design doit être parfait. L'UX design définit l'ergonomie des pages que vous consultez. Elles doivent
 			permettre une navigation simple, aérée, facile, lisible, compréhensible.
 		</p>
 		<h3 class="subtitle__h3">La qualité des prestations</h3>
@@ -26,7 +26,7 @@
 		</p>
 		<h3 class="subtitle__h3">Portfolio</h3>
 		<p class="paragraph">
-			Le portfolio, contenant des liens vers les réalisations effectuées par l'agence, est essentiel.
+			Le portfolio, contenant des liens vers les réalisations effectuées par l'agence web à Lyon, est essentiel.
 			Il vaut mieux accéder à quelques réalisations que vous pouvez physiquement consulter, plutôt
 			qu'une suite d'image sans lien qui peuvent être fictifs
 		</p>
@@ -36,7 +36,7 @@
 		</p>
 		<h2 class="subtitle">En résumé</h2>
 		<p class="paragraph">
-			En conclusion, nous pouvons dire que l'expertise proposée par l'agence web doit être
+			En conclusion, nous pouvons dire que l'expertise proposée par l'agence web à Lyon, doit être
 			quantifiable et vérifiée. Une agence digitale devrait pouvoir prouver qu'elle contient des
 			développeurs Web dans son équipe et que le code est une compétence maîtrisée. Surtout si elle
 			vous propose un service d'application Web. Consultez le portfolio et assurez-vous que les
@@ -58,7 +58,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
     }
 	.title {
@@ -122,6 +122,17 @@
 		border-radius: 5px;
 		margin-top: 0px;
 	}
+	.wrapper__img{
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.img{
+
+		width: 80%;
+		margin:0 auto;
+	}
 
     @media screen and (max-width: 768px) {
         .img{
@@ -130,6 +141,7 @@
         }
         .wrapper__text {
             width: 90%;
+			height: 100%;
         }
     }
 </style>

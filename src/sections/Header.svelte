@@ -77,6 +77,7 @@
 		align-items: center;
 		margin-top: 10px;
 		margin-bottom: 5px;
+		margin-left: 20px;
 	}
 
 	/* .title {

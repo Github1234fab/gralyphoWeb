@@ -47,7 +47,7 @@ onMount(() => {
                 trigger: el,
               start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
                 end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
-                scrub: true,     
+                scrub: 1,     
             },
         });
     });

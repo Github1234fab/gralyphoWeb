@@ -11,39 +11,44 @@
 
 <footer class="footer">
 	<div class="wrapper-contactez">
-		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank"
-			>
-			<i class="fa-regular fa-envelope icon"></i><p>Mail</p></a
+		<a href="mailto:gralypho@gmail.com " class="contact" target="_blank">
+			<i class="fa-regular fa-envelope icon"></i>
+			<p>Mail</p></a
 		>
-		<a href="tel:0672901614" class="contact" target="_blank"
-			>
-			<i class="fa-solid fa-phone-volume icon"></i><p>Tel</p></a
+		<a href="tel:0672901614" class="contact" target="_blank">
+			<i class="fa-solid fa-phone-volume icon"></i>
+			<p>Tel</p></a
 		>
 		<a
 			href="https://koalendar.com/e/premier-rv-gratuit-avec-gralypho"
 			class="contact"
 			target="_blank"
-			>
-			<i class="fa-solid fa-mug-hot icon"></i><p>RV</p></a
+		>
+			<i class="fa-solid fa-mug-hot icon"></i>
+			<p>RV</p></a
 		>
 		<a
 			href="https://fabienmarceau.com/gralyphoPhotography/index.html"
 			class="contact"
 			target="_blank"
-			>
-			<i class="fa-solid fa-camera icon"></i><p>Photo</p></a
+		>
+			<i class="fa-solid fa-camera icon"></i>
+			<p>Photo</p></a
 		>
 	</div>
 
 	<div class="wrapper-media">
 		<a class="reseaux" href="https://www.facebook.com/profile.php?id=61556314663680" target="_blank"
-			><p>Facebook</p><i class="fa-brands fa-square-facebook anim icon "></i></a
+			><p>Facebook</p>
+			<i class="fa-brands fa-square-facebook anim icon"></i></a
 		>
-		<a class="reseaux"  href="https://twitter.com/home?lang=fr" target="_blank"
-			><p>X</p><i class="fa-brands fa-square-twitter anim icon reseaux"></i></a
+		<a class="reseaux" href="https://twitter.com/home?lang=fr" target="_blank"
+			><p>X</p>
+			<i class="fa-brands fa-square-twitter anim icon reseaux"></i></a
 		>
-		<a class="reseaux"  href="https://www.instagram.com/" target="_blank"
-			><p>instagram</p><i class="fa-brands fa-square-instagram anim icon reseaux"></i></a
+		<a class="reseaux" href="https://www.instagram.com/" target="_blank"
+			><p>instagram</p>
+			<i class="fa-brands fa-square-instagram anim icon reseaux"></i></a
 		>
 		<!-- <a href="https://www.tiktok.com/@gralypho" target="_blank"><i class="fa-brands fa-tiktok anim"></i></a
 		> -->
@@ -51,9 +56,11 @@
 	<div class="wrapper-gralypho">
 		<div class="gralypho">
 			<Gralypho />
+			<h1>© {Year} GRALYPHO. <br /> Tous droits réservés.</h1>
 		</div>
+		
 	</div>
-	<h1>© {Year} GRALYPHO. <br /> Tous droits réservés.</h1>
+
 </footer>
 
 <style>
@@ -97,8 +104,7 @@
 		padding: 40px;
 		gap: 10px;
 		margin-top: 30px;
-	
-			margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	.contact {
 		text-decoration: none;
@@ -138,6 +144,12 @@
 		color: var(--white);
 		font-size: 1.5rem;
 	}
+	.gralypho {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
 	.anim:hover {
 		animation: bounce 0.4s ease-in-out;
@@ -161,23 +173,24 @@
 	}
 	.wrapper-media {
 		display: flex;
-		gap: 10px;
-			border-top: 1px dotted  rgb(188, 188, 188);
-			border-bottom: 1px dotted rgb(187, 187, 187);
-			padding: 20px;
+		gap: 20px;
+		border-top: 1px dotted rgb(188, 188, 188);
+		border-bottom: 1px dotted rgb(187, 187, 187);
+		padding: 20px;
 	}
 	.reseaux {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: white;
+		color: rgb(255, 255, 255);
+		font-weight: 800;
 		gap: 5px;
 	}
-	.reseaux p{
-color: grey;
-font-size: 0.5rem;
-
+	.reseaux p {
+		color: rgb(255, 255, 255);
+		font-size: 0.5rem;
+		font-weight: 200;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -186,12 +199,12 @@ font-size: 0.5rem;
 			padding: 30px;
 			height: 80px;
 		}
-		.icon{
+		.icon {
 			font-size: 1.3rem;
 		}
-			.wrapper-media {
-		display: flex;
-		gap: 20px;
-	}
+		.wrapper-media {
+			display: flex;
+			gap: 20px;
+		}
 	}
 </style>
