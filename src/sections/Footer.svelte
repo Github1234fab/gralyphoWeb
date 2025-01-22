@@ -20,7 +20,7 @@
 			<i class="fa-solid fa-phone-volume icon"></i><p>Tel</p></a
 		>
 		<a
-			href="https://doodle.com/bp/marceau3/rv-avec-gralypho-agence-de-conception-web"
+			href="https://koalendar.com/e/premier-rv-gratuit-avec-gralypho"
 			class="contact"
 			target="_blank"
 			>
