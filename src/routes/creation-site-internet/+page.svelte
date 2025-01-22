@@ -290,8 +290,9 @@
 		text-decoration: none;
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
 		margin-bottom: 100px;
+		margin-top: 0px;
 		border-radius: 5px;
-		margin-top: -50px;
+		
 	}
 
 	.img-hero {

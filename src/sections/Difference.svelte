@@ -31,7 +31,7 @@
 		</div>
 		<br />
 
-		<h3 class="paragraph">Répondre au besoin des entreprises et des professionnels avec des outils digitaux sur mesure.</h3>
+		<h3 class="paragraph">Répondre au besoin des entreprises et des professionnels <br> avec des outils digitaux sur mesure.</h3>
 		<br />
 		<p class="sub-paragraph">
 			Nos compétences dans le domaine du Web sont diverses et variées. De l'expertise Seo, Sea, Ux/UI, code côté serveur, code côté

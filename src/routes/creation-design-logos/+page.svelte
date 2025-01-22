@@ -311,7 +311,7 @@
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
 		margin-bottom: 100px;
 		border-radius: 5px;
-		margin-top: -50px;
+		margin-top: 0px;
 	}
 	.wrapper-form {
 		grid-column: 1/13;

@@ -39,7 +39,7 @@
 
 <main class="main">
 	<h1 class="title">
-		Création de sites web sur mesure <br /> <span>Professionnels et entreprises</span>
+		Création de sites internet sur mesure <br /> <span>Professionnels et entreprises</span>
 	</h1>
 
 	<div class="container ctn__A">
@@ -54,7 +54,7 @@
 			<p class="text">
 				Notre agence web, spécialisée dans la création de site internet sur mesure, vous accompagne
 				dans la réalisation de votre projet digital. <br /><span
-					>Votre futur site web sera conçu sur trois piliers fondamentaux:
+					>Votre futur site internet sera conçu sur trois piliers fondamentaux:
 				</span> <br />
 
 				<span>L'UX design: </span>c'est à dire l'expérience de vos utilisateurs sur votre site (
@@ -157,7 +157,7 @@
 				<div class="img bg__D"></div>
 			</div>
 			<p class="text">
-				Confier votre projet à une agence web, c’est bénéficier de l’expertise d’une équipe dédiée à
+				Confier votre projet à une agence web à Lyon, c’est bénéficier de l’expertise d’une équipe dédiée à
 				chaque aspect de votre site : Un design professionnel et adapté à votre identité. Un site
 				optimisé pour le référencement (SEO) dès sa création. Des fonctionnalités modernes pour
 				répondre aux attentes de vos clients. Un accompagnement de A à Z, même après la mise en
@@ -271,7 +271,7 @@
 
 	<div class="container ctn__H">
 		<div class="wrapper__section-text">
-			<h2 class="subtitle">Est-ce que je serai propriétaire de mon site web ?</h2>
+			<h2 class="subtitle">Est-ce que je serai propriétaire de mon site internet ?</h2>
 			<div class="wrapper__img">
 				<div class="img bg__H"></div>
 			</div>
@@ -317,13 +317,13 @@
 
 	<div class="container ctn__J">
 		<div class="wrapper__section-text">
-			<h2 class="subtitle">Confiez nous la création de votre site web sur mesure.</h2>
+			<h2 class="subtitle">Confiez nous la création de votre site internet sur mesure.</h2>
 			<div class="wrapper__img">
 				<div class="img bg__J"></div>
 			</div>
 			<p class="text">
 				Faites confiances à nos experts pour obtenir un outil performant et personnalisé. Avec
-				Gralyho, vous bénéficiez d’un accompagnement complet et d’une qualité professionnelle à
+				l'agence web Gralyho, vous bénéficiez d’un accompagnement complet et d’une qualité professionnelle à
 				chaque étape de conception de votre site web.
 				<br />
 

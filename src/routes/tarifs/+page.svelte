@@ -112,10 +112,10 @@
 		/>
 	{/each}
 
-	<div class="wrapper__faqLink">
+	<!-- <div class="wrapper__faqLink">
 		<FaqLink/>
 		<a href="/FAQ/#tarif">FAQ</a>
-	</div>
+	</div> -->
 
 	<div id="form">
 		<Form />
@@ -167,7 +167,7 @@
 		width: 50%;
 		padding: 30px;
 	}
-	.wrapper__faqLink{
+	/* .wrapper__faqLink{
 		grid-column: 1/13;
 		grid-row: 6;
 		display: flex;
@@ -187,8 +187,8 @@
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
 		margin-bottom: 100px;
 		border-radius: 5px;
-		margin-top: -50px;
-	}
+		margin-top: 0px;
+	} */
 
 
 	@media screen and (max-width: 768px) {

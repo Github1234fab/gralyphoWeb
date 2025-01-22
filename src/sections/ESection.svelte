@@ -12,7 +12,7 @@
 	const servicesTab = [
 		{
 			title: 'Site Web',
-			lien: '/creation-sites-web',
+			lien: '/creation-site-internet',
 			icon: IconWifi,
 			p: "Un site web unique et sur mesure, créé et développé pour optimiser le développement et la croissance de votre entreprise."
 		},

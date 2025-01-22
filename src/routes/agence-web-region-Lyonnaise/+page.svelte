@@ -113,7 +113,6 @@
 		padding: 20px 30px;
 		text-decoration: none;
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
-
 		margin-bottom: 100px;
 		border-radius: 5px;
 		margin-top: 0px;
