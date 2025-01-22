@@ -57,15 +57,32 @@
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
 		<img src={seo} alt="" class="imgHero" />
-		<h1>Visibilité:<br /><span>SEO/SEA</span></h1>
-		<h2>
-			Nous sommes experts en straégie SEO et SEA. C'est pour vous la garantie unique d'atteindre vos
-			futurs clients et d'obtenir une visibilité optimale sur les moteurs de recherche. <br /><br
-			/>Nous vous accompagnons dans la mise en place de votre stratégie de référencement naturel
-			(SEO) et votre stratégie de référencement payant. (SEA). <br /><br />Il faut maintenant
-			compter avec les IA et notamment "Search" d'openAI. C'est une nouvelle stratégie qui constitue
-			un enjeu crucial dans les nouvelles satrtégies de référencement.
-		</h2>
+		<h1>Audit <span>SEO</span></h1>
+		<h2>Qu'est-ce que ça veut dire <span>"SEO"</span> ?</h2>
+		<p>
+			Le Search Engine Optimization (SEO), ou optimisation pour les moteurs de recherche, est
+			l'ensemble des pratiques visant à améliorer la visibilité et le classement d'un site web dans
+			les résultats des moteurs de recherche (comme Google, Bing ou Yahoo). L'objectif est d'attirer
+			un trafic organique (non payant) de qualité vers un site internet.
+		</p>
+		<h2>Comment faire du référencement <span>"SEO"</span> ?</h2>
+		<p>
+			Le SEO repose sur <a href="https://semji.com/fr/guide/techniques-seo-le-guide-complet/">plusieurs piliers</a>: 
+			la technique, le contenu et la popularité. Il s'agit
+			d'optimiser la structure d'un site internet, le contenu de ses pages et de gagner des liens de qualité pour
+			améliorer la visibilité du site sur les moteurs de recherche.
+
+		</p>
+		<h2>Comment trouver une bonne agence <span>"SEO"</span> à Lyon ?</h2>
+		<p>
+		De nombreuses agences SEO à Lyon offre de très bons servcies SEO. Chez Gralypho, agence Web basée à Lyon et dans l'ouest Lyonnais, nous accordons une importance névraglique au SEO. 
+		C'est le nerf de la guerre, c'est crucial pour tous les propriétaires de site internet. Le SEO est passionnant et aujourd'hui nous possedons de nombreux outils qui nous permettent de réaliser des analyses fines sur la position de chaque site internet dans la SERP.
+		Nous proposons des audits SEO complets, des stratégies SEO sur mesure et des suivis réguliers pour garantir un bon positionnement sur les moteurs de recherche. 
+		</p>
+		<h2>Quel est le budget pour un audit  <span>"SEO"</span></h2>
+		<p>
+		Le budget pour un audit SEO varie en fonction de la taille du site internet, de la concurrence, du secteur d'activité et des objectifs fixés. Chez Gralypho, nous proposons des audits SEO à partir de 500 euros
+		</p>
 		<Button />
 	</div>
 
@@ -100,7 +117,7 @@
 	</div>
 
 	<div class="wrapper__faqLink">
-		<FaqLink/>
+		<FaqLink />
 		<a href="/FAQ/#seo">FAQ</a>
 	</div>
 
@@ -138,7 +155,7 @@
 		color: var(--primary);
 		margin-top: 0px;
 		letter-spacing: -2px;
-		padding: 0px;
+		padding: 10px;
 		line-height: 50px;
 		margin-top: 70px;
 	}
@@ -147,21 +164,39 @@
 	}
 	.hero h2 {
 		font-family: poppins;
-		font-weight: 300;
+		font-weight: 600;
 		font-size: var(--m);
 		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
-		margin-bottom: 100px;
-		width: 80%;
+		width: 75%;
+		margin-bottom: 0px;
 	}
+	.hero h2 span {
+		font-weight: 700;
+	}
+	.hero p {
+		font-family: var(--Poppins);
+		font-size: var(--m);
+		color: var(--primary);
+		font-weight: 300;
+		letter-spacing: -0.01em;
+		text-align: center;
+		align-self: center;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+	a{
+		text-decoration:underline;
+	}
+
 	.imgHero {
 		max-width: 30%;
 		min-width: 30%;
 		margin-top: 30px;
 	}
 
-	.wrapper__faqLink{
+	.wrapper__faqLink {
 		grid-column: 1/13;
 		grid-row: 6;
 		display: flex;
@@ -169,7 +204,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.wrapper__faqLink a{
+	.wrapper__faqLink a {
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: 700;

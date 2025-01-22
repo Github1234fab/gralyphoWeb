@@ -184,16 +184,16 @@
 
 <style>
 	.sites-section {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 		background-color: rgb(245, 244, 244);
 		height: auto;
 		font-size: 16px;
 	}
 	.hero {
-		grid-column: 1/13;
-		grid-row: 1;
+	
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -234,8 +234,6 @@
 	}
 
 	.container-service {
-		grid-column: 2/12;
-		grid-row: 2;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -292,13 +290,11 @@
 		border-radius: 5px;
 	}
 	.wrapper__faqLink{
-		grid-column: 1/13;
-		grid-row: 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 1200px;
+		height: 100%;
 	}
 	.wrapper__faqLink a{
 		font-family: 'Red Hat Display';
@@ -314,23 +310,20 @@
 		margin-top: 0px;
 	}
 	.wrapper-form {
-		grid-column: 1/13;
-		grid-row: 7;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		background-color: var(--bgHero);
+	
 	}
 	.testimonial {
-		grid-column: 1/13;
-		grid-row: 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		height: 400px;
+		height: auto;
 		background: var(--gradient);
 		padding: 50px;
 		gap: 20px;
@@ -364,53 +357,15 @@
 		}
 	}
 
-	@media screen and (min-width: 1224px) and (max-width: 2500px) {
-		.hero h1 {
-			line-height: 1em;
-		}
-	}
-	@media screen and (min-width: 768px) and (max-width: 1224px) {
-		.hero h1 {
-			line-height: 1em;
-		}
-	}
-	@media screen and (min-width: 300px) and (max-width: 768px) {
-		.hero h1 {
-			line-height: 50px;
-			font-size: 2.5em;
-		}
-
+	@media screen and (max-width: 768px) {
 		.wrapper-service {
-			grid-column: 1/13;
-			grid-row: 2;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			margin-top: 50px;
-			gap: 10px;
-			max-width: 90%;
-		}
-		.imgHero {
-			max-width: 100%;
-			min-width: 100%;
-			margin-top: 30px;
-		}
-		.img-design {
-			min-width: 100%;
-			min-height: 60%;
-			margin-top: 50px;
-			border-radius: 5px;
-		}
-		.img-biere {
-			max-width: 100%;
-			max-height: 60%;
-			margin-top: 50px;
-			border-radius: 5px;
-		}
-		.wrapper-img {
-			min-width: 100%;
-			max-height: 100%;
-		}
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: stretch;
+		gap: 20px;
+		margin-top: 30px;
 	}
+	}
+	
 </style>

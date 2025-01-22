@@ -98,22 +98,7 @@
 		</div>
 	</div>
 
-	<!-- ***************COLLAPSES*************** -->
 
-	<!-- <div class="wrapper-SectionB">
-		<h1>Les avantages de la gestion <br /> des médias sociaux</h1>
-		{#each accordeonTab as tab}
-			<CardsSectionB title={tab.title} p={tab.p} />
-		{/each}
-	</div> -->
-
-	<!-- ***************SEO/SEA*************** -->
-
-	<!-- <div class="wrapper-Fsection">
-    <FSection />
-  </div> -->
-
-	<!-- ***************TESTIMONIAL*************** -->
 
 	<div class="testimonial">
 		<h2>
@@ -188,8 +173,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
-		margin-bottom: 100px;
-		padding: 20px;
+	
 	}
 	.container-service h1 {
 		text-align: center;
@@ -307,8 +291,8 @@
 			align-items: center;
 			gap: 10px;
 			margin-top: 20px;
-			margin-bottom: 50px;
 			flex-wrap: nowrap;
+		
 		}
 	}
 </style>
