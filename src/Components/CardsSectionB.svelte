@@ -89,6 +89,7 @@
 		color: var(--whiteGrey);
 		letter-spacing: 0px;
 		width: 70%;
+		line-height: 25px;
 	}
 	.button-after img {
 		margin-top: 12px;
@@ -128,10 +129,11 @@
 	}
 
 	.p {
-		font-family: Heebo;
+		font-family: var(--Poppins);
 		text-align: left;
 		font-size: var(--m);
-		font-weight: 500;
+		font-weight: 
+		300;
 		line-height: 36px;
 		color: var(--primary);
 		margin: 0px;

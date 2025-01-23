@@ -57,7 +57,7 @@
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
 		<img src={seo} alt="" class="imgHero" />
-		<h1>Audit <span>SEO</span></h1>
+		<h1>Stratégie <span>SEO</span></h1>
 		<h2>Qu'est-ce que ça veut dire <span>"SEO"</span> ?</h2>
 		<p>
 			Le Search Engine Optimization (SEO), ou optimisation pour les moteurs de recherche, est
@@ -81,7 +81,7 @@
 		</p>
 		<h2>Quel est le budget pour un audit  <span>"SEO"</span></h2>
 		<p>
-		Le budget pour un audit SEO varie en fonction de la taille du site internet, de la concurrence, du secteur d'activité et des objectifs fixés. Chez Gralypho, nous proposons des audits SEO à partir de 500 euros
+		Le budget pour un audit SEO varie en fonction de la taille du site internet, de la concurrence, du secteur d'activité et des objectifs fixés à court ou long terme.
 		</p>
 		<Button />
 	</div>
@@ -180,11 +180,12 @@
 		font-size: var(--m);
 		color: var(--primary);
 		font-weight: 300;
-		letter-spacing: -0.01em;
 		text-align: center;
 		align-self: center;
 		padding: 20px;
 		margin-bottom: 50px;
+		width: 70%;
+	
 	}
 	a{
 		text-decoration:underline;

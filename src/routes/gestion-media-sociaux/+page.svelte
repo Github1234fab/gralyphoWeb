@@ -60,8 +60,8 @@
 		<h1>Gestion des <br /><span>Médias Sociaux</span></h1>
 		<h2>
 			L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. <br />
-			Mises à jour régulières, création de contenu, gestion des interactions, etc. <br /> Nous nous occupons
-			de tout pour vous permettre de vous concentrer sur votre activité.
+			Mises à jour régulières, création de contenu vidéo et photo, gestion des interactions, etc. <br /> Nous nous occupons
+			de tout pour vous permettre d'atteindre votre public cible et de développer votre business.
 		</h2>
 		<Button />
 	</div>
@@ -72,29 +72,29 @@
 		<h1>Nos services de médias sociaux</h1>
 		<div class="wrapper-service">
 			<Service
-				text="Rédaction"
-				description="Nous nous chargeons de la conception de vos annonces. Leurs titres, leur contenu textuel, leurs slogans, leurs mots clefs. Derrière cette forme d'écriture se cache une vraie stratégie marketing. "
+				text="Les différents types de contenus à poster."
+				description="Nous nous chargeons de la conception de votre contenu à poster sur les réseaux sociaux. Les titres, le contenu textuel, les slogans, le choix des mots clefs... "
 				img={redaction}
-				lien="/Media-infos"
+				lien="/community-management"
 			/>
 			<Service
-				text="Création des contenus images et vidéos"
+				text="Service professionnel de création de contenu visuel."
 				img={contenuMedia}
-				description="Nous pouvons créer vos vidéos et vos images. Nous sommes formés à la conception d'image professionnelle. Que ce soit en photographie  et vidéo de produits, de portraits , de photos corporate, de groupe ou d'environnement (...), notre expertise fera la différence sur vos contenus et vos publications sortirons du lot, à coup sûr."
-				lien="/Media-infos"
+				description="Notre service de création de vidéo et photographie professionnelle vous permettra de vous démarquer sur les réseaux sociaux. Nous vous aidons à créer des contenus visuels de haute qualité."
+				lien="/community-management"
 			/>
 			<Service
-				text="Campagnes publicitaires"
+				text="Les campagnes publicitaires ADS."
 				description="Nous sommes là pour vous aider à établir vos stratégies publicitaires et vos campagnes. Quand ?  Comment ? Pourquoi ? sont les questions auxquelles nous apporterons une réponse pertinente et sans faille pour vous permettre d'atteindre vos objectifs."
 				img={publiciteMedia}
-				lien="/Media-infos"
+					lien="/community-management"
 			/>
-			<Service
+			<!-- <Service
 				text="Formation et coaching"
 				description="Et pourquoi pas se former aux médias sociaux afin de devenir autonome et d'organiser vos campagnes et votre contenu vous-même? Nous pouvons vous former à travers des ateliers en ligne ou en présentiel adaptés à vos besoins et à votre business."
 				img={socialMedia}
-				lien="/Media-infos"
-			/>
+				lien="/community-management"
+			/> -->
 		</div>
 	</div>
 
@@ -173,6 +173,8 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
+		padding: 20px;
+
 	
 	}
 	.container-service h1 {
@@ -184,15 +186,15 @@
 		margin-top: 50px;
 		margin-bottom: 100px;
 		letter-spacing: -1px;
+		padding: 10px;
 	}
 	.wrapper-service {
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: center;
-		align-items: stretch;
-		gap: 20px;
+		gap: 10px;
 		margin-top: 20px;
-		min-height: 100%;
+	height: auto;
+	/* flex-wrap: wrap; */
 	}
 
 	.wrapper__faqLink{
@@ -274,14 +276,14 @@
 			line-height: 1em;
 		}
 	}
-	@media screen and (min-width: 300px) and (max-width: 768px) {
+	@media screen and (min-width: 300px) and (max-width: 1022px) {
 		.hero h1 {
 			line-height: 50px;
 			font-size: 2.5em;
 		}
 		.imgHero {
-			max-width: 60%;
-			min-width: 60%;
+			max-width: 40%;
+			min-width: 40%;
 			margin-top: 30px;
 		}
 		.wrapper-service {
@@ -291,7 +293,7 @@
 			align-items: center;
 			gap: 10px;
 			margin-top: 20px;
-			flex-wrap: nowrap;
+	
 		
 		}
 	}

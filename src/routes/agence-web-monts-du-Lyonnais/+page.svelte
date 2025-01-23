@@ -15,7 +15,7 @@
 		<h3 class="subtitle__h3">À 15 km de Lyon, un vivier de pépites.</h3>
 		<p class="paragraph">
 		Avec des ZA accueillant des entreprises de renom, les monts du Lyonnais constituent un territoire dynamique et innovant, à moins de 15 km de Lyon. <br>Le cadre verdoyant et préservé attire de nombreux visiteurs et si l'authenticité des monts attire, la qualité des prestations des acteurs tech de la région est également un atout majeur.
-        Gralypho a choisi de s'implanter dans cette région pour couvrir les besoins digitaux des entreprises locales, de Lyon et de la région Lyonnaise.
+        Gralypho, agence web implantée au coeur des monts du Lyonnais, a choisi de s'implanter dans cette région pour couvrir les besoins digitaux des entreprises locales, celles de Lyon, ainsi que celles de la région Lyonnaise.
 		</p>
 		<h3 class="subtitle__h3">Un territoire stratégique</h3>
 		<p class="paragraph">
@@ -34,11 +34,7 @@
 		</p> -->
 		<h2 class="subtitle">Un choix 100% gagnant</h2>
 		<p class="paragraph">
-			Nous pouvons dire que l'expertise proposée par l'agence web doit être quantifiable et
-			vérifiée. Une agence digitale devrait pouvoir prouver qu'elle contient des développeurs Web
-			dans son équipe et que le code est une compétence maîtrisée. Surtout si elle vous propose un
-			service d'application Web. Consultez le portfolio et assurez-vous que les réalisations sont
-			consultables et qu'elles ont bien été réalisées par l'agence.
+			Alliant cadre verdoyant, authentique et préservé, il fait bon vivre et travailler dans les monts du Lyonnais. Nous bénéficions d'un confort de travail optimal tout en étant à moins de trente minutes de Lyon, ce qui nous permet de répondre aux besoins digitaux des entreprises des monts du Lyonnais, de Lyon et de la région Lyonnaise. Pour Gralypho, agence Web, c'est un choix 100% gagnant !
 		</p>
 	</div>
 	<div class="wrapper__faqLink">

@@ -5,9 +5,10 @@
 	import CardsSectionB from '../../Components/CardsSectionB.svelte';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	import imageApplication from '../../Assets/png-gralypho/applications.png';
-	import Button from "../../Components/ButtonCTA.svelte";
-	import FaqLink from "../../Components/FaqLink.svelte";
+	import imageApplication from '../../Assets/png-gralypho/app.png';
+	import Button from '../../Components/ButtonCTA.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
+
 
 	// let collapseTab = [
 	// 	{
@@ -40,36 +41,88 @@
 			class="image"
 		/>
 		<h1>Création<br /><span>d'applications</span></h1>
-		<h3>
+		<h2>
 			L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
 			expérience unique.
-		</h3>
-		<Button/>
+		</h2>
+		<Button />
 	</div>
 
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
 
 	<div class="wrapper-application-explication">
-		<h1>Notre développement d'applis.</h1>
+		<h2>Notre développement d'application sur mesure</h2>
+		
+
+		<h3>Les applications entièrement dédiées à Android ou IOS</h3>
 		<p>
-			Nous développons principalement des application en PWA, parce que nous pensons qu'elles constituent l'avenir de l'application. <br><br>les applciations PWA  ont un double rôle. L'utilisateur accède à l'application par le web, depuis une url. C'est à dire qu'elle se comprte finalement comme un site web, coomme une page web masi présente l'avantage de se télécharger sur le téléphone de l'utilisateur, sa tablette ou son ordinateur. Les applications PWA ne souffrent pas du conlfit adnroid/ios. <br><br> Elles sont compatibles avec tous les navigateurs, tous les systèmes d'exploitation et tous les appareils. Elles sont également très légères et ne prennent pas de place sur le téléphone de l'utilisateur. <br><br>Elles comportent maintenant toutes les  fonctionnalités  des application natives (accès au smartphone, à la caméra, au gps, aux notifications push, etc.). Elles sont également très rapides et très fluides. Elles sont moins intrusives puisque l'utilisateur n'est pas obligé de les télécharger depuis un store. Elles sont également moins coûteuses à développer.
+			Les applications dédiées à Android ou iOS sont développées spécifiquement pour tirer
+			pleinement parti des fonctionnalités et des exigences de chaque système d’exploitation. Cela
+			permet d’assurer une performance optimale, une interface adaptée, une compatibilité totale
+			avec les appareils ciblés et une expérience utilisateur fluide et intuitive. En exploitant les
+			spécificités de chaque plateforme, ces applications offrent une meilleure intégration, des
+			mises à jour facilitées et des fonctionnalités avancées pour répondre aux besoins des
+			utilisateurs.
 		</p>
-		<ol>
-			<li>
-				Elles offrent une expérience d'installation fluide et légère pour les utilisateurs, tout en
-				offrant les avantages d'une application native sur le web.
-			</li>
-			<li>
-				Les applications PWA se téléchargent depuis votre site internet. C'est une bonne manière de
-				conserver l'utilisateur sur le site et de le fidéliser. De son côté, l'expérience est très
-				fluide.
-			</li>
-			<li>
-				Leurs mise à jour sont automatiques, car elles sont effectuées depuis le site Web par le
-				développeur de l'application. Quand l'application est mise à jour par le développeur, votre
-				application se met à jour automatiquement.
-			</li>
-		</ol>
+		<h3>Les applications compatibles Android et IOS</h3>
+		<p>
+			Les applications compatibles Android et iOS, également appelées applications multiplateformes,
+			sont conçues pour fonctionner sur les deux systèmes d’exploitation. Elles permettent de
+			toucher un public plus large tout en réduisant les coûts et les délais de développement. En
+			utilisant des outils comme React Native ou Flutter, ces applications assurent une expérience
+			utilisateur cohérente sur Android et iOS, tout en offrant des performances adaptées et des
+			fonctionnalités communes aux deux plateformes.
+		</p>
+		<h3>Les applications PWA</h3>
+		<p>
+			Les applications PWA (Progressive Web Apps) sont des applications web qui combinent les
+			avantages d’un site internet et d’une application mobile. Elles sont accessibles via un
+			navigateur mais peuvent être installées sur un appareil, offrant une expérience utilisateur
+			rapide, fluide et hors ligne. Les PWA sont compatibles avec tous les systèmes d’exploitation
+			et permettent de réduire les coûts de développement tout en garantissant des performances
+			optimales.
+		</p>
+		<div class="wrapper__creer-une-application">
+			<h2>Pourquoi créer votre propre application ?</h2>
+			<img
+				class="img"
+				src="https://www.aquilapp.fr/wp-content/uploads/2023/12/Quest-ce-quune-application-mobile.png.webp"
+				alt="smartphone avec des icônes d'applications"
+			/>
+			<p>
+				Créer votre propre application permet de répondre précisément aux besoins de vos
+				utilisateurs, de renforcer votre image de marque et d’offrir une expérience personnalisée.
+				C’est un excellent moyen d’augmenter votre visibilité, de fidéliser vos clients et de
+				générer de nouvelles opportunités grâce à des fonctionnalités uniques adaptées à votre
+				activité.
+				<br /><br /> Une application peut permettre à un restaurant de gérer ses commandes en ligne,
+				à un coach sportif de proposer des séances personnalisées, à une boutique de fidéliser ses clients
+				via des notifications, ou encore à une entreprise de faciliter l’accès à ses services en mobilité.
+				C’est un outil puissant pour améliorer l’expérience client et se démarquer.
+			</p>
+		</div>
+		<div class="wrapper__creer-une-application">
+			<h2>Le choix de la PWA</h2>
+			<img
+				class="img"
+				src="https://www.imagescreations.fr/wp-content/uploads/PWA-Progressive-Web-App.jpeg"
+				alt="smartphone avec des icônes d'applications"
+			/>
+			<p>
+				Gralypho, agence web implantée à Lyon et dans l'ouest Lyonnais, est spécialisée dans la création d'application PWA.
+				<br>
+				Les PWA (Progressive Web Apps) sont des applications web qui combinent les avantages d’un site internet et d’une application mobile.
+				Nous utilisons les dernières technologies pour concevoir des PWA performantes, rapides et sécurisées, adaptées à tous les appareils et à tous les systèmes d’exploitation. <br>
+
+<br> Nous sommes spécialisés dans le développement des application PWA, parce que nous pensons qu'elles constituent l'avenir de l'application. <br><br>
+Les applications PWA ressemblent à un site web normal. Mais il est possible très simplement, en un click, de télécharger l'application. Le site internet se transforme dès lors en une application. 
+<br><br> Les applications PWA ne souffrent pas du conlfit android/ios. <br><br> Elles sont compatibles avec tous les navigateurs, tous les systèmes d'exploitation et tous les appareils. 
+<br> Elles sont également très légères et ne prennent pas de place sur le téléphone de l'utilisateur. 
+<br><br>Elles comportent maintenant toutes les fonctionnalités des application natives (accès au smartphone, à la caméra, au gps, aux notifications push, etc.).
+<br>Elles sont également très rapides et très fluides. Elles sont moins intrusives puisque l'utilisateur n'est pas obligé de les télécharger depuis un store. Elles sont également moins coûteuses à développer. Elles offrent une expérience d'installation fluide et légère pour les utilisateurs et fonctionnent hors réseaux cellulaire.</p>
+		
+			
+		</div>
 	</div>
 
 	<!-- %%%%%TESTIMONIAL%%%%% -->
@@ -80,13 +133,12 @@
 	</div>
 
 	<div class="wrapper__faqLink">
-		<FaqLink/>
+		<FaqLink />
 		<a href="/FAQ/#application">FAQ</a>
 	</div>
-	
 
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
-<!-- 
+	<!-- 
 	<div class="wrapper-collapse">
 		<h1>Les étapes de développement de votre Application.</h1>
 		{#each collapseTab as tab}
@@ -115,7 +167,8 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: auto;
+		height: 1000px;
+		background: radial-gradient(var(--cta)20%, var(--primary)60%);
 	}
 	.image {
 		max-width: 30%;
@@ -139,14 +192,14 @@
 	.hero-applications h1 span {
 		color: var(--green);
 	}
-	.hero-applications h3 {
+	.hero-applications h2 {
 		font-family: poppins;
-		font-weight: 300;
+		font-weight: 500;
 		font-size: var(--m);
-		color: var(--primary);
+		color: var(--whiteGrey);
 		text-align: center;
 		margin-top: 20px;
-		margin-bottom: 100px;
+		margin-bottom: 50px;
 		width: 80%;
 	}
 
@@ -178,7 +231,8 @@
 		text-align: center;
 		margin-bottom: 50px;
 	}
-	.wrapper__faqLink{
+
+	.wrapper__faqLink {
 		grid-column: 1/13;
 		grid-row: 4;
 		display: flex;
@@ -186,7 +240,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.wrapper__faqLink a{
+	.wrapper__faqLink a {
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: 700;
@@ -206,10 +260,10 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-bottom: 50px;
 	}
-	.wrapper-application-explication h1 {
+	.wrapper-application-explication h2 {
 		text-align: center;
 		font-family: 'Red Hat Display';
 		font-size: var(--l);
@@ -218,16 +272,18 @@
 		letter-spacing: -1px;
 		padding: 15px;
 	}
-	/* .wrapper-application-explication h2 {
-		font-family: 'epilogue';
-		font-weight: 700;
-		font-size: var(--m);
-		color: var(--primary);
+	.wrapper-application-explication h3 {
 		text-align: center;
+		font-family: 'Red Hat Display';
+		font-size: var(--lm);
+		font-weight: 600;
+		color: var(--primary);
+		letter-spacing: -1px;
+		padding: 15px;
 		margin-top: 50px;
-		margin-bottom: 20px;
-		width: 90%;
-	} */
+	}
+
+
 	.wrapper-application-explication p {
 		font-family: 'poppins';
 		font-weight: 300;
@@ -236,15 +292,6 @@
 		text-align: center;
 		margin-top: 50px;
 		width: 60%;
-	}
-	.wrapper-application-explication ol {
-		font-family: 'poppins';
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--bleuAcier);
-		text-align: center;
-		margin-top: 50px;
-		max-width: 50%;
 	}
 
 	.wrapper-form {
@@ -256,6 +303,20 @@
 		flex-direction: column;
 		background-color: var(--bgHero);
 	}
+	.wrapper__creer-une-application {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 200px;
+	}
+	.wrapper__creer-une-application p{
+	padding: 40px;
+	}
+	.wrapper__creer-une-application h2{
+width: 70%;
+	}
+
 
 	@keyframes bounce {
 		0% {
@@ -275,15 +336,17 @@
 		}
 	}
 
-
+	.img {
+		height: 300px;
+		width: 400px;
+		padding: 40px;
+	}
 
 	@media screen and (min-width: 576px) and (max-width: 767px) {
 		.wrapper-application-explication p {
 			width: 90%;
 		}
-		.wrapper-application-explication ol {
-			width: 90%;
-		}
+		
 		.image {
 			min-width: 60%;
 		}
@@ -293,9 +356,7 @@
 		.wrapper-application-explication p {
 			width: 90%;
 		}
-		.wrapper-application-explication ol {
-			width: 90%;
-		}
+		
 		.image {
 			min-width: 60%;
 		}
