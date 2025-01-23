@@ -32,7 +32,7 @@
 	import communication from '../../Assets/png-gralypho/supportCommunication.png';
 	import logoCrea from '../../Assets/png-gralypho/logoBiere.png';
 	// import Csection from "../../sections/Csection.svelte";
-	import Button from "../../Components/ButtonCTA.svelte";
+	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 
 	let accordeonTab = [
@@ -118,10 +118,10 @@
 			projet. <br />Le design d'un site ou d'une application, selon plusieurs études menées aupès
 			des utilisateurs du Web est essentiel pour plus de 75% des sondés.
 		</h2>
-<Button/>
+		<Button />
 	</div>
 
-	<!-- ***************SERVICES*************** -->
+
 
 	<div class="container-service">
 		<h1>Étude et réalisation de design sur mesure</h1>
@@ -151,22 +151,10 @@
 		</div>
 	</div>
 
-	<!-- ***************COLLAPSES*************** -->
-
-	<!-- <div class="wrapper-SectionB">
-		<h1>Tarifs, Délais ...</h1>
-		{#each accordeonTab as tab}
-			<CardsSectionB title={tab.title} p={tab.p} />
-		{/each}
-	</div> -->
-
 	<div class="wrapper__faqLink">
-		<FaqLink/>
+		<FaqLink />
 		<a href="/FAQ/#logo">FAQ</a>
 	</div>
-
-
-	<!-- ***************TESTIMONIAL*************** -->
 
 	<div class="testimonial">
 		<h2>
@@ -174,12 +162,7 @@
 			de ces deux éléments. » – Lindon Leader
 		</h2>
 	</div>
-
-	<!-- ***************CONTACT*************** -->
-
-	<div class="wrapper-form">
-		<Form />
-	</div>
+	<Form />
 </section>
 
 <style>
@@ -193,7 +176,6 @@
 		font-size: 16px;
 	}
 	.hero {
-	
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -217,7 +199,6 @@
 		padding: 15px;
 		line-height: 50px;
 		margin-top: 100px;
-
 	}
 	.hero h1 span {
 		color: var(--green);
@@ -239,6 +220,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
+		padding: 25px;
 	}
 	.container-service h1 {
 		text-align: center;
@@ -254,8 +236,9 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: stretch;
-		gap: 20px;
+		gap: 10px;
 		margin-top: 30px;
+		padding: 20px;
 	}
 	.wrapper-img {
 		display: flex;
@@ -289,14 +272,15 @@
 		margin-top: 50px;
 		border-radius: 5px;
 	}
-	.wrapper__faqLink{
+	.wrapper__faqLink {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		height: 100%;
+		width: 100%;
 	}
-	.wrapper__faqLink a{
+	.wrapper__faqLink a {
 		font-family: 'Red Hat Display';
 		font-size: var(--m);
 		font-weight: 700;
@@ -309,24 +293,18 @@
 		border-radius: 5px;
 		margin-top: 0px;
 	}
-	.wrapper-form {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: var(--bgHero);
-	
-	}
+
 	.testimonial {
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 0px;
 		height: auto;
 		background: var(--gradient);
-		padding: 50px;
-		gap: 20px;
+		padding: 0px;
+		gap: 0px;
+		width: 100%;
+		height: 200px;
 	}
 	.testimonial h2 {
 		font-family: 'Poppins';
@@ -359,13 +337,19 @@
 
 	@media screen and (max-width: 768px) {
 		.wrapper-service {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: stretch;
-		gap: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: stretch;
+			gap: 20px;
+			margin-top: 30px;
+		}
+	.testimonial{
+		height: 400px;
+	}
+	.imgHero {
+		min-width: 100%;
 		margin-top: 30px;
 	}
 	}
-	
 </style>
