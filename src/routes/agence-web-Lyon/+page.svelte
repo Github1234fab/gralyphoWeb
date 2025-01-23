@@ -5,7 +5,7 @@
 
 <Header/>
 <div class="container">
-	<h1 class="title">Agence Web à Lyon</h1>
+	<h1 class="title">Agence Web de Lyon</h1>
 	<div class="wrapper__img">
         <img class="img" src="https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg" alt="Lyon" />
     </div>

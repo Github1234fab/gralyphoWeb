@@ -139,7 +139,7 @@
 		letter-spacing: -2px;
 		padding: 0px;
 		line-height: 50px;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	.hero h1 span {
 		color: var(--green);

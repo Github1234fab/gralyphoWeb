@@ -5,7 +5,7 @@
 
 <Header />
 <div class="container">
-	<h1 class="title">Gralypho, une agence web connectée <br> à l'ensemble de la région Lyonnaise.</h1>
+	<h1 class="title">Gralypho, agence web <br> de la région Lyonnaise.</h1>
 	<div class="wrapper__img">
 		<img
 			class="img"
@@ -15,7 +15,7 @@
 	</div>
 	<div class="wrapper__text">
 		<h2 class="subtitle">Annecy, Genève, Lyon, Saint-Etienne, Bourg-en-Bresse, Valence ...</h2>
-		<h3 class="subtitle__h3">De grandes villes, à moins de 100km</h3>
+		<h3 class="subtitle__h3">Les grandes villes de la région Lyonnaise, à moins de 100km de l'ouest Lyonnais.</h3>
 		<p class="paragraph">
 			La région Lyonnaise est dense et dynamique. Les villes de la région sont proches les unes des
 			autres et les échanges sont nombreux.

@@ -282,8 +282,8 @@
 			font-size: 2.5em;
 		}
 		.imgHero {
-			max-width: 40%;
-			min-width: 40%;
+			max-width: 60%;
+			min-width: 60%;
 			margin-top: 30px;
 		}
 		.wrapper-service {

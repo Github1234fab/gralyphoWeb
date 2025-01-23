@@ -197,7 +197,7 @@
 		animation: bounce 0.5s ease-in-out;
 	}
 	a{
-		text-decoration: underline;
+		text-decoration: none;
 		font-weight: 700;
 	}
 

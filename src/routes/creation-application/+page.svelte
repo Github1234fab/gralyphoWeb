@@ -42,8 +42,7 @@
 		/>
 		<h1>Création<br /><span>d'applications</span></h1>
 		<h2>
-			L'agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
-			expérience unique.
+			L'agence Gralypho crée vos applications sur mesure.
 		</h2>
 		<Button />
 	</div>
@@ -167,13 +166,13 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 1000px;
-		background: radial-gradient(var(--cta)20%, var(--primary)60%);
+		height: auto;
+		
 	}
 	.image {
 		max-width: 30%;
 		min-width: 30%;
-		margin-top: 30px;
+		margin-top: 50px;
 		z-index: 2;
 	}
 
@@ -196,7 +195,7 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		font-family: poppins;
 		font-weight: 500;
 		font-size: var(--m);
-		color: var(--whiteGrey);
+		color: var(--primary);
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 50px;

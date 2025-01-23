@@ -40,6 +40,7 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 		flex-basis: 30%;
+		padding: 10px;
 	}
 	.title-banner {
 		display: flex;

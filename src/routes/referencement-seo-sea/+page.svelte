@@ -184,7 +184,7 @@
 		align-self: center;
 		padding: 20px;
 		margin-bottom: 50px;
-		width: 70%;
+		width: 90%;
 	
 	}
 	a{
