@@ -26,7 +26,7 @@
 				et dans la
 				<span>création d'application </span>sur mesure. <br>Notre expertise dans le domaine du Web est
 				profonde et solide. Notre métier consiste à apporter des solutions digitales aux entreprises et aux professionnels dont les besoins en la matière sont fondamentaux, car de ceux-ci, dépend la bonne santé et la croissance de leur business. 
-				<br>Nous sommes implantés dans les <a href="/agence-web-monts-du-Lyonnais">monts du Lyonnais</a> et à <a href="/agence-web-Lyon">Lyon</a>. Nous sommes relié à toute la <a href="/agence-web-region-Lyonnaise">région Lyonnaise</a> et connectés au monde entier !
+				<br>Nous sommes implantés dans les <a href="/agence-web-monts-du-Lyonnais">monts du Lyonnais</a> et à <a href="/agence-web-Lyon-creation-site-internet-seo">Lyon</a>. Nous sommes relié à toute la <a href="/agence-web-region-Lyonnaise">région Lyonnaise</a> et connectés au monde entier !
 			</p>
 		</div>
 		<br />

@@ -10,7 +10,7 @@
 			hyper-présence sur le net peut vous permettre de générer des revenus supplémentaires, <br />de
 			fidéliser davantage de clients et d'effectuer des tâches à votre place.
 		</p>
-		<a href="/Digital-infos" class="lien-bouton">En savoir +</a>
+		<a href="/site-internet-Lyon" class="lien-bouton">En savoir +</a>
 	</div>
 </div>
 
