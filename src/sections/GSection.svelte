@@ -18,93 +18,118 @@
 	import flag from '../Assets/png-gralypho/flag.png';
 	import resa from '../Assets/png-gralypho/resa.png';
 	import Slider from '../Components/Slider.svelte';
+	import synthetiser from '../Assets/png-gralypho/application_synthtiser.png';
+	import Pendu from '../Assets/png-gralypho/lependu_application.png';
+	import Info from  '../Assets/png-gralypho/site internet_presse.png';
 
-	let portfolioTab = [
-		{
-			type: 'Application',
-			title: 'Tables',
-			text: 'Application',
-			img: animationSite,
-			lien: 'https://fabienmarceau.com/theTables/index.html'
-		},
-		{
-			type: 'Application',
-			title: 'Shooping List Appli',
-			text: 'Application',
-			img: animationSite,
-			lien: 'https://main--gralyshoplist.netlify.app/'
-		},
-		{
-			type: 'Site Web',
-			title: 'Rocket Agency',
-			text: 'Animé au scroll',
-			img: animationSite,
-			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
-		},
-		{
-			type: 'Site Web',
-			title: 'Le Lion Taxi',
-			text: 'Taxi',
-			img: animationSite,
-			lien: 'https://taxi-lyon-aeroport-rhone.com'
-		},
-		{
-			type: 'Appli Météo',
-			title: 'Météo',
-			text: 'Requête API',
-			img: meteo,
-			lien: 'https://fabienmarceau.com/meteo/index.html'
-		},
-		{
-			type: 'Portfolio',
-			title: 'Photographer',
-			text: 'Parallaxe',
-			img: photographie,
-			lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
-		},
-		{
-			type: 'Site Web',
-			title: 'Issetys École Musique',
-			text: 'Web',
-			img: animationSite,
-			lien: 'https://www.ecole-musique-lyon-issetys.com'
-		},
-		{
-			type: 'Composant',
-			title: 'Clock',
-			text: 'Neumorphisme',
-			img: horloge,
-			lien: 'https://fabienmarceau.com/horloge/index.html'
-		},
-		{
-			type: 'Jeux pédago',
-			title: 'FlagsGame',
-			text: 'Jeu de drapeaux',
-			img: flag,
-			lien: 'https://fabienmarceau.com/dist/index.html'
-		},
-		{
-			type: 'Jeux',
-			title: 'Morpion',
-			text: 'Application de jeu',
-			img: morpion,
-			lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
-		},
-		{
-			type: 'Plateforme réservation',
-			title: 'Booking',
-			text: 'Chambres',
-			img: booki,
-			lien: 'https://fabienmarceau.com/Booki/index.html'
-		},
-		{
-			type: 'Plateforme réservation',
-			text: 'Gastronomie',
-			title: 'Resto',
-			img: resa,
-			lien: 'https://fabienmarceau.com/myFood/index.html'
-		}
-	];
+	// let portfolioTab = [
+	// 	{
+	// 		type: 'Application',
+	// 		title: 'Tables',
+	// 		text: 'Application',
+	// 		img: animationSite,
+	// 		lien: 'https://fabienmarceau.com/theTables/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Application',
+	// 		title: 'Shooping List Appli',
+	// 		text: 'Application',
+	// 		img: animationSite,
+	// 		lien: 'https://main--gralyshoplist.netlify.app/'
+	// 	},
+	// 	{
+	// 		type: 'Site Web',
+	// 		title: 'Rocket Agency',
+	// 		text: 'Animé au scroll',
+	// 		img: animationSite,
+	// 		lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Site Web',
+	// 		title: 'Le Lion Taxi',
+	// 		text: 'Taxi',
+	// 		img: animationSite,
+	// 		lien: 'https://taxi-lyon-aeroport-rhone.com'
+	// 	},
+	// 	{
+	// 		type: 'Appli Météo',
+	// 		title: 'Météo',
+	// 		text: 'Requête API',
+	// 		img: meteo,
+	// 		lien: 'https://fabienmarceau.com/meteo/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Portfolio',
+	// 		title: 'Photographer',
+	// 		text: 'Parallaxe',
+	// 		img: photographie,
+	// 		lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Site Web',
+	// 		title: 'Issetys École Musique',
+	// 		text: 'Web',
+	// 		img: animationSite,
+	// 		lien: 'https://www.ecole-musique-lyon-issetys.com'
+	// 	},
+	// 	{
+	// 		type: 'Composant',
+	// 		title: 'Clock',
+	// 		text: 'Neumorphisme',
+	// 		img: horloge,
+	// 		lien: 'https://fabienmarceau.com/horloge/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Jeux pédago',
+	// 		title: 'FlagsGame',
+	// 		text: 'Jeu de drapeaux',
+	// 		img: flag,
+	// 		lien: 'https://fabienmarceau.com/dist/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Jeux',
+	// 		title: 'Morpion',
+	// 		text: 'Application de jeu',
+	// 		img: morpion,
+	// 		lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Plateforme réservation',
+	// 		title: 'Booking',
+	// 		text: 'Chambres',
+	// 		img: booki,
+	// 		lien: 'https://fabienmarceau.com/Booki/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Plateforme réservation',
+	// 		text: 'Gastronomie',
+	// 		title: 'Resto',
+	// 		img: resa,
+	// 		lien: 'https://fabienmarceau.com/myFood/index.html'
+	// 	},
+	// 	{
+	// 		type: 'Site web/application',
+	// 		text: 'Presse',
+	// 		title: "Info detox",
+	// 		img: Info,
+	// 		lien: 'https://fanciful-taiyaki-b32670.netlify.app/'
+	// 	},
+	// 	{
+	// 		type: 'Application',
+	// 		text: 'Musique',
+	// 		title: 'Synthétiseur',
+	// 		img: synthetiser,
+	// 		lien: 'https://synthetizer.netlify.app/'
+	// 	},
+	// 	{
+	// 		type: 'Application jeux',
+	// 		text: 'Le pendu',
+	// 		title: 'Jeux',
+	// 		img: Pendu,
+	// 		lien: 'https://dupen.netlify.app/'
+	// 	},
+
+	// ];
 </script>
 
 <section class="G-section">

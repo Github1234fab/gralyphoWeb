@@ -10,6 +10,9 @@
 	import LionTaxi from '../Assets/portfolio/taxi.png';
 	import Todo from '../Assets/portfolio/todo.png';
 	import Issétys from '../Assets/portfolio/issetys.png';
+	import synthetiser from '../Assets/png-gralypho/application_synthtiser.png';
+	import Pendu from '../Assets/png-gralypho/lependu_application.png';
+	import Info from  '../Assets/png-gralypho/site internet_presse.png';
 
 	let currentIndex = 0;
 	const slides = [
@@ -59,7 +62,22 @@
 			title: 'Application-To Do List',
 			image: Todo,
 			lien: 'https://main--gralyshoplist.netlify.app/'
-		}
+		},
+		{
+			title: 'Application - Pendu',
+			image: Pendu,
+			lien: 'https://dupen.netlify.app/'
+		},
+		{
+			title: 'Application - Synthtiser',
+			image: synthetiser,
+			lien: 'https://synthetizer.netlify.app/'
+		},
+		{
+			title: 'Site web - Presse',
+			image: Info,
+			lien: 'https://fanciful-taiyaki-b32670.netlify.app/'
+		},
 	];
 
 	const nextSlide = () => {
