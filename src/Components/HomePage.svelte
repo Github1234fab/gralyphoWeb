@@ -28,9 +28,9 @@
 				ease: 'power4',
 				scrollTrigger: {
 					trigger: cta,
-					start: 'top 90%',
+					start: 'top 70%',
 					en: 'top 50%',
-					scrub: true
+					scrub: 1
 				}
 			});
 		});
@@ -138,10 +138,7 @@
 			</p>
 			<div class="wrapper__button-cta">
 				<p class="button__text">
-					<span>
-						Nous travaillons avec la plus grande rigueur afin de respecter les délais tout en vous
-						garantissant un site de qualité.</span
-					>
+					<span>Contactez-nous dès aujourd’hui pour discuter de votre projet  et des délais possibles!</span>
 				</p>
 				<ButtonCta />
 			</div>
@@ -166,7 +163,7 @@
 			</p>
 			<div class="wrapper__button-cta">
 				<p class="button__text">
-					<span>Prenez rendez-vous pour discuter de vos besoins.</span>
+					<span>Prenez rendez-vous pour discuter de vos besoins. </span>
 				</p>
 				<ButtonCta />
 			</div>
@@ -228,8 +225,7 @@
 			<div class="wrapper__button-cta">
 				<p class="button__text">
 					<span
-						>Conctactez-nous Parlez à un expert pour comprendre pourquoi un site sur mesure est un
-						investissement rentable</span
+						>Conctactez-nous pour parlez à un expert et comprendre l'avantage d'un site créé par une agence Web.</span
 					>
 				</p>
 				<ButtonCta />
@@ -258,8 +254,7 @@
 			<div class="wrapper__button-cta">
 				<p class="button__text">
 					<span
-						>Parlez à un expert pour comprendre pourquoi un site sur mesure est un investissement
-						rentable</span
+						>Contactez-nous pour que nous puissions l'administration de votre site.</span
 					>
 				</p>
 				<ButtonCta />
@@ -286,8 +281,7 @@
 			<div class="wrapper__button-cta">
 				<p class="button__text">
 					<span
-						>Parlez à un expert pour comprendre pourquoi un site sur mesure est un investissement
-						rentable</span
+						>Contactez-nous pour évoquer la propriété de votre site.</span
 					>
 				</p>
 				<ButtonCta />
@@ -350,7 +344,7 @@
 		justify-content: center;
 		align-items: center;
 		height: auto;
-		margin-bottom: 300px;
+		margin-bottom: 200px;
 	}
 	.wrapper__section-text {
 		display: flex;
@@ -368,10 +362,12 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 50px;
-		width: 100%;
+		margin-bottom: 0px;
+		padding: 20px;
+		width: 40%;
 		opacity: 0.4;
 		transform: translateX(-200px);
+		background-color: var(--green);
 	}
 	.wrapper__img {
 		display: flex;
@@ -433,7 +429,8 @@
 		letter-spacing: -0.02em;
 		line-height: 40px;
 		width: 50%;
-		text-align: center;
+		text-align: justify;
+		hyphens: auto;
 		
 		/* opacity: 0.4;
 		transform: translateX(200px); */
