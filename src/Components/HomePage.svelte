@@ -519,6 +519,12 @@
 		.text span {
 			width: 100%;
 		}
+		.text{
+			width: 85%;
+		}
+		.wrapper__button-cta {
+			width: 100%;
+		}
 
 		.wrapper__img::before {
 			top: -20px;
@@ -540,9 +546,15 @@
 		.subtitle {
 			font-size: 1.5rem;
 			line-height: 40px;
+			width: 90%;
 		}
 		.button__text {
 			width: 100%;
 		}
+		
+		.subtitle{
+			font-size: 1.8rem;
+		}
+
 	}
 </style>

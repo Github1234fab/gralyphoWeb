@@ -472,7 +472,7 @@
 		}
 		@media screen and (max-width: 768px) {
 			.hero h1 {
-				line-height: 50px;
+				line-height: 40px;
 				font-size: var(--l);
 			}
 			.wrapper-service {
