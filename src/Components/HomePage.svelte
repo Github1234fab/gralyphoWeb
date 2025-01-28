@@ -28,9 +28,9 @@
 				ease: 'power4',
 				scrollTrigger: {
 					trigger: cta,
-					start: 'top 70%',
+					start: 'top 80%',
 					en: 'top 50%',
-					scrub: 1
+					scrub: true
 				}
 			});
 		});
@@ -368,6 +368,7 @@
 		opacity: 0.4;
 		transform: translateX(-200px);
 		background-color: var(--green);
+		margin-top: 30px;
 	}
 	.wrapper__img {
 		display: flex;
@@ -401,7 +402,7 @@
 		letter-spacing: -2px;
 		margin-top: 100px;
 		line-height: 50px;
-		color: var(--primary);
+		color: var(--whiteGrey);
 		margin-bottom: 0px;
 	}
 	.title span {
@@ -418,13 +419,13 @@
 		font-weight: 600;
 		text-align: center;
 		font-family: var(--Geologica);
-		color: var(--primary);
+		color: var(--whiteGrey);
 		width: 70%;
 	}
 	.text {
 		font-family: var(--Poppins);
 		font-size: var(--m);
-		color: var(--primary);
+		color: var(--whiteGrey);
 		font-weight: 400;
 		letter-spacing: -0.02em;
 		line-height: 40px;
@@ -453,6 +454,7 @@
 
 	a {
 		text-decoration: underline;
+		color: var(--green);
 	}
 	.img {
 		width: 250px;
