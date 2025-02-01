@@ -369,6 +369,9 @@
 		transform: translateX(-200px);
 		background-color: var(--green);
 		margin-top: 30px;
+		border-radius: 20px 60px 20px 60px;
+
+
 	}
 	.wrapper__img {
 		display: flex;

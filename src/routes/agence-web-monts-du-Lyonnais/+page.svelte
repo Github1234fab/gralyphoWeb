@@ -1,6 +1,7 @@
 <script>
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Header from '../../sections/Header.svelte';
+	import picture from "../../Assets/png-gralypho/monts-du-lyonnais.png";
 </script>
 
 <Header/>
@@ -8,7 +9,7 @@
     
 	<h1 class="title">Agence Web des monts du Lyonnais</h1>
     <div class="wrapper__img">
-<img src="https://www.montsdulyonnaistourisme.fr/content/uploads/2020/10/ColdelaLuere-Emmanuel_le_Guellec-438x305.jpg" alt="panorama des monts du Lyonnais" class="img">
+<img src={picture} alt="panorama des monts du Lyonnais" class="img">
 </div>
 	<div class="wrapper__text">
 		<h2 class="subtitle">Les acteurs tech de la région de l'ouest Lyonnais</h2>
@@ -85,7 +86,7 @@
 		font-weight: 700;
 		letter-spacing: -1px;
 		text-align: center;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.paragraph {
@@ -123,7 +124,10 @@
         align-items: center;
     }
     .img{
-        height:auto;
-        width: auto;
+        height:100%;
+        width: 900px;
+		border-radius: 20px;
+		margin-top: 20px;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
     }
 </style>
