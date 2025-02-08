@@ -23,7 +23,7 @@
 	import Hero from '../Components/HeroHome.svelte';
 	import Header from "../sections/Header.svelte";
 	import MesServices from '../Components/MesServices.svelte';
-	// import Propositions from '../Components/propositions.svelte';
+	import Propositions from '../Components/propositions.svelte';
 	import CTA from "../Components/CTA-section.svelte";
 </script>
 
