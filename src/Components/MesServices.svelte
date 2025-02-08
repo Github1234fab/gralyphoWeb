@@ -1,11 +1,11 @@
 <script>
-	import Smartphone from '../Assets/smartphoneTech.jpeg';
+	
 	import Atome from '../Assets/atome.png';
-	// import Design from '../assets/design.png';
+	import Design from '../assets/design.png';
 	import Flex from '../assets/flex.png';
 	import Rocket from '../assets/rocket.png';
 	import Seo from '../assets/seo.png';
-	import ButtonCta from './ButtonCTA.svelte';
+
 </script>
 
 <main>
@@ -18,7 +18,7 @@
 		considérablement le délai de développement.
 	</h3>
 	<div class="container">
-		<div class="wrapper__cards">
+		<!-- <div class="wrapper__cards">
 			<div class="wrapper__sectionByThree">
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Rocket} alt="fusée" />
@@ -40,7 +40,7 @@
 			</div>
 			<div class="wrapper__sectionByThree">
 				<div class="wrapper__cards-card">
-					<!-- <img class="logo" src={Design} alt="une plume colorée" /> -->
+					<img class="logo" src={Design} alt="une plume colorée" />
 					<h3 class="subtitle-h3">Design moderne</h3>
 					<h4 class="subtitle-h4">Une expérience utilisateur <br />fluide et intuitive</h4>
 				</div>
@@ -53,11 +53,11 @@
 			</div>
 			<h2 class="title">En savoir plus sur notre agence ?</h2>
 			<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
-		</div>
+		</div> -->
 	</div>
 </main>
 
-<style>
+<!-- <style>
 	main {
 		display: flex;
 		flex-direction: column;
@@ -174,4 +174,4 @@
 			gap: 50px;
 		}
 	}
-</style>
+</style> -->
