@@ -1,9 +1,9 @@
 <script>
 	import Atome from '../Assets/atome.png';
-	import Design from '../assets/design.png';
-	import Flex from '../assets/flex.png';
-	import Rocket from '../assets/rocket.png';
-	import Seo from '../assets/seo.png';
+	import Design from '../Assets/design.png';
+	import Flex from '../Assets/flex.png';
+	import Rocket from '../Assets/rocket.png';
+	import Seo from '../Assets/seo.png';
 </script>
 
 <main>
