@@ -2,7 +2,7 @@
 	
 	import Atome from '../Assets/atome.png';
 	// import Design from '../assets/design.png';
-	import Flex from '../assets/flex.png';
+	// import Flex from '../assets/flex.png';
 	import Rocket from '../assets/rocket.png';
 	import Seo from '../assets/seo.png';
 
@@ -27,7 +27,7 @@
 				</div>
 
 				<div class="wrapper__cards-card">
-					<img class="logo" src={Flex} alt="une personne danse et représente la flexibilté" />
+					<!-- <img class="logo" src={Flex} alt="une personne danse et représente la flexibilté" /> -->
 					<h3 class="subtitle-h3">Flexibilité</h3>
 					<h4 class="subtitle-h4">Une gestion de contenu simple et efficace via Strapi</h4>
 				</div>
