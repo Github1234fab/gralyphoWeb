@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	
 	import Atome from '../Assets/atome.png';
 	import Design from '../assets/design.png';
@@ -174,4 +174,4 @@
 			gap: 50px;
 		}
 	}
-</style>
+</style> -->
