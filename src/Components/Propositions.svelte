@@ -21,7 +21,7 @@
 			description: 'Une solution web accessible partout, dans une appli mobile.',
 			img: 'Seo',
 			alt: 'illustration sur le SEO',
-			lien: "/creation-application"
+			lien: '/creation-application'
 		}
 	];
 </script>
@@ -31,15 +31,15 @@
 
 	<div class="wrapper__cards">
 		{#each tab as infos}
-			<PropositionsCards type={infos.type} description={infos.description}  lien={infos.lien}/>
+			<PropositionsCards type={infos.type} description={infos.description} lien={infos.lien} />
 		{/each}
 	</div>
 </main>
 
 <style>
-    main{
-        padding: 50px;
-    }
+	main {
+		padding: 50px;
+	}
 	.wrapper__cards {
 		display: flex;
 		justify-content: center;
@@ -55,5 +55,4 @@
 		text-align: center;
 		letter-spacing: -1px;
 	}
-	
 </style>
