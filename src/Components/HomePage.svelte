@@ -1,7 +1,7 @@
 <script>
 	import ButtonCta from './ButtonCTA.svelte';
 	import { onMount } from 'svelte';
-
+	import Header from '../sections/Header.svelte';
 	// onMount(() => {
 	// 	const text = document.querySelectorAll('.text');
 	// 	text.forEach((text) => {
@@ -36,6 +36,8 @@
 		});
 	});
 </script>
+
+<Header />
 
 <main class="main">
 	<h1 class="title">
@@ -138,7 +140,9 @@
 			</p>
 			<div class="wrapper__button-cta">
 				<p class="button__text">
-					<span>Contactez-nous dès aujourd’hui pour discuter de votre projet  et des délais possibles!</span>
+					<span
+						>Contactez-nous dès aujourd’hui pour discuter de votre projet  et des délais possibles!</span
+					>
 				</p>
 				<ButtonCta />
 			</div>
@@ -154,10 +158,10 @@
 				<div class="img bg__D"></div>
 			</div>
 			<p class="text">
-				Confier votre projet à une agence web à Lyon, c’est bénéficier de l’expertise d’une équipe dédiée à
-				chaque aspect de votre site : Un design professionnel et adapté à votre identité. Un site
-				optimisé pour le référencement (SEO) dès sa création. Des fonctionnalités modernes pour
-				répondre aux attentes de vos clients. Un accompagnement de A à Z, même après la mise en
+				Confier votre projet à une agence web à Lyon, c’est bénéficier de l’expertise d’une équipe
+				dédiée à chaque aspect de votre site : Un design professionnel et adapté à votre identité.
+				Un site optimisé pour le référencement (SEO) dès sa création. Des fonctionnalités modernes
+				pour répondre aux attentes de vos clients. Un accompagnement de A à Z, même après la mise en
 				ligne. Un site internet conçu par une agence, c’est l’assurance d’un résultat professionnel
 				qui vous démarque de vos concurrents. <br />
 			</p>
@@ -225,7 +229,8 @@
 			<div class="wrapper__button-cta">
 				<p class="button__text">
 					<span
-						>Conctactez-nous pour parlez à un expert et comprendre l'avantage d'un site créé par une agence Web.</span
+						>Conctactez-nous pour parlez à un expert et comprendre l'avantage d'un site créé par une
+						agence Web.</span
 					>
 				</p>
 				<ButtonCta />
@@ -246,15 +251,16 @@
 			</div>
 			<p class="text">
 				Absolument! Nous concevons tous nos sites pour qu’ils soient faciles à gérer. Grâce à des
-				outils intuitifs (Webflow, Wix ou un CMS personnalisé), vous pourrez modifier les
-				textes et images. Ajouter de nouvelles pages ou articles. Mettre à jour vos informations en
-				quelques clics. Nous vous proposons également des formations pour vous aider à prendre en
-				main votre site, une fois livré.
+				outils intuitifs (Webflow, Wix ou un CMS personnalisé), vous pourrez modifier les textes et
+				images. Ajouter de nouvelles pages ou articles. Mettre à jour vos informations en quelques
+				clics. Nous vous proposons également des formations pour vous aider à prendre en main votre
+				site, une fois livré.
 			</p>
 			<div class="wrapper__button-cta">
 				<p class="button__text">
 					<span
-						>Contactez-nous pour que nous puissions parlez ensemble de l'administration de votre site.</span
+						>Contactez-nous pour que nous puissions parlez ensemble de l'administration de votre
+						site.</span
 					>
 				</p>
 				<ButtonCta />
@@ -280,9 +286,7 @@
 			</p>
 			<div class="wrapper__button-cta">
 				<p class="button__text">
-					<span
-						>Contactez-nous pour évoquer la propriété de votre site.</span
-					>
+					<span>Contactez-nous pour évoquer la propriété de votre site.</span>
 				</p>
 				<ButtonCta />
 			</div>
@@ -317,8 +321,8 @@
 			</div>
 			<p class="text">
 				Faites confiances à nos experts pour obtenir un outil performant et personnalisé. Avec
-				l'agence web Gralyho, vous bénéficiez d’un accompagnement complet et d’une qualité professionnelle à
-				chaque étape de conception de votre site web.
+				l'agence web Gralyho, vous bénéficiez d’un accompagnement complet et d’une qualité
+				professionnelle à chaque étape de conception de votre site web.
 				<br />
 
 				<br />
@@ -337,7 +341,7 @@
 	.main {
 		display: flex;
 		flex-direction: column;
-		background: var(--gradient-white);
+		background: var(--gradient);
 	}
 	.container {
 		display: flex;
@@ -367,11 +371,9 @@
 		width: 40%;
 		opacity: 0.4;
 		transform: translateX(-200px);
-		background-color: var(--green);
+		border: 1px solid rgb(202, 200, 200);
 		margin-top: 30px;
 		border-radius: 20px 60px 20px 60px;
-
-
 	}
 	.wrapper__img {
 		display: flex;
@@ -400,26 +402,25 @@
 	.title {
 		font-size: var(--xl);
 		text-align: center;
-		font-family: var(--Geologica);
+		font-family: var(--Red);
 		font-weight: 800;
-		letter-spacing: -2px;
+		letter-spacing: -1px;
 		margin-top: 100px;
 		line-height: 50px;
-		color: var(--whiteGrey);
+		color: var(--primary);
 		margin-bottom: 0px;
 	}
 	.title span {
-		font-family: var(--Poppins);
-		color: var(--green);
+		font-family: var(--Red);
+		color: var(--primary);
 		font-weight: 500;
 		letter-spacing: 0px;
 		font-size: var(--m);
 	}
 	.subtitle {
 		font-size: 1.8rem;
-		letter-spacing: -1px;
 		line-height: 45px;
-		font-weight: 600;
+		font-weight: 700;
 		text-align: center;
 		font-family: var(--Geologica);
 		color: var(--whiteGrey);
@@ -435,7 +436,7 @@
 		width: 50%;
 		text-align: justify;
 		hyphens: auto;
-		
+
 		/* opacity: 0.4;
 		transform: translateX(200px); */
 	}
@@ -446,7 +447,7 @@
 	.button__text {
 		font-family: var(--Poppins);
 		font-size: var(--m);
-		color: var(--primary);
+		color: var(--whiteGrey);
 		font-weight: 700;
 		letter-spacing: -0.02em;
 		line-height: 40px;
@@ -524,7 +525,7 @@
 		.text span {
 			width: 100%;
 		}
-		.text{
+		.text {
 			width: 85%;
 		}
 		.wrapper__button-cta {
@@ -556,10 +557,9 @@
 		.button__text {
 			width: 100%;
 		}
-		
-		.subtitle{
+
+		.subtitle {
 			font-size: 1.8rem;
 		}
-
 	}
 </style>

@@ -49,8 +49,10 @@
 					<h4 class="subtitle-h4">Technologies choisies pour vos besoins spécifiques</h4>
 				</div>
 			</div>
+            <div class="wrapper__cta">
 			<h2 class="title">En savoir plus sur notre agence ?</h2>
 			<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
+        </div>
 		</div>
 	</div>
 </main>
@@ -96,6 +98,11 @@
 		padding: 40px;
 		border: 1px solid grey;
 	}
+    .wrapper__cta{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 
 	.title {
 		font-size: 2rem;

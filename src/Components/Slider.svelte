@@ -158,6 +158,8 @@
 		width: 50px;
 		font-size: 2rem;
 		font-weight: bolder;
+		background-color: var(--cta);
+		border-radius: 50%;
 	}
 	button:hover {
 		background-color: transparent;

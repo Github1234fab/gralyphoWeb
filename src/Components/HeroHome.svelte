@@ -145,7 +145,7 @@
 		align-items: center;
 		flex-direction: column;
 		font-family: var(--Red);
-		color: rgba(128, 128, 128, 0.5);
+		color: rgba(128, 128, 128, 0.2);
 		font-size: 0.7rem;
 		gap: 5px;
 	}
@@ -182,7 +182,7 @@
 			font-size: 1rem;
 		}
 		.wrapper__text2 h3 {
-			font-size: 0.8rem;
+			font-size: 1rem;
 		}
 		.compteur {
 			height: 200px;
@@ -198,8 +198,7 @@
 			width: 75px;
 		}
 		.wrapper__logos {
-	
-		gap: 5px;
-	}
+			gap: 5px;
+		}
 	}
 </style>

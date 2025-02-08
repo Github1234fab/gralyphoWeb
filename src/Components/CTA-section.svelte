@@ -68,7 +68,7 @@
 			font-size: 1.5rem;
 		}
 		.subtitle {
-			font-size: 0.9rem;
+			font-size: 1rem;
 			line-height: 33px;
 		}
 		

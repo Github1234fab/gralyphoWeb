@@ -33,7 +33,7 @@
 <Header />
 <Mouse />
 
-<section class="application-section" in:fade={{ duration: 3000 }}>
+<section class="application-section" in:fade={{ duration: 1500 }}>
 	<div class="hero-applications">
 		<img
 			src={imageApplication}
@@ -82,7 +82,7 @@
 			optimales.
 		</p>
 		<div class="wrapper__creer-une-application">
-			<h2>Pourquoi cr√©er votre propre application ?</h2>
+			<h2>Pourquoi investir dans une application ?</h2>
 			<img
 				class="img"
 				src="https://www.aquilapp.fr/wp-content/uploads/2023/12/Quest-ce-quune-application-mobile.png.webp"
@@ -183,7 +183,7 @@ Les applications PWA ressemblent √† un site web normal. Mais il est possible tr√
 		z-index: 2;
 		border-radius: 20px;
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
-		margin-top: 40px;
+	
 	}
 
 	.hero-applications h1 {
@@ -269,7 +269,7 @@ Les applications PWA ressemblent √† un site web normal. Mais il est possible tr√
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		margin-top: 100px;
+		margin-top:0px;
 		margin-bottom: 50px;
 	}
 	.wrapper-application-explication h2 {
@@ -288,8 +288,8 @@ Les applications PWA ressemblent √† un site web normal. Mais il est possible tr√
 		font-weight: 600;
 		color: var(--primary);
 		letter-spacing: -1px;
-		padding: 15px;
-		margin-top: 50px;
+		padding: 5px;
+		margin-top: 30px;
 	}
 
 
@@ -300,7 +300,7 @@ Les applications PWA ressemblent √† un site web normal. Mais il est possible tr√
 		color: var(--primary);
 		text-align: center;
 		margin-top: 50px;
-		width: 60%;
+		width: 80%;
 	}
 
 	.wrapper-form {
@@ -317,7 +317,7 @@ Les applications PWA ressemblent √† un site web normal. Mais il est possible tr√
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 200px;
+		margin-top: 20px;
 	}
 	.wrapper__creer-une-application p{
 	padding: 40px;
@@ -353,11 +353,10 @@ width: 70%;
 
 	@media screen and (max-width: 767px) {
 		.hero-applications {
-			height: 800px;
-			background-color: red;
+			height: 700px;
 		}
 		.image {
-			min-width: 80%;
+			min-width: 90%;
 		}
 	}
 </style>

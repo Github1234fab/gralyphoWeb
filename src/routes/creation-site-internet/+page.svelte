@@ -147,36 +147,43 @@
 				<br />✔ Un taux de conversion plus élevé
 				<br />✔ Une navigation fluide sur tous les appareils
 			</h3>
-			<h2 class="subtitle">Pourquoi nous ne travaillons pas avec WordPress ?</h2>
+			<h2 class="subtitle">Pourquoi est-ce que WordPress n'est pas notre premier choix ?</h2>
 			<h3 class="subtitle-h3">
-				WordPress est une solution populaire, mais souvent lourde et peu optimisée. Il repose sur
-				des plugins qui alourdissent le site, compliquent la maintenance et ne requiert pas de code.
+				WordPress est une solution populaire, mais souvent lourde et peu optimisée. Elle repose sur
+				des plugins qui alourdissent le site, compliquent la maintenance. <br>
 				Résultat : des performances limitées, des failles de sécurité et des mises à jour
 				constantes. Certes WordPress est gratuit, mais les coûts cachés sont nombreux et les agences
-				WP l'ont bien compris !
+				WP l'ont bien compris ! <br>Et puis, ça reste entre nous, mais mise à part les couleurs, tous les sites WP se ressemblent !
 			</h3>
 			<h2 class="subtitle">Notre solution : un site sur-mesure, optimisé et évolutif !</h2>
 			<h3 class="subtitle-h3">
-				Nous développons votre site avec Svelte, notre framework adoré ! Moderne, hyper-rapide, il
-				nous permet de créer des sites ultra-rapides et légers. Contrairement à WordPress :
+				Nous développons votre site avec Svelte, notre framework adoré ! Moderne, hyper-efficace, il
+				nous permet de créer des sites ultra-rapides et légers. 
+				<br>Nous développons votre site avec du code, ce qui nous permet de savoir à la virgule prêt ce qu'il contient, de gérer les buggs très facilement et de le maintenir aisément. 
+				<br> Résultat:
 				<br />✔ Un code propre et optimisé
 				<br />✔ Une sécurité renforcée (pas de failles dues aux plugins)
+				<br />✔ Un seo 100% optimisé
 				<br />✔ Un chargement quasi instantané
 				<br />✔ Un design totalement personnalisé
 			</h3>
 
 			<h2 class="subtitle">Et pour la gestion du contenu ?</h2>
-			<h3 class="subtitle-h3">
-				Vous gardez la main ! Plusieurs solutions existent : Un formulaire simple intégré au site
+			<h3 class="subtitle-h3 bottom">
+				Vous gardez la main ! 
+				<br>Plusieurs solutions existent : Un formulaire simple intégré au site
 				pour modifier votre contenu en toute autonomie.
-				<br /> Un accès à un fichier clair et commenté sur GitHub pour faire des modifications
+				<br /> Ou n accès à un fichier clair et commenté sur GitHub pour faire des modifications
 				facilement.
-				<br /> Un forfait de maintenance si vous souhaitez que je m’occupe des mises à jour.
-				<br /> Un site taillé pour votre réussite.
-				<br />Opter pour un site sur-mesure, c’est investir dans une solution durable, performante
-				et adaptée à vos besoins.
+				<br /> Ou encore, Un forfait de maintenance si vous souhaitez que nous nous occupions des mises à jour.
+				<br /> Bref, votre site vitrine est taillé pour votre réussite.
+				<br /><br>Opter pour un site sur-mesure, c’est investir dans une solution durable, performante
+				et adaptée à tous vos besoins.
 			</h3>
 		</div>
+		<h2 class="subtitle">Vous avez des questions ?</h2>
+		<a class="button" href="/webmaster-ouest-lyonnais">En savoir +</a>
+		
 	</div>
 
 	<!-- ***************SERVICES*************** -->
@@ -301,6 +308,23 @@
 			var(--primary) 80%
 		);
 	}
+	.button {
+			background-color: var(--cta);
+			color: var(--whiteGrey);
+			padding: 10px 20px;
+			border-radius: 10px;
+			text-decoration: none;
+			font-family: var(--Red);
+			max-width: 50%;
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+		.button:hover {
+			background-color: var(--primary);
+			border: 1px solid grey;
+			color: var(--whiteGrey);
+			transition: 0.4s ease-in-out;
+		}
 	.wrapper-text-hero {
 		display: flex;
 		flex-direction: column;
@@ -369,6 +393,9 @@
 		text-align: center;
 		width: 100%;
 		margin-top: 20px;
+	}
+	.bottom{
+		margin-bottom: 50px;
 	}
 	.wrapper-Csection {
 		grid-column: 1/13;
@@ -497,7 +524,7 @@
 			.hero{
 				background: linear-gradient(
 					to top,
-					var(--whiteGrey) 95%,
+					var(--whiteGrey) 94%,
 					var(--cta) 30%,
 					var(--cta) 40%,
 					var(--primary) 80%
