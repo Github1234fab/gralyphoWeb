@@ -52,9 +52,7 @@
 	.subtitle span {
 		font-weight: 700;
 	}
-	.wrapper__cta {
-		padding: 10px;
-	}
+
 
 	@media screen and (max-width: 768px) {
 		main {
@@ -73,8 +71,6 @@
 			font-size: 0.9rem;
 			line-height: 33px;
 		}
-		.wrapper__cta {
-			margin-bottom: 30px;
-		}
+		
 	}
 </style>

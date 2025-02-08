@@ -120,6 +120,7 @@
 		font-weight: 700;
 		color: var(--cta);
 		background: linear-gradient(90deg, rgb(107, 107, 213), rgb(203, 187, 232));
+		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		text-align: center;
