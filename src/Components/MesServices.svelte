@@ -1,7 +1,7 @@
 <script>
 	import Smartphone from '../Assets/smartphoneTech.jpeg';
 	import Atome from '../Assets/atome.png';
-	import Design from '../assets/design.png';
+	// import Design from '../assets/design.png';
 	import Flex from '../assets/flex.png';
 	import Rocket from '../assets/rocket.png';
 	import Seo from '../assets/seo.png';
