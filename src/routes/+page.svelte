@@ -22,7 +22,7 @@
 	import BannerThree from '../Components/bannerThree.svelte';
 	import Hero from '../Components/HeroHome.svelte';
 	import Header from "../sections/Header.svelte";
-	import MesServices from '../Components/MesServices.svelte';
+	import MyServices from '../Components/MyServices.svelte';
 	import Propositions from '../Components/Propositions.svelte';
 	import CTA from "../Components/CTA-section.svelte";
 </script>
@@ -33,7 +33,7 @@
 	
 	<!-- <HSection /> -->
 	<Hero />
-	<MesServices />
+	<MyServices/>
 	<Propositions/>
 	<CTA />
 
