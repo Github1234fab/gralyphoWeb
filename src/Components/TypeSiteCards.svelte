@@ -50,6 +50,7 @@
 		min-width: 200px;
 		max-width: 40%;
 		border-radius: 20px;
+		border: 1px solid var(--whiteGrey);
 		background-color: transparent;
 		box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.659);
 	}
@@ -63,6 +64,7 @@
 		padding: 10px;
 		border-radius: 10%;
 		margin-top: 20px;
+		
 	}
 	.wrapper-text {
 		display: flex;
@@ -78,7 +80,7 @@
 		font-size: var(--m);
 		border-radius: 8px;
 		text-decoration: none;
-		color: var(--primary);
+		color: var(--whiteGrey);
 		letter-spacing: -1px;
 	}
 	.title:hover {
@@ -137,9 +139,9 @@
 
 	@media screen and (max-width: 768px) {
 		.link-decouvrir {
-			padding: 13px;
+			padding: 15px;
 			width: auto;
-			font-size: 1.4em;
+			font-size: 0.8rem;
 		}
 	}
 </style>

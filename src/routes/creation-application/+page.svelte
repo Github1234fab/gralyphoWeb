@@ -5,7 +5,7 @@
 	import CardsSectionB from '../../Components/CardsSectionB.svelte';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	import imageApplication from '../../Assets/png-gralypho/app.png';
+	import imageApplication from '../../Assets/application-img.jpeg';
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 
@@ -40,7 +40,7 @@
 			alt="illustration d'un bonhomme qui ouvre un portable dans lequel il y a des logos d'applications"
 			class="image"
 		/>
-		<h1>Création<br /><span>d'applications</span></h1>
+		<h1>Création <span>d'applications</span></h1>
 		<h2>
 			L'agence Gralypho crée vos applications sur mesure.
 		</h2>
@@ -167,13 +167,23 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		align-items: center;
 		justify-content: center;
 		height: auto;
+		background: linear-gradient(
+			to top,
+			var(--whiteGrey) 68%,
+			var(--cta) 30%,
+			var(--cta) 40%,
+			var(--primary) 80%
+		);
+		padding: 20px;
 		
 	}
 	.image {
-		max-width: 30%;
-		min-width: 30%;
-		margin-top: 50px;
+		max-width: 40%;
+		min-width: 40%;
 		z-index: 2;
+		border-radius: 20px;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		margin-top: 40px;
 	}
 
 	.hero-applications h1 {
@@ -189,10 +199,10 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		margin-top: 70px;
 	}
 	.hero-applications h1 span {
-		color: var(--green);
+		color: var(--cta);
 	}
 	.hero-applications h2 {
-		font-family: poppins;
+		font-family: var(--Red);
 		font-weight: 500;
 		font-size: var(--m);
 		color: var(--primary);
@@ -341,23 +351,13 @@ width: 70%;
 		padding: 40px;
 	}
 
-	@media screen and (min-width: 576px) and (max-width: 767px) {
-		.wrapper-application-explication p {
-			width: 90%;
+	@media screen and (max-width: 767px) {
+		.hero-applications {
+			height: 800px;
+			background-color: red;
 		}
-		
 		.image {
-			min-width: 60%;
-		}
-	}
-
-	@media screen and (min-width: 300px) and (max-width: 575px) {
-		.wrapper-application-explication p {
-			width: 90%;
-		}
-		
-		.image {
-			min-width: 60%;
+			min-width: 80%;
 		}
 	}
 </style>

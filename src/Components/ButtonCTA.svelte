@@ -2,8 +2,8 @@
 
 <style>
 	a {
-		background-color: var(--cta);
-		color:  white;
+		background-color: var(--green);
+		color:  var(--primary);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
 		font-weight: 700;
@@ -12,7 +12,7 @@
 		padding: 15px 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		z-index: 999;
-		border: white 1px solid;
+		max-width: 100px;
  
 	}
         a:hover{

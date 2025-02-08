@@ -75,12 +75,14 @@ onMount(() => {
 <style>
 	.card-services {
 		opacity: 1;
+		flex: 1;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: transparent;
 		padding: 40px;
 		min-height: 500px;
+		max-width: 400px;
 		border-top: 1px solid var(--whiteGrey);
 		border-bottom: none;
 		border-right: none;

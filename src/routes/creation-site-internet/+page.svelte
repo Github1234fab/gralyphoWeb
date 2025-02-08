@@ -14,9 +14,10 @@
 	import Profits from '../../sections/SectionProfitsSite.svelte';
 	import Service from '../../Components/Services.svelte';
 	import imgDesign from '../../Assets/png-gralypho/30.png';
-	import imgSeo from '../../Assets/png-gralypho/05.png';
+	import imgSeo from '../../Assets/Site-internet-rapide.jpeg';
 	import imgWeb from '../../Assets/png-gralypho/cible.png';
 	import imgFormation from '../../Assets/png-gralypho/Web.png';
+	import imgRedaction from "../../Assets/png-gralypho//05.png";
 	import Banner from '../../Components/Banner.svelte';
 	import BeneficeSection from '../../sections/BeneficeSection.svelte';
 	import CardsSectionB from '../../Components/CardsSectionB.svelte';
@@ -31,14 +32,14 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import Profil from '../../Assets/Profils-gralypho/Ellipse 54.png';
 	import siteWeb from '../../Assets/png-gralypho/heroSiteWeb.png';
-	import Button from "../../Components/ButtonCTA.svelte";
+	import Button from '../../Components/ButtonCTA.svelte';
 	import HomePage from '../../Components/HomePage.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 
 	// let accordeonTab = [
 	// 	{
 	// 		title: 'Créer un site internet pour développer son activité est-il encore pertinent en 2025 ?',
-	// 		p:"Les choses ont changé, c’est indéniable ! Les intentions de recherche de la part des internautes ont explosé sur les réseaux sociaux ces trois dernières années. Aujourd’hui, les gens recherchent d’abord un produit sur TikTok, Facebook ou Instagram, parfois avant même de consulter le web. Pourquoi ? Parce que les contenus des réseaux sociaux sont rapides (les shorts), efficaces et concis. Prenons un exemple : je cherche un aspirateur-laveur. Je recherche sur TikTok et trouve rapidement une vidéo sur un produit ou un comparatif de plusieurs produits. C’est rapide et efficace. Cette vidéo me fournit des liens vers le fabricant. Je clique et suis dirigé vers le lien du fabricant. J’achète. C’est rapide et direct. Prenons maintenant le cas du web et de ses moteurs de recherche classiques. J’effectue la même recherche. Google me propose des liens sur une page que je dois faire défiler, et je dois cliquer sur chacun de ces liens qui ouvrent la page d’accueil d’un site de fabricant d’aspirateurs-laveurs ou d’un comparatif de prix. Je dois naviguer sur les pages pour trouver la réponse à ma recherche. Parfois, je ne trouve pas l’information tout de suite, et c’est là que les réseaux sociaux peuvent faire la différence. Chez Gralypho, agence web experte dans le domaine du web et de la création de sites internet et d’applications, nous pensons, comme beaucoup de spécialistes du SEO, qu’une présence en ligne à travers un site web est essentielle, tout comme une présence sur les réseaux sociaux. L’un mène à l’autre, et vice versa. C’est une maïeutique essentielle à un développement d’activité sans faille et à un business pérenne."	
+	// 		p:"Les choses ont changé, c’est indéniable ! Les intentions de recherche de la part des internautes ont explosé sur les réseaux sociaux ces trois dernières années. Aujourd’hui, les gens recherchent d’abord un produit sur TikTok, Facebook ou Instagram, parfois avant même de consulter le web. Pourquoi ? Parce que les contenus des réseaux sociaux sont rapides (les shorts), efficaces et concis. Prenons un exemple : je cherche un aspirateur-laveur. Je recherche sur TikTok et trouve rapidement une vidéo sur un produit ou un comparatif de plusieurs produits. C’est rapide et efficace. Cette vidéo me fournit des liens vers le fabricant. Je clique et suis dirigé vers le lien du fabricant. J’achète. C’est rapide et direct. Prenons maintenant le cas du web et de ses moteurs de recherche classiques. J’effectue la même recherche. Google me propose des liens sur une page que je dois faire défiler, et je dois cliquer sur chacun de ces liens qui ouvrent la page d’accueil d’un site de fabricant d’aspirateurs-laveurs ou d’un comparatif de prix. Je dois naviguer sur les pages pour trouver la réponse à ma recherche. Parfois, je ne trouve pas l’information tout de suite, et c’est là que les réseaux sociaux peuvent faire la différence. Chez Gralypho, agence web experte dans le domaine du web et de la création de sites internet et d’applications, nous pensons, comme beaucoup de spécialistes du SEO, qu’une présence en ligne à travers un site web est essentielle, tout comme une présence sur les réseaux sociaux. L’un mène à l’autre, et vice versa. C’est une maïeutique essentielle à un développement d’activité sans faille et à un business pérenne."
 	// },
 	// 	{
 	// 		title: 'Avec quels outils créer son site internet en 2025 ?',
@@ -131,15 +132,50 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<img src={siteWeb} alt=" site web illustrés sur des écrans" class="img-hero" />
+		<img src={imgSeo} alt=" site web illustrés sur des écrans" class="img-hero" />
 		<div class="wrapper-text-hero">
-			<h1>Création de <br /><span>Site Web</span></h1>
-			<h2 class="subtitle">
-				La création de site internet professionnel et sur mesure requiert une excellente expertise. 
-				<br> Dans le domaine du Web, la création du design (UI) représente seulement la face cachée de l'iceberg. <br>La partie immergée : le code, la sécurité, le référencement (SEO), l'expérience utilisateur (UX-design), la stratégie digitale, le marketing (...) est absolument fondamentale.
+			<h1>
+				Création de site vitrine
+				<br /> <span>ultra-rapide et sur mesure.</span>
+			</h1>
+			<h2 class="subtitle">Pourquoi la rapidité est essentielle ?</h2>
+			<h3 class="subtitle-h3">
+				Votre site est la vitrine de votre activité. S’il est lent, vos visiteurs partent avant même
+				d’avoir découvert vos services. Un site rapide, c’est :
+				<br />✔ Une meilleure expérience utilisateur
+				<br />✔ Un meilleur référencement Google (SEO)
+				<br />✔ Un taux de conversion plus élevé
+				<br />✔ Une navigation fluide sur tous les appareils
+			</h3>
+			<h2 class="subtitle">Pourquoi nous ne travaillons pas avec WordPress ?</h2>
+			<h3 class="subtitle-h3">
+				WordPress est une solution populaire, mais souvent lourde et peu optimisée. Il repose sur
+				des plugins qui alourdissent le site, compliquent la maintenance et ne requiert pas de code.
+				Résultat : des performances limitées, des failles de sécurité et des mises à jour
+				constantes. Certes WordPress est gratuit, mais les coûts cachés sont nombreux et les agences
+				WP l'ont bien compris !
+			</h3>
+			<h2 class="subtitle">Notre solution : un site sur-mesure, optimisé et évolutif !</h2>
+			<h3 class="subtitle-h3">
+				Nous développons votre site avec Svelte, notre framework adoré ! Moderne, hyper-rapide, il
+				nous permet de créer des sites ultra-rapides et légers. Contrairement à WordPress :
+				<br />✔ Un code propre et optimisé
+				<br />✔ Une sécurité renforcée (pas de failles dues aux plugins)
+				<br />✔ Un chargement quasi instantané
+				<br />✔ Un design totalement personnalisé
+			</h3>
 
-				<br><br>L'agence Web Gralypho, implantée dans la région Lyonnaise vous accommpagne sur toutes les phases de création de votre site internet avec des étapes claires et des tarifs maîtrisés.
-			</h2>
+			<h2 class="subtitle">Et pour la gestion du contenu ?</h2>
+			<h3 class="subtitle-h3">
+				Vous gardez la main ! Plusieurs solutions existent : Un formulaire simple intégré au site
+				pour modifier votre contenu en toute autonomie.
+				<br /> Un accès à un fichier clair et commenté sur GitHub pour faire des modifications
+				facilement.
+				<br /> Un forfait de maintenance si vous souhaitez que je m’occupe des mises à jour.
+				<br /> Un site taillé pour votre réussite.
+				<br />Opter pour un site sur-mesure, c’est investir dans une solution durable, performante
+				et adaptée à vos besoins.
+			</h3>
 		</div>
 	</div>
 
@@ -156,7 +192,7 @@
 			/>
 			<Service
 				text="Rédaction Web"
-				img={imgSeo}
+				img={imgRedaction}
 				description="Nous nous chargeons de rédiger pour vous l'ensemble du contenu textuel de votre site internet. Titre, paragraphe, slogan, CTA, bannière, section ..."
 				lien="/Design-site-web"
 			/>
@@ -177,16 +213,15 @@
 		</div>
 	</div>
 
-	<div class="wrapper__homepage">
-<HomePage />
-</div>
+
 
 	<!-- ***************TESTIMONIAL*************** -->
 
 	<div class="testimonial">
-		<h1>Amazing <br>Gralypho !</h1>
+		<h1>Amazing <br />Gralypho !</h1>
 		<h2>
-			"Merci à toute l'équipe de Gralypho. Une superbe collaboration pour un produit très efficace! "
+			"Merci à toute l'équipe de Gralypho. Une superbe collaboration pour un produit très efficace!
+			"
 		</h2>
 		<h4>"Éloïse Nguyen - CTO Rodiggia"</h4>
 		<img class="img" src={Profil} alt="" />
@@ -199,9 +234,9 @@
 	</div>
 
 	<div class="wrapper__faqLink">
-	<FaqLink/>
-	<a href="/FAQ/#site">FAQ</a>
-</div>
+		<FaqLink />
+		<a href="/FAQ/#site">FAQ</a>
+	</div>
 
 	<!-- ***************COLLAPSES*************** -->
 
@@ -250,6 +285,7 @@
 	.hero {
 		grid-column: 1/13;
 		grid-row: 1;
+		padding: 20px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -257,6 +293,13 @@
 		height: auto;
 		position: relative;
 		z-index: 0;
+		background: linear-gradient(
+			to top,
+			var(--whiteGrey) 76%,
+			var(--cta) 30%,
+			var(--cta) 40%,
+			var(--primary) 80%
+		);
 	}
 	.wrapper-text-hero {
 		display: flex;
@@ -264,15 +307,8 @@
 		align-items: center;
 		justify-content: center;
 	}
-	.wrapper__homepage{
-		grid-column: 1/13;
-		grid-row: 3;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.wrapper__faqLink{
+	
+	.wrapper__faqLink {
 		grid-column: 1/13;
 		grid-row: 8;
 		display: flex;
@@ -280,8 +316,8 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.wrapper__faqLink a{
-		font-family: 'Red Hat Display';
+	.wrapper__faqLink a {
+		font-family: var(--Red);
 		font-size: var(--m);
 		font-weight: 700;
 		color: var(--whiteGrey);
@@ -292,13 +328,14 @@
 		margin-bottom: 100px;
 		margin-top: 0px;
 		border-radius: 5px;
-		
 	}
 
 	.img-hero {
 		max-width: 30%;
 		min-width: 30%;
 		margin-top: 30px;
+		border-radius: 20px;
+		box-shadow: 0px 30px 10px rgba(5, 5, 5, 0.365);
 	}
 	.hero h1 {
 		text-align: center;
@@ -307,25 +344,31 @@
 		font-size: 2.5rem;
 		color: var(--primary);
 		margin-top: 0px;
-		letter-spacing: -2px;
+		letter-spacing: -1px;
 		padding: 0px;
 		line-height: 50px;
 		margin-top: 70px;
 		width: 50%;
 	}
 	.hero h1 span {
-		color: var(--green);
+		color: var(--cta);
 	}
 	.subtitle {
-		font-family: poppins;
+		font-family: var(--Red);
+		font-weight: 400;
+		font-size: 1.8rem;
+		color: var(--primary);
+		text-align: center;
+		margin-top: 50px;
+	}
+	.subtitle-h3 {
+		font-family: var(--Poppins);
 		font-weight: 300;
 		font-size: var(--m);
 		color: var(--primary);
 		text-align: center;
-		width: 50%;
-		margin-top: 50px;
-		margin-bottom: 100px;
-		max-width: 70%;
+		width: 100%;
+		margin-top: 20px;
 	}
 	.wrapper-Csection {
 		grid-column: 1/13;
@@ -334,6 +377,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		background-color: var(--primary);
+		padding: 100px;
 	}
 	.container-service {
 		grid-column: 2/12;
@@ -370,37 +415,6 @@
 		height: 100px;
 		border-radius: 50%;
 	}
-
-	/* .wrapper-SectionB {
-		grid-column: 1/13;
-		grid-row: 6;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 150px;
-		margin-bottom: 50px;
-	}
-	.wrapper-SectionB h2 {
-		text-align: center;
-		font-family: 'Red Hat Display';
-		font-size: var(--l);
-		font-weight: 700;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -1px;
-		margin-bottom: 50px;
-	}
-	.wrapper-SectionB h3 {
-		text-align: center;
-		font-family: 'Red Hat Display';
-		font-size: var(--m);
-		font-weight: 400;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: 0px;
-		margin-bottom: 50px;
-	} */
 
 	.wrapper-form {
 		grid-column: 1/13;
@@ -465,15 +479,34 @@
 			line-height: 1em;
 		}
 
-		@media screen  and (max-width: 1224px) {
+		@media screen and (max-width: 1224px) {
+			.hero {
+				background: linear-gradient(
+					to top,
+					var(--whiteGrey) 86%,
+					var(--cta) 30%,
+					var(--cta) 40%,
+					var(--primary) 80%
+				);
+			}
 			.hero h1 {
 				line-height: 1em;
 			}
 		}
 		@media screen and (max-width: 768px) {
+			.hero{
+				background: linear-gradient(
+					to top,
+					var(--whiteGrey) 95%,
+					var(--cta) 30%,
+					var(--cta) 40%,
+					var(--primary) 80%
+				);
+			}
 			.hero h1 {
 				line-height: 40px;
 				font-size: var(--l);
+				width: 100%;
 			}
 			.wrapper-service {
 				grid-column: 1/13;
@@ -486,14 +519,18 @@
 				gap: 10px;
 			}
 			.img-hero {
-				max-width: 70%;
-				min-width: 70%;
+				max-width: 80%;
+				min-width: 80%;
 				margin-top: 30px;
 			}
-			.wrapper__faqLink{
-				height: 700px
+			.wrapper__faqLink {
+				height: 700px;
 			}
-			.subtitle{
+			.subtitle {
+				width: 100%;
+				padding: 0px;
+			}
+			.subtitle-h3 {
 				width: 100%;
 				padding: 0px;
 			}

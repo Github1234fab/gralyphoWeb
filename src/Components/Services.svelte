@@ -7,7 +7,7 @@
 
 <div class="card-services">
 	<div class="wrapper-text">
-		<div class="text-services">{text}</div>
+		<h2 class="text-services">{text}</h2>
 		<p class="description-services">{description}</p>
 	</div>
 	<img class="img-services" src={img} alt="" />
@@ -22,11 +22,11 @@
 		align-items: center;
 		gap: 20px;
 		min-height: 600px;
-		width: 80%;
-		background-color: white;
+		max-width: 50%;
+		background-color: var(--primary);
 		overflow: hidden;
 		padding: 20px;
-		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.526);
 	}
 	.wrapper-text {
 		display: flex;
@@ -36,10 +36,10 @@
 		padding: 20px;
 	}
 	.text-services {
-		font-family: epilogue;
-		font-weight: 700;
-		color: var(--primary);
-		font-size: var(--m);
+		font-family: var(--Red);
+		font-weight: 800;
+		color: var(--whiteGrey);
+		font-size: var(--l);
 		text-align: left;
 		letter-spacing: -0.05em;
 
@@ -47,7 +47,7 @@
 	.description-services {
 		font-family: poppins;
 		font-weight: 400;
-		color: var(--primary);
+		color: var(--whiteGrey);
 		font-size: var(--s);
 		text-align: left;
 		letter-spacing: -0em;

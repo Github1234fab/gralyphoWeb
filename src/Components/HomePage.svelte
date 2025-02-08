@@ -246,7 +246,7 @@
 			</div>
 			<p class="text">
 				Absolument! Nous concevons tous nos sites pour qu’ils soient faciles à gérer. Grâce à des
-				outils intuitifs (comme WordPress, Wix ou un CMS personnalisé), vous pourrez modifier les
+				outils intuitifs (Webflow, Wix ou un CMS personnalisé), vous pourrez modifier les
 				textes et images. Ajouter de nouvelles pages ou articles. Mettre à jour vos informations en
 				quelques clics. Nous vous proposons également des formations pour vous aider à prendre en
 				main votre site, une fois livré.
@@ -254,7 +254,7 @@
 			<div class="wrapper__button-cta">
 				<p class="button__text">
 					<span
-						>Contactez-nous pour que nous puissions l'administration de votre site.</span
+						>Contactez-nous pour que nous puissions parlez ensemble de l'administration de votre site.</span
 					>
 				</p>
 				<ButtonCta />

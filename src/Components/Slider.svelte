@@ -98,7 +98,6 @@
 		{#each slides as slide}
 			<div class="slide">
 				<a href={slide.lien} target="_blank">Visitez</a>
-				<!-- <h3 class="title">{slide.title}</h3> -->
 				<img class="img" src={slide.image} alt={slide.title} />
 			</div>
 		{/each}
@@ -107,7 +106,7 @@
 
 <style>
 	.slider {
-		width: 55%;
+		width: 45%;
 		border-radius: 5px;
 		overflow: hidden;
 		margin: 40px auto;

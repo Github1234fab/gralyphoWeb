@@ -6,31 +6,31 @@
 	import iconSatelit from '../Assets/icon-satelit.svg';
 	import IconFB from '../Assets/icon-fb.svg';
 	import IconStrategy from '../Assets/icon-strategy.svg';
-		import AutoText from '../Components/AutoText.svelte';
+	import AutoText from '../Components/AutoText.svelte';
 	import { bounceIn } from 'svelte/easing';
 
 	const servicesTab = [
-		{
-			title: 'Site Web',
-			lien: '/creation-site-internet',
-			icon: IconWifi,
-			p: "Un site web unique et sur mesure, créé et développé pour optimiser le développement et la croissance de votre entreprise."
-		},
-		{
-			title: 'Application',
-			lien: '/creation-application',
-			icon: iconApplication,
-			p: "Une application web sur mesure pour vous permettre au quoitidien de gérer, de calculer, d'optimiser, de générer, d'automatiser, etc."
-		},
+		// {
+		// 	title: 'Site Web',
+		// 	lien: '/creation-site-internet',
+		// 	icon: IconWifi,
+		// 	p: 'Un site web unique et sur mesure, créé et développé pour optimiser le développement et la croissance de votre entreprise.'
+		// },
+		// {
+		// 	title: 'Application',
+		// 	lien: '/creation-application',
+		// 	icon: iconApplication,
+		// 	p: "Une application web sur mesure pour vous permettre au quoitidien de gérer, de calculer, d'optimiser, de générer, d'automatiser, etc."
+		// },
 		{
 			title: 'Communication',
 			lien: '/creation-design-logos',
 			icon: iconPalette,
-			p: "Création de logos et de supports de communication."
+			p: 'Création de logos et de supports de communication.'
 		},
 		{
 			title: 'Référencement et SEO',
-			lien: '/referencement-seo-sea', 
+			lien: '/referencement-seo-sea',
 			icon: iconSatelit,
 			p: 'Stratégie de référencement naturel pour une première place dans les moteurs de recherche.'
 		},
@@ -43,14 +43,12 @@
 		},
 		{
 			title: 'Stratégie Digitale',
-			lien: '/etude-strategie-digitale',	
-			
+			lien: '/etude-strategie-digitale',
+
 			icon: IconStrategy,
-			p: "Étude de stratégie digitale sur mesure. Benchmarking - Seo - Marketing"
+			p: 'Étude de stratégie digitale sur mesure. Benchmarking - Seo - Marketing'
 		}
 	];
-
-
 </script>
 
 <section class="E-section">
@@ -58,14 +56,8 @@
 
 	<div class="wrapper-text">
 		<h2>Nos solutions digitales, pour le succès de votre entreprise.</h2>
-		<div class="autoText">	<AutoText/></div>
-	
-		<!-- <h3>
-			Nous répondons à vos besoins avec des produits digitaux <span>adaptés à votre business</span>, au plus près de votre
-			identité et de vos exigences. <br />Nous vous accompagnons
-			<span>sur toutes les étapes de votre projet</span>, de la conception à la livraison.
-			
-		</h3> -->
+		<div class="autoText"><AutoText /></div>
+
 	</div>
 
 	<div class="wrapper-cards-services">
@@ -94,10 +86,10 @@
 		overflow: hidden;
 	}
 
-	:global(.card-services) {
+	/* :global(.card-services) {
 		flex: 1 1 25%;
 		min-height: 400px;
-	}
+	} */
 
 	.wrapper-text {
 		grid-column: 2/ 12;

@@ -7,7 +7,7 @@
 	import ESection from '../sections/ESection.svelte';
 	// import FSection from "../sections/FSection.svelte";
 	import GSection from '../sections/GSection.svelte';
-	import HSection from '../sections/HSection.svelte';
+	// import HSection from '../sections/HSection.svelte';
 	import JSection from '../sections/JSection.svelte';
 	// import SectionValue from "../sections/SectionValue.svelte";
 	import { fade, slide } from 'svelte/transition';
@@ -20,26 +20,35 @@
 	import BannerOne from '../Components/bannerOne.svelte';
 	import BannerTwo from '../Components/bannerTwo.svelte';
 	import BannerThree from '../Components/bannerThree.svelte';
-	// import HomePage from '../Components/HomePage.svelte';
-
+	import Hero from '../Components/HeroHome.svelte';
+	import Header from "../sections/Header.svelte";
+	import MesServices from '../Components/MesServices.svelte';
+	import Propositions from '../Components/propositions.svelte';
+	import CTA from "../Components/CTA-section.svelte";
 </script>
 
 <main in:fade={{ duration: 2000 }}>
+	<Header />
 	<!-- <Mouse /> -->
-	<HSection />
 	
+	<!-- <HSection /> -->
+	<Hero />
+	<MesServices />
+	<Propositions/>
+	<CTA />
+
+
+	<!-- <Difference /> -->
+
+
+
+	<!-- <BannerOne /> -->
+	<GSection />
+	<!-- <BannerThree /> -->
 	<section id="sectionE">
 		<ESection />
 	</section>
-	<!-- <HomePage /> -->
-	<Difference />
 
-	<!-- <BannerTwo /> -->
-
-	<BannerOne />
-	<GSection />
-	<BannerThree />
-	<!-- <JSection /> -->
 	<Form />
 </main>
 

@@ -1,12 +1,21 @@
+<script>
+	import gralypho from '../Assets/gralyphoLogoHeader.png';
+</script>
+
 <div class="rect">
+	<!-- <h2 class="subtitle">Agence Web</h2> -->
+	<img class="logo" src={gralypho} alt="logo de Gralypho" />
 	<h1 class="title">Gralypho</h1>
-	<h2 class="subtitle">Agence Web</h2>
 </div>
 
 <style>
+	.logo {
+		width: 45px;
+		height: 45px;
+	}
 	.rect {
 		display: flex;
-		flex-direction: column;
+		gap: 0px;
 		min-width: 20%;
 		height: 40px;
 		font-weight: 600;
@@ -16,17 +25,18 @@
 		margin-left: 0px;
 	}
 	.title {
-		font-family: "Baumans";
-		font-size: 1.5rem;
+		font-family: var(--Poppins);
+		font-size: 1rem;
 		color: var(--whiteGrey);
 		margin-top: 2px;
-		font-weight: 900;
+		font-weight: 600;
+		letter-spacing: -1px;
 	}
 
 	.rect:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	.subtitle {
+	/* .subtitle {
 		font-family: var(--Architects);
 		color: var(--green);
 		font-size: 1rem;
@@ -38,7 +48,7 @@
 		margin-top: -7px;
 		rotate: 0deg;
 		margin-left: 0px;
-	}
+	} */
 
 	@keyframes bounce {
 		0% {
