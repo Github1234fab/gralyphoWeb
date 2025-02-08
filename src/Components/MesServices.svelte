@@ -40,7 +40,7 @@
 			</div>
 			<div class="wrapper__sectionByThree">
 				<div class="wrapper__cards-card">
-					<img class="logo" src={Design} alt="une plume colorée" />
+					<!-- <img class="logo" src={Design} alt="une plume colorée" /> -->
 					<h3 class="subtitle-h3">Design moderne</h3>
 					<h4 class="subtitle-h4">Une expérience utilisateur <br />fluide et intuitive</h4>
 				</div>
