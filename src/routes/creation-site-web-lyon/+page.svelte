@@ -1,7 +1,7 @@
 <script>
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Header from '../../sections/Header.svelte';
-    import ButtonCta from '../../Components/buttonCta.svelte';
+    import ButtonCta from "../../Components/ButtonCTA.svelte";
 </script>
 
 <Header/>
@@ -11,7 +11,7 @@
         <img class="img" src="https://images.pexels.com/photos/8430273/pexels-photo-8430273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Lyon" />
     </div>
 	<div class="wrapper__text">
-		<h2 class="subtitle">Coment créer un site internet ou une application ?</h2>
+		<h2 class="subtitle">Comment créer un site internet ?</h2>
 		<h3 class="subtitle__h3">CMS ? Code ? Hybride ?</h3>
 		<p class="paragraph">
 			Pour créer un site internet rapidement et très facilement, il y a bien sûr Wordpress ou Wix. 
