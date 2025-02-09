@@ -27,7 +27,7 @@
 		align-items: center;
 		background-color: var(--primary);
 		background-image: var(--gradient);
-		padding: 50px;
+		padding: 100px;
 	}
 	.wrapper {
 		display: flex;
@@ -45,7 +45,7 @@
 	}
 	.subtitle {
 		font-size: 1rem;
-		font-weight: 200;
+		font-weight: 400;
 		font-family: var(--Red);
 		color: var(--whiteGrey);
 	}
