@@ -48,30 +48,31 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.gralypho.com/tarifs</loc>
     <lastmod>2025-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>  <url>
+  </url>
+  <url>
     <loc>https://www.gralypho.com/agence-web-Lyon-creation-site-internet-seo</loc>
     <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.gralypho.com/agence-web-monts-du-Lyonnais</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.gralypho.com/agence-web-region-Lyonnaise</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.gralypho.com/site-internet-Lyon</loc>
     <lastmod>2025-01-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -83,21 +84,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.gralypho.com/site-internet-CMS</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.gralypho.com/webmaster-ouest-lyonnais</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
-      <loc>https://www.gralypho.com/creation-site-web-lyon</loc>
-      <lastmod>2025-02-09</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+  <url>
+    <loc>https://www.gralypho.com/creation-site-web-lyon</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
