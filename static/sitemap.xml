@@ -95,4 +95,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+      <loc>https://www.gralypho.com/creation-site-web-lyon</loc>
+      <lastmod>2025-02-09</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
 </urlset>

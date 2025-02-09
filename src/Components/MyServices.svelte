@@ -163,7 +163,8 @@
 		border-radius: 10px;
 		text-decoration: none;
 		font-family: var(--Red);
-		max-width: 50%;
+		max-width: 120px;
+		text-align: center;
 	}
 	.button:hover {
 		background-color: var(--primary);
