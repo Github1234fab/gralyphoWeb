@@ -41,7 +41,7 @@
 		color: var(--whiteGrey);
 		font-size: var(--l);
 		text-align: left;
-		letter-spacing: -0.05em;
+		/* letter-spacing: -0.05em; */
 
 	}
 	.description-services {
