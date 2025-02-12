@@ -9,11 +9,12 @@
 <main>
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
 	<h3 class="subtitle-h2">
-		Nous concevons des sites internet sur mesure, en utilisant Svelte et Strapi, en CMS Headless.
-		<br />Ces technologies modernes vous offrent une rapidité inégalée et vous permettent de vous
+		Parce que nous apportons des solutions modernes à votre entreprise en répondant à 100% à vos besoins.
+		<br>Nous concevons des sites internet sur mesure, en utilisant Svelte et Strapi, en CMS Headless.
+		<br />Nos technologies modernes vous offrent une rapidité inégalée et vous permettent de vous
 		distinguer de votre concurrence.
-		<br /> Nous développons des applications PWA en utilisant Firebase, pour le backend, ce qui accèlere
-		considérablement le délai de développement.
+		<br /> Nous développons également des applications PWA, pour apporter de solutions concrètes et sur mesure 
+		<br>à vos besoins de gestion, d'organsiation, de communication et de d'administration.
 	</h3>
 	<div class="container">
 		<div class="wrapper__cards">
@@ -114,7 +115,8 @@
 	}
 	.subtitle-h2 {
 		font-size: 1rem;
-		font-weight: 400;
+		font-weight: 500;
+		line-height: 35px;
 		color: rgb(202, 202, 202);
 		margin-top: 20px;
 		font-family: var(--Red);

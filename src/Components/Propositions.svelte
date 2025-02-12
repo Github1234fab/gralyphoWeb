@@ -18,7 +18,7 @@
 		},
 		{
 			type: 'Application PWA',
-			description: 'Une solution web accessible partout, dans une appli mobile.',
+			description: 'Des solutions concrètes pour répondre aux besoins de votre entreprise.',
 			img: 'Seo',
 			alt: 'illustration sur le SEO',
 			lien: '/creation-application'

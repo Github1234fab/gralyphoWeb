@@ -8,7 +8,7 @@
 	import imageApplication from '../../Assets/application-img.jpeg';
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
-
+	import { LineCurve } from 'three';
 
 	// let collapseTab = [
 	// 	{
@@ -40,18 +40,15 @@
 			alt="illustration d'un bonhomme qui ouvre un portable dans lequel il y a des logos d'applications"
 			class="image"
 		/>
-		<h1>Création <span>d'applications</span></h1>
-		<h2>
-			L'agence Gralypho crée vos applications sur mesure.
-		</h2>
+		<h1>Création d'<span>applications PWA</span></h1>
+		<h2>Apporter des solutions concrète à la gestion de votre entreprise.</h2>
 		<Button />
 	</div>
 
 	<!-- ++++++++++++LES ÉTAPES++++++++++++++ -->
 
 	<div class="wrapper-application-explication">
-		<h2>Notre développement d'application sur mesure</h2>
-		
+		<h2>Panorama des différents styles d'applications</h2>
 
 		<h3>Les applications entièrement dédiées à Android ou IOS</h3>
 		<p>
@@ -72,7 +69,7 @@
 			utilisateur cohérente sur Android et iOS, tout en offrant des performances adaptées et des
 			fonctionnalités communes aux deux plateformes.
 		</p>
-		<h3>Les applications PWA</h3>
+		<h3 class="bold">Les applications PWA</h3>
 		<p>
 			Les applications PWA (Progressive Web Apps) sont des applications web qui combinent les
 			avantages d’un site internet et d’une application mobile. Elles sont accessibles via un
@@ -82,23 +79,22 @@
 			optimales.
 		</p>
 		<div class="wrapper__creer-une-application">
-			<h2>Pourquoi investir dans une application ?</h2>
+			<h2>Pourquoi investir dans une application PWA ?</h2>
 			<img
 				class="img"
 				src="https://www.aquilapp.fr/wp-content/uploads/2023/12/Quest-ce-quune-application-mobile.png.webp"
 				alt="smartphone avec des icônes d'applications"
 			/>
 			<p>
-				Créer votre propre application permet de répondre précisément aux besoins de vos
-				utilisateurs, de renforcer votre image de marque et d’offrir une expérience personnalisée.
-				C’est un excellent moyen d’augmenter votre visibilité, de fidéliser vos clients et de
-				générer de nouvelles opportunités grâce à des fonctionnalités uniques adaptées à votre
-				activité.
-				<br /><br /> Une application peut permettre à un restaurant de gérer ses commandes en ligne,
-				à un coach sportif de proposer des séances personnalisées, à une boutique de fidéliser ses clients
-				via des notifications, ou encore à une entreprise de faciliter l’accès à ses services en mobilité.
-				C’est un outil puissant pour améliorer l’expérience client et se démarquer.
+				Parce qu'en tant que dirigeant de PME ou TPE vous avez des besoins en matière de gestion,
+				d'organsiation, de planification, de communication et d'administration.
+				<br /> Une application PWA, construite sur mesure peut vous apporter des solutions concrètes
+				et vous aider. Elle peut vous permettre de gérer des stocks, de maîtriser des coûts, de planifier
+				des tâches, des rendez-vous, d'organiser et de gérer vos équipes... Il est même possible d'intégrer
+				l'IA dans son fonctionnement. Avant cela, l'idée est simple et passe par un audit gratuit de
+				votre entreprise et de ses besoins. Prêt pour un rendez-vous d'audit gratuit ?
 			</p>
+			<Button />
 		</div>
 		<div class="wrapper__creer-une-application">
 			<h2>Le choix de la PWA</h2>
@@ -108,19 +104,36 @@
 				alt="smartphone avec des icônes d'applications"
 			/>
 			<p>
-				Gralypho, agence web implantée à Lyon et dans l'ouest Lyonnais, est spécialisée dans la création d'application PWA.
-				<br>
-				Les PWA (Progressive Web Apps) sont des applications web qui combinent les avantages d’un site internet et d’une application mobile.
-				Nous utilisons les dernières technologies pour concevoir des PWA performantes, rapides et sécurisées, adaptées à tous les appareils et à tous les systèmes d’exploitation. <br>
-
-<br> Nous sommes spécialisés dans le développement des application PWA, parce que nous pensons qu'elles constituent l'avenir de l'application. <br><br>
-Les applications PWA ressemblent à un site web normal. Mais il est possible très simplement, en un click, de télécharger l'application. Le site internet se transforme dès lors en une application. 
-<br><br> Les applications PWA ne souffrent pas du conlfit android/ios. <br><br> Elles sont compatibles avec tous les navigateurs, tous les systèmes d'exploitation et tous les appareils. 
-<br> Elles sont également très légères et ne prennent pas de place sur le téléphone de l'utilisateur. 
-<br><br>Elles comportent maintenant toutes les fonctionnalités des application natives (accès au smartphone, à la caméra, au gps, aux notifications push, etc.).
-<br>Elles sont également très rapides et très fluides. Elles sont moins intrusives puisque l'utilisateur n'est pas obligé de les télécharger depuis un store. Elles sont également moins coûteuses à développer. Elles offrent une expérience d'installation fluide et légère pour les utilisateurs et fonctionnent hors réseaux cellulaire.</p>
-		
-			
+				Les PWA (Progressive Web Apps) ont le vent en poupe. Pour quelles raisons ? Parce qu'elles
+				sont plus légères que les autres, se développent plus facilement et rapidement. Elles
+				permettent aujourd'hui d'accéder aux mêmes fonctionnalités que les apps android ou ios, à
+				savoir accès au smartphone, à sa camera, son gps, ses données ...
+				<br />Elles combinent les avantages du web et d’une application mobile. Elles sont
+				performantes, rapides et sécurisées, légères et adaptées à tous les appareils et à tous les
+				systèmes d’exploitation. <br />
+				<br /> Nous sommes spécialisés dans le développement des application PWA, parce que nous
+				pensons qu'elles constituent l'avenir de l'application. <br /><br />
+				Les applications PWA ressemblent à un site web, que l'on peut télécharger et dès lors, le site
+				internet se transformera en application qui peut tourner sans connection internet.
+				<br />
+				<br />
+				<li>Les applications PWA ne souffrent pas du conlfit android/ios.</li>
+				<li>
+					Elles sont compatibles avec tous les navigateurs, tous les systèmes d'exploitation et tous
+					les appareils.
+				</li>
+				<li>Elles sont également très rapides et très fluides.</li>
+				<li>
+					Elles sont moins intrusives puisque l'utilisateur n'est pas obligé de les télécharger
+					depuis un store.
+				</li>
+				<li>Elles sont également moins coûteuses à développer.</li>
+				<li>
+					Elles offrent une expérience d'installation fluide et légère pour les utilisateurs et
+					fonctionnent hors réseaux cellulaire.
+				</li>
+			</p>
+			<Button />
 		</div>
 	</div>
 
@@ -175,7 +188,6 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 			var(--primary) 80%
 		);
 		padding: 20px;
-		
 	}
 	.image {
 		max-width: 40%;
@@ -183,7 +195,6 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		z-index: 2;
 		border-radius: 20px;
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
-	
 	}
 
 	.hero-applications h1 {
@@ -207,7 +218,7 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		font-size: var(--m);
 		color: var(--primary);
 		text-align: center;
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-bottom: 50px;
 		width: 80%;
 	}
@@ -229,7 +240,7 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		font-size: var(--m);
 		color: white;
 		text-align: center;
-		margin-top: 70px;
+		margin-top: 90px;
 		width: 90%;
 	}
 	.wrapper-testimonial h3 {
@@ -239,6 +250,9 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		color: var(--whiteGrey);
 		text-align: center;
 		margin-bottom: 50px;
+	}
+	.bold {
+		font-weight: bolder !important;
 	}
 
 	.wrapper__faqLink {
@@ -269,7 +283,7 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		margin-top:0px;
+		margin-top: 0px;
 		margin-bottom: 50px;
 	}
 	.wrapper-application-explication h2 {
@@ -280,7 +294,9 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		color: var(--primary);
 		letter-spacing: -1px;
 		padding: 15px;
+		margin-top: 50px;
 	}
+
 	.wrapper-application-explication h3 {
 		text-align: center;
 		font-family: 'Red Hat Display';
@@ -291,7 +307,6 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		padding: 5px;
 		margin-top: 30px;
 	}
-
 
 	.wrapper-application-explication p {
 		font-family: 'poppins';
@@ -319,13 +334,12 @@ Les applications PWA ressemblent à un site web normal. Mais il est possible tr�
 		align-items: center;
 		margin-top: 20px;
 	}
-	.wrapper__creer-une-application p{
-	padding: 40px;
+	.wrapper__creer-une-application p {
+		padding: 40px;
 	}
-	.wrapper__creer-une-application h2{
-width: 70%;
+	.wrapper__creer-une-application h2 {
+		width: 70%;
 	}
-
 
 	@keyframes bounce {
 		0% {
@@ -348,7 +362,7 @@ width: 70%;
 	.img {
 		height: 300px;
 		width: 400px;
-		padding: 40px;
+		padding: 0px;
 	}
 
 	@media screen and (max-width: 767px) {

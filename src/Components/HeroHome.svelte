@@ -19,8 +19,8 @@
 	<div class="wrapper__text2">
 		<h3>
 			Nous concevons des sites vitrines, e-commerces et des applications web PWA.
-			<br /> Nous utilisons les nouvelles technologies pour vous offrir des solutions <br /> modernes,
-			flexibles, adaptées et optimisées.
+			<br /> Nous utilisons les toutes dernières technologies pour vous offrir des solutions <br /> modernes,
+			flexibles et adaptées.
 		</h3>
 		<div class="wrapper__logos">
 			<a href="https://firebase.google.com/" target="_blank"
