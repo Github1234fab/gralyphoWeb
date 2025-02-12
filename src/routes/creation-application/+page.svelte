@@ -8,7 +8,7 @@
 	import imageApplication from '../../Assets/application-img.jpeg';
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
-	import { LineCurve } from 'three';
+	// import { LineCurve } from 'three';
 
 	// let collapseTab = [
 	// 	{
