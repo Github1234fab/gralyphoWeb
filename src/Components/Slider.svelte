@@ -1,8 +1,8 @@
 <script>
 	import Photo from '../Assets/portfolio/photo.png';
 	import Guitare from '../Assets/portfolio/guitare.png';
-		import myFood from '../Assets/portfolio/myFood.png';
-	
+	import myFood from '../Assets/portfolio/myFood.png';
+
 	import Booki from '../Assets/portfolio/booki.png';
 	import Morpion from '../Assets/portfolio/morpion.png';
 	import Meteo from '../Assets/portfolio/meteo.png';
@@ -12,8 +12,8 @@
 	import Issétys from '../Assets/portfolio/issetys.png';
 	import synthetiser from '../Assets/png-gralypho/application_synthtiser.png';
 	import Pendu from '../Assets/png-gralypho/lependu_application.png';
-	import Info from  '../Assets/png-gralypho/site internet_presse.png';
-	import gps from  '../Assets/gps2.png';
+	import Info from '../Assets/png-gralypho/site internet_presse.png';
+	import gps from '../Assets/gps2.png';
 
 	let currentIndex = 0;
 	const slides = [
@@ -27,7 +27,7 @@
 			image: Rocket,
 			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
-	
+
 		{
 			title: 'Site web - Le lion Taxi',
 			image: LionTaxi,
@@ -83,7 +83,7 @@
 			title: 'Site web - Presse',
 			image: Info,
 			lien: 'https://fanciful-taiyaki-b32670.netlify.app/'
-		},
+		}
 	];
 
 	const nextSlide = () => {
@@ -107,16 +107,19 @@
 				<img class="img" src={slide.image} alt={slide.title} />
 			</div>
 		{/each}
-	</div>v
+	</div>
+	v
 </div>
 
 <style>
 	.slider {
-		width: 45%;
-		border-radius: 5px;
+		border: 1px solid white;
+		width: 55%;
+		border-radius: 50px;
 		overflow: hidden;
 		margin: 40px auto;
 		position: relative;
+		box-shadow: 20px 20px 50px rgb(0, 0, 0);
 	}
 
 	.slides {
@@ -211,7 +214,6 @@
 			overflow: hidden;
 			margin: 0px auto;
 			position: relative;
-		
 		}
 
 		.img {
