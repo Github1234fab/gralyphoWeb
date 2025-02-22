@@ -363,6 +363,7 @@
 		height: 300px;
 		width: 400px;
 		padding: 0px;
+		border-radius: 8px;
 	}
 
 	@media screen and (max-width: 767px) {

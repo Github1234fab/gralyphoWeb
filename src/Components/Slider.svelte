@@ -13,9 +13,15 @@
 	import synthetiser from '../Assets/png-gralypho/application_synthtiser.png';
 	import Pendu from '../Assets/png-gralypho/lependu_application.png';
 	import Info from  '../Assets/png-gralypho/site internet_presse.png';
+	import gps from  '../Assets/gps.png';
 
 	let currentIndex = 0;
 	const slides = [
+		{
+			title: 'PWA',
+			image: gps,
+			lien: 'https://legendary-fairy-b3532c.netlify.app//'
+		},
 		{
 			title: 'Site web - Rocket Agency',
 			image: Rocket,
@@ -146,20 +152,24 @@
 		justify-content: space-between;
 		transform: translateY(-50%);
 		z-index: 1;
+		padding: 20px;
 	}
 
 	button {
 		background-color: transparent;
 		border: none;
-		color: white;
+		color: rgb(255, 255, 255);
 		padding: 10px;
 		cursor: pointer;
 		transition: background-color 0.3s;
 		width: 50px;
-		font-size: 2rem;
+		height: 50px;
+		font-size: 1rem;
+		text-align: center;
 		font-weight: bolder;
 		background-color: var(--cta);
 		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	}
 	button:hover {
 		background-color: transparent;
