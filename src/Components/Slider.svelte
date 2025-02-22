@@ -13,7 +13,7 @@
 	import synthetiser from '../Assets/png-gralypho/application_synthtiser.png';
 	import Pendu from '../Assets/png-gralypho/lependu_application.png';
 	import Info from  '../Assets/png-gralypho/site internet_presse.png';
-	import gps from  '../Assets/gps.png';
+	import gps from  '../Assets/gps2.png';
 
 	let currentIndex = 0;
 	const slides = [
