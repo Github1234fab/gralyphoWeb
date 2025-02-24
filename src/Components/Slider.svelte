@@ -108,7 +108,6 @@
 			</div>
 		{/each}
 	</div>
-	v
 </div>
 
 <style>
