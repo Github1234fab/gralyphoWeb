@@ -1,5 +1,5 @@
 <script>
-	import gralypho from '../Assets/logoGralypho2.jpeg';
+	import gralypho from '../Assets/logoGralypho.jpeg';
 </script>
 
 <div class="rect">
@@ -12,7 +12,7 @@
 	.logo {
 		width: 50px;
 		height: 50px;
-		border-radius: 50%;
+		border-radius: 8px;
 	}
 	.rect {
 		display: flex;
@@ -29,9 +29,10 @@
 		font-family: var(--Poppins);
 		font-size: 0.8rem;
 		color: var(--whiteGrey);
-		margin-top: 5px;
+		margin-top: 0px;
 		font-weight: 600;
 		letter-spacing: -1px;
+		margin-left: 5px;
 	}
 
 	.rect:hover {
