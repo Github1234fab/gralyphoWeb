@@ -1,5 +1,5 @@
 <script>
-	import gralypho from '../Assets/gralyphoLogoHeader.png';
+	import gralypho from '../Assets/logoGralypho2.jpeg';
 </script>
 
 <div class="rect">
@@ -10,8 +10,9 @@
 
 <style>
 	.logo {
-		width: 45px;
-		height: 45px;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
 	}
 	.rect {
 		display: flex;
@@ -26,9 +27,9 @@
 	}
 	.title {
 		font-family: var(--Poppins);
-		font-size: 1rem;
+		font-size: 0.8rem;
 		color: var(--whiteGrey);
-		margin-top: 2px;
+		margin-top: 5px;
 		font-weight: 600;
 		letter-spacing: -1px;
 	}
