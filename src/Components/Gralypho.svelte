@@ -1,5 +1,5 @@
 <script>
-	import gralypho from '../../static/logoGralypho.jpeg';
+	import gralypho from '../Assets/logoGralypho.jpeg';
 </script>
 
 <div class="rect">
