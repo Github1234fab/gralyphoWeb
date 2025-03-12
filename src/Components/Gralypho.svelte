@@ -1,9 +1,9 @@
-<script>
+<!-- <script>
 	import gralypho from '../Assets/logoGralypho.jpeg';
 </script>
 
 <div class="rect">
-	<!-- <h2 class="subtitle">Agence Web</h2> -->
+	
 	<img class="logo" src={gralypho} alt="logo de Gralypho" />
 	<h1 class="title">Gralypho</h1>
 </div>
@@ -38,19 +38,6 @@
 	.rect:hover {
 		animation: bounce 0.4s ease-in-out;
 	}
-	/* .subtitle {
-		font-family: var(--Architects);
-		color: var(--green);
-		font-size: 1rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-weight: 600;
-		border-radius: 4px;
-		margin-top: -7px;
-		rotate: 0deg;
-		margin-left: 0px;
-	} */
 
 	@keyframes bounce {
 		0% {
@@ -69,4 +56,4 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-</style>
+</style> -->
