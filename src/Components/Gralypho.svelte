@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 	import gralypho from '../Assets/logoGralypho.jpeg';
 </script>
 
@@ -56,4 +56,4 @@
 			transform: scale(1) translateY(0);
 		}
 	}
-</style> -->
+</style>
