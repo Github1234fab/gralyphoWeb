@@ -30,6 +30,7 @@
 		flex-shrink: 0;
 		box-shadow: 0px 30px 10px 2px rgba(76, 76, 76, 0.35);
 		background-color: var(--primary);
+		border-radius: 10px;
 	}
 	.wrapper-text {
 		display: flex;

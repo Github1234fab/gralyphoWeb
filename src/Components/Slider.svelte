@@ -112,13 +112,15 @@
 
 <style>
 	.slider {
-		border: 1px solid white;
+		border: 0px solid white;
 		width: 55%;
-		border-radius: 50px;
+		border-radius: 10px;
 		overflow: hidden;
 		margin: 40px auto;
 		position: relative;
 		box-shadow: 20px 20px 50px rgb(0, 0, 0);
+		/* background-color: var(--cta); */
+		margin-bottom: 100px;
 	}
 
 	.slides {
@@ -154,7 +156,7 @@
 		justify-content: space-between;
 		transform: translateY(-50%);
 		z-index: 1;
-		padding: 20px;
+		padding: 10px;
 	}
 
 	button {
@@ -228,7 +230,7 @@
 		.slider {
 			min-width: 100%;
 			border-radius: 5px;
-			height: 400px;
+			height: 300px;
 			overflow: hidden;
 			margin: 60px auto;
 			position: relative;

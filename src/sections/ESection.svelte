@@ -29,10 +29,10 @@
 			p: 'Création de logos et de supports de communication.'
 		},
 		{
-			title: 'Référencement et SEO',
+			title: 'Audit SEO',
 			lien: '/referencement-seo-sea',
 			icon: iconSatelit,
-			p: 'Stratégie de référencement naturel pour une première place dans les moteurs de recherche.'
+			p: 'Application des différentes techniques de référencements naturels.'
 		},
 		{
 			title: 'Réseaux Sociaux',

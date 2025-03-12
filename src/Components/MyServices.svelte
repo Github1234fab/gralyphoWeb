@@ -3,18 +3,21 @@
 	import Design from '../Assets/design.png';
 	import Flex from '../Assets/flex.png';
 	import Rocket from '../Assets/rocket.png';
-	import Seo from '../Assets/seo.png';
+	import Seo from '../Assets/png-gralypho/seo3.png';
 </script>
 
 <main>
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
 	<h3 class="subtitle-h2">
-		Parce que nous apportons des solutions modernes à votre entreprise en répondant à 100% à vos besoins.
-		<br>Nous concevons des sites internet sur mesure, en utilisant Svelte et Strapi, en CMS Headless.
+		Parce que nous apportons des solutions modernes à votre entreprise en répondant à 100% à vos
+		besoins.
+		<br />Nous concevons des sites internet sur mesure, en utilisant Svelte et Strapi, en CMS
+		Headless.
 		<br />Nos technologies modernes vous offrent une rapidité inégalée et vous permettent de vous
 		distinguer de votre concurrence.
-		<br /> Nous développons également des applications PWA, pour apporter de solutions concrètes et sur mesure 
-		<br>à vos besoins de gestion, d'organsiation, de communication et de d'administration.
+		<br /> Nous développons également des applications PWA, pour apporter de solutions concrètes et
+		sur mesure
+		<br />à vos besoins de gestion, d'organsiation, de communication et de d'administration.
 	</h3>
 	<div class="container">
 		<div class="wrapper__cards">
@@ -36,8 +39,7 @@
 					<h3 class="subtitle-h3">SEO audit</h3>
 					<h4 class="subtitle-h4">Nous sommes experts en stratégie SEO.</h4>
 				</div>
-			</div>
-			<div class="wrapper__sectionByThree">
+
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Design} alt="une plume colorée" />
 					<h3 class="subtitle-h3">Design moderne</h3>
@@ -50,10 +52,10 @@
 					<h4 class="subtitle-h4">Technologies choisies pour vos besoins spécifiques</h4>
 				</div>
 			</div>
-            <div class="wrapper__cta">
-			<h2 class="title">En savoir plus sur notre agence ?</h2>
-			<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
-        </div>
+			<div class="wrapper__cta">
+				<h2 class="title">En savoir plus sur notre agence ?</h2>
+				<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
+			</div>
 		</div>
 	</div>
 </main>
@@ -67,43 +69,52 @@
 		background-color: var(--primary);
 		padding: 50px;
 		gap: 40px;
+		height: auto;
 	}
 
 	.container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		height: auto;
 	}
 	.wrapper__sectionByThree {
 		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 		gap: 50px;
+		height: auto;
 	}
 	.wrapper__cards {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 60px;
-		margin-left: 20px;
-		padding: 50px;
+		gap: 50px;
+		padding: 20px;
 		border-radius: 20px;
+		width: 100%;
+		height: auto;
 	}
 	.wrapper__cards-card {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		gap: 10px;
-		max-width: 300px;
+		min-width: 500px;
+		height: auto;
 		border-radius: 20px;
-		padding: 40px;
-		border: 1px solid grey;
+		padding: 30px;
+		border: 1px solid rgb(69, 69, 69);
+		background-color: var(--primary);
 	}
-    .wrapper__cta{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+	.wrapper__cta {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
 
 	.title {
 		font-size: 2rem;
@@ -112,24 +123,22 @@
 		margin-top: 20px;
 		font-family: var(--Red);
 		padding: 0px;
+		text-align: center;
 	}
 	.subtitle-h2 {
 		font-size: 1rem;
 		font-weight: 500;
 		line-height: 35px;
-		color: rgb(202, 202, 202);
+		color: rgb(249, 249, 249);
 		margin-top: 20px;
 		font-family: var(--Red);
 		padding: 0px;
+		text-align: center;
 	}
 	.subtitle-h3 {
 		font-size: 1.5rem;
 		font-weight: 700;
-		color: var(--cta);
-		background: linear-gradient(90deg, rgb(107, 107, 213), rgb(203, 187, 232));
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		color: var(--whiteGrey);
 		text-align: center;
 		font-family: var(--Geologica);
 		padding: 0px;
@@ -137,7 +146,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		/* text-transform: uppercase; */
 	}
 	.subtitle-h4 {
 		font-size: 1rem;
@@ -159,12 +167,14 @@
 		background-color: rgb(43, 43, 93);
 	}
 	.button {
-		background-color: var(--cta);
-		color: var(--whiteGrey);
+		align-self: center;
+		background-color: var(--green);
+		color: var(--primary);
 		padding: 10px 20px;
 		border-radius: 10px;
 		text-decoration: none;
 		font-family: var(--Red);
+		font-weight: 700;
 		max-width: 120px;
 		text-align: center;
 	}
@@ -180,6 +190,10 @@
 			display: flex;
 			flex-direction: column;
 			gap: 50px;
+		}
+		.wrapper__cards-card {
+			min-width: 80%;
+			height: auto;
 		}
 	}
 </style>

@@ -80,14 +80,14 @@ onMount(() => {
 		align-items: center;
 		justify-content: center;
 		background-color: transparent;
-		padding: 40px;
-		min-height: 500px;
+		padding: 20px;
+		min-height: 600px;
 		max-width: 400px;
-		border-top: 1px solid var(--whiteGrey);
-		border-bottom: none;
-		border-right: none;
-		border-left: none;
+		border-radius: 8px;
+		border: 1px solid grey;
 		transform: translateX(200px);
+		/* background-color: var(--primary); */
+
 	}
 
 	.wrapper-text-service {
@@ -107,7 +107,7 @@ onMount(() => {
 	}
 	.p {
 		font-family: var(--Poppins);
-		font-weight: 300;
+		font-weight: 400;
 		font-size: var(--m);
 		color: var(--whiteGrey);
 		text-align: center;
