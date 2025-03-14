@@ -1,4 +1,7 @@
 <script>
+
+// import Background from "../Assets/gralyphoHeroImg.jpeg"
+
 	import PropositionsCards from './Propositions-cards.svelte';
 	const tab = [
 		{
@@ -27,6 +30,7 @@
 </script>
 
 <main>
+	<!-- <img src={Background} alt=""> -->
 	<h1 class="title">Nos solutions de site internet et d'applications</h1>
 
 	<div class="wrapper__cards">
@@ -39,6 +43,13 @@
 <style>
 	main {
 		padding: 50px;
+		background-image: url("../Assets/bird.jpeg");
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		
 	}
 	.wrapper__cards {
 		display: flex;
@@ -55,4 +66,11 @@
 		text-align: center;
 		letter-spacing: -1px;
 	}
+	/* img{
+		position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: auto;
+	} */
 </style>

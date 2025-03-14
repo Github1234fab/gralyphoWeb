@@ -1,26 +1,27 @@
 <script>
-	import Compteur from '../Assets/compteur3.jpeg';
+	import Compteur from '../Assets/logoGralypho2.jpeg';
 	import CTA from '../Components/ButtonCTA.svelte';
 	import Firebase from '../Assets/firebase.png';
 	import Svelte from '../Assets/Svelte_Logo.svg.png';
 	import Wix from '../Assets/wixLogo.png';
 	import Strapi from '../Assets/Strapi.monogram.logo.png';
 	import Shopify from '../Assets/Shopify.png';
+	import WP from '../Assets/WP.png';
 </script>
 
 <main>
 	<div class="wrapper__text">
-		<h1>Création de site internet <br /> <span>ultra-rapides </span>et sur mesure</h1>
-		<h2>Vous recherchez un site performant, rapide et adapté à vos besoins ?</h2>
+		<h1>Une agence Web experte, <br>au coeur des monts!</h1>
+		<h2>N'ayez pas peur, nos tarifs sont doux ! <br>
+			Parce que nous sommes développeurs experts et certifiés, <br> nous savons adaptés nos technologies à votre budget et à vos besoins.</h2>
 		<br />
 		<CTA />
 		<img class="compteur" src={Compteur} alt="Un compteur, futuriste et technologique" />
 	</div>
 	<div class="wrapper__text2">
 		<h3>
-			Nous concevons des sites vitrines, e-commerces et des applications web PWA.
-			<br /> Nous utilisons les toutes dernières technologies pour vous offrir des solutions <br /> modernes,
-			flexibles et adaptées.
+			Nous concevons des sites internet et des applications depuis 10 ans. <br> Nous saurons choisir la technologie qui vous correspondra le mieux !
+
 		</h3>
 		<div class="wrapper__logos">
 			<a href="https://firebase.google.com/" target="_blank"
@@ -43,7 +44,10 @@
 				>Shopify<img class="Shopify logo" src={Shopify} alt="Logo de Shopify" /></a
 			>
 			<a href="https://fr.wix.com/website/templates" target="_blank"
-				>Wix<img class="Wix logo" src={Wix} alt="Logo de Wix" /></a
+				>Wordpress<img class="Wix logo" src={Wix} alt="Logo de Wix" /></a
+			>
+			<a href="https://fr.wix.com/website/templates" target="_blank"
+				>Wix<img class="Wordpress logo" src={WP} alt="Logo de Wix" /></a
 			>
 		</div>
 	</div>
@@ -63,7 +67,7 @@
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		padding: 50px;
+		padding: 20px;
 		gap: 0px;
 	}
 	.wrapper__logos {
@@ -72,6 +76,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
+		margin: 50px 0px;
 	}
 	.wrapper__text {
 		display: flex;
@@ -84,12 +89,12 @@
 
 	.wrapper__text h1 {
 		font-family: var(--Geologica);
-		letter-spacing: -1px;
+		letter-spacing: -4px;
 		color: var(--whiteGrey);
 		font-weight: 700;
-		font-size: 4rem;
+		font-size: 6rem;
 		text-align: center;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 
 	.wrapper__text h2 {
@@ -100,6 +105,9 @@
 		font-size: 1.5rem;
 		text-align: center;
 	}
+	/* .wrapper__text h2 span {
+		font-weight: 700;
+	} */
 	.wrapper__text2 {
 		display: flex;
 		flex-direction: column;
@@ -120,9 +128,9 @@
 	}
 
 	.compteur {
-		height: 400px;
-		width: 400px;
-		border-radius: 20%;
+		height: 600px;
+		width: 600px;
+		border-radius: 10px;
 		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
 		margin-top: 70px;
 	}
@@ -131,7 +139,7 @@
 	.webflow,
 	.Wix,
 	.Strapi,
-	.Shopify {
+	.Shopify, .Wordpress {
 		height: 100px;
 		width: 100px;
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.294);
@@ -145,7 +153,7 @@
 		align-items: center;
 		flex-direction: column;
 		font-family: var(--Red);
-		color: rgba(128, 128, 128, 0.2);
+		color: rgba(128, 128, 128, 0.538);
 		font-size: 0.7rem;
 		gap: 5px;
 	}
@@ -161,7 +169,7 @@
 		main {
 			background: linear-gradient(
 				to top,
-				var(--whiteGrey) 55%,
+				var(--whiteGrey) 64%,
 				var(--cta) 30%,
 				var(--cta) 40%,
 				var(--primary) 80%
@@ -177,6 +185,7 @@
 		}
 		.wrapper__text h1 {
 			font-size: 2.3rem;
+			letter-spacing: -1px;
 		}
 		.wrapper__text h2 {
 			font-size: 1rem;
@@ -193,12 +202,20 @@
 		.webflow,
 		.Wix,
 		.Strapi,
-		.Shopify {
+		.Shopify, 
+		.Wordpress{
 			height: 75px;
 			width: 75px;
 		}
 		.wrapper__logos {
 			gap: 5px;
 		}
+		.compteur {
+		height: 250px;
+		width: 250px;
+		border-radius: 10px;
+		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
+		margin-top: 30px;
+	}
 	}
 </style>

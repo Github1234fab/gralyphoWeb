@@ -6,18 +6,21 @@
 	import Seo from '../Assets/png-gralypho/seo3.png';
 </script>
 
-<main>
+<main class="main">
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
 	<h3 class="subtitle-h2">
 		Parce que nous apportons des solutions modernes à votre entreprise en répondant à 100% à vos
 		besoins.
-		<br />Nous concevons des sites internet sur mesure, en utilisant Svelte et Strapi, en CMS
-		Headless.
+		<br />Nous concevons des sites internet sur Wordpress pour des sites internet livrés sous 3
+		jours en nous appuyant sur notre expertise et celle de l'IA. <br /> Nos tarifs sont très
+		élaborés pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et
+		raisonnables.
 		<br />Nos technologies modernes vous offrent une rapidité inégalée et vous permettent de vous
 		distinguer de votre concurrence.
-		<br /> Nous développons également des applications PWA, pour apporter de solutions concrètes et
-		sur mesure
-		<br />à vos besoins de gestion, d'organsiation, de communication et de d'administration.
+		<br /> Nous développons également des applications natives et des applications PWA, plus légère
+		et moins chères. <br /> Notre audit sur vos besoins spécifiques est 100% gratuit et nous saurons
+		à l'issu, vous proposer un outil qui vous apportera entière satisfaction.
+		<br /> en matière de gestion, d'organsiation, de communication et d'administration.
 	</h3>
 	<div class="container">
 		<div class="wrapper__cards">
@@ -53,7 +56,7 @@
 				</div>
 			</div>
 			<div class="wrapper__cta">
-				<h2 class="title">En savoir plus sur notre agence ?</h2>
+				<h2 class="sutitle">En savoir plus sur notre agence ?</h2>
 				<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
 			</div>
 		</div>
@@ -61,15 +64,40 @@
 </main>
 
 <style>
-	main {
+	.main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: var(--primary);
 		padding: 50px;
 		gap: 40px;
 		height: auto;
+		background-image: url('../Assets/bird.jpeg');
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: 0;
+		position: relative;
+	}
+	.main::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 1),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.1),
+			rgba(0, 0, 0, 0.05),
+			rgba(0, 0, 0, 0.01),
+			rgba(0, 0, 0, 0)
+		);
+		z-index: 1;
 	}
 
 	.container {
@@ -77,6 +105,7 @@
 		justify-content: center;
 		align-items: center;
 		height: auto;
+		z-index: 2;
 	}
 	.wrapper__sectionByThree {
 		display: flex;
@@ -117,13 +146,25 @@
 	}
 
 	.title {
-		font-size: 2rem;
+		font-size: 4rem;
 		font-weight: 600;
 		color: var(--whiteGrey);
 		margin-top: 20px;
 		font-family: var(--Red);
 		padding: 0px;
 		text-align: center;
+		z-index: 2;
+	}
+
+	.sutitle {
+		font-size: 3rem;
+		font-weight: 600;
+		color: var(--whiteGrey);
+		margin-top: 20px;
+		font-family: var(--Red);
+		padding: 0px;
+		text-align: center;
+		z-index: 2;
 	}
 	.subtitle-h2 {
 		font-size: 1rem;
@@ -134,6 +175,7 @@
 		font-family: var(--Red);
 		padding: 0px;
 		text-align: center;
+		z-index: 2;
 	}
 	.subtitle-h3 {
 		font-size: 1.5rem;
