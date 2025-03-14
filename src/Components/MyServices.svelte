@@ -1,9 +1,9 @@
 <script>
 	import Atome from '../Assets/atome.png';
-	import Design from '../Assets/design.png';
-	import Flex from '../Assets/flex.png';
-	import Rocket from '../Assets/rocket.png';
-	import Seo from '../Assets/png-gralypho/seo3.png';
+	import Design from '../Assets/designLogo.png';
+	import Flex from '../Assets/flexLogo.png';
+	import Rocket from '../Assets/rocketLogo.png';
+	import Seo from '../Assets/seoLogo.png';
 </script>
 
 <main class="main">
@@ -49,11 +49,11 @@
 					<h4 class="subtitle-h4">Une expérience utilisateur <br />fluide et intuitive</h4>
 				</div>
 
-				<div class="wrapper__cards-card">
+				<!-- <div class="wrapper__cards-card">
 					<img class="logo" src={Atome} alt="des atomes" />
 					<h3 class="subtitle-h3">Adaptabilité</h3>
 					<h4 class="subtitle-h4">Technologies choisies pour vos besoins spécifiques</h4>
-				</div>
+				</div> -->
 			</div>
 			<div class="wrapper__cta">
 				<h2 class="sutitle">En savoir plus sur notre agence ?</h2>
@@ -89,7 +89,7 @@
 		height: 100%;
 		background-image: linear-gradient(
 			to bottom,
-			rgba(0, 0, 0, 1),
+			rgba(0, 0, 0, 0.761) 40%,
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.2),
 			rgba(0, 0, 0, 0.1),
@@ -137,12 +137,17 @@
 		border-radius: 20px;
 		padding: 30px;
 		border: 1px solid rgb(69, 69, 69);
-		background-color: var(--primary);
+		background-color: rgba(37, 36, 36, 0.28);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
 	}
 	.wrapper__cta {
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
+		background-color: var(--primary);
+		padding: 30px;
+		box-shadow: 30px 20px 10px 2px rgba(76, 76, 76, 0.35);
 	}
 
 	.title {
@@ -154,6 +159,7 @@
 		padding: 0px;
 		text-align: center;
 		z-index: 2;
+
 	}
 
 	.sutitle {
@@ -165,6 +171,7 @@
 		padding: 0px;
 		text-align: center;
 		z-index: 2;
+		
 	}
 	.subtitle-h2 {
 		font-size: 1rem;
@@ -174,7 +181,7 @@
 		margin-top: 20px;
 		font-family: var(--Red);
 		padding: 0px;
-		text-align: center;
+		text-align: justify;
 		z-index: 2;
 	}
 	.subtitle-h3 {
@@ -203,10 +210,9 @@
 	}
 
 	.logo {
-		width: 100px;
-		height: 100px;
-		border-radius: 50%;
-		background-color: rgb(43, 43, 93);
+		width: 50px;
+		height: 50px;
+		/* border-radius: 50%; */
 	}
 	.button {
 		align-self: center;
@@ -234,8 +240,8 @@
 			gap: 50px;
 		}
 		.wrapper__cards-card {
-			min-width: 80%;
-			height: auto;
+			max-width: 300px;
+			min-height: 300px;
 		}
 	}
 </style>

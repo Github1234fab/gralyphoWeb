@@ -22,7 +22,7 @@
 		align-items: center;
 		justify-content: center;
 		max-width: 400px;
-		min-height: 400px;
+		min-height: 500px;
 		font-family: epilogue;
 		background-color: transparent;
 		margin-top: 30px;
@@ -30,7 +30,8 @@
 		flex-shrink: 0;
 		box-shadow: 0px 30px 10px 2px rgba(76, 76, 76, 0.35);
 		background-color: var(--primary);
-		border-radius: 10px;
+		border-radius: 10px;	
+		z-index: 2;
 	}
 	.wrapper-text {
 		display: flex;
@@ -47,6 +48,7 @@
 		font-family: epilogue;
 		text-align: center;
 		letter-spacing: -1px;
+		line-height: 50px;
 	}
 	.wrapper-text p {
 		font-family: poppins;

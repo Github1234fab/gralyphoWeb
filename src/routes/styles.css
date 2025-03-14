@@ -110,7 +110,8 @@ a {
 	--tertiary: #56556c;
 	--quatrieme: #d3fbd8;
 	--whiteGrey: #f8f8f8;
-	--green: #f1c40f;
+	/* --green: #f1c40f; */
+	--green: #F8BD2A;
 
 	--DM: 'DM Sans';
 	--Dosis: 'Dosis';

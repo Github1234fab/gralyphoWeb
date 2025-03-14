@@ -11,16 +11,16 @@
 
 <main>
 	<div class="wrapper__text">
-		<h1>Une agence Web experte, <br>au coeur des monts!</h1>
+		<h1>Une agence Web experte, <br>au coeur des monts du Lyonnais!</h1>
 		<h2>N'ayez pas peur, nos tarifs sont doux ! <br>
-			Parce que nous sommes développeurs experts et certifiés, <br> nous savons adaptés nos technologies à votre budget et à vos besoins.</h2>
+			Parce que nous sommes développeurs experts et certifiés, <br> nous pouvons adaptés nos technologies à votre budget et à vos besoins.</h2>
 		<br />
 		<CTA />
 		<img class="compteur" src={Compteur} alt="Un compteur, futuriste et technologique" />
 	</div>
 	<div class="wrapper__text2">
 		<h3>
-			Nous concevons des sites internet et des applications depuis 10 ans. <br> Nous saurons choisir la technologie qui vous correspondra le mieux !
+			Nous concevons des sites internet et des applications, en choisissant méticuleusement la technologie la plus adaptée à vos besoins. <br> C'est là notre vraie force : l'adaptabilité. <br>Elle nous permet de vous apporter les meilleures solutions aux meilleurs tarifs.
 
 		</h3>
 		<div class="wrapper__logos">
@@ -59,7 +59,7 @@
 			to top,
 			var(--whiteGrey) 40%,
 			var(--cta) 30%,
-			var(--cta) 40%,
+			var(--cta) 60%,
 			var(--primary) 80%
 		);
 		height: auto;
@@ -92,9 +92,10 @@
 		letter-spacing: -4px;
 		color: var(--whiteGrey);
 		font-weight: 700;
+		/* line-height: 60px; */
 		font-size: 6rem;
 		text-align: center;
-		margin-top: 10px;
+		margin-top: 40px;
 	}
 
 	.wrapper__text h2 {
@@ -128,8 +129,8 @@
 	}
 
 	.compteur {
-		height: 600px;
-		width: 600px;
+		height: 500px;
+		width: 500px;
 		border-radius: 10px;
 		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
 		margin-top: 70px;
@@ -169,7 +170,7 @@
 		main {
 			background: linear-gradient(
 				to top,
-				var(--whiteGrey) 64%,
+				var(--whiteGrey) 50%,
 				var(--cta) 30%,
 				var(--cta) 40%,
 				var(--primary) 80%
@@ -193,10 +194,7 @@
 		.wrapper__text2 h3 {
 			font-size: 1rem;
 		}
-		.compteur {
-			height: 200px;
-			width: 200px;
-		}
+	
 		.Firebase,
 		.svelte,
 		.webflow,
@@ -204,8 +202,8 @@
 		.Strapi,
 		.Shopify, 
 		.Wordpress{
-			height: 75px;
-			width: 75px;
+			height: 65px;
+			width: 65px;
 		}
 		.wrapper__logos {
 			gap: 5px;
