@@ -8,20 +8,20 @@
 
 <main class="main">
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
-	<h3 class="subtitle-h2">
+	<p class="subtitle">
 		Parce que nous apportons des solutions modernes à votre entreprise en répondant à 100% à vos
 		besoins.
 		<br />Nous concevons des sites internet sur Wordpress pour des sites internet livrés sous 3
 		jours en nous appuyant sur notre expertise et celle de l'IA. <br /> Nos tarifs sont très
 		élaborés pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et
-		raisonnables.
+		raisonnables. <br>
 		<br />Nos technologies modernes vous offrent une rapidité inégalée et vous permettent de vous
 		distinguer de votre concurrence.
 		<br /> Nous développons également des applications natives et des applications PWA, plus légère
 		et moins chères. <br /> Notre audit sur vos besoins spécifiques est 100% gratuit et nous saurons
 		à l'issu, vous proposer un outil qui vous apportera entière satisfaction.
 		<br /> en matière de gestion, d'organsiation, de communication et d'administration.
-	</h3>
+	</p>
 	<div class="container">
 		<div class="wrapper__cards">
 			<div class="wrapper__sectionByThree">
@@ -56,7 +56,7 @@
 				</div> -->
 			</div>
 			<div class="wrapper__cta">
-				<h2 class="sutitle">En savoir plus sur notre agence ?</h2>
+				<h2 class="call-to-action-txt">En savoir plus sur notre agence Web ?</h2>
 				<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
 			</div>
 		</div>
@@ -151,7 +151,7 @@
 	}
 
 	.title {
-		font-size: 4rem;
+		font-size: 2rem;
 		font-weight: 600;
 		color: var(--whiteGrey);
 		margin-top: 20px;
@@ -162,28 +162,19 @@
 
 	}
 
-	.sutitle {
-		font-size: 3rem;
-		font-weight: 600;
-		color: var(--whiteGrey);
-		margin-top: 20px;
-		font-family: var(--Red);
-		padding: 0px;
-		text-align: center;
-		z-index: 2;
-		
-	}
-	.subtitle-h2 {
+	.subtitle {
 		font-size: 1rem;
-		font-weight: 500;
-		line-height: 35px;
-		color: rgb(249, 249, 249);
+		font-weight: 400;
+		line-height: 2rem;
+		color: var(--whiteGrey);
 		margin-top: 20px;
 		font-family: var(--Red);
 		padding: 0px;
 		text-align: justify;
 		z-index: 2;
+		
 	}
+
 	.subtitle-h3 {
 		font-size: 1.5rem;
 		font-weight: 700;
@@ -202,6 +193,19 @@
 		color: var(--whiteGrey);
 		text-align: center;
 		font-family: var(--Geologica);
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.call-to-action-txt {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--whiteGrey);
+		text-align: center;
+		font-family: var(--Red);
 		padding: 0px;
 		display: flex;
 		flex-direction: column;
@@ -240,7 +244,7 @@
 			gap: 50px;
 		}
 		.wrapper__cards-card {
-			max-width: 300px;
+			min-width: 320px;
 			min-height: 300px;
 		}
 	}

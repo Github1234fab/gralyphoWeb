@@ -30,7 +30,7 @@
 		flex-shrink: 0;
 		box-shadow: 0px 30px 10px 2px rgba(76, 76, 76, 0.35);
 		background-color: var(--primary);
-		border-radius: 10px;	
+		border-radius: 10px;
 		z-index: 2;
 	}
 	.wrapper-text {
@@ -44,11 +44,12 @@
 	.wrapper-text h2 {
 		font-size: var(--l);
 		color: var(--whiteGrey);
-		font-weight: 700;
+		font-weight: 500;
 		font-family: epilogue;
 		text-align: center;
 		letter-spacing: -1px;
 		line-height: 50px;
+		padding: 10px;
 	}
 	.wrapper-text p {
 		font-family: poppins;
@@ -79,7 +80,7 @@
 		padding: 15px 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		z-index: 999;
-    margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	a:hover {
 		background-color: var(--primary);
@@ -90,7 +91,7 @@
 
 	@media screen and (max-width: 768px) {
 		.card {
-			width: 300px;
+			max-width: 330px;
 			min-height: auto;
 		}
 		.wrapper-text h2 {

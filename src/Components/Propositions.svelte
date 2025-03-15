@@ -5,7 +5,7 @@
 	import PropositionsCards from './Propositions-cards.svelte';
 	const tab = [
 		{
-			type: 'Votre site web, prêt en 3 jours. Rapide. Efficace. Pro',
+			type: 'Votre site web, prêt en 3 jours. \n Rapide. Efficace. Pro',
 			description: 'Mettez en avant votre activité avec un site ultra-rapide et efficace. ',
 			img: 'Rocket',
 			alt: 'fusée',
@@ -51,10 +51,10 @@
 </script>
 
 <main class="main">
-	<!-- <img src={Background} alt=""> -->
-	<h1 class="title">Nos solutions de site internet et d'applications</h1>
+
 
 	<div class="wrapper__cards">
+		<h1 class="title">Nos solutions de site internet et d'applications</h1>
 		{#each tab as infos}
 			<PropositionsCards type={infos.type} description={infos.description} lien={infos.lien} />
 		{/each}
@@ -67,7 +67,7 @@
 		background-image: url('../Assets/smartphoneTech.jpeg');
 		/* background-attachment: fixed; */
 		background-size: cover;
-		background-position: center;
+		background-position: bottom;
 		background-repeat: no-repeat;
 		z-index: 0;
 		position: relative;

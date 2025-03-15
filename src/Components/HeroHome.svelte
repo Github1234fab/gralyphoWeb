@@ -20,7 +20,7 @@
 	</div>
 	<div class="wrapper__text2">
 		<h3>
-			Nous concevons des sites internet et des applications, en choisissant méticuleusement la technologie la plus adaptée à vos besoins. <br> C'est là notre vraie force : l'adaptabilité. <br>Elle nous permet de vous apporter les meilleures solutions aux meilleurs tarifs.
+			Nous concevons des sites internet et des applications, <br>en choisissant méticuleusement la technologie la plus adaptée à vos besoins. <br> C'est là notre vraie force : l'adaptabilité. <br>Elle nous permet de vous apporter les meilleures solutions aux meilleurs tarifs.
 
 		</h3>
 		<div class="wrapper__logos">
@@ -93,7 +93,7 @@
 		color: var(--whiteGrey);
 		font-weight: 700;
 		/* line-height: 60px; */
-		font-size: 6rem;
+		font-size: 5rem;
 		text-align: center;
 		margin-top: 40px;
 	}
@@ -105,6 +105,7 @@
 		color: rgb(231, 231, 231);
 		font-size: 1.5rem;
 		text-align: center;
+		margin-top: 30px;
 	}
 	/* .wrapper__text h2 span {
 		font-weight: 700;
