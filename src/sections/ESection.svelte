@@ -55,7 +55,7 @@
 	<!-- <h1>Notre proposition</h1> -->
 
 	<div class="wrapper-text">
-		<h2>Nos solutions digitales, pour le succès de votre entreprise.</h2>
+		<h2>Nos services additionnels, pour le succès de votre entreprise.</h2>
 		<div class="autoText"><AutoText /></div>
 
 	</div>

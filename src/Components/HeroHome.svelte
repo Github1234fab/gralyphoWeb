@@ -11,57 +11,35 @@
 
 <main>
 	<div class="wrapper__text">
-		<h1>Une agence Web experte, <br>au coeur des monts du Lyonnais!</h1>
-		<h2>N'ayez pas peur, nos tarifs sont doux ! <br>
-			Parce que nous sommes développeurs experts et certifiés, <br> nous pouvons adaptés nos technologies à votre budget et à vos besoins.</h2>
+		<h1>Une agence Web experte, <br />au coeur des monts du Lyonnais!</h1>
+		<h2>
+			N'ayez pas peur, nos tarifs sont doux ! <br />
+			Nous créons des sites internet et des applications adaptés à vos besoins.
+		</h2>
+
 		<br />
 		<CTA />
 		<img class="compteur" src={Compteur} alt="Un compteur, futuriste et technologique" />
 	</div>
 	<div class="wrapper__text2">
 		<h3>
-			Nous concevons des sites internet et des applications, <br>en choisissant méticuleusement la technologie la plus adaptée à vos besoins. <br> C'est là notre vraie force : l'adaptabilité. <br>Elle nous permet de vous apporter les meilleures solutions aux meilleurs tarifs.
-
+			Parce que nous sommes développeurs experts et certifiés, <br /> nous savons choisir la meilleure des technologies pour créer votre projet.<br /> C'est la notre vraie force: l'adaptabilité et elle nous permet de vous offrir les meilleures solutions, au meilleur prix.
 		</h3>
 		<div class="wrapper__logos">
-			<a href="https://firebase.google.com/" target="_blank"
-				>Firebase<img class="Firebase logo" src={Firebase} alt="logo de wordpress" /></a
-			>
-			<a href="https://svelte.dev/" target="_blank"
-				>Svelte<img class="svelte logo" src={Svelte} alt="logo de svelte" /></a
-			>
-			<a href="https://strapi.io/" target="_blank"
-				>Strapi<img class="Strapi logo" src={Strapi} alt="Logo de Strapi" /></a
-			>
-			<a href="https://webflow.com/" target="_blank"
-				>Webflow<img
-					class="webflow logo"
-					src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/651f24a499bc8356ba844e0c_Webflow-Logo.svg"
-					alt="Logo de Webflow"
-				/></a
-			>
-			<a href="https://www.shopify.com/fr" target="_blank"
-				>Shopify<img class="Shopify logo" src={Shopify} alt="Logo de Shopify" /></a
-			>
-			<a href="https://fr.wix.com/website/templates" target="_blank"
-				>Wordpress<img class="Wix logo" src={Wix} alt="Logo de Wix" /></a
-			>
-			<a href="https://fr.wix.com/website/templates" target="_blank"
-				>Wix<img class="Wordpress logo" src={WP} alt="Logo de Wix" /></a
-			>
+			<a href="https://firebase.google.com/" target="_blank">Firebase<img class="Firebase logo" src={Firebase} alt="logo de wordpress" /></a>
+			<a href="https://svelte.dev/" target="_blank">Svelte<img class="svelte logo" src={Svelte} alt="logo de svelte" /></a>
+			<a href="https://strapi.io/" target="_blank">Strapi<img class="Strapi logo" src={Strapi} alt="Logo de Strapi" /></a>
+			<a href="https://webflow.com/" target="_blank">Webflow<img class="webflow logo" src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/651f24a499bc8356ba844e0c_Webflow-Logo.svg" alt="Logo de Webflow" /></a>
+			<a href="https://www.shopify.com/fr" target="_blank">Shopify<img class="Shopify logo" src={Shopify} alt="Logo de Shopify" /></a>
+			<a href="https://fr.wix.com/website/templates" target="_blank">Wix<img class="Wix logo" src={Wix} alt="Logo de Wix" /></a>
+			<a href="https://fr.wix.com/website/templates" target="_blank">Wordpress<img class="Wordpress logo" src={WP} alt="Logo de Wix" /></a>
 		</div>
 	</div>
 </main>
 
 <style>
 	main {
-		background: linear-gradient(
-			to top,
-			var(--whiteGrey) 40%,
-			var(--cta) 30%,
-			var(--cta) 60%,
-			var(--primary) 80%
-		);
+		background: linear-gradient(to top, var(--whiteGrey) 40%, var(--cta) 30%, var(--cta) 60%, var(--primary) 80%);
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -141,7 +119,8 @@
 	.webflow,
 	.Wix,
 	.Strapi,
-	.Shopify, .Wordpress {
+	.Shopify,
+	.Wordpress {
 		height: 100px;
 		width: 100px;
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.294);
@@ -169,13 +148,7 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			background: linear-gradient(
-				to top,
-				var(--whiteGrey) 50%,
-				var(--cta) 30%,
-				var(--cta) 40%,
-				var(--primary) 80%
-			);
+			background: linear-gradient(to top, var(--whiteGrey) 50%, var(--cta) 30%, var(--cta) 40%, var(--primary) 80%);
 			gap: 0px;
 		}
 		.wrapper__text {
@@ -195,14 +168,14 @@
 		.wrapper__text2 h3 {
 			font-size: 1rem;
 		}
-	
+
 		.Firebase,
 		.svelte,
 		.webflow,
 		.Wix,
 		.Strapi,
-		.Shopify, 
-		.Wordpress{
+		.Shopify,
+		.Wordpress {
 			height: 65px;
 			width: 65px;
 		}
@@ -210,11 +183,11 @@
 			gap: 5px;
 		}
 		.compteur {
-		height: 250px;
-		width: 250px;
-		border-radius: 10px;
-		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
-		margin-top: 30px;
-	}
+			height: 250px;
+			width: 250px;
+			border-radius: 10px;
+			box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
+			margin-top: 30px;
+		}
 	}
 </style>

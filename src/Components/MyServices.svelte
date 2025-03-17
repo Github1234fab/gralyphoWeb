@@ -9,18 +9,20 @@
 <main class="main">
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
 	<p class="subtitle">
-		Parce que nous apportons des solutions modernes à votre entreprise en répondant à 100% à vos
-		besoins.
-		<br />Nous concevons des sites internet sur Wordpress pour des sites internet livrés sous 3
-		jours en nous appuyant sur notre expertise et celle de l'IA. <br /> Nos tarifs sont très
-		élaborés pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et
-		raisonnables. <br>
-		<br />Nos technologies modernes vous offrent une rapidité inégalée et vous permettent de vous
-		distinguer de votre concurrence.
-		<br /> Nous développons également des applications natives et des applications PWA, plus légère
+		Parce que nous apportons des solutions modernes à votre entreprise en répondant à vos besoins.
+		<br />Nous concevons des sites internet avec Wordpress pour des sites internet pros, livrés sous
+		3 jours, clés en main, <br> pour un budget défiant toute concurrence, c'est notre produit d'appel.
+		<br /><br />Et nous allons plus loin, grâce à notre expertise en programmation informatique, en
+		vous proposant une offre complète d'outils digitaux.
+		<br />Que ce soit pour des sites internet sur mesure, codés ou des
+		applications natives, <br>nos audits sur vos besoins spécifiques sont 100% gratuit et nous saurons à
+		l'issue, vous proposer un outil digital qui vous apportera une entière satisfaction.
+		<br /> Nos tarifs sont très élaborés grâce à notre adaptablité, pour que vous puissiez obtenir
+		le meilleur rapidement, à des prix très doux et très raisonnables. <br />
+		<!-- <br /> Nous développons également des applications natives et des applications PWA, plus légère
 		et moins chères. <br /> Notre audit sur vos besoins spécifiques est 100% gratuit et nous saurons
 		à l'issu, vous proposer un outil qui vous apportera entière satisfaction.
-		<br /> en matière de gestion, d'organsiation, de communication et d'administration.
+		<br /> en matière de gestion, d'organsiation, de communication et d'administration. -->
 	</p>
 	<div class="container">
 		<div class="wrapper__cards">
@@ -28,7 +30,7 @@
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Rocket} alt="fusée" />
 					<h3 class="subtitle-h3">Performance</h3>
-					<h4 class="subtitle-h4">Un code léger pour un chargement ultra-rapide</h4>
+					<h4 class="subtitle-h4">Un code léger pour un chargement ultra-rapide.</h4>
 				</div>
 
 				<div class="wrapper__cards-card">
@@ -69,7 +71,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 50px;
+		padding: 30px;
 		gap: 40px;
 		height: auto;
 		background-image: url('../Assets/bird.jpeg');
@@ -146,7 +148,8 @@
 		flex-direction: column;
 		gap: 30px;
 		background-color: var(--primary);
-		padding: 30px;
+		padding: 60px;
+
 		box-shadow: 30px 20px 10px 2px rgba(76, 76, 76, 0.35);
 	}
 
@@ -159,7 +162,6 @@
 		padding: 0px;
 		text-align: center;
 		z-index: 2;
-
 	}
 
 	.subtitle {
@@ -172,7 +174,6 @@
 		padding: 0px;
 		text-align: justify;
 		z-index: 2;
-		
 	}
 
 	.subtitle-h3 {
@@ -227,7 +228,7 @@
 		text-decoration: none;
 		font-family: var(--Red);
 		font-weight: 700;
-		max-width: 120px;
+		max-width: 150px;
 		text-align: center;
 	}
 	.button:hover {
@@ -244,8 +245,21 @@
 			gap: 50px;
 		}
 		.wrapper__cards-card {
-			min-width: 320px;
+			min-width: 280px;
 			min-height: 300px;
+		}
+		.wrapper__cta {
+			width: 280px;
+		}
+		.subtitle {
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 2rem;
+			color: var(--whiteGrey);
+			margin-top: 20px;
+			font-family: var(--Red);
+			text-align: justify;
+			z-index: 2;
 		}
 	}
 </style>

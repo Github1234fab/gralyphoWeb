@@ -34,8 +34,9 @@
 	<!-- <HSection /> -->
 	<Hero />
 	<MyServices/>
-	<Propositions/>
 	<CTA />
+	<Propositions/>
+
 
 
 	<!-- <Difference /> -->

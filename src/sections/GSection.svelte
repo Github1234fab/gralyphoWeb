@@ -166,7 +166,7 @@
 	}
 	.G-section h1 {
 		font-family: var(--Red);
-		font-size: var(--l);
+		font-size: 2rem;
 		color: var(--primay);
 		font-weight: 800;
 		margin-bottom: 0px;
@@ -184,7 +184,7 @@
 			height: fit-content;
 		}
 			.G-section h1{
-			font-size: 1.4rem;
+			font-size: 2rem;
 		}
 	}
 </style>

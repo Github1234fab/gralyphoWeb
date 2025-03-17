@@ -34,7 +34,7 @@
 		flex-direction: column;
 		background-color: var(--primary);
 		border-radius: 20px;
-		padding: 50px;
+		padding: 100px;
 		gap: 30px;
 		box-shadow: 0px 30px 10px rgba(5, 5, 5, 0.365);
 	}
@@ -48,6 +48,7 @@
 		font-weight: 400;
 		font-family: var(--Red);
 		color: var(--whiteGrey);
+		line-height: 2rem;
 	}
 	.subtitle span {
 		font-weight: 700;
@@ -57,7 +58,7 @@
 	@media screen and (max-width: 768px) {
 		main {
 			padding: 20px;
-			height: 900px;
+			height: 1000px;
 		}
 		.wrapper {
 			padding: 20px;

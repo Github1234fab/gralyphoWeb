@@ -153,12 +153,12 @@
 
 	button {
 		border: none;
-		background-color: transparent;
+		background-color: var(--green);
 		font-size: var(--m);
 		border: 1px solid white;
-		color: var(--whiteGrey);
+		color: var(--primary);
 		font-family: epilogue;
-		font-weight: 600;
+		font-weight: 900;
 		padding: 25px 30px;
 		border-radius: 15px;
 		text-align: center;
