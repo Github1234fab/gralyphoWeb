@@ -135,7 +135,7 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>
-			Découvrez notre portfolio ! <br />
+			Nos réalisations<br />
 		</h1>
 	</div>
 

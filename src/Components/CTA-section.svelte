@@ -6,12 +6,9 @@
 	<div class="wrapper">
 		<h2 class="title">Un projet en tête ?</h2>
 		<h3 class="subtitle">
-			Vous avez besoin d'un site internet ou d'une application ? Vous souhaitez obtenir des
-			informations claires avant de vous lancer ?
-			<br /> Lors d'un premier rendez-vous entièrement gratuit, nous pourrons définir ensemble les
-			structures de votre projet.
-			<br /> Nous pourrons choisir les technologies les plus adaptées à vos besoins et aborder
-			ensemble les questions de design, de référencement et de budget.
+			Vous avez besoin d'un site internet ou d'une application ? Vous souhaitez obtenir des informations claires avant de vous lancer ?
+			<br /> Lors d'un premier rendez-vous entièrement gratuit, nous pourrons définir ensemble les structures de votre projet.
+			<br /> Nous pourrons choisir les technologies les plus adaptées à vos besoins et aborder ensemble les questions de design, de référencement et de budget.
 			<br /><br />
 			<span>Discutons de votre projet !</span>
 		</h3>
@@ -32,11 +29,11 @@
 	.wrapper {
 		display: flex;
 		flex-direction: column;
-		background-color: var(--primary);
+		background-color: rgb(2, 8, 34, 0.2);
 		border-radius: 20px;
 		padding: 100px;
 		gap: 30px;
-		box-shadow: 0px 30px 10px rgba(5, 5, 5, 0.365);
+		box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
 	}
 	.title {
 		font-size: 2rem;
@@ -53,7 +50,6 @@
 	.subtitle span {
 		font-weight: 700;
 	}
-
 
 	@media screen and (max-width: 768px) {
 		main {
@@ -72,6 +68,5 @@
 			font-size: 1rem;
 			line-height: 43px;
 		}
-		
 	}
 </style>

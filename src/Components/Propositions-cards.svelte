@@ -1,20 +1,23 @@
 <script>
 	export let type;
 	export let description;
-	export let img;
-	export let alt;
 	export let lien;
 	export let layerTxt;
+	export let price;
 </script>
 
 <div class="card">
-	<img src={img} {alt} class="img-card" />
 	<div class="layer">{layerTxt}</div>
+	<div class="price">{price}</div>
 	<div class="wrapper-text">
 		<h2>{type}</h2>
-		<p>{description}</p>
-		<a href={lien}>En savoir +</a>
+		<ul>
+			{#each description as item}
+				<li>{item}</li>
+			{/each}
+		</ul>
 	</div>
+	<a href={lien}>En savoir +</a>
 </div>
 
 <style>
@@ -22,36 +25,55 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		max-width: 400px;
-		min-height: 600px;
+		justify-content: space-between;
+		width: 100%;
+		height: 100%;
 		font-family: epilogue;
-		background: linear-gradient(to top, var(--cta) 0%, var(--primary) 60%);
-		margin-top: 30px;
-		margin-bottom: 20px;
-		flex-shrink: 0;
-		box-shadow: 0px 0px 50px rgba(76, 76, 76, 0.95);
+		background-color: #171717;
+		flex-grow: 1;
 		border-radius: 10px;
 		z-index: 0;
 		position: relative;
 		overflow: hidden;
 	}
+	.price{
+		position: absolute;
+		font-family: var(--Red);
+		font-weight: 900;
+		text-transform: uppercase;
+		top: -70px;
+		left: -90px;
+		width: 50%;
+		height: 20%;
+		bottom: 0;
+		padding-top: 100px;
+		transform: rotate(-45deg);
+		color: white;
+		border-radius: 5px;
+		font-size: 1.3rem;
+		background-color: red;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		z-index: 0;
+	}
 	.layer {
 		position: absolute;
-		font-family: var(--Architects);
-		font-weight: 900;
-		top: -85%;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		color:white;
-		font-size: 2rem;
-		background-color: rgb(79, 15, 15);
+		font-family: var(--Red);
+		font-weight: 800;
+		text-transform: uppercase;
+		top: 20px;
+		left: 25%;
+		width: 50%;
+		height: 10%;
+		color: white;
+		border-radius: 5px;
+		font-size: 0.7rem;
+		background-color: var(--blue);
 		display: flex;
-		align-items: flex-end;
+		align-items: center;
 		justify-content: center;
-		padding-bottom: 15px;
 		text-align: center;
 		z-index: 1;
 	}
@@ -59,11 +81,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: baseline;
 		padding: 20px;
-		gap: 40px;
-		z-index: 2;
+		gap: 30px;
 		margin-top: 120px;
+		margin-bottom: 30px;
+		z-index: 2;
+		height: 100%;
+		flex-grow: 1;
 	}
 	.wrapper-text h2 {
 		font-size: 1.7rem;
@@ -71,25 +96,26 @@
 		font-weight: 500;
 		font-family: epilogue;
 		letter-spacing: -1px;
-		line-height: 32px;
+		line-height: 33px;
 		white-space: pre-line;
+		text-align: center;
 	}
-	.wrapper-text p {
+
+	.wrapper-text li {
 		font-family: poppins;
 		font-size: var(--m);
 		color: var(--whiteGrey);
-		font-weight: 400;
-		line-height: 30px;
+		font-weight: 200;
+		text-align: left;
 		border: none;
 		border-radius: 20px;
 		z-index: 2;
+		margin-left: 20px;
+		margin-top: 10px;
+		list-style-type: square;
+
 	}
-	.img-card {
-		margin-top: -30px;
-		max-width: 500px;
-		max-height: 150px;
-		object-fit: contain;
-	}
+
 	a {
 		background-color: var(--green);
 		color: var(--primary);
@@ -98,11 +124,11 @@
 		font-weight: 700;
 		border-radius: 10px;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: auto;
 		padding: 15px 20px;
 		box-shadow: 0px 0px 10px 2px rgba(76, 76, 76, 0.35);
 		z-index: 999;
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 	a:hover {
 		background-color: var(--primary);
@@ -119,15 +145,8 @@
 		.wrapper-text h2 {
 			font-size: 1.5rem;
 		}
-		.wrapper-text p {
+		/* .wrapper-text p {
 			font-size: var(--m);
-		}
-		.img-card {
-			margin-top: 50px;
-			max-width: 500px;
-			max-height: 100px;
-			object-fit: 100%;
-			border-radius: 10px;
-		}
+		} */
 	}
 </style>

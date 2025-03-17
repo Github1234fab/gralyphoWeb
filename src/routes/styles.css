@@ -47,7 +47,8 @@ a {
 	/* --cta: #8c7357; */
 	--cta: #1481ba;
 	/* --primary: #0F1A23; */
-	--primary: #0D121F;
+	/* --primary: #0D121F; */
+	--primary: #080808;
 	--secondary: #f5f5f5;
 	--text: rgb(33, 32, 32);
 	--gradient: linear-gradient(120deg,   var(--cta)20%,    var(--primary)50%, var(--cta)50%, var(--primary)100%); 
