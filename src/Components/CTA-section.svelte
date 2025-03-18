@@ -13,6 +13,7 @@
 			<span>Discutons de votre projet !</span>
 		</h3>
 		<ButtonCta />
+		<a href="/#section-form">Obtenir un devis</a>
 	</div>
 </main>
 
@@ -33,7 +34,7 @@
 		/* background-image: linear-gradient(120deg, var(--primary) 20%, var(--cta) 50%, var(--primary) 50%, var(--cta) 100%); */
 		border-radius: 20px;
 		padding: 100px;
-		gap: 30px;
+		gap: 20px;
 		box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
 	}
 	.title {
@@ -51,15 +52,49 @@
 	.subtitle span {
 		font-weight: 700;
 	}
+	a {
+		background-color: var(--cta);
+		color:  var(--whiteGrey);
+		font-family: 'Red Hat Display';
+		font-size: 1rem;
+		font-weight: 700;
+		border-radius: 8px;
+		text-align: center;
+		padding: 15px 20px;
+		box-shadow: 0px 10px 10px rgba(62, 62, 62, 0.5);
+		z-index: 999;
+		max-width: 200px;
+ 
+	}
+        a:hover{
+                animation: bounce 0.4s ease-in-out;
+        }
+        	@keyframes bounce {
+		0% {
+			transform: scale(1) translateY(-2px);
+		}
+		25% {
+			transform: scale(1) translateY(3px);
+		}
+		50% {
+			transform: scale(1) translateY(-1px);
+		}
+		75% {
+			transform: scale(1) translateY(2px);
+		}
+		100% {
+			transform: scale(1) translateY(0);
+		}
+	}
 
 	@media screen and (max-width: 768px) {
 		main {
 			padding: 20px;
-			height: 1000px;
+			height: 1200px;
 		}
 		.wrapper {
 			padding: 20px;
-			gap: 50px;
+			gap: 20px;
 			min-width: 100%;
 		}
 		.title {

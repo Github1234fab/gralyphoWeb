@@ -91,7 +91,7 @@
 		height: 100%;
 		background-image: linear-gradient(
 			to bottom,
-			rgba(0, 0, 0, 0.761) 40%,
+			rgba(0, 0, 0, 0.861) 40%,
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.2),
 			rgba(0, 0, 0, 0.1),

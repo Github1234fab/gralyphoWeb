@@ -6,7 +6,7 @@
 		{
 			type: 'Rapide. Efficace. Pro',
 			subtitle: 'Votre site web livré en 3 jours',
-			description: ['Site professionnel', 'Intégration formulaire de contact', 'Optimisation SEO', 'Livraison sous 3 jours', '6 pages', 'Design moderne', "Frais unique d'hébergement : 6 euros/mensuel"],
+			description: ['Site professionnel', 'Formulaire de contact', 'Optimisation SEO', 'Livraison sous 3 jours', '6 pages', 'Design moderne', "Hébergement : 10 euros"],
 			lien: '/creation-site-internet',
 			layerTxt: 'Basic',
 			price: '3 jours'
@@ -14,7 +14,7 @@
 		{
 			type: 'Un site unique',
 			subtitle: 'Démarquez vous !',
-			description: ['Site entièrement développé sur mesure', 'Design unique', 'Personnalisation unique', 'liberté totale de création', '5 à 10 pages', 'Intégration forumaire de contact', "Frais unique d'hébergement : 6 euros/mensuel"],
+			description: ['Site sur mesure', 'Design unique', 'Personnalisation totale', '100% créatif', '5 à 10 pages', 'Forumaire de contact', "Hébergement : 10 euros"],
 			lien: '/site-internet-CMS',
 			layerTxt: 'Custom',
 			price: '15 jours'
@@ -22,8 +22,7 @@
 		{
 			type: 'Application PWA',
 			subtitle: 'Votre application web au meilleur prix',
-			description: ['Application sur mesure', 'PWA = Légèreté et prix modéré', 'Utilisation hors ligne', 'Hébergement inclus', 'Répond à 100% de vos besoins spécifiques', "Facilité d'installation", 'Ios/Android/Web'],
-
+			description: ['Application sur mesure', 'PWA = Légèreté + prix modéré', 'Utilisation hors ligne', 'Hébergement inclus', '100% de vos besoins', "Facilité d'installation", 'Ios/Android/Web'],
 			lien: '/creation-application',
 			layerTxt: 'Application light',
 			price: '1 mois'
@@ -31,7 +30,7 @@
 		{
 			type: 'Application Native',
 			subtitle: 'Dédiée IOS et Android',
-			description: ['Hébergement inclus', 'Maintenance offerte', 'Personnalisation totale', 'Application native pour Ios et Android', 'Efficacité et rapidité', 'Répond à 100% de vos besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
+			description: ['Hébergement inclus', 'Personnalisation totale', 'Natif pour Ios et Android', 'Efficacité et rapidité', '100% des besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
 			lien: '/creation-application',
 			layerTxt: 'Application ++',
 			price: '1 mois'
@@ -39,7 +38,7 @@
 		{
 			type: 'Site avec CMS Headless',
 			subtitle: 'pour une gestion de contenu optimale',
-			description: ['Hébergement inclus', 'Maintenance offerte', 'Personnalisation totale', 'Gestion de contenu optimale', 'Répond à 100% de vos besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
+			description: ['Hébergement inclus', 'Personnalisation totale', 'Gestion de contenu optimale', '100% des besoins spécifiques', 'Comptabilité totale', 'Performance optimisée'],
 			lien: '/creation-application',
 			layerTxt: 'Graal',
 			price: '1 mois'
@@ -47,7 +46,7 @@
 		{
 			type: 'Landing Page percutante ',
 			subtitle: 'pour une communication efficace',
-			description: ["Frais unique d'hébergement : 6 euros/mensuel", 'optimisation SEO', 'Design moderne et original', 'Intégration formulaire de contact', 'Livraison sous 2 jours'],
+			description: ["Hébergement : 10 euros", 'Optimisation SEO', 'Design moderne et original', 'Formulaire de contact', 'Livraison sous 2 jours'],
 			lien: '/creation-application',
 			layerTxt: 'One page',
 			price: '1 jour'
@@ -77,7 +76,7 @@
 		align-items: center;
 		gap: 30px;
 		z-index: 2;
-		width: 100%;
+		width: 80%;
 		margin: 50px auto;
 	}
 	.title {

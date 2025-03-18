@@ -14,12 +14,12 @@
 		<h2>{type}</h2>
 		<h3>{subtitle}</h3>
 		<div class="wrapper__li">
-		<ul>
-			{#each description as item}
-				<li>{item}</li>
-			{/each}
-		</ul>
-	</div>
+			<ul>
+				{#each description as item}
+					<li>{item}</li>
+				{/each}
+			</ul>
+		</div>
 	</div>
 	<a href={lien}>En savoir +</a>
 </div>
@@ -41,27 +41,28 @@
 		overflow: hidden;
 	}
 	.price {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 130px; /* Ajuste selon tes besoins */
-    height: 60px;
-    background-color: rgb(163, 48, 106);
-    color: white;
-    font-family: var(--Red);
-    font-weight: 500;
-	font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    display: flex;
-    align-items: last baseline;
-    justify-content: center;
-    text-align: center;
-	padding-bottom: 10px;
-    transform: translate(-30%, -30%) rotate(-45deg); /* Décalage et rotation pour bien couvrir le coin */
-    z-index: 10;
-}
+		position: absolute;
+		top: 10px;
+		left: 0;
+		width: 130px; /* Ajuste selon tes besoins */
+		height: 60px;
+		background-color: rgb(163, 48, 106);
+		color: white;
+		font-family: var(--Red);
+		font-weight: 500;
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border-radius: 5px;
+		display: flex;
+		align-items: last baseline;
+		justify-content: center;
+		text-align: center;
+		padding-bottom: 10px;
+		transform: translate(-30%, -30%) rotate(-45deg); /* Décalage et rotation pour bien couvrir le coin */
+		z-index: 10;
+		border-bottom: 1px solid rgb(213, 213, 213);
+	}
 
 	.layer {
 		position: absolute;
@@ -105,7 +106,7 @@
 		white-space: pre-line;
 		text-align: center;
 	}
-.wrapper-text h3 {
+	.wrapper-text h3 {
 		font-size: 1.2rem;
 		color: var(--whiteGrey);
 		font-weight: 200;
@@ -127,7 +128,7 @@
 		margin-left: 20px;
 		list-style-type: square;
 	}
-	.wrapper__li{
+	.wrapper__li {
 		margin-top: 50px;
 	}
 
