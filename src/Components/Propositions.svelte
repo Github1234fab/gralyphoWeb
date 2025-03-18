@@ -4,58 +4,53 @@
 	import PropositionsCards from './Propositions-cards.svelte';
 	const tab = [
 		{
-			type: 'Votre site web livré en 3 jours. Rapide. Efficace. Pro',
+			type: 'Rapide. Efficace. Pro',
+			subtitle: 'Votre site web livré en 3 jours',
 			description: ['Site professionnel', 'Intégration formulaire de contact', 'Optimisation SEO', 'Livraison sous 3 jours', '6 pages', 'Design moderne', "Frais unique d'hébergement : 6 euros/mensuel"],
-			img: 'Rocket',
-			alt: 'fusée',
 			lien: '/creation-site-internet',
 			layerTxt: 'Basic',
-			price: '1400 €'
+			price: '3 jours'
 		},
 		{
-			type: 'Vous souhaitez vous démarquez avec un site unique!',
+			type: 'Un site unique',
+			subtitle: 'Démarquez vous !',
 			description: ['Site entièrement développé sur mesure', 'Design unique', 'Personnalisation unique', 'liberté totale de création', '5 à 10 pages', 'Intégration forumaire de contact', "Frais unique d'hébergement : 6 euros/mensuel"],
-			img: 'Flex',
-			alt: 'une personne danse et représente la flexibilté',
 			lien: '/site-internet-CMS',
 			layerTxt: 'Custom',
-			price: '3500 €'
+			price: '15 jours'
 		},
 		{
 			type: 'Application PWA',
+			subtitle: 'Votre application web au meilleur prix',
 			description: ['Application sur mesure', 'PWA = Légèreté et prix modéré', 'Utilisation hors ligne', 'Hébergement inclus', 'Répond à 100% de vos besoins spécifiques', "Facilité d'installation", 'Ios/Android/Web'],
-			img: 'Seo',
-			alt: 'illustration sur le SEO',
+
 			lien: '/creation-application',
 			layerTxt: 'Application light',
-			price: '5000 €'
+			price: '1 mois'
 		},
 		{
 			type: 'Application Native',
+			subtitle: 'Dédiée IOS et Android',
 			description: ['Hébergement inclus', 'Maintenance offerte', 'Personnalisation totale', 'Application native pour Ios et Android', 'Efficacité et rapidité', 'Répond à 100% de vos besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
-			img: 'Seo',
-			alt: 'illustration sur le SEO',
 			lien: '/creation-application',
 			layerTxt: 'Application ++',
-			price: '7500 €'
+			price: '1 mois'
 		},
 		{
-			type: 'CMS Headless, pour une gestion de contenu optimale',
+			type: 'Site avec CMS Headless',
+			subtitle: 'pour une gestion de contenu optimale',
 			description: ['Hébergement inclus', 'Maintenance offerte', 'Personnalisation totale', 'Gestion de contenu optimale', 'Répond à 100% de vos besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
-			img: 'Seo',
-			alt: 'illustration sur le SEO',
 			lien: '/creation-application',
 			layerTxt: 'Graal',
-			price: '6500 €'
+			price: '1 mois'
 		},
 		{
-			type: 'Landing Page percutante, pour une communication efficace',
+			type: 'Landing Page percutante ',
+			subtitle: 'pour une communication efficace',
 			description: ["Frais unique d'hébergement : 6 euros/mensuel", 'optimisation SEO', 'Design moderne et original', 'Intégration formulaire de contact', 'Livraison sous 2 jours'],
-			img: 'Seo',
-			alt: 'illustration sur le SEO',
 			lien: '/creation-application',
 			layerTxt: 'One page',
-			price: '700 €'
+			price: '1 jour'
 		}
 	];
 </script>
@@ -64,7 +59,7 @@
 	<h1 class="title">Nos solutions de site internet et d'application</h1>
 	<div class="wrapper__cards">
 		{#each tab as infos}
-			<PropositionsCards type={infos.type} description={infos.description} lien={infos.lien} layerTxt={infos.layerTxt} price={infos.price} />
+			<PropositionsCards type={infos.type} description={infos.description} lien={infos.lien} layerTxt={infos.layerTxt} price={infos.price} subtitle={infos.subtitle} />
 		{/each}
 	</div>
 </main>
@@ -93,6 +88,7 @@
 		text-align: center;
 		letter-spacing: -1px;
 		z-index: 3;
+		margin-top: 50px;
 	}
 
 	@media screen and (max-width: 1068px) {

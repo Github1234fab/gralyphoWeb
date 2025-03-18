@@ -29,7 +29,8 @@
 	.wrapper {
 		display: flex;
 		flex-direction: column;
-		background-color: rgb(2, 8, 34, 0.2);
+		background-color: var(--primary);
+		/* background-image: linear-gradient(120deg, var(--primary) 20%, var(--cta) 50%, var(--primary) 50%, var(--cta) 100%); */
 		border-radius: 20px;
 		padding: 100px;
 		gap: 30px;

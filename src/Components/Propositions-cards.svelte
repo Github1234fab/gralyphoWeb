@@ -4,6 +4,7 @@
 	export let lien;
 	export let layerTxt;
 	export let price;
+	export let subtitle;
 </script>
 
 <div class="card">
@@ -11,11 +12,14 @@
 	<div class="price">{price}</div>
 	<div class="wrapper-text">
 		<h2>{type}</h2>
+		<h3>{subtitle}</h3>
+		<div class="wrapper__li">
 		<ul>
 			{#each description as item}
 				<li>{item}</li>
 			{/each}
 		</ul>
+	</div>
 	</div>
 	<a href={lien}>En savoir +</a>
 </div>
@@ -29,41 +33,42 @@
 		width: 100%;
 		height: 100%;
 		font-family: epilogue;
-		background-color: #171717;
+		background-color: #1f1e1e;
 		flex-grow: 1;
 		border-radius: 10px;
 		z-index: 0;
 		position: relative;
 		overflow: hidden;
 	}
-	.price{
+	.price {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 130px; /* Ajuste selon tes besoins */
+    height: 60px;
+    background-color: rgb(163, 48, 106);
+    color: white;
+    font-family: var(--Red);
+    font-weight: 500;
+	font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    text-align: center;
+	padding-bottom: 10px;
+    transform: translate(-30%, -30%) rotate(-45deg); /* Décalage et rotation pour bien couvrir le coin */
+    z-index: 10;
+}
+
+	.layer {
 		position: absolute;
 		font-family: var(--Red);
 		font-weight: 900;
 		text-transform: uppercase;
-		top: -70px;
-		left: -90px;
-		width: 50%;
-		height: 20%;
-		bottom: 0;
-		padding-top: 100px;
-		transform: rotate(-45deg);
-		color: white;
-		border-radius: 5px;
-		font-size: 1.3rem;
-		background-color: red;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		z-index: 0;
-	}
-	.layer {
-		position: absolute;
-		font-family: var(--Red);
-		font-weight: 800;
-		text-transform: uppercase;
-		top: 20px;
+		top: 35px;
 		left: 25%;
 		width: 50%;
 		height: 10%;
@@ -83,7 +88,7 @@
 		align-items: center;
 		justify-content: baseline;
 		padding: 20px;
-		gap: 30px;
+		gap: 0px;
 		margin-top: 120px;
 		margin-bottom: 30px;
 		z-index: 2;
@@ -100,7 +105,16 @@
 		white-space: pre-line;
 		text-align: center;
 	}
-
+.wrapper-text h3 {
+		font-size: 1.2rem;
+		color: var(--whiteGrey);
+		font-weight: 200;
+		font-family: epilogue;
+		letter-spacing: -1px;
+		line-height: 33px;
+		white-space: pre-line;
+		text-align: center;
+	}
 	.wrapper-text li {
 		font-family: poppins;
 		font-size: var(--m);
@@ -111,9 +125,10 @@
 		border-radius: 20px;
 		z-index: 2;
 		margin-left: 20px;
-		margin-top: 10px;
 		list-style-type: square;
-
+	}
+	.wrapper__li{
+		margin-top: 50px;
 	}
 
 	a {
