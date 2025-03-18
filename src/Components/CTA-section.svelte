@@ -25,7 +25,8 @@
 		align-items: center;
 		background-color: var(--primary);
 		background-image: var(--gradient);
-		padding: 100px;
+		padding: 50px;
+	
 	}
 	.wrapper {
 		display: flex;

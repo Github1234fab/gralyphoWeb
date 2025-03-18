@@ -48,7 +48,7 @@
 			subtitle: 'pour une communication efficace',
 			description: ["Hébergement : 10 euros", 'Optimisation SEO', 'Design moderne et original', 'Formulaire de contact', 'Livraison sous 2 jours'],
 			lien: '/creation-application',
-			layerTxt: 'One page',
+			layerTxt: 'Single page',
 			price: '1 jour'
 		}
 	];
