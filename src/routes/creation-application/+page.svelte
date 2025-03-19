@@ -141,7 +141,7 @@
 		justify-content: center;
 		flex-direction: column;
 		border-radius: 10px 10px 0px 0px;
-		border-bottom: 1px solid rgb(118, 115, 115);
+		border: 1px solid rgb(118, 115, 115);
 	}
 	.wrapper__txt li {
 		font-size: 1rem;
