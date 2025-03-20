@@ -6,18 +6,18 @@
 		{
 			type: 'Rapide. Efficace. Pro',
 			subtitle: 'Votre site web livré en 3 jours',
-			description: ['Site professionnel', 'Formulaire de contact', 'Optimisation SEO', 'Livraison sous 3 jours', '6 pages', 'Design moderne', "Hébergement : 10 euros"],
+			description: ['Site professionnel', 'Formulaire de contact', 'Optimisation SEO', 'Livraison sous 3 jours', '6 pages', 'Design moderne', 'Hébergement : 10 euros'],
 			lien: '/creation-site-internet',
 			layerTxt: 'Basic',
-			price: '3 jours'
+			price: 'Livré \n en 3 jours'
 		},
 		{
 			type: 'Un site unique',
 			subtitle: 'Démarquez vous !',
-			description: ['Site sur mesure', 'Design unique', 'Personnalisation totale', '100% créatif', '5 à 10 pages', 'Forumaire de contact', "Hébergement : 10 euros"],
+			description: ['Site sur mesure', 'Design unique', 'Personnalisation totale', '100% créatif', '5 à 10 pages', 'Forumaire de contact', 'Hébergement : 10 euros'],
 			lien: '/site-internet-CMS',
 			layerTxt: 'Custom',
-			price: '15 jours'
+			price: ' Livré en \n 15 jours'
 		},
 		{
 			type: 'Application PWA',
@@ -25,7 +25,7 @@
 			description: ['Application sur mesure', 'PWA = Légèreté + prix modéré', 'Utilisation hors ligne', 'Hébergement inclus', '100% de vos besoins', "Facilité d'installation", 'Ios/Android/Web'],
 			lien: '/creation-application',
 			layerTxt: 'Application light',
-			price: '1 mois'
+			price: ' Livré \n en 1 mois'
 		},
 		{
 			type: 'Application Native',
@@ -33,7 +33,7 @@
 			description: ['Hébergement inclus', 'Personnalisation totale', 'Natif pour Ios et Android', 'Efficacité et rapidité', '100% des besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
 			lien: '/creation-application',
 			layerTxt: 'Application ++',
-			price: '1 mois'
+			price: 'Livré \n en 1 mois'
 		},
 		{
 			type: 'Site avec CMS Headless',
@@ -41,15 +41,15 @@
 			description: ['Hébergement inclus', 'Personnalisation totale', 'Gestion de contenu optimale', '100% des besoins spécifiques', 'Comptabilité totale', 'Performance optimisée'],
 			lien: '/creation-application',
 			layerTxt: 'Graal',
-			price: '1 mois'
+			price: ' Livré \n en 1 mois'
 		},
 		{
-			type: 'Landing Page percutante ',
+			type: ' Landing Page percutante ',
 			subtitle: 'pour une communication efficace',
-			description: ["Hébergement : 10 euros", 'Optimisation SEO', 'Design moderne et original', 'Formulaire de contact', 'Livraison sous 2 jours'],
+			description: ['Hébergement : 10 euros', 'Optimisation SEO', 'Design moderne et original', 'Formulaire de contact', 'Livraison sous 2 jours'],
 			lien: '/creation-application',
 			layerTxt: 'Single page',
-			price: '1 jour'
+			price: 'Livré \n en 1 jour'
 		}
 	];
 </script>

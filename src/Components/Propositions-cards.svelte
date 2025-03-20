@@ -46,13 +46,14 @@
 		left: 0;
 		width: 130px; /* Ajuste selon tes besoins */
 		height: 60px;
+		white-space: pre-line;
 		background-color: rgb(163, 48, 106);
 		color: white;
-		font-family: var(--Red);
+		font-family: var(--Geologica);
 		font-weight: 500;
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		text-transform: uppercase;
-		letter-spacing: 1px;
+		letter-spacing:0px;
 		border-radius: 5px;
 		display: flex;
 		align-items: last baseline;

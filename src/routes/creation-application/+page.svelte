@@ -1,82 +1,40 @@
 <script>
 	import Header from '../../sections/Header.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
+	import CardTarifs from '../../Components/CardTarifs.svelte';
+
+	let pwa = [
+		{
+			name: 'Custom',
+			h2: 'Unique, créativité totale',
+			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
+			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages', ' Tarif: 2999 €'],
+			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.']
+		}
+	];
+
+	let native = [
+		{
+			name: 'Custom',
+			h2: 'Unique, créativité totale',
+			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
+			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages', ' Tarif: 2999 €'],
+			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.']
+		}
+	];
 </script>
 
 <Header />
 <Mouse />
+
 <main>
-	<h1 class="title">Notre offre de création de site internet</h1>
-
-	<div class="wrapper__txt">
-		<div class="wrapper-offre">
-			<p class="offre">BASIC</p>
-			<h2>Site internet Rapide, efficace, Pro</h2>
-			<p class="avantage">Votre site, livré clefs en main, en trois jours max</p>
-		</div>
-		<h3>Idéal pour : Indépendants, TPE, PME, Artisans, Associations</h3>
-		<ul>
-			<li>✅ Un site web professionnel basé sur un template optimisé</li>
-			<li>✅ Personnalisation du design (logo, couleurs, images, textes)</li>
-			<li>✅ 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en (option)</li>
-			<li>✅ Intégration d’un formulaire de contact</li>
-			<li>✅ Site optimisé pour mobile & SEO de base</li>
-			<li>✅ Mise en ligne rapide</li>
-			<br />
-			<li>📅 Délai : 3 jours max</li>
-			<li>📈 Tarif : 1399 €</li>
-			<li>⚡ Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...</li>
-			<li>💪 Avantage client : Un site rapide, efficace et très abordable.</li>
-		</ul>
-	</div>
-
-	<div class="wrapper__txt">
-		<div class="wrapper-offre">
-			<p>CUSTOM</p>
-			<h2>Site internet, en créativité totale !</h2>
-			<p class="avantage">Une identité forte pour une marque puissante</p>
-		</div>
-
-		<h3>Idéal pour : Indépendants, TPE, PME, Artisans, Associations</h3>
-		<ul>
-			<li>✅ Conception unique et sur-mesure en Svelte ou HTML/CSS/JS</li>
-			<li>✅ Projets avec un design précis ou des animations avancées</li>
-			<li>✅ Personnalisation du design (logo, couleurs, images, textes)</li>
-			<li>✅ Interface UX/UI optimisée pour une meilleure expérience utilisateur</li>
-			<li>✅ Animations, micro-interactions et effets visuels dynamiques</li>
-			<li>✅ Site ultra-performant et SEO friendly</li>
-			<li>✅ Optimisation mobile et responsive sans compromis</li>
-			<li>✅ Intégration d’un formulaire de contact</li>
-			<br />
-			<li>📅 Délai : 2 à 4 semaines</li>
-			<li>📈 Tarif : à partir de 2000€ (sur devis selon projet)</li>
-			<li>⚡ Options : Intégration avec un CMS, Strapi, ou API backend</li>
-			<li>💪 Avantage pour le client : Un site premium et personnalisé qui se distingue.</li>
-		</ul>
-	</div>
-
-	<div class="wrapper__txt">
-		<div class="wrapper-offre">
-			<p>SINGLE PAGE</p>
-			<h2>Une page percutante et unique</h2>
-			<p class="avantage">Un budget léger, une livraison en 1 jour</p>
-		</div>
-		<h3>Café, pub, salle de concert, association, commerçant ...</h3>
-	
-		<ul>
-			<li>✅ Intégration d'un agenda</li>
-			<li>✅ Interface UX/UI optimisée pour une meilleure expérience utilisateur</li>
-			<li>✅ Page optimisée SEO</li>
-			<li>✅ Page légère et ultra-performante</li>
-			<li>✅ Intégration d’un formulaire de contact</li>
-			<li>✅ Optimisation mobile et responsive sans compromis</li>
-			<br />
-			<li>📅 Délai : 1 jour</li>
-			<li>📈 Tarif : à partir de 2000€ (sur devis selon projet)</li>
-			<li>⚡ Options : Intégration avec un CMS, Strapi, ou API backend</li>
-			<li>💪 Avantage pour le client : Un site premium et personnalisé qui se distingue.</li>
-		</ul>
-	</div>
+	<h1 class="title">Notre offre de création d'application</h1>
+	{#each pwa as item}
+		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} />
+	{/each}
+	{#each native as item}
+		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} />
+	{/each}
 </main>
 
 <style>
@@ -93,88 +51,69 @@
 	}
 
 	.title {
-		font-family: var(--DM);
-		font-size: 3rem;
+		font-family: var(--Geologica);
+		font-size: 2.5rem;
 		color: var(--whiteGrey);
 		font-weight: 700;
 		text-align: center;
-		letter-spacing: -1px;
+		letter-spacing: -2px;
 		margin-top: 50px;
 	}
-	.wrapper__txt {
+	/* .wrapper__hero {
 		display: flex;
-		align-items: center;
-		justify-content: center;
+		align-items: baseline;
+		justify-content: baseline;
 		flex-direction: column;
-		width: 90%;
+		width: 95%;
 		height: auto;
 		margin: 0 auto;
-		padding: 30px;
+		padding: 10px;
 		gap: 30px;
 		border-radius: 8px;
-		background-color: #1f1e1e;
-		color: var(--whiteGrey);
-		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.528);
-		position: relative;
+
+		color: var(--primary);
+		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
 	}
-	.wrapper__txt h2 {
-		font-size: 3.5rem;
+	.wrapper__hero h2 {
+		font-family: var(--Red);
+		font-size: 1.2rem;
 		letter-spacing: -1px;
-		font-weight: 700;
+		font-weight: 900;
 		color: var(--whiteGrey);
 		margin-top: 10px;
 	}
-	.wrapper__txt h3 {
-		font-size: 2.5rem;
+	.wrapper__hero h3 {
+		font-size: 1.5rem;
 		letter-spacing: -1px;
-		font-weight: 100;
+		font-weight: 300;
 		color: var(--whiteGrey);
 	}
-	.wrapper-offre {
-		gap: 20px;
-		width: 100%;
-		height: 10%;
-		padding: 50px;
-		background-color: rgb(19, 18, 19);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		border-radius: 10px 10px 0px 0px;
-		border: 1px solid rgb(118, 115, 115);
-	}
-	.wrapper__txt li {
+	.wrapper__hero p {
+		font-family: var(--Red);
 		font-size: 1rem;
-		font-weight: 300;
+		font-weight: 400;
 		padding: 10px;
-	}
-	.offre {
-		font-size: 1.2rem;
-		font-weight: 500;
-		background-color: var(--blue);
+		line-height: 30px;
 		color: var(--whiteGrey);
-		padding: 20px;
-		border-radius: 5px;
-		width: 100px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-	}
-	.avantage {
-		font-family: var(--Poppins);
-		font-size: 1.2rem;
-		font-weight: 300;
-		background-color: rgb(78, 4, 4);
+	} */
+
+	/* .wrapper__faqLink a {
+		font-family: 'Red Hat Display';
+		font-size: var(--m);
+		font-weight: 700;
 		color: var(--whiteGrey);
-		padding: 20px;
+		background-color: var(--cta);
+		padding: 20px 30px;
+		text-decoration: none;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		margin-bottom: 100px;
 		border-radius: 5px;
-		width: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.528);
-		margin-top: 20px;
+		margin-top: 0px;
 	}
+	.wrapper__faqLink {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	} */
 </style>

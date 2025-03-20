@@ -149,7 +149,7 @@
 		gap: 30px;
 		background-color: var(--primary);
 		padding: 60px;
-
+		border-radius: 5px;
 		box-shadow: 30px 20px 10px 2px rgba(76, 76, 76, 0.35);
 	}
 

@@ -54,6 +54,7 @@ a {
 	--gradient: linear-gradient(120deg,   var(--cta)20%,    var(--primary)50%, var(--cta)50%, var(--primary)100%); 
 	--gradientReverse: linear-gradient(120deg,   var(--primary)20%,    var(--primary)50%, var(--cta)50%, var(--cta)100%); 
 
+	--bgCard:#1f1e1e;
 
 
 
