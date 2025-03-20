@@ -22,8 +22,8 @@
 			<!-- <a href="/#section-form">Obtenir un devis</a> -->
 		</div>
 		<div class="wrapper__offer-ul">
+			<h3>Détails</h3>
 			<ul>
-				<h3>Détails</h3>
 				{#each li as item}
 					<li>{item}</li>
 				{/each}
@@ -65,39 +65,38 @@
 		justify-content: flex-start;
 		flex-direction: column;
 		width: 70%;
-		gap: 50px;
+		gap: 30px;
 		height: auto;
 		padding: 20px;
 		border-radius: 10px 10px 0px 0px;
 		background-color: var(--bgCard);
 	}
 	.wrapper__offer ul {
-		background-color: var(--bgCard);
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		background-color: transparent;
 		padding: 20px;
 		border-radius: 15px;
-		color: var(--whiteGrey);
+		color: rgb(223, 223, 223);
 	}
-	.wrapper__offer ul h3 {
+	.wrapper__offer h3 {
 		font-size: 1rem;
-		font-weight: 600;
-		color: var(--primary);
-		text-align: center;
-		background-color: var(--whiteGrey);
-		border: 1px solid grey;
-		padding: 20px;
-		max-width: 30%;
-		margin: 0 auto;
-        border-radius: 10px;
-        letter-spacing: -1px;
+		letter-spacing: 0px;
+		font-weight: 200;
+		color: var(--whiteGrey);
+
+		padding: 2px;
+		border-radius: 10px;
 	}
 
 	.wrapper__offer li {
-        
 		font-size: 1rem;
 		font-weight: 300;
 		padding: 10px;
 		line-height: 30px;
-        list-style-type:circle ;
+		list-style-type: circle;
 	}
 	.wrapper__offer h2 {
 		font-family: var(--Red);
@@ -108,11 +107,14 @@
 		margin-top: 0px;
 		white-space: pre-line;
 	}
-	.wrapper__offer h3 {
+	.wrapper__offer-ul h3 {
 		font-size: 1rem;
 		letter-spacing: 0px;
 		font-weight: 200;
 		color: var(--whiteGrey);
+		border: 1px solid grey;
+		padding: 20px;
+		border-radius: 10px;
 	}
 
 	.name {
@@ -132,16 +134,18 @@
 	}
 
 	.details {
-		gap: 10px;
+		gap: 5px;
 		width: 100%;
+		flex-wrap: wrap;
 		height: auto;
-		height: 10%;
-		padding: 20px;
+		padding: 0px;
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
 		flex-direction: column;
 		border-radius: 10px 10px 0px 0px;
+		margin-top: 30px;
+        width: 50%;
 	}
 	.details h4 {
 		font-family: var(--Red);
@@ -151,7 +155,7 @@
 		color: var(--whiteGrey);
 		padding: 10px 25px;
 		border-radius: 8px;
-		min-width: 270px;
+		min-width: 100%;
 	}
 	/* a {
 		background-color: transparent;
@@ -196,26 +200,25 @@
 			margin: 0 auto;
 		}
 		.details {
-			gap: 5px;
-			width: 100%;
+			gap: 7px;
 			height: auto;
-			height: 10%;
-			padding: 20px;
+			padding: 0px;
 			display: flex;
-			align-items: center;
-			justify-content: center;
+			align-items: flex-start;
+			justify-content: flex-start;
 			flex-direction: column;
 			border-radius: 10px 10px 0px 0px;
+			margin-top: 20px;
+			width: 100%;
 		}
 		.details h4 {
 			font-family: var(--Red);
-			font-size: 1.2rem;
+			font-size: 1rem;
 			font-weight: 600;
-			background-color: rgb(87, 13, 59);
+			/* background-color: rgb(87, 13, 59); */
 			color: var(--whiteGrey);
-			padding: 10px 25px;
+			padding: 10px;
 			border-radius: 8px;
-			min-width: 270px;
 		}
 		.wrapper__offer-infos {
 			display: flex;
@@ -233,7 +236,7 @@
 			flex-direction: column;
 			gap: 0px;
 			width: 100%;
-			padding: 0;
+			padding: 20p;
 		}
 
 		.wrapper__offer ul h3 {
@@ -241,11 +244,9 @@
 			flex-direction: column;
 			gap: 0px;
 			width: 50%;
-			padding: 0;
-			margin: 0 auto;
+			margin: 20px auto;
 			padding: 10px;
 			border-radius: 10px;
-			margin-top: -20px;
 		}
 
 		.name {
@@ -260,7 +261,7 @@
 		}
 		.wrapper__offer li {
 			font-size: 0.8rem;
-			line-height: 30px;
+			line-height: 25px;
 		}
 	}
 </style>
