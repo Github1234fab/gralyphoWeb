@@ -6,22 +6,33 @@
 
 	let pwa = [
 		{
-			name: 'Custom',
-			h2: 'Unique, créativité totale',
-			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
-			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages'],
-			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.'],
-			tarif: "5999 €"
+			name: 'PWA',
+			h2: 'Application Web,\n multiplateforme, \n légère à prix doux',
+			h3: 'Idéal pour : Entreprise, indépendant, commerce, évènementiel, Institution',
+			h4: ['Délai : 15 jours', 'IOS, Android et Web', ' Notification push'],
+
+			li: ['Accessible sans téléchargement', 'Compatible multi-plateforme (mobile, tablette, desktop)', 'Performante & rapide avec mise en cache', 'SEO-friendly et indexable par Google', 'Mode hors-ligne grâce au Service Worker', "Mises à jour instantanées sans validation d'un store", 'Coût de développement réduit (un seul code à maintenir)', 'Notifications push disponibles', 'Sécurisée via HTTPS'],
+			tarif: '6999 €'
 		}
 	];
 
 	let native = [
 		{
-			name: 'Custom',
-			h2: 'Unique, créativité totale',
+			name: 'NATIVE',
+			h2: 'Application native, \n IOS et ANDROID, \n puissante et performante',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
-			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages', ],
-			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.']
+			h4: ['Délai : 3 semaines', 'Android et Ios', ' Notification push'],
+			li: [
+				'Expérience utilisateur optimisée et fluide',
+				'Accès complet aux fonctionnalités du téléphone (GPS, Bluetooth, NFC, caméra...)',
+				'Meilleures performances pour les apps lourdes (jeux, AR/VR, montage vidéo)',
+				'Notifications push plus puissantes et sans restrictions',
+				'Mode hors-ligne complet avec stockage local avancé',
+				'Présence sur les stores (App Store & Google Play), gage de crédibilité',
+				'Monétisation facilitée via achats in-app et abonnements',
+				'Sécurité renforcée grâce aux validations des stores'
+			],
+			tarif: '9999 €'
 		}
 	];
 </script>
@@ -32,14 +43,14 @@
 <main>
 	<h1 class="title">Notre offre de création d'application</h1>
 	{#each pwa as item}
-		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} />
+		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 	{/each}
 	{#each native as item}
-		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} />
+		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif}/>
 	{/each}
 	<div class="wrapper__faqLink">
 		<FaqLink />
-		
+	</div>
 </main>
 
 <style>

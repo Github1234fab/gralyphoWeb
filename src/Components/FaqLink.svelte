@@ -21,6 +21,7 @@
 		width: 80%;
 		margin: 0 auto;;
 		background-color: var(--whiteGrey);
+		border-radius: 20px;
     }
 	.title {
 		text-align: center;
