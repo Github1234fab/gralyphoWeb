@@ -7,7 +7,7 @@
 	Consultez toutes nos réponses à propos de la création de site internet, de la création d'applications,<br> des technologies utilisées, des
 	tarifs, du référencement, etc.
 </p>
-
+<a href="/FAQ">FAQ</a>
 </section>
 
 <style>
@@ -18,7 +18,9 @@
         justify-content: center;
         gap: 40px;
         height: auto;
-		width: 60%;
+		width: 80%;
+		margin: 0 auto;;
+		background-color: var(--whiteGrey);
     }
 	.title {
 		text-align: center;
@@ -44,6 +46,20 @@
 		line-height: 40px;
 		margin-bottom: 50px;
 	}
+	.faqLink a {
+		font-family: 'Red Hat Display';
+		font-size: var(--m);
+		font-weight: 700;
+		color: var(--whiteGrey);
+		background-color: var(--cta);
+		padding: 20px 30px;
+		text-decoration: none;
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		margin-bottom: 100px;
+		border-radius: 5px;
+		margin-top: 0px;
+	}
+	
 	
 
     @media screen and (max-width: 768px) {
@@ -58,9 +74,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 40px;
+        gap: 20px;
         height: auto;
-		width: 80%;
+		width: 100%;
     }
        
     }

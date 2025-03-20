@@ -5,6 +5,7 @@
 	export let h3;
 	export let h4;
 	export let li;
+	export let tarif;
 </script>
 
 <main>
@@ -17,13 +18,14 @@
 				{#each h4 as text}
 					<h4>{text}</h4>
 				{/each}
+				<h4>{tarif}</h4>
 			</div>
 			<Button />
 			<!-- <a href="/#section-form">Obtenir un devis</a> -->
 		</div>
 		<div class="wrapper__offer-ul">
-			<h3>Détails</h3>
 			<ul>
+				<h3>Détails</h3>
 				{#each li as item}
 					<li>{item}</li>
 				{/each}
@@ -41,9 +43,6 @@
 		gap: 40px;
 		padding: 10px;
 		height: auto;
-		background-color: var(--primary);
-		font-family: epilogue;
-		background-color: var(--primary);
 		font-family: epilogue;
 	}
 
@@ -54,10 +53,11 @@
 		max-width: 100%;
 		height: auto;
 		margin: 0 auto;
-		padding: 20px;
-		gap: 30px;
+		padding: 5px;
+		gap: 10px;
 		border-radius: 8px;
 		box-shadow: 0px 0px 5px grey;
+		background-color: var(--blue);
 	}
 	.wrapper__offer-infos {
 		display: flex;
@@ -68,7 +68,7 @@
 		gap: 30px;
 		height: auto;
 		padding: 20px;
-		border-radius: 10px 10px 0px 0px;
+		border-radius: 10px;
 		background-color: var(--bgCard);
 	}
 	.wrapper__offer ul {
@@ -80,13 +80,14 @@
 		padding: 20px;
 		border-radius: 15px;
 		color: rgb(223, 223, 223);
+		background-color: var(--bgCard);
 	}
 	.wrapper__offer h3 {
 		font-size: 1rem;
 		letter-spacing: 0px;
 		font-weight: 200;
 		color: var(--whiteGrey);
-
+		background-color: var(--bgCard);
 		padding: 2px;
 		border-radius: 10px;
 	}
@@ -110,11 +111,12 @@
 	.wrapper__offer-ul h3 {
 		font-size: 1rem;
 		letter-spacing: 0px;
-		font-weight: 200;
+		font-weight: 500;
 		color: var(--whiteGrey);
 		border: 1px solid grey;
 		padding: 20px;
 		border-radius: 10px;
+		text-align: center;
 	}
 
 	.name {
@@ -145,7 +147,7 @@
 		flex-direction: column;
 		border-radius: 10px 10px 0px 0px;
 		margin-top: 30px;
-        width: 50%;
+		width: 50%;
 	}
 	.details h4 {
 		font-family: var(--Red);
@@ -195,10 +197,11 @@
 		.wrapper__offer {
 			display: flex;
 			flex-direction: column;
-			gap: 50px;
-			width: 80%;
+			width: 100%;
 			margin: 0 auto;
+			gap: 0px;
 		}
+
 		.details {
 			gap: 7px;
 			height: auto;
@@ -228,7 +231,7 @@
 			width: 100%;
 			gap: 40px;
 			height: auto;
-			padding: 30px;
+			padding: 20px;
 			border-radius: 10px 10px 0px 0px;
 		}
 		.wrapper__offer ul {
@@ -237,6 +240,7 @@
 			gap: 0px;
 			width: 100%;
 			padding: 20p;
+			border-radius: 0px 0px 10px 10px;
 		}
 
 		.wrapper__offer ul h3 {
@@ -255,9 +259,11 @@
 		}
 		.wrapper__offer h2 {
 			font-size: 2rem;
+			line-height: 33px;
 		}
 		.wrapper__offer h3 {
 			font-size: 1rem;
+			line-height: 35px;
 		}
 		.wrapper__offer li {
 			font-size: 0.8rem;

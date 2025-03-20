@@ -93,7 +93,7 @@
 
 	<div class="wrapper__faqLink">
 		<FaqLink/>
-		<a href="/FAQ/#strategie">FAQ</a>
+	
 	</div>
 
 
@@ -181,28 +181,7 @@
 		gap: 20px;
 		margin-top: 50px;
 	}
-	.wrapper__faqLink{
-		grid-column: 1/13;
-		grid-row: 6;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: auto;
-	}
-	.wrapper__faqLink a{
-		font-family: 'Red Hat Display';
-		font-size: var(--m);
-		font-weight: 700;
-		color: var(--whiteGrey);
-		background-color: var(--cta);
-		padding: 20px 30px;
-		text-decoration: none;
-		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
-		margin-bottom: 100px;
-		border-radius: 5px;
-		margin-top: 0px;
-	}
+	
 
 	.wrapper-form {
 		display: flex;

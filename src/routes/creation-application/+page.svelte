@@ -2,14 +2,16 @@
 	import Header from '../../sections/Header.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import CardTarifs from '../../Components/CardTarifs.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
 
 	let pwa = [
 		{
 			name: 'Custom',
 			h2: 'Unique, créativité totale',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
-			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages', ' Tarif: 2999 €'],
-			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.']
+			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages'],
+			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.'],
+			tarif: "5999 €"
 		}
 	];
 
@@ -18,7 +20,7 @@
 			name: 'Custom',
 			h2: 'Unique, créativité totale',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
-			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages', ' Tarif: 2999 €'],
+			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages', ],
 			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 1399 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.']
 		}
 	];
@@ -35,6 +37,9 @@
 	{#each native as item}
 		<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} />
 	{/each}
+	<div class="wrapper__faqLink">
+		<FaqLink />
+		
 </main>
 
 <style>

@@ -59,30 +59,18 @@
 		<img src={seo} alt="" class="imgHero" />
 		<h1>Stratégie <span>SEO</span></h1>
 		<h2>Qu'est-ce que ça veut dire <span>"SEO"</span> ?</h2>
-		<p>
-			Le Search Engine Optimization (SEO), ou optimisation pour les moteurs de recherche, est
-			l'ensemble des pratiques visant à améliorer la visibilité et le classement d'un site web dans
-			les résultats des moteurs de recherche (comme Google, Bing ou Yahoo). L'objectif est d'attirer
-			un trafic organique (non payant) de qualité vers un site internet.
-		</p>
+		<p>Le Search Engine Optimization (SEO), ou optimisation pour les moteurs de recherche, est l'ensemble des pratiques visant à améliorer la visibilité et le classement d'un site web dans les résultats des moteurs de recherche (comme Google, Bing ou Yahoo). L'objectif est d'attirer un trafic organique (non payant) de qualité vers un site internet.</p>
 		<h2>Comment faire du référencement <span>"SEO"</span> ?</h2>
 		<p>
-			Le SEO repose sur <a href="https://semji.com/fr/guide/techniques-seo-le-guide-complet/">plusieurs piliers</a>: 
-			la technique, le contenu et la popularité. Il s'agit
-			d'optimiser la structure d'un site internet, le contenu de ses pages et de gagner des liens de qualité pour
-			améliorer la visibilité du site sur les moteurs de recherche.
-
+			Le SEO repose sur <a href="https://semji.com/fr/guide/techniques-seo-le-guide-complet/">plusieurs piliers</a>: la technique, le contenu et la popularité. Il s'agit d'optimiser la structure d'un site internet, le contenu de ses pages et de gagner des liens de qualité pour améliorer la visibilité du site sur les moteurs de recherche.
 		</p>
 		<h2>Comment trouver une bonne agence <span>"SEO"</span> à Lyon ?</h2>
 		<p>
-		De nombreuses agences SEO à Lyon offre de très bons servcies SEO. Chez Gralypho, agence Web basée à Lyon et dans l'ouest Lyonnais, nous accordons une importance névraglique au SEO. 
-		C'est le nerf de la guerre, c'est crucial pour tous les propriétaires de site internet. Le SEO est passionnant et aujourd'hui nous possedons de nombreux outils qui nous permettent de réaliser des analyses fines sur la position de chaque site internet dans la SERP.
-		Nous proposons des audits SEO complets, des stratégies SEO sur mesure et des suivis réguliers pour garantir un bon positionnement sur les moteurs de recherche. 
+			De nombreuses agences SEO à Lyon offre de très bons servcies SEO. Chez Gralypho, agence Web basée à Lyon et dans l'ouest Lyonnais, nous accordons une importance névraglique au SEO. C'est le nerf de la guerre, c'est crucial pour tous les propriétaires de site internet. Le SEO est passionnant et aujourd'hui nous possedons de nombreux outils qui nous permettent de réaliser des analyses fines sur la position de chaque site internet dans la SERP. Nous proposons des audits SEO complets, des
+			stratégies SEO sur mesure et des suivis réguliers pour garantir un bon positionnement sur les moteurs de recherche.
 		</p>
-		<h2>Quel est le budget pour un audit  <span>"SEO"</span></h2>
-		<p>
-		Le budget pour un audit SEO varie en fonction de la taille du site internet, de la concurrence, du secteur d'activité et des objectifs fixés à court ou long terme.
-		</p>
+		<h2>Quel est le budget pour un audit <span>"SEO"</span></h2>
+		<p>Le budget pour un audit SEO varie en fonction de la taille du site internet, de la concurrence, du secteur d'activité et des objectifs fixés à court ou long terme.</p>
 		<Button />
 	</div>
 
@@ -108,18 +96,17 @@
 	<div class="testimonial">
 		<h1>Stratégie SEO, <br /> les chiffres .</h1>
 		<h2>
-			Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux
-			organiques .<br /><br />
+			Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux organiques .<br /><br />
 			92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br /><br />
 			53,3% de tout le trafic de site provient de la recherche organique. <br /><br />
 			68% des expériences en ligne commencent par un moteur de recherche. <br /><br />
 		</h2>
+		<div class="wrapper__faqLink">
+			<FaqLink />
+		</div>
 	</div>
 
-	<div class="wrapper__faqLink">
-		<FaqLink />
-		<a href="/FAQ/#seo">FAQ</a>
-	</div>
+
 
 	<!-- ***************CONTACT*************** -->
 
@@ -185,10 +172,9 @@
 		padding: 20px;
 		margin-bottom: 50px;
 		width: 90%;
-	
 	}
-	a{
-		text-decoration:underline;
+	a {
+		text-decoration: underline;
 	}
 
 	.imgHero {
@@ -197,27 +183,6 @@
 		margin-top: 30px;
 	}
 
-	.wrapper__faqLink {
-		grid-column: 1/13;
-		grid-row: 6;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.wrapper__faqLink a {
-		font-family: 'Red Hat Display';
-		font-size: var(--m);
-		font-weight: 700;
-		color: var(--whiteGrey);
-		background-color: var(--cta);
-		padding: 20px 30px;
-		text-decoration: none;
-		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
-		margin-bottom: 100px;
-		border-radius: 5px;
-		margin-top: 0px;
-	}
 	.wrapper-form {
 		grid-column: 1/13;
 		grid-row: 7;
