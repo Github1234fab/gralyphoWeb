@@ -56,9 +56,8 @@
 		padding: 5px;
 		gap: 10px;
 		border-radius: 8px;
-		box-shadow: 0px 0px 5px grey;
+		border: 1px solid grey;
 		/* background-color: var(--blue); */
-
 	}
 	.wrapper__offer-infos {
 		display: flex;
@@ -91,7 +90,7 @@
 		background-color: var(--bgCard);
 		padding: 2px;
 		border-radius: 10px;
-        white-space: pre-line;
+		white-space: pre-line;
 	}
 
 	.wrapper__offer li {

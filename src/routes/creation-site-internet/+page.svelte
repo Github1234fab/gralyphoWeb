@@ -3,15 +3,19 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import CardTarifs from '../../Components/CardTarifs.svelte';
+	import Images from '../../Components/ImagesBlocks.svelte';
+	import Bird from '../../Assets/bird.jpeg';
+	import Woman from '../../Assets/gralyphoHeroImg.jpeg';
+	import Smartphone from '../../Assets/compteur3.jpeg';
 
 	let landing = [
 		{
 			name: 'Single Page',
 			h2: 'Une seule page, \n essentielle et percutante',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
-			h4: ['Délai : 1 jour', "gestion de contenu"],
+			h4: ['Délai : 1 jour', 'gestion de contenu'],
 			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 1 page ', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Une page pour centraliser toutes les infos.'],
-			tarif: "Tarif : 799 €"
+			tarif: 'Tarif : 799 €'
 		}
 	];
 
@@ -22,7 +26,7 @@
 			h3: 'Idéal pour : Indépendants, TPE, PME, Artisans, Associations',
 			h4: ['Délai : 3 jours max', ' Vitrine Pro', '5 pages'],
 			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.'],
-				tarif: "Tarif : 1399 €"
+			tarif: 'Tarif : 1399 €'
 		}
 	];
 
@@ -32,8 +36,18 @@
 			h2: 'Contenu dynamique',
 			h3: 'Idéal pour : Institution, Entreprise, E-commerce, Blog, Média',
 			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages'],
-			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 2999 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site avec gestion de contenu, idéal pour e-commerce, entreprise, institution.'],
-				tarif: "Tarif : 3999 €"
+			li: [
+				' Un site web professionnel basé sur un template optimisé',
+				' Personnalisation du design (logo, couleurs, images, textes)',
+				' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option',
+				' Intégration d’un formulaire de contact',
+				' Site optimisé pour mobile & SEO de base',
+				' Mise en ligne rapide',
+				' Tarif : 2999 €',
+				' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...',
+				' Avantage client : Un site avec gestion de contenu, idéal pour e-commerce, entreprise, institution.'
+			],
+			tarif: 'Tarif : 3999 €'
 		}
 	];
 
@@ -42,9 +56,9 @@
 			name: 'Custom',
 			h2: 'Sur mesure, identité forte \n créativité totale',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, \n café, évenementiel marque, identité forte',
-			h4: ['Délai : 7-15 jours max', ' 5-10 pages' ],
+			h4: ['Délai : 7-15 jours max', ' 5-10 pages'],
 			li: [' Un site web sur mesure', ' Haute personnalisation du design (logo, couleurs, images, textes)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site unique, une identité forte.'],
-				tarif: "Tarif : 5999 €"
+			tarif: 'Tarif : 5999 €'
 		}
 	];
 
@@ -54,17 +68,30 @@
 			h2: 'CMS Headless, pour une autonomie \n totale et sur mesure',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
 			h4: ['Délai : 15 jours', ' Gesion de contenu', ' 5-10 pages', ' Tarif: 5999 €'],
-			li: [' Un site web professionnel basé sur un template optimisé ou créé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Tarif : 5999 €', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site internet sur mesure, \n avec une gestion de contenu entièrement personnalisée .']
-				,tarif: "Tarif : 7999 €"
+			li: [
+				' Un site web professionnel basé sur un template optimisé ou créé',
+				' Personnalisation du design (logo, couleurs, images, textes)',
+				' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option',
+				' Intégration d’un formulaire de contact',
+				' Site optimisé pour mobile & SEO de base',
+				' Mise en ligne rapide',
+				' Tarif : 5999 €',
+				' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...',
+				' Avantage client : Un site internet sur mesure, \n avec une gestion de contenu entièrement personnalisée .'
+			],
+			tarif: 'Tarif : 7999 €'
 		}
 	];
+
+	let images = [Bird, Woman, Smartphone];
 </script>
 
 <Header />
 <Mouse />
 <main>
-
-
+	<div class="wrapper__images">
+	<Images img={images} alt="image" />
+</div>
 	<div class="wrapper__hero">
 		<h1 class="title">Sites internet</h1>
 		<h2>Bien choisir son modèle de site internet est fondamental.</h2>
@@ -102,7 +129,7 @@
 			peut être adapté à chaque support. La maintenance est facile et souple et permet de gagner un temps considérable !
 		</p>
 		{#each headless as item}
-			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif}/>
+			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
 		<div class="wrapper__faqLink">
 			<FaqLink />
@@ -157,7 +184,6 @@
 		letter-spacing: -1px;
 		font-weight: 300;
 		color: var(--whiteGrey);
-
 	}
 	.wrapper__hero p {
 		font-family: var(--Red);
@@ -174,5 +200,4 @@
 			width: 100%;
 		}
 	}
-
 </style>
