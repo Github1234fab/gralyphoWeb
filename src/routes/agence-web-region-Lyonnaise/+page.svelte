@@ -1,6 +1,7 @@
 <script>
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Header from '../../sections/Header.svelte';
+	import Links from "../../Components/LinkSiteApplication.svelte"
 </script>
 
 <Header />
@@ -41,6 +42,7 @@
 			Ainsi, nous limitons nos déplacements et nous préservons l'environnement.
 		</p>
 	</div>
+	<Links/>
 	<div class="wrapper__faqLink">
 		<FaqLink />
 		<a href="/FAQ">FAQ</a>

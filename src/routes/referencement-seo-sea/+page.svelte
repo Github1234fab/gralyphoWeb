@@ -32,6 +32,7 @@
 	import seo from '../../Assets/png-gralypho/seo3.png';
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
+	import Links from '../../Components/LinkSiteApplication.svelte';
 
 	// let accordeonTab = [
 	// 	{
@@ -101,12 +102,13 @@
 			53,3% de tout le trafic de site provient de la recherche organique. <br /><br />
 			68% des expériences en ligne commencent par un moteur de recherche. <br /><br />
 		</h2>
+	
 		<div class="wrapper__faqLink">
 			<FaqLink />
 		</div>
 	</div>
 
-
+	
 
 	<!-- ***************CONTACT*************** -->
 

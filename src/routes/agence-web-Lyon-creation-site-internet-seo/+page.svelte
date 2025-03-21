@@ -1,6 +1,7 @@
 <script>
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Header from '../../sections/Header.svelte';
+	import Links from "../../Components/LinkSiteApplication.svelte"
 </script>
 
 <Header/>
@@ -43,6 +44,7 @@
 			réalisations sont consultables et qu'elles ont bien été réalisées par l'agence.
 		</p>
 	</div>
+	<Links/>
 	<div class="wrapper__faqLink">
 		<FaqLink />
 		<a href="/FAQ">FAQ</a>
@@ -112,7 +114,7 @@
 	}
 	.img{
 
-		width: 80%;
+		width: 60%;
 		margin:0 auto;
 	}
 

@@ -72,7 +72,7 @@
 	</div>
 
 		<div class="wrapper__component">
-			<h2>Notre offre avec CMS Headless</h2>
+			<h2>Notre offre d'application Native</h2>
 					
 		<p>
 			L'application native est plus puissante et performante. Elle est dédiée à un seul support, soit IOS, soit Android. Elle offre une expérience utilisateur optimale et fluide.

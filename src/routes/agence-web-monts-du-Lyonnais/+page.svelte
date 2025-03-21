@@ -1,7 +1,10 @@
 <script>
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Header from '../../sections/Header.svelte';
-	import picture from "../../Assets/png-gralypho/monts-du-lyonnais.png";
+	import picture from "../../Assets/montsDuLyonnais.jpeg";
+	import Links from "../../Components/LinkSiteApplication.svelte"
+	import ButtonCta from '../../Components/ButtonCTA.svelte';
+
 </script>
 
 <Header/>
@@ -38,6 +41,7 @@
 			Alliant cadre verdoyant, authentique et préservé, il fait bon vivre et travailler dans les monts du Lyonnais. Nous bénéficions d'un confort de travail optimal tout en étant à moins de trente minutes de Lyon, ce qui nous permet de répondre aux besoins digitaux des entreprises des monts du Lyonnais, de Lyon et de la région Lyonnaise. Pour Gralypho, agence Web, c'est un choix 100% gagnant !
 		</p>
 	</div>
+	<Links/>
 	<div class="wrapper__faqLink">
 		<FaqLink />
 		<a href="/FAQ">FAQ</a>
@@ -107,7 +111,7 @@
     }
     .img{
         height:100%;
-        width: 900px;
+        width: 500px;
 		border-radius: 20px;
 		margin-top: 20px;
 		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);

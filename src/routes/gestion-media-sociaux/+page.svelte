@@ -33,6 +33,7 @@
 	import socialMedia from '../../Assets/png-gralypho/socialMedia.png';
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
+	import Links from '../../Components/LinkSiteApplication.svelte';
 
 	// import Csection from "../../sections/Csection.svelte";
 	import Mouse from '../../Components/Mouse.svelte';
@@ -98,7 +99,7 @@
 		</div>
 	</div>
 
-
+	<Links/>
 
 	<div class="testimonial">
 		<h2>

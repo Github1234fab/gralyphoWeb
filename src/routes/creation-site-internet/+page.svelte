@@ -8,6 +8,7 @@
 	import Woman from '../../Assets/gralyphoHeroImg.jpeg';
 	import Smartphone from '../../Assets/compteur3.jpeg';
 
+
 	let landing = [
 		{
 			name: 'Landing Page',
@@ -75,7 +76,6 @@
 				' Intégration d’un formulaire de contact',
 				' Site optimisé pour mobile & SEO de base',
 				' Mise en ligne rapide',
-				' Tarif : 5999 €',
 				' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...',
 				' Avantage client : Un site internet sur mesure, \n avec une gestion de contenu entièrement personnalisée .'
 			],
@@ -139,6 +139,7 @@
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
 		</div>
+
 		<div class="wrapper__faqLink">
 			<FaqLink />
 		</div>

@@ -34,6 +34,7 @@
 	// import Csection from "../../sections/Csection.svelte";
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
+	import Links from '../../Components/LinkSiteApplication.svelte';
 
 	let accordeonTab = [
 		{
@@ -150,7 +151,7 @@
 			</div>
 		</div>
 	</div>
-
+<Links/>
 	<div class="wrapper__faqLink">
 		<FaqLink />
 	
