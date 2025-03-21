@@ -46,7 +46,7 @@
 		justify-content: center;
 		flex-direction: column;
 		gap: 40px;
-		padding: 10px;
+		padding: 0px;
 		height: auto;
 		font-family: epilogue;
 	}
@@ -55,10 +55,10 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
-		max-width: 100%;
+		max-width: 85%;
 		height: auto;
 		margin: 0 auto;
-		padding: 5px;
+		padding: 0px;
 		gap: 10px;
 		border-radius: 8px;
 		border: 1px solid grey;
@@ -132,14 +132,14 @@
 
 	.name {
 		font-family: var(--Red);
-		font-size: 2.2rem;
+		font-size: 2rem;
 		font-weight: 800;
 		background-color: var(--blue);
 		color: var(--whiteGrey);
 		padding: 20px;
 		margin-top: 0px;
 		border-radius: 5px;
-		width: 300px;
+		width: 200px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -162,13 +162,13 @@
 	}
 	.details h4 {
 		font-family: var(--Red);
-		font-size: 1.2rem;
+		font-size: 1rem;
 		font-weight: 600;
 		background-color: rgb(87, 13, 59);
 		color: var(--whiteGrey);
 		padding: 10px 25px;
 		border-radius: 8px;
-		min-width: 70%;
+		min-width: 100%;
        
 	}
     .tarif{
@@ -212,7 +212,7 @@
 		.wrapper__offer {
 			display: flex;
 			flex-direction: column;
-			width: 100%;
+            max-width: 100%;
 			margin: 0 auto;
 			gap: 0px;
 		}
@@ -236,6 +236,7 @@
 			color: var(--whiteGrey);
 			padding: 10px;
 			border-radius: 8px;
+            min-width: 70%;
 		}
 		.wrapper__offer-infos {
 			display: flex;
