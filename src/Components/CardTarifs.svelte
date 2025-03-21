@@ -120,9 +120,10 @@
 		font-weight: 500;
 		color: var(--whiteGrey);
 		border: 1px solid grey;
-		padding: 20px;
+		padding: 10px 20px;
 		border-radius: 10px;
 		text-align: center;
+        margin-bottom: 20px;
 	}
     .wrapper__Button{
         margin-top: 40px;
