@@ -18,9 +18,9 @@
 				{#each h4 as text}
 					<h4>{text}</h4>
 				{/each}
-				<h4>{tarif}</h4>
+				<h4 class="tarif"> {tarif}</h4>
 			</div>
-			<Button />
+		
 			<!-- <a href="/#section-form">Obtenir un devis</a> -->
 		</div>
 		<div class="wrapper__offer-ul">
@@ -29,8 +29,13 @@
 				{#each li as item}
 					<li>{item}</li>
 				{/each}
+                <div class="wrapper__Button">
+                <Button />
+            </div>
 			</ul>
+         
 		</div>
+     
 	</div>
 </main>
 
@@ -119,17 +124,21 @@
 		border-radius: 10px;
 		text-align: center;
 	}
+    .wrapper__Button{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
 	.name {
 		font-family: var(--Red);
-		font-size: 1.2rem;
+		font-size: 2.2rem;
 		font-weight: 800;
 		background-color: var(--blue);
 		color: var(--whiteGrey);
 		padding: 20px;
 		margin-top: 0px;
 		border-radius: 5px;
-		width: 200px;
+		width: 300px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -158,8 +167,12 @@
 		color: var(--whiteGrey);
 		padding: 10px 25px;
 		border-radius: 8px;
-		min-width: 100%;
+		min-width: 70%;
+       
 	}
+    .tarif{
+        border: 2px solid white;
+    }
 	/* a {
 		background-color: transparent;
 		color: var(--whiteGrey);
@@ -219,7 +232,6 @@
 			font-family: var(--Red);
 			font-size: 1rem;
 			font-weight: 600;
-			/* background-color: rgb(87, 13, 59); */
 			color: var(--whiteGrey);
 			padding: 10px;
 			border-radius: 8px;
@@ -255,7 +267,7 @@
 		}
 
 		.name {
-			font-size: 1rem;
+			font-size: 2rem;
 			padding: 20px;
 		}
 		.wrapper__offer h2 {

@@ -10,7 +10,7 @@
 
 	let landing = [
 		{
-			name: 'Single Page',
+			name: 'Landing Page',
 			h2: 'Une seule page, \n essentielle et percutante',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
 			h4: ['Délai : 1 jour', 'gestion de contenu'],
@@ -88,10 +88,11 @@
 
 <Header />
 <Mouse />
+
 <main>
 	<div class="wrapper__images">
-	<Images img={images} alt="image" />
-</div>
+		<Images img={images} alt="image" />
+	</div>
 	<div class="wrapper__hero">
 		<h1 class="title">Sites internet</h1>
 		<h2>Bien choisir son modèle de site internet est fondamental.</h2>
@@ -99,31 +100,37 @@
 			Votre site internet reflète votre activité, il est l'identité de votre marque, de votre business, de votre entreprise. Votre site internet vous représente d'une part et doit également vous permettre d'effectuer des tâches, si tel est votre besoin, comme la modification de contenu dynamique. Le contenu dynamique est géré par un CMS. C'est lui qui vous permet d'interagir avec votre site web pour modifier des images, du texte, tenir à jour un blog, modifier des tarifs, ajouter un produit,
 			etc.
 		</p>
-		<br /><br />
-		<h2>Sans CMS, avec CMS ou CMS Headless.</h2>
-		<h3>Sans CMS</h3>
+		
+		<div class="wrapper__component">
+		<h2>Notre offre sans CMS</h2>
 		<p>Un site sans CMS ne vous permet pas de modifier le contenu de votre site directement, car vous ne disposez pas d'espace d'administration pour le faire. Il vous faudra alors souscrire à un contrat de maintenance que vous nous proposons pour toute modification sur votre site internet. Mais de nombreux site vitrine ne requierent pas de modification de contenu, ou que très rarement, par exemple une fois par an ou lors d'une refonte du site, environ tous les 10 ou 5 ans.</p>
-
 		{#each landing as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
+	</div>
 		{#each custom as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
 
-		<h3>Avec CMS</h3>
+	
+		<div class="wrapper__component">
+			<h2>Notre offre avec CMS</h2>
+				
 		<p>
 			Le CMS vous permet de modifier votre contenu, on parle alors de contenu dynamique. Vous avez accès à un espace d'administration, lequel après un petit temps de prise en main, vous permet de modifier vos images, votre texte, vos tarifs, vos informations, vos dates et même la disposition des éléments. Nous utilisons 3 plateformes avec CMS. <span>Wordpress, Wix et Webflow.</span> Ces trois plateformes nous permettent de créer votre site avec un CMS natif. Nous vous formons sur l'administration
 			du site ou nous vous proposons un forfait de maintenance mensuel, si vous préférez que nous nous occupions de toutes les modifications
 		</p>
-
 		{#each basic as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
 		{#each pro as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
-		<h3>Avec CMS Headless</h3>
+	</div>
+
+		<div class="wrapper__component">
+			<h2>Notre offre avec CMS Headless</h2>
+					
 		<p>
 			Un CMS Headless c'est un CMS sur mesure. Cela sous entend un site internet entièrement développé et personnalisé, jusquà son CMS. Celui-ci devient paramétrable et nous permet de gérer ce que l'on veut, comme on le veut. Un CMS Hedalless est particulièrement justifié quand un client souhaite un site et plus tard une application mobile, par exemple. Un CMS Headless nous permet d'utiliser le même contenu sur le site et l'application sans devoir le dupliquer. Le contenu est facile à gérer et
 			peut être adapté à chaque support. La maintenance est facile et souple et permet de gagner un temps considérable !
@@ -131,6 +138,7 @@
 		{#each headless as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
+	</div>
 		<div class="wrapper__faqLink">
 			<FaqLink />
 		</div>
@@ -165,26 +173,21 @@
 		width: 100%;
 		height: auto;
 		padding: 10px;
+		margin-top: 50px;
 		gap: 40px;
 		border-radius: 8px;
 		color: var(--primary);
 		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
 	}
-	.wrapper__hero h2 {
+	 .wrapper__hero h2 {
 		font-family: var(--Red);
 		font-size: 1.2rem;
 		letter-spacing: -1px;
 		font-weight: 900;
 		color: var(--whiteGrey);
 		margin-top: 10px;
-	}
-	.wrapper__hero h3 {
-		font-family: var(--Red);
-		font-size: 1.5rem;
-		letter-spacing: -1px;
-		font-weight: 300;
-		color: var(--whiteGrey);
-	}
+	} 
+	
 	.wrapper__hero p {
 		font-family: var(--Red);
 		font-size: 1rem;
@@ -193,11 +196,43 @@
 		line-height: 30px;
 		color: var(--whiteGrey);
 		width: 80%;
+		text-align: justify;
+	}
+	.wrapper__component {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		margin-top: 60px;
+		gap: 40px;
+		border-radius: 8px;
+		color: var(--primary);
+		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
+	}
+	.wrapper__component h2 {
+		font-family: var(--Red);
+		font-size: 3rem;
+		letter-spacing: -1px;
+		font-weight: 900;
+		color: var(--whiteGrey);
+		margin-top: 10px;
 	}
 
 	@media screen and (max-width: 768px) {
+		.wrapper__hero {
+			margin-top: 200px;
+		}
+	}
+	@media screen and (max-width: 375px) {
+		.wrapper__hero {
+			margin-top:120px;
+		}
 		.wrapper__hero p {
 			width: 100%;
 		}
 	}
+	
 </style>
