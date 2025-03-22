@@ -196,7 +196,7 @@
 		padding: 10px;
 		line-height: 30px;
 		color: var(--whiteGrey);
-		width: 80%;
+		width: 60%;
 		text-align: justify;
 	}
 	.wrapper__component {
@@ -228,8 +228,11 @@
 		padding: 10px;
 		line-height: 30px;
 		color: var(--whiteGrey);
-		width: 100%;
+		width: 60%;
 		text-align: justify;
+	}
+	.wrapper__faqLink{
+		margin-top: 50px;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -247,5 +250,11 @@
 		.wrapper__hero p {
 			width: 100%;
 		}
+		.wrapper__component p {
+		
+		width: 100%;
+
+	}
+
 	}
 </style>

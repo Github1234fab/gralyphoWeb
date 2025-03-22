@@ -25,6 +25,8 @@
 	import MyServices from '../Components/MyServices.svelte';
 	import Propositions from '../Components/Propositions.svelte';
 	import CTA from "../Components/CTA-section.svelte";
+	import Links from "../Components/LinkSiteApplication.svelte";
+	import Faq from "../Components/FaqLink.svelte";
 </script>
 
 <main in:fade={{ duration: 2000 }}>
@@ -49,7 +51,8 @@
 	<section id="sectionE">
 		<ESection />
 	</section>
-
+	<Faq/>
+<Links/>
 	<Form />
 </main>
 

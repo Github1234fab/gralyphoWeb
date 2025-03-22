@@ -13,8 +13,10 @@
 		font-weight: 700;
 		letter-spacing: -1px;
 		text-align: center;
-		margin-top: 50px;
+		margin-top: 0px;
 		padding: 25px;
+		border-radius: 8px;
+		box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.227);
 	}
 	.bg-color {
 		background-color: var(--cta);
@@ -24,7 +26,7 @@
 	}
 	.wrapper__links {
 		display: flex;
-		gap: 5px;
+		gap: 20px;
 		justify-content: center;
 		align-items: center;
 		width: 80%;
@@ -43,4 +45,10 @@
         margin-top: 50px;
         padding: 25px
     }
+
+	@media screen and (max-width: 768px) {
+		.wrapper__links {
+			flex-direction: column;
+		}
+	}
 </style>

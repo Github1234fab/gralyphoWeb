@@ -30,25 +30,25 @@
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Rocket} alt="fusée" />
 					<h3 class="subtitle-h3">Performance</h3>
-					<h4 class="subtitle-h4">Un code léger pour un chargement ultra-rapide.</h4>
+					<h4 class="subtitle-h4">Le meilleur des technologies pour un code léger <br> et ultra-rapide</h4>
 				</div>
 
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Flex} alt="une personne danse et représente la flexibilté" />
 					<h3 class="subtitle-h3">Flexibilité</h3>
-					<h4 class="subtitle-h4">Une gestion de contenu simple et efficace via Strapi</h4>
+					<h4 class="subtitle-h4">Avec ou sans gestion de contenu. <br> Avec ou sans forfait de maintenance</h4>
 				</div>
 
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Seo} alt="illustration sur le SEO" />
 					<h3 class="subtitle-h3">SEO audit</h3>
-					<h4 class="subtitle-h4">Nous sommes experts en stratégie SEO.</h4>
+					<h4 class="subtitle-h4">Nous sommes experts en stratégie SEO, <br> pour un référencement optimal.</h4>
 				</div>
 
 				<div class="wrapper__cards-card">
 					<img class="logo" src={Design} alt="une plume colorée" />
 					<h3 class="subtitle-h3">Design moderne</h3>
-					<h4 class="subtitle-h4">Une expérience utilisateur <br />fluide et intuitive</h4>
+					<h4 class="subtitle-h4">Une expérience utilisateur <br />fluide et intuitive. Des designs modernes, des modèles de templates ou du total custom.</h4>
 				</div>
 
 				<!-- <div class="wrapper__cards-card">
