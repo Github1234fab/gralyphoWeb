@@ -8,7 +8,6 @@
 	import Woman from '../../Assets/gralyphoHeroImg.jpeg';
 	import Smartphone from '../../Assets/compteur3.jpeg';
 
-
 	let landing = [
 		{
 			name: 'Landing Page',
@@ -22,7 +21,7 @@
 
 	let basic = [
 		{
-			name: 'BASIC',
+			name: 'Best Of !' ,
 			h2: 'Vitrine professionnelle',
 			h3: 'Idéal pour : Indépendants, TPE, PME, Artisans, Associations',
 			h4: ['Délai : 3 jours max', ' Vitrine Pro', '5 pages'],
@@ -58,7 +57,7 @@
 			h2: 'Sur mesure, identité forte \n créativité totale',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, \n café, évenementiel marque, identité forte',
 			h4: ['Délai : 7-15 jours max', ' 5-10 pages'],
-			li: [' Un site web sur mesure', ' Haute personnalisation du design (logo, couleurs, images, textes)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site unique, une identité forte.'],
+			li: [' Un site web sur mesure', ' Haute personnalisation du design, 100% créatif. UX/UI sur mesure (logo, couleurs, images, textes ...)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site unique, une identité forte.'],
 			tarif: 'Tarif : 5999 €'
 		}
 	];
@@ -204,14 +203,15 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		width: 100%;
+		width: 80%;
 		height: auto;
-		padding: 10px;
+		padding: 20px;
 		margin-top: 60px;
 		gap: 40px;
 		border-radius: 8px;
 		color: var(--primary);
 		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
+		background-color: rgba(128, 128, 128, 0.059);
 	}
 	.wrapper__component h2 {
 		font-family: var(--Red);
@@ -241,6 +241,10 @@
 		}
 		.title {
 			font-size: 3rem;
+		}
+		.wrapper__component {
+			width: 100%;
+			padding: 5px;
 		}
 	}
 	@media screen and (max-width: 375px) {
