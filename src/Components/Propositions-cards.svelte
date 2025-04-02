@@ -1,24 +1,24 @@
 <script>
 	export let type;
-	export let description;
+	// export let description;
 	export let lien;
 	export let layerTxt;
-	export let price;
+	// export let price;
 	export let subtitle;
 </script>
 
 <div class="card">
 	<div class="layer">{layerTxt}</div>
-	<div class="price">{price}</div>
+	<!-- <div class="price">{price}</div> -->
 	<div class="wrapper-text">
 		<h2>{type}</h2>
 		<h3>{subtitle}</h3>
 		<div class="wrapper__li">
-			<ul>
+			<!-- <ul>
 				{#each description as item}
 					<li>{item}</li>
 				{/each}
-			</ul>
+			</ul> -->
 		</div>
 	</div>
 	<a href={lien}>En savoir +</a>
@@ -40,43 +40,19 @@
 		position: relative;
 		overflow: hidden;
 	}
-	.price {
-		position: absolute;
-		top: 10px;
-		left: 0;
-		width: 130px; /* Ajuste selon tes besoins */
-		height: 60px;
-		white-space: pre-line;
-		background-color: rgb(163, 48, 106);
-		color: white;
-		font-family: var(--Geologica);
-		font-weight: 500;
-		font-size: 0.6rem;
-		text-transform: uppercase;
-		letter-spacing:0px;
-		border-radius: 5px;
-		display: flex;
-		align-items: last baseline;
-		justify-content: center;
-		text-align: center;
-		padding-bottom: 10px;
-		transform: translate(-30%, -30%) rotate(-45deg); /* Décalage et rotation pour bien couvrir le coin */
-		z-index: 10;
-		border-bottom: 1px solid rgb(213, 213, 213);
-	}
 
 	.layer {
 		position: absolute;
 		font-family: var(--Red);
-		font-weight: 900;
+		font-weight: 600;
 		text-transform: uppercase;
-		top: 35px;
-		left: 25%;
-		width: 50%;
-		height: 10%;
+		top: 45px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		padding: 15px 20px;
 		color: white;
-		border-radius: 5px;
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 		background-color: var(--blue);
 		display: flex;
 		align-items: center;
@@ -117,7 +93,7 @@
 		white-space: pre-line;
 		text-align: center;
 	}
-	.wrapper-text li {
+	/* .wrapper-text li {
 		font-family: poppins;
 		font-size: var(--m);
 		color: var(--whiteGrey);
@@ -128,7 +104,7 @@
 		z-index: 2;
 		margin-left: 20px;
 		list-style-type: square;
-	}
+	} */
 	.wrapper__li {
 		margin-top: 50px;
 	}
