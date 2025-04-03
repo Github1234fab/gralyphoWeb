@@ -5,24 +5,24 @@
 	const tab = [
 		{
 			type: 'Custom et Landing',
-			subtitle: 'Statique',
-			description: ['Site professionnel', 'Formulaire de contact', 'Optimisation SEO', 'Livraison sous 3 jours', '6 pages', 'Design moderne', 'Hébergement : 10 euros'],
+			subtitle: 'Site internet Statique',
+			description: ['Sans BDD', 'Contrat de maintenance pour modification' ],
 			lien: '/creation-site-internet',
-			layerTxt: 'Site Internet sans CMS',
+			layerTxt: 'Sans CMS',
 			price: 'Livré \n en 3 jours'
 		},
 		{
 			type: 'Vitrine et Commerce',
-			subtitle: 'Dynamique',
-			description: ['Site sur mesure', 'Design unique', 'Personnalisation totale', '100% créatif', '5 à 10 pages', 'Forumaire de contact', 'Hébergement : 10 euros'],
+			subtitle: 'site internet Dynamique',
+			description: ['BDD', 'Contrat de maintenance ou autonomie', ],
 			lien: '/site-internet-CMS',
-			layerTxt: 'Site Internet avec CMS',
+			layerTxt: 'Avec CMS',
 			price: ' Livré en \n 15 jours'
 		},
 		{
-			type: 'PWA & Native',
+			type: 'PWA ou \n Native',
 			subtitle: 'Légèreté et performance',
-			description: ['Application sur mesure', 'PWA = Légèreté + prix modéré', 'Utilisation hors ligne', 'Hébergement inclus', '100% de vos besoins', "Facilité d'installation", 'Ios/Android/Web'],
+			description: ['Application sur mesure', "PWA légère à prix doux", "Native, robuste et rapide" ],
 			lien: '/creation-application',
 			layerTxt: 'Applications',
 			price: ' Livré \n en 1 mois'

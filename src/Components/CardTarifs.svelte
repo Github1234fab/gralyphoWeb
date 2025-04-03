@@ -90,12 +90,12 @@
 	.name {
 		font-family: var(--Red);
 		font-size: 2rem;
-		font-weight: 800;
+		font-weight: 600;
 		background-color: var(--blue);
 		color: var(--whiteGrey);
 		padding: 10px;
 		margin-top: 0px;
-		border-radius: 5px;
+		border-radius: 10px;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -122,14 +122,14 @@
 		font-size: 1rem;
 		box-shadow: 0px 0px 1px 1px rgba(226, 226, 226, 0.528);
 		font-weight: 700;
-		background-color: rgb(111, 108, 108);
+		background-color: rgb(73, 60, 60);
 		color: white;
 		padding: 10px 25px;
 		border-radius: 8px;
 		min-width: 100%;
 	}
 	.tarif {
-		border: 3px solid rgb(233, 150, 42);
+		border: 3px solid rgb(255, 255, 255);
 		margin-bottom: 30px;
 	}
 	/* a {
@@ -186,6 +186,7 @@
 			border-radius: 10px 10px 0px 0px;
 			margin-top: 20px;
 			width: 100%;
+			box-shadow: 0px 20px 1px 1px rgb(0, 0, 0);
 		}
 		.details h4 {
 			font-family: var(--Red);

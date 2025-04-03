@@ -1,6 +1,6 @@
 <script>
 	export let type;
-	// export let description;
+	export let description;
 	export let lien;
 	export let layerTxt;
 	// export let price;
@@ -14,11 +14,11 @@
 		<h2>{type}</h2>
 		<h3>{subtitle}</h3>
 		<div class="wrapper__li">
-			<!-- <ul>
+			<ul>
 				{#each description as item}
 					<li>{item}</li>
 				{/each}
-			</ul> -->
+			</ul>
 		</div>
 	</div>
 	<a href={lien}>En savoir +</a>
@@ -29,9 +29,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		width: 100%;
-		height: 100%;
+		height: auto;
 		font-family: epilogue;
 		background-color: #1f1e1e;
 		flex-grow: 1;
@@ -93,7 +93,7 @@
 		white-space: pre-line;
 		text-align: center;
 	}
-	/* .wrapper-text li {
+	.wrapper-text li {
 		font-family: poppins;
 		font-size: var(--m);
 		color: var(--whiteGrey);
@@ -104,7 +104,7 @@
 		z-index: 2;
 		margin-left: 20px;
 		list-style-type: square;
-	} */
+	}
 	.wrapper__li {
 		margin-top: 50px;
 	}
