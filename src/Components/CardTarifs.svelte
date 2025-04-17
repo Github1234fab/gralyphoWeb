@@ -13,7 +13,7 @@
 	<div class="wrapper__offer">
 		<div class="wrapper__offer-infos">
 			<p class="name">{name}</p>
-
+<div class="wrapper__offer-infos-product">
 			<h2>{h2}</h2>
 			<h3>{h3}</h3>
 			<Accordeon {li} />
@@ -24,6 +24,7 @@
 				{/each}
 				<h4 class="tarif">{tarif}</h4>
 				<Button />
+			</div>
 			</div>
 		</div>
 	</div>
@@ -60,9 +61,20 @@
 		width: 100%;
 		gap: 30px;
 		height: auto;
-		padding: 20px;
+
 		border-radius: 10px;
-		background-color: var(--blue);
+		border: 1px solid var(--blue);
+		box-shadow: 0px 0px 10px 5px var(--blue);
+	}
+	.wrapper__offer-infos-product{
+		padding: 20px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-direction: column;
+		width: 100%;
+		gap: 20px;
+		height: auto;
 	}
 
 	.wrapper__offer h3 {
@@ -89,13 +101,12 @@
 
 	.name {
 		font-family: var(--Red);
-		font-size: 2rem;
+		font-size: 1rem;
 		font-weight: 600;
 		background-color: var(--blue);
 		color: var(--whiteGrey);
-		padding: 10px;
-		margin-top: 0px;
-		border-radius: 10px;
+		padding: 20px;
+		margin-top: 30px;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -185,7 +196,8 @@
 			height: auto;
 			padding: 20px;
 			border-radius: 10px;
-			background-color: var(--blue);
+			border: 1px solid var(--blue);
+			box-shadow: 0px 0px 10px 5px var(--blue);
 		}
 
 		.wrapper__offer ul h3 {

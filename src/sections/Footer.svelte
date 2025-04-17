@@ -182,7 +182,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: var(--green);
+		color: var(--blue);
 		font-weight: 800;
 		gap: 5px;
 	}

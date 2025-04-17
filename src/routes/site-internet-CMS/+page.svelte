@@ -2,6 +2,8 @@
 	import Header from "../../sections/Header.svelte";
 	import CMS from '../../Assets/CMS.jpeg';
 	import ButtonCta from '../../Components/ButtonCTA.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
+	import LinkSiteApplication from "../../Components/LinkSiteApplication.svelte";
 </script>
 
 <Header />
@@ -57,6 +59,8 @@
 				au code, sécurisé et évolutif
 				<br />Alors, le CMS headless est la solution idéale pour vous !
 			</h3>
+			<FaqLink />
+			<LinkSiteApplication />
 			<h2 class="subtitle">Envie d’un site performant et moderne ? <br>Parlons-en !</h2>
 			<ButtonCta />
 	

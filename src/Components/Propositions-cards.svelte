@@ -33,12 +33,13 @@
 		width: 100%;
 		min-height: 100%;
 		font-family: epilogue;
-		background-color: #1f1e1e;
 		flex-grow: 1;
 		border-radius: 10px;
 		z-index: 0;
 		position: relative;
 		overflow: hidden;
+		border: 1px solid var(--blue);
+		box-shadow: 0px 0px 10px 5px var(--blue);
 	}
 
 	.layer {
