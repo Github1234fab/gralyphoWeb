@@ -33,7 +33,7 @@
 				in:fade={{ duration: 1200 }}
 				out:fade={{ duration: 1200 }}
 			>
-				<p class="p">{p}</p>
+				<p class="p">{@html p}</p>
 			</div>
 		</span>
 	{/if}

@@ -33,7 +33,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 600px;
+		min-height: 750px;
 		max-width: 300px;
 		border-radius: 15px;
 		box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.182);
@@ -53,6 +53,7 @@
 		padding: 30px;
 		background-color: rgb(226, 160, 37);
 		width: 100%;
+		min-height: 200px;
 	}
 	.title-banner h1 {
 		font-size: var(--l);

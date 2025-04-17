@@ -19,7 +19,7 @@
         gap: 40px;
         height: auto;
 		width: 80%;
-		margin: 0 auto;;
+		margin: 50px auto;;
 		background-color: var(--whiteGrey);
 		border-radius: 20px;
     }

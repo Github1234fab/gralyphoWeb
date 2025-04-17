@@ -31,7 +31,7 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		height: auto;
+		min-height: 100%;
 		font-family: epilogue;
 		background-color: #1f1e1e;
 		flex-grow: 1;
@@ -44,7 +44,7 @@
 	.layer {
 		position: absolute;
 		font-family: var(--Red);
-		font-weight: 600;
+		font-weight: 900;
 		text-transform: uppercase;
 		top: 45px;
 		left: 50%;
@@ -52,7 +52,7 @@
 		width: 100%;
 		padding: 15px 20px;
 		color: white;
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		background-color: var(--blue);
 		display: flex;
 		align-items: center;
@@ -76,7 +76,7 @@
 	.wrapper-text h2 {
 		font-size: 1.7rem;
 		color: var(--whiteGrey);
-		font-weight: 500;
+		font-weight: 900;
 		font-family: epilogue;
 		letter-spacing: -1px;
 		line-height: 33px;
@@ -86,7 +86,7 @@
 	.wrapper-text h3 {
 		font-size: 1.2rem;
 		color: var(--whiteGrey);
-		font-weight: 200;
+		font-weight: 300;
 		font-family: epilogue;
 		letter-spacing: -1px;
 		line-height: 33px;

@@ -20,7 +20,7 @@
 			price: ' Livré en \n 15 jours'
 		},
 		{
-			type: 'PWA ou \n Native',
+			type: 'PWA ou Native',
 			subtitle: 'Légèreté et performance',
 			description: ['Application sur mesure', "PWA légère à prix doux", "Native, robuste et rapide" ],
 			lien: '/creation-application',

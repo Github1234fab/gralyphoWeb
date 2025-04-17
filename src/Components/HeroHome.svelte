@@ -13,8 +13,8 @@
 	<div class="wrapper__text">
 		<h1>Une agence Web experte, <br />au coeur des monts du Lyonnais!</h1>
 		<h2>
-			N'ayez pas peur, nos tarifs sont doux ! <br />
-			Nous créons des sites internet et des applications adaptés à vos besoins.
+			En tant qu'agence web spécialisée dans la création de sites et d'applications à Lyon, <br> Gralypho propose également des services en expertise SEO, <br> en stratégie digitale et en design UX/UI .​
+
 		</h2>
 
 		<br />

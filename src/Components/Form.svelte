@@ -53,9 +53,13 @@
 		background-color: var(--primary);
 		justify-content: center;
 		align-items: center;
-		background: linear-gradient(0deg, var(--primary) 20%, var(--cta) 50%);
-		/* background-image: var(--primary); */
-		/* background-image: url("../Assets/bgthree.png"); */
+		background: 
+    radial-gradient(circle at 20% 30%, #444cb764 0%, transparent 40%),
+    radial-gradient(circle at 70% 40%, #2600ff4a 0%, transparent 35%),
+    radial-gradient(circle at 40% 75%, #ff840022 0%, transparent 35%),
+    #080808;
+
+	
 	}
 
 	.wrapper-text {

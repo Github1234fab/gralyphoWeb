@@ -38,17 +38,17 @@
 	</div>
 
 	<div class="wrapper-media">
-		<a class="reseaux" href="https://www.facebook.com/profile.php?id=61556314663680" target="_blank"
+		<a class="reseaux " href="https://www.facebook.com/profile.php?id=61556314663680" target="_blank" 
 			><p>Facebook</p>
-			<i class="fa-brands fa-square-facebook anim icon"></i></a
+			<i class="fa-brands fa-square-facebook anim icon size"></i></a
 		>
 		<a class="reseaux" href="https://twitter.com/home?lang=fr" target="_blank"
 			><p>X</p>
-			<i class="fa-brands fa-square-twitter anim icon reseaux"></i></a
+			<i class="fa-brands fa-square-twitter anim icon size"></i></a
 		>
-		<a class="reseaux" href="https://www.instagram.com/" target="_blank"
+		<a class="reseaux " href="https://www.instagram.com/" target="_blank"
 			><p>instagram</p>
-			<i class="fa-brands fa-square-instagram anim icon reseaux"></i></a
+			<i class="fa-brands fa-square-instagram anim icon size"></i></a
 		>
 		<!-- <a href="https://www.tiktok.com/@gralypho" target="_blank"><i class="fa-brands fa-tiktok anim"></i></a
 		> -->
@@ -119,7 +119,7 @@
 		transition: 0.2s ease-in-out;
 		padding: 50px;
 		background-color: var(--cta);
-		border-radius: 10px;
+		border-radius: 40px 30px 4px 30px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;
 		align-items: center;
@@ -177,18 +177,22 @@
 		border-top: 1px dotted rgb(188, 188, 188);
 		border-bottom: 1px dotted rgb(187, 187, 187);
 		padding: 20px;
+
 	}
 	.reseaux {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: rgb(255, 255, 255);
+		color: var(--green);
 		font-weight: 800;
 		gap: 5px;
 	}
+	.size{
+		font-size: 2.5rem;
+	}
 	.reseaux p {
-		color: rgb(255, 255, 255);
+		color: var(--cta);
 		font-size: 0.5rem;
 		font-weight: 200;
 	}
