@@ -96,7 +96,7 @@
 		<h1 class="title">Sites internet</h1>
 		<h2>Bien choisir son modèle de site internet est fondamental.</h2>
 		<p>
-			Votre site internet reflète votre activité, il est l'identité de votre marque, de votre business, de votre entreprise. Votre site internet vous représente d'une part et doit également vous permettre d'effectuer des tâches, si tel est votre besoin, comme la modification de contenu dynamique. Le contenu dynamique est géré par un CMS. C'est lui qui vous permet d'interagir avec votre site web pour modifier des images, du texte, tenir à jour un blog, modifier des tarifs, ajouter un produit,
+			Votre site internet reflète votre activité, il est l'identité de votre marque, de votre business, de votre entreprise. Votre site internet vous représente et doit également vous permettre d'effectuer des tâches, si tel est votre besoin, comme la modification de contenu dynamique. Le contenu dynamique est géré par un CMS. C'est lui qui vous permet d'interagir avec votre site web pour modifier des images, du texte, tenir à jour un blog, modifier des tarifs, ajouter un produit,
 			etc.
 		</p>
 	</div>
@@ -182,7 +182,7 @@
 	.wrapper__hero h2 {
 		font-family: var(--Red);
 		font-size: 1.2rem;
-		letter-spacing: -1px;
+		letter-spacing: 0px;
 		font-weight: 900;
 		color: var(--whiteGrey);
 		margin-top: 10px;
@@ -211,7 +211,7 @@
 		border-radius: 8px;
 		color: var(--primary);
 		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
-		background-color: rgba(128, 128, 128, 0.059);
+		/* background-color: rgba(128, 128, 128, 0.213); */
 	}
 	.wrapper__component h2 {
 		font-family: var(--Red);
@@ -228,7 +228,7 @@
 		padding: 10px;
 		line-height: 30px;
 		color: var(--whiteGrey);
-		width: 60%;
+		width: 80%;
 		text-align: justify;
 	}
 	.wrapper__faqLink{

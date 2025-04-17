@@ -45,13 +45,13 @@
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
-		max-width: 100%;
 		height: auto;
 		margin: 0 auto;
-		padding: 0px;
+		padding: 20px;
 		gap: 10px;
 		border-radius: 8px;
-		border: 1px solid grey;
+		width: 700px;
+
 	}
 	.wrapper__offer-infos {
 		display: flex;
@@ -63,7 +63,7 @@
 		height: auto;
 		padding: 20px;
 		border-radius: 10px;
-		background-color: var(--bgCard);
+		background-color: var(--blue);
 	}
 
 	.wrapper__offer h3 {
@@ -71,10 +71,11 @@
 		letter-spacing: 0px;
 		font-weight: 200;
 		color: var(--whiteGrey);
-		background-color: var(--bgCard);
+		border: 1px solid grey;
 		padding: 2px;
 		border-radius: 10px;
 		white-space: pre-line;
+		padding: 20px;
 	}
 
 	.wrapper__offer h2 {
@@ -120,7 +121,7 @@
 	.details h4 {
 		font-family: var(--Red);
 		font-size: 1rem;
-		box-shadow: 0px 0px 1px 1px rgba(226, 226, 226, 0.528);
+		box-shadow: 0px 0px 1px 1px rgba(226, 226, 226, 0.525);
 		font-weight: 700;
 		background-color: rgb(73, 60, 60);
 		color: white;
@@ -132,22 +133,7 @@
 		border: 3px solid rgb(255, 255, 255);
 		margin-bottom: 30px;
 	}
-	/* a {
-		background-color: transparent;
-		color: var(--whiteGrey);
-		border: 1px solid grey;
-		font-family: 'Red Hat Display';
-		font-size: 1rem;
-		font-weight: 700;
-		border-radius: 8px;
-		text-align: center;
-		padding: 15px 20px;
-		z-index: 999;
-		max-width: 200px;
-	}
-	a:hover {
-		animation: bounce 0.4s ease-in-out;
-	} */
+
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
@@ -199,17 +185,16 @@
 		}
 		.wrapper__offer-infos {
 			display: flex;
-		align-items: flex-start;
-		justify-content: flex-start;
-		flex-direction: column;
-		width: 100%;
-		gap: 30px;
-		height: auto;
-		padding: 20px;
-		border-radius: 10px;
-		background-color: var(--bgCard);
+			align-items: flex-start;
+			justify-content: flex-start;
+			flex-direction: column;
+			width: 100%;
+			gap: 30px;
+			height: auto;
+			padding: 20px;
+			border-radius: 10px;
+			background-color: var(--bgCard);
 		}
-	
 
 		.wrapper__offer ul h3 {
 			display: flex;

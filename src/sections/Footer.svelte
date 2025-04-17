@@ -174,8 +174,6 @@
 	.wrapper-media {
 		display: flex;
 		gap: 20px;
-		border-top: 1px dotted rgb(188, 188, 188);
-		border-bottom: 1px dotted rgb(187, 187, 187);
 		padding: 20px;
 
 	}
@@ -188,11 +186,12 @@
 		font-weight: 800;
 		gap: 5px;
 	}
+
 	.size{
 		font-size: 2.5rem;
 	}
 	.reseaux p {
-		color: var(--cta);
+		color: var(--primary);
 		font-size: 0.5rem;
 		font-weight: 200;
 	}

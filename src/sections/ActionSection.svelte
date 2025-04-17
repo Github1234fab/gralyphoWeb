@@ -62,7 +62,7 @@
         <h3>Gagnez</h3>
         <p>
           Gagnez en ventes, en visibilité et en influence grâce à une stratégie de marketing digital bien élaborée.
-          Notre approche centrée sur le client vous permet de conquérir de nouveaux marchés, fidéliser votre clientèle
+          Notre approche centrée sur le client  vous permet de conquérir de nouveaux marchés, fidéliser votre clientèle
           et augmenter vos résultats en ligne. Ensemble, gagnons le succès digital !
         </p>
       </div>

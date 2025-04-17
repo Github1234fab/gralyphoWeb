@@ -13,8 +13,7 @@
 	<div class="wrapper__text">
 		<h1>Une agence Web experte, <br />au coeur des monts du Lyonnais!</h1>
 		<h2>
-			En tant qu'agence web spécialisée dans la création de sites et d'applications à Lyon, <br> Gralypho propose également des services en expertise SEO, <br> en stratégie digitale et en design UX/UI .​
-
+			En tant qu'agence web spécialisée dans la <a href="/creation-site-internet" class="maillage">création de sites</a> et d'<a href="/creation-application" class="maillage">applications</a> <br /> Gralypho propose également des services en expertise <a href="/referencement-seo-sea" class="maillage">SEO</a>.​
 		</h2>
 
 		<br />
@@ -85,9 +84,14 @@
 		text-align: center;
 		margin-top: 30px;
 	}
-	/* .wrapper__text h2 span {
+	.maillage {
+		color: var(--green);
+		text-decoration: none;
+		font-size: 1rem;
 		font-weight: 700;
-	} */
+		letter-spacing: 0px;
+		font-size: 1.5rem;
+	}
 	.wrapper__text2 {
 		display: flex;
 		flex-direction: column;
@@ -128,18 +132,22 @@
 		border-radius: 20px;
 		margin-bottom: 30px;
 	}
-	a {
+
+	.logo {
+		border: none;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
 		font-family: var(--Red);
 		color: rgba(128, 128, 128, 0.538);
-		font-size: 0.7rem;
-		gap: 5px;
 	}
-	.logo {
-		border: none;
+	.wrapper__logos a {
+		color: var(--whiteGrey);
+		text-align: center;
+		font-family: var(--Red);
+		font-size: 0.7rem;
+	
 	}
 	.logo:hover {
 		rotate: 360deg;
