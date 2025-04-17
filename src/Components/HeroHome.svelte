@@ -88,7 +88,7 @@
 		color: var(--green);
 		text-decoration: none;
 		font-size: 1rem;
-		font-weight: 700;
+		font-weight: 400;
 		letter-spacing: 0px;
 		font-size: 1.5rem;
 	}
@@ -173,6 +173,10 @@
 		.wrapper__text h2 {
 			font-size: 1rem;
 		}
+		.maillage {
+		
+		font-size: 1rem;
+	}
 		.wrapper__text2 h3 {
 			font-size: 1rem;
 		}

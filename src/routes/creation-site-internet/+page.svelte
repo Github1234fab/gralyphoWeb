@@ -101,7 +101,7 @@
 		</p>
 	</div>
 	<div class="wrapper__component">
-		<h2>Notre offre sans CMS</h2>
+		<h2>Notre offre de site internet sans CMS</h2>
 		<p>Un site sans CMS ne vous permet pas de modifier le contenu de votre site directement, car vous ne disposez pas d'espace d'administration pour le faire. Il vous faudra alors souscrire à un contrat de maintenance que vous nous proposons pour toute modification sur votre site internet. Mais de nombreux site vitrine ne requierent pas de modification de contenu, ou que très rarement, par exemple une fois par an ou lors d'une refonte du site, environ tous les 10 ou 5 ans.</p>
 		{#each landing as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
@@ -113,7 +113,7 @@
 	</div>
 
 		<div class="wrapper__component">
-			<h2>Notre offre avec CMS</h2>
+			<h2>Notre offre de site internet avec CMS</h2>
 
 			<p>
 				Le CMS vous permet de modifier votre contenu, on parle alors de contenu dynamique. Vous avez accès à un espace d'administration, lequel après un petit temps de prise en main, vous permet de modifier vos images, votre texte, vos tarifs, vos informations, vos dates et même la disposition des éléments. Nous utilisons 3 plateformes avec CMS. <span>Wordpress, Wix et Webflow.</span> Ces trois plateformes nous permettent de créer votre site avec un CMS natif. Nous vous formons sur l'administration
@@ -128,7 +128,7 @@
 		</div>
 
 		<div class="wrapper__component">
-			<h2>Notre offre avec CMS Headless</h2>
+			<h2>Notre offre avec de site internet avec CMS Headless</h2>
 
 			<p>
 				Un CMS Headless c'est un CMS sur mesure. Cela sous entend un site internet entièrement développé et personnalisé, jusquà son CMS. Celui-ci devient paramétrable et nous permet de gérer ce que l'on veut, comme on le veut. Un CMS Hedalless est particulièrement justifié quand un client souhaite un site et plus tard une application mobile, par exemple. Un CMS Headless nous permet d'utiliser le même contenu sur le site et l'application sans devoir le dupliquer. Le contenu est facile à gérer et

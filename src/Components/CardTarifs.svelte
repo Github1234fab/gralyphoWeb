@@ -50,8 +50,7 @@
 		padding: 20px;
 		gap: 10px;
 		border-radius: 8px;
-		width: 700px;
-
+		width: 100%;
 	}
 	.wrapper__offer-infos {
 		display: flex;
@@ -121,16 +120,15 @@
 	.details h4 {
 		font-family: var(--Red);
 		font-size: 1rem;
-		box-shadow: 0px 0px 1px 1px rgba(226, 226, 226, 0.525);
 		font-weight: 700;
-		background-color: rgb(73, 60, 60);
+		background-color: rgb(35, 24, 24);
 		color: white;
-		padding: 10px 25px;
+		padding: 12px 25px;
 		border-radius: 8px;
 		min-width: 100%;
 	}
 	.tarif {
-		border: 3px solid rgb(255, 255, 255);
+		border: 3px solid var(--green);
 		margin-bottom: 30px;
 	}
 
@@ -154,13 +152,8 @@
 
 	@media screen and (max-width: 768px) {
 		.wrapper__offer {
-			display: flex;
-			flex-direction: column;
-			max-width: 100%;
-			margin: 0 auto;
-			gap: 0px;
+			padding: 0px;
 		}
-
 		.details {
 			gap: 7px;
 			height: auto;
@@ -170,16 +163,15 @@
 			justify-content: flex-start;
 			flex-direction: column;
 			border-radius: 10px 10px 0px 0px;
-			margin-top: 20px;
+			margin-top: 0px;
 			width: 100%;
-			box-shadow: 0px 20px 1px 1px rgb(0, 0, 0);
 		}
 		.details h4 {
 			font-family: var(--Red);
 			font-size: 1rem;
 			font-weight: 600;
 			color: var(--whiteGrey);
-			padding: 10px;
+			padding: 12px;
 			border-radius: 8px;
 			min-width: 70%;
 		}
@@ -193,7 +185,7 @@
 			height: auto;
 			padding: 20px;
 			border-radius: 10px;
-			background-color: var(--bgCard);
+			background-color: var(--blue);
 		}
 
 		.wrapper__offer ul h3 {

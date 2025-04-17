@@ -94,7 +94,7 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		padding: 15px;
+		padding: 0px;
 		height: auto;
 		background-color: var(--primary);
 	}
