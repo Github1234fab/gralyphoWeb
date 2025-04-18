@@ -82,11 +82,11 @@
 		letter-spacing: 0px;
 		font-weight: 200;
 		color: var(--whiteGrey);
-		border: 1px solid grey;
-		padding: 2px;
+		/* border: 1px solid grey; */
+		padding: 0px;
 		border-radius: 10px;
 		white-space: pre-line;
-		padding: 20px;
+		padding:0px;
 	}
 
 	.wrapper__offer h2 {

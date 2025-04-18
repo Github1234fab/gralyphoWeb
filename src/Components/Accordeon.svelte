@@ -63,9 +63,9 @@
 		letter-spacing: -1px;
 		font-family: epilogue;
 		margin-bottom: 10px;
-        border: 1px solid grey;
+        border: 1px solid rgb(100, 100, 100);
         background-color: transparent;
-		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.396);
+		box-shadow: 0px 20px 20px 3px rgb(0, 0, 0);
 	}
 	/* .button-after {
 		position: absolute;

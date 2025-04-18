@@ -13,7 +13,7 @@
 	<div class="wrapper__text">
 		<h1>Une agence Web experte, <br />au coeur des monts du Lyonnais!</h1>
 		<h2>
-			En tant qu'agence web spécialisée dans la <a href="/creation-site-internet" class="maillage">création de sites</a> et d'<a href="/creation-application" class="maillage">applications</a> <br /> Gralypho propose également des services en expertise <a href="/referencement-seo-sea" class="maillage">SEO</a>.​
+			En tant qu'agence web spécialisée dans la <a href="/creation-site-internet" class="maillage">création de sites internet</a> et d'<a href="/creation-application" class="maillage">applications</a> ,<br />  Gralypho propose également des services experts en <a href="/referencement-seo-sea" class="maillage">stratégie SEO</a>.​
 		</h2>
 
 		<br />
