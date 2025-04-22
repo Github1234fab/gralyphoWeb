@@ -139,8 +139,10 @@
 		min-width: 100%;
 	}
 	.tarif {
-		border: 3px solid var(--green);
 		margin-bottom: 30px;
+		background-color:var(--blue) !important;
+		color: rgb(255, 255, 255) !important;
+		font-weight: bold !important;
 	}
 
 	@keyframes bounce {

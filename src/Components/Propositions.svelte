@@ -15,7 +15,7 @@
 			type: 'Vitrine et Commerce',
 			subtitle: 'site internet Dynamique',
 			description: ['BDD', 'Contrat de maintenance ou autonomie', ],
-			lien: '/site-internet-CMS',
+			lien: '/creation-site-internet',
 			layerTxt: 'Avec CMS',
 			price: ' Livré en \n 15 jours'
 		},
@@ -27,31 +27,7 @@
 			layerTxt: 'Applications',
 			price: ' Livré \n en 1 mois'
 		}
-		// },
-		// {
-		// 	type: 'Application Native',
-		// 	subtitle: 'Dédiée IOS et Android',
-		// 	description: ['Hébergement inclus', 'Personnalisation totale', 'Natif pour Ios et Android', 'Efficacité et rapidité', '100% des besoins spécifiques', 'comptabilité totale', 'Performance optimisée'],
-		// 	lien: '/creation-application',
-		// 	layerTxt: 'Application ++',
-		// 	price: 'Livré \n en 1 mois'
-		// },
-		// {
-		// 	type: 'Site avec CMS Headless',
-		// 	subtitle: 'pour une gestion de contenu optimale',
-		// 	description: ['Hébergement inclus', 'Personnalisation totale', 'Gestion de contenu optimale', '100% des besoins spécifiques', 'Comptabilité totale', 'Performance optimisée'],
-		// 	lien: '/creation-application',
-		// 	layerTxt: 'Graal',
-		// 	price: ' Livré \n en 1 mois'
-		// },
-		// {
-		// 	type: ' Landing Page percutante ',
-		// 	subtitle: 'pour une communication efficace',
-		// 	description: ['Hébergement : 10 euros', 'Optimisation SEO', 'Design moderne et original', 'Formulaire de contact', 'Livraison sous 2 jours'],
-		// 	lien: '/creation-application',
-		// 	layerTxt: 'Single page',
-		// 	price: 'Livré \n en 1 jour'
-		// }
+	
 	];
 </script>
 

@@ -103,6 +103,7 @@
 	<div class="wrapper__component">
 		<h2>Notre offre de site internet sans CMS</h2>
 		<p>Un site sans CMS ne vous permet pas de modifier le contenu de votre site directement, car vous ne disposez pas d'espace d'administration pour le faire. Il vous faudra alors souscrire à un contrat de maintenance que vous nous proposons pour toute modification sur votre site internet. Mais de nombreux site vitrine ne requierent pas de modification de contenu, ou que très rarement, par exemple une fois par an ou lors d'une refonte du site, environ tous les 10 ou 5 ans.</p>
+		<div class="wrapper__offres-tarifs">
 		{#each landing as item}
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
@@ -111,6 +112,7 @@
 			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 		{/each}
 	</div>
+</div>
 
 		<div class="wrapper__component">
 			<h2>Notre offre de site internet avec CMS</h2>
@@ -119,12 +121,14 @@
 				Le CMS vous permet de modifier votre contenu, on parle alors de contenu dynamique. Vous avez accès à un espace d'administration, lequel après un petit temps de prise en main, vous permet de modifier vos images, votre texte, vos tarifs, vos informations, vos dates et même la disposition des éléments. Nous utilisons 3 plateformes avec CMS. <span>Wordpress, Wix et Webflow.</span> Ces trois plateformes nous permettent de créer votre site avec un CMS natif. Nous vous formons sur l'administration
 				du site ou nous vous proposons un forfait de maintenance mensuel, si vous préférez que nous nous occupions de toutes les modifications
 			</p>
+			<div class="wrapper__offres-tarifs">
 			{#each basic as item}
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
 			{#each pro as item}
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
+		</div>
 		</div>
 
 		<div class="wrapper__component">
@@ -164,6 +168,17 @@
 		text-align: left;
 		letter-spacing: -2px;
 		margin-top: 50px;
+	}
+	.wrapper__offres-tarifs{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 30px;
+		z-index: 2;
+		width: 100%;
+		margin: 50px auto;
+
 	}
 	.wrapper__hero {
 		display: flex;
