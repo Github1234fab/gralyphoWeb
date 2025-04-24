@@ -115,7 +115,7 @@
 		height: 500px;
 		width: 500px;
 		border-radius: 10px;
-		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.527);
 		margin-top: 70px;
 	}
 	.Firebase,

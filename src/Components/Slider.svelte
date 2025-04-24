@@ -118,7 +118,7 @@
 		overflow: hidden;
 		margin: 40px auto;
 		position: relative;
-		box-shadow: 20px 20px 50px rgb(0, 0, 0);
+		box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.342);
 		/* background-color: var(--cta); */
 		margin-bottom: 100px;
 	}
