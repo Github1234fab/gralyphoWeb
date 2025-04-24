@@ -6,17 +6,17 @@
 		{
 			type: 'Custom et Landing',
 			subtitle: 'Site internet Statique',
-			description: ['Sans BDD', 'Contrat de maintenance pour modification' ],
+			description: ['Sans BDD', 'Sans gestion de contenu', 'Contrat de maintenance pour modification' ],
 			lien: '/creation-site-internet',
-			layerTxt: 'Sans CMS',
+			layerTxt: 'Site sans CMS',
 			price: 'Livré \n en 3 jours'
 		},
 		{
 			type: 'Vitrine et Commerce',
 			subtitle: 'site internet Dynamique',
-			description: ['BDD', 'Contrat de maintenance ou autonomie', ],
+			description: ['BDD', 'Avec gestion de contenu', 'Contrat de maintenance ou autonomie', ],
 			lien: '/creation-site-internet',
-			layerTxt: 'Avec CMS',
+			layerTxt: 'Site avec CMS',
 			price: ' Livré en \n 15 jours'
 		},
 		{

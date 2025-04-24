@@ -23,9 +23,9 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: var(--primary);
-		background-image: var(--gradient);
-		padding: 50px;
+		/* background-color: var(--whiteGrey); */
+		/* background-image:linear-gradient(to top, var(--whiteGrey) 0%, var(--cta) 40%, var(--cta) 60%, var(--primary) 100%); */
+		padding: 100px;
 	
 	}
 	.wrapper {
@@ -90,13 +90,18 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			padding: 20px;
-			height: 1200px;
+			padding: 14px;
+			height: auto;
+			
 		}
 		.wrapper {
-			padding: 20px;
-			gap: 20px;
-			min-width: 100%;
+			display: flex;
+		flex-direction: column;
+		background-color: var(--primary);
+		border-radius: 20px;
+		padding: 30px;
+		gap: 20px;
+		box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
 		}
 		.title {
 			font-size: 1.5rem;

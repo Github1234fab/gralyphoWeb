@@ -39,7 +39,7 @@
 		position: relative;
 		overflow: hidden;
 		border: 1px solid var(--blue);
-		box-shadow: 0px 0px 10px 5px var(--blue);
+		/* box-shadow: 0px 0px 10px 5px var(--blue); */
 	}
 
 	.layer {
@@ -53,7 +53,7 @@
 		width: 100%;
 		padding: 15px 20px;
 		color: white;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		background-color: var(--blue);
 		display: flex;
 		align-items: center;

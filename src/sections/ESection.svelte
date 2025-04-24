@@ -81,8 +81,8 @@
 		margin-bottom: 0px;
 		height: auto;
 		font-size: 16px;
-		/* background-color: var(--primary); */
-		background: var(--gradient);
+		background-color: var(--primary);
+		/* background: var(--gradient); */
 		overflow: hidden;
 	}
 

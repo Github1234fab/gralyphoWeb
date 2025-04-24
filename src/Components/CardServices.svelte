@@ -28,7 +28,7 @@ onMount(() => {
 	  duration: 3,
             scrollTrigger: {
                 trigger: el,
-              start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
+              start: "top 90%", // Débute lorsque le haut de l'élément atteint 80% du viewport
                 end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
                 scrub: 2,     
             },
@@ -45,7 +45,7 @@ onMount(() => {
 	  duration: 1,
             scrollTrigger: {
                 trigger: el,
-              start: "top 80%", // Débute lorsque le haut de l'élément atteint 80% du viewport
+              start: "top 90%", // Débute lorsque le haut de l'élément atteint 80% du viewport
                 end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
                 scrub: 1,     
             },

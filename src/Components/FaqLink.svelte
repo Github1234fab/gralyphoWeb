@@ -77,7 +77,7 @@
         justify-content: center;
         gap: 20px;
         height: auto;
-		width: 100%;
+		width: 70%;
     }
        
     }

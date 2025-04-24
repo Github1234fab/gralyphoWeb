@@ -10,10 +10,10 @@
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
 	<p class="subtitle">
 		Parce que nous apportons des solutions modernes à votre entreprise en répondant à vos besoins.
-		<br />Nous concevons des sites internet avec Wordpress pour des sites internet pros, livrés sous 3 jours, clés en main avec CMS, <br /> pour un budget défiant toute concurrence, c'est <a href="/creation-site-internet" class="maillage">notre produit d'appel</a>. <br> Nous vous proposons également des sites internet sous d'autres formes, avec ou sans CMS pour vos projets e-commerces, vitrines, évenementiels <br /> ou encore des <a href="/creation-application" class="maillage">applications web et mobiles</a>, pour vous aider à développer votre activité.
+		<br />Nous concevons des sites internet avec Wordpress pour des sites internet pros, livrés sous 3 jours, clés en main avec CMS, <br /> pour un budget défiant toute concurrence, c'est <a href="/creation-site-internet" class="maillage">notre produit d'appel</a>. <br><br> Nous vous proposons également des sites internet sous d'autres formes, avec ou sans CMS pour vos projets e-commerces, vitrines, évenementiels <br /> ou encore des <a href="/creation-application" class="maillage">applications web et mobiles</a>, pour vous aider à développer votre activité.
 		<br /><br />Et nous allons plus loin, grâce à notre expertise en programmation informatique, en vous proposant une offre complète d'outils digitaux.
 		<br />Que ce soit pour des sites internet sur mesure, codés ou des applications natives, <br />nos audits sur vos besoins spécifiques sont 100% gratuit et nous saurons à l'issue, vous proposer un outil digital qui vous apportera entière satisfaction.
-		<br /> Nos <a href="/tarifs" class="maillage">tarifs </a> sont très élaborés grâce à notre adaptablité, pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et très raisonnables. <br />
+		<br /> <br> Nos <a href="/tarifs" class="maillage">tarifs </a> sont très élaborés grâce à notre adaptablité, pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et très raisonnables. <br />
 
 	</p>
 	<div class="container">
@@ -76,7 +76,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.861) 25%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0));
+		background-image: linear-gradient(to bottom, var(--primary) 25%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0));
 		z-index: 1;
 	}
 
@@ -125,12 +125,13 @@
 		-webkit-backdrop-filter: blur(10px);
 	}
 	.wrapper__cta {
+		margin-top: 50px;
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
 		background-color: var(--primary);
 		padding: 60px;
-		border-radius: 5px;
+		border-radius: 20px;
 		box-shadow: 30px 20px 10px 2px rgba(76, 76, 76, 0.35);
 	}
 
@@ -138,7 +139,7 @@
 		font-size: 2rem;
 		font-weight: 600;
 		color: var(--whiteGrey);
-		margin-top: 20px;
+		margin-top: 40px;
 		font-family: var(--Red);
 		padding: 0px;
 		text-align: center;
@@ -153,8 +154,9 @@
 		margin-top: 20px;
 		font-family: var(--Red);
 		padding: 0px;
-		text-align: justify;
+		text-align: center;
 		z-index: 2;
+		width: 70%;
 	}
 
 	.subtitle-h3 {
@@ -251,8 +253,9 @@
 			color: var(--whiteGrey);
 			margin-top: 20px;
 			font-family: var(--Red);
-			text-align: justify;
+			text-align: center;
 			z-index: 2;
+			width: 90%;
 		}
 	}
 	@media screen and (max-width: 407px) {

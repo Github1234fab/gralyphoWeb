@@ -38,7 +38,8 @@
 
 <style>
 	main {
-		background: linear-gradient(to top, var(--whiteGrey) 40%, var(--cta) 30%, var(--cta) 60%, var(--primary) 80%);
+		background: linear-gradient(to top, var(--whiteGrey) 45%, var(--blue) 45%, var(--primary) 45%);
+		/* background-color: var(--primary); */
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -83,6 +84,7 @@
 		font-size: 1.5rem;
 		text-align: center;
 		margin-top: 30px;
+	
 	}
 	.maillage {
 		color: var(--green);
@@ -100,6 +102,11 @@
 		margin-top: 70px;
 		gap: 30px;
 		height: 100%;
+		padding: 20px;
+		border-radius: 20px;
+		/* border: 1px solid rgba(128, 128, 128, 0.418); */
+		margin-bottom: 40px;
+		
 	}
 	.wrapper__text2 h3 {
 		font-family: var(--Geologica);
@@ -108,7 +115,7 @@
 		text-align: center;
 		line-height: 30px;
 		margin-bottom: 0px;
-		color: var(--primary);
+		/* color: var(--whiteGrey); */
 	}
 
 	.compteur {
@@ -156,7 +163,7 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 50%, var(--cta) 30%, var(--cta) 40%, var(--primary) 80%);
+			background: linear-gradient(to top, var(--whiteGrey) 55%, var(--blue) 45%, var(--primary) 60%);
 			gap: 0px;
 		}
 		.wrapper__text {
@@ -165,6 +172,7 @@
 		.wrapper__text2 {
 			margin-top: 70px;
 			gap: 10px;
+			/* border: 1px solid grey; */
 		}
 		.wrapper__text h1 {
 			font-size: 2.3rem;
@@ -181,6 +189,7 @@
 			font-size: 1rem;
 		}
 
+
 		.Firebase,
 		.svelte,
 		.webflow,
@@ -188,8 +197,8 @@
 		.Strapi,
 		.Shopify,
 		.Wordpress {
-			height: 65px;
-			width: 65px;
+			height: 85px;
+			width: 85px;
 		}
 		.wrapper__logos {
 			gap: 5px;
@@ -200,6 +209,24 @@
 			border-radius: 10px;
 			box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
 			margin-top: 30px;
+		}
+	}
+	@media screen and (max-width: 705px) {
+		main {
+			background: linear-gradient(to top, var(--whiteGrey) 55%, var(--blue) 50%, var(--primary) 55%);
+			gap: 0px;
+		}
+	}
+	@media screen and (max-width: 687px) {
+		main {
+			background: linear-gradient(to top, var(--whiteGrey) 60%, var(--blue) 50%, var(--primary) 55%);
+			gap: 0px;
+		}
+	}
+	@media screen and (max-width: 366px) {
+		main {
+			background: linear-gradient(to top, var(--whiteGrey) 65%, var(--blue) 65%, var(--primary) 65%);
+			gap: 0px;
 		}
 	}
 </style>
