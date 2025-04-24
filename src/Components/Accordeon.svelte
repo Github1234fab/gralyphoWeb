@@ -65,7 +65,7 @@
 		margin-bottom: 10px;
         border: 1px solid rgb(100, 100, 100);
         background-color: transparent;
-		box-shadow: 0px 20px 20px 3px rgb(0, 0, 0);
+		box-shadow: 0px 0px 40px 5px rgb(0, 0, 0);
 	}
 	/* .button-after {
 		position: absolute;

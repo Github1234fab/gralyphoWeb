@@ -36,8 +36,9 @@
 	<!-- <HSection /> -->
 	<Hero />
 	<MyServices/>
-	<CTA />
+	
 	<Propositions/>
+	<CTA />
 
 
 

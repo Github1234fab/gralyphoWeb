@@ -90,7 +90,7 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			padding: 14px;
+			padding: 24px;
 			height: auto;
 			
 		}
@@ -99,7 +99,7 @@
 		flex-direction: column;
 		background-color: var(--primary);
 		border-radius: 20px;
-		padding: 30px;
+		padding: 20px;
 		gap: 20px;
 		box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
 		}

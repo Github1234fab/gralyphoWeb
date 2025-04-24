@@ -8,6 +8,7 @@
 
 <main class="main">
 	<h2 class="title">Pourquoi choisir nos services ?</h2>
+	<!-- <h3 class="title-2">Répondre à vos besoins</h3> -->
 	<p class="subtitle">
 		Parce que nous apportons des solutions modernes à votre entreprise en répondant à vos besoins.
 		<br />Nous concevons des sites internet avec Wordpress pour des sites internet pros, livrés sous 3 jours, clés en main avec CMS, <br /> pour un budget défiant toute concurrence, c'est <a href="/creation-site-internet" class="maillage">notre produit d'appel</a>. <br><br> Nous vous proposons également des sites internet sous d'autres formes, avec ou sans CMS pour vos projets e-commerces, vitrines, évenementiels <br /> ou encore des <a href="/creation-application" class="maillage">applications web et mobiles</a>, pour vous aider à développer votre activité.
@@ -137,7 +138,7 @@
 
 	.title {
 		font-size: 2rem;
-		font-weight: 600;
+		font-weight: 900;
 		color: var(--whiteGrey);
 		margin-top: 40px;
 		font-family: var(--Red);
@@ -145,6 +146,18 @@
 		text-align: center;
 		z-index: 2;
 	}
+
+	/* .title-2 {
+		font-size: 1.3rem;
+		font-weight: 700;
+		color: var(--whiteGrey);
+		margin-top: 0px;
+		font-family: var(--Red);
+		padding: 0px;
+		text-align: center;
+		z-index: 2;
+	} */
+
 
 	.subtitle {
 		font-size: 1rem;
@@ -251,7 +264,7 @@
 			font-weight: 400;
 			line-height: 2rem;
 			color: var(--whiteGrey);
-			margin-top: 20px;
+			margin-top: 0px;
 			font-family: var(--Red);
 			text-align: center;
 			z-index: 2;

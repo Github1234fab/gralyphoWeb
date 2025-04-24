@@ -38,8 +38,7 @@
 
 <style>
 	main {
-		background: linear-gradient(to top, var(--whiteGrey) 45%, var(--blue) 45%, var(--primary) 45%);
-		/* background-color: var(--primary); */
+		background: linear-gradient(-30deg, var(--whiteGrey) 40%, var(--primary) 70%);
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -54,7 +53,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
-		margin: 50px 0px;
+		margin: 40px 0px;
 	}
 	.wrapper__text {
 		display: flex;
@@ -87,10 +86,10 @@
 	
 	}
 	.maillage {
-		color: var(--green);
+		color: var(--whiteGrey);
 		text-decoration: none;
 		font-size: 1rem;
-		font-weight: 400;
+		font-weight: 800;
 		letter-spacing: 0px;
 		font-size: 1.5rem;
 	}
@@ -122,7 +121,7 @@
 		height: 500px;
 		width: 500px;
 		border-radius: 10px;
-		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.527);
+		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.50);
 		margin-top: 70px;
 	}
 	.Firebase,
@@ -163,7 +162,7 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 55%, var(--blue) 45%, var(--primary) 60%);
+			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
 			gap: 0px;
 		}
 		.wrapper__text {
@@ -197,35 +196,36 @@
 		.Strapi,
 		.Shopify,
 		.Wordpress {
-			height: 85px;
-			width: 85px;
+			height: 75px;
+			width: 75px;
 		}
 		.wrapper__logos {
 			gap: 5px;
+			margin: 20px 0px;
 		}
 		.compteur {
-			height: 250px;
-			width: 250px;
+			height: 200px;
+			width: 200px;
 			border-radius: 10px;
-			box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.50);
 			margin-top: 30px;
 		}
 	}
 	@media screen and (max-width: 705px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 55%, var(--blue) 50%, var(--primary) 55%);
+			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
 			gap: 0px;
 		}
 	}
 	@media screen and (max-width: 687px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 60%, var(--blue) 50%, var(--primary) 55%);
+			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
 			gap: 0px;
 		}
 	}
 	@media screen and (max-width: 366px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 65%, var(--blue) 65%, var(--primary) 65%);
+			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
 			gap: 0px;
 		}
 	}
