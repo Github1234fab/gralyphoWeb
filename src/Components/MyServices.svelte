@@ -7,16 +7,21 @@
 </script>
 
 <main class="main">
-	<h2 class="title">Pourquoi choisir nos services ?</h2>
-	<!-- <h3 class="title-2">Répondre à vos besoins</h3> -->
-	<p class="subtitle">
-		Parce que nous apportons des solutions modernes à votre entreprise en répondant à vos besoins.
-		<br />Nous concevons des sites internet avec Wordpress pour des sites internet pros, livrés sous 3 jours, clés en main avec CMS, <br /> pour un budget défiant toute concurrence, c'est <a href="/creation-site-internet" class="maillage">notre produit d'appel</a>. <br><br> Nous vous proposons également des sites internet sous d'autres formes, avec ou sans CMS pour vos projets e-commerces, vitrines, évenementiels <br /> ou encore des <a href="/creation-application" class="maillage">applications web et mobiles</a>, pour vous aider à développer votre activité.
-		<br /><br />Et nous allons plus loin, grâce à notre expertise en programmation informatique, en vous proposant une offre complète d'outils digitaux.
-		<br />Que ce soit pour des sites internet sur mesure, codés ou des applications natives, <br />nos audits sur vos besoins spécifiques sont 100% gratuit et nous saurons à l'issue, vous proposer un outil digital qui vous apportera entière satisfaction.
-		<br /> <br> Nos <a href="/tarifs" class="maillage">tarifs </a> sont très élaborés grâce à notre adaptablité, pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et très raisonnables. <br />
-
-	</p>
+	<div class="wrapper__paragraph">
+		<h2 class="title">Pourquoi choisir nos services ?</h2>
+		<h3 class="title-2">Votre site internet professionnel, livré sous trois jours</h3>
+		<p class="subtitle">
+			<br />Nous concevons des sites internet avec Wordpress pour des sites internet pros, optimisé SEO, livrés sous 3 jours, clés en main avec CMS, <br /> pour un budget défiant toute concurrence, c'est <a href="/creation-site-internet" class="maillage">notre produit d'appel</a>.
+		</p>
+		<br />
+		<h3 class="title-2">Des sites internet, des applications, et bien plus encore pour votre entreprise</h3>
+		<p class="subtitle">
+			Nous vous proposons également la création de sites internet sur mesure, e-commerces, vitrines, évenementiels <br /> ou encore des <a href="/creation-application" class="maillage">applications web et mobiles</a>, pour vous aider à développer votre activité.
+			<br /><br />Et nous allons plus loin, grâce à notre expertise en programmation informatique, en vous proposant une offre complète d'outils digitaux.
+			<br />Que ce soit pour des sites internet sur mesure, codés ou des applications natives, <br />nos audits sur vos besoins spécifiques sont 100% gratuit et nous saurons à l'issue, vous proposer un outil digital qui vous apportera entière satisfaction.
+			<br /> <br /> Nos <a href="/tarifs" class="maillage">tarifs </a> sont très élaborés grâce à notre adaptablité, pour que vous puissiez obtenir le meilleur rapidement, à des prix très doux et très raisonnables. <br />
+		</p>
+	</div>
 	<div class="container">
 		<div class="wrapper__cards">
 			<div class="wrapper__sectionByThree">
@@ -135,6 +140,16 @@
 		border-radius: 20px;
 		box-shadow: 30px 20px 10px 2px rgba(76, 76, 76, 0.35);
 	}
+	.wrapper__paragraph {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		height: auto;
+		width: 100%;
+		padding: 0px 20px;
+	}
 
 	.title {
 		font-size: 2rem;
@@ -147,24 +162,23 @@
 		z-index: 2;
 	}
 
-	/* .title-2 {
+	.title-2 {
 		font-size: 1.3rem;
 		font-weight: 700;
 		color: var(--whiteGrey);
 		margin-top: 0px;
 		font-family: var(--Red);
 		padding: 0px;
-		text-align: center;
+		text-align: left;
 		z-index: 2;
-	} */
-
+	}
 
 	.subtitle {
 		font-size: 1rem;
 		font-weight: 400;
 		line-height: 2rem;
 		color: var(--whiteGrey);
-		margin-top: 20px;
+		margin-top: 0px;
 		font-family: var(--Red);
 		padding: 0px;
 		text-align: center;
@@ -196,7 +210,7 @@
 		align-items: center;
 		justify-content: center;
 	}
-	.maillage{
+	.maillage {
 		color: var(--green);
 		text-decoration: none;
 		font-size: 1rem;

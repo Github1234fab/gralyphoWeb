@@ -11,10 +11,14 @@
 
 <main>
 	<div class="wrapper__text">
-		<h1>Une agence Web experte, <br />au coeur des monts du Lyonnais!</h1>
-		<h2>
-			En tant qu'agence web spécialisée dans la <a href="/creation-site-internet" class="maillage">création de sites internet</a> et d'<a href="/creation-application" class="maillage">applications</a> ,<br />  Gralypho propose également des services experts en <a href="/referencement-seo-sea" class="maillage">stratégie SEO</a>.​
-		</h2>
+		<h1>Votre agence Web experte, <br />au coeur des Monts du Lyonnais!</h1>
+	<h2>
+	En tant qu'<strong>agence web spécialisée</strong> dans la 
+	<a href="/creation-site-internet" class="maillage">création de sites internet</a> et d'
+	<a href="/creation-application" class="maillage">applications</a>, <br>
+	<strong>Gralypho</strong> propose également des services experts en 
+	<a href="/referencement-seo-sea" class="maillage">stratégie SEO</a>.
+</h2>
 
 		<br />
 		<CTA />
@@ -22,7 +26,8 @@
 	</div>
 	<div class="wrapper__text2">
 		<h3>
-			Parce que nous sommes développeurs experts et certifiés, <br /> nous savons choisir la meilleure des technologies pour créer votre projet.<br /> C'est la notre vraie force: l'adaptabilité et elle nous permet de vous offrir les meilleures solutions, au meilleur prix.
+			Parce que nous sommes des <strong>développeurs web</strong> experts et certifiés, nous choisissons pour vous la meilleure technologie <br> pour créer votre <strong>site internet</strong>, votre <strong>application</strong> ou toute autre solution digitale sur-mesure.
+			<br />	L'adaptabilité est notre vraie force, elle nous permet de vous offrir des solutions performantes, au meilleur prix.
 		</h3>
 		<div class="wrapper__logos">
 			<a href="https://firebase.google.com/" target="_blank">Firebase<img class="Firebase logo" src={Firebase} alt="logo de wordpress" /></a>
@@ -71,7 +76,7 @@
 		color: var(--whiteGrey);
 		font-weight: 700;
 		/* line-height: 60px; */
-		font-size: 5rem;
+		font-size: 4.5rem;
 		text-align: center;
 		margin-top: 40px;
 	}
@@ -81,7 +86,7 @@
 		font-weight: 400;
 		letter-spacing: 0px;
 		color: rgb(231, 231, 231);
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		text-align: center;
 		margin-top: 30px;
 	
@@ -89,10 +94,10 @@
 	.maillage {
 		color: var(--whiteGrey);
 		text-decoration: none;
-		font-size: 1rem;
-		font-weight: 800;
+		font-size: 1.2rem;
+		font-weight: 600;
 		letter-spacing: 0px;
-		font-size: 1.5rem;
+	
 	}
 	.wrapper__text2 {
 		display: flex;
@@ -119,8 +124,8 @@
 	}
 
 	.compteur {
-		height: 500px;
-		width: 500px;
+		height: 400px;
+		width: 400px;
 		border-radius: 10px;
 		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.50);
 		margin-top: 70px;
@@ -132,8 +137,8 @@
 	.Strapi,
 	.Shopify,
 	.Wordpress {
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 80px;
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.294);
 		padding: 20px;
 		border-radius: 20px;
