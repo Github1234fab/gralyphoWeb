@@ -38,7 +38,8 @@
 
 <style>
 	main {
-		background: linear-gradient(-30deg, var(--whiteGrey) 40%, var(--primary) 70%);
+		background: linear-gradient(to top, var(--whiteGrey) 48%, var(--primary) 48%);
+		/* background-color: var(--primary); */
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -162,7 +163,7 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
+			background: linear-gradient(to top, var(--whiteGrey) 50%, var(--primary) 50%);
 			gap: 0px;
 		}
 		.wrapper__text {
@@ -213,20 +214,17 @@
 	}
 	@media screen and (max-width: 705px) {
 		main {
-			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
-			gap: 0px;
+			background: linear-gradient(to top, var(--whiteGrey) 50%, var(--primary) 50%);			gap: 0px;
 		}
 	}
 	@media screen and (max-width: 687px) {
 		main {
-			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
-			gap: 0px;
+			background: linear-gradient(to top, var(--whiteGrey) 58%, var(--primary) 58%);			gap: 0px;
 		}
 	}
 	@media screen and (max-width: 366px) {
 		main {
-			background: linear-gradient(-30deg, var(--whiteGrey) 40%,   var(--primary) 80%);
-			gap: 0px;
+			background: linear-gradient(to top, var(--whiteGrey) 60%, var(--primary) 60%);			gap: 0px;
 		}
 	}
 </style>

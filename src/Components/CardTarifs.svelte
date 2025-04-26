@@ -11,8 +11,11 @@
 
 <main>
 	<div class="wrapper__offer">
+		
 		<div class="wrapper__offer-infos">
-			<p class="name">{name}</p>
+			<p class="name">{name} <br> {tarif}</p>
+
+			
 <div class="wrapper__offer-infos-product">
 			<h2>{h2}</h2>
 			<h3>{h3}</h3>
@@ -22,7 +25,7 @@
 				{#each h4 as text}
 					<h4>{text}</h4>
 				{/each}
-				<h4 class="tarif">{tarif}</h4>
+				
 				<!-- <Button /> -->
 				<Accordeon {li} />
 			</div>
@@ -65,7 +68,7 @@
 
 		border-radius: 10px;
 		border: 1px solid var(--blue);
-		box-shadow: 0px 0px 10px 5px var(--blue);
+		/* box-shadow: 0px 0px 10px 5px var(--blue); */
 	}
 	.wrapper__offer-infos-product{
 		padding: 20px;
@@ -133,18 +136,18 @@
 		font-family: var(--Red);
 		font-size: 1rem;
 		font-weight: 700;
-		background-color: var(--blue);
+		/* background-color: var(--blue); */
 		color: white;
 		padding: 12px 25px;
 		border-radius: 8px;
 		min-width: 40%;
 	}
-	.tarif {
+	/* .tarif {
 		margin-bottom: 30px;
 		background-color: var(--whiteGrey) !important;
 		color: rgb(11, 11, 11) !important;
 		font-weight: bold !important;
-	}
+	} */
 
 	@keyframes bounce {
 		0% {
