@@ -18,50 +18,42 @@
 		rotation = false;
 	}
 
+	onMount(() => {
+		// Applique l'animation à chaque élément avec la classe ".icon"
+		document.querySelectorAll('.icon').forEach((el) => {
+			gsap.to(el, {
+				scale: 1, // La valeur cible de l'échelle
+				ease: 'power1.inOut',
+				duration: 3,
+				scrollTrigger: {
+					trigger: el,
+					start: 'top 90%', // Débute lorsque le haut de l'élément atteint 80% du viewport
+					end: 'top 50%', // Termine lorsque le haut de l'élément atteint 50% du viewport
+					scrub: 2
+				}
+			});
+		});
+	});
 
-onMount(() => {
-    // Applique l'animation à chaque élément avec la classe ".icon"
-    document.querySelectorAll(".icon").forEach((el) => {
-        gsap.to(el, {
-            scale: 1, // La valeur cible de l'échelle
-             ease: "power1.inOut",
-	  duration: 3,
-            scrollTrigger: {
-                trigger: el,
-              start: "top 90%", // Débute lorsque le haut de l'élément atteint 80% du viewport
-                end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
-                scrub: 2,     
-            },
-        });
-    });
-});
-
-onMount(() => {
-    // Applique l'animation à chaque élément avec la classe ".icon"
-    document.querySelectorAll(".card-services").forEach((el) => {
-        gsap.to(el, {
-            x: 0, // La valeur cible de l'échelle
-          ease: "power1.inOut",
-	  duration: 1,
-            scrollTrigger: {
-                trigger: el,
-              start: "top 90%", // Débute lorsque le haut de l'élément atteint 80% du viewport
-                end: "top 50%",  // Termine lorsque le haut de l'élément atteint 50% du viewport
-                scrub: 1,     
-            },
-        });
-    });
-});
-
-
+	onMount(() => {
+		// Applique l'animation à chaque élément avec la classe ".icon"
+		document.querySelectorAll('.card-services').forEach((el) => {
+			gsap.to(el, {
+				x: 0, // La valeur cible de l'échelle
+				ease: 'power1.inOut',
+				duration: 1,
+				scrollTrigger: {
+					trigger: el,
+					start: 'top 90%', // Débute lorsque le haut de l'élément atteint 80% du viewport
+					end: 'top 50%', // Termine lorsque le haut de l'élément atteint 50% du viewport
+					scrub: 1
+				}
+			});
+		});
+	});
 </script>
 
-<button
-	class="card-services"
-	on:click={redirectToLink}
-	on:mouseenter={changeToTrue}
-	on:mouseleave={changeToFalse}
->
+<button class="card-services" on:click={redirectToLink} on:mouseenter={changeToTrue} on:mouseleave={changeToFalse}>
 	<div class="wrapper-text-service">
 		<div class="wrapper-icon">
 			<img class="icon" src={icon} alt="" />
@@ -75,19 +67,18 @@ onMount(() => {
 <style>
 	.card-services {
 		opacity: 1;
-		flex: 1;
+		flex: 1 1 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: transparent;
 		padding: 20px;
-		min-height: 600px;
-		max-width: 400px;
+		min-height: auto;
+		max-width: 45%;
+		min-width: 35%;
 		border-radius: 8px;
 		border: 1px solid grey;
 		transform: translateX(200px);
-		/* background-color: var(--primary); */
-
 	}
 
 	.wrapper-text-service {
@@ -153,19 +144,20 @@ onMount(() => {
 		}
 	}
 
-	@media screen and (max-width: 1440px) {
+	@media screen and (max-width: 768px) {
 		.card-services {
-			max-height: 50px;
+			gap: 10px;
+			max-width: 90%;
+			min-width: 90%;
+			margin: 0 auto;
 		}
-		.p {
-			font-family: Heebo;
-			font-weight: 00;
-			font-size: var(--m);
-			color: var(--whiteGrey);
-			text-align: center;
-			line-height: 30px;
-			min-height: 100px;
-			max-width: 200px;
+	}
+	@media screen and (max-width: 400px) {
+		.card-services {
+			gap: 10px;
+			max-width: 100%;
+			min-width: 100%;
+			margin: 0 auto;
 		}
 	}
 </style>

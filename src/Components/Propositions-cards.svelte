@@ -30,7 +30,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 100%;
+		width: calc(50% - 20px);
 		min-height: 100%;
 		font-family: epilogue;
 		flex-grow: 1;
@@ -77,7 +77,7 @@
 	.wrapper-text h2 {
 		font-size: 1.7rem;
 		color: var(--whiteGrey);
-		font-weight: 900;
+		font-weight: 700;
 		font-family: epilogue;
 		letter-spacing: -1px;
 		line-height: 33px;
@@ -133,14 +133,23 @@
 
 	@media screen and (max-width: 768px) {
 		.card {
-			max-width: 300px;
-			min-height: auto;
-		}
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		min-width: 80%;
+		min-height: 100%;
+		font-family: epilogue;
+		border-radius: 10px;
+		z-index: 0;
+		position: relative;
+		overflow: hidden;
+		border: 1px solid var(--blue);
+	}
+		
 		.wrapper-text h2 {
 			font-size: 1.5rem;
 		}
-		/* .wrapper-text p {
-			font-size: var(--m);
-		} */
+		
 	}
 </style>

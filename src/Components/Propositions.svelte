@@ -7,16 +7,16 @@
 			type: 'Custom et Landing',
 			subtitle: 'Site internet Statique',
 			description: ['Sans BDD', 'Sans gestion de contenu', 'Contrat de maintenance pour modification' ],
-			lien: '/creation-site-internet',
-			layerTxt: 'Site sans CMS',
+			lien: '/creation-site-internet/#sans-cms',
+			layerTxt: 'Site web sans CMS',
 			price: 'Livré \n en 3 jours'
 		},
 		{
 			type: 'Vitrine et Commerce',
 			subtitle: 'site internet Dynamique',
 			description: ['BDD', 'Avec gestion de contenu', 'Contrat de maintenance ou autonomie', ],
-			lien: '/creation-site-internet',
-			layerTxt: 'Site avec CMS',
+			lien: '/creation-site-internet/#cms',
+			layerTxt: 'Site web avec CMS',
 			price: ' Livré en \n 15 jours'
 		},
 		{
@@ -26,13 +26,21 @@
 			lien: '/creation-application',
 			layerTxt: 'Applications',
 			price: ' Livré \n en 1 mois'
+		},
+		{
+			type: 'Référencement internet - SEO',
+			subtitle: '+ de trafic, + de visibilité, + plus de vente',
+			description: ['Stratégie SEO', "Audit technique", "Optimisation à 100%" ],
+			lien: '/referencement-seo-sea',
+			layerTxt: 'SEO',
+			price: ' Livré \n en 1 mois'
 		}
 	
 	];
 </script>
 
 <main>
-	<h1 class="title">Nos solutions de site internet et d'application</h1>
+	<h1 class="title">Nos solutions de site internet, d'application <br> et de référencement internet</h1>
 	<div class="wrapper__cards">
 		{#each tab as infos}
 			<PropositionsCards type={infos.type} description={infos.description} lien={infos.lien} layerTxt={infos.layerTxt} subtitle={infos.subtitle} />
@@ -47,13 +55,13 @@
 		padding: 70px;
 	}
 	.wrapper__cards {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-wrap: wrap;
 		gap: 30px;
 		z-index: 2;
-		width: 80%;
+		width: 100%;
 		margin: 50px auto;
 	}
 	.title {
@@ -68,16 +76,7 @@
 	}
 
 	@media screen and (max-width: 1068px) {
-		.wrapper__cards {
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			justify-content: center;
-			align-items: center;
-			gap: 30px;
-			z-index: 2;
-			width: 90%;
-			margin: 50px auto;
-		}
+		
 		main {
 			padding: 10px;
 			height: auto;
@@ -88,16 +87,21 @@
 		}
 	}
 	@media screen and (max-width: 568px) {
+		.wrapper__cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 30px;
+		z-index: 2;
+		width: 90%;
+		margin: 50px auto;
+	}
 		main {
 			padding: 10px;
 			height: auto;
 		}
 
-		.wrapper__cards {
-			display: flex;
-			flex-direction: column;
-			gap: 30px;
-		}
 		.title {
 			font-size: 2.2rem;
 		}

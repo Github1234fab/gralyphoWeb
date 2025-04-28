@@ -9,7 +9,7 @@
 		font-weight: 700;
 		border-radius: 8px;
 		text-align: center;
-		padding: 15px 20px;
+		padding: 10px 20px;
 		box-shadow: 0px 10px 10px rgba(62, 62, 62, 0.5);
 		z-index: 999;
 		max-width: 100px;

@@ -57,67 +57,32 @@
 	<div class="wrapper-text">
 		<h2>Nos services additionnels, pour le succès de votre entreprise.</h2>
 		<div class="autoText"><AutoText /></div>
-
 	</div>
 
 	<div class="wrapper-cards-services">
 		{#each servicesTab as service}
-			<CardServices
-				title={service.title}
-				lien={service.lien}
-				i={service.i}
-				p={service.p}
-				icon={service.icon}
-			/>
+			<CardServices title={service.title} lien={service.lien} i={service.i} p={service.p} icon={service.icon} />
 		{/each}
 	</div>
 </section>
 
 <style>
 	.E-section {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: auto;
-		margin-bottom: 0px;
-		height: auto;
-		font-size: 16px;
+		display: flex;
+		flex-direction: column;
 		background-color: var(--primary);
-		/* background: var(--gradient); */
-		overflow: hidden;
+		padding: 20px;
 	}
 
-	/* :global(.card-services) {
-		flex: 1 1 25%;
-		min-height: 400px;
-	} */
-
 	.wrapper-text {
-		grid-column: 2/ 12;
-		grid-row: 3;
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		margin-top: -20px;
 	}
-
-	/* .E-section h1 {
-		grid-column: 2/ 12;
-		grid-row: 1;
-		font-family: var(--Geologica);
-		text-transform: uppercase;
-		font-size: var(--s);
-		color: var(--whiteGrey);
-		font-weight: 600;
-		letter-spacing: -0.04em;
-		margin-top: 50px;
-		margin-left: 0px;
-		margin-bottom: 20px;
-		text-align: center;
-	} */
 	.autoText {
 		color: var(--green);
 		font-weight: 900;
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 		font-family: var(--Dosis);
 		justify-self: center;
 		align-self: center;
@@ -135,38 +100,17 @@
 		margin-left: 0px;
 		text-align: center;
 		line-height: 45px;
-		margin-top: 100px;
 		min-width: 100%;
 	}
 
-	/* .E-section h3 {
-		font-family: var(--Poppins);
-		font-size: var(--m);
-		color: var(--whiteGrey);
-		font-weight: 300;
-		letter-spacing: -0.04em;
-		margin-left: 0px;
-		text-align: justify;
-		hyphens: auto;
-		line-height: 30px;
-		max-width: 90%;
-		margin: 50px auto;
-	}
-	.E-section h3 span {
-		font-weight: 600;
-		color: var(--whiteGrey);
-	} */
-
 	.wrapper-cards-services {
-		grid-column: 2/12;
-		grid-row: 4;
+		margin-top: 100px;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
 		gap: 35px;
-		margin-bottom: 150px;
-		margin-top: 80px;
+		margin-bottom: 50px;
 	}
 
 	@keyframes bounce {
@@ -187,33 +131,10 @@
 		}
 	}
 
-	@media screen and (min-width: 1400px) and (max-width: 2500px) {
-	}
-
-	@media screen and (min-width: 1200px) and (max-width: 1400px) {
-	}
-
-	@media screen and (min-width: 992px) and (max-width: 1200px) {
-	}
-
-	@media screen and (min-width: 768px) and (max-width: 992px) {
-		:global(.card-services) {
-			flex: 1 1 35%;
+	@media screen and (max-width: 768px) {
+		.wrapper-cards-services {
+			gap: 20px;
+			width: 100%;
 		}
-	}
-
-	@media screen and (min-width: 576px) and (max-width: 767px) {
-		:global(.card-services) {
-			flex: 1 1 35%;
-		}
-	}
-
-	@media screen and (min-width: 300px) and (max-width: 575px) {
-		:global(.card-services) {
-			flex: 1 1 50%;
-		}
-		/* .E-section h2 {
-			line-height: 39px;
-		} */
 	}
 </style>

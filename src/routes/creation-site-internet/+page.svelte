@@ -100,7 +100,7 @@
 			etc.
 		</p>
 	</div>
-	<div class="wrapper__component">
+	<div class="wrapper__component" id="sans-cms">
 		<h2>Notre offre de site internet sans CMS</h2>
 		<p>Un site sans CMS ne vous permet pas de modifier le contenu de votre site directement, car vous ne disposez pas d'espace d'administration pour le faire. Il vous faudra alors souscrire à un contrat de maintenance que vous nous proposons pour toute modification sur votre site internet. Mais de nombreux site vitrine ne requierent pas de modification de contenu, ou que très rarement, par exemple une fois par an ou lors d'une refonte du site, environ tous les 10 ou 5 ans.</p>
 		<div class="wrapper__offres-tarifs">
@@ -114,7 +114,7 @@
 	</div>
 </div>
 
-		<div class="wrapper__component">
+		<div class="wrapper__component" id="cms">
 			<h2>Notre offre de site internet avec CMS</h2>
 
 			<p>

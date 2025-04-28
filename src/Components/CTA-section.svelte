@@ -26,7 +26,6 @@
 		/* background-color: var(--whiteGrey); */
 		/* background-image:linear-gradient(to top, var(--whiteGrey) 0%, var(--cta) 40%, var(--cta) 60%, var(--primary) 100%); */
 		padding: 100px;
-	
 	}
 	.wrapper {
 		display: flex;
@@ -55,7 +54,7 @@
 	}
 	a {
 		background-color: var(--cta);
-		color:  var(--whiteGrey);
+		color: var(--whiteGrey);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
 		font-weight: 700;
@@ -65,12 +64,11 @@
 		box-shadow: 0px 10px 10px rgba(62, 62, 62, 0.5);
 		z-index: 999;
 		max-width: 200px;
- 
 	}
-        a:hover{
-                animation: bounce 0.4s ease-in-out;
-        }
-        	@keyframes bounce {
+	a:hover {
+		animation: bounce 0.4s ease-in-out;
+	}
+	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
 		}
@@ -92,16 +90,15 @@
 		main {
 			padding: 24px;
 			height: auto;
-			
 		}
 		.wrapper {
 			display: flex;
-		flex-direction: column;
-		background-color: var(--primary);
-		border-radius: 20px;
-		padding: 20px;
-		gap: 20px;
-		box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
+			flex-direction: column;
+			background-color: var(--primary);
+			border-radius: 20px;
+			padding: 30px;
+			gap: 20px;
+			box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
 		}
 		.title {
 			font-size: 1.5rem;
@@ -109,6 +106,7 @@
 		.subtitle {
 			font-size: 1rem;
 			line-height: 43px;
+
 		}
 	}
 </style>
