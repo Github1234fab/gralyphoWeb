@@ -4,7 +4,7 @@
 	import PropositionsCards from './Propositions-cards.svelte';
 	const tab = [
 		{
-			type: 'Custom et Landing',
+			type: 'Site Custom  \n et Landing page',
 			subtitle: 'Site internet Statique',
 			description: ['Sans BDD', 'Sans gestion de contenu', 'Contrat de maintenance pour modification' ],
 			lien: '/creation-site-internet/#sans-cms',
@@ -12,7 +12,7 @@
 			price: 'Livré \n en 3 jours'
 		},
 		{
-			type: 'Vitrine et Commerce',
+			type: 'Site Vitrine \n et site E-Commerce',
 			subtitle: 'site internet Dynamique',
 			description: ['BDD', 'Avec gestion de contenu', 'Contrat de maintenance ou autonomie', ],
 			lien: '/creation-site-internet/#cms',
@@ -40,7 +40,7 @@
 </script>
 
 <main>
-	<h1 class="title">Nos solutions de site internet, d'application <br> et de référencement internet</h1>
+	<h1 class="title">Nos solutions de site internet, d'application <br> et de référencement SEO</h1>
 	<div class="wrapper__cards">
 		{#each tab as infos}
 			<PropositionsCards type={infos.type} description={infos.description} lien={infos.lien} layerTxt={infos.layerTxt} subtitle={infos.subtitle} />
@@ -52,7 +52,7 @@
 	main {
 		background-color: var(--primary);
 		z-index: 0;
-		padding: 70px;
+		padding: 90px;
 	}
 	.wrapper__cards {
 		display: flex;
@@ -75,10 +75,10 @@
 		margin-top: 50px;
 	}
 
-	@media screen and (max-width: 1068px) {
+	@media screen and (max-width: 1100px) {
 		
 		main {
-			padding: 10px;
+			padding: 30px;
 			height: auto;
 		}
 
@@ -86,7 +86,7 @@
 			font-size: 2.2rem;
 		}
 	}
-	@media screen and (max-width: 568px) {
+	@media screen and (max-width: 883px) {
 		.wrapper__cards {
 		display: flex;
 		justify-content: center;
@@ -98,7 +98,7 @@
 		margin: 50px auto;
 	}
 		main {
-			padding: 10px;
+			padding: 20px;
 			height: auto;
 		}
 

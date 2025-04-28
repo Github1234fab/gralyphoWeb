@@ -88,7 +88,7 @@
 
 	@media screen and (max-width: 768px) {
 		main {
-			padding: 24px;
+			padding: 10px;
 			height: auto;
 		}
 		.wrapper {
@@ -99,6 +99,7 @@
 			padding: 30px;
 			gap: 20px;
 			box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
+			margin-top: 50px;
 		}
 		.title {
 			font-size: 1.5rem;

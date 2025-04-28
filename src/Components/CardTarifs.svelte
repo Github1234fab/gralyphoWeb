@@ -203,7 +203,7 @@
 			padding: 20px;
 			border-radius: 10px;
 			border: 1px solid var(--blue);
-			box-shadow: 0px 0px 10px 5px var(--blue);
+			/* box-shadow: 0px 0px 10px 5px var(--blue); */
 		}
 
 		.wrapper__offer ul h3 {

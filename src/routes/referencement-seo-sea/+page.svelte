@@ -57,56 +57,92 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<img src={seo} alt="" class="imgHero" />
-		<h1>Stratégie <span>SEO</span></h1>
-		<h2>Qu'est-ce que ça veut dire <span>"SEO"</span> ?</h2>
-		<p>Le Search Engine Optimization (SEO), ou optimisation pour les moteurs de recherche, est l'ensemble des pratiques visant à améliorer la visibilité et le classement d'un site web dans les résultats des moteurs de recherche (comme Google, Bing ou Yahoo). L'objectif est d'attirer un trafic organique (non payant) de qualité vers un site internet.</p>
-		<h2>Comment faire du référencement <span>"SEO"</span> ?</h2>
-		<p>
-			Le SEO repose sur <a href="https://semji.com/fr/guide/techniques-seo-le-guide-complet/">plusieurs piliers</a>: la technique, le contenu et la popularité. Il s'agit d'optimiser la structure d'un site internet, le contenu de ses pages et de gagner des liens de qualité pour améliorer la visibilité du site sur les moteurs de recherche.
-		</p>
-		<h2>Comment trouver une bonne agence <span>"SEO"</span> à Lyon ?</h2>
-		<p>
-			De nombreuses agences SEO à Lyon offre de très bons servcies SEO. Chez Gralypho, agence Web basée à Lyon et dans l'ouest Lyonnais, nous accordons une importance névraglique au SEO. C'est le nerf de la guerre, c'est crucial pour tous les propriétaires de site internet. Le SEO est passionnant et aujourd'hui nous possedons de nombreux outils qui nous permettent de réaliser des analyses fines sur la position de chaque site internet dans la SERP. Nous proposons des audits SEO complets, des
-			stratégies SEO sur mesure et des suivis réguliers pour garantir un bon positionnement sur les moteurs de recherche.
-		</p>
-		<h2>Quel est le budget pour un audit <span>"SEO"</span></h2>
-		<p>Le budget pour un audit SEO varie en fonction de la taille du site internet, de la concurrence, du secteur d'activité et des objectifs fixés à court ou long terme.</p>
-		<Button />
+		<img src={seo} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
+
+		<h1> Boostez votre visibilité en ligne avec Gralypho <br>Agence SEO à l'ouest de Lyon :</h1>
+
+		<h2>Pourquoi investir dans le SEO pour votre site web ?</h2>
+		<p>Le SEO (Search Engine Optimization), ou référencement naturel, permet d'améliorer la visibilité d'un site internet sur Google et les autres moteurs de recherche. Un SEO efficace attire un trafic organique, qualifié et durable, sans dépendance aux campagnes publicitaires payantes.</p>
+
+		<ul>
+			<li>Augmentez votre visibilité locale et nationale</li>
+			<li>Générez plus de leads qualifiés</li>
+			<li>Améliorez votre image de marque et votre crédibilité</li>
+			<li>Obtenez un retour sur investissement sur le long terme</li>
+		</ul>
+
+		<h2>Notre méthode SEO chez Gralypho</h2>
+		<p>En tant qu'<strong>agence SEO basée dans l'ouest Lyonnais</strong>, Gralypho suit une approche stratégique en quatre étapes :</p>
+
+		<h3>1. Audit SEO complet</h3>
+		<ul>
+			<li>Analyse technique de votre site web</li>
+			<li>Étude des mots-clés stratégiques</li>
+			<li>Évaluation de l'expérience utilisateur (UX)</li>
+			<li>Audit de votre popularité et de votre netlinking</li>
+		</ul>
+
+		<h3>2. Optimisation technique</h3>
+		<ul>
+			<li>Amélioration des performances (vitesse, sécurité, responsive design)</li>
+			<li>Optimisation des balises HTML (title, meta description, Hn)</li>
+			<li>Optimisation du maillage interne et de la structure des URLs</li>
+		</ul>
+
+		<h3>3. Création et enrichissement du contenu</h3>
+		<ul>
+			<li>Rédaction de contenus optimisés SEO</li>
+			<li>Optimisation sémantique (LSI, mots-clés secondaires)</li>
+			<li>Création de landing pages ciblées</li>
+		</ul>
+
+		<h3>4. Développement de la popularité</h3>
+		<ul>
+			<li>Acquisition de backlinks de qualité</li>
+			<li>Amélioration de la notoriété locale (SEO local)</li>
+			<li>Stratégies de netlinking éthique</li>
+		</ul>
+
+		<h2>Pourquoi choisir Gralypho comme votre agence SEO à Lyon ?</h2>
+		<ul>
+			<li>Approche personnalisée pour chaque projet</li>
+			<li>Suivi mensuel détaillé et rapport de positionnement</li>
+			<li>Expertise en SEO local et national</li>
+			<li>Engagement sur la transparence et les résultats</li>
+		</ul>
+
+		<h2>Quel est le budget pour un audit SEO ?</h2>
+		<p>Le tarif d'un audit SEO dépend de la complexité de votre site internet, de votre marché et de vos ambitions de positionnement. Chez <strong>Gralypho</strong>, nous adaptons nos prestations à votre projet, avec des devis clairs et sans surprise.</p>
+
+	<a href="/#section-form">Demander un audit SEO gratuit</a>
+
+	
+
+		<div class="faq">
+			<h2>FAQ sur le SEO</h2>
+			<h3>Qu'est-ce qu'un audit SEO ?</h3>
+			<p>Un audit SEO est une analyse complète de votre site web pour identifier les facteurs bloquants pour votre référencement naturel. Il sert de base pour construire une stratégie SEO efficace.</p>
+
+			<h3>Combien de temps faut-il pour voir des résultats SEO ?</h3>
+			<p>Le SEO est une stratégie de moyen à long terme. Les premiers résultats sont visibles généralement entre 3 à 6 mois selon la concurrence et la qualité des optimisations réalisées.</p>
+
+			<h3>Pourquoi travailler avec une agence SEO locale à Lyon ?</h3>
+			<p>Une agence locale connaît parfaitement votre marché et peut développer des stratégies de référencement local précises, en optimisant par exemple votre présence sur Google My Business et les annuaires régionaux.</p>
+
+			<h3>Est-ce que Gralypho propose aussi des stratégies SEA (Google Ads) ?</h3>
+			<p>Oui, en complément du SEO, nous proposons également la mise en place de campagnes SEA (référencement payant) pour booster rapidement votre visibilité.</p>
+		</div>
 	</div>
+</section>
 
-	<!-- ***************SERVICES*************** -->
-
-	<!-- <div class="wrapper-SectionB">
-		<h2>
-			Optez pour un référencement gagnant. <br />Touchez votre ❤️ de cible <br />pour être visible.
-		</h2>
-		{#each accordeonTab as tab}
-			<CardsSectionB title={tab.title} p={tab.p} />
-		{/each}
-	</div> -->
-
-	<!-- ***************SEO/SEA*************** -->
-
-	<!-- <div class="wrapper-Fsection">
-    <FSection />
-  </div> -->
-
-	<!-- ***************TESTIMONIAL*************** -->
-
-	<div class="testimonial">
-		<h1>Stratégie SEO, <br /> les chiffres .</h1>
-		<h2>
-			Le SEO génère plus de 1 000% de trafic par rapport aux stratégies sur les réseaux sociaux organiques .<br /><br />
-			92,96% du trafic global provient de Google Search, Google Images et Google Maps. <br /><br />
-			53,3% de tout le trafic de site provient de la recherche organique. <br /><br />
-			68% des expériences en ligne commencent par un moteur de recherche. <br /><br />
-		</h2>
 	
 		<div class="wrapper__faqLink">
 			<FaqLink />
 		</div>
-	</div>
+		<div class="wrapper__link">
+			<Links />
+		</div>
+
 
 	
 
@@ -115,7 +151,7 @@
 	<div class="wrapper-form">
 		<Form />
 	</div>
-</section>
+
 
 <style>
 	.sites-section {
@@ -148,10 +184,26 @@
 		line-height: 50px;
 		margin-top: 70px;
 	}
-	.hero h1 span {
-		color: var(--green);
+	li{
+		font-family: var(--Poppins);
+		font-size: var(--m);
+		color: var(--primary);
+		font-weight: 200;
+		text-align: center;
+		align-self: center;
+		width: 100%;
 	}
 	.hero h2 {
+		font-family: poppins;
+		font-weight: 600;
+		font-size: 1.5rem;
+		color: var(--primary);
+		text-align: center;
+		margin-top: 30px;
+		width: 75%;
+		margin-bottom: 10px;
+	}
+	.hero h3 {
 		font-family: poppins;
 		font-weight: 600;
 		font-size: var(--m);
@@ -159,25 +211,20 @@
 		text-align: center;
 		margin-top: 50px;
 		width: 75%;
-		margin-bottom: 0px;
-	}
-	.hero h2 span {
-		font-weight: 700;
+		margin-bottom: 20px;
 	}
 	.hero p {
 		font-family: var(--Poppins);
 		font-size: var(--m);
 		color: var(--primary);
-		font-weight: 300;
+		font-weight: 400;
 		text-align: center;
 		align-self: center;
 		padding: 20px;
-		margin-bottom: 50px;
-		width: 90%;
+		
+		width: 80%;
 	}
-	a {
-		text-decoration: underline;
-	}
+	
 
 	.imgHero {
 		max-width: 30%;
@@ -195,41 +242,34 @@
 		/* margin-top: 50px; */
 		background-color: var(--bgHero);
 	}
-	.testimonial {
-		grid-column: 1/13;
-		grid-row: 5;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 100px;
-		min-height: 700px;
-		background: var(--gradient);
-		padding: 30px;
-		gap: 60px;
-	}
-	.testimonial h1 {
-		font-family: 'Poppins';
+.faq{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	background-color: white;
+	
+}
+a {
+		background-color: var(--green);
+		color:  var(--primary);
+		font-family: 'Red Hat Display';
+		font-size: 1rem;
 		font-weight: 700;
-		font-size: var(--l);
-		color: var(--whiteGrey);
+		border-radius: 8px;
 		text-align: center;
-		line-height: 40px;
-		letter-spacing: 0px;
-		margin-bottom: 30px;
+		padding: 10px 20px;
+		box-shadow: 0px 10px 10px rgba(62, 62, 62, 0.5);
+		z-index: 999;
+		max-width: 300px;
 		margin-top: 30px;
+ 
 	}
-	.testimonial h2 {
-		font-family: 'Poppins';
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--whiteGrey);
-		text-align: center;
-		line-height: 40px;
-		letter-spacing: 0px;
-		margin-top: -30px;
-	}
-
+        a:hover{
+                animation: bounce 0.4s ease-in-out;
+        }
+      
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);

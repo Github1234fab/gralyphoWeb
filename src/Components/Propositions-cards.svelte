@@ -38,23 +38,26 @@
 		z-index: 0;
 		position: relative;
 		overflow: hidden;
-		border: 1px solid var(--blue);
-		/* box-shadow: 0px 0px 10px 5px var(--blue); */
+		border: 1px solid rgb(83, 83, 83);
+	}
+	.card:hover{
+		background-color: rgb(5, 1, 27);
+		border: 1px solid var(--whiteGrey);
 	}
 
 	.layer {
 		position: absolute;
 		font-family: var(--Red);
 		font-weight: 900;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		top: 45px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 100%;
 		padding: 15px 20px;
-		color: white;
-		font-size: 1rem;
-		background-color: var(--blue);
+		color: var(--whiteGrey);
+		font-size: 1.5rem;
+		background-color: rgb(82, 7, 7);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -75,19 +78,20 @@
 		flex-grow: 1;
 	}
 	.wrapper-text h2 {
-		font-size: 1.7rem;
+		font-size: 2rem;
 		color: var(--whiteGrey);
 		font-weight: 700;
 		font-family: epilogue;
 		letter-spacing: -1px;
-		line-height: 33px;
+		line-height: 40px;
 		white-space: pre-line;
 		text-align: center;
 	}
 	.wrapper-text h3 {
+		margin-top: 10px;
 		font-size: 1.2rem;
 		color: var(--whiteGrey);
-		font-weight: 300;
+		font-weight: 100;
 		font-family: epilogue;
 		letter-spacing: -1px;
 		line-height: 33px;
@@ -131,25 +135,44 @@
 		transition: 0.4s ease-in-out;
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 964px) {
 		.card {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		min-width: 80%;
-		min-height: 100%;
-		font-family: epilogue;
-		border-radius: 10px;
-		z-index: 0;
-		position: relative;
-		overflow: hidden;
-		border: 1px solid var(--blue);
-	}
-		
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: calc(40% - 10px);
+			height: 600px;
+			font-family: epilogue;
+			border-radius: 10px;
+			z-index: 0;
+			position: relative;
+			overflow: hidden;
+			border: 1px solid rgb(83, 83, 83);
+		}
+
 		.wrapper-text h2 {
 			font-size: 1.5rem;
 		}
-		
+	}
+	@media screen and (max-width: 768px) {
+		.card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: calc(100%);
+			height: 600px;
+			font-family: epilogue;
+			border-radius: 10px;
+			z-index: 0;
+			position: relative;
+			overflow: hidden;
+			border: 1px solid rgb(83, 83, 83);
+		}
+
+		.wrapper-text h2 {
+			font-size: 1.5rem;
+		}
 	}
 </style>

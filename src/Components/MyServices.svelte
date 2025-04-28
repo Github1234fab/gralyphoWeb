@@ -168,7 +168,7 @@
 
 	.title {
 		font-size: 2rem;
-		font-weight: bolder;
+		font-weight: bold;
 		color: var(--whiteGrey);
 		margin-top: 40px;
 		font-family: var(--Red);
@@ -180,7 +180,7 @@
 
 	.title-2 {
 		font-size: 1.4rem;
-		font-weight: 500;
+		font-weight: 600;
 		color: var(--whiteGrey);
 		margin-top: 0px;
 		font-family: var(--Red);
@@ -289,6 +289,9 @@
 		}
 	}
 	@media screen and (max-width: 768px) {
+		.wrapper__cta{
+			margin-bottom: 100px;
+		}
 		.main {
 		display: flex;
 		flex-direction: column;
@@ -318,16 +321,16 @@
 
 		.title {
 			width: 100%;
-			text-align: center;
+			text-align: left;
 		}
 
 		.title-2 {
 			width: 100%;
-			text-align: center;
+			text-align: left;
 		}
 		.subtitle {
 			width: 100%;
-			text-align: center;
+			text-align: left;
 		}
 		.wrapper__cards-card {
 			display: flex;

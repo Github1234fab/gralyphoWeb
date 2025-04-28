@@ -36,7 +36,7 @@
 			<a href="https://webflow.com/" target="_blank">Webflow<img class="webflow logo" src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/651f24a499bc8356ba844e0c_Webflow-Logo.svg" alt="Logo de Webflow" /></a>
 			<a href="https://www.shopify.com/fr" target="_blank">Shopify<img class="Shopify logo" src={Shopify} alt="Logo de Shopify" /></a>
 			<a href="https://fr.wix.com/website/templates" target="_blank">Wix<img class="Wix logo" src={Wix} alt="Logo de Wix" /></a>
-			<a href="https://fr.wix.com/website/templates" target="_blank">Wordpress<img class="Wordpress logo" src={WP} alt="Logo de Wix" /></a>
+			<a href="https://fr.wix.com/website/templates" target="_blank">Wordpress<img class="Wordpress logo" src={WP} alt="Logo de wordpress" /></a>
 		</div>
 	</div>
 </main>
@@ -44,7 +44,6 @@
 <style>
 	main {
 		background: linear-gradient(to top, var(--whiteGrey) 48%, var(--primary) 48%);
-		/* background-color: var(--primary); */
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -109,7 +108,6 @@
 		height: 100%;
 		padding: 20px;
 		border-radius: 20px;
-		/* border: 1px solid rgba(128, 128, 128, 0.418); */
 		margin-bottom: 40px;
 		
 	}
@@ -120,7 +118,6 @@
 		text-align: center;
 		line-height: 30px;
 		margin-bottom: 0px;
-		/* color: var(--whiteGrey); */
 	}
 
 	.compteur {
@@ -140,7 +137,7 @@
 		height: 80px;
 		width: 80px;
 		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.294);
-		padding: 20px;
+		padding: 10px;
 		border-radius: 20px;
 		margin-bottom: 30px;
 	}
@@ -166,9 +163,17 @@
 		transition: 0.3s ease-in-out;
 	}
 
+
+	@media screen and (max-width: 1083px) {
+		main {
+			background: linear-gradient(to top, var(--whiteGrey) 45%, var(--primary) 45%);
+		
+		}
+	}
+
 	@media screen and (max-width: 768px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 50%, var(--primary) 50%);
+			background: linear-gradient(to top, var(--whiteGrey) 55%, var(--primary) 55%);
 			gap: 0px;
 		}
 		.wrapper__text {
@@ -202,8 +207,9 @@
 		.Strapi,
 		.Shopify,
 		.Wordpress {
-			height: 75px;
-			width: 75px;
+			height: 55px;
+			width: 55px;
+			padding: 10px;
 		}
 		.wrapper__logos {
 			gap: 5px;
@@ -217,19 +223,15 @@
 			margin-top: 30px;
 		}
 	}
-	@media screen and (max-width: 705px) {
-		main {
-			background: linear-gradient(to top, var(--whiteGrey) 50%, var(--primary) 50%);			gap: 0px;
-		}
-	}
+	
 	@media screen and (max-width: 687px) {
 		main {
 			background: linear-gradient(to top, var(--whiteGrey) 58%, var(--primary) 58%);			gap: 0px;
 		}
 	}
-	@media screen and (max-width: 366px) {
+	@media screen and (max-width: 400px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 60%, var(--primary) 60%);			gap: 0px;
+			background: linear-gradient(to top, var(--whiteGrey) 57%, var(--primary) 57%);			gap: 0px;
 		}
 	}
 </style>
