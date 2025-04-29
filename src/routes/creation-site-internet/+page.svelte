@@ -21,7 +21,7 @@
 
 	let basic = [
 		{
-			name: 'Best Of !' ,
+			name: 'Best Of !',
 			h2: 'Vitrine professionnelle',
 			h3: 'Idéal pour : Indépendants, TPE, PME, Artisans, Associations',
 			h4: ['Délai : 3 jours max', ' Vitrine Pro', '5 pages'],
@@ -93,35 +93,40 @@
 		<Images img={images} alt="image" />
 	</div>
 	<div class="wrapper__hero">
-		<h1 class="title">Sites internet</h1>
-		<h2>Bien choisir son modèle de site internet est fondamental.</h2>
+		<h1 class="title">Création de site internet</h1>
+		<h2>Site web clé en main ou sur mesure</h2>
 		<p>
-			Votre site internet reflète votre activité, il est l'identité de votre marque, de votre business, de votre entreprise. Votre site internet vous représente et doit également vous permettre d'effectuer des tâches, si tel est votre besoin, comme la modification de contenu dynamique. Le contenu dynamique est géré par un CMS. C'est lui qui vous permet d'interagir avec votre site web pour modifier des images, du texte, tenir à jour un blog, modifier des tarifs, ajouter un produit,
-			etc.
+			Un site internet, c’est bien plus qu’une vitrine : c’est votre image, votre outil, parfois même votre principal canal de communication. Que vous ayez besoin d’un site simple et rapide, d’un site évolutif avec gestion de contenu ou d’un développement entièrement sur mesure, nous avons la solution adaptée à votre activité. <br /><br /> Nous proposons deux grandes familles de sites :
+			<br />
+
+			<strong>Sans CMS</strong> : vous n’avez pas besoin de modifier régulièrement le contenu ? Cette solution rapide et abordable est parfaite pour vous.
+			<br />
+			<strong>Avec CMS</strong> : vous souhaitez mettre à jour textes, images ou tarifs vous-même ? Optez pour un site avec interface d’administration.
+			<br />
+
+			<strong>Avec CMS Headless</strong> pour les projets plus ambitieux, nous proposons aussi une solution digitale ultra-flexible pensée pour faire évoluer votre site (et votre contenu) facilement, même vers une app mobile.
 		</p>
 	</div>
 	<div class="wrapper__component" id="sans-cms">
-		<h2>Notre offre de site internet sans CMS</h2>
-		<p>Un site sans CMS ne vous permet pas de modifier le contenu de votre site directement, car vous ne disposez pas d'espace d'administration pour le faire. Il vous faudra alors souscrire à un contrat de maintenance que vous nous proposons pour toute modification sur votre site internet. Mais de nombreux site vitrine ne requierent pas de modification de contenu, ou que très rarement, par exemple une fois par an ou lors d'une refonte du site, environ tous les 10 ou 5 ans.</p>
+		<h2>Votre site web sans interface de gestion</h2>
+		<p>Ces sites ne disposent pas d’un espace d’administration : ils sont donc parfaits si vous n’avez pas besoin de modifier régulièrement vos contenus. Ils sont légers, rapides à mettre en ligne, et idéaux pour une présentation claire et durable. Toute mise à jour peut se faire via notre service de maintenance.</p>
 		<div class="wrapper__offres-tarifs">
-		{#each landing as item}
-			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
-		{/each}
+			{#each landing as item}
+				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
+			{/each}
 
-		{#each custom as item}
-			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
-		{/each}
+			{#each custom as item}
+				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
+			{/each}
+		</div>
 	</div>
-</div>
 
-		<div class="wrapper__component" id="cms">
-			<h2>Notre offre de site internet avec CMS</h2>
-
-			<p>
-				Le CMS vous permet de modifier votre contenu, on parle alors de contenu dynamique. Vous avez accès à un espace d'administration, lequel après un petit temps de prise en main, vous permet de modifier vos images, votre texte, vos tarifs, vos informations, vos dates et même la disposition des éléments. Nous utilisons 3 plateformes avec CMS. <span>Wordpress, Wix et Webflow.</span> Ces trois plateformes nous permettent de créer votre site avec un CMS natif. Nous vous formons sur l'administration
-				du site ou nous vous proposons un forfait de maintenance mensuel, si vous préférez que nous nous occupions de toutes les modifications
-			</p>
-			<div class="wrapper__offres-tarifs">
+	<div class="wrapper__component" id="cms">
+		<h2>Votre site web avec interface de gestion (CMS)</h2>
+		<p>
+			Vous souhaitez pouvoir modifier vous-même vos contenus : textes, images, tarifs, blog, événements, etc. ? Le site avec CMS est ce qu’il vous faut. Grâce à une interface simple, vous gérez votre site au quotidien. Nous utilisons des plateformes comme <strong>WordPress</strong>, <strong>Webflow</strong> ou <strong>Wix</strong>, selon votre besoin et votre niveau de confort. Vous êtes formé à l’utilisation, ou nous pouvons assurer la gestion pour vous.
+		</p>
+		<div class="wrapper__offres-tarifs">
 			{#each basic as item}
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
@@ -129,24 +134,19 @@
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
 		</div>
-		</div>
+	</div>
 
-		<div class="wrapper__component">
-			<h2>Notre offre avec de site internet avec CMS Headless</h2>
+	<div class="wrapper__component">
+		<h2>Votre site web avec CMS Headless</h2>
+		<p>Un site avec CMS Headless, c’est une solution ultra-flexible pour les projets ambitieux. Vous avez un site 100% personnalisé, et un espace d’administration conçu sur mesure. Il est particulièrement adapté si vous prévoyez de décliner votre contenu sur plusieurs supports (site, application mobile, borne interactive...). Le contenu est centralisé, réutilisable, et la maintenance est simplifiée.</p>
+		{#each headless as item}
+			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
+		{/each}
+	</div>
 
-			<p>
-				Un CMS Headless c'est un CMS sur mesure. Cela sous entend un site internet entièrement développé et personnalisé, jusquà son CMS. Celui-ci devient paramétrable et nous permet de gérer ce que l'on veut, comme on le veut. Un CMS Hedalless est particulièrement justifié quand un client souhaite un site et plus tard une application mobile, par exemple. Un CMS Headless nous permet d'utiliser le même contenu sur le site et l'application sans devoir le dupliquer. Le contenu est facile à gérer et
-				peut être adapté à chaque support. La maintenance est facile et souple et permet de gagner un temps considérable !
-			</p>
-			{#each headless as item}
-				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
-			{/each}
-		</div>
-
-		<div class="wrapper__faqLink">
-			<FaqLink />
-		</div>
-
+	<div class="wrapper__faqLink">
+		<FaqLink />
+	</div>
 </main>
 
 <style>
@@ -165,11 +165,21 @@
 		font-size: 5.5rem;
 		color: var(--whiteGrey);
 		font-weight: 700;
-		text-align: left;
+		text-align: center;
 		letter-spacing: -2px;
 		margin-top: 50px;
 	}
-	.wrapper__offres-tarifs{
+	.wrapper__offres-tarifs {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 0px;
+		z-index: 2;
+		width: 100%;
+		margin: 50px auto;
+	}
+	.wrapper__images{
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -178,7 +188,6 @@
 		z-index: 2;
 		width: 100%;
 		margin: 50px auto;
-
 	}
 	.wrapper__hero {
 		display: flex;
@@ -210,15 +219,16 @@
 		padding: 10px;
 		line-height: 30px;
 		color: var(--whiteGrey);
-		width: 60%;
+		width: 70%;
 		text-align: justify;
 	}
+	
 	.wrapper__component {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		width: 80%;
+		width: 100%;
 		height: auto;
 		padding: 20px;
 		margin-top: 60px;
@@ -235,6 +245,8 @@
 		font-weight: 900;
 		color: var(--whiteGrey);
 		margin-top: 10px;
+		text-align: center;
+		width: 80%;
 	}
 	.wrapper__component p {
 		font-family: var(--Red);
@@ -243,12 +255,13 @@
 		padding: 10px;
 		line-height: 30px;
 		color: var(--whiteGrey);
-		width: 80%;
-		text-align: justify;
+		width: 70%;
+		text-align: left;
 	}
-	.wrapper__faqLink{
+	.wrapper__faqLink {
 		margin-top: 50px;
 	}
+
 
 	@media screen and (max-width: 768px) {
 		.wrapper__hero {
@@ -270,10 +283,7 @@
 			width: 100%;
 		}
 		.wrapper__component p {
-		
-		width: 100%;
-
-	}
-
+			width: 100%;
+		}
 	}
 </style>

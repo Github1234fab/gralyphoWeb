@@ -179,7 +179,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1013px) {
 		.wrapper-links {
 			flex-direction: column;
 			justify-content: center;

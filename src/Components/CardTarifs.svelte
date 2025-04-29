@@ -9,53 +9,41 @@
 	import Accordeon from './Accordeon.svelte';
 </script>
 
-<main>
+
 	<div class="wrapper__offer">
-		
 		<div class="wrapper__offer-infos">
-			<p class="name">{name} <br> {tarif}</p>
+			<p class="name">{name} <br /> {tarif}</p>
 
-			
-<div class="wrapper__offer-infos-product">
-			<h2>{h2}</h2>
-			<h3>{h3}</h3>
-		
+			<div class="wrapper__offer-infos-product">
+				<h2>{h2}</h2>
+				<h3>{h3}</h3>
 
-			<div class="details">
-				{#each h4 as text}
-					<h4>{text}</h4>
-				{/each}
-				
-				<!-- <Button /> -->
-				<Accordeon {li} />
-			</div>
+				<div class="details">
+					{#each h4 as text}
+						<h4>{text}</h4>
+					{/each}
+
+					<!-- <Button /> -->
+					<Accordeon {li} />
+				</div>
 			</div>
 		</div>
 	</div>
-</main>
+
 
 <style>
-	main {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		gap: 40px;
-		padding: 0px;
-		height: auto;
-		font-family: epilogue;
-	}
+
 
 	.wrapper__offer {
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
-		height: auto;
 		margin: 0 auto;
 		padding: 20px;
 		gap: 10px;
 		border-radius: 8px;
-		width: 100%;
+		min-width: 40%;
+		height: 600px;
 	}
 	.wrapper__offer-infos {
 		display: flex;
@@ -70,7 +58,7 @@
 		border: 1px solid var(--blue);
 		/* box-shadow: 0px 0px 10px 5px var(--blue); */
 	}
-	.wrapper__offer-infos-product{
+	.wrapper__offer-infos-product {
 		padding: 20px;
 		display: flex;
 		align-items: flex-start;
@@ -90,7 +78,7 @@
 		padding: 0px;
 		border-radius: 10px;
 		white-space: pre-line;
-		padding:0px;
+		padding: 0px;
 	}
 
 	.wrapper__offer h2 {
@@ -130,7 +118,6 @@
 		flex-direction: column;
 		border-radius: 10px 10px 0px 0px;
 		margin-top: 0px;
-	
 	}
 	.details h4 {
 		font-family: var(--Red);
