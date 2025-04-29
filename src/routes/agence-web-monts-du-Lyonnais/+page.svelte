@@ -10,7 +10,7 @@
 <Header/>
 <div class="container">
     
-	<h1 class="title">Agence Web des monts du Lyonnais</h1>
+	<h1 class="title">Agence Web des Monts du Lyonnais</h1>
     <div class="wrapper__img">
 <img src={picture} alt="panorama des monts du Lyonnais" class="img">
 </div>
