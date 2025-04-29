@@ -67,14 +67,13 @@
 <style>
 	.card-services {
 		opacity: 1;
-		flex: 1 1 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: transparent;
 		padding: 20px;
-		min-height: auto;
-		max-width: 45%;
+		min-height:350px;
+		max-width: 35%;
 		min-width: 35%;
 		border-radius: 8px;
 		border: 1px solid grey;
@@ -103,7 +102,7 @@
 		color: var(--whiteGrey);
 		text-align: center;
 		line-height: 30px;
-		min-height: 150px;
+		
 	}
 	.icon {
 		rotate: 0;
@@ -120,7 +119,7 @@
 		z-index: 44;
 		padding: 13px 20px;
 		border-radius: 10px;
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 	.lien:hover {
 		animation: bounce 0.4s ease-in-out;

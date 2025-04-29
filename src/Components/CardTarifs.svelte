@@ -9,31 +9,34 @@
 	import Accordeon from './Accordeon.svelte';
 </script>
 
+<div class="wrapper__offer">
+	<div class="wrapper__offer-infos">
+		<p class="name">{name} <br /> {tarif}</p>
 
-	<div class="wrapper__offer">
-		<div class="wrapper__offer-infos">
-			<p class="name">{name} <br /> {tarif}</p>
+		<div class="wrapper__offer-infos-product">
+			<h2>{h2}</h2>
+			<h3>{h3}</h3>
 
-			<div class="wrapper__offer-infos-product">
-				<h2>{h2}</h2>
-				<h3>{h3}</h3>
-
-				<div class="details">
-					{#each h4 as text}
-						<h4>{text}</h4>
-					{/each}
-
-					<!-- <Button /> -->
+			<div class="details">
+				{#each h4 as text}
+					<h4>{text}</h4>
+				{/each}
+				<div class="wrapper__accordeon">
 					<Accordeon {li} />
 				</div>
 			</div>
 		</div>
 	</div>
-
+</div>
 
 <style>
-
-
+	.wrapper__accordeon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin-top: 40px;
+	}
 	.wrapper__offer {
 		display: flex;
 		align-items: flex-start;
@@ -42,8 +45,9 @@
 		padding: 20px;
 		gap: 10px;
 		border-radius: 8px;
-		min-width: 40%;
-		height: 600px;
+		width: 100%;
+		/* min-height: 850px; */
+		flex: 1 1 0;
 	}
 	.wrapper__offer-infos {
 		display: flex;
@@ -53,10 +57,8 @@
 		width: 100%;
 		gap: 30px;
 		height: auto;
-
 		border-radius: 10px;
-		border: 1px solid var(--blue);
-		/* box-shadow: 0px 0px 10px 5px var(--blue); */
+		border: 1px solid var(--cta);
 	}
 	.wrapper__offer-infos-product {
 		padding: 20px;
@@ -70,11 +72,11 @@
 	}
 
 	.wrapper__offer h3 {
+		font-family: 'DM sans', sans-serif;
 		font-size: 1rem;
 		letter-spacing: 0px;
 		font-weight: 200;
 		color: var(--whiteGrey);
-		/* border: 1px solid grey; */
 		padding: 0px;
 		border-radius: 10px;
 		white-space: pre-line;
@@ -83,7 +85,7 @@
 
 	.wrapper__offer h2 {
 		font-family: var(--Red);
-		font-size: 3rem;
+		font-size: 2rem;
 		letter-spacing: -1px;
 		font-weight: 900;
 		color: var(--whiteGrey);
@@ -93,9 +95,9 @@
 
 	.name {
 		font-family: var(--Red);
-		font-size: 1rem;
+		font-size: 1.5rem;
 		font-weight: 600;
-		background-color: var(--blue);
+		background-color: var(--cta);
 		color: var(--whiteGrey);
 		padding: 20px;
 		margin-top: 30px;
@@ -107,11 +109,10 @@
 	}
 
 	.details {
-		gap: 10px;
+		gap: 0px;
 		width: 100%;
 		flex-wrap: wrap;
 		height: auto;
-		padding: 0px;
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
@@ -123,18 +124,10 @@
 		font-family: var(--Red);
 		font-size: 1rem;
 		font-weight: 700;
-		/* background-color: var(--blue); */
 		color: white;
-		padding: 12px 25px;
 		border-radius: 8px;
 		min-width: 40%;
 	}
-	/* .tarif {
-		margin-bottom: 30px;
-		background-color: var(--whiteGrey) !important;
-		color: rgb(11, 11, 11) !important;
-		font-weight: bold !important;
-	} */
 
 	@keyframes bounce {
 		0% {
@@ -154,9 +147,9 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 887px) {
 		.wrapper__offer {
-			padding: 0px;
+			width: 100%;
 		}
 		.details {
 			gap: 7px;
@@ -175,7 +168,6 @@
 			font-size: 1rem;
 			font-weight: 600;
 			color: var(--whiteGrey);
-			padding: 12px;
 			border-radius: 8px;
 			min-width: 70%;
 		}
@@ -190,7 +182,6 @@
 			padding: 20px;
 			border-radius: 10px;
 			border: 1px solid var(--blue);
-			/* box-shadow: 0px 0px 10px 5px var(--blue); */
 		}
 
 		.wrapper__offer ul h3 {
@@ -204,11 +195,11 @@
 		}
 
 		.name {
-			font-size: 2rem;
+			font-size: 1.2rem;
 			padding: 20px;
 		}
 		.wrapper__offer h2 {
-			font-size: 2rem;
+			font-size: 1.5rem;
 			line-height: 33px;
 		}
 		.wrapper__offer h3 {

@@ -62,20 +62,12 @@
 		text-align: left;
 		letter-spacing: -1px;
 		font-family: epilogue;
-		margin-bottom: 10px;
+		
         border: 2px solid rgb(100, 100, 100);
         background-color: transparent;
 		box-shadow: 0px 0px 40px 5px rgb(0, 0, 0);
 	}
-	/* .button-after {
-		position: absolute;
-		content: '{buttonText}';
-		color: var(--secondary);
-		font-size: 1em;
-		font-weight: bolder;
-		right: -50px;
-		
-	} */
+	
     li{
         font-size: 0.8rem;
         color: white;
@@ -129,11 +121,13 @@
 	}
 
 	li {
-        font-size: 0.8rem;
+		font-family: 'DM Sans', sans-serif;
+        font-size: 1rem;
 		font-weight: 300;
 		padding: 10px;
 		line-height: 20px;
 		list-style-type: circle;
+		text-align: left;
         
 	}
 

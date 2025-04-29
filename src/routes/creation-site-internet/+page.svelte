@@ -32,9 +32,9 @@
 
 	let pro = [
 		{
-			name: 'Pro',
+			name: 'Site Pro',
 			h2: 'Contenu dynamique',
-			h3: 'Idéal pour : Institution, Entreprise, E-commerce, Blog, Média',
+			h3: 'Idéal pour : Institution, Entreprise, commerce, Média',
 			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages'],
 			li: [
 				' Un site web professionnel basé sur un template optimisé',
@@ -53,9 +53,9 @@
 
 	let custom = [
 		{
-			name: 'Custom',
+			name: 'Site Custom',
 			h2: 'Sur mesure, identité forte \n créativité totale',
-			h3: 'Idéal pour : Indépendant, créateur, artiste, \n café, évenementiel marque, identité forte',
+			h3: 'Idéal pour : Indépendant, créateur, artiste, café, évenementiel marque',
 			h4: ['Délai : 7-15 jours max', ' 5-10 pages'],
 			li: [' Un site web sur mesure', ' Haute personnalisation du design, 100% créatif. UX/UI sur mesure (logo, couleurs, images, textes ...)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site unique, une identité forte.'],
 			tarif: 'Tarif : 5999 €'
@@ -96,14 +96,14 @@
 		<h1 class="title">Création de site internet</h1>
 		<h2>Site web clé en main ou sur mesure</h2>
 		<p>
-			Un site internet, c’est bien plus qu’une vitrine : c’est votre image, votre outil, parfois même votre principal canal de communication. Que vous ayez besoin d’un site simple et rapide, d’un site évolutif avec gestion de contenu ou d’un développement entièrement sur mesure, nous avons la solution adaptée à votre activité. <br /><br /> Nous proposons deux grandes familles de sites :
-			<br />
-
+			Un site internet, c’est bien plus qu’une vitrine : c’est votre image, votre outil, parfois même votre principal canal de communication. Que vous ayez besoin d’un site web simple et rapide, d’un site évolutif avec gestion de contenu ou d’un site internet développé entièrement sur mesure, nous avons la solution adaptée à votre activité. <br /><br /> Nous proposons deux grandes familles de sites :
+		<br>
 			<strong>Sans CMS</strong> : vous n’avez pas besoin de modifier régulièrement le contenu ? Cette solution rapide et abordable est parfaite pour vous.
-			<br />
+		<br>
+		
 			<strong>Avec CMS</strong> : vous souhaitez mettre à jour textes, images ou tarifs vous-même ? Optez pour un site avec interface d’administration.
-			<br />
-
+			
+		<br>
 			<strong>Avec CMS Headless</strong> pour les projets plus ambitieux, nous proposons aussi une solution digitale ultra-flexible pensée pour faire évoluer votre site (et votre contenu) facilement, même vers une app mobile.
 		</p>
 	</div>
@@ -139,9 +139,11 @@
 	<div class="wrapper__component">
 		<h2>Votre site web avec CMS Headless</h2>
 		<p>Un site avec CMS Headless, c’est une solution ultra-flexible pour les projets ambitieux. Vous avez un site 100% personnalisé, et un espace d’administration conçu sur mesure. Il est particulièrement adapté si vous prévoyez de décliner votre contenu sur plusieurs supports (site, application mobile, borne interactive...). Le contenu est centralisé, réutilisable, et la maintenance est simplifiée.</p>
-		{#each headless as item}
-			<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
-		{/each}
+		<div class="wrapper__offres-tarifs">
+			{#each headless as item}
+				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
+			{/each}
+		</div>
 	</div>
 
 	<div class="wrapper__faqLink">
@@ -166,27 +168,31 @@
 		color: var(--whiteGrey);
 		font-weight: 700;
 		text-align: center;
-		letter-spacing: -2px;
+		letter-spacing: -3px;
 		margin-top: 50px;
 	}
+	
+
 	.wrapper__offres-tarifs {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		gap: 0px;
+		gap: 20px;
 		z-index: 2;
-		width: 100%;
-		margin: 50px auto;
+		width: 70%;
+		height: auto;
+		margin-top: 50px;
 	}
-	.wrapper__images{
+	.wrapper__images {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
 		gap: 30px;
 		z-index: 2;
-		width: 100%;
+		width: 70%;
+		height: 100%;
 		margin: 50px auto;
 	}
 	.wrapper__hero {
@@ -197,32 +203,32 @@
 		width: 100%;
 		height: auto;
 		padding: 10px;
-		margin-top: 50px;
-		gap: 40px;
+		margin-top: 0px;
+		gap: 10px;
 		border-radius: 8px;
 		color: var(--primary);
-		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
 	}
+
 	.wrapper__hero h2 {
 		font-family: var(--Red);
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 		letter-spacing: 0px;
 		font-weight: 900;
 		color: var(--whiteGrey);
 		margin-top: 10px;
+		margin-bottom: 30px;
 	}
 
 	.wrapper__hero p {
 		font-family: var(--Red);
 		font-size: 1rem;
 		font-weight: 400;
-		padding: 10px;
 		line-height: 30px;
 		color: var(--whiteGrey);
 		width: 70%;
 		text-align: justify;
 	}
-	
+
 	.wrapper__component {
 		display: flex;
 		align-items: center;
@@ -231,12 +237,9 @@
 		width: 100%;
 		height: auto;
 		padding: 20px;
-		margin-top: 60px;
-		gap: 40px;
+		margin-top: 50px;
 		border-radius: 8px;
 		color: var(--primary);
-		box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.528);
-		/* background-color: rgba(128, 128, 128, 0.213); */
 	}
 	.wrapper__component h2 {
 		font-family: var(--Red);
@@ -246,7 +249,7 @@
 		color: var(--whiteGrey);
 		margin-top: 10px;
 		text-align: center;
-		width: 80%;
+		width: 70%;
 	}
 	.wrapper__component p {
 		font-family: var(--Red);
@@ -262,28 +265,84 @@
 		margin-top: 50px;
 	}
 
-
-	@media screen and (max-width: 768px) {
-		.wrapper__hero {
-			margin-top: 200px;
+	@media screen and (max-width: 867px) {
+		main {
+			padding: 10px;
 		}
+		.wrapper__hero {
+			margin-top: 0px;
+		}
+		.wrapper__hero p {
+			text-align: left;
+			width: 100%;
+		}
+
+		.wrapper__hero h2 {
+			text-align: left;
+			padding: 5px;
+			width: 100%;
+		}
+
 		.title {
 			font-size: 3rem;
 		}
 		.wrapper__component {
 			width: 100%;
+			padding: 0px;
+		}
+		.wrapper__component p {
+			text-align: left;
+			width: 100%;
+		}
+		.wrapper__component h2 {
+			font-size: 2rem;
+			text-align: left;
 			padding: 5px;
+			width: 100%;
+		}
+		.wrapper__offres-tarifs {
+			width: 100%;
+			padding: 0px;
 		}
 	}
-	@media screen and (max-width: 375px) {
+	@media screen and (max-width: 594px) {
+		main {
+			padding: 10px;
+		}
 		.wrapper__hero {
-			margin-top: 120px;
+			margin-top: 0px;
 		}
 		.wrapper__hero p {
+			text-align: left;
+			width: 100%;
+		}
+
+		.wrapper__hero h2 {
+			text-align: left;
+			padding: 5px;
+			width: 100%;
+		}
+
+		.title {
+			font-size: 3rem;
+		}
+		.wrapper__component {
+			width: 100%;
+			padding: 0px;
+		}
+		.wrapper__component h2 {
+			font-size: 2rem;
+			text-align: left;
+			padding: 5px;
 			width: 100%;
 		}
 		.wrapper__component p {
+			text-align: left;
 			width: 100%;
+		}
+		.wrapper__offres-tarifs {
+			width: 100%;
+			padding: 0px;
 		}
 	}
 </style>

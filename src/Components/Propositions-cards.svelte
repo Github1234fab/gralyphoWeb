@@ -42,7 +42,7 @@
 	}
 	.card:hover{
 		background-color: rgb(5, 1, 27);
-		border: 1px solid var(--whiteGrey);
+		border: 2px solid var(--whiteGrey);
 	}
 
 	.layer {
