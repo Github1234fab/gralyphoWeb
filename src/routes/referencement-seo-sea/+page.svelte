@@ -103,7 +103,7 @@
 			<li>Stratégies de netlinking éthique</li>
 		</ul>
 
-		<h2>Pourquoi choisir Gralypho comme votre agence SEO à Lyon ?</h2>
+		<h2>Pourquoi choisir Gralypho comme votre agence SEO à Lyon Ouest ?</h2>
 		<ul>
 			<li>Approche personnalisée pour chaque projet</li>
 			<li>Suivi mensuel détaillé et rapport de positionnement</li>

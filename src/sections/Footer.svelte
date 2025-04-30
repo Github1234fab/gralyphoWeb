@@ -118,7 +118,7 @@
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 50px;
-		background-color: var(--blue);
+		background-color: rgb(116, 1, 1);
 		border-radius: 40px 30px 4px 30px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;

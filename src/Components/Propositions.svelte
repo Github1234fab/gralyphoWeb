@@ -4,19 +4,19 @@
 	import PropositionsCards from './Propositions-cards.svelte';
 	const tab = [
 		{
-			type: 'Site Custom  \n et Landing page',
+			type: 'Site Custom \n Site sur-mesure \n 100% créatif',
 			subtitle: 'Site internet Statique',
 			description: ['Sans BDD', 'Sans gestion de contenu', 'Contrat de maintenance pour modification' ],
 			lien: '/creation-site-internet/#sans-cms',
-			layerTxt: 'Site web sans CMS',
+			layerTxt: 'Site web sans Gestion de contenu',
 			price: 'Livré \n en 3 jours'
 		},
 		{
-			type: 'Site Vitrine \n et site E-Commerce',
+			type: 'Landing Page \n Site Vitrine \n Site E-Commerce',
 			subtitle: 'site internet Dynamique',
 			description: ['BDD', 'Avec gestion de contenu', 'Contrat de maintenance ou autonomie', ],
 			lien: '/creation-site-internet/#cms',
-			layerTxt: 'Site web avec CMS',
+			layerTxt: 'Site web avec gestion de contenu',
 			price: ' Livré en \n 15 jours'
 		},
 		{
@@ -28,7 +28,7 @@
 			price: ' Livré \n en 1 mois'
 		},
 		{
-			type: 'Référencement internet - SEO',
+			type: 'Visibilité sur Google - SEO',
 			subtitle: '+ de trafic, + de visibilité, + plus de vente',
 			description: ['Stratégie SEO', "Audit technique", "Optimisation à 100%" ],
 			lien: '/referencement-seo-sea',
@@ -59,7 +59,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		gap: 30px;
+		gap: 20px;
 		z-index: 2;
 		width: 100%;
 		margin: 50px auto;

@@ -5,6 +5,32 @@
 	export let layerTxt;
 	// export let price;
 	export let subtitle;
+
+	import { onMount } from 'svelte';
+
+
+
+	onMount(() => {
+		gsap.utils.toArray('.card').forEach((card) => {
+			ScrollTrigger.create({
+				trigger: card,
+				start: 'top 80%',
+				onEnter: () => {
+					gsap.fromTo(
+						card,
+						{ x: -3 },
+						{
+							x: 3,
+							duration: 0.1,
+							repeat: 25,
+							yoyo: true,
+							ease: 'power1.inOut'
+						}
+					);
+				}
+			});
+		});
+	});
 </script>
 
 <div class="card">
@@ -30,18 +56,17 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: calc(50% - 20px);
-		min-height: 100%;
+		flex: 1 1 calc(10%);
+		height: 650px;
 		font-family: epilogue;
-		flex-grow: 1;
 		border-radius: 10px;
 		z-index: 0;
 		position: relative;
 		overflow: hidden;
 		border: 1px solid rgb(83, 83, 83);
 	}
-	.card:hover{
-		background-color: rgb(5, 1, 27);
+	.card:hover {
+		/* background-color: rgb(5, 1, 27); */
 		border: 2px solid var(--whiteGrey);
 	}
 
@@ -52,12 +77,13 @@
 		text-transform: lowercase;
 		top: 45px;
 		left: 50%;
+		height: 100px;
 		transform: translate(-50%, -50%);
 		width: 100%;
 		padding: 15px 20px;
 		color: var(--whiteGrey);
 		font-size: 1.5rem;
-		background-color: rgb(82, 7, 7);
+		background-color: rgb(66, 3, 3);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -135,40 +161,16 @@
 		transition: 0.4s ease-in-out;
 	}
 
-	@media screen and (max-width: 964px) {
+	@media screen and (max-width: 1357px) {
 		.card {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			width: calc(40% - 10px);
-			height: 600px;
-			font-family: epilogue;
-			border-radius: 10px;
-			z-index: 0;
-			position: relative;
-			overflow: hidden;
-			border: 1px solid rgb(83, 83, 83);
-		}
-
-		.wrapper-text h2 {
-			font-size: 1.5rem;
+			flex: 1 1 calc(45%); /* 2 cartes par ligne */
+			height: 550px;
 		}
 	}
+
 	@media screen and (max-width: 768px) {
 		.card {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			width: calc(100%);
-			height: 600px;
-			font-family: epilogue;
-			border-radius: 10px;
-			z-index: 0;
-			position: relative;
-			overflow: hidden;
-			border: 1px solid rgb(83, 83, 83);
+			flex: 1 1 100%; /* 1 carte par ligne */
 		}
 
 		.wrapper-text h2 {

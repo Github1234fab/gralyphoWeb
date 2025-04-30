@@ -9,7 +9,7 @@
 	import Accordeon from './Accordeon.svelte';
 </script>
 
-<div class="wrapper__offer">
+
 	<div class="wrapper__offer-infos">
 		<p class="name">{name} <br /> {tarif}</p>
 
@@ -27,36 +27,19 @@
 			</div>
 		</div>
 	</div>
-</div>
+
 
 <style>
-	.wrapper__accordeon {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		margin-top: 40px;
-	}
-	.wrapper__offer {
-		display: flex;
-		align-items: flex-start;
-		justify-content: flex-start;
-		margin: 0 auto;
-		padding: 20px;
-		gap: 10px;
-		border-radius: 8px;
-		width: 100%;
-		/* min-height: 850px; */
-		flex: 1 1 0;
-	}
+	
 	.wrapper__offer-infos {
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
 		flex-direction: column;
-		width: 100%;
-		gap: 30px;
-		height: auto;
+		flex: 1 1 calc(30%);
+		/* height: 650px; */
+		max-height: auto;
+		gap: 50px;
 		border-radius: 10px;
 		border: 1px solid var(--cta);
 	}
@@ -67,11 +50,18 @@
 		justify-content: flex-start;
 		flex-direction: column;
 		width: 100%;
-		gap: 20px;
+		gap: 40px;
 		height: auto;
 	}
+	.wrapper__accordeon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin-top: 40px;
+	}
 
-	.wrapper__offer h3 {
+	.wrapper__offer-infos h3 {
 		font-family: 'DM sans', sans-serif;
 		font-size: 1rem;
 		letter-spacing: 0px;
@@ -83,7 +73,7 @@
 		padding: 0px;
 	}
 
-	.wrapper__offer h2 {
+	.wrapper__offer-infos h2 {
 		font-family: var(--Red);
 		font-size: 2rem;
 		letter-spacing: -1px;
@@ -147,9 +137,19 @@
 		}
 	}
 
+
+	@media screen and (max-width: 1020px) {
+		.wrapper__offer-infos {
+			height: 800px;
+			flex: 1 1 48%;
+		}}
+
 	@media screen and (max-width: 887px) {
-		.wrapper__offer {
-			width: 100%;
+		.wrapper__offer-infos {
+			height: 700px;
+			flex: 1 1 48%;
+			
+		
 		}
 		.details {
 			gap: 7px;
@@ -184,7 +184,7 @@
 			border: 1px solid var(--blue);
 		}
 
-		.wrapper__offer ul h3 {
+		.wrapper__offer-infos ul h3 {
 			display: flex;
 			flex-direction: column;
 			gap: 0px;
@@ -198,11 +198,11 @@
 			font-size: 1.2rem;
 			padding: 20px;
 		}
-		.wrapper__offer h2 {
+		.wrapper__offer-infos h2 {
 			font-size: 1.5rem;
 			line-height: 33px;
 		}
-		.wrapper__offer h3 {
+		.wrapper__offer-infos h3 {
 			font-size: 1rem;
 			line-height: 35px;
 		}

@@ -155,7 +155,7 @@
 		border: 1px solid white;
 		color: var(--primary);
 		font-family: epilogue;
-		font-weight: 900;
+		font-weight: 800;
 		padding: 25px 30px;
 		border-radius: 15px;
 		text-align: center;

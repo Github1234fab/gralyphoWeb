@@ -7,6 +7,9 @@
 	import Bird from '../../Assets/bird3.jpeg';
 	import Woman from '../../Assets/smartphoneTech.jpeg';
 	import Smartphone from '../../Assets/compteur7.jpeg';
+	import Form from '../../Components/Form.svelte';
+	import Button from '../../Components/ButtonCTA.svelte';
+	import Link from '../../Components/LinkSiteApplication.svelte';
 
 	let pwa = [
 		{
@@ -83,8 +86,11 @@
 		</div>
 		<div class="wrapper__faqLink">
 			<FaqLink />
+			<Link />
 		</div>
-	</div>
+	
+			<Form />
+	
 </main>
 
 <style>

@@ -7,12 +7,14 @@
 	import Bird from '../../Assets/bird.jpeg';
 	import Woman from '../../Assets/gralyphoHeroImg.jpeg';
 	import Smartphone from '../../Assets/compteur3.jpeg';
+	import Form from '../../Components/Form.svelte';
+	import Link from '../../Components/LinkSiteApplication.svelte';
 
 	let landing = [
 		{
-			name: 'Landing Page',
-			h2: 'Une seule page, \n essentielle et percutante',
-			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
+			name: 'Landing Page Custom',
+			h2: 'Une page \n Essentielle et percutante \n Efficacité',
+			h3: 'Idéal pour : Indépendant, créateur, café et restaurants, petite boutique',
 			h4: ['Délai : 1 jour', 'gestion de contenu'],
 			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 1 page ', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Une page pour centraliser toutes les infos.'],
 			tarif: 'Tarif : 799 €'
@@ -21,8 +23,8 @@
 
 	let basic = [
 		{
-			name: 'Best Of !',
-			h2: 'Vitrine professionnelle',
+			name: 'Best Of !!',
+			 h2: 'Vitrine professionnelle \n Optimisé SEO \n Léger et rapide',
 			h3: 'Idéal pour : Indépendants, TPE, PME, Artisans, Associations',
 			h4: ['Délai : 3 jours max', ' Vitrine Pro', '5 pages'],
 			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 3 à 5 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site rapide, efficace et très abordable.'],
@@ -32,8 +34,8 @@
 
 	let pro = [
 		{
-			name: 'Site Pro',
-			h2: 'Contenu dynamique',
+			name: 'Site e-Commerce & Médias',
+			h2: 'Plateforme e-commerce \n Optimisé SEO \n Gestion de contenu facile',
 			h3: 'Idéal pour : Institution, Entreprise, commerce, Média',
 			h4: ['Délai : 7 jours max', ' Gesion de contenu', ' 5-10 pages'],
 			li: [
@@ -54,7 +56,7 @@
 	let custom = [
 		{
 			name: 'Site Custom',
-			h2: 'Sur mesure, identité forte \n créativité totale',
+		 	h2: 'Site sur mesure \n Design unique et original \n 100% créatif',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, café, évenementiel marque',
 			h4: ['Délai : 7-15 jours max', ' 5-10 pages'],
 			li: [' Un site web sur mesure', ' Haute personnalisation du design, 100% créatif. UX/UI sur mesure (logo, couleurs, images, textes ...)', ' 5 à 10 pages : Accueil, Services, À propos, Contact, Blog en option', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Un site unique, une identité forte.'],
@@ -65,7 +67,7 @@
 	let headless = [
 		{
 			name: 'Graal',
-			h2: 'CMS Headless, pour une autonomie \n totale et sur mesure',
+			h2: 'CMS Headless \n 100% Autonomie  \n 100% Architecture sur mesure',
 			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
 			h4: ['Délai : 15 jours', ' Gesion de contenu', ' 5-10 pages', ' Tarif: 5999 €'],
 			li: [
@@ -97,13 +99,13 @@
 		<h2>Site web clé en main ou sur mesure</h2>
 		<p>
 			Un site internet, c’est bien plus qu’une vitrine : c’est votre image, votre outil, parfois même votre principal canal de communication. Que vous ayez besoin d’un site web simple et rapide, d’un site évolutif avec gestion de contenu ou d’un site internet développé entièrement sur mesure, nous avons la solution adaptée à votre activité. <br /><br /> Nous proposons deux grandes familles de sites :
-		<br>
+			<br />
 			<strong>Sans CMS</strong> : vous n’avez pas besoin de modifier régulièrement le contenu ? Cette solution rapide et abordable est parfaite pour vous.
-		<br>
-		
+			<br />
+
 			<strong>Avec CMS</strong> : vous souhaitez mettre à jour textes, images ou tarifs vous-même ? Optez pour un site avec interface d’administration.
-			
-		<br>
+
+			<br />
 			<strong>Avec CMS Headless</strong> pour les projets plus ambitieux, nous proposons aussi une solution digitale ultra-flexible pensée pour faire évoluer votre site (et votre contenu) facilement, même vers une app mobile.
 		</p>
 	</div>
@@ -148,7 +150,9 @@
 
 	<div class="wrapper__faqLink">
 		<FaqLink />
+		<Link />
 	</div>
+	<Form />
 </main>
 
 <style>
@@ -171,7 +175,6 @@
 		letter-spacing: -3px;
 		margin-top: 50px;
 	}
-	
 
 	.wrapper__offres-tarifs {
 		display: flex;
@@ -305,44 +308,5 @@
 			padding: 0px;
 		}
 	}
-	@media screen and (max-width: 594px) {
-		main {
-			padding: 10px;
-		}
-		.wrapper__hero {
-			margin-top: 0px;
-		}
-		.wrapper__hero p {
-			text-align: left;
-			width: 100%;
-		}
 
-		.wrapper__hero h2 {
-			text-align: left;
-			padding: 5px;
-			width: 100%;
-		}
-
-		.title {
-			font-size: 3rem;
-		}
-		.wrapper__component {
-			width: 100%;
-			padding: 0px;
-		}
-		.wrapper__component h2 {
-			font-size: 2rem;
-			text-align: left;
-			padding: 5px;
-			width: 100%;
-		}
-		.wrapper__component p {
-			text-align: left;
-			width: 100%;
-		}
-		.wrapper__offres-tarifs {
-			width: 100%;
-			padding: 0px;
-		}
-	}
 </style>
