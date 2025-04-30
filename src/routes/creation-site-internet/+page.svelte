@@ -138,7 +138,7 @@
 		</div>
 	</div>
 
-	<div class="wrapper__component">
+	<div class="wrapper__component-headless">
 		<h2>Votre site web avec CMS Headless</h2>
 		<p>Un site avec CMS Headless, c’est une solution ultra-flexible pour les projets ambitieux. Vous avez un site 100% personnalisé, et un espace d’administration conçu sur mesure. Il est particulièrement adapté si vous prévoyez de décliner votre contenu sur plusieurs supports (site, application mobile, borne interactive...). Le contenu est centralisé, réutilisable, et la maintenance est simplifiée.</p>
 		<div class="wrapper__offres-tarifs">
@@ -244,6 +244,38 @@
 		border-radius: 8px;
 		color: var(--primary);
 	}
+	.wrapper__component-headless {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 70%;
+		height: auto;
+		padding: 20px;
+		margin-top: 50px;
+		border-radius: 8px;
+		color: var(--primary);
+	}
+	.wrapper__component-headless h2 {
+		font-family: var(--Red);
+		font-size: 3rem;
+		letter-spacing: -1px;
+		font-weight: 900;
+		color: var(--whiteGrey);
+		margin-top: 10px;
+		text-align: center;
+		width: 70%;
+	}
+	.wrapper__component-headless p {
+		font-family: var(--Red);
+		font-size: 1rem;
+		font-weight: 400;
+		padding: 10px;
+		line-height: 30px;
+		color: var(--whiteGrey);
+		width: 70%;
+		text-align: left;
+	}
 	.wrapper__component h2 {
 		font-family: var(--Red);
 		font-size: 3rem;
@@ -307,6 +339,26 @@
 			width: 100%;
 			padding: 0px;
 		}
+		.wrapper__component-headless {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		padding: 2px;
+		margin-top: 50px;
+		border-radius: 8px;
+		color: var(--primary);
+	}
+	.wrapper__component-headless h2 {
+		width: 100%;
+		text-align: left;
+	}
+	.wrapper__component-headless p {
+		width: 100%;
+		text-align: left;
+	}
 	}
 
 </style>
