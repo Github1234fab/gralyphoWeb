@@ -33,6 +33,7 @@
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Links from '../../Components/LinkSiteApplication.svelte';
+	import SEO from '../../Assets/agence SEO ouest lyonnais.jpeg';
 
 	// let accordeonTab = [
 	// 	{
@@ -57,18 +58,19 @@
 
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
-		<img src={seo} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
+		<img src={SEO} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
 
 		<h1> Boostez votre visibilité en ligne avec Gralypho <br>Agence SEO à l'ouest de Lyon :</h1>
 
 		<h2>Pourquoi investir dans le SEO pour votre site web ?</h2>
-		<p>Le SEO (Search Engine Optimization), ou référencement naturel, permet d'améliorer la visibilité d'un site internet sur Google et les autres moteurs de recherche. Un SEO efficace attire un trafic organique, qualifié et durable, sans dépendance aux campagnes publicitaires payantes.</p>
+		<p>Le SEO (Search Engine Optimization), ou référencement naturel, regroupe un ensemble de techniques permettant d'améliorer de manière notoire la visibilité d'un site internet sur les moteurs de recherche et son position dans la SERP (positionnement dans les résultats de recherche). 
+			<br>Un SEO conçu efficacement créer un trafic organique vers votre site et le fait remonter dans le classement de la SERP. Le but est d'optimiser différents paramètres afin d'augmenter les clics et d'obtenir des conversions</p>
 
 		<ul>
-			<li>Augmentez votre visibilité locale et nationale</li>
+			<li>Augmentez votre visibilité et obtenez plus de trafic</li>
 			<li>Générez plus de leads qualifiés</li>
-			<li>Améliorez votre image de marque et votre crédibilité</li>
-			<li>Obtenez un retour sur investissement sur le long terme</li>
+			<li>Obtenez un plus grand taux de conversion</li>
+			<li>Stabilisez votre visibilité</li>
 		</ul>
 
 		<h2>Notre méthode SEO chez Gralypho</h2>
@@ -182,16 +184,22 @@
 		letter-spacing: -2px;
 		padding: 10px;
 		line-height: 50px;
-		margin-top: 70px;
+		margin-top: 40px;
+	}
+	ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
 	}
 	li{
 		font-family: var(--Poppins);
-		font-size: var(--m);
+		font-size: 0.8rem;
 		color: var(--primary);
-		font-weight: 200;
+		font-weight: 300;
+		width: 70%;
 		text-align: center;
-		align-self: center;
-		width: 100%;
 	}
 	.hero h2 {
 		font-family: poppins;
@@ -221,8 +229,7 @@
 		text-align: center;
 		align-self: center;
 		padding: 20px;
-		
-		width: 80%;
+		width: 50%;
 	}
 	
 
@@ -230,6 +237,7 @@
 		max-width: 30%;
 		min-width: 30%;
 		margin-top: 30px;
+		border-radius: 20px;
 	}
 
 	.wrapper-form {
@@ -300,13 +308,19 @@ a {
 	}
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
-			line-height: 50px;
-			font-size: 2.5em;
+			line-height: 40px;
+			font-size: 2em;
 		}
 		.imgHero {
-			max-width: 60%;
-			min-width: 60%;
+			max-width: 90%;
+			min-width: 90%;
 			margin-top: 30px;
 		}
+		.hero p {
+		
+		width: 90%;
+	}
+		
+		
 	}
 </style>
