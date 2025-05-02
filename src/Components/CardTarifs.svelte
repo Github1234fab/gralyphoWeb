@@ -9,39 +9,56 @@
 	import Accordeon from './Accordeon.svelte';
 </script>
 
+<div class="wrapper__offer-infos laye glow">
+	<p class="name">{name} <br /> {tarif}</p>
 
-	<div class="wrapper__offer-infos">
-		<p class="name">{name} <br /> {tarif}</p>
+	<div class="wrapper__offer-infos-product">
+		<h2>{h2}</h2>
+		<h3>{h3}</h3>
 
-		<div class="wrapper__offer-infos-product">
-			<h2>{h2}</h2>
-			<h3>{h3}</h3>
-
-			<div class="details">
-				{#each h4 as text}
-					<h4>{text}</h4>
-				{/each}
-				<div class="wrapper__accordeon">
-					<Accordeon {li} />
-				</div>
+		<div class="details">
+			{#each h4 as text}
+				<h4>{text}</h4>
+			{/each}
+			<div class="wrapper__accordeon">
+				<Accordeon {li} />
 			</div>
 		</div>
 	</div>
-
+</div>
 
 <style>
-	
 	.wrapper__offer-infos {
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
 		flex-direction: column;
 		flex: 1 1 calc(30%);
-		/* height: 650px; */
 		max-height: auto;
 		gap: 50px;
 		border-radius: 10px;
 		border: 1px solid var(--cta);
+		position: relative;
+		overflow: hidden;
+	}
+	.wrapper__offer-infos::after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		inset: 0.0600rem;
+		background-color: var(--primary);
+		border-radius: 10px;
+		z-index: 1;
+	}
+	.wrapper__offer-infos::before {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%; /* w-56 */
+		height: 100%; /* h-48 */
+		background-color: rgb(152, 156, 235);
+		z-index: 1;
 	}
 	.wrapper__offer-infos-product {
 		padding: 20px;
@@ -52,6 +69,7 @@
 		width: 100%;
 		gap: 40px;
 		height: auto;
+		z-index: 2;
 	}
 	.wrapper__accordeon {
 		display: flex;
@@ -77,7 +95,7 @@
 		font-family: var(--Red);
 		font-size: 2rem;
 		letter-spacing: -1px;
-		font-weight: 900;
+		font-weight: 600;
 		color: var(--whiteGrey);
 		margin-top: 0px;
 		white-space: pre-line;
@@ -85,17 +103,20 @@
 
 	.name {
 		font-family: var(--Red);
-		font-size: 1.5rem;
-		font-weight: 600;
-		background-color: var(--cta);
-		color: var(--whiteGrey);
-		padding: 20px;
-		margin-top: 30px;
+		font-size: 2rem;
+		font-weight: 900;
+		background-color: var(--blue);
+		border: 1px solid grey;
+		color: rgb(255, 255, 255);
+		padding: 10px;
+		margin: 30px auto;
 		width: 100%;
+
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		text-align: center;
+		z-index: 2;
 	}
 
 	.details {
@@ -137,19 +158,17 @@
 		}
 	}
 
-
 	@media screen and (max-width: 1020px) {
 		.wrapper__offer-infos {
 			height: 800px;
 			flex: 1 1 48%;
-		}}
+		}
+	}
 
 	@media screen and (max-width: 887px) {
 		.wrapper__offer-infos {
 			height: 700px;
 			flex: 1 1 48%;
-			
-		
 		}
 		.details {
 			gap: 7px;

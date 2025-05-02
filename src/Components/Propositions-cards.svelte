@@ -8,8 +8,6 @@
 
 	import { onMount } from 'svelte';
 
-
-
 	onMount(() => {
 		gsap.utils.toArray('.card').forEach((card) => {
 			ScrollTrigger.create({
@@ -65,8 +63,9 @@
 		overflow: hidden;
 		border: 1px solid rgb(83, 83, 83);
 	}
+
+
 	.card:hover {
-		/* background-color: rgb(5, 1, 27); */
 		border: 2px solid var(--whiteGrey);
 	}
 
