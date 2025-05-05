@@ -57,6 +57,7 @@
 		<div class="gralypho">
 			<Gralypho />
 			<h1>© {Year} GRALYPHO. <br /> Tous droits réservés.</h1>
+			<a href="https://www.jesuisnumerique.fr" class="additionnal-link">Annuaire jesuisnumérique</a>
 		</div>
 		
 	</div>
@@ -92,6 +93,8 @@
 		justify-content: center;
 		margin: 0 auto;
 		margin-top: 30px;
+		height: auto;
+		padding: 10px;
 	}
 
 	.wrapper-contactez {
@@ -194,6 +197,13 @@
 		color: var(--primary);
 		font-size: 0.5rem;
 		font-weight: 200;
+	}
+	.additionnal-link {
+		text-decoration: none;
+		color: rgb(128, 128, 169);
+		font-size: 0.6rem;
+		font-weight: 200;
+		margin-top: -20px;
 	}
 
 	@media screen and (max-width: 768px) {
