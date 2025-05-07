@@ -67,15 +67,18 @@ const config = {
   extensions: ['.svelte', '.svx'],
   preprocess: mdsvex(),
 
-  adapter: adapter({
-	// Utilisation de SSR sur Netlify
-	prerender: {
-	  // Configure la pré-rendu
-	  default: true
-	}
-  }),
-  ssr: true,  // Activation de SSR
-}
-;
+  kit: {
+    adapter: adapter({
+      // Utilisation de SSR sur Netlify
+      prerender: {
+        // Configure la pré-rendu
+        default: true
+      }
+    }),
+    ssr: true, // Activation de SSR
+    // Ajouter cette option pour permettre de pré-générer les pages dynamiques
+    target: '#svelte', // Nécessaire pour certains cas SSR
+  }
+};
 
 export default config;
