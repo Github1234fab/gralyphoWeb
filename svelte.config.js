@@ -19,22 +19,41 @@
 // export default config;
 
 
-import { mdsvex } from 'mdsvex';
+// import { mdsvex } from 'mdsvex';
+// import adapter from '@sveltejs/adapter-netlify';
+
+// /** @type {import('@sveltejs/kit').Config} */
+// const config = {
+// 	extensions: ['.svelte', '.svx'], // <-- doit être à la racine, pas dans `kit`
+// 	preprocess: mdsvex(),
+
+// 	kit: {
+// 		adapter: adapter({
+// 			fallback: 'index.html'
+// 		}),
+// 		prerender: {
+// 			entries: ['*']
+// 		}
+// 	}
+// };
+
+// export default config;
+
 import adapter from '@sveltejs/adapter-netlify';
+import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.svx'], // <-- doit être à la racine, pas dans `kit`
-	preprocess: mdsvex(),
-
-	kit: {
-		adapter: adapter({
-			fallback: 'index.html'
-		}),
-		prerender: {
-			entries: ['*']
-		}
-	}
+  kit: {
+    adapter: adapter({
+      fallback: 'index.html', // Prévient les erreurs de routes 404
+    }),
+    prerender: {
+      entries: ['*'], // Permet de pré-rendre toutes les pages
+    },
+    extensions: ['.svelte', '.svx'], // Ajout de l'extension .svx pour Markdown
+    preprocess: mdsvex(),
+  },
 };
 
 export default config;
