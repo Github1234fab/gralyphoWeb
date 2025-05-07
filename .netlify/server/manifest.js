@@ -10,7 +10,7 @@ return {
 	assets: new Set(["_redirects","creativity.png","creativity7.ico","favicon.png","favicon3.png","favivon2.png","fusee.avif","fusee.jpg","fuseeguyane.jpg","fuséeguyane.jpg","logoGralypho.jpeg","logoGralypho2.jpeg","robots.txt","rocketShip.png","sitemap.xml"]),
 	mimeTypes: {".png":"image/png",".avif":"image/avif",".jpg":"image/jpeg",".jpeg":"image/jpeg",".txt":"text/plain",".xml":"text/xml"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.HHDf67PC.js","app":"_app/immutable/entry/app.M8r5qeYU.js","imports":["_app/immutable/entry/start.HHDf67PC.js","_app/immutable/chunks/entry.yAGZ-NRD.js","_app/immutable/chunks/scheduler.jbkPNKfn.js","_app/immutable/chunks/index.D8242Frp.js","_app/immutable/entry/app.M8r5qeYU.js","_app/immutable/chunks/scheduler.jbkPNKfn.js","_app/immutable/chunks/index.B5xtAp7f.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		client: {start:"_app/immutable/entry/start.ChLBgBV6.js",app:"_app/immutable/entry/app.TgpidJmB.js",imports:["_app/immutable/entry/start.ChLBgBV6.js","_app/immutable/chunks/Dp0ZpxP2.js","_app/immutable/chunks/BDUh-PIb.js","_app/immutable/chunks/D_Zoznmf.js","_app/immutable/entry/app.TgpidJmB.js","_app/immutable/chunks/BDUh-PIb.js","_app/immutable/chunks/Bw_gDFUc.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
@@ -153,6 +153,7 @@ return {
 				endpoint: null
 			}
 		],
+		prerendered_routes: new Set(["/","/creation-application","/creation-design-logos","/creation-site-internet","/etude-strategie-digitale","/gestion-media-sociaux","/referencement-seo-sea","/tarifs"]),
 		matchers: async () => {
 			
 			return {  };

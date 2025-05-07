@@ -1,6 +1,7 @@
 {
   ".svelte-kit/generated/server/internal.js": {
     "file": "internal.js",
+    "name": "internal",
     "src": ".svelte-kit/generated/server/internal.js",
     "isEntry": true,
     "imports": [
@@ -8,63 +9,67 @@
     ]
   },
   "_Banner.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Banner.CKvx_G50.css",
+    "file": "_app/immutable/assets/Banner.BeZWleDC.css",
     "src": "_Banner.svelte_svelte_type_style_lang.js"
   },
   "_BeneficeSection.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
+    "file": "_app/immutable/assets/BeneficeSection.BtJmNz9-.css",
     "src": "_BeneficeSection.svelte_svelte_type_style_lang.js"
   },
   "_ButtonCTA.js": {
     "file": "chunks/ButtonCTA.js",
+    "name": "ButtonCTA",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css"
     ]
   },
   "_ButtonCTA.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/ButtonCTA.yE69egVd.css",
+    "file": "_app/immutable/assets/ButtonCTA.CcnOWuJd.css",
     "src": "_ButtonCTA.svelte_svelte_type_style_lang.js"
   },
   "_CardsSectionB.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/CardsSectionB.CRANViEK.css",
+    "file": "_app/immutable/assets/CardsSectionB.CERwax3o.css",
     "src": "_CardsSectionB.svelte_svelte_type_style_lang.js"
   },
   "_Difference.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Difference.B_KCxHx_.css",
+    "file": "_app/immutable/assets/Difference.DPOpScn0.css",
     "src": "_Difference.svelte_svelte_type_style_lang.js"
   },
   "_FaqLink.js": {
     "file": "chunks/FaqLink.js",
+    "name": "FaqLink",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/FaqLink.4T2lJwKa.css"
+      "_app/immutable/assets/FaqLink.ClIzB9zs.css"
     ]
   },
   "_FaqLink.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/FaqLink.4T2lJwKa.css",
+    "file": "_app/immutable/assets/FaqLink.ClIzB9zs.css",
     "src": "_FaqLink.svelte_svelte_type_style_lang.js"
   },
   "_Form.js": {
     "file": "chunks/Form.js",
+    "name": "Form",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/Form.DfFBb20s.css"
+      "_app/immutable/assets/Form.DSXQzRxz.css"
     ]
   },
   "_Gralypho.js": {
     "file": "chunks/Gralypho.js",
+    "name": "Gralypho",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/Gralypho.C5jYToah.css"
+      "_app/immutable/assets/Gralypho.m_DKw6sP.css"
     ],
     "assets": [
       "_app/immutable/assets/logoGralypho.CI6Sh97R.jpeg"
@@ -72,78 +77,93 @@
   },
   "_Header.js": {
     "file": "chunks/Header.js",
+    "name": "Header",
     "imports": [
       "_ssr.js",
       "_Gralypho.js"
     ],
     "css": [
-      "_app/immutable/assets/Header.bHotvCdg.css"
+      "_app/immutable/assets/Header.DuzQVb8P.css"
     ]
   },
   "_ImagesBlocks.js": {
     "file": "chunks/ImagesBlocks.js",
+    "name": "ImagesBlocks",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/ImagesBlocks.CyhYfGjP.css",
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+      "_app/immutable/assets/ImagesBlocks.mMmSE3et.css",
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css"
     ]
   },
   "_LinkSiteApplication.js": {
     "file": "chunks/LinkSiteApplication.js",
+    "name": "LinkSiteApplication",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/LinkSiteApplication.D7UU_kDa.css"
+      "_app/immutable/assets/LinkSiteApplication.D_FJGPdq.css"
     ]
   },
   "_Mouse.js": {
     "file": "chunks/Mouse.js",
+    "name": "Mouse",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/styles.Bg1G4WF1.css",
-      "_app/immutable/assets/Mouse.CrDjdLvN.css"
+      "_app/immutable/assets/styles.CHPxGo9a.css",
+      "_app/immutable/assets/Mouse.v6s5Isuq.css"
     ]
   },
   "_Mouse.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Mouse.CrDjdLvN.css",
+    "file": "_app/immutable/assets/Mouse.v6s5Isuq.css",
     "src": "_Mouse.svelte_svelte_type_style_lang.js"
   },
   "_Services.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Services.BDBb_9VS.css",
+    "file": "_app/immutable/assets/Services.CiVPsI16.css",
     "src": "_Services.svelte_svelte_type_style_lang.js"
   },
   "_exports.js": {
-    "file": "chunks/exports.js"
+    "file": "chunks/exports.js",
+    "name": "exports"
   },
   "_internal.js": {
     "file": "chunks/internal.js",
+    "name": "internal",
     "imports": [
-      "_ssr.js"
+      "_ssr.js",
+      "_ssr2.js"
     ]
   },
   "_ssr.js": {
-    "file": "chunks/ssr.js"
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_ssr2.js": {
+    "file": "chunks/ssr2.js",
+    "name": "ssr"
   },
   "_styles.js": {
-    "file": "_app/immutable/assets/styles.Bg1G4WF1.css",
+    "file": "_app/immutable/assets/styles.CHPxGo9a.css",
     "src": "_styles.js"
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
     "file": "entries/fallbacks/error.svelte.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_exports.js"
+      "_exports.js",
+      "_ssr2.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
     "file": "index.js",
+    "name": "index",
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
     "isEntry": true,
     "imports": [
@@ -574,6 +594,7 @@
   },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -581,17 +602,19 @@
       "_Gralypho.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.DQWzPxQB.css",
-      "_app/immutable/assets/styles.Bg1G4WF1.css"
+      "_app/immutable/assets/_layout.BkLLn0La.css",
+      "_app/immutable/assets/styles.CHPxGo9a.css"
     ]
   },
   "src/routes/+page.js": {
     "file": "entries/pages/_page.js",
+    "name": "entries/pages/_page",
     "src": "src/routes/+page.js",
     "isEntry": true
   },
   "src/routes/+page.svelte": {
     "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -603,13 +626,13 @@
       "_FaqLink.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CP98UMFZ.css",
-      "_app/immutable/assets/styles.Bg1G4WF1.css",
-      "_app/immutable/assets/CardsSectionB.CRANViEK.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/Difference.B_KCxHx_.css",
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css",
-      "_app/immutable/assets/Mouse.CrDjdLvN.css"
+      "_app/immutable/assets/_page.uHe8OgAP.css",
+      "_app/immutable/assets/styles.CHPxGo9a.css",
+      "_app/immutable/assets/CardsSectionB.CERwax3o.css",
+      "_app/immutable/assets/BeneficeSection.BtJmNz9-.css",
+      "_app/immutable/assets/Difference.DPOpScn0.css",
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css",
+      "_app/immutable/assets/Mouse.v6s5Isuq.css"
     ],
     "assets": [
       "_app/immutable/assets/photo.DdxsvJ_j.png",
@@ -642,6 +665,7 @@
   },
   "src/routes/Design-site-web/+page.svelte": {
     "file": "entries/pages/Design-site-web/_page.svelte.js",
+    "name": "entries/pages/Design-site-web/_page.svelte",
     "src": "src/routes/Design-site-web/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -651,7 +675,7 @@
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CN__tTFC.css"
+      "_app/immutable/assets/_page.iFhb84Rp.css"
     ],
     "assets": [
       "_app/immutable/assets/conception.C51ttLod.png"
@@ -659,6 +683,7 @@
   },
   "src/routes/FAQ/+page.svelte": {
     "file": "entries/pages/FAQ/_page.svelte.js",
+    "name": "entries/pages/FAQ/_page.svelte",
     "src": "src/routes/FAQ/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -666,12 +691,13 @@
       "_Header.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CwUnK0Sj.css",
-      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
+      "_app/immutable/assets/_page.Bf-axyXB.css",
+      "_app/immutable/assets/CardsSectionB.CERwax3o.css"
     ]
   },
   "src/routes/SuccesForm/+page.svelte": {
     "file": "entries/pages/SuccesForm/_page.svelte.js",
+    "name": "entries/pages/SuccesForm/_page.svelte",
     "src": "src/routes/SuccesForm/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -680,6 +706,7 @@
   },
   "src/routes/Technologies/+page.svelte": {
     "file": "entries/pages/Technologies/_page.svelte.js",
+    "name": "entries/pages/Technologies/_page.svelte",
     "src": "src/routes/Technologies/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -688,6 +715,7 @@
   },
   "src/routes/agence-web-Lyon-creation-site-internet-seo/+page.svelte": {
     "file": "entries/pages/agence-web-Lyon-creation-site-internet-seo/_page.svelte.js",
+    "name": "entries/pages/agence-web-Lyon-creation-site-internet-seo/_page.svelte",
     "src": "src/routes/agence-web-Lyon-creation-site-internet-seo/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -697,11 +725,12 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CFugPNTD.css"
+      "_app/immutable/assets/_page.Cwagrghf.css"
     ]
   },
   "src/routes/agence-web-monts-du-Lyonnais/+page.svelte": {
     "file": "entries/pages/agence-web-monts-du-Lyonnais/_page.svelte.js",
+    "name": "entries/pages/agence-web-monts-du-Lyonnais/_page.svelte",
     "src": "src/routes/agence-web-monts-du-Lyonnais/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -711,8 +740,8 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.D5VlthQO.css",
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+      "_app/immutable/assets/_page.BHS1FQXG.css",
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css"
     ],
     "assets": [
       "_app/immutable/assets/montsDuLyonnais.CxyE18oo.jpeg"
@@ -720,6 +749,7 @@
   },
   "src/routes/agence-web-region-Lyonnaise/+page.svelte": {
     "file": "entries/pages/agence-web-region-Lyonnaise/_page.svelte.js",
+    "name": "entries/pages/agence-web-region-Lyonnaise/_page.svelte",
     "src": "src/routes/agence-web-region-Lyonnaise/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -729,43 +759,48 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CD58YFaE.css"
+      "_app/immutable/assets/_page.CxepWp3_.css"
     ]
   },
   "src/routes/blog/+page.server.js": {
     "file": "entries/pages/blog/_page.server.js",
+    "name": "entries/pages/blog/_page.server",
     "src": "src/routes/blog/+page.server.js",
     "isEntry": true
   },
   "src/routes/blog/+page.svelte": {
     "file": "entries/pages/blog/_page.svelte.js",
+    "name": "entries/pages/blog/_page.svelte",
     "src": "src/routes/blog/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DiWWVTJ_.css"
+      "_app/immutable/assets/_page._7X4PDom.css"
     ]
   },
   "src/routes/blog/[slug]/+page.server.js": {
     "file": "entries/pages/blog/_slug_/_page.server.js",
+    "name": "entries/pages/blog/_slug_/_page.server",
     "src": "src/routes/blog/[slug]/+page.server.js",
     "isEntry": true
   },
   "src/routes/blog/[slug]/+page.svelte": {
     "file": "entries/pages/blog/_slug_/_page.svelte.js",
+    "name": "entries/pages/blog/_slug_/_page.svelte",
     "src": "src/routes/blog/[slug]/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DyiYU1fH.css"
+      "_app/immutable/assets/_page.8AeEXdtI.css"
     ]
   },
   "src/routes/community-management/+page.svelte": {
     "file": "entries/pages/community-management/_page.svelte.js",
+    "name": "entries/pages/community-management/_page.svelte",
     "src": "src/routes/community-management/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -775,7 +810,7 @@
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DEv9m1Ek.css"
+      "_app/immutable/assets/_page.XJz9RPYn.css"
     ],
     "assets": [
       "_app/immutable/assets/mediaWeb.BQpbU0yc.png"
@@ -783,11 +818,13 @@
   },
   "src/routes/creation-application/+page.js": {
     "file": "entries/pages/creation-application/_page.js",
+    "name": "entries/pages/creation-application/_page",
     "src": "src/routes/creation-application/+page.js",
     "isEntry": true
   },
   "src/routes/creation-application/+page.svelte": {
     "file": "entries/pages/creation-application/_page.svelte.js",
+    "name": "entries/pages/creation-application/_page.svelte",
     "src": "src/routes/creation-application/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -800,8 +837,8 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.7JurYfWb.css",
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+      "_app/immutable/assets/_page.BHsB7IpL.css",
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css"
     ],
     "assets": [
       "_app/immutable/assets/bird3.C0ARV5Ll.jpeg",
@@ -811,11 +848,13 @@
   },
   "src/routes/creation-design-logos/+page.js": {
     "file": "entries/pages/creation-design-logos/_page.js",
+    "name": "entries/pages/creation-design-logos/_page",
     "src": "src/routes/creation-design-logos/+page.js",
     "isEntry": true
   },
   "src/routes/creation-design-logos/+page.svelte": {
     "file": "entries/pages/creation-design-logos/_page.svelte.js",
+    "name": "entries/pages/creation-design-logos/_page.svelte",
     "src": "src/routes/creation-design-logos/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -828,11 +867,11 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.1AxBdQxx.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/Services.BDBb_9VS.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
+      "_app/immutable/assets/_page.Bs3t3fEq.css",
+      "_app/immutable/assets/Banner.BeZWleDC.css",
+      "_app/immutable/assets/Services.CiVPsI16.css",
+      "_app/immutable/assets/BeneficeSection.BtJmNz9-.css",
+      "_app/immutable/assets/CardsSectionB.CERwax3o.css"
     ],
     "assets": [
       "_app/immutable/assets/webExplosion.Bgh2rU_O.png",
@@ -849,6 +888,7 @@
   },
   "src/routes/creation-site-application-Lyon/+page.svelte": {
     "file": "entries/pages/creation-site-application-Lyon/_page.svelte.js",
+    "name": "entries/pages/creation-site-application-Lyon/_page.svelte",
     "src": "src/routes/creation-site-application-Lyon/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -857,7 +897,7 @@
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/Difference.B_KCxHx_.css"
+      "_app/immutable/assets/Difference.DPOpScn0.css"
     ],
     "assets": [
       "_app/immutable/assets/videocodecomp.DZHER-iY.mp4"
@@ -865,11 +905,13 @@
   },
   "src/routes/creation-site-internet/+page.js": {
     "file": "entries/pages/creation-site-internet/_page.js",
+    "name": "entries/pages/creation-site-internet/_page",
     "src": "src/routes/creation-site-internet/+page.js",
     "isEntry": true
   },
   "src/routes/creation-site-internet/+page.svelte": {
     "file": "entries/pages/creation-site-internet/_page.svelte.js",
+    "name": "entries/pages/creation-site-internet/_page.svelte",
     "src": "src/routes/creation-site-internet/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -882,7 +924,7 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CYZg72se.css"
+      "_app/immutable/assets/_page.DeeBdv0S.css"
     ],
     "assets": [
       "_app/immutable/assets/bird.CxfZn7zt.jpeg",
@@ -892,6 +934,7 @@
   },
   "src/routes/creation-site-web-lyon/+page.svelte": {
     "file": "entries/pages/creation-site-web-lyon/_page.svelte.js",
+    "name": "entries/pages/creation-site-web-lyon/_page.svelte",
     "src": "src/routes/creation-site-web-lyon/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -901,16 +944,18 @@
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.CAtcdUcC.css"
+      "_app/immutable/assets/_page.DiyzmvbO.css"
     ]
   },
   "src/routes/etude-strategie-digitale/+page.js": {
     "file": "entries/pages/etude-strategie-digitale/_page.js",
+    "name": "entries/pages/etude-strategie-digitale/_page",
     "src": "src/routes/etude-strategie-digitale/+page.js",
     "isEntry": true
   },
   "src/routes/etude-strategie-digitale/+page.svelte": {
     "file": "entries/pages/etude-strategie-digitale/_page.svelte.js",
+    "name": "entries/pages/etude-strategie-digitale/_page.svelte",
     "src": "src/routes/etude-strategie-digitale/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -923,11 +968,11 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.9E3E4LCc.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/Services.BDBb_9VS.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
+      "_app/immutable/assets/_page.DSTF99Db.css",
+      "_app/immutable/assets/Banner.BeZWleDC.css",
+      "_app/immutable/assets/Services.CiVPsI16.css",
+      "_app/immutable/assets/BeneficeSection.BtJmNz9-.css",
+      "_app/immutable/assets/CardsSectionB.CERwax3o.css"
     ],
     "assets": [
       "_app/immutable/assets/cible.Cex8LbDb.png",
@@ -941,11 +986,13 @@
   },
   "src/routes/gestion-media-sociaux/+page.js": {
     "file": "entries/pages/gestion-media-sociaux/_page.js",
+    "name": "entries/pages/gestion-media-sociaux/_page",
     "src": "src/routes/gestion-media-sociaux/+page.js",
     "isEntry": true
   },
   "src/routes/gestion-media-sociaux/+page.svelte": {
     "file": "entries/pages/gestion-media-sociaux/_page.svelte.js",
+    "name": "entries/pages/gestion-media-sociaux/_page.svelte",
     "src": "src/routes/gestion-media-sociaux/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -958,11 +1005,11 @@
       "_Mouse.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Cx_W7qlz.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/Services.BDBb_9VS.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
+      "_app/immutable/assets/_page.CmZRItUY.css",
+      "_app/immutable/assets/Banner.BeZWleDC.css",
+      "_app/immutable/assets/Services.CiVPsI16.css",
+      "_app/immutable/assets/BeneficeSection.BtJmNz9-.css",
+      "_app/immutable/assets/CardsSectionB.CERwax3o.css"
     ],
     "assets": [
       "_app/immutable/assets/writing.BHXJFI1M.png",
@@ -979,11 +1026,13 @@
   },
   "src/routes/referencement-seo-sea/+page.js": {
     "file": "entries/pages/referencement-seo-sea/_page.js",
+    "name": "entries/pages/referencement-seo-sea/_page",
     "src": "src/routes/referencement-seo-sea/+page.js",
     "isEntry": true
   },
   "src/routes/referencement-seo-sea/+page.svelte": {
     "file": "entries/pages/referencement-seo-sea/_page.svelte.js",
+    "name": "entries/pages/referencement-seo-sea/_page.svelte",
     "src": "src/routes/referencement-seo-sea/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -995,11 +1044,11 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.BtZNR86T.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/CardsSectionB.CRANViEK.css",
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+      "_app/immutable/assets/_page.roVBde75.css",
+      "_app/immutable/assets/Banner.BeZWleDC.css",
+      "_app/immutable/assets/BeneficeSection.BtJmNz9-.css",
+      "_app/immutable/assets/CardsSectionB.CERwax3o.css",
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css"
     ],
     "assets": [
       "_app/immutable/assets/agence SEO ouest lyonnais.9zZYFvud.jpeg",
@@ -1013,6 +1062,7 @@
   },
   "src/routes/site-internet-CMS/+page.svelte": {
     "file": "entries/pages/site-internet-CMS/_page.svelte.js",
+    "name": "entries/pages/site-internet-CMS/_page.svelte",
     "src": "src/routes/site-internet-CMS/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -1023,7 +1073,7 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.pcovMyCQ.css"
+      "_app/immutable/assets/_page.DR1lRvaM.css"
     ],
     "assets": [
       "_app/immutable/assets/CMS.BzMz0enP.jpeg"
@@ -1031,6 +1081,7 @@
   },
   "src/routes/site-internet-Lyon/+page.svelte": {
     "file": "entries/pages/site-internet-Lyon/_page.svelte.js",
+    "name": "entries/pages/site-internet-Lyon/_page.svelte",
     "src": "src/routes/site-internet-Lyon/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -1040,16 +1091,18 @@
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Cp6XIBK0.css"
+      "_app/immutable/assets/_page.B9S25KQo.css"
     ]
   },
   "src/routes/tarifs/+page.js": {
     "file": "entries/pages/tarifs/_page.js",
+    "name": "entries/pages/tarifs/_page",
     "src": "src/routes/tarifs/+page.js",
     "isEntry": true
   },
   "src/routes/tarifs/+page.svelte": {
     "file": "entries/pages/tarifs/_page.svelte.js",
+    "name": "entries/pages/tarifs/_page.svelte",
     "src": "src/routes/tarifs/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -1059,12 +1112,13 @@
       "_Form.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Bg5-KPCx.css",
-      "_app/immutable/assets/FaqLink.4T2lJwKa.css"
+      "_app/immutable/assets/_page.CfzY3evW.css",
+      "_app/immutable/assets/FaqLink.ClIzB9zs.css"
     ]
   },
   "src/routes/types-site-web/+page.svelte": {
     "file": "entries/pages/types-site-web/_page.svelte.js",
+    "name": "entries/pages/types-site-web/_page.svelte",
     "src": "src/routes/types-site-web/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -1074,7 +1128,7 @@
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.B6AO_JUd.css"
+      "_app/immutable/assets/_page.D-t2gfCa.css"
     ],
     "assets": [
       "_app/immutable/assets/vitrine.CGJ2qEM2.jpg",
@@ -1088,6 +1142,7 @@
   },
   "src/routes/webmaster-monts-du-lyonnais-lyon-ouest/+page.svelte": {
     "file": "entries/pages/webmaster-monts-du-lyonnais-lyon-ouest/_page.svelte.js",
+    "name": "entries/pages/webmaster-monts-du-lyonnais-lyon-ouest/_page.svelte",
     "src": "src/routes/webmaster-monts-du-lyonnais-lyon-ouest/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -1097,8 +1152,8 @@
       "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DGr5IXTa.css",
-      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+      "_app/immutable/assets/_page.YTBWOKr0.css",
+      "_app/immutable/assets/ButtonCTA.CcnOWuJd.css"
     ],
     "assets": [
       "_app/immutable/assets/webmaster.C5_l_wXP.jpeg"
@@ -1106,6 +1161,7 @@
   },
   "src/routes/webmaster-ouest-lyonnais/+page.svelte": {
     "file": "entries/pages/webmaster-ouest-lyonnais/_page.svelte.js",
+    "name": "entries/pages/webmaster-ouest-lyonnais/_page.svelte",
     "src": "src/routes/webmaster-ouest-lyonnais/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -1114,7 +1170,7 @@
       "_Header.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DsYHJNsZ.css"
+      "_app/immutable/assets/_page.DPlMwDcj.css"
     ],
     "assets": [
       "_app/immutable/assets/BillyWinner.BFpNhcs6.png",

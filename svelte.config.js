@@ -1,13 +1,14 @@
 import adapter from '@sveltejs/adapter-netlify';
 import { mdsvex } from 'mdsvex';
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
   extensions: ['.svelte', '.svx'],
   preprocess: mdsvex(),
 
   kit: {
     adapter: adapter(),
-    ssr: true, // 👈 c’est ici que ça va, dans kit
+    // ✅ Ne mets pas `ssr: true` ici
   }
 };
 
