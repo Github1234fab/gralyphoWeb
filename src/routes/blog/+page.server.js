@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 
 export async function load() {
   const articlesDir = 'src/content';
+  console.log('Environnement:', process.env.NODE_ENV);
+  console.log('Chemin des articles:', path.resolve('src/content'));
   const files = fs.readdirSync(articlesDir);
 
   const posts = files.map(filename => {
