@@ -90,30 +90,30 @@ export async function load({ params }) {
     return {
       article: {
         slug,
-        ...data, // title, date, description, etc.
+        ...data,
         content: marked(content)
       }
-      
     };
   } catch (err) {
     console.error(`Erreur de chargement de l'article ${slug}:`, err);
     return {
-      article: null
+      status: 404,
+      error: new Error(`Article non trouvé : ${slug}`)
     };
   }
 }
 
 
-/** Fonction utilisée par SvelteKit pour le prerender */
-export async function entries() {
-  const files = fs.readdirSync('src/content');
-  return files
-    .filter(file => file.endsWith('.md'))
-    .map(file => {
-      const slug = file.slice(0, -3); // Supprime ".md"
-      return { slug };
-    });
-}
+// /** Fonction utilisée par SvelteKit pour le prerender */
+// export async function entries() {
+//   const files = fs.readdirSync('src/content');
+//   return files
+//     .filter(file => file.endsWith('.md'))
+//     .map(file => {
+//       const slug = file.slice(0, -3); // Supprime ".md"
+//       return { slug };
+//     });
+// }
 
 // --------------
 
