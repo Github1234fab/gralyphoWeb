@@ -51,9 +51,9 @@ const config = {
     prerender: {
       entries: ['*'], // Permet de pré-rendre toutes les pages
     },
-    extensions: ['.svelte', '.svx'], // Ajout de l'extension .svx pour Markdown
     preprocess: mdsvex(),
   },
 };
 
 export default config;
+
