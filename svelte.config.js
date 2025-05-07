@@ -41,27 +41,16 @@
 
 import adapter from '@sveltejs/adapter-netlify';
 import { mdsvex } from 'mdsvex';
-import sveltePreprocess from 'svelte-preprocess';
 
-/** @type {import('vite').UserConfig} */
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-  // ✅ preprocess doit être à la racine
-  preprocess: [
-    sveltePreprocess(),
-    mdsvex({
-      extension: '.svx'
-    })
-  ],
-
+  // ✅ Ces deux options sont au niveau racine, pas dans `kit`
   extensions: ['.svelte', '.svx'],
+  preprocess: mdsvex(),
 
   kit: {
-    adapter: adapter({
-      fallback: 'index.html'
-    }),
-    prerender: {
-      entries: ['*']
-    }
+    adapter: adapter(),
+    // Tu peux ajouter ici d’autres options comme `prerender` ou `paths` si besoin
   }
 };
 
