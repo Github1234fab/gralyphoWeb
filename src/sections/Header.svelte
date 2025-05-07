@@ -34,7 +34,7 @@
 				<a class="link-contact" href="/creation-design-logos">Design, Logos et pub</a>
 				<a class="link-contact" href="/etude-strategie-digitale">Stratégie digitale</a>
 				<a class="link-contact" href="/FAQ">FAQ</a>
-				<a class="link-contact" href="/FAQ">Blog</a>
+				<a class="link-contact" href="/blog">Blog</a>
 				<a class="link-contact" href="/tarifs">Tarifs</a>
 			</div>
 		</span>
