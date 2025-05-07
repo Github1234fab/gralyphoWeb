@@ -48,7 +48,7 @@
 	article div {
 		font-size: 1rem;
 		line-height: 1.6;
-		color: #333;
+		color: #334;
 	}
 	article em {
 		font-style: italic;
