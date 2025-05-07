@@ -1,43 +1,92 @@
-import { c as create_ssr_component, v as validate_component, d as add_attribute, f as each } from "../../../chunks/ssr.js";
-import { H as Header } from "../../../chunks/Mouse.svelte_svelte_type_style_lang.js";
-import { C as CardsSectionB } from "../../../chunks/CardsSectionB.js";
-import { F as Form } from "../../../chunks/Form.js";
+import { c as create_ssr_component, v as validate_component, f as each } from "../../../chunks/ssr.js";
+import { H as Header } from "../../../chunks/Header.js";
 import { M as Mouse } from "../../../chunks/Mouse.js";
-import { B as ButtonCTA } from "../../../chunks/ButtonCTA.js";
-const imageApplication = "/_app/immutable/assets/applications.xGh-T5GR.png";
+import { I as ImagesBlocks, C as CardTarifs } from "../../../chunks/ImagesBlocks.js";
+import { F as FaqLink } from "../../../chunks/FaqLink.js";
+import { F as Form } from "../../../chunks/Form.js";
+/* empty css                                                      */
+import { L as LinkSiteApplication } from "../../../chunks/LinkSiteApplication.js";
+const Bird = "/_app/immutable/assets/bird3.C0ARV5Ll.jpeg";
+const Woman = "/_app/immutable/assets/smartphoneTech.D88PJoWQ.jpeg";
+const Smartphone = "/_app/immutable/assets/compteur7.YeULzcA1.jpeg";
 const css = {
-  code: ".application-section.svelte-18iuqyw.svelte-18iuqyw{display:grid;grid-template-columns:repeat(12, 1fr);grid-template-rows:auto;height:auto;font-size:16px}.hero-applications.svelte-18iuqyw.svelte-18iuqyw{grid-column:1/13;grid-row:1;display:flex;flex-direction:column;align-items:center;justify-content:center;height:auto}.image.svelte-18iuqyw.svelte-18iuqyw{max-width:30%;min-width:30%;margin-top:30px;z-index:2}.hero-applications.svelte-18iuqyw h1.svelte-18iuqyw{text-align:center;font-family:var(--Geologica);font-weight:900;font-size:2.5rem;color:var(--primary);margin-top:0px;letter-spacing:-2px;padding:0px;line-height:50px;margin-top:70px}.hero-applications.svelte-18iuqyw h1 span.svelte-18iuqyw{color:var(--green)}.hero-applications.svelte-18iuqyw h3.svelte-18iuqyw{font-family:poppins;font-weight:300;font-size:var(--m);color:var(--primary);text-align:center;margin-top:20px;margin-bottom:100px;width:80%}.wrapper-testimonial.svelte-18iuqyw.svelte-18iuqyw{grid-column:1/13;grid-row:3;display:flex;justify-content:center;align-items:center;flex-direction:column;height:400px;background-image:linear-gradient(var(--primary), var(--secondary))}.wrapper-testimonial.svelte-18iuqyw h2.svelte-18iuqyw{font-family:'Poppins';font-weight:500;font-size:var(--m);color:white;text-align:center;margin-top:70px;width:90%}.wrapper-testimonial.svelte-18iuqyw h3.svelte-18iuqyw{font-family:poppins;font-weight:300;font-size:var(--m);color:var(--whiteGrey);text-align:center;margin-bottom:50px}.wrapper-collapse.svelte-18iuqyw.svelte-18iuqyw{grid-column:1/13;grid-row:4;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-bottom:50px;background-color:var(--greyBg)}.wrapper-collapse.svelte-18iuqyw h1.svelte-18iuqyw{text-align:center;font-family:'Red Hat Display';font-size:var(--l);font-weight:700;color:var(--bleuAcier);margin-top:50px;letter-spacing:-1px;margin-bottom:50px;padding:15px;width:75%}.wrapper-application-explication.svelte-18iuqyw.svelte-18iuqyw{grid-column:1/13;grid-row:2;display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:50px;margin-bottom:50px}.wrapper-application-explication.svelte-18iuqyw h1.svelte-18iuqyw{text-align:center;font-family:'Red Hat Display';font-size:var(--l);font-weight:700;color:var(--primary);letter-spacing:-1px;padding:15px}.wrapper-application-explication.svelte-18iuqyw p.svelte-18iuqyw{font-family:'poppins';font-weight:300;font-size:var(--m);color:var(--primary);text-align:center;margin-top:50px;width:60%}.wrapper-application-explication.svelte-18iuqyw ol.svelte-18iuqyw{font-family:'poppins';font-weight:300;font-size:var(--m);color:var(--bleuAcier);text-align:center;margin-top:50px;max-width:50%}.wrapper-form.svelte-18iuqyw.svelte-18iuqyw{grid-column:1/13;grid-row:5;display:flex;justify-content:center;align-items:center;flex-direction:column;background-color:var(--bgHero)}@keyframes svelte-18iuqyw-bounce{0%{transform:scale(1) translateY(-2px)}25%{transform:scale(1) translateY(3px)}50%{transform:scale(1) translateY(-1px)}75%{transform:scale(1) translateY(2px)}100%{transform:scale(1) translateY(0)}}@media screen and (min-width: 576px) and (max-width: 767px){.wrapper-application-explication.svelte-18iuqyw p.svelte-18iuqyw{width:90%}.wrapper-application-explication.svelte-18iuqyw ol.svelte-18iuqyw{width:90%}.image.svelte-18iuqyw.svelte-18iuqyw{min-width:60%}}@media screen and (min-width: 300px) and (max-width: 575px){.wrapper-application-explication.svelte-18iuqyw p.svelte-18iuqyw{width:90%}.wrapper-application-explication.svelte-18iuqyw ol.svelte-18iuqyw{width:90%}.image.svelte-18iuqyw.svelte-18iuqyw{min-width:60%}}",
+  code: "main.svelte-fl75cd.svelte-fl75cd{display:flex;align-items:center;justify-content:center;flex-direction:column;padding:0px;height:auto;background-color:var(--primary)}.title.svelte-fl75cd.svelte-fl75cd{font-family:var(--Geologica);font-size:5.5rem;color:var(--whiteGrey);font-weight:700;text-align:center;letter-spacing:-2px;margin-top:50px}.wrapper__hero.svelte-fl75cd.svelte-fl75cd{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;height:auto;padding:10px;margin-top:50px;gap:40px;border-radius:8px;color:var(--primary)}.wrapper__hero.svelte-fl75cd h2.svelte-fl75cd{font-family:var(--Red);font-size:1.2rem;letter-spacing:-1px;font-weight:900;color:var(--whiteGrey);margin-top:10px;text-align:center}.wrapper__hero.svelte-fl75cd p.svelte-fl75cd{font-family:var(--Red);font-size:1rem;font-weight:400;padding:10px;line-height:30px;color:var(--whiteGrey);width:80%;text-align:justify}.wrapper__component.svelte-fl75cd.svelte-fl75cd{display:flex;align-items:center;justify-content:center;flex-direction:column;width:80%;height:auto;padding:10px;margin-top:60px;gap:40px;border-radius:8px;color:var(--primary)}.wrapper__component.svelte-fl75cd h2.svelte-fl75cd{font-family:var(--Red);font-size:3rem;letter-spacing:-1px;font-weight:900;color:var(--whiteGrey);margin-top:10px}.wrapper__component.svelte-fl75cd p.svelte-fl75cd{width:100%}@media screen and (max-width: 768px){.wrapper__images.svelte-fl75cd.svelte-fl75cd{margin-top:50px;;}.title.svelte-fl75cd.svelte-fl75cd{font-size:3rem}.wrapper__hero.svelte-fl75cd.svelte-fl75cd{margin-top:50px}.wrapper__component.svelte-fl75cd.svelte-fl75cd{width:100%;margin-top:20px;padding:0px}.wrapper__hero.svelte-fl75cd p.svelte-fl75cd{width:100%;text-align:left}}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let collapseTab = [
+  let pwa = [
     {
-      title: "Étude de votre projet",
-      p: "Nous étudions votre projet pour vous proposer la meilleure des solutions. Le développement de votre application nécessite plusieurs phases d'approches nécessaires à sa bonne réalisation. Notamment son design, son contenu, son but, la manière de stocker les datas, l'interface utilisateur (ux/ui),  le choix de la techno.  Nous vous proposons un devis gratuit et sans engagement."
-    },
-    {
-      title: "La programmation",
-      p: "Nous lançons le développement de votre application quand son design, sa navigation et son contenu sont validés par vos soins. Il faudra compter ensuite un délai de un à trois mois pour le développement de votre application, selon son dégré de complexité "
-    },
-    {
-      title: "Les tests et la mise en ligne",
-      p: "La phase de test est assez excitante car c'est la dernière ligne droite avant la mise en service officielle de votrez application.  Les tests côté serveurs et côté clients sont réalisés. Les tests en responsive sont réalisés également. L'application est testée dans son ensemble sur diverses plateformes et dans tous les cas de figures."
-    },
-    {
-      title: "La vie de votre application",
-      p: "Une fois la mise en ligne effectuée, votre application vous appartient et sa vie débute. Vous pouvez opter pour une gestion personnelle de votre application ou souscrire à un contrat de maintenance. Dans ce cas nous nous occupons de la gestion de votre application, de la gestion des buggs et de son contenu."
+      name: "PWA",
+      h2: "Application Web,\n multiplateforme, \n légère à prix doux",
+      h3: "Idéal pour : Entreprise, indépendant, commerce, évènementiel, Institution",
+      h4: ["Délai : 15 jours", "IOS, Android et Web", " Notification push"],
+      li: [
+        "Accessible sans téléchargement",
+        "Compatible multi-plateforme (mobile, tablette, desktop)",
+        "Performante & rapide avec mise en cache",
+        "SEO-friendly et indexable par Google",
+        "Mode hors-ligne grâce au Service Worker",
+        "Mises à jour instantanées sans validation d'un store",
+        "Coût de développement réduit (un seul code à maintenir)",
+        "Notifications push disponibles",
+        "Sécurisée via HTTPS"
+      ],
+      tarif: "6999 €"
     }
   ];
+  let native = [
+    {
+      name: "NATIVE",
+      h2: "Application native, \n IOS et ANDROID, \n puissante et performante",
+      h3: "Idéal pour : Indépendant, créateur, artiste, marque, identité forte",
+      h4: ["Délai : 3 semaines", "Android et Ios", " Notification push"],
+      li: [
+        "Expérience utilisateur optimisée et fluide",
+        "Accès complet aux fonctionnalités du téléphone (GPS, Bluetooth, NFC, caméra...)",
+        "Meilleures performances pour les apps lourdes (jeux, AR/VR, montage vidéo)",
+        "Notifications push plus puissantes et sans restrictions",
+        "Mode hors-ligne complet avec stockage local avancé",
+        "Présence sur les stores (App Store & Google Play), gage de crédibilité",
+        "Monétisation facilitée via achats in-app et abonnements",
+        "Sécurité renforcée grâce aux validations des stores"
+      ],
+      tarif: "9999 €"
+    }
+  ];
+  let images = [Bird, Woman, Smartphone];
   $$result.css.add(css);
-  return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(Mouse, "Mouse").$$render($$result, {}, {}, {})} <section class="application-section svelte-18iuqyw"><div class="hero-applications svelte-18iuqyw"><img${add_attribute("src", imageApplication, 0)} alt="illustration d'un bonhomme qui ouvre un portable dans lequel il y a des logos d'applications" class="image svelte-18iuqyw"> <h1 class="svelte-18iuqyw" data-svelte-h="svelte-1ktu0p5">Création<br><span class="svelte-18iuqyw">d&#39;applications</span></h1> <h3 class="svelte-18iuqyw" data-svelte-h="svelte-usflv2">L&#39;agence Gralypho crée vos applications sur mesure pour offir à vos utilisateurs une
-			expérience unique.</h3> ${validate_component(ButtonCTA, "Button").$$render($$result, {}, {}, {})}</div>  <div class="wrapper-application-explication svelte-18iuqyw" data-svelte-h="svelte-8sxnnz"><h1 class="svelte-18iuqyw">Notre développement d&#39;applis.</h1> <p class="svelte-18iuqyw">Nous développons principalement des application en PWA, parce que nous pensons qu&#39;elles constituent l&#39;avenir de l&#39;application. <br><br>les applciations PWA  ont un double rôle. L&#39;utilisateur accède à l&#39;application par le web, depuis une url. C&#39;est à dire qu&#39;elle se comprte finalement comme un site web, coomme une page web masi présente l&#39;avantage de se télécharger sur le téléphone de l&#39;utilisateur, sa tablette ou son ordinateur. Les applications PWA ne souffrent pas du conlfit adnroid/ios. <br><br> Elles sont compatibles avec tous les navigateurs, tous les systèmes d&#39;exploitation et tous les appareils. Elles sont également très légères et ne prennent pas de place sur le téléphone de l&#39;utilisateur. <br><br>Elles comportent maintenant toutes les  fonctionnalités  des application natives (accès au smartphone, à la caméra, au gps, aux notifications push, etc.). Elles sont également très rapides et très fluides. Elles sont moins intrusives puisque l&#39;utilisateur n&#39;est pas obligé de les télécharger depuis un store. Elles sont également moins coûteuses à développer.</p> <ol class="svelte-18iuqyw"><li>Elles offrent une expérience d&#39;installation fluide et légère pour les utilisateurs, tout en
-				offrant les avantages d&#39;une application native sur le web.</li> <li>Les applications PWA se téléchargent depuis votre site internet. C&#39;est une bonne manière de
-				conserver l&#39;utilisateur sur le site et de le fidéliser. De son côté, l&#39;expérience est très
-				fluide.</li> <li>Leurs mise à jour sont automatiques, car elles sont effectuées depuis le site Web par le
-				développeur de l&#39;application. Quand l&#39;application est mise à jour par le développeur, votre
-				application se met à jour automatiquement.</li></ol></div>  <div class="wrapper-testimonial svelte-18iuqyw" data-svelte-h="svelte-1lm0bgf"><h2 class="svelte-18iuqyw">&quot;La seule limite à ce que vous pouvez réaliser est celle que vous imaginez.&quot;</h2> <h3 class="svelte-18iuqyw">Roy T. Bennett</h3></div>  <div class="wrapper-collapse svelte-18iuqyw"><h1 class="svelte-18iuqyw" data-svelte-h="svelte-1jf1kqa">Les étapes de développement de votre Application.</h1> ${each(collapseTab, (tab) => {
-    return `${validate_component(CardsSectionB, "CardsSectionB").$$render($$result, { title: tab.title, p: tab.p }, {}, {})}`;
-  })}</div> <div class="wrapper-form svelte-18iuqyw">${validate_component(Form, "Form").$$render($$result, {}, {}, {})}</div> </section>`;
+  return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${validate_component(Mouse, "Mouse").$$render($$result, {}, {}, {})} <main class="svelte-fl75cd"><div class="wrapper__images svelte-fl75cd">${validate_component(ImagesBlocks, "Images").$$render($$result, { img: images, alt: "image" }, {}, {})}</div> <div class="wrapper__hero svelte-fl75cd"><h1 class="title svelte-fl75cd" data-svelte-h="svelte-7x2jr2">Applications</h1> <h2 class="svelte-fl75cd" data-svelte-h="svelte-10jhsus">PWA ou native ?</h2> <p class="svelte-fl75cd" data-svelte-h="svelte-1kcelck">Il existe deux grands types d&#39;applications, les PWA et les natives. Les premières sont des applications web, accessibles depuis un navigateur, qui s&#39;adaptent à tous les supports. Les secondes sont des applications mobiles, téléchargeables sur les stores, qui offrent une expérience utilisateur optimale, car elles sont dédiées à un seul support. Les PWA sont plus rapides à développer et moins chères, tandis que les applications natives sont plus performantes et plus puissantes. Le choix
+			entre les deux dépend de vos besoins et de votre budget.</p> <div class="wrapper__component svelte-fl75cd"><h2 class="svelte-fl75cd" data-svelte-h="svelte-1c8s5ig">Notre offre d&#39;applications PWA</h2> <p class="svelte-fl75cd" data-svelte-h="svelte-1brn9rq">L&#39;application PWA est plus légère, plus rapide à développer et donc, moins chère. Elle est accessible depuis un navigateur et se télécharge depuis celui-ci sur votre smartphone. Elle s&#39;adapte à tous les supports, c&#39;est sa grande force. Elle est performante et rapide, SEO-friendly et indexable par Google. Elle permet de mettre en cache les données pour un mode hors-ligne et de recevoir des notifications push. Elle est sécurisée via HTTPS et son coût de développement est réduit. Elle est
+				idéale pour les entreprises, les indépendants, les commerces, les évènementiels et les institutions. Une application PWA peut se télécharger depuis microsoft application PWA, car Microsoft a intégré les PWA dans son store.</p> ${each(pwa, (item) => {
+    return `${validate_component(CardTarifs, "CardTarifs").$$render(
+      $$result,
+      {
+        name: item.name,
+        h2: item.h2,
+        h3: item.h3,
+        h4: item.h4,
+        li: item.li,
+        tarif: item.tarif
+      },
+      {},
+      {}
+    )}`;
+  })}</div> <div class="wrapper__component svelte-fl75cd"><h2 class="svelte-fl75cd" data-svelte-h="svelte-4jwh1i">Notre offre d&#39;application Native</h2> <p class="svelte-fl75cd" data-svelte-h="svelte-r7ir5k">L&#39;application native est plus puissante et performante. Elle est dédiée à un seul support, soit IOS, soit Android. Elle offre une expérience utilisateur optimale et fluide. Elle permet un accès complet aux fonctionnalités du téléphone (GPS, Bluetooth, NFC, etc) et offre de meilleures performances pour les applications lourdes (jeux, AR/VR, montage vidéo). Elle permet des notifications push plus puissantes et sans restrictions, un mode hors-ligne complet avec stockage local avancé et une
+				présence sur les stores (App Store &amp; Google Play), gage de crédibilité. Elle facilite la monétisation via des achats in-app et des abonnements et offre une sécurité renforcée grâce aux validations des stores. Elle est idéale pour les indépendants, les créateurs, les artistes, les marques et les identités fortes.</p> ${each(native, (item) => {
+    return `${validate_component(CardTarifs, "CardTarifs").$$render(
+      $$result,
+      {
+        name: item.name,
+        h2: item.h2,
+        h3: item.h3,
+        h4: item.h4,
+        li: item.li,
+        tarif: item.tarif
+      },
+      {},
+      {}
+    )}`;
+  })}</div> <div class="wrapper__faqLink">${validate_component(FaqLink, "FaqLink").$$render($$result, {}, {}, {})} ${validate_component(LinkSiteApplication, "Link").$$render($$result, {}, {}, {})}</div> ${validate_component(Form, "Form").$$render($$result, {}, {}, {})}</div></main>`;
 });
 export {
   Page as default

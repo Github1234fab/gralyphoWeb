@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component, d as add_attribute } from "../../../chunks/ssr.js";
-import { H as Header } from "../../../chunks/Mouse.svelte_svelte_type_style_lang.js";
+import { H as Header } from "../../../chunks/Header.js";
 import { M as Mouse } from "../../../chunks/Mouse.js";
 import { B as ButtonCTA } from "../../../chunks/ButtonCTA.js";
 const serviceWeb = "/_app/immutable/assets/conception.C51ttLod.png";

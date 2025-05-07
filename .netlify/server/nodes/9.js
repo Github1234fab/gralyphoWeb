@@ -1,10 +1,8 @@
-import * as universal from '../entries/pages/Tarifs-creation-site-web-lyon/_page.js';
+
 
 export const index = 9;
 let component_cache;
-export const component = async () => component_cache ??= (await import('../entries/pages/Tarifs-creation-site-web-lyon/_page.svelte.js')).default;
-export { universal };
-export const universal_id = "src/routes/Tarifs-creation-site-web-lyon/+page.js";
-export const imports = ["_app/immutable/nodes/9.73yr8zS9.js","_app/immutable/chunks/scheduler.4vs3tl4s.js","_app/immutable/chunks/index.BhdhDtp0.js","_app/immutable/chunks/each.BgC4wBcv.js","_app/immutable/chunks/Mouse.CQ5sm1Rs.js","_app/immutable/chunks/Gralypho.BKZ317DS.js","_app/immutable/chunks/index.CBaNHT0i.js","_app/immutable/chunks/Mouse.svelte_svelte_type_style_lang.Uy6HRqyo.js","_app/immutable/chunks/Form.ByScRbdc.js"];
-export const stylesheets = ["_app/immutable/assets/9.BsbNtejP.css","_app/immutable/assets/Gralypho.D42Hf5ha.css","_app/immutable/assets/Mouse.Bj5hbGiA.css","_app/immutable/assets/Form.mqcQBsK1.css"];
+export const component = async () => component_cache ??= (await import('../entries/pages/agence-web-region-Lyonnaise/_page.svelte.js')).default;
+export const imports = ["_app/immutable/nodes/9.HiiwKNcz.js","_app/immutable/chunks/scheduler.jbkPNKfn.js","_app/immutable/chunks/index.B5xtAp7f.js","_app/immutable/chunks/FaqLink.U981o1SY.js","_app/immutable/chunks/Header.VGOy4QQI.js","_app/immutable/chunks/Gralypho._DUad0CJ.js","_app/immutable/chunks/LinkSiteApplication.CFxhMKML.js"];
+export const stylesheets = ["_app/immutable/assets/9.CD58YFaE.css","_app/immutable/assets/FaqLink.4T2lJwKa.css","_app/immutable/assets/Header.bHotvCdg.css","_app/immutable/assets/Gralypho.C5jYToah.css","_app/immutable/assets/LinkSiteApplication.D7UU_kDa.css"];
 export const fonts = [];

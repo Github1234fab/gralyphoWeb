@@ -122,14 +122,14 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="fr">\n	<head>\n		<meta charset="utf-8" />\n			<link rel="icon" href="' + assets2 + `/creativity7.ico" />
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="fr">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + `/logoGralypho2.jpeg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="author" content="Gralypho - Communication">
-		<meta name="description" content="L'agence Gralypho - Communication, est spécialisée dans la création de site et application Web. Nous vous accompagnons sur toutes les étapes de votre projet sur Lyon et sa région et partout en France. Sites internets, Applications, Conception, Design, Marketing Digital et Stratégie, Refonte, Référencement, SEO, SEA, community Management" >
+		<meta name="author" content="Gralypho - Agence Web Ouest Lyon">
+		<meta name="description" content="L'agence Web Gralypho est spécialisée dans la création de site internet et application Web. Nous vous accompagnons sur toutes les étapes de votre projet sur l'ouest de Lyon, dans les Monts du Lyonnais et partout en France. Création de sites internets, Applications, Conception, Design, Marketing Digital et Stratégie, Refonte, Référencement, SEO, SEA, community Management" >
 		<meta name="robots" content="index, follow">
 		<meta name="google-site-verification" content="aHK0JZBEzb-9ZXtLMDj0gNuLPzbm9rLGuxigU2EWkBY" />
 		
-		<title>Gralypho - Sites web et applications</title> 
+		<title>Agence Web à l'ouest de Lyon : création de Sites internet, Applications et référencement SEO</title> 
 
 
 		   <script src="https://kit.fontawesome.com/34232c07fe.js" crossorigin="anonymous"><\/script>	
@@ -140,7 +140,7 @@ const options = {
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Baumans&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
    
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HG9L8QBYL1">
@@ -163,7 +163,7 @@ gtag('config', 'AW-16543577895');
 <\/script>
 
 
-  </head>
+
 		` + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n\n<\/script>\n		  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"><\/script> -->\n  \n		<div style="display: contents">' + body + '</div>\n			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"><\/script>\n\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"><\/script>\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"><\/script>\n	\n	</body>\n</html>\n',
     error: ({ status, message }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
@@ -236,7 +236,7 @@ gtag('config', 'AW-16543577895');
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1p3p7it"
+  version_hash: "1buo6m0"
 };
 async function get_hooks() {
   return {};

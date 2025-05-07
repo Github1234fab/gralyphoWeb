@@ -21,25 +21,33 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/ButtonCTA.CUgc0MPF.css"
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
     ]
   },
-  "_CardsSectionB.js": {
-    "file": "chunks/CardsSectionB.js",
+  "_ButtonCTA.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/ButtonCTA.yE69egVd.css",
+    "src": "_ButtonCTA.svelte_svelte_type_style_lang.js"
+  },
+  "_CardsSectionB.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/CardsSectionB.CRANViEK.css",
+    "src": "_CardsSectionB.svelte_svelte_type_style_lang.js"
+  },
+  "_Difference.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/Difference.B_KCxHx_.css",
+    "src": "_Difference.svelte_svelte_type_style_lang.js"
+  },
+  "_FaqLink.js": {
+    "file": "chunks/FaqLink.js",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/CardsSectionB.DZXTrsk_.css"
+      "_app/immutable/assets/FaqLink.4T2lJwKa.css"
     ]
   },
-  "_CardsSectionB.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/CardsSectionB.DZXTrsk_.css",
-    "src": "_CardsSectionB.svelte_svelte_type_style_lang.js"
-  },
-  "_Csection.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Csection.DzY9Mok3.css",
-    "src": "_Csection.svelte_svelte_type_style_lang.js"
+  "_FaqLink.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/FaqLink.4T2lJwKa.css",
+    "src": "_FaqLink.svelte_svelte_type_style_lang.js"
   },
   "_Form.js": {
     "file": "chunks/Form.js",
@@ -47,7 +55,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/Form.mqcQBsK1.css"
+      "_app/immutable/assets/Form.DfFBb20s.css"
     ]
   },
   "_Gralypho.js": {
@@ -56,45 +64,58 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/Gralypho.Dh9VEBHp.css"
+      "_app/immutable/assets/Gralypho.C5jYToah.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/logoGralypho.CI6Sh97R.jpeg"
     ]
   },
-  "_Mouse.js": {
-    "file": "chunks/Mouse.js",
-    "imports": [
-      "_ssr.js",
-      "_Gralypho.js",
-      "_Mouse.svelte_svelte_type_style_lang.js"
-    ]
-  },
-  "_Mouse.svelte_svelte_type_style_lang.js": {
-    "file": "chunks/Mouse.svelte_svelte_type_style_lang.js",
+  "_Header.js": {
+    "file": "chunks/Header.js",
     "imports": [
       "_ssr.js",
       "_Gralypho.js"
     ],
     "css": [
-      "_app/immutable/assets/Mouse.BUlPREWL.css"
+      "_app/immutable/assets/Header.bHotvCdg.css"
     ]
   },
-  "_Services.js": {
-    "file": "chunks/Services.js",
+  "_ImagesBlocks.js": {
+    "file": "chunks/ImagesBlocks.js",
     "imports": [
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/Services.87bsy7Mr.css"
+      "_app/immutable/assets/ImagesBlocks.CyhYfGjP.css",
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
     ]
+  },
+  "_LinkSiteApplication.js": {
+    "file": "chunks/LinkSiteApplication.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/LinkSiteApplication.D7UU_kDa.css"
+    ]
+  },
+  "_Mouse.js": {
+    "file": "chunks/Mouse.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/styles.Bg1G4WF1.css",
+      "_app/immutable/assets/Mouse.CrDjdLvN.css"
+    ]
+  },
+  "_Mouse.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/Mouse.CrDjdLvN.css",
+    "src": "_Mouse.svelte_svelte_type_style_lang.js"
   },
   "_Services.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Services.87bsy7Mr.css",
+    "file": "_app/immutable/assets/Services.BDBb_9VS.css",
     "src": "_Services.svelte_svelte_type_style_lang.js"
-  },
-  "_cible.js": {
-    "file": "chunks/cible.js",
-    "assets": [
-      "_app/immutable/assets/cible.Cex8LbDb.png"
-    ]
   },
   "_exports.js": {
     "file": "chunks/exports.js"
@@ -107,6 +128,10 @@
   },
   "_ssr.js": {
     "file": "chunks/ssr.js"
+  },
+  "_styles.js": {
+    "file": "_app/immutable/assets/styles.Bg1G4WF1.css",
+    "src": "_styles.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
     "file": "entries/fallbacks/error.svelte.js",
@@ -127,6 +152,10 @@
       "_ssr.js"
     ]
   },
+  "src/Assets/CMS.jpeg": {
+    "file": "_app/immutable/assets/CMS.BzMz0enP.jpeg",
+    "src": "src/Assets/CMS.jpeg"
+  },
   "src/Assets/Profils-gralypho/Ellipse 125.png": {
     "file": "_app/immutable/assets/Ellipse 125.CIxm8sfS.png",
     "src": "src/Assets/Profils-gralypho/Ellipse 125.png"
@@ -138,10 +167,6 @@
   "src/Assets/Profils-gralypho/Ellipse 220.png": {
     "file": "_app/immutable/assets/Ellipse 220.BVF5NcKI.png",
     "src": "src/Assets/Profils-gralypho/Ellipse 220.png"
-  },
-  "src/Assets/Profils-gralypho/Ellipse 54.png": {
-    "file": "_app/immutable/assets/Ellipse 54.DIEw8Lr6.png",
-    "src": "src/Assets/Profils-gralypho/Ellipse 54.png"
   },
   "src/Assets/Profils-gralypho/Frame (12).png": {
     "file": "_app/immutable/assets/Frame (12).CqTdcNok.png",
@@ -155,9 +180,69 @@
     "file": "_app/immutable/assets/Frame (5).CBBfU0ge.png",
     "src": "src/Assets/Profils-gralypho/Frame (5).png"
   },
-  "src/Assets/Visuels portfolio gralypho/Pfolio__img-m.png": {
-    "file": "_app/immutable/assets/Pfolio__img-m.DdxsvJ_j.png",
-    "src": "src/Assets/Visuels portfolio gralypho/Pfolio__img-m.png"
+  "src/Assets/Shopify.png": {
+    "file": "_app/immutable/assets/Shopify.CsQgmk2f.png",
+    "src": "src/Assets/Shopify.png"
+  },
+  "src/Assets/Strapi.monogram.logo.png": {
+    "file": "_app/immutable/assets/Strapi.monogram.logo.DFZ6XCQH.png",
+    "src": "src/Assets/Strapi.monogram.logo.png"
+  },
+  "src/Assets/Svelte_Logo.svg.png": {
+    "file": "_app/immutable/assets/Svelte_Logo.svg.DSpNFKX2.png",
+    "src": "src/Assets/Svelte_Logo.svg.png"
+  },
+  "src/Assets/WP.png": {
+    "file": "_app/immutable/assets/WP.BuNV_5YP.png",
+    "src": "src/Assets/WP.png"
+  },
+  "src/Assets/agence SEO ouest lyonnais.jpeg": {
+    "file": "_app/immutable/assets/agence SEO ouest lyonnais.9zZYFvud.jpeg",
+    "src": "src/Assets/agence SEO ouest lyonnais.jpeg"
+  },
+  "src/Assets/atome.png": {
+    "file": "_app/immutable/assets/atome.cNx8A0OP.png",
+    "src": "src/Assets/atome.png"
+  },
+  "src/Assets/bird.jpeg": {
+    "file": "_app/immutable/assets/bird.CxfZn7zt.jpeg",
+    "src": "src/Assets/bird.jpeg"
+  },
+  "src/Assets/bird3.jpeg": {
+    "file": "_app/immutable/assets/bird3.C0ARV5Ll.jpeg",
+    "src": "src/Assets/bird3.jpeg"
+  },
+  "src/Assets/compteur3.jpeg": {
+    "file": "_app/immutable/assets/compteur3.g_VqYUvP.jpeg",
+    "src": "src/Assets/compteur3.jpeg"
+  },
+  "src/Assets/compteur7.jpeg": {
+    "file": "_app/immutable/assets/compteur7.YeULzcA1.jpeg",
+    "src": "src/Assets/compteur7.jpeg"
+  },
+  "src/Assets/firebase.png": {
+    "file": "_app/immutable/assets/firebase.BeCsZvgh.png",
+    "src": "src/Assets/firebase.png"
+  },
+  "src/Assets/gps2.png": {
+    "file": "_app/immutable/assets/gps2.BcQjWTn_.png",
+    "src": "src/Assets/gps2.png"
+  },
+  "src/Assets/gralyphoHeroImg.jpeg": {
+    "file": "_app/immutable/assets/gralyphoHeroImg.BuqUh43O.jpeg",
+    "src": "src/Assets/gralyphoHeroImg.jpeg"
+  },
+  "src/Assets/logoGralypho.jpeg": {
+    "file": "_app/immutable/assets/logoGralypho.CI6Sh97R.jpeg",
+    "src": "src/Assets/logoGralypho.jpeg"
+  },
+  "src/Assets/logoGralypho2.jpeg": {
+    "file": "_app/immutable/assets/logoGralypho2.D3k0lvnL.jpeg",
+    "src": "src/Assets/logoGralypho2.jpeg"
+  },
+  "src/Assets/montsDuLyonnais.jpeg": {
+    "file": "_app/immutable/assets/montsDuLyonnais.CxyE18oo.jpeg",
+    "src": "src/Assets/montsDuLyonnais.jpeg"
   },
   "src/Assets/png-gralypho/05.png": {
     "file": "_app/immutable/assets/05.CMoTM9lH.png",
@@ -219,17 +304,13 @@
     "file": "_app/immutable/assets/Web.BPc0i_0P.png",
     "src": "src/Assets/png-gralypho/Web.png"
   },
-  "src/Assets/png-gralypho/animationHero.mp4": {
-    "file": "_app/immutable/assets/animationHero.58qHOiZF.mp4",
-    "src": "src/Assets/png-gralypho/animationHero.mp4"
-  },
   "src/Assets/png-gralypho/animationSite.png": {
     "file": "_app/immutable/assets/animationSite.5A13XHmN.png",
     "src": "src/Assets/png-gralypho/animationSite.png"
   },
-  "src/Assets/png-gralypho/applications.png": {
-    "file": "_app/immutable/assets/applications.xGh-T5GR.png",
-    "src": "src/Assets/png-gralypho/applications.png"
+  "src/Assets/png-gralypho/application_synthtiser.png": {
+    "file": "_app/immutable/assets/application_synthtiser.DA2wKAJq.png",
+    "src": "src/Assets/png-gralypho/application_synthtiser.png"
   },
   "src/Assets/png-gralypho/automatiser.jpg": {
     "file": "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
@@ -255,17 +336,21 @@
     "file": "_app/immutable/assets/cible.Cex8LbDb.png",
     "src": "src/Assets/png-gralypho/cible.png"
   },
+  "src/Assets/png-gralypho/clefs.png": {
+    "file": "_app/immutable/assets/clefs.DWHHpNiC.png",
+    "src": "src/Assets/png-gralypho/clefs.png"
+  },
   "src/Assets/png-gralypho/client.jpg": {
     "file": "_app/immutable/assets/client.DfzRdkIb.jpg",
     "src": "src/Assets/png-gralypho/client.jpg"
   },
-  "src/Assets/png-gralypho/coiffeur.jpg": {
-    "file": "_app/immutable/assets/coiffeur.h05tlk5y.jpg",
-    "src": "src/Assets/png-gralypho/coiffeur.jpg"
-  },
   "src/Assets/png-gralypho/conception.png": {
     "file": "_app/immutable/assets/conception.C51ttLod.png",
     "src": "src/Assets/png-gralypho/conception.png"
+  },
+  "src/Assets/png-gralypho/confiance.png": {
+    "file": "_app/immutable/assets/confiance.CTRbIkSf.png",
+    "src": "src/Assets/png-gralypho/confiance.png"
   },
   "src/Assets/png-gralypho/contenuMedia.png": {
     "file": "_app/immutable/assets/contenuMedia.Ba13xP-t.png",
@@ -299,25 +384,29 @@
     "file": "_app/immutable/assets/flag.cYscVvQ2.png",
     "src": "src/Assets/png-gralypho/flag.png"
   },
+  "src/Assets/png-gralypho/google-visuel.png": {
+    "file": "_app/immutable/assets/google-visuel.CMHtC-ul.png",
+    "src": "src/Assets/png-gralypho/google-visuel.png"
+  },
   "src/Assets/png-gralypho/hamac.jpg": {
     "file": "_app/immutable/assets/hamac.DZSWG4hO.jpg",
     "src": "src/Assets/png-gralypho/hamac.jpg"
-  },
-  "src/Assets/png-gralypho/heroAnimated.gif": {
-    "file": "_app/immutable/assets/heroAnimated.BuY_tPzT.gif",
-    "src": "src/Assets/png-gralypho/heroAnimated.gif"
-  },
-  "src/Assets/png-gralypho/heroSiteWeb.png": {
-    "file": "_app/immutable/assets/heroSiteWeb.GoXYDPiL.png",
-    "src": "src/Assets/png-gralypho/heroSiteWeb.png"
   },
   "src/Assets/png-gralypho/horloge.png": {
     "file": "_app/immutable/assets/horloge.IN2i7m-e.png",
     "src": "src/Assets/png-gralypho/horloge.png"
   },
+  "src/Assets/png-gralypho/icon-change.png": {
+    "file": "_app/immutable/assets/icon-change.DobFL8Ip.png",
+    "src": "src/Assets/png-gralypho/icon-change.png"
+  },
   "src/Assets/png-gralypho/institutionnel.png": {
     "file": "_app/immutable/assets/institutionnel.bKJ9mmo3.png",
     "src": "src/Assets/png-gralypho/institutionnel.png"
+  },
+  "src/Assets/png-gralypho/lependu_application.png": {
+    "file": "_app/immutable/assets/lependu_application.DeQzCI2z.png",
+    "src": "src/Assets/png-gralypho/lependu_application.png"
   },
   "src/Assets/png-gralypho/logoBiere.png": {
     "file": "_app/immutable/assets/logoBiere.CkL8vylK.png",
@@ -334,6 +423,10 @@
   "src/Assets/png-gralypho/météo.png": {
     "file": "_app/immutable/assets/météo.B06XwhFd.png",
     "src": "src/Assets/png-gralypho/météo.png"
+  },
+  "src/Assets/png-gralypho/money.png": {
+    "file": "_app/immutable/assets/money.ltFSOmy1.png",
+    "src": "src/Assets/png-gralypho/money.png"
   },
   "src/Assets/png-gralypho/morpion.png": {
     "file": "_app/immutable/assets/morpion.8tbT5yT7.png",
@@ -355,6 +448,10 @@
     "file": "_app/immutable/assets/publiciteMedia.fhB7rHAp.png",
     "src": "src/Assets/png-gralypho/publiciteMedia.png"
   },
+  "src/Assets/png-gralypho/question.png": {
+    "file": "_app/immutable/assets/question.CaeFWC_f.png",
+    "src": "src/Assets/png-gralypho/question.png"
+  },
   "src/Assets/png-gralypho/resa.png": {
     "file": "_app/immutable/assets/resa.DvFP9yHM.png",
     "src": "src/Assets/png-gralypho/resa.png"
@@ -362,6 +459,10 @@
   "src/Assets/png-gralypho/seo3.png": {
     "file": "_app/immutable/assets/seo3.Dz4cq-kb.png",
     "src": "src/Assets/png-gralypho/seo3.png"
+  },
+  "src/Assets/png-gralypho/site internet_presse.png": {
+    "file": "_app/immutable/assets/site internet_presse.BN1JG-4C.png",
+    "src": "src/Assets/png-gralypho/site internet_presse.png"
   },
   "src/Assets/png-gralypho/six.svg": {
     "file": "_app/immutable/assets/six.BgaNOaBg.svg",
@@ -379,9 +480,9 @@
     "file": "_app/immutable/assets/supportCommunication.BSIokpEj.png",
     "src": "src/Assets/png-gralypho/supportCommunication.png"
   },
-  "src/Assets/png-gralypho/svgHero.svg": {
-    "file": "_app/immutable/assets/svgHero.vOqBhM4a.svg",
-    "src": "src/Assets/png-gralypho/svgHero.svg"
+  "src/Assets/png-gralypho/timing.png": {
+    "file": "_app/immutable/assets/timing.D0WH46ut.png",
+    "src": "src/Assets/png-gralypho/timing.png"
   },
   "src/Assets/png-gralypho/videocodecomp.mp4": {
     "file": "_app/immutable/assets/videocodecomp.DZHER-iY.mp4",
@@ -407,6 +508,10 @@
     "file": "_app/immutable/assets/wave3.DkUBYt6Z.png",
     "src": "src/Assets/png-gralypho/wave3.png"
   },
+  "src/Assets/png-gralypho/web-agency.png": {
+    "file": "_app/immutable/assets/web-agency.BhpGfxs-.png",
+    "src": "src/Assets/png-gralypho/web-agency.png"
+  },
   "src/Assets/png-gralypho/webExplosion.png": {
     "file": "_app/immutable/assets/webExplosion.Bgh2rU_O.png",
     "src": "src/Assets/png-gralypho/webExplosion.png"
@@ -414,6 +519,58 @@
   "src/Assets/png-gralypho/writing.png": {
     "file": "_app/immutable/assets/writing.BHXJFI1M.png",
     "src": "src/Assets/png-gralypho/writing.png"
+  },
+  "src/Assets/portfolio/booki.png": {
+    "file": "_app/immutable/assets/booki.CYnHUYE3.png",
+    "src": "src/Assets/portfolio/booki.png"
+  },
+  "src/Assets/portfolio/guitare.png": {
+    "file": "_app/immutable/assets/guitare.BIaGV4Iy.png",
+    "src": "src/Assets/portfolio/guitare.png"
+  },
+  "src/Assets/portfolio/issetys.png": {
+    "file": "_app/immutable/assets/issetys.CdShgxGI.png",
+    "src": "src/Assets/portfolio/issetys.png"
+  },
+  "src/Assets/portfolio/meteo.png": {
+    "file": "_app/immutable/assets/meteo.BXzgHjU9.png",
+    "src": "src/Assets/portfolio/meteo.png"
+  },
+  "src/Assets/portfolio/morpion.png": {
+    "file": "_app/immutable/assets/morpion.D-u7IUq8.png",
+    "src": "src/Assets/portfolio/morpion.png"
+  },
+  "src/Assets/portfolio/myFood.png": {
+    "file": "_app/immutable/assets/myFood.Dfz-zw16.png",
+    "src": "src/Assets/portfolio/myFood.png"
+  },
+  "src/Assets/portfolio/photo.png": {
+    "file": "_app/immutable/assets/photo.DdxsvJ_j.png",
+    "src": "src/Assets/portfolio/photo.png"
+  },
+  "src/Assets/portfolio/rocket.png": {
+    "file": "_app/immutable/assets/rocket.CzMnIfoA.png",
+    "src": "src/Assets/portfolio/rocket.png"
+  },
+  "src/Assets/portfolio/taxi.png": {
+    "file": "_app/immutable/assets/taxi.R6i9xiKM.png",
+    "src": "src/Assets/portfolio/taxi.png"
+  },
+  "src/Assets/portfolio/todo.png": {
+    "file": "_app/immutable/assets/todo.Drcj0MY9.png",
+    "src": "src/Assets/portfolio/todo.png"
+  },
+  "src/Assets/smartphoneTech.jpeg": {
+    "file": "_app/immutable/assets/smartphoneTech.D88PJoWQ.jpeg",
+    "src": "src/Assets/smartphoneTech.jpeg"
+  },
+  "src/Assets/webmaster.jpeg": {
+    "file": "_app/immutable/assets/webmaster.C5_l_wXP.jpeg",
+    "src": "src/Assets/webmaster.jpeg"
+  },
+  "src/Assets/wixLogo.png": {
+    "file": "_app/immutable/assets/wixLogo.Bp6hRyce.png",
+    "src": "src/Assets/wixLogo.png"
   },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
@@ -424,7 +581,8 @@
       "_Gralypho.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.ljXhJ8px.css"
+      "_app/immutable/assets/_layout.DQWzPxQB.css",
+      "_app/immutable/assets/styles.Bg1G4WF1.css"
     ]
   },
   "src/routes/+page.js": {
@@ -438,34 +596,57 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Gralypho.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
+      "_Form.js",
       "_ButtonCTA.js",
-      "_Form.js"
+      "_Header.js",
+      "_LinkSiteApplication.js",
+      "_FaqLink.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.BIklcFaU.css",
-      "_app/immutable/assets/Csection.DzY9Mok3.css",
-      "_app/immutable/assets/CardsSectionB.DZXTrsk_.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css"
+      "_app/immutable/assets/_page.CP98UMFZ.css",
+      "_app/immutable/assets/styles.Bg1G4WF1.css",
+      "_app/immutable/assets/CardsSectionB.CRANViEK.css",
+      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
+      "_app/immutable/assets/Difference.B_KCxHx_.css",
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css",
+      "_app/immutable/assets/Mouse.CrDjdLvN.css"
     ],
     "assets": [
-      "_app/immutable/assets/Pfolio__img-m.DdxsvJ_j.png",
-      "_app/immutable/assets/videocodecomp.DZHER-iY.mp4",
+      "_app/immutable/assets/photo.DdxsvJ_j.png",
+      "_app/immutable/assets/guitare.BIaGV4Iy.png",
+      "_app/immutable/assets/myFood.Dfz-zw16.png",
+      "_app/immutable/assets/booki.CYnHUYE3.png",
+      "_app/immutable/assets/morpion.D-u7IUq8.png",
+      "_app/immutable/assets/meteo.BXzgHjU9.png",
+      "_app/immutable/assets/rocket.CzMnIfoA.png",
+      "_app/immutable/assets/taxi.R6i9xiKM.png",
+      "_app/immutable/assets/todo.Drcj0MY9.png",
+      "_app/immutable/assets/issetys.CdShgxGI.png",
+      "_app/immutable/assets/application_synthtiser.DA2wKAJq.png",
+      "_app/immutable/assets/lependu_application.DeQzCI2z.png",
+      "_app/immutable/assets/site internet_presse.BN1JG-4C.png",
+      "_app/immutable/assets/gps2.BcQjWTn_.png",
+      "_app/immutable/assets/logoGralypho2.D3k0lvnL.jpeg",
+      "_app/immutable/assets/firebase.BeCsZvgh.png",
+      "_app/immutable/assets/Svelte_Logo.svg.DSpNFKX2.png",
+      "_app/immutable/assets/wixLogo.Bp6hRyce.png",
+      "_app/immutable/assets/Strapi.monogram.logo.DFZ6XCQH.png",
+      "_app/immutable/assets/Shopify.CsQgmk2f.png",
+      "_app/immutable/assets/WP.BuNV_5YP.png",
       "_app/immutable/assets/bgFive.CWzXpEDX.png",
       "_app/immutable/assets/hamac.DZSWG4hO.jpg",
-      "_app/immutable/assets/coiffeur.h05tlk5y.jpg",
+      "_app/immutable/assets/bird.CxfZn7zt.jpeg",
       "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
       "_app/immutable/assets/client.DfzRdkIb.jpg"
     ]
   },
-  "src/routes/Design-site-web-thurins/+page.svelte": {
-    "file": "entries/pages/Design-site-web-thurins/_page.svelte.js",
-    "src": "src/routes/Design-site-web-thurins/+page.svelte",
+  "src/routes/Design-site-web/+page.svelte": {
+    "file": "entries/pages/Design-site-web/_page.svelte.js",
+    "src": "src/routes/Design-site-web/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
+      "_Header.js",
       "_Mouse.js",
       "_ButtonCTA.js"
     ],
@@ -476,106 +657,17 @@
       "_app/immutable/assets/conception.C51ttLod.png"
     ]
   },
-  "src/routes/Digital-infos/+page.svelte": {
-    "file": "entries/pages/Digital-infos/_page.svelte.js",
-    "src": "src/routes/Digital-infos/+page.svelte",
+  "src/routes/FAQ/+page.svelte": {
+    "file": "entries/pages/FAQ/_page.svelte.js",
+    "src": "src/routes/FAQ/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_Mouse.js",
-      "_ButtonCTA.js"
+      "_Header.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DhqdCPmM.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/23.B1lRdX8y.png"
-    ]
-  },
-  "src/routes/Media-infos/+page.svelte": {
-    "file": "entries/pages/Media-infos/_page.svelte.js",
-    "src": "src/routes/Media-infos/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_Mouse.js",
-      "_ButtonCTA.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page.L7u5JExp.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/mediaWeb.BQpbU0yc.png"
-    ]
-  },
-  "src/routes/Medias-sociaux-thurins-web/+page.js": {
-    "file": "entries/pages/Medias-sociaux-thurins-web/_page.js",
-    "src": "src/routes/Medias-sociaux-thurins-web/+page.js",
-    "isEntry": true
-  },
-  "src/routes/Medias-sociaux-thurins-web/+page.svelte": {
-    "file": "entries/pages/Medias-sociaux-thurins-web/_page.svelte.js",
-    "src": "src/routes/Medias-sociaux-thurins-web/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_Services.js",
-      "_CardsSectionB.js",
-      "_Form.js",
-      "_ButtonCTA.js",
-      "_Mouse.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page.DsDOBDK5.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/writing.BHXJFI1M.png",
-      "_app/immutable/assets/contenuMedia.Ba13xP-t.png",
-      "_app/immutable/assets/publiciteMedia.fhB7rHAp.png",
-      "_app/immutable/assets/socialMedia.DR9kIDxN.png",
-      "_app/immutable/assets/wave.CaOrHhM3.png",
-      "_app/immutable/assets/wave2.D8DrRywU.png",
-      "_app/immutable/assets/wave3.DkUBYt6Z.png",
-      "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
-      "_app/immutable/assets/hamac.DZSWG4hO.jpg",
-      "_app/immutable/assets/client.DfzRdkIb.jpg"
-    ]
-  },
-  "src/routes/Referencement-seo-sea-thurins-web/+page.js": {
-    "file": "entries/pages/Referencement-seo-sea-thurins-web/_page.js",
-    "src": "src/routes/Referencement-seo-sea-thurins-web/+page.js",
-    "isEntry": true
-  },
-  "src/routes/Referencement-seo-sea-thurins-web/+page.svelte": {
-    "file": "entries/pages/Referencement-seo-sea-thurins-web/_page.svelte.js",
-    "src": "src/routes/Referencement-seo-sea-thurins-web/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_CardsSectionB.js",
-      "_Form.js",
-      "_Mouse.js",
-      "_ButtonCTA.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page.BYO2hU7_.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/seo3.Dz4cq-kb.png",
-      "_app/immutable/assets/wave.CaOrHhM3.png",
-      "_app/immutable/assets/wave2.D8DrRywU.png",
-      "_app/immutable/assets/wave3.DkUBYt6Z.png",
-      "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
-      "_app/immutable/assets/hamac.DZSWG4hO.jpg",
-      "_app/immutable/assets/client.DfzRdkIb.jpg"
+      "_app/immutable/assets/_page.CwUnK0Sj.css",
+      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
     ]
   },
   "src/routes/SuccesForm/+page.svelte": {
@@ -586,25 +678,6 @@
       "_ssr.js"
     ]
   },
-  "src/routes/Tarifs-creation-site-web-lyon/+page.js": {
-    "file": "entries/pages/Tarifs-creation-site-web-lyon/_page.js",
-    "src": "src/routes/Tarifs-creation-site-web-lyon/+page.js",
-    "isEntry": true
-  },
-  "src/routes/Tarifs-creation-site-web-lyon/+page.svelte": {
-    "file": "entries/pages/Tarifs-creation-site-web-lyon/_page.svelte.js",
-    "src": "src/routes/Tarifs-creation-site-web-lyon/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_Mouse.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_Form.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page.BsbNtejP.css"
-    ]
-  },
   "src/routes/Technologies/+page.svelte": {
     "file": "entries/pages/Technologies/_page.svelte.js",
     "src": "src/routes/Technologies/+page.svelte",
@@ -613,52 +686,153 @@
       "_ssr.js"
     ]
   },
-  "src/routes/creation-application-web-lyon/+page.js": {
-    "file": "entries/pages/creation-application-web-lyon/_page.js",
-    "src": "src/routes/creation-application-web-lyon/+page.js",
-    "isEntry": true
-  },
-  "src/routes/creation-application-web-lyon/+page.svelte": {
-    "file": "entries/pages/creation-application-web-lyon/_page.svelte.js",
-    "src": "src/routes/creation-application-web-lyon/+page.svelte",
+  "src/routes/agence-web-Lyon-creation-site-internet-seo/+page.svelte": {
+    "file": "entries/pages/agence-web-Lyon-creation-site-internet-seo/_page.svelte.js",
+    "src": "src/routes/agence-web-Lyon-creation-site-internet-seo/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_CardsSectionB.js",
-      "_Form.js",
-      "_Mouse.js",
-      "_ButtonCTA.js"
+      "_FaqLink.js",
+      "_Header.js",
+      "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.45TnnNq9.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/applications.xGh-T5GR.png"
+      "_app/immutable/assets/_page.CFugPNTD.css"
     ]
   },
-  "src/routes/creation-logos-publicite-communication-thurins-web/+page.js": {
-    "file": "entries/pages/creation-logos-publicite-communication-thurins-web/_page.js",
-    "src": "src/routes/creation-logos-publicite-communication-thurins-web/+page.js",
-    "isEntry": true
-  },
-  "src/routes/creation-logos-publicite-communication-thurins-web/+page.svelte": {
-    "file": "entries/pages/creation-logos-publicite-communication-thurins-web/_page.svelte.js",
-    "src": "src/routes/creation-logos-publicite-communication-thurins-web/+page.svelte",
+  "src/routes/agence-web-monts-du-Lyonnais/+page.svelte": {
+    "file": "entries/pages/agence-web-monts-du-Lyonnais/_page.svelte.js",
+    "src": "src/routes/agence-web-monts-du-Lyonnais/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_CardsSectionB.js",
-      "_Form.js",
+      "_FaqLink.js",
+      "_Header.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D5VlthQO.css",
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/montsDuLyonnais.CxyE18oo.jpeg"
+    ]
+  },
+  "src/routes/agence-web-region-Lyonnaise/+page.svelte": {
+    "file": "entries/pages/agence-web-region-Lyonnaise/_page.svelte.js",
+    "src": "src/routes/agence-web-region-Lyonnaise/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_FaqLink.js",
+      "_Header.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CD58YFaE.css"
+    ]
+  },
+  "src/routes/blog/+page.server.js": {
+    "file": "entries/pages/blog/_page.server.js",
+    "src": "src/routes/blog/+page.server.js",
+    "isEntry": true
+  },
+  "src/routes/blog/+page.svelte": {
+    "file": "entries/pages/blog/_page.svelte.js",
+    "src": "src/routes/blog/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DiWWVTJ_.css"
+    ]
+  },
+  "src/routes/blog/[slug]/+page.server.js": {
+    "file": "entries/pages/blog/_slug_/_page.server.js",
+    "src": "src/routes/blog/[slug]/+page.server.js",
+    "isEntry": true
+  },
+  "src/routes/blog/[slug]/+page.svelte": {
+    "file": "entries/pages/blog/_slug_/_page.svelte.js",
+    "src": "src/routes/blog/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DyiYU1fH.css"
+    ]
+  },
+  "src/routes/community-management/+page.svelte": {
+    "file": "entries/pages/community-management/_page.svelte.js",
+    "src": "src/routes/community-management/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
       "_Mouse.js",
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Co0YWNsB.css",
+      "_app/immutable/assets/_page.DEv9m1Ek.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/mediaWeb.BQpbU0yc.png"
+    ]
+  },
+  "src/routes/creation-application/+page.js": {
+    "file": "entries/pages/creation-application/_page.js",
+    "src": "src/routes/creation-application/+page.js",
+    "isEntry": true
+  },
+  "src/routes/creation-application/+page.svelte": {
+    "file": "entries/pages/creation-application/_page.svelte.js",
+    "src": "src/routes/creation-application/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_Mouse.js",
+      "_ImagesBlocks.js",
+      "_FaqLink.js",
+      "_Form.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.7JurYfWb.css",
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/bird3.C0ARV5Ll.jpeg",
+      "_app/immutable/assets/smartphoneTech.D88PJoWQ.jpeg",
+      "_app/immutable/assets/compteur7.YeULzcA1.jpeg"
+    ]
+  },
+  "src/routes/creation-design-logos/+page.js": {
+    "file": "entries/pages/creation-design-logos/_page.js",
+    "src": "src/routes/creation-design-logos/+page.js",
+    "isEntry": true
+  },
+  "src/routes/creation-design-logos/+page.svelte": {
+    "file": "entries/pages/creation-design-logos/_page.svelte.js",
+    "src": "src/routes/creation-design-logos/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_Form.js",
+      "_Mouse.js",
+      "_ButtonCTA.js",
+      "_FaqLink.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.1AxBdQxx.css",
       "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/Services.87bsy7Mr.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css"
+      "_app/immutable/assets/Services.BDBb_9VS.css",
+      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
+      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
     ],
     "assets": [
       "_app/immutable/assets/webExplosion.Bgh2rU_O.png",
@@ -673,10 +847,48 @@
       "_app/immutable/assets/client.DfzRdkIb.jpg"
     ]
   },
-  "src/routes/creation-site-web-lyon/+page.js": {
-    "file": "entries/pages/creation-site-web-lyon/_page.js",
-    "src": "src/routes/creation-site-web-lyon/+page.js",
+  "src/routes/creation-site-application-Lyon/+page.svelte": {
+    "file": "entries/pages/creation-site-application-Lyon/_page.svelte.js",
+    "src": "src/routes/creation-site-application-Lyon/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_ButtonCTA.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Difference.B_KCxHx_.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/videocodecomp.DZHER-iY.mp4"
+    ]
+  },
+  "src/routes/creation-site-internet/+page.js": {
+    "file": "entries/pages/creation-site-internet/_page.js",
+    "src": "src/routes/creation-site-internet/+page.js",
     "isEntry": true
+  },
+  "src/routes/creation-site-internet/+page.svelte": {
+    "file": "entries/pages/creation-site-internet/_page.svelte.js",
+    "src": "src/routes/creation-site-internet/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_Mouse.js",
+      "_FaqLink.js",
+      "_ImagesBlocks.js",
+      "_Form.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CYZg72se.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/bird.CxfZn7zt.jpeg",
+      "_app/immutable/assets/gralyphoHeroImg.BuqUh43O.jpeg",
+      "_app/immutable/assets/compteur3.g_VqYUvP.jpeg"
+    ]
   },
   "src/routes/creation-site-web-lyon/+page.svelte": {
     "file": "entries/pages/creation-site-web-lyon/_page.svelte.js",
@@ -684,26 +896,41 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_Services.js",
-      "_cible.js",
-      "_CardsSectionB.js",
-      "_Form.js",
-      "_Mouse.js",
+      "_FaqLink.js",
+      "_Header.js",
       "_ButtonCTA.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.tKRVm4ly.css",
+      "_app/immutable/assets/_page.CAtcdUcC.css"
+    ]
+  },
+  "src/routes/etude-strategie-digitale/+page.js": {
+    "file": "entries/pages/etude-strategie-digitale/_page.js",
+    "src": "src/routes/etude-strategie-digitale/+page.js",
+    "isEntry": true
+  },
+  "src/routes/etude-strategie-digitale/+page.svelte": {
+    "file": "entries/pages/etude-strategie-digitale/_page.svelte.js",
+    "src": "src/routes/etude-strategie-digitale/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_Form.js",
+      "_Mouse.js",
+      "_ButtonCTA.js",
+      "_FaqLink.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.9E3E4LCc.css",
       "_app/immutable/assets/Banner.CKvx_G50.css",
+      "_app/immutable/assets/Services.BDBb_9VS.css",
       "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/Csection.DzY9Mok3.css"
+      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
     ],
     "assets": [
-      "_app/immutable/assets/05.CMoTM9lH.png",
-      "_app/immutable/assets/30.BFCi5cgd.png",
-      "_app/immutable/assets/Web.BPc0i_0P.png",
-      "_app/immutable/assets/Ellipse 54.DIEw8Lr6.png",
-      "_app/immutable/assets/heroSiteWeb.GoXYDPiL.png",
+      "_app/immutable/assets/cible.Cex8LbDb.png",
       "_app/immutable/assets/wave.CaOrHhM3.png",
       "_app/immutable/assets/wave2.D8DrRywU.png",
       "_app/immutable/assets/wave3.DkUBYt6Z.png",
@@ -712,13 +939,137 @@
       "_app/immutable/assets/client.DfzRdkIb.jpg"
     ]
   },
-  "src/routes/creation-site-web-ouest-lyonnais/+page.svelte": {
-    "file": "entries/pages/creation-site-web-ouest-lyonnais/_page.svelte.js",
-    "src": "src/routes/creation-site-web-ouest-lyonnais/+page.svelte",
+  "src/routes/gestion-media-sociaux/+page.js": {
+    "file": "entries/pages/gestion-media-sociaux/_page.js",
+    "src": "src/routes/gestion-media-sociaux/+page.js",
+    "isEntry": true
+  },
+  "src/routes/gestion-media-sociaux/+page.svelte": {
+    "file": "entries/pages/gestion-media-sociaux/_page.svelte.js",
+    "src": "src/routes/gestion-media-sociaux/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
+      "_Header.js",
+      "_Form.js",
+      "_ButtonCTA.js",
+      "_FaqLink.js",
+      "_LinkSiteApplication.js",
+      "_Mouse.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Cx_W7qlz.css",
+      "_app/immutable/assets/Banner.CKvx_G50.css",
+      "_app/immutable/assets/Services.BDBb_9VS.css",
+      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
+      "_app/immutable/assets/CardsSectionB.CRANViEK.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/writing.BHXJFI1M.png",
+      "_app/immutable/assets/contenuMedia.Ba13xP-t.png",
+      "_app/immutable/assets/publiciteMedia.fhB7rHAp.png",
+      "_app/immutable/assets/socialMedia.DR9kIDxN.png",
+      "_app/immutable/assets/wave.CaOrHhM3.png",
+      "_app/immutable/assets/wave2.D8DrRywU.png",
+      "_app/immutable/assets/wave3.DkUBYt6Z.png",
+      "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
+      "_app/immutable/assets/hamac.DZSWG4hO.jpg",
+      "_app/immutable/assets/client.DfzRdkIb.jpg"
+    ]
+  },
+  "src/routes/referencement-seo-sea/+page.js": {
+    "file": "entries/pages/referencement-seo-sea/_page.js",
+    "src": "src/routes/referencement-seo-sea/+page.js",
+    "isEntry": true
+  },
+  "src/routes/referencement-seo-sea/+page.svelte": {
+    "file": "entries/pages/referencement-seo-sea/_page.svelte.js",
+    "src": "src/routes/referencement-seo-sea/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_Form.js",
+      "_Mouse.js",
+      "_FaqLink.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BtZNR86T.css",
+      "_app/immutable/assets/Banner.CKvx_G50.css",
+      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
+      "_app/immutable/assets/CardsSectionB.CRANViEK.css",
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/agence SEO ouest lyonnais.9zZYFvud.jpeg",
+      "_app/immutable/assets/wave.CaOrHhM3.png",
+      "_app/immutable/assets/wave2.D8DrRywU.png",
+      "_app/immutable/assets/wave3.DkUBYt6Z.png",
+      "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
+      "_app/immutable/assets/hamac.DZSWG4hO.jpg",
+      "_app/immutable/assets/client.DfzRdkIb.jpg"
+    ]
+  },
+  "src/routes/site-internet-CMS/+page.svelte": {
+    "file": "entries/pages/site-internet-CMS/_page.svelte.js",
+    "src": "src/routes/site-internet-CMS/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_ButtonCTA.js",
+      "_FaqLink.js",
+      "_LinkSiteApplication.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.pcovMyCQ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/CMS.BzMz0enP.jpeg"
+    ]
+  },
+  "src/routes/site-internet-Lyon/+page.svelte": {
+    "file": "entries/pages/site-internet-Lyon/_page.svelte.js",
+    "src": "src/routes/site-internet-Lyon/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
+      "_Mouse.js",
+      "_ButtonCTA.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Cp6XIBK0.css"
+    ]
+  },
+  "src/routes/tarifs/+page.js": {
+    "file": "entries/pages/tarifs/_page.js",
+    "src": "src/routes/tarifs/+page.js",
+    "isEntry": true
+  },
+  "src/routes/tarifs/+page.svelte": {
+    "file": "entries/pages/tarifs/_page.svelte.js",
+    "src": "src/routes/tarifs/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Mouse.js",
+      "_Header.js",
+      "_Form.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Bg5-KPCx.css",
+      "_app/immutable/assets/FaqLink.4T2lJwKa.css"
+    ]
+  },
+  "src/routes/types-site-web/+page.svelte": {
+    "file": "entries/pages/types-site-web/_page.svelte.js",
+    "src": "src/routes/types-site-web/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Header.js",
       "_Mouse.js",
       "_ButtonCTA.js"
     ],
@@ -735,37 +1086,46 @@
       "_app/immutable/assets/e-commerce.BjgJq6ka.jpg"
     ]
   },
-  "src/routes/strategie-communication-web/+page.js": {
-    "file": "entries/pages/strategie-communication-web/_page.js",
-    "src": "src/routes/strategie-communication-web/+page.js",
-    "isEntry": true
-  },
-  "src/routes/strategie-communication-web/+page.svelte": {
-    "file": "entries/pages/strategie-communication-web/_page.svelte.js",
-    "src": "src/routes/strategie-communication-web/+page.svelte",
+  "src/routes/webmaster-monts-du-lyonnais-lyon-ouest/+page.svelte": {
+    "file": "entries/pages/webmaster-monts-du-lyonnais-lyon-ouest/_page.svelte.js",
+    "src": "src/routes/webmaster-monts-du-lyonnais-lyon-ouest/+page.svelte",
     "isEntry": true,
     "imports": [
       "_ssr.js",
-      "_Mouse.svelte_svelte_type_style_lang.js",
-      "_Form.js",
-      "_Mouse.js",
-      "_cible.js",
-      "_ButtonCTA.js"
+      "_FaqLink.js",
+      "_Header.js",
+      "_LinkSiteApplication.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Dr-yZY1e.css",
-      "_app/immutable/assets/Banner.CKvx_G50.css",
-      "_app/immutable/assets/Services.87bsy7Mr.css",
-      "_app/immutable/assets/BeneficeSection.DejyNUgx.css",
-      "_app/immutable/assets/CardsSectionB.DZXTrsk_.css"
+      "_app/immutable/assets/_page.DGr5IXTa.css",
+      "_app/immutable/assets/ButtonCTA.yE69egVd.css"
     ],
     "assets": [
-      "_app/immutable/assets/wave.CaOrHhM3.png",
-      "_app/immutable/assets/wave2.D8DrRywU.png",
-      "_app/immutable/assets/wave3.DkUBYt6Z.png",
-      "_app/immutable/assets/automatiser.CNtU1tz5.jpg",
-      "_app/immutable/assets/hamac.DZSWG4hO.jpg",
-      "_app/immutable/assets/client.DfzRdkIb.jpg"
+      "_app/immutable/assets/webmaster.C5_l_wXP.jpeg"
+    ]
+  },
+  "src/routes/webmaster-ouest-lyonnais/+page.svelte": {
+    "file": "entries/pages/webmaster-ouest-lyonnais/_page.svelte.js",
+    "src": "src/routes/webmaster-ouest-lyonnais/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_ButtonCTA.js",
+      "_Header.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DsYHJNsZ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/BillyWinner.BFpNhcs6.png",
+      "_app/immutable/assets/money.ltFSOmy1.png",
+      "_app/immutable/assets/timing.D0WH46ut.png",
+      "_app/immutable/assets/web-agency.BhpGfxs-.png",
+      "_app/immutable/assets/google-visuel.CMHtC-ul.png",
+      "_app/immutable/assets/question.CaeFWC_f.png",
+      "_app/immutable/assets/icon-change.DobFL8Ip.png",
+      "_app/immutable/assets/clefs.DWHHpNiC.png",
+      "_app/immutable/assets/confiance.CTRbIkSf.png"
     ]
   }
 }

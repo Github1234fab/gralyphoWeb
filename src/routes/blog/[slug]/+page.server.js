@@ -46,6 +46,7 @@ export async function load({ params }) {
         ...data, // title, date, description, etc.
         content: marked(content)
       }
+      
     };
   } catch (err) {
     console.error(`Erreur de chargement de l'article ${slug}:`, err);
@@ -54,6 +55,7 @@ export async function load({ params }) {
     };
   }
 }
+
 
 /** Fonction utilisée par SvelteKit pour le prerender */
 export async function entries() {
