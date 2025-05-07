@@ -3,8 +3,7 @@
     publish = "build/"
     functions = "functions/"
 
-    [[plugins]]
-  package = "@netlify/plugin-sveltekit"
+
 
 
 
