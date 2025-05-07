@@ -39,6 +39,25 @@
 
 // export default config;
 
+// import adapter from '@sveltejs/adapter-netlify';
+// import { mdsvex } from 'mdsvex';
+
+// /** @type {import('@sveltejs/kit').Config} */
+// const config = {
+//   // ✅ Ces deux options sont au niveau racine, pas dans `kit`
+//   extensions: ['.svelte', '.svx'],
+//   preprocess: mdsvex(),
+
+//   kit: {
+//     adapter: adapter(),
+//     // Tu peux ajouter ici d’autres options comme `prerender` ou `paths` si besoin
+//   }
+// };
+
+// export default config;
+
+
+
 import adapter from '@sveltejs/adapter-netlify';
 import { mdsvex } from 'mdsvex';
 
@@ -48,10 +67,15 @@ const config = {
   extensions: ['.svelte', '.svx'],
   preprocess: mdsvex(),
 
-  kit: {
-    adapter: adapter(),
-    // Tu peux ajouter ici d’autres options comme `prerender` ou `paths` si besoin
-  }
-};
+  adapter: adapter({
+	// Utilisation de SSR sur Netlify
+	prerender: {
+	  // Configure la pré-rendu
+	  default: true
+	}
+  }),
+  ssr: true,  // Activation de SSR
+}
+;
 
 export default config;
