@@ -41,19 +41,28 @@
 
 import adapter from '@sveltejs/adapter-netlify';
 import { mdsvex } from 'mdsvex';
+import sveltePreprocess from 'svelte-preprocess';
 
-/** @type {import('@sveltejs/kit').Config} */
+/** @type {import('vite').UserConfig} */
 const config = {
+  // ✅ preprocess doit être à la racine
+  preprocess: [
+    sveltePreprocess(),
+    mdsvex({
+      extension: '.svx'
+    })
+  ],
+
+  extensions: ['.svelte', '.svx'],
+
   kit: {
     adapter: adapter({
-      fallback: 'index.html', // Prévient les erreurs de routes 404
+      fallback: 'index.html'
     }),
     prerender: {
-      entries: ['*'], // Permet de pré-rendre toutes les pages
-    },
-    preprocess: mdsvex(),
-  },
+      entries: ['*']
+    }
+  }
 };
 
 export default config;
-
