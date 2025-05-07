@@ -42,8 +42,8 @@ export async function load({ params }) {
 
     return {
       article: {
-        slug, // ✅ Ajout ici
-        ...data, // title, image, date, description, etc.
+        slug,
+        ...data, // title, date, description, etc.
         content: marked(content)
       }
     };
@@ -55,3 +55,13 @@ export async function load({ params }) {
   }
 }
 
+/** Fonction utilisée par SvelteKit pour le prerender */
+export async function entries() {
+  const files = fs.readdirSync('src/content');
+  return files
+    .filter(file => file.endsWith('.md'))
+    .map(file => {
+      const slug = file.slice(0, -3); // Supprime ".md"
+      return { slug };
+    });
+}
