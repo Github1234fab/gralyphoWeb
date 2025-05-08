@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
+
 export async function load() {
   const articlesDir = 'src/content';
   console.log('Environnement:', process.env.NODE_ENV);

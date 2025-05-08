@@ -1,6 +1,7 @@
 <script>
 	export let data;
 	const { article } = data;
+    import Header from "../../../sections/Header.svelte";
 </script>
 
 <svelte:head>
@@ -13,6 +14,7 @@
 	<meta property="og:type" content="article" />
 </svelte:head>
 
+<Header />
 {#if article}
 	<article class="article-content">
 		<h1>{article.title}</h1>

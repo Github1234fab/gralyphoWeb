@@ -1,7 +1,19 @@
 <script>
     export let data;
+    import Header from "../../sections/Header.svelte";
   </script>
-  
+  <Header/>
+
+  <svelte:head>
+  <title>Blog | Gralypho</title>
+  <meta name="description" content="Retrouvez tous les articles de notre blog : conseils, actualités et analyses." />
+  <meta property="og:title" content="Blog | Gralypho" />
+  <meta property="og:description" content="Retrouvez tous les articles de notre blog : conseils, actualités et analyses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gralypho/blog" />
+</svelte:head>
+
+
   <main>
   <h1>Blog</h1>
   
