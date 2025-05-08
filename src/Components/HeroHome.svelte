@@ -11,7 +11,7 @@
 
 <main>
 	<div class="wrapper__text">
-		<h1>Votre agence Web experte, <br />au coeur des Monts du Lyonnais!</h1>
+		<h1>Votre agence Web experte, <br />au coeur des Monts du Lyonnais !</h1>
 	<h2>
 	En tant qu'<strong>agence web spécialisée</strong> dans la 
 	<a href="/creation-site-internet" class="maillage">création de sites internet</a> et d'

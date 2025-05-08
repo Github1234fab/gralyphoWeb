@@ -153,7 +153,7 @@
 		background-color: var(--green);
 		font-size: var(--m);
 		border: 1px solid white;
-		color: var(--primary);
+		color: white;
 		font-family: epilogue;
 		font-weight: 800;
 		padding: 25px 30px;

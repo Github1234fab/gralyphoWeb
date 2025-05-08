@@ -37,7 +37,7 @@
 		max-height: auto;
 		gap: 50px;
 		border-radius: 10px;
-		border: 1px solid var(--cta);
+		border: 1px solid #877555;
 		position: relative;
 		overflow: hidden;
 	}
@@ -57,7 +57,7 @@
 		left: 0;
 		width: 100%; /* w-56 */
 		height: 100%; /* h-48 */
-		background-color: rgb(152, 156, 235);
+		background-color: var(--green);
 		z-index: 1;
 	}
 	.wrapper__offer-infos-product {
@@ -105,13 +105,13 @@
 		font-family: var(--Red);
 		font-size: 2rem;
 		font-weight: 900;
-		background-color: var(--blue);
+		background-color: #877555;
 		border: 1px solid grey;
 		color: rgb(255, 255, 255);
 		padding: 10px;
 		margin: 30px auto;
 		width: 100%;
-
+border-radius: 5px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -200,7 +200,7 @@
 			height: auto;
 			padding: 20px;
 			border-radius: 10px;
-			border: 1px solid var(--blue);
+			border: 1px solid #877555;
 		}
 
 		.wrapper__offer-infos ul h3 {

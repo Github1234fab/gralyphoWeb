@@ -61,7 +61,7 @@
 		z-index: 0;
 		position: relative;
 		overflow: hidden;
-		border: 1px solid rgb(83, 83, 83);
+		border: 1px solid #8775555c;
 	}
 
 
@@ -82,7 +82,7 @@
 		padding: 15px 20px;
 		color: var(--whiteGrey);
 		font-size: 1.5rem;
-		background-color: rgb(66, 3, 3);
+		background-color: #877555;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -103,12 +103,12 @@
 		flex-grow: 1;
 	}
 	.wrapper-text h2 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		color: var(--whiteGrey);
-		font-weight: 700;
+		font-weight: 500;
 		font-family: epilogue;
 		letter-spacing: -1px;
-		line-height: 40px;
+		line-height: 30px;
 		white-space: pre-line;
 		text-align: center;
 	}
@@ -140,8 +140,8 @@
 	}
 
 	a {
-		background-color: var(--green);
-		color: var(--primary);
+		background-color: var(--CTA);
+		color: var(--whiteGrey);
 		font-family: 'Red Hat Display';
 		font-size: 1rem;
 		font-weight: 700;
@@ -170,10 +170,16 @@
 	@media screen and (max-width: 768px) {
 		.card {
 			flex: 1 1 100%; /* 1 carte par ligne */
+			height: 600px;
 		}
 
+		.layer{
+			font-size: 1.3rem;
+		}
 		.wrapper-text h2 {
-			font-size: 1.5rem;
+			font-size: 1.3rem;
+			line-height: 30px;
+			font-weight: 500;
 		}
 	}
 </style>
