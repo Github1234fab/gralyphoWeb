@@ -135,7 +135,7 @@
 <section class="G-section">
 	<div class="wrapper-text">
 		<h1>
-			Nos réalisations<br />
+			Nos réalisations <br />
 		</h1>
 	</div>
 
@@ -178,12 +178,12 @@
 		flex: 1 1 10%;
 	}
 
-	@media screen and (max-width: 768px){
+	/* @media screen and (max-width: 768px){
 		.G-section{
 			height: fit-content;
 		}
 			.G-section h1{
 			font-size: 2rem;
 		}
-	}
+	} */
 </style>

@@ -1,6 +1,6 @@
 <script>
 	import Photo from '../Assets/portfolio/photo.png';
-	import Guitare from '../Assets/portfolio/guitare.png';
+	import Guitare from '../Assets/cours-guitare.png';
 	import myFood from '../Assets/portfolio/myFood.png';
 
 	import Booki from '../Assets/portfolio/booki.png';
@@ -14,9 +14,15 @@
 	import Pendu from '../Assets/png-gralypho/lependu_application.png';
 	import Info from '../Assets/png-gralypho/site internet_presse.png';
 	import gps from '../Assets/gps2.png';
+	import Alcaix from '../Assets/alcaix-coach.png';
 
 	let currentIndex = 0;
 	const slides = [
+		{
+			title: 'Site vitrine',
+			image: Alcaix,
+			lien: 'https://www.frederiquealcaix.fr/'
+		},
 		{
 			title: 'PWA',
 			image: gps,
@@ -60,7 +66,7 @@
 			lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
 		},
 		{
-			title: 'Composant - Horloge',
+			title: 'Site vitrine',
 			image: Guitare,
 			lien: 'https://cours-guitare-domicile-lyon.com/'
 		},
@@ -113,13 +119,13 @@
 <style>
 	.slider {
 		border: 0px solid white;
-		width: 55%;
+		width: 100%;
+		height: 600px;
 		border-radius: 10px;
 		overflow: hidden;
 		margin: 40px auto;
 		position: relative;
-		box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.342);
-		/* background-color: var(--cta); */
+		/* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.342); */
 		margin-bottom: 100px;
 	}
 
@@ -144,8 +150,8 @@
 
 	.img {
 		width: 100%;
-		height: auto;
-		display: block;
+		height: 600px;
+		object-fit: cover;
 	}
 
 	.navigation {
@@ -156,7 +162,7 @@
 		justify-content: space-between;
 		transform: translateY(-50%);
 		z-index: 1;
-		padding: 10px;
+		padding: 50px;
 	}
 
 	button {
@@ -165,23 +171,21 @@
 		color: rgb(255, 255, 255);
 		padding: 10px;
 		cursor: pointer;
-		transition: background-color 0.3s;
+		transition: 0.3s;
 		width: 50px;
 		height: 50px;
 		font-size: 1rem;
 		text-align: center;
 		font-weight: bolder;
-		background-color: var(--cta);
+		background-color: var(--blue);
 		border-radius: 50%;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	}
 	button:hover {
-		background-color: transparent;
-		color: var(--cta);
-	}
-
-	button:hover {
-		background-color: transparent;
+		background-color: var(--blue);
+		border: 2px solid white;
+		width: 40px;
+		height: 40px;
 	}
 
 	.slide a {
@@ -194,7 +198,7 @@
 		color: var(--whiteGrey);
 		background-color: var(--cta);
 		display: flex;
-		max-width: 10%;
+		width: 20%;
 		align-items: center;
 		justify-content: center;
 	}
@@ -205,42 +209,19 @@
 	}
 
 	@media screen and (max-width: 768px) {
-		.slide a {
-			max-width: 25%;
-		}
 		.slider {
-			width: 100%;
-			border-radius: 5px;
-			height: 450px;
-			overflow: hidden;
-			margin: 0px auto;
-			position: relative;
+			height: 500px;
 		}
-
 		.img {
 			width: 100%;
-			height: auto;
-			display: block;
-		}
-	}
-	@media screen and (max-width: 550px) {
-		.slide a {
-			max-width: 25%;
-		}
-		.slider {
-			min-width: 100%;
-			border-radius: 5px;
-			height: 300px;
-			overflow: hidden;
-			margin: 60px auto;
-			position: relative;
-			/* border: 1px solid grey; */
+			height: 500px;
+			object-fit: cover;
 		}
 
-		.img {
-			width: 100%;
-			height: 100%;
-			display: block;
+		button {
+			width: 30px;
+			height: 30px;
+			font-size: 0.8rem;
 		}
 	}
 </style>
