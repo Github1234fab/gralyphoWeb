@@ -87,6 +87,30 @@
 	let images = [Bird, Woman, Smartphone];
 </script>
 
+<svelte:head>
+  <title>Création de site internet à Lyon | Site vitrine & e-commerce | Gralypho</title>
+  <meta name="description" content="Vous cherchez à créer un site internet à Lyon-0uest ? Gralypho vous accompagne dans la conception de sites vitrines et e-commerce, modernes, rapides et bien référencés." />
+
+  <!-- Open Graph pour Facebook, LinkedIn etc. -->
+  <meta property="og:title" content="Création de site internet à Lyon-Ouest | Gralypho" />
+  <meta property="og:description" content="Gralypho crée votre site internet sur mesure à Lyon : vitrine, e-commerce, responsive et optimisé pour le SEO local." />
+  <meta property="og:url" content="https://gralypho.com/creation-site-internet" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://gralypho.com/images/creation-site-preview.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Création de site internet à Lyon | Gralypho" />
+  <meta name="twitter:description" content="Création de sites vitrines et e-commerce à Lyon. Performance, design et référencement local." />
+  <meta name="twitter:image" content="https://gralypho.com/images/creation-site-preview.jpg" />
+
+  <!-- SEO technique -->
+  <link rel="canonical" href="https://gralypho.com/creation-site-internet" />
+  <meta name="robots" content="index, follow" />
+</svelte:head>
+
+
+
 <Header />
 <Mouse />
 

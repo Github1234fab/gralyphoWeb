@@ -51,6 +51,7 @@
 		align-items: center;
 		padding: 20px;
 		gap: 0px;
+
 	}
 	.wrapper__logos {
 		display: flex;
@@ -126,6 +127,8 @@
 		border-radius: 10px;
 		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.50);
 		margin-top: 70px;
+	
+
 	}
 	.Firebase,
 	.svelte,
