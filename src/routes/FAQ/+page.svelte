@@ -158,6 +158,29 @@
 	];
 </script>
 
+<svelte:head>
+  <title>FAQ – Création de site, application & référencement à Lyon | Gralypho</title>
+  <meta name="description" content="Retrouvez les réponses aux questions fréquentes sur la création de site internet, d’application web/mobile et sur le référencement SEO/SEA à Lyon - Ouest. Gralypho vous guide." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FAQ – Création de site, application & référencement à Lyon - Ouest | Gralypho" />
+  <meta property="og:description" content="Besoin d'infos sur la création web, le développement d'applications ou le référencement ? Gralypho répond aux questions fréquentes de ses clients à Lyon." />
+  <meta property="og:url" content="https://gralypho.com/FAQ" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://media.istockphoto.com/id/1349998432/fr/photo/rendu-3d-du-concept-dentreprise-de-la-faq.jpg?s=612x612&w=0&k=20&c=OSrSjPJR3olCUwOjTJeOGC04qdYJX_2TDX4lq5Duq3w=" /> <!-- Remplacer par ton image si existante -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FAQ – Gralypho : web, app & SEO à Lyon - Ouest" />
+  <meta name="twitter:description" content="Toutes les réponses aux questions fréquentes sur nos services de création web et référencement à Lyon." />
+  <meta name="twitter:image" content="https://media.istockphoto.com/id/1349998432/fr/photo/rendu-3d-du-concept-dentreprise-de-la-faq.jpg?s=612x612&w=0&k=20&c=OSrSjPJR3olCUwOjTJeOGC04qdYJX_2TDX4lq5Duq3w=" />
+
+  <!-- SEO technique -->
+  <link rel="canonical" href="https://gralypho.com/FAQ" />
+  <meta name="robots" content="index, follow" />
+</svelte:head>
+
+
 <Header />
 
 <main in:fade={{ duration: 1000 }}>

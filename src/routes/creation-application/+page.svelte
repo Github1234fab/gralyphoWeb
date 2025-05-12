@@ -49,6 +49,29 @@
 <Header />
 <Mouse />
 
+<svelte:head>
+  <title>Création d'application web et mobile à Lyon-Ouest | PWA et Native | Gralypho</title>
+  <meta name="description" content="Gralypho conçoit des applications web et mobiles à Lyon-Ouest. Solutions sur-mesure, modernes, sécurisées et évolutives pour start-ups, entreprises et indépendants." />
+
+  <!-- Open Graph (Facebook, LinkedIn...) -->
+  <meta property="og:title" content="Création d'application web et mobile à Lyon - Ouest | Gralypho" />
+  <meta property="og:description" content="Développement d'applications sur mesure à Lyon. Progressive web apps et native." />
+  <meta property="og:url" content="https://gralypho.com/creation-application" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.pyreweb.com/files/crop/bandeaux/images/bandeaux-pages/bandeau-dev-application-1_crop0.jpg" /> <!-- Remplace selon ton image réelle -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Création d'application web et mobile à Lyon - Ouest | Gralypho" />
+  <meta name="twitter:description" content="Développement d'applications sur mesure à Lyon -Ouest. Progressive web apps et native." />
+  <meta name="twitter:image" content="https://www.pyreweb.com/files/crop/bandeaux/images/bandeaux-pages/bandeau-dev-application-1_crop0.jpg" />
+
+  <!-- Technique SEO -->
+  <link rel="canonical" href="https://gralypho.com/creation-application" />
+  <meta name="robots" content="index, follow" />
+</svelte:head>
+
+
 <main>
 	<div class="wrapper__images">
 		<Images img={images} alt="image" />

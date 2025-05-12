@@ -51,6 +51,29 @@
 	// ];
 </script>
 
+<svelte:head>
+  <title>Référencement SEO & SEA à Lyon - Ouest | Expertise SEO | Gralypho</title>
+  <meta name="description" content="Améliorez votre visibilité sur Google grâce à nos stratégies SEO : Générer plus de leads, convertissez plus de prospects, obtenez plus de clients." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Référencement SEO & SEA à Lyon - Ouest | Gralypho" />
+  <meta property="og:description" content="Améliorez votre visibilité sur Google grâce à nos stratégies SEO : Générer plus de leads, convertissez plus de prospects, obtenez plus de clients.." />
+  <meta property="og:url" content="https://gralypho.com/referencement-seo-sea" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://cdn5.balboacapital.com/uploads/2022/07/12155339/what-is-seo-blog.jpg" /> <!-- À remplacer par une image pertinente -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Référencement SEO & SEA à Lyon | Gralypho" />
+  <meta name="twitter:description" content="Boostez votre trafic et vos conversions avec le SEO et SEA local à Lyon. Audit, stratégie, contenu, campagnes Google Ads." />
+  <meta name="twitter:image" content="https://cdn5.balboacapital.com/uploads/2022/07/12155339/what-is-seo-blog.jpg" />
+
+  <!-- SEO technique -->
+  <link rel="canonical" href="https://gralypho.com/referencement-seo-sea" />
+  <meta name="robots" content="index, follow" />
+</svelte:head>
+
+
 <Mouse />
 <Header />
 
