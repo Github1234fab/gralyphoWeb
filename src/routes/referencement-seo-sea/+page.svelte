@@ -70,21 +70,23 @@
 		<img src={SEO} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
 
 		<h1>Boostez votre visibilité en ligne avec Gralypho <br />Agence SEO à l'ouest de Lyon :</h1>
+		<div class="wrapper__para">
+			<h2>Pourquoi investir dans le SEO pour votre site web ?</h2>
+			<img class="img" src="https://www.wikilink.io/wk_thm/uploads/2021/11/referencement-naturel-investissement.jpg" alt="une fusée qui décolle pour le SEO" />
+			<p>
+				Le SEO (Search Engine Optimization), ou référencement naturel, regroupe un ensemble de techniques permettant d'améliorer de manière notoire la visibilité d'un site internet sur les moteurs de recherche et son position dans la SERP (positionnement dans les résultats de recherche).
+				<br />Un SEO conçu efficacement créer un trafic organique vers votre site et le fait remonter dans le classement de la SERP. Le but est d'optimiser différents paramètres afin d'augmenter les clics et d'obtenir des conversions
+			</p>
 
-		<h2>Pourquoi investir dans le SEO pour votre site web ?</h2>
-		<img class="img" src="https://www.wikilink.io/wk_thm/uploads/2021/11/referencement-naturel-investissement.jpg" alt="une fusée qui décolle pour le SEO" />
-		<p>
-			Le SEO (Search Engine Optimization), ou référencement naturel, regroupe un ensemble de techniques permettant d'améliorer de manière notoire la visibilité d'un site internet sur les moteurs de recherche et son position dans la SERP (positionnement dans les résultats de recherche).
-			<br />Un SEO conçu efficacement créer un trafic organique vers votre site et le fait remonter dans le classement de la SERP. Le but est d'optimiser différents paramètres afin d'augmenter les clics et d'obtenir des conversions
-		</p>
+			<ul>
+				<li>Augmentez votre visibilité et obtenez plus de trafic</li>
+				<li>Générez plus de leads qualifiés</li>
+				<li>Obtenez un plus grand taux de conversion</li>
+				<li>Stabilisez votre visibilité</li>
+			</ul>
+		</div>
 
-		<ul>
-			<li>Augmentez votre visibilité et obtenez plus de trafic</li>
-			<li>Générez plus de leads qualifiés</li>
-			<li>Obtenez un plus grand taux de conversion</li>
-			<li>Stabilisez votre visibilité</li>
-		</ul>
-
+		<div class="wrapper__para">
 		<h2>Notre méthode SEO chez Gralypho</h2>
 		<img class="img" src="https://i0.wp.com/www.micro-center.fr/wp-content/uploads/2023/03/comment-optimiser-son-seo-1.png?fit=1024%2C675&ssl=1" alt="graphique d'organisation SEO" />
 		<p>En tant qu'<strong>agence SEO basée dans l'ouest Lyonnais</strong>, Gralypho suit une approche stratégique en quatre étapes :</p>
@@ -117,7 +119,8 @@
 			<li>Amélioration de la notoriété locale (SEO local)</li>
 			<li>Stratégies de netlinking éthique</li>
 		</ul>
-
+	</div>
+	<div class="wrapper__para">
 		<h2>Pourquoi choisir Gralypho comme votre agence SEO à Lyon Ouest ?</h2>
 		<img class="img" src={Bird} alt="agence Web Gralypho" />
 
@@ -129,6 +132,7 @@
 				<li>Engagement sur la transparence et les résultats</li>
 			</ul>
 		</div>
+	</div>
 
 		<h2>Quel est le budget pour un audit SEO ?</h2>
 		<p>Le tarif d'un audit SEO dépend de la complexité de votre site internet, de votre marché et de vos ambitions de positionnement. Chez <strong>Gralypho</strong>, nous adaptons nos prestations à votre projet, avec des devis clairs et sans surprise.</p>
@@ -176,6 +180,15 @@
 		height: auto;
 		font-size: 16px;
 	}
+	.wrapper__para{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(239, 237, 237);
+		margin: 20px auto;
+		width: 80%;
+	}
 	.hero {
 		display: flex;
 		flex-direction: column;
@@ -200,6 +213,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 40px;
 	}
 	.wrapper-ul {
 		margin-top: 40px;
@@ -207,7 +221,7 @@
 
 	li {
 		font-family: var(--Poppins);
-		font-size: .9rem;
+		font-size: 0.9rem;
 		color: white;
 		font-weight: 500;
 		width: 100%;
@@ -217,6 +231,7 @@
 		border-radius: 30px;
 		margin: 10px;
 		list-style-type: none;
+		box-shadow: inset 0px 0px 10px 0px rgba(62, 62, 62, 1);
 	}
 	.hero h2 {
 		font-family: poppins;
@@ -254,10 +269,11 @@
 		font-size: var(--m);
 		color: var(--primary);
 		font-weight: 400;
-		text-align: center;
+		text-align: justify;
 		align-self: center;
 		padding: 20px;
-		width: 70%;
+		width: 60%;
+		margin: 20px;
 	}
 
 	.imgHero {
@@ -374,7 +390,10 @@
 			width: 90%;
 		}
 		.hero h2 {
-		line-height: 30px;
+			line-height: 30px;
+		}
+		.wrapper__para {
+			width: 100%;
 		}
 	}
 </style>
