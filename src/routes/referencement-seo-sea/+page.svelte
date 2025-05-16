@@ -149,7 +149,7 @@
 			<h4>Est-ce que Gralypho propose aussi des stratégies SEA (Google Ads) ?</h4>
 			<p>Oui, en complément du SEO, nous proposons également la mise en place de campagnes SEA (référencement payant) pour booster rapidement votre visibilité.</p>
 		</div>
-		<a class="link-blog" href="/blog">Lire nos article sur le SEO</a>
+		<a class="link-blog" href="/blog">Lire nos articles sur le SEO</a>
 	</div>
 </section>
 
