@@ -2,11 +2,11 @@
 	export let data;
 	const { article } = data;
 	import Header from '../../../sections/Header.svelte';
-	import LI from '../../../assets/réseaux/LI.png';
-	import WA from '../../../assets/réseaux/WA.png';
+	// import LI from '../../../assets/réseaux/LI.png';
+	// import WA from '../../../assets/réseaux/WA.png';
 	import FB from '../../../assets/réseaux/FB.png';
-	import TW from '../../../assets/réseaux/TW.png';
-	import mail from '../../../assets/réseaux/mail.png';
+	// import TW from '../../../assets/réseaux/TW.png';
+	// import mail from '../../../assets/réseaux/mail.png';
 </script>
 
 <svelte:head>
@@ -32,11 +32,11 @@
 				<img class="icons" src={FB} alt="icone facebook" />
 			</a>
 
-			<a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
+			<!-- <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
 				<img class="icons" src={LI} alt="icone Linkedin" />
-			</a>
+			</a> -->
 
-			<a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
+			<!-- <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
 				<img class="icons" src={TW} alt="icone Twitter" />
 			</a>
 
@@ -44,7 +44,7 @@
 				<img class="icons" src={WA} alt="icone whatsapp" />
 			</a>
 
-			<a href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent('Je voulais te partager cet article : https://gralypho.com/blog/' + article.slug)}`} target="_blank" rel="noopener noreferrer"> <img class="icons" src={mail} alt="icone mail" /></a>
+			<a href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent('Je voulais te partager cet article : https://gralypho.com/blog/' + article.slug)}`} target="_blank" rel="noopener noreferrer"> <img class="icons" src={mail} alt="icone mail" /></a> -->
 		</section>
 		{#if article.image}
 			<img src={article.image} alt="Illustration pour {article.title}" class="featured-image" />
