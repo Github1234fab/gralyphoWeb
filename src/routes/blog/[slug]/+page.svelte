@@ -4,7 +4,7 @@
 	import Header from '../../../sections/Header.svelte';
 	// import LI from '../../../assets/réseaux/LI.png';
 	// import WA from '../../../assets/réseaux/WA.png';
-	import FB from '../../../assets/réseaux/FB.png';
+	// import FB from '../../../assets/réseaux/FB.png';
 	// import TW from '../../../assets/réseaux/TW.png';
 	// import mail from '../../../assets/réseaux/mail.png';
 </script>
@@ -29,22 +29,22 @@
 		<p><em>{article.date}</em></p>
 		<section class="share-buttons">
 			<a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
-				<img class="icons" src={FB} alt="icone facebook" />
+				<img class="icons" src="/FB.png" alt="icone facebook" />
 			</a>
 
-			<!-- <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
-				<img class="icons" src={LI} alt="icone Linkedin" />
-			</a> -->
+			<a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
+				<img class="icons" src="/LI.png" alt="icone Linkedin" />
+			</a>
 
-			<!-- <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
-				<img class="icons" src={TW} alt="icone Twitter" />
+		 <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://gralypho.com/blog/${article.slug}`)}`} target="_blank" rel="noopener noreferrer">
+				<img class="icons" src="/TW.png" alt="icone Twitter" />
 			</a>
 
 			<a href={`https://wa.me/?text=${encodeURIComponent(article.title + ' https://gralypho.com/blog/' + article.slug)}`} target="_blank" rel="noopener noreferrer">
-				<img class="icons" src={WA} alt="icone whatsapp" />
+				<img class="icons" src='/WA.png' alt="icone whatsapp" />
 			</a>
 
-			<a href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent('Je voulais te partager cet article : https://gralypho.com/blog/' + article.slug)}`} target="_blank" rel="noopener noreferrer"> <img class="icons" src={mail} alt="icone mail" /></a> -->
+			<a href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent('Je voulais te partager cet article : https://gralypho.com/blog/' + article.slug)}`} target="_blank" rel="noopener noreferrer"> <img class="icons" src='/mail.png' alt="icone mail" /></a> 
 		</section>
 		{#if article.image}
 			<img src={article.image} alt="Illustration pour {article.title}" class="featured-image" />
