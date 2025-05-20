@@ -5,39 +5,49 @@
 	import Engrenage from '../Components/Engrenages.svelte';
 
 	let toggle = false;
-	function display() {
+
+	function toggleMenu() {
 		toggle = !toggle;
-		console.log(4);
+		console.log('Menu toggle:', toggle);
 	}
+
+	// Réinitialiser le menu lors d’un changement de page (utile avec SvelteKit)
+	import { afterNavigate } from '$app/navigation';
+	afterNavigate(() => {
+		toggle = false;
+	});
 </script>
 
 <nav class="navigation">
 	<div class="container__header">
-		<a href="/" class="logo"><Logo /></a>
+		<a href="/" class="logo" aria-label="Accueil"><Logo /></a>
+
 		<div class="wrapper-logo-burger">
 			<a class="contact form" href="/#section-form">Nous contacter</a>
-			<a class="contact" href="tel:+33672901614" type="telephone">06 72 90 16 14</a>
+			<a class="contact" href="tel:+33672901614">06 72 90 16 14</a>
 
-			<button class="burger-menu" aria-label="Menu" on:click={display}>
-				<i class="fa-solid fa-bars burger {toggle ? 'visible' : ''}"></i>
+			<!-- Amélioration accessibilité + class binding correcte -->
+			<button class="burger-menu" aria-label="Ouvrir le menu" on:click={toggleMenu}>
+				<i class="fa-solid fa-bars burger" class:visible={toggle}></i>
 			</button>
 		</div>
 	</div>
 
 	{#if toggle}
-		<span class="span" transition:slide={{ duration: 800 }}>
-			<div in:fade={{ duration: 600 }} out:fade={{ duration: 600 }} class="wrapper-links">
+		<!-- Nav mobile (menu déroulant) -->
+		<div class="mobile-nav" transition:slide={{ duration: 1200 }}>
+			<div in:fade={{ duration: 200 }} out:fade={{ duration: 200 }} class="wrapper-links">
 				<a class="link-contact" href="/creation-site-internet">Sites internet</a>
 				<a class="link-contact" href="/creation-application">Applications</a>
-				<a class="link-contact" href="/referencement-seo-sea">Référencement-SEO</a>
-				<a class="link-contact" href="/gestion-media-sociaux">Medias Sociaux</a>
+				<a class="link-contact" href="/referencement-seo-sea">Référencement SEO</a>
+				<a class="link-contact" href="/gestion-media-sociaux">Médias Sociaux</a>
 				<a class="link-contact" href="/creation-design-logos">Design, Logos et pub</a>
 				<a class="link-contact" href="/etude-strategie-digitale">Stratégie digitale</a>
 				<a class="link-contact" href="/FAQ">FAQ</a>
 				<a class="link-contact" href="/blog">Blog</a>
 				<a class="link-contact" href="/tarifs">Tarifs</a>
 			</div>
-		</span>
+		</div>
 	{/if}
 </nav>
 
@@ -64,10 +74,10 @@
 	.form {
 		background-color: var(--cta);
 	}
-	.navigation h1 span {
+	/* .navigation h1 span {
 		color: rgb(236, 228, 228);
 		font-weight: 900;
-	}
+	} */
 	.wrapper-logo-burger {
 		display: flex;
 		flex-direction: row;
@@ -103,13 +113,13 @@
 		margin-left: 20px;
 	}
 
-	.span {
+	/* .span {
 		grid-column: 2/12;
 		grid-row: 2;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
+	} */
 
 	.wrapper-links {
 		display: flex;
