@@ -37,7 +37,7 @@
 		max-height: auto;
 		gap: 50px;
 		border-radius: 10px;
-		border: 1px solid #877555;
+		border: none;
 		position: relative;
 		overflow: hidden;
 	}
@@ -45,8 +45,8 @@
 		position: absolute;
 		content: '';
 		width: 100%;
-		inset: 0.0600rem;
-		background-color: var(--primary);
+		/* inset: 0.06rem; */
+		background-color: #FF7F50;
 		border-radius: 10px;
 		z-index: 1;
 	}
@@ -105,13 +105,13 @@
 		font-family: var(--Red);
 		font-size: 2rem;
 		font-weight: 900;
-		background-color: #877555;
-		border: 1px solid grey;
+		background-color: #877555 ;
+		border: white;
 		color: rgb(255, 255, 255);
 		padding: 10px;
-		margin: 30px auto;
+		margin-top: 30px;
 		width: 100%;
-border-radius: 5px;
+		border-radius: 0px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -200,7 +200,7 @@ border-radius: 5px;
 			height: auto;
 			padding: 20px;
 			border-radius: 10px;
-			border: 1px solid #877555;
+			border: none;
 		}
 
 		.wrapper__offer-infos ul h3 {
@@ -214,8 +214,11 @@ border-radius: 5px;
 		}
 
 		.name {
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 			padding: 20px;
+			width: 100%;
+			border-radius: 10px;
+			box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.316);
 		}
 		.wrapper__offer-infos h2 {
 			font-size: 1.5rem;

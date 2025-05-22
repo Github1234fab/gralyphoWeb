@@ -14,7 +14,7 @@
 	let pwa = [
 		{
 			name: 'PWA',
-			h2: 'Application Web,\n multiplateforme, \n légère à prix doux',
+			h2: 'Application Web ultra-rapide,\n Multiplateforme, \n Légère et à prix doux',
 			h3: 'Idéal pour : Entreprise, indépendant, commerce, évènementiel, Institution',
 			h4: ['Délai : 15 jours', 'IOS, Android et Web', ' Notification push'],
 

@@ -12,11 +12,11 @@
 
 	let landing = [
 		{
-			name: 'Landing Page Custom',
-			h2: 'Une page \n Essentielle et percutante \n Efficacité',
+			name: 'Landing Page \n ',
+			h2: 'Une page web percutante \n Idéale pour conversion \n Optimisée SEA-SEO',
 			h3: 'Idéal pour : Indépendant, créateur, café et restaurants, petite boutique',
 			h4: ['Délai : 1 jour', 'gestion de contenu'],
-			li: [' Un site web professionnel basé sur un template optimisé', ' Personnalisation du design (logo, couleurs, images, textes)', ' 1 page ', ' Intégration d’un formulaire de contact', ' Site optimisé pour mobile & SEO de base', ' Mise en ligne rapide', ' Options : Blog, SEO avancé, Référencement local, Maintenance, pages supplémentaires ...', ' Avantage client : Une page pour centraliser toutes les infos.'],
+			li: [' Une page web professionnelle, idéale pour une campagne marketing SEA-SEO, basée sur un template custom et designé (optionnel)', ' Personnalisation du design (logo, couleurs, images, textes)', ' 1 page ', ' Intégration d’un formulaire de contact', ' Intégration des balises ADS pour analyse de conversion', ' Mise en ligne rapide', ' Options : autres pages, fonctionnalités avancées, maintenance...', ' Avantage client : Une page pour centraliser toutes les infos ou diffuser une campagne marketing.'],
 			tarif: 'Tarif : 799 €'
 		}
 	];

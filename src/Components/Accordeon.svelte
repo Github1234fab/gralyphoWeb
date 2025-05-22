@@ -63,9 +63,9 @@
 		letter-spacing: -1px;
 		font-family: epilogue;
 		
-        border: 2px solid rgb(100, 100, 100);
+        border: none;
         background-color: transparent;
-		box-shadow: 0px 0px 40px 5px rgb(0, 0, 0);
+		box-shadow: 0px 10px 20px  rgb(0, 0, 0, 0.3);
 	}
 	
     li{
@@ -115,6 +115,7 @@
 		text-align: center;
 		padding: 10px;
 		border-radius: 5px;
+		margin-top: 10px;
 		margin-bottom: 10px;
 		border: 1px solid grey;
         background-color: transparent;
@@ -128,6 +129,7 @@
 		line-height: 20px;
 		list-style-type: circle;
 		text-align: left;
+		color: black;
         
 	}
 
