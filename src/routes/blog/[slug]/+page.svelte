@@ -1,5 +1,7 @@
 <script>
 	export let data;
+	import LinkSiteApplication from '../../../Components/LinkSiteApplication.svelte';
+	import FAQ from '../../../Components/FaqLink.svelte';
 	const { article } = data;
 	import Header from '../../../sections/Header.svelte';
 	// import LI from '../../../assets/réseaux/LI.png';
@@ -54,6 +56,9 @@
 {:else}
 	<p>Article introuvable.</p>
 {/if}
+
+<LinkSiteApplication/>
+<FAQ/>
 
 <style>
 	.share-buttons {

@@ -1,12 +1,10 @@
 ---
-title: "Comment faire un site internet pour son entreprise en 2025?"
+title: "Comment faire un site internet pour son entreprise en 2025 ?"
 date: "2025-06-02"
 image: "https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/site-internet1.jpeg"
 description: "Découvrez comment faire votre site internet pour développer votre activité en 2025."
 
 ---
-
-
 
 #  Faire un site internet pour son entreprise en 2025 : le guide simple et à jour 
 &nbsp;
