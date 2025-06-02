@@ -103,6 +103,7 @@
 		text-align: center;
 		line-height: 30px;
 		
+		
 	}
 	.icon {
 		rotate: 0;

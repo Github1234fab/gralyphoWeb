@@ -121,7 +121,7 @@
 		transform: rotate(0deg);
 		transition: 0.2s ease-in-out;
 		padding: 50px;
-		background-color: #d6a319;
+		background-color: #007d55;
 		border-radius: 40px 30px 4px 30px;
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.331);
 		display: flex;
@@ -185,7 +185,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		color: var(--blue);
+		color: var(--cta);
 		font-weight: 800;
 		gap: 5px;
 	}

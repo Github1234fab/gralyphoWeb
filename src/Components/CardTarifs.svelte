@@ -37,7 +37,7 @@
 		max-height: auto;
 		gap: 50px;
 		border-radius: 10px;
-		border: none;
+		border: 1px solid grey;
 		position: relative;
 		overflow: hidden;
 	}
@@ -57,7 +57,7 @@
 		left: 0;
 		width: 100%; /* w-56 */
 		height: 100%; /* h-48 */
-		background-color: var(--green);
+		/* background-color: var(--green); */
 		z-index: 1;
 	}
 	.wrapper__offer-infos-product {
@@ -105,7 +105,7 @@
 		font-family: var(--Red);
 		font-size: 2rem;
 		font-weight: 900;
-		background-color: #877555 ;
+		background-color: #007d55;
 		border: white;
 		color: rgb(255, 255, 255);
 		padding: 10px;
@@ -130,6 +130,7 @@
 		flex-direction: column;
 		border-radius: 10px 10px 0px 0px;
 		margin-top: 0px;
+	
 	}
 	.details h4 {
 		font-family: var(--Red);

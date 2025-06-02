@@ -64,7 +64,7 @@
 		font-family: epilogue;
 		
         border: none;
-        background-color: transparent;
+		background-color: var(--cta);
 		box-shadow: 0px 10px 20px  rgb(0, 0, 0, 0.3);
 	}
 	
