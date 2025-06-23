@@ -11,7 +11,7 @@
 		<img
 			class="img"
 			src="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg"
-			alt="cart de la région Lyonnaise"
+			alt="carte de la région Lyonnaise"
 		/>
 	</div>
 	<div class="wrapper__text">

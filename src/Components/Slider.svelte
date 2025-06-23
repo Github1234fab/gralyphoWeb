@@ -15,9 +15,15 @@
 	import Info from '../Assets/png-gralypho/site internet_presse.png';
 	import gps from '../Assets/gps2.png';
 	import Alcaix from '../Assets/alcaix-coach.png';
+	import Solair from "../Assets/solair.png";
 
 	let currentIndex = 0;
 	const slides = [
+		{
+			title: 'Landing Page',
+			image: Solair,
+			lien: 'https://solairconfort-offre.fr/'
+		},
 		{
 			title: 'Site vitrine',
 			image: Alcaix,

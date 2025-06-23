@@ -69,9 +69,14 @@
 	<div class="hero">
 		<img src={SEO} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
 
-		<h1>Boostez votre visibilité en ligne avec Gralypho <br />Agence SEO à l'ouest de Lyon :</h1>
+		<h1>Consultant SEO & Expertise SEO <br><br> Boostez votre visibilité en ligne avec Gralypho <br />Agence SEO à l'ouest de Lyon</h1>
+		<h2>En tant que consultants SEO basé à l'Ouest de Lyon dans les monts du Lyonnais, <br> nous vous aidons à gagner en visibilité grâce à un référencement naturel efficace et durable. <br>
+
+			<span>Présence locale – Expertise SEO – Accompagnement personnalisé</span>
+			
+			</h2>
 		<div class="wrapper__para">
-			<h2>Pourquoi investir dans le SEO pour votre site web ?</h2>
+			<h3>Pourquoi investir dans le SEO pour votre site web ?</h3>
 			<img class="img" src="https://www.wikilink.io/wk_thm/uploads/2021/11/referencement-naturel-investissement.jpg" alt="une fusée qui décolle pour le SEO" />
 			<p>
 				Le SEO (Search Engine Optimization), ou référencement naturel, regroupe un ensemble de techniques permettant d'améliorer de manière notoire la visibilité d'un site internet sur les moteurs de recherche et son position dans la SERP (positionnement dans les résultats de recherche).
@@ -87,7 +92,7 @@
 		</div>
 
 		<div class="wrapper__para">
-		<h2>Notre méthode SEO chez Gralypho</h2>
+		<h3>Notre méthode SEO chez Gralypho</h3>
 		<img class="img" src="https://i0.wp.com/www.micro-center.fr/wp-content/uploads/2023/03/comment-optimiser-son-seo-1.png?fit=1024%2C675&ssl=1" alt="graphique d'organisation SEO" />
 		<p>En tant qu'<strong>agence SEO basée dans l'ouest Lyonnais</strong>, Gralypho suit une approche stratégique en quatre étapes :</p>
 
@@ -134,13 +139,13 @@
 		</div>
 	</div>
 
-		<h2>Quel est le budget pour un audit SEO ?</h2>
+		<h3>Quel est le budget pour un audit SEO ?</h3>
 		<p>Le tarif d'un audit SEO dépend de la complexité de votre site internet, de votre marché et de vos ambitions de positionnement. Chez <strong>Gralypho</strong>, nous adaptons nos prestations à votre projet, avec des devis clairs et sans surprise.</p>
 
 		<a class="devis" href="/#section-form">Demander un audit SEO gratuit</a>
 
 		<div class="faq">
-			<h2>FAQ sur le SEO</h2>
+			<h3>FAQ sur le SEO</h3>
 			<h4>Qu'est-ce qu'un audit SEO ?</h4>
 			<p>Un audit SEO est une analyse complète de votre site web pour identifier les facteurs bloquants pour votre référencement naturel. Il sert de base pour construire une stratégie SEO efficace.</p>
 
@@ -208,6 +213,24 @@
 		line-height: 53px;
 		margin-top: 40px;
 	}
+	.hero h2{
+		text-align: center;
+		font-family: var(--Geologica);
+		font-weight: 100;
+		font-size: 2.5rem;
+		color: var(--primary);
+		letter-spacing: -1px;
+		padding: 10px;
+		line-height: 53px;
+	}
+	.hero h2 span{
+		font-family: var(--Poppins);
+		font-weight: 600;
+		font-size: 1.2rem;
+		color: var(--primary);
+		display: block;
+		margin-top: 20px;
+	}
 	ul {
 		display: flex;
 		flex-direction: column;
@@ -226,12 +249,12 @@
 		font-weight: 500;
 		width: 100%;
 		text-align: center;
-		background: linear-gradient(to top, var(--cta), rgb(165, 161, 215));
+		background-color: var(--blue);
 		padding: 20px;
-		border-radius: 30px;
+		border-radius: 10px;
 		margin: 10px;
 		list-style-type: none;
-		box-shadow: inset 0px 0px 10px 0px rgba(62, 62, 62, 1);
+		box-shadow:  0px 0px 0px 0px rgba(62, 62, 62, 1);
 	}
 	.hero h2 {
 		font-family: poppins;
