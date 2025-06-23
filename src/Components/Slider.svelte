@@ -19,11 +19,11 @@
 
 	let currentIndex = 0;
 	const slides = [
-		{
-			title: 'Landing Page',
-			image: Solair,
-			lien: 'https://solairconfort-offre.fr/'
-		},
+		// {
+		// 	title: 'Landing Page',
+		// 	image: Solair,
+		// 	lien: 'https://solairconfort-offre.fr/'
+		// },
 		{
 			title: 'Site vitrine',
 			image: Alcaix,
