@@ -21,6 +21,7 @@
 		margin: 50px auto;
 		background-color: var(--whiteGrey);
 		border-radius: 20px;
+		z-index: 0;
 	}
 	.title {
 		text-align: center;
@@ -58,7 +59,16 @@
 		margin-bottom: 100px;
 		border-radius: 5px;
 		margin-top: 0px;
+		z-index: 3;
 	}
+	.faqLink a:hover {
+		background-color: var(--green);
+		color: var(--whiteGrey);
+		box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.269);
+		transition: all 0.3s ease-in-out;
+		transform: scale(1.05);
+	}
+
 
 	@media screen and (max-width: 768px) {
 		.subtitle {

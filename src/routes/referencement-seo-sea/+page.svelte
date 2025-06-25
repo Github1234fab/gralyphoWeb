@@ -68,13 +68,9 @@
 <section class="sites-section" in:fade={{ duration: 1000 }}>
 	<div class="hero">
 		<img src={SEO} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
-
 		<h1 class="title">Audit SEO & Expertise SEO</h1>
-		<h2 class="subtitle">
-			Boostez votre visibilité en ligne avec Gralypho Agence SEO à l'ouest de Lyon. En tant que consultants SEO basé à l'Ouest de Lyon dans les monts du Lyonnais, nous vous aidons à gagner en visibilité grâce à un référencement naturel efficace et durable.
-		
-		</h2>
-        <h2 class="subtitle-span">Présence locale – Expertise SEO – Accompagnement personnalisé</h2>
+		<h2 class="subtitle"> <span>Boostez votre visibilité en ligne avec Gralypho, Agence SEO à l'ouest de Lyon.</span> <br> En tant que consultants SEO basé à l'Ouest de Lyon dans les monts du Lyonnais, <br> nous vous aidons à gagner en visibilité grâce à un référencement naturel efficace et durable.</h2>
+		<h2 class="subtitle-span">Présence locale – Expertise SEO – Accompagnement personnalisé</h2>
 		<div class="wrapper__para">
 			<h3 class="h3">Pourquoi investir dans le SEO pour votre site web ?</h3>
 			<img class="img" src="https://www.wikilink.io/wk_thm/uploads/2021/11/referencement-naturel-investissement.jpg" alt="une fusée qui décolle pour le SEO" />
@@ -126,7 +122,7 @@
 			</ul>
 		</div>
 		<div class="wrapper__para">
-			<h2>Pourquoi choisir Gralypho comme votre agence SEO à Lyon Ouest ?</h2>
+			<h3 class="h3">Pourquoi choisir Gralypho comme votre agence SEO à Lyon Ouest ?</h3>
 			<img class="img" src={Bird} alt="agence Web Gralypho" />
 
 			<div class="wrapper-ul">
@@ -143,9 +139,9 @@
 		<p>Le tarif d'un audit SEO dépend de la complexité de votre site internet, de votre marché et de vos ambitions de positionnement. Chez <strong>Gralypho</strong>, nous adaptons nos prestations à votre projet, avec des devis clairs et sans surprise.</p>
 
 		<a class="devis" href="/#section-form">Demander un audit SEO gratuit</a>
-
+<!-- 
 		<div class="faq">
-			<h3>FAQ sur le SEO</h3>
+			<h3 class="h3">FAQ sur le SEO</h3>
 			<h4>Qu'est-ce qu'un audit SEO ?</h4>
 			<p>Un audit SEO est une analyse complète de votre site web pour identifier les facteurs bloquants pour votre référencement naturel. Il sert de base pour construire une stratégie SEO efficace.</p>
 
@@ -157,7 +153,7 @@
 
 			<h4>Est-ce que Gralypho propose aussi des stratégies SEA (Google Ads) ?</h4>
 			<p>Oui, en complément du SEO, nous proposons également la mise en place de campagnes SEA (référencement payant) pour booster rapidement votre visibilité.</p>
-		</div>
+		</div> -->
 		<a class="link-blog" href="/blog">Lire nos articles sur le SEO</a>
 	</div>
 </section>
@@ -216,12 +212,16 @@
 	.subtitle {
 		text-align: center;
 		font-family: var(--Poppins);
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: var(--primary);
 		letter-spacing: -1px;
 		padding: 10px;
 		line-height: 53px;
+        font-weight: 300;
 	}
+    .subtitle span{
+        font-weight: 600;
+    }
 	.subtitle-span {
 		font-family: var(--Poppins);
 		font-weight: 200;
@@ -244,47 +244,40 @@
 	li {
 		font-family: var(--Poppins);
 		font-size: 0.9rem;
-		color: white;
+		color: var(--primary);
+        border: 1px solid var(--primary);
 		font-weight: 500;
 		width: 100%;
 		text-align: center;
-		background-color: var(--blue);
+		/* background-color: var(--blue); */
 		padding: 20px;
 		border-radius: 10px;
 		margin: 10px;
 		list-style-type: none;
 		box-shadow: 0px 0px 0px 0px rgba(62, 62, 62, 1);
 	}
-	.hero h2 {
-		font-family: poppins;
-		font-weight: 700;
-		font-size: 1.5rem;
-		color: var(--primary);
-		text-align: center;
-		margin-top: 30px;
-		width: 95%;
-		margin-top: 100px;
-	}
+
 	.h3 {
 		font-family: poppins;
 		font-weight: 600;
 		font-size: var(--m);
 		color: var(--primary);
 		border-radius: 30px 6px 60px 34px;
-		border: 1px solid var(--primary);
+		/* border: 1px solid var(--primary); */
 		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 20px;
 		padding: 30px;
+        font-size: 1.6rem;
 	}
-	.hero h4 {
+	/* .hero h4 {
 		font-family: poppins;
 		font-weight: 600;
 		font-size: var(--m);
 		color: var(--primary);
 		text-align: center;
 		padding: 20px;
-	}
+	} */
 
 	.hero p {
 		font-family: var(--Poppins);
@@ -307,7 +300,7 @@
 	.img {
 		max-width: 30%;
 		min-width: 30%;
-		margin-top: 30px;
+		margin-top: 0px;
 		border-radius: 20px;
 	}
 	.wrapper-form {
@@ -320,14 +313,14 @@
 		/* margin-top: 50px; */
 		background-color: var(--bgHero);
 	}
-	.faq {
+	/* .faq {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 100px;
 		background-color: white;
-	}
+	} */
 	.link-blog {
 		background-color: var(--green);
 		color: white;
@@ -377,16 +370,7 @@
 		}
 	}
 
-	@media screen and (min-width: 1224px) and (max-width: 2500px) {
-		.hero h1 {
-			line-height: 1em;
-		}
-	}
-	@media screen and (min-width: 768px) and (max-width: 1224px) {
-		.hero h1 {
-			line-height: 1em;
-		}
-	}
+
 	@media screen and (min-width: 300px) and (max-width: 768px) {
 		.hero h1 {
 			line-height: 35px;
