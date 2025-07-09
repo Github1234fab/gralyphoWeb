@@ -169,9 +169,9 @@
 		max-height: 70px;
 		z-index: 4;
 	}
-	.burger:hover {
+	/* .burger:hover {
 		animation: bounce 0.4s ease-in-out;
-	}
+	} */
 	@keyframes bounce {
 		0% {
 			transform: scale(1) translateY(-2px);
