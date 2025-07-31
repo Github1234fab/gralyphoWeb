@@ -119,6 +119,7 @@
 	.img {
 		width: 60%;
 		margin: 0 auto;
+		border-radius: 1rem;
 	}
 
 	@media screen and (max-width: 768px) {
