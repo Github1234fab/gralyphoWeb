@@ -6,7 +6,29 @@
 	import Button from '../../Components/Cta-component.svelte';
 </script>
 
+
+<svelte:head>
+    <title>Gralypho - Agence Web des Monts du Lyonnais | Création site sur mesure & SEO</title>
+    <meta name="description" content="Gralypho est une agence Web indépendante au cœur des Monts du Lyonnais, spécialisée dans la création de sites internet sur mesure, développement d'applications web, et expertise SEO locale." />
+    <meta name="keywords" content="Agence web Monts du Lyonnais, création site internet, application web, SEO local, référencement naturel, agence digitale régionale" />
+    <meta name="author" content="Gralypho" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Gralypho - Agence Web des Monts du Lyonnais" />
+    <meta property="og:description" content="Entreprise locale proposant des sites sur mesure, applications web performantes, et référencement SEO pour les entreprises des Monts du Lyonnais." />
+    <meta property="og:image" content="{picture}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gralypho.com/agence-web-monts-du-Lyonnais" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gralypho - Agence Web des Monts du Lyonnais" />
+    <meta name="twitter:description" content="Sites internet personnalisés, applications web sur mesure et référencement SEO local dans les Monts du Lyonnais." />
+    <meta name="twitter:image" content="{picture}" />
+    <link rel="canonical" href="https://gralypho.com/agence-web-monts-du-Lyonnais" />
+</svelte:head>
+
 <Header />
+
+
+
 <div class="container">
 	<h1 class="title">Agence Web des Monts du Lyonnais</h1>
 	<div class="wrapper__img">

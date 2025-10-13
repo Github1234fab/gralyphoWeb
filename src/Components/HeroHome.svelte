@@ -12,13 +12,13 @@
 <main>
 	<div class="wrapper__text">
 		<h1>Votre agence Web experte, <br />au coeur des Monts du Lyonnais !</h1>
-	<h2>
-	En tant qu'<strong>agence web spécialisée</strong> dans la 
-	<a href="/creation-site-internet" class="maillage">création de sites internet</a> et d'
-	<a href="/creation-application" class="maillage">applications</a>, <br>
-	<strong>Gralypho</strong> propose également des services experts en 
-	<a href="/referencement-seo-sea" class="maillage">stratégie SEO</a>.
-</h2>
+		<h2>
+			En tant qu'<strong>agence web spécialisée</strong> dans la
+			<a href="/creation-site-internet" class="maillage">création de sites internet</a> et d'
+			<a href="/creation-application" class="maillage">applications</a>, <br />
+			<strong>Gralypho</strong> propose également des services experts en
+			<a href="/referencement-seo-sea" class="maillage">stratégie SEO</a>.
+		</h2>
 
 		<br />
 		<CTA />
@@ -26,8 +26,8 @@
 	</div>
 	<div class="wrapper__text2">
 		<h3>
-			Parce que nous sommes des <strong>développeurs web</strong> experts et certifiés, nous choisissons pour vous la meilleure technologie <br> pour créer votre <strong>site internet</strong>, votre <strong>application</strong> ou toute autre solution digitale sur-mesure.
-			<br />	L'adaptabilité est notre vraie force, elle nous permet de vous offrir des solutions performantes, au meilleur prix.
+			Parce que nous sommes des <strong>développeurs web</strong> experts et certifiés, nous choisissons pour vous la meilleure technologie <br /> pour créer votre <strong>site internet</strong>, votre <strong>application</strong> ou toute autre solution digitale sur-mesure.
+			<br /> L'adaptabilité est notre vraie force, elle nous permet de vous offrir des solutions performantes, au meilleur prix.
 		</h3>
 		<div class="wrapper__logos">
 			<a href="https://firebase.google.com/" target="_blank">Firebase<img class="Firebase logo" src={Firebase} alt="logo de wordpress" /></a>
@@ -51,7 +51,6 @@
 		align-items: center;
 		padding: 20px;
 		gap: 0px;
-
 	}
 	.wrapper__logos {
 		display: flex;
@@ -89,7 +88,6 @@
 		font-size: 1.2rem;
 		text-align: center;
 		margin-top: 30px;
-	
 	}
 	.maillage {
 		color: var(--whiteGrey);
@@ -97,7 +95,6 @@
 		font-size: 1.2rem;
 		font-weight: 600;
 		letter-spacing: 0px;
-	
 	}
 	.wrapper__text2 {
 		display: flex;
@@ -110,7 +107,6 @@
 		padding: 20px;
 		border-radius: 20px;
 		margin-bottom: 40px;
-		
 	}
 	.wrapper__text2 h3 {
 		font-family: var(--Geologica);
@@ -125,10 +121,8 @@
 		height: 400px;
 		width: 400px;
 		border-radius: 10px;
-		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.50);
+		box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.5);
 		margin-top: 70px;
-	
-
 	}
 	.Firebase,
 	.svelte,
@@ -159,18 +153,15 @@
 		text-align: center;
 		font-family: var(--Red);
 		font-size: 0.7rem;
-	
 	}
 	.logo:hover {
 		rotate: 360deg;
 		transition: 0.3s ease-in-out;
 	}
 
-
 	@media screen and (max-width: 1083px) {
 		main {
 			background: linear-gradient(to top, var(--whiteGrey) 45%, var(--primary) 45%);
-		
 		}
 	}
 
@@ -195,13 +186,11 @@
 			font-size: 1rem;
 		}
 		.maillage {
-		
-		font-size: 1rem;
-	}
+			font-size: 1rem;
+		}
 		.wrapper__text2 h3 {
 			font-size: 1rem;
 		}
-
 
 		.Firebase,
 		.svelte,
@@ -222,19 +211,21 @@
 			height: 200px;
 			width: 200px;
 			border-radius: 10px;
-			box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.50);
+			box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.5);
 			margin-top: 30px;
 		}
 	}
-	
+
 	@media screen and (max-width: 687px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 58%, var(--primary) 58%);			gap: 0px;
+			background: linear-gradient(to top, var(--whiteGrey) 58%, var(--primary) 58%);
+			gap: 0px;
 		}
 	}
 	@media screen and (max-width: 400px) {
 		main {
-			background: linear-gradient(to top, var(--whiteGrey) 57%, var(--primary) 57%);			gap: 0px;
+			background: linear-gradient(to top, var(--whiteGrey) 57%, var(--primary) 57%);
+			gap: 0px;
 		}
 	}
 </style>

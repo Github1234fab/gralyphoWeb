@@ -21,39 +21,40 @@
 	import BannerTwo from '../Components/bannerTwo.svelte';
 	import BannerThree from '../Components/bannerThree.svelte';
 	import Hero from '../Components/HeroHome.svelte';
-	import Header from "../sections/Header.svelte";
+	import Header from '../sections/Header.svelte';
 	import MyServices from '../Components/MyServices.svelte';
 	import Propositions from '../Components/Propositions.svelte';
-	import CTA from "../Components/CTA-section.svelte";
-	import Links from "../Components/LinkSiteApplication.svelte";
-	import Faq from "../Components/FaqLink.svelte";
+	import CTA from '../Components/CTA-section.svelte';
 </script>
+
+<svelte:head>
+	<title>Gralypho - Agence Web experte au coeur des monts du Lyonnais</title>
+	<meta name="description" content="Conception de site Web, conception d'application NATIVE ou PWA, expertise SEO, SEA, GEO." />
+	<meta name="keywords" content="Conception de site Web, Conception d'application, stratégie SEO, SEA, GEO" />
+	<meta name="author" content="Gralypho" />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:title" content="Agence Web de l'Ouest Lyonnais" />
+	<meta property="og:description" content="Conception de site Web, conception d'application NATIVE ou PWA, expertise SEO, SEA, GEO." />
+	<meta property="og:image" content="/logoGralypho2.jpeg" />
+	<meta property="og:type" content="https://gralypho.com/" />
+	<meta property="og:url" content="https://gralypho.com/" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Gralypho - Agence Web experte au coeur des monts du Lyonnais" />
+	<meta name="twitter:description" content="Conception de site Web, conception d'application NATIVE ou PWA, expertise SEO, SEA, GEO." />
+	<meta name="twitter:image" content="/logoGralypho2.jpeg" />
+	<link rel="canonical" href="https://gralypho.com/" />
+</svelte:head>
 
 <main in:fade={{ duration: 2000 }}>
 	<Header />
-	<!-- <Mouse /> -->
-	
-	<!-- <HSection /> -->
 	<Hero />
-	<MyServices/>
-	
-	<Propositions/>
+	<MyServices />
 	<CTA />
-
-
-
-	<!-- <Difference /> -->
-
-
-
-	<!-- <BannerOne /> -->
+	<Propositions />
 	<GSection />
-	<!-- <BannerThree /> -->
 	<section id="sectionE">
 		<ESection />
 	</section>
-	<Faq/>
-<Links/>
 	<Form />
 </main>
 

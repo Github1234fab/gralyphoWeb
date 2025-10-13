@@ -1,48 +1,52 @@
 <script>
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Header from '../../sections/Header.svelte';
-	import Links from "../../Components/LinkSiteApplication.svelte"
+	import Links from '../../Components/LinkSiteApplication.svelte';
 </script>
 
+<svelte:head>
+	<title>Gralypho - Agence Web de la région Lyonnaise | Création site sur mesure & SEO</title>
+	<meta name="description" content="Gralypho est une agence web dynamique basée en région Lyonnaise, spécialisée dans la conception d’outils digitaux sur mesure, sites web vitrines, e-commerce, applications, et référencement naturel SEO." />
+	<meta name="keywords" content="Agence web Lyonnaise, création site internet, applications sur mesure, SEO régional, référencement naturel, digital Lyon, développement web" />
+	<meta name="author" content="Gralypho" />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:title" content="Gralypho - Agence Web de la région Lyonnaise" />
+	<meta property="og:description" content="Agence web locale et régionale offrant des sites sur mesure, applications performantes et expertise SEO pour les entreprises de la région Lyonnaise." />
+	<meta property="og:image" content="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg" />
+	<meta property="og:type" content="https://gralypho.com/" />
+	<meta property="og:url" content="https://gralypho.com/creation-site-internet" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Gralypho - Agence Web de la région Lyonnaise" />
+	<meta name="twitter:description" content="Création de sites web personnalisés et solutions digitales sur mesure avec expertise SEO locale dans la région Lyonnaise." />
+	<meta name="twitter:image" content="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg" />
+	<link rel="canonical" href="https://gralypho.com/creation-site-internet" />
+</svelte:head>
+
 <Header />
+
 <div class="container">
-	<h1 class="title">Gralypho, agence web <br> de la région Lyonnaise.</h1>
+	<h1 class="title">Gralypho, agence web <br /> de la région Lyonnaise.</h1>
 	<div class="wrapper__img">
-		<img
-			class="img"
-			src="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg"
-			alt="carte de la région Lyonnaise"
-		/>
+		<img class="img" src="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg" alt="carte de la région Lyonnaise" />
 	</div>
 	<div class="wrapper__text">
 		<h2 class="subtitle">Annecy, Genève, Lyon, Saint-Etienne, Bourg-en-Bresse, Valence ...</h2>
 		<h3 class="subtitle__h3">Les grandes villes de la région Lyonnaise, à moins de 100km de l'ouest Lyonnais.</h3>
 		<p class="paragraph">
-			La région Lyonnaise est dense et dynamique. Les villes de la région sont proches les unes des
-			autres et les échanges sont nombreux.
-			<br /> Les entreprises de la région Lyonnaise ont des besoins digitaux variés: des sites web
-			Vitrine, des sites internet e-commerce, des sites web corporate, des sites institutionnels,
-			des applications sur mesure, tous les besoins sont exprimés.
-			<br /> En tant qu'agence Web, nous visons l'excellence et la satisfaction de nos clients. Nous
-			sommes à l'écoute de de chaque besoin et nous nous adaptons à chaque demande. Notre coeur de métier
-			est la création d'outils digitaux sur mesure.
+			La région Lyonnaise est dense et dynamique. Les villes de la région sont proches les unes des autres et les échanges sont nombreux.
+			<br /> Les entreprises de la région Lyonnaise ont des besoins digitaux variés: des sites web Vitrine, des sites internet e-commerce, des sites web corporate, des sites institutionnels, des applications sur mesure, tous les besoins sont exprimés.
+			<br /> En tant qu'agence Web, nous visons l'excellence et la satisfaction de nos clients. Nous sommes à l'écoute de de chaque besoin et nous nous adaptons à chaque demande. Notre coeur de métier est la création d'outils digitaux sur mesure.
 		</p>
 		<h2 class="subtitle">La force du digital, le travail en visio et l'écologie préservée !</h2>
 		<h3 class="subtitle__h3">Nous nous dépaçons seulement quand c'est nécessaire.</h3>
 		<p class="paragraph">
-			L'avantage de notre métier de conception d'outil digitaux est que nous pouvons travailler à
-			distance. Nous pouvons donc travailler avec des clients de toute la région Lyonnaise sans nous
-			déplacer.
-			<br /> Notre premier rendez-vous est gratuit. C'est l'occasion d'effectuer un audi général
-			avec notre client afin de comprendre ses besoins et ses attentes. Ce rendez-vous est
-			nécessairement en présentiel pour un premier contact plus humain.
-			<br /> Ensuite, les différentes étapes de la conception de l'outil digital se font à distance.
-			Nous utilisons des outils de visioconférence pour échanger avec nos clients et leur présenter
-			les avancées du projet. À la livraison, nous nous rendons une nouvelle fois sur place. <br />
+			L'avantage de notre métier de conception d'outil digitaux est que nous pouvons travailler à distance. Nous pouvons donc travailler avec des clients de toute la région Lyonnaise sans nous déplacer.
+			<br /> Notre premier rendez-vous est gratuit. C'est l'occasion d'effectuer un audi général avec notre client afin de comprendre ses besoins et ses attentes. Ce rendez-vous est nécessairement en présentiel pour un premier contact plus humain.
+			<br /> Ensuite, les différentes étapes de la conception de l'outil digital se font à distance. Nous utilisons des outils de visioconférence pour échanger avec nos clients et leur présenter les avancées du projet. À la livraison, nous nous rendons une nouvelle fois sur place. <br />
 			Ainsi, nous limitons nos déplacements et nous préservons l'environnement.
 		</p>
 	</div>
-	<Links/>
+	<Links />
 	<div class="wrapper__faqLink">
 		<FaqLink />
 		<a href="/FAQ">FAQ</a>
@@ -115,11 +119,11 @@
 		padding: 20px;
 	}
 
-	@media screen and (max-width: 768px){
+	@media screen and (max-width: 768px) {
 		.img {
-		width: auto;
-		height: 300px;
-		padding: 20px;
-	}	
+			width: auto;
+			height: 300px;
+			padding: 20px;
+		}
 	}
 </style>

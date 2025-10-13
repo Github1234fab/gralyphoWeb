@@ -5,6 +5,28 @@
 	import Button from '../../Components/Cta-component.svelte';
 </script>
 
+
+<svelte:head>
+    <title>Gralypho - Agence Web à 15 km de Lyon | Création site & SEO</title>
+    <meta name="description" content="Gralypho, agence web experte à Lyon Ouest, propose création de sites internet, applications Web et référencement naturel SEO pour booster votre business." />
+    <meta name="keywords" content="Agence web Lyon, création site internet, application web, référencement naturel SEO, SEO Lyon, développement web, agence digitale Lyon" />
+    <meta name="author" content="Gralypho" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Gralypho - Agence Web à Lyon Ouest" />
+    <meta property="og:description" content="Création de sites internet, développement d’applications Web et référencement SEO pour faire décoller votre visibilité en ligne." />
+    <meta property="og:image" content="https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gralypho.com/agence-web-Lyon-creation-site-internet-seo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gralypho - Agence Web à Lyon Ouest" />
+    <meta name="twitter:description" content="Agence experte en création de sites web, applications et SEO pour booster votre activité digitale." />
+    <meta name="twitter:image" content="https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg" />
+    <link rel="canonical" href="https://gralypho.com/agence-web-Lyon-creation-site-internet-seo" />
+</svelte:head>
+
+
+
+
 <Header />
 <div class="container">
 	<h1 class="title">Agence Web de Lyon Ouest</h1>
