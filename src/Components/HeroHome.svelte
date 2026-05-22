@@ -17,10 +17,10 @@
 	<div class="wrapper__text">
 		<div class="badge-premium">
 			<span class="badge-dot"></span>
-			Expertise SvelteKit & Firebase certifiée
+			Expertise SvelteKit & React Native certifiée
 		</div>
 
-		<h1>Création de Site Internet<br /><span class="highlight-text">& Application Mobile</span> sur-mesure</h1>
+		<h1>Création de Site Internet<br /><span class="highlight-text">& Application Mobile</span> <span class="no-break">sur-mesure</span></h1>
 		
 		<h2>
 			Votre agence web certifiée pour des solutions digitales performantes et ultra-rapides au cœur de
@@ -164,16 +164,19 @@
 		letter-spacing: -0.03em;
 		color: #ffffff;
 		font-weight: 900;
-		font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+		font-size: clamp(2rem, 4.5vw, 3.5rem);
 		text-align: center;
 		margin: 0;
-		line-height: 1.15;
+		line-height: 1.2;
 	}
 
 	.highlight-text {
 		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+	.no-break {
+		white-space: nowrap;
 	}
 
 	.wrapper__text h2 {

@@ -1,39 +1,30 @@
-<a  href="/#section-form">Contact</a>
+<a href="/#section-form">Contact</a>
 
 <style>
 	a {
-		background-color: var(--green);
-		color:  white;
-		font-family: 'Red Hat Display';
-		font-size: 1rem;
+		background-color: var(--cta, #1481ba);
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.85rem;
 		font-weight: 700;
-		border-radius: 8px;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		border-radius: 50px;
 		text-align: center;
-		padding: 10px 20px;
-		box-shadow: 0px 10px 10px rgba(62, 62, 62, 0.5);
+		padding: 12px 30px;
+		box-shadow: 0px 4px 15px rgba(20, 129, 186, 0.35);
 		z-index: 999;
-		max-width: 100px;
- 
-	}
-        a:hover{
-                animation: bounce 0.4s ease-in-out;
-        }
-        	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
-		}
-		25% {
-			transform: scale(1) translateY(3px);
-		}
-		50% {
-			transform: scale(1) translateY(-1px);
-		}
-		75% {
-			transform: scale(1) translateY(2px);
-		}
-		100% {
-			transform: scale(1) translateY(0);
-		}
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
+	a:hover {
+		background-color: #ffffff;
+		color: var(--primary);
+		box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.25);
+		transform: translateY(-2px);
+	}
 </style>

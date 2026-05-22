@@ -2,7 +2,6 @@
 	import Photo from '../Assets/portfolio/photo.png';
 	import Guitare from '../Assets/cours-guitare.png';
 	import myFood from '../Assets/portfolio/myFood.png';
-
 	import Booki from '../Assets/portfolio/booki.png';
 	import Morpion from '../Assets/portfolio/morpion.png';
 	import Meteo from '../Assets/portfolio/meteo.png';
@@ -20,79 +19,98 @@
 	let currentIndex = 0;
 	const slides = [
 		{
-			title: 'Landing Page',
+			category: 'Landing Page',
+			title: 'Solair Confort',
 			image: Solair,
 			lien: 'https://solairconfort-offre.fr/'
 		},
 		{
-			title: 'Site vitrine',
+			category: 'Site Vitrine Pro',
+			title: 'Frédérique Alcaix - Coach',
 			image: Alcaix,
 			lien: 'https://www.frederiquealcaix.fr/'
 		},
 		{
-			title: 'PWA',
+			category: 'Application PWA',
+			title: 'Géolocalisation & Cartographie',
 			image: gps,
-			lien: 'https://legendary-fairy-b3532c.netlify.app//'
+			lien: 'https://legendary-fairy-b3532c.netlify.app/'
 		},
 		{
-			title: 'Site web - Rocket Agency',
+			category: 'Site Web Animé',
+			title: 'Rocket Agency',
 			image: Rocket,
 			lien: 'https://fabienmarceau.com/RocketAgencyProject%20copie/index.html'
 		},
-
 		{
-			title: 'Site web - Le lion Taxi',
+			category: 'Site Web Marchand',
+			title: 'Le Lion Taxi',
 			image: LionTaxi,
 			lien: 'https://taxi-lyon-aeroport-rhone.com'
 		},
-		{ title: 'Site web - Booki', image: Booki, lien: 'https://fabienmarceau.com/Booki/index.html' },
+		{ 
+			category: 'Maquette Intégrée',
+			title: 'Booki - Plateforme hébergement', 
+			image: Booki, 
+			lien: 'https://fabienmarceau.com/Booki/index.html' 
+		},
 		{
-			title: 'Landing Page-Photographie',
+			category: 'Portfolio Photographe',
+			title: 'Gralypho Photography',
 			image: Photo,
 			lien: 'https://fabienmarceau.com/gralyphoPhotography/index.html'
 		},
 		{
-			title: 'Site web - Oh my Food',
+			category: 'Intégration Graphique',
+			title: 'Oh My Food - Gastronomie',
 			image: myFood,
 			lien: 'https://fabienmarceau.com/myFood/index.html'
 		},
 		{
-			title: 'Site web - Issétys',
+			category: 'Site d\'École',
+			title: 'Issétys - École de Musique Lyon',
 			image: Issétys,
 			lien: 'https://www.ecole-musique-lyon-issetys.com/'
 		},
 		{
-			title: 'Application  - Météo',
+			category: 'Application Web',
+			title: 'Météo Live & API',
 			image: Meteo,
 			lien: 'https://fabienmarceau.com/meteo/index.html'
 		},
 		{
-			title: 'Application - Morpion',
+			category: 'Module de Jeu',
+			title: 'Morpion / Tic Tac Toe',
 			image: Morpion,
 			lien: 'https://fabienmarceau.com/tic-tac-toe/index.html'
 		},
 		{
-			title: 'Site vitrine',
+			category: 'Site Vitrine',
+			title: 'Cours de Guitare à Lyon',
 			image: Guitare,
 			lien: 'https://cours-guitare-domicile-lyon.com/'
 		},
 		{
-			title: 'Application-To Do List',
+			category: 'Application de Productivité',
+			title: 'To-Do List Interactive',
 			image: Todo,
 			lien: 'https://main--gralyshoplist.netlify.app/'
 		},
 		{
-			title: 'Application - Pendu',
+			category: 'Module Ludique',
+			title: 'Jeu du Pendu Pédagogique',
 			image: Pendu,
 			lien: 'https://dupen.netlify.app/'
 		},
 		{
-			title: 'Application - Synthtiser',
+			category: 'Application Audio',
+			title: 'Synthétiseur de musique',
 			image: synthetiser,
 			lien: 'https://synthetizer.netlify.app/'
 		},
 		{
-			title: 'Site web - Presse',
+			category: 'Plateforme Média',
+			title: 'Info Détox - Presse objective',
 			image: Info,
 			lien: 'https://fanciful-taiyaki-b32670.netlify.app/'
 		}
@@ -108,15 +126,36 @@
 </script>
 
 <div class="slider">
-	<div class="navigation">
-		<button on:click={previousSlide}>&lt;</button>
-		<button on:click={nextSlide}>&gt;</button>
-	</div>
+	<!-- Flèches de navigation de luxe en verre dépoli -->
+	<button class="nav-btn prev-btn" on:click={previousSlide} aria-label="Précédent">
+		<svg viewBox="0 0 24 24" class="arrow-svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+			<polyline points="15 18 9 12 15 6"></polyline>
+		</svg>
+	</button>
+	<button class="nav-btn next-btn" on:click={nextSlide} aria-label="Suivant">
+		<svg viewBox="0 0 24 24" class="arrow-svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+			<polyline points="9 18 15 12 9 6"></polyline>
+		</svg>
+	</button>
+
+	<!-- Diapo en défilement -->
 	<div class="slides" style="transform: translateX(-{currentIndex * 100}%);">
 		{#each slides as slide}
 			<div class="slide">
-				<a href={slide.lien} target="_blank">Visitez</a>
 				<img class="img" src={slide.image} alt={slide.title} />
+				
+				<!-- Carte d'informations en verre dépoli -->
+				<div class="slide-info-card">
+					<span class="slide-tag">{slide.category}</span>
+					<h3 class="slide-title">{slide.title}</h3>
+					<a href={slide.lien} target="_blank" rel="noopener noreferrer" class="slide-visit-btn">
+						Visiter le site
+						<svg xmlns="http://www.w3.org/2000/svg" class="visit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="5" y1="12" x2="19" y2="12"></line>
+							<polyline points="12 5 19 12 12 19"></polyline>
+						</svg>
+					</a>
+				</div>
 			</div>
 		{/each}
 	</div>
@@ -124,110 +163,192 @@
 
 <style>
 	.slider {
-		border: 0px solid white;
 		width: 100%;
-		height: 600px;
-		border-radius: 10px;
+		height: 550px;
+		border-radius: 24px;
 		overflow: hidden;
-		margin: 40px auto;
+		margin: 20px auto 60px auto;
 		position: relative;
-		/* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.342); */
-		margin-bottom: 100px;
+		border: 1px solid rgba(255, 255, 255, 0.06);
+		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
 	}
 
 	.slides {
 		display: flex;
-		transition: fade 0.5s ease-in-out;
-	}
-
-	@keyframes fade {
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
+		height: 100%;
+		transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	.slide {
-		flex: 0 0 100%; /* Chaque diapositive occupe 100% de la largeur du slider */
+		flex: 0 0 100%;
+		height: 100%;
+		position: relative;
+		overflow: hidden;
 		box-sizing: border-box;
 	}
 
 	.img {
 		width: 100%;
-		height: 600px;
+		height: 100%;
 		object-fit: cover;
+		transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
-	.navigation {
+	.slide:hover .img {
+		transform: scale(1.04);
+	}
+
+	/* Flèches directionnelles épurées */
+	.nav-btn {
 		position: absolute;
 		top: 50%;
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
 		transform: translateY(-50%);
-		z-index: 1;
-		padding: 50px;
-	}
-
-	button {
-		background-color: transparent;
-		border: none;
-		color: rgb(255, 255, 255);
-		padding: 10px;
-		cursor: pointer;
-		transition: 0.3s;
-		width: 50px;
-		height: 50px;
-		font-size: 1rem;
-		text-align: center;
-		font-weight: bolder;
-		background-color: var(--blue);
+		width: 48px;
+		height: 48px;
 		border-radius: 50%;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	}
-	button:hover {
-		background-color: var(--blue);
-		border: 2px solid white;
-		width: 40px;
-		height: 40px;
-	}
-
-	.slide a {
-		font-family: var(--Epilogue);
-		font-weight: 300;
-		padding: 20px;
-		letter-spacing: -0.01em;
-		font-size: 1rem;
-		text-decoration: none;
-		color: var(--whiteGrey);
-		background-color: var(--cta);
+		background: rgba(13, 18, 31, 0.5);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		color: #ffffff;
+		cursor: pointer;
 		display: flex;
-		width: 20%;
 		align-items: center;
 		justify-content: center;
+		z-index: 10;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
-	.slide a:hover {
-		background-color: var(--green);
+
+	.nav-btn:hover {
+		background: var(--green, #D6A319);
+		border-color: var(--green, #D6A319);
 		color: var(--primary);
-		transition: 0.5s ease-in-out;
+		transform: translateY(-50%) scale(1.08);
+		box-shadow: 0 0 20px rgba(214, 163, 25, 0.4);
+	}
+
+	.prev-btn {
+		left: 24px;
+	}
+
+	.next-btn {
+		right: 24px;
+	}
+
+	.arrow-svg {
+		width: 18px;
+		height: 18px;
+	}
+
+	/* Carte d'information en verre dépoli suspendue */
+	.slide-info-card {
+		position: absolute;
+		bottom: 35px;
+		left: 35px;
+		background: rgba(13, 18, 31, 0.65);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
+		padding: 1.75rem;
+		border-radius: 20px;
+		width: 100%;
+		max-width: 360px;
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+		z-index: 5;
+		text-align: left;
+		transition: all 0.3s ease;
+	}
+
+	.slide-tag {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.65rem;
+		font-weight: 700;
+		color: var(--green, #D6A319);
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+	}
+
+	.slide-title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.2rem;
+		font-weight: 800;
+		color: #ffffff;
+		margin: 0 0 0.8rem 0;
+		line-height: 1.35;
+	}
+
+	.slide-visit-btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		background: var(--cta, #1481ba);
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		font-weight: 700;
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		text-decoration: none;
+		padding: 10px 22px;
+		border-radius: 50px;
+		box-shadow: 0 4px 12px rgba(20, 129, 186, 0.25);
+		transition: all 0.3s ease;
+		align-self: flex-start;
+	}
+
+	.slide-visit-btn:hover {
+		background: #ffffff;
+		color: var(--primary);
+		box-shadow: 0 6px 18px rgba(255, 255, 255, 0.25);
+		transform: translateY(-2px);
+	}
+
+	.visit-icon {
+		width: 14px;
+		height: 14px;
+		transition: transform 0.3s ease;
+	}
+
+	.slide-visit-btn:hover .visit-icon {
+		transform: translateX(4px);
 	}
 
 	@media screen and (max-width: 768px) {
 		.slider {
-			height: 500px;
-		}
-		.img {
-			width: 100%;
-			height: 500px;
-			object-fit: cover;
+			height: 480px;
+			border-radius: 16px;
+			margin-bottom: 30px;
 		}
 
-		button {
-			width: 30px;
-			height: 30px;
-			font-size: 0.8rem;
+		.nav-btn {
+			width: 38px;
+			height: 38px;
+		}
+
+		.prev-btn {
+			left: 10px;
+		}
+
+		.next-btn {
+			right: 10px;
+		}
+
+		.slide-info-card {
+			bottom: 20px;
+			left: 20px;
+			right: 20px;
+			width: auto;
+			max-width: none;
+			padding: 1.25rem;
+		}
+
+		.slide-title {
+			font-size: 1rem;
+			margin-bottom: 0.5rem;
 		}
 	}
 </style>
