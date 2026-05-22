@@ -2,10 +2,8 @@
 	import TarifsCards from '../../Components/Tarifs-Cards.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import Header from '../../sections/Header.svelte';
-	import { fade, slide } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	import Form from '../../Components/Form.svelte';
-	import FaqLink from '../../Components/FaqLink.svelte';
-
 
 	let tabTarifs = [
 		{
@@ -16,9 +14,9 @@
 			rubriques: [
 				'Landing Page (page unique)',
 				'Développement Front-End',
-				'Sans formulaire de contact',
-				'Référencement SEO',
-				'Design Responsive',
+				'Filtre de vitesse d\'élite',
+				'Référencement SEO technique',
+				'Design Responsive premium',
 				'Déploiement sur serveur'
 			]
 		},
@@ -28,25 +26,25 @@
 			tarifEuro: '5499€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Création du Design',
-				'Diagramme de classe UML',
-				'Diagramme de séquence',
-				'Développement Front-End',
-				'Développement Back-End',
-				'Déploiement sur serveur'
+				'Design UI / UX sur-mesure',
+				'Architecture UML & Base de données',
+				'Développement Front-End agile',
+				'Développement Back-End sécurisé',
+				'Déploiement sur serveurs Cloud',
+				'Finition et support technique'
 			]
 		},
 		{
 			titleH1: 'Référencement',
-			titleH2: 'SEO/SEA',
+			titleH2: 'SEO / SEA Pro',
 			tarifEuro: '699€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Analyse de la concurrence',
-				'Analyse des mots Clés',
-				'Implémentation des mots clés',
-				'Optimisation du contenu',
-				'Test et rapport de performance'
+				'Audit de concurrence complet',
+				'Recherche approfondie de mots-clés',
+				'Optimisation sémantique & technique',
+				'Stratégie de maillage & Backlinks',
+				'Rapports de performance mensuels'
 			]
 		},
 		{
@@ -55,130 +53,180 @@
 			tarifEuro: '599€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				"Plan d'action",
-				'Définition des objectifs',
-				'Rédaction des contenus',
-				'Organisation des publications'
+				"Plan d'action social media",
+				'Création de calendriers éditoriaux',
+				'Rédaction de posts & Reels pro',
+				'Animation active de la communauté',
+				'Optimisation du taux d\'engagement'
 			]
 		},
 		{
 			titleH1: 'Design',
-			titleH2: "Création d'identité et refonte",
+			titleH2: "Identité de Marque & Refonte",
 			tarifEuro: '899€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				"Création d'identité graphique",
-				'Création de logo',
-				'Refonte du site web',
-				'Référencement'
+				"Identité graphique sur-mesure",
+				'Conception de logo vectoriel',
+				'Refonte esthétique de site existant',
+				'Fourniture de charte graphique complète'
 			]
 		},
 		{
 			titleH1: 'Stratégie',
-			titleH2: 'Conseils Marketing',
+			titleH2: 'Conseil & Audit Digital',
 			tarifEuro: '999€',
 			subTarifEuro: 'À partir de ',
 			rubriques: [
-				'Audit de site web',
-				'Audit des besoins',
-				'Analyse du marché',
-				'Définition de stratégie',
-				"mise en place de plan d'action",
-				'Analyse des performances'
+				'Audit de site internet existant',
+				'Analyse fine de votre marché',
+				'Définition d\'une stratégie marketing',
+				'Plan d\'action d\'acquisition ciblé',
+				'Analyse poussée des performances'
 			]
 		}
 	];
 </script>
 
+<svelte:head>
+	<title>Nos Tarifs d'Agence Web, Mobile & SEO à Lyon | Gralypho</title>
+	<meta name="description" content="Découvrez les tarifs clairs et transparents de l'agence web Gralypho : création de site internet vitrine, e-commerce, application PWA et référencement SEO." />
+	<meta property="og:title" content="Tarifs Création Web & SEO d'Élite | Gralypho" />
+	<meta property="og:description" content="Des offres sur-mesure adaptées à vos objectifs de croissance et à votre budget. Site vitrine à partir de 799€." />
+	<meta property="og:url" content="https://gralypho.com/tarifs" />
+	<link rel="canonical" href="https://gralypho.com/tarifs" />
+</svelte:head>
+
 <Header />
 <Mouse />
 
-<section class="tarifs" in:fade={{ duration: 1000 }}>
-	<div class="hero">
-		<h1>Nos <br /><span>Tarifs</span></h1>
-		<h3>
-			L'agence Gralypho pratique des tarifs réfléchis et très adaptatifs. Chaque projet est
-			différent et la tarification dépend du besoin technologique qui est employé pour réaliser
-			votre projet.
-		</h3>
+<main class="page-container" in:fade={{ duration: 1000 }}>
+	<!-- Halos lumineux d'arrière-plan -->
+	<div class="glow-orb orb-1"></div>
+	<div class="glow-orb orb-2"></div>
+
+	<!-- En-tête Tarifs -->
+	<div class="tarifs-hero">
+		<h1 class="title">Nos <span class="highlight-text">Tarifs</span></h1>
+		<p class="subtitle">
+			L'agence Gralypho applique une tarification transparente, juste et sur-mesure. <br />
+			Chaque offre est calibrée selon l'ingénierie et la complexité technique nécessaires pour dépasser vos objectifs.
+		</p>
 	</div>
-	{#each tabTarifs as tarif, index (tarif)}
-		<TarifsCards
-			{index}
-			titleH1={tarif.titleH1}
-			titleH2={tarif.titleH2}
-			tarifEuro={tarif.tarifEuro}
-			subTarifEuro={tarif.subTarifEuro}
-			rubriques={tarif.rubriques}
-		/>
-	{/each}
 
-	<!-- <div class="wrapper__faqLink">
-		<FaqLink/>
-		<a href="/FAQ/#tarif">FAQ</a>
-	</div> -->
+	<!-- Grille des Offres -->
+	<div class="tarifs-grid">
+		{#each tabTarifs as tarif, index (tarif)}
+			<TarifsCards
+				{index}
+				titleH1={tarif.titleH1}
+				titleH2={tarif.titleH2}
+				tarifEuro={tarif.tarifEuro}
+				subTarifEuro={tarif.subTarifEuro}
+				rubriques={tarif.rubriques}
+			/>
+		{/each}
+	</div>
 
-	<div id="form">
+	<!-- Formulaire de Devis -->
+	<div id="form" class="wrapper-form">
 		<Form />
 	</div>
-</section>
+</main>
 
 <style>
-	.tarifs {
+	.page-container {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
 		align-items: center;
-		gap: 30px;
-		height: 100%;
+		justify-content: center;
+		flex-direction: column;
+		padding: 6rem 2rem 4rem 2rem;
+		background-color: var(--primary);
+		position: relative;
+		overflow: hidden;
+		min-height: 100vh;
 	}
-	#form {
-		width: 100vw;
+
+	/* Halos lumineux en arrière-plan */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.1;
+		pointer-events: none;
+		z-index: 1;
 	}
-	.hero {
-		padding: 30px;
+	.orb-1 {
+		width: 500px;
+		height: 500px;
+		background: var(--cta, #1481ba);
+		top: 15%;
+		left: -200px;
+	}
+	.orb-2 {
+		width: 600px;
+		height: 600px;
+		background: var(--green, #D6A319);
+		bottom: 25%;
+		right: -350px;
+	}
+
+	.tarifs-hero {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: auto;
-		width: 100%;
-	}
-	.hero h1 {
 		text-align: center;
-		font-family: var(--Geologica);
-		font-weight: 900;
-		font-size: var(--xl);
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -2px;
-		padding: 0px;
-		line-height: 50px;
-		margin-top: 50px;
-	}
-	.hero h1 span {
-		color: var(--green);
-	}
-	.hero h3 {
-		font-family: poppins;
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--primary);
-		text-align: center;
-		width: 50%;
-		padding: 30px;
+		margin-bottom: 4rem;
+		margin-top: 2rem;
+		max-width: 900px;
+		z-index: 3;
 	}
 
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(2.5rem, 5vw, 4.5rem);
+		font-weight: 900;
+		color: #ffffff;
+		margin: 0 0 1rem 0;
+		letter-spacing: -0.03em;
+		line-height: 1.15;
+	}
+
+	.highlight-text {
+		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.subtitle {
+		font-family: var(--Red), sans-serif;
+		font-size: clamp(1rem, 2vw, 1.2rem);
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.7);
+		line-height: 1.7;
+		margin: 0;
+	}
+
+	.tarifs-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2.5rem;
+		width: 100%;
+		max-width: 1200px;
+		margin-bottom: 4rem;
+		z-index: 3;
+		justify-items: center;
+	}
+
+	.wrapper-form {
+		width: 100%;
+		z-index: 3;
+	}
 
 	@media screen and (max-width: 768px) {
-		.hero h1 {
-			font-size: 2.5rem;
-			line-height: 50px;
-		}
-		.hero h3 {
-			width: 110%;
-			text-align: center;
-			padding: 40px;
+		.page-container {
+			padding: 5rem 1.25rem;
 		}
 	}
 </style>

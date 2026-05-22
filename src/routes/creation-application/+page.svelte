@@ -3,216 +3,326 @@
 	import Mouse from '../../Components/Mouse.svelte';
 	import CardTarifs from '../../Components/CardTarifs.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
-	import Images from '../../Components/ImagesBlocks.svelte';
-	import Bird from '../../Assets/bird3.jpeg';
-	import Woman from '../../Assets/smartphoneTech.jpeg';
-	import Smartphone from '../../Assets/compteur7.jpeg';
 	import Form from '../../Components/Form.svelte';
-	import Button from '../../Components/ButtonCTA.svelte';
 	import Link from '../../Components/LinkSiteApplication.svelte';
 
 	let pwa = [
 		{
-			name: 'PWA',
-			h2: 'Application Web ultra-rapide,\n Multiplateforme, \n Légère et à prix doux',
-			h3: 'Idéal pour : Entreprise, indépendant, commerce, évènementiel, Institution',
-			h4: ['Délai : 15 jours', 'IOS, Android et Web', ' Notification push'],
-
-			li: ['Accessible sans téléchargement', 'Compatible multi-plateforme (mobile, tablette, desktop)', 'Performante & rapide avec mise en cache', 'SEO-friendly et indexable par Google', 'Mode hors-ligne grâce au Service Worker', "Mises à jour instantanées sans validation d'un store", 'Coût de développement réduit (un seul code à maintenir)', 'Notifications push disponibles', 'Sécurisée via HTTPS'],
-			tarif: '6999 €'
+			name: 'Progressive Web App (PWA)',
+			h2: 'Application Web ultra-rapide \n Multiplateforme & légère',
+			h3: 'Idéal pour : Entreprises, commerçants, événementiel, services et applications internes',
+			h4: ['Délai : 15 jours', 'Accessible sans téléchargement', 'Zéro commission App Store'],
+			li: [
+				'Accessible instantanément via un simple lien sans passer par les Stores d\'applications',
+				'Totalement compatible multi-plateformes (iOS, Android, Tablettes, PC)',
+				'Performances extrêmes et chargement instantané grâce à la mise en cache active',
+				'Indexable par Google et moteurs de recherche (excellent SEO-friendly)',
+				'Mode hors-ligne performant grâce aux technologies de Service Worker',
+				'Mises à jour instantanées en arrière-plan sans validation fastidieuse des Stores',
+				'Notifications push puissantes pour fidéliser vos utilisateurs'
+			],
+			tarif: '6999 € TTC'
 		}
 	];
 
 	let native = [
 		{
-			name: 'NATIVE',
-			h2: 'Application native, \n IOS et ANDROID, \n puissante et performante',
-			h3: 'Idéal pour : Indépendant, créateur, artiste, marque, identité forte',
-			h4: ['Délai : 3 semaines', 'Android et Ios', ' Notification push'],
+			name: 'Application Native iOS & Android',
+			h2: 'Puissance maximale et performances graphiques absolues',
+			h3: 'Idéal pour : Marques de prestige, services géolocalisés avancés, projets complexes, AR/VR',
+			h4: ['Délai : 20-30 jours', 'Double déploiement iOS & Android', 'Accès total aux capteurs du mobile'],
 			li: [
-				'Expérience utilisateur optimisée et fluide',
-				'Accès complet aux fonctionnalités du téléphone (GPS, Bluetooth, NFC, caméra...)',
-				'Meilleures performances pour les apps lourdes (jeux, AR/VR, montage vidéo)',
-				'Notifications push plus puissantes et sans restrictions',
-				'Mode hors-ligne complet avec stockage local avancé',
-				'Présence sur les stores (App Store & Google Play), gage de crédibilité',
-				'Monétisation facilitée via achats in-app et abonnements',
-				'Sécurité renforcée grâce aux validations des stores'
+				'Expérience utilisateur (UX/UI) ultra-fluide et animations d\'élite en 60fps',
+				'Accès complet aux fonctions matérielles du smartphone (GPS, Bluetooth, Appareil photo, NFC...)',
+				'Monétisation facilitée par le biais d\'abonnements ou d\'achats in-app natifs',
+				'Présence officielle sur les Stores (App Store d\'Apple & Google Play Store), gage d\'autorité',
+				'Notifications push natives avancées pour des alertes instantanées même écran verrouillé',
+				'Sécurité matérielle maximale et stockage de données local crypté'
 			],
-			tarif: '9999 €'
+			tarif: '9999 € TTC'
 		}
 	];
-
-	let images = [Bird, Woman, Smartphone];
 </script>
+
+<svelte:head>
+	<title>Création d'Application Web & Mobile à Lyon | PWA et Native | Gralypho</title>
+	<meta name="description" content="Gralypho conçoit des applications mobiles et progressives (PWA) sur-mesure à Lyon et dans l'Ouest Lyonnais. Vitesse extrême, sécurité et design UX d'élite." />
+	<meta property="og:title" content="Création d'Application Mobile & Progressive PWA à Lyon | Gralypho" />
+	<meta property="og:description" content="Développement d'applications sur-mesure natives et PWA à Lyon. Performance d'exception et intégration complète des fonctionnalités mobiles." />
+	<meta property="og:url" content="https://gralypho.com/creation-application" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/logoGralypho2.jpeg" />
+	<link rel="canonical" href="https://gralypho.com/creation-application" />
+</svelte:head>
 
 <Header />
 <Mouse />
 
-<svelte:head>
-  <title>Création d'application web et mobile à Lyon-Ouest | PWA et Native | Gralypho</title>
-  <meta name="description" content="Gralypho conçoit des applications web et mobiles à Lyon-Ouest. Solutions sur-mesure, modernes, sécurisées et évolutives pour start-ups, entreprises et indépendants." />
+<main class="page-container">
+	<!-- Halos lumineux décoratifs d'arrière-plan -->
+	<div class="glow-orb orb-1"></div>
+	<div class="glow-orb orb-2"></div>
 
-  <!-- Open Graph (Facebook, LinkedIn...) -->
-  <meta property="og:title" content="Création d'application web et mobile à Lyon - Ouest | Gralypho" />
-  <meta property="og:description" content="Développement d'applications sur mesure à Lyon. Progressive web apps et native." />
-  <meta property="og:url" content="https://gralypho.com/creation-application" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://www.pyreweb.com/files/crop/bandeaux/images/bandeaux-pages/bandeau-dev-application-1_crop0.jpg" /> <!-- Remplace selon ton image réelle -->
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Création d'application web et mobile à Lyon - Ouest | Gralypho" />
-  <meta name="twitter:description" content="Développement d'applications sur mesure à Lyon -Ouest. Progressive web apps et native." />
-  <meta name="twitter:image" content="https://www.pyreweb.com/files/crop/bandeaux/images/bandeaux-pages/bandeau-dev-application-1_crop0.jpg" />
-
-  <!-- Technique SEO -->
-  <link rel="canonical" href="https://gralypho.com/creation-application" />
-  <meta name="robots" content="index, follow" />
-</svelte:head>
-
-
-<main>
-	<div class="wrapper__images">
-		<Images img={images} alt="image" />
-	</div>
+	<!-- Hero section introductive -->
 	<div class="wrapper__hero">
-		<h1 class="title">Applications</h1>
-		<h2>PWA ou native ?</h2>
-		<p>
-			Il existe deux grands types d'applications, les PWA et les natives. Les premières sont des applications web, accessibles depuis un navigateur, qui s'adaptent à tous les supports. Les secondes sont des applications mobiles, téléchargeables sur les stores, qui offrent une expérience utilisateur optimale, car elles sont dédiées à un seul support. Les PWA sont plus rapides à développer et moins chères, tandis que les applications natives sont plus performantes et plus puissantes. Le choix
-			entre les deux dépend de vos besoins et de votre budget.
+		<h1 class="title">Création d'<span class="highlight-text">Application Mobile</span></h1>
+		<h2 class="subtitle">PWA légère ou Application Native puissante ?</h2>
+		
+		<p class="intro-pitch">
+			Propulsez votre service directement sur les écrans de vos clients. Selon la nature de votre projet et votre budget, nous concevons des applications Web Progressives (PWA) agiles, installables directement via navigateur sans passer par les Stores, ou des applications mobiles Natives robustes (iOS/Android) tirant parti de toute la puissance des téléphones.
 		</p>
 
-		<div class="wrapper__component">
-			<h2>Notre offre d'applications PWA</h2>
+		<div class="comparison-grid">
+			<div class="comp-card">
+				<h3>📱 Progressive Web App (PWA)</h3>
+				<p>Rapide et économique. C’est un site web optimisé qui se comporte comme une application mobile. Elle s'installe sur le téléphone en 1 clic sans passer par l'App Store, fonctionne hors-ligne et envoie des notifications push.</p>
+			</div>
+			<div class="comp-card">
+				<h3>💎 Application Native</h3>
+				<p>Puissante et sans limites. Développée sur-mesure pour iOS et Android, elle utilise 100% des capacités physiques du téléphone (GPS, Bluetooth, biométrie). Publiée sur l'App Store et Google Play, elle incarne la crédibilité maximale.</p>
+			</div>
+		</div>
+	</div>
 
-			<p>
-				L'application PWA est plus légère, plus rapide à développer et donc, moins chère. Elle est accessible depuis un navigateur et se télécharge depuis celui-ci sur votre smartphone. Elle s'adapte à tous les supports, c'est sa grande force. Elle est performante et rapide, SEO-friendly et indexable par Google. Elle permet de mettre en cache les données pour un mode hors-ligne et de recevoir des notifications push. Elle est sécurisée via HTTPS et son coût de développement est réduit. Elle est
-				idéale pour les entreprises, les indépendants, les commerces, les évènementiels et les institutions. Une application PWA peut se télécharger depuis microsoft application PWA, car Microsoft a intégré les PWA dans son store.
-			</p>
+	<!-- Section PWA -->
+	<div class="wrapper__component">
+		<h2>Notre offre d'applications <span class="highlight-text">PWA</span></h2>
+		
+		<p class="section-desc">
+			La Progressive Web App est la solution idéale pour lancer un produit rapidement sur le marché avec des coûts de développement réduits. Accessible par URL, elle s'adapte à tous les écrans (mobile, tablette, desktop) et élimine les barrières de téléchargement.
+		</p>
+		
+		<div class="wrapper__offres-tarifs">
 			{#each pwa as item}
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
 		</div>
+	</div>
 
-		<div class="wrapper__component">
-			<h2>Notre offre d'application Native</h2>
-
-			<p>
-				L'application native est plus puissante et performante. Elle est dédiée à un seul support, soit IOS, soit Android. Elle offre une expérience utilisateur optimale et fluide. Elle permet un accès complet aux fonctionnalités du téléphone (GPS, Bluetooth, NFC, etc) et offre de meilleures performances pour les applications lourdes (jeux, AR/VR, montage vidéo). Elle permet des notifications push plus puissantes et sans restrictions, un mode hors-ligne complet avec stockage local avancé et une
-				présence sur les stores (App Store & Google Play), gage de crédibilité. Elle facilite la monétisation via des achats in-app et des abonnements et offre une sécurité renforcée grâce aux validations des stores. Elle est idéale pour les indépendants, les créateurs, les artistes, les marques et les identités fortes.
-			</p>
+	<!-- Section Native -->
+	<div class="wrapper__component">
+		<h2>Notre offre d'applications <span class="highlight-text">Natives iOS & Android</span></h2>
+		
+		<p class="section-desc">
+			Pour une expérience utilisateur sans le moindre compromis, une vitesse d'exécution absolue et une intégration matérielle complète. C'est le choix privilégié des marques haut de gamme et des applications nécessitant de lourds calculs.
+		</p>
+		
+		<div class="wrapper__offres-tarifs">
 			{#each native as item}
 				<CardTarifs name={item.name} h2={item.h2} h3={item.h3} h4={item.h4} li={item.li} tarif={item.tarif} />
 			{/each}
 		</div>
-		<div class="wrapper__faqLink">
-			<FaqLink />
-			<Link />
-		</div>
-	
-			<Form />
-	
+	</div>
+
+	<!-- FAQ et Liens d'offres -->
+	<div class="wrapper__faqLink">
+		<FaqLink />
+		<Link />
+	</div>
+
+	<!-- Formulaire de contact final -->
+	<Form />
 </main>
 
 <style>
-	main {
+	.page-container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		padding: 0px;
-		height: auto;
+		padding: 6rem 2rem 4rem 2rem;
 		background-color: var(--primary);
+		position: relative;
+		overflow: hidden;
 	}
 
-	.title {
-		font-family: var(--Geologica);
-		font-size: 5.5rem;
-		color: var(--whiteGrey);
-		font-weight: 700;
-		text-align: center;
-		letter-spacing: -2px;
-		margin-top: 50px;
+	/* Halos lumineux en arrière-plan */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.1;
+		pointer-events: none;
+		z-index: 1;
 	}
+	.orb-1 {
+		width: 500px;
+		height: 500px;
+		background: var(--cta, #1481ba);
+		top: 10%;
+		left: -200px;
+	}
+	.orb-2 {
+		width: 600px;
+		height: 600px;
+		background: var(--green, #D6A319);
+		bottom: 30%;
+		right: -350px;
+	}
+
 	.wrapper__hero {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 		width: 100%;
-		height: auto;
-		padding: 10px;
-		margin-top: 50px;
-		gap: 40px;
-		border-radius: 8px;
-		color: var(--primary);
+		max-width: 1100px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 4rem 3rem;
+		margin-bottom: 4rem;
+		gap: 1.5rem;
+		z-index: 3;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 	}
-	.wrapper__hero h2 {
-		font-family: var(--Red);
-		font-size: 1.2rem;
-		letter-spacing: -1px;
+
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(2.2rem, 5vw, 4.2rem);
+		color: #ffffff;
 		font-weight: 900;
-		color: var(--whiteGrey);
-		margin-top: 10px;
+		text-align: center;
+		letter-spacing: -0.03em;
+		margin: 0;
+		line-height: 1.15;
+	}
+
+	.highlight-text {
+		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.subtitle {
+		font-family: var(--Red), sans-serif;
+		font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.85);
+		margin: 0 0 1rem 0;
 		text-align: center;
 	}
 
-	.wrapper__hero p {
-		font-family: var(--Red);
-		font-size: 1rem;
-		font-weight: 400;
-		padding: 10px;
-		line-height: 30px;
-		color: var(--whiteGrey);
-		width: 80%;
-		text-align: justify;
+	.intro-pitch {
+		font-family: var(--Red), sans-serif;
+		font-size: 1.05rem;
+		font-weight: 300;
+		line-height: 1.8;
+		color: rgba(255, 255, 255, 0.75);
+		text-align: center;
+		max-width: 850px;
+		margin: 0;
 	}
+
+	.comparison-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+		width: 100%;
+		margin-top: 2.5rem;
+	}
+
+	.comp-card {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		padding: 2.2rem;
+		border-radius: 20px;
+		transition: all 0.3s ease;
+	}
+	.comp-card:hover {
+		border-color: rgba(255, 255, 255, 0.15);
+		background: rgba(255, 255, 255, 0.04);
+	}
+	.comp-card h3 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.15rem;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0 0 12px 0;
+	}
+	.comp-card p {
+		font-family: var(--Red), sans-serif;
+		font-size: 0.9rem;
+		line-height: 1.6;
+		color: rgba(255, 255, 255, 0.65);
+		margin: 0;
+		text-align: left;
+	}
+
+	/* Sections de services */
 	.wrapper__component {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		width: 80%;
-		height: auto;
-		padding: 10px;
-		margin-top: 60px;
-		gap: 40px;
-		border-radius: 8px;
-		color: var(--primary);
-	}
-	.wrapper__component h2 {
-		font-family: var(--Red);
-		font-size: 3rem;
-		letter-spacing: -1px;
-		font-weight: 900;
-		color: var(--whiteGrey);
-		margin-top: 10px;
-	}
-	.wrapper__component p {
 		width: 100%;
+		max-width: 1200px;
+		padding: 3rem 0;
+		margin-top: 2rem;
+		z-index: 3;
 	}
 
-	@media screen and (max-width: 768px) {
-		.wrapper__images{
-			margin-top: 50px;;
-		}
-		.title {
-			font-size: 3rem;
+	.wrapper__component h2 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(1.6rem, 3vw, 2.2rem);
+		font-weight: 800;
+		color: #ffffff;
+		text-align: center;
+		margin: 0 0 1rem 0;
+		letter-spacing: -0.01em;
+	}
+
+	.section-desc {
+		font-family: var(--Red), sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.65);
+		max-width: 800px;
+		text-align: center;
+		margin: 0 0 3rem 0;
+	}
+
+	.wrapper__offres-tarifs {
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		flex-wrap: wrap;
+		gap: 2.5rem;
+		width: 100%;
+		margin-top: 0;
+	}
+
+	.wrapper__faqLink {
+		margin-top: 5rem;
+		z-index: 3;
+		width: 100%;
+		max-width: 800px;
+	}
+
+	@media screen and (max-width: 867px) {
+		.page-container {
+			padding: 5rem 1.25rem;
 		}
 		.wrapper__hero {
-			margin-top: 50px;
+			padding: 2rem 1.5rem;
 		}
-		.wrapper__component {
-			width: 100%;
-			margin-top: 20px;
-			padding: 0px;
-		}
-		.wrapper__hero p {
-			width: 100%;
+		.intro-pitch {
 			text-align: left;
 		}
+		.wrapper__component {
+			padding: 2rem 0;
+			margin-top: 1rem;
+		}
+		.wrapper__component h2 {
+			text-align: left;
+			width: 100%;
+		}
+		.section-desc {
+			text-align: left;
+			width: 100%;
+		}
 	}
-
 </style>

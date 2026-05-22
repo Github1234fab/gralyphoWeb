@@ -1,336 +1,389 @@
 <script>
-	import { fade, slide } from 'svelte/transition';
-	// import bg from "../../Assets/png-gralypho/41.png";
+	import { fade } from 'svelte/transition';
 	import Header from '../../sections/Header.svelte';
-	// import vitrine from "../../Assets/png-gralypho/vitrine.svg";
-	import portfolio from '../../Assets/png-gralypho/address-card-regular.svg';
-	import commerce from '../../Assets/png-gralypho/shopping.svg';
-	import blog from '../../Assets/png-gralypho/blog-solid.svg';
-	import corporate from '../../Assets/png-gralypho/user-tie-solid.svg';
-	import institution from '../../Assets/png-gralypho/building-columns-solid.svg';
-	import imgHero from '../../Assets/png-gralypho/webExplosion.png';
-	import CardsSites from '../../Components/CardsSites.svelte';
-	// import FSection from "../../sections/FSection.svelte";
-	import Profits from '../../sections/SectionProfitsSite.svelte';
-	import Service from '../../Components/Services.svelte';
-	import imgDesign from '../../Assets/png-gralypho/30.png';
-	import imgSeo from '../../Assets/png-gralypho/05.png';
-	import imgWeb from '../../Assets/png-gralypho/36.png';
-	import imgFormation from '../../Assets/png-gralypho/Web.png';
-	import Banner from '../../Components/Banner.svelte';
-	import BeneficeSection from '../../sections/BeneficeSection.svelte';
-	import CardsSectionB from '../../Components/CardsSectionB.svelte';
-	import vitrineA from '../../Assets/png-gralypho/vitrineB.png';
-	import ecommerce from '../../Assets/png-gralypho/ecommerceA.png';
-	import Blogger from '../../Assets/png-gralypho/blogA.png';
-	import Portfolio from '../../Assets/png-gralypho/portfolio.png';
-	import Corporated from '../../Assets/png-gralypho/corporate.png';
-	import institutionnel from '../../Assets/png-gralypho/institutionnel.png';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
 	import design from '../../Assets/png-gralypho/Design.jpg';
 	import communication from '../../Assets/png-gralypho/supportCommunication.png';
 	import logoCrea from '../../Assets/png-gralypho/logoBiere.png';
-	// import Csection from "../../sections/Csection.svelte";
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Links from '../../Components/LinkSiteApplication.svelte';
-
-	let accordeonTab = [
-		{
-			title: 'Tarifs',
-			p: 'Pour la création de logo et la création de page Web et refonte, nous pratiquons un tarif de 100€/heure. Pour les logos nous pouvons ajouter un droit de diffusion. Pour la création de supports de communication, nous bénéficions de tarifs négociers avec nos imprimeurs partenaires.'
-		},
-		{
-			title: 'Délai de conception et de mise en ligne',
-			p: 'Pour les logos et support de communication les délais peuvent être de quelques jours à un 15 jours de la création à la livraison. Pour le spages Web les délais peuvent être sensiblement les mêmes.'
-		}
-	];
-
-	let sitesTab = [
-		{
-			type: 'Site Vitrine',
-			description:
-				'Le site Vitrine a pour objectif de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités,  etc. Mis à part un formulaire de contact, ce type de site ne propose pas de fonctionnalités avancées. Il est idéal pour les petites entreprises, les artisans, les professions libérales, les associations, les artistes, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de création et lancement est compris entre 2 et 4 semaines, selon la complexité du projet',
-			tarif: 'Tarif: À partir de 1500 euros.',
-			img: vitrineA
-		},
-		{
-			type: 'Site E-Commerce',
-			description:
-				"Le E-commerce vous permet de vendre vos produits 24/7. C'est une hyper présence en ligne nécessitant un travail soigneux aussi bien dans la gestion du front-end, comme sur la partie back-end et notamment sur la sécurité au niveau de la gestion des stocks et des paiements.",
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement est au minimum de 4 semaines, ce délai peut se rallonger selon la complexité du projet',
-			tarif: 'Tarif: À partir de 2500 euros.',
-			img: ecommerce
-		},
-		{
-			type: 'Blog',
-			description:
-				"Un Blog vous permet de créer et de poster des articles et d'ouvrir ces posts à des retours de commentaires de vos utilisateurs. Idéal pour obtenir des prospects et les convertir. Idéal pour les entreprises qui souhaitent partager leur expertise, leur actualité, leur veille, etc.",
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement est de 2 semaines. Le blog peut également être ajouté à un autre type de site.',
-			tarif: 'Tarif:  À partir de 500 euros pour un simple Blog',
-			img: Blogger
-		},
-		{
-			type: 'Portfolio',
-			description:
-				'Un Portfolio est idéal pour les artistes, les photographes, les graphistes, les designers, les architectes, les créateurs, les illustrateurs, les musiciens, les écrivains, etc. Il permet de présenter vos réalisations, vos créations, vos projets, vos oeuvres, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexité du projet',
-			tarif: 'Tarif: À partir de 1500 euros.',
-			img: Portfolio
-		},
-		{
-			type: 'Site Corporate',
-			description:
-				'Un site Corporate vous permet de présenter votre entreprise, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les entreprises, les PME, les TPE, les grandes entreprises, les multinationales, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallonger selon la complexite du projet',
-			tarif: 'Tarif: À partir de 2000 euros.',
-			img: Corporated
-		},
-		{
-			type: 'Site Institutionnel',
-			description:
-				'Un site institutionnel vous permet de présenter votre institution, vos services, vos produits, vos valeurs, votre équipe, vos actualités, etc. Il est idéal pour les institutions, les écoles, les universités, les collectivités, les mairies, les associations, les ONG, etc.',
-			delai:
-				'Délai de lancement: En règle général, le délai de lancement débute autour de 4 semaines, ce délai peut se rallong',
-			tarif: 'Tarif: À partir de 2000 euros.',
-			img: institutionnel
-		}
-	];
 </script>
 
 <Mouse />
 <Header />
 
-<!-- ***************HERO*************** -->
+<main class="page-container" in:fade={{ duration: 1000 }}>
+	<!-- Halos de lumière décoratifs -->
+	<div class="glow-orb orb-1"></div>
+	<div class="glow-orb orb-2"></div>
 
-<section class="sites-section" in:fade={{ duration: 1000 }}>
-	<div class="hero">
-		<img src={imgHero} alt="" class="imgHero" />
-		<h1>Création de <br/><span>Design, Logos et supports de Com'</span></h1>
-		<h2>
-			L'agence Gralypho crée vos designs Web pour qu'ils soient en parfaite adéquation avec votre
-			projet. <br />Le design d'un site ou d'une application, selon plusieurs études menées aupès
-			des utilisateurs du Web est essentiel pour plus de 75% des sondés.
+	<!-- Section Hero -->
+	<div class="wrapper__hero">
+		<h1 class="title">Identité Visuelle & <span class="highlight-text">Design Graphique</span></h1>
+		
+		<h2 class="subtitle">
+			L'agence Gralypho dessine des designs d'exception en parfaite adéquation avec l'ADN de votre projet.
+			<br />
+			<span class="sub-lead">Plus de 75% des internautes jugent la crédibilité d'une entreprise à la seule qualité de son identité visuelle et de son design web. Nous concevons des logos mémorables, des interfaces intuitives et des supports imprimés d'une élégance rare pour asseoir votre autorité.</span>
 		</h2>
-		<Button />
+		
+		<div class="cta-hero">
+			<Button />
+		</div>
 	</div>
 
-
-
+	<!-- Section Services & Galerie -->
 	<div class="container-service">
-		<h1>Étude et réalisation de design sur mesure</h1>
+		<h2>Notre savoir-faire en <span class="highlight-text">Création Graphique</span></h2>
+		<p class="section-desc">De la maquette interactive de votre futur site web à votre logo signature, nous façonnons une identité visuelle cohérente et percutante.</p>
+		
 		<div class="wrapper-service">
-			<div class="wrapper-img">
-				<h2>Design Page Web</h2>
-				<img
-					src={design}
-					alt="illustration de différents logo pour apiculteur"
-					class="img-design"
-				/>
+			<!-- Carte 1 -->
+			<div class="gallery-card">
+				<h3>Design UI / UX Web</h3>
+				<div class="img-wrapper">
+					<img src={design} alt="Création de maquettes web sur-mesure" class="img-gallery" />
+				</div>
+				<p class="card-pitch">Conception de chartes graphiques de sites internet et d'applications mobiles, pensées pour allier simplicité d'utilisation et esthétique premium.</p>
 			</div>
 
-			<div class="wrapper-img">
-				<h2>Création de logos</h2>
-				<img
-					src={logoCrea}
-					alt="illustration de différents logo pour apiculteur"
-					class="img-biere"
-				/>
+			<!-- Carte 2 -->
+			<div class="gallery-card">
+				<h3>Création de Logos</h3>
+				<div class="img-wrapper">
+					<img src={logoCrea} alt="Création de logos vectoriels uniques" class="img-gallery logo-specific" />
+				</div>
+				<p class="card-pitch">Dessin et vectorisation de votre logotype signature, livré avec sa charte typographique et ses déclinaisons pour tous vos supports physiques et numériques.</p>
 			</div>
 
-			<div class="wrapper-img">
-				<h2>Création de support de communication</h2>
-				<img src={communication} alt="Photos de cartes de visites" class="img-design" />
+			<!-- Carte 3 -->
+			<div class="gallery-card">
+				<h3>Supports de Communication</h3>
+				<div class="img-wrapper">
+					<img src={communication} alt="Impression de cartes de visites et plaquettes" class="img-gallery" />
+				</div>
+				<p class="card-pitch">Conception et impression haute fidélité de vos cartes de visites, plaquettes commerciales et flyers. Tarifs préférentiels négociés avec nos imprimeurs.</p>
 			</div>
 		</div>
 	</div>
-<Links/>
+
+	<!-- Liens d'offres -->
+	<div class="wrapper-links-nav">
+		<Links />
+	</div>
+
+	<!-- Citation Inspirante -->
+	<div class="testimonial-banner">
+		<div class="quote-symbol">“</div>
+		<blockquote>
+			Mon but est d’atteindre deux choses : la simplicité et la clarté. Les bons designs naissent de ces deux éléments.
+		</blockquote>
+		<cite>— Lindon Leader</cite>
+	</div>
+
+	<!-- FAQ et Contact -->
 	<div class="wrapper__faqLink">
 		<FaqLink />
-	
 	</div>
 
-	<div class="testimonial">
-		<h2>
-			« Mon but est d’atteindre deux choses : la simplicité et la clarté. <br /> Les bons designs naissent
-			de ces deux éléments. » – Lindon Leader
-		</h2>
+	<div class="wrapper-form">
+		<Form />
 	</div>
-	<Form />
-</section>
+</main>
 
 <style>
-	.sites-section {
+	.page-container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		background-color: rgb(245, 244, 244);
-		height: auto;
-		font-size: 16px;
-	}
-	.hero {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: auto;
-	}
-	.imgHero {
-		max-width: 60%;
-		min-width: 60%;
-		margin-top: 30px;
-	}
-	.hero h1 {
-		text-align: center;
-		font-family: var(--Geologica);
-		font-weight: 900;
-		font-weight: 900;
-		font-size: 2.5rem;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -2px;
-		padding: 15px;
-		line-height: 50px;
-		margin-top: 40px;
-	}
-	.hero h1 span {
-		color: var(--green);
-	}
-	.hero h2 {
-		font-family: poppins;
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--primary);
-		text-align: center;
-		margin-top: 50px;
-		margin-bottom: 100px;
-		width: 80%;
+		padding: 6rem 2rem 4rem 2rem;
+		background-color: var(--primary);
+		position: relative;
+		overflow: hidden;
 	}
 
+	/* Halos lumineux en arrière-plan */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.1;
+		pointer-events: none;
+		z-index: 1;
+	}
+	.orb-1 {
+		width: 500px;
+		height: 500px;
+		background: var(--green, #D6A319);
+		top: 10%;
+		left: -200px;
+	}
+	.orb-2 {
+		width: 600px;
+		height: 600px;
+		background: var(--cta, #1481ba);
+		bottom: 25%;
+		right: -350px;
+	}
+
+	.wrapper__hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		max-width: 1100px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 4.5rem 3rem;
+		margin-bottom: 4rem;
+		gap: 1.5rem;
+		z-index: 3;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+		text-align: center;
+	}
+
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(2.2rem, 5vw, 4.2rem);
+		color: #ffffff;
+		font-weight: 900;
+		text-align: center;
+		letter-spacing: -0.03em;
+		margin: 0;
+		line-height: 1.15;
+	}
+
+	.highlight-text {
+		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.subtitle {
+		font-family: var(--Red), sans-serif;
+		font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.85);
+		margin: 0;
+		line-height: 1.6;
+		max-width: 900px;
+	}
+	
+	.sub-lead {
+		display: inline-block;
+		font-size: 0.95rem;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.65);
+		margin-top: 10px;
+		line-height: 1.7;
+	}
+
+	.cta-hero {
+		margin-top: 1rem;
+	}
+
+	/* Galerie de Services */
 	.container-service {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
-		padding: 25px;
+		width: 100%;
+		max-width: 1200px;
+		padding: 3rem 0;
+		z-index: 3;
 	}
-	.container-service h1 {
+
+	.container-service h2 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(1.6rem, 3vw, 2.2rem);
+		font-weight: 800;
+		color: #ffffff;
 		text-align: center;
-		font-family: 'Red Hat Display';
-		font-size: var(--l);
-		font-weight: 700;
-		color: var(--primary);
-		margin-top: 100px;
-		letter-spacing: -1px;
+		margin: 0 0 1rem 0;
+		letter-spacing: -0.01em;
 	}
+
+	.section-desc {
+		font-family: var(--Red), sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.65);
+		max-width: 800px;
+		text-align: center;
+		margin: 0 0 3.5rem 0;
+	}
+
 	.wrapper-service {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: stretch;
-		gap: 10px;
-		margin-top: 30px;
-		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2.5rem;
+		width: 100%;
 	}
-	.wrapper-img {
+
+	.gallery-card {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 24px;
+		padding: 2rem;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		gap: 10px;
-		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.204);
-		border-radius: 5px;
-		padding: 20px;
-		min-width: 35%;
-		max-height: 100%;
+		gap: 1.25rem;
+		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 	}
-	.wrapper-img h2 {
-		font-family: 'Red Hat Display';
-		font-size: var(--m);
+
+	.gallery-card:hover {
+		border-color: var(--green, #D6A319);
+		transform: translateY(-8px);
+		box-shadow: 0 20px 45px rgba(214, 163, 25, 0.12);
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	.gallery-card h3 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.2rem;
 		font-weight: 700;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -1px;
-	}
-	.img-design {
-		max-width: 100%;
-		max-height: 50%;
-		margin-top: 50px;
-		border-radius: 5px;
-	}
-	.img-biere {
-		max-width: 100%;
-		min-height: 60%;
-		margin-top: 50px;
-		border-radius: 5px;
-	}
-
-
-	.testimonial {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-top: 0px;
-		height: auto;
-		background: var(--gradient);
-		padding: 0px;
-		gap: 0px;
-		width: 100%;
-		height: 200px;
-	}
-	.testimonial h2 {
-		font-family: 'Poppins';
-		font-weight: 400;
-		font-size: var(--m);
-		color: white;
+		color: #ffffff;
+		margin: 0;
 		text-align: center;
-		line-height: 30px;
-		letter-spacing: 0px;
-		padding: 40px;
 	}
 
-	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
-		}
-		25% {
-			transform: scale(1) translateY(3px);
-		}
-		50% {
-			transform: scale(1) translateY(-1px);
-		}
-		75% {
-			transform: scale(1) translateY(2px);
-		}
-		100% {
-			transform: scale(1) translateY(0);
-		}
+	.img-wrapper {
+		width: 100%;
+		height: 220px;
+		border-radius: 16px;
+		overflow: hidden;
+		background: rgba(0, 0, 0, 0.2);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgba(255, 255, 255, 0.05);
 	}
 
-	@media screen and (max-width: 768px) {
-		.wrapper-service {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: stretch;
-			gap: 20px;
-			margin-top: 30px;
+	.img-gallery {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	
+	.logo-specific {
+		object-fit: contain;
+		padding: 10px;
+		background: #ffffff;
+	}
+
+	.gallery-card:hover .img-gallery {
+		transform: scale(1.08);
+	}
+
+	.card-pitch {
+		font-family: var(--Red), sans-serif;
+		font-size: 0.9rem;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.65);
+		line-height: 1.6;
+		margin: 0;
+		text-align: center;
+	}
+
+	.wrapper-links-nav {
+		width: 100%;
+		z-index: 3;
+		margin-top: 2rem;
+	}
+
+	/* Citation Témoignage */
+	.testimonial-banner {
+		background: rgba(255, 255, 255, 0.02);
+		border-left: 4px solid var(--green, #D6A319);
+		border-right: 1px solid rgba(255, 255, 255, 0.05);
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 20px;
+		padding: 3.5rem 3rem;
+		width: 100%;
+		max-width: 800px;
+		margin: 4rem auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		z-index: 3;
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	}
+	
+	.quote-symbol {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 4rem;
+		color: var(--green, #D6A319);
+		line-height: 1;
+		height: 30px;
+		opacity: 0.4;
+		margin-bottom: 0.5rem;
+	}
+
+	.testimonial-banner blockquote {
+		font-family: var(--Red), sans-serif;
+		font-size: 1.2rem;
+		font-weight: 300;
+		color: #ffffff;
+		line-height: 1.7;
+		margin: 0;
+		font-style: italic;
+	}
+
+	.testimonial-banner cite {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.85rem;
+		font-weight: 700;
+		color: rgba(255, 255, 255, 0.5);
+		margin-top: 1.25rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		font-style: normal;
+	}
+
+	.wrapper__faqLink {
+		width: 100%;
+		max-width: 800px;
+		z-index: 3;
+	}
+
+	@media screen and (max-width: 867px) {
+		.page-container {
+			padding: 5rem 1.25rem;
 		}
-	.testimonial{
-		height: 400px;
-	}
-	.imgHero {
-		min-width: 100%;
-		margin-top: 30px;
-	}
+		.wrapper__hero {
+			padding: 2rem 1.5rem;
+		}
+		.subtitle {
+			text-align: left;
+		}
+		.container-service h2 {
+			text-align: left;
+			width: 100%;
+		}
+		.section-desc {
+			text-align: left;
+			width: 100%;
+		}
+		.testimonial-banner {
+			padding: 2rem 1.5rem;
+			text-align: left;
+			align-items: flex-start;
+		}
+		.testimonial-banner blockquote {
+			text-align: left;
+		}
 	}
 </style>

@@ -1,281 +1,320 @@
 <script>
-	import { fade, slide } from 'svelte/transition';
-	// import bg from "../../Assets/png-gralypho/41.png";
+	import { fade } from 'svelte/transition';
 	import Header from '../../sections/Header.svelte';
-	// import vitrine from "../../Assets/png-gralypho/vitrine.svg";
-	import portfolio from '../../Assets/png-gralypho/address-card-regular.svg';
-	import commerce from '../../Assets/png-gralypho/shopping.svg';
-	import blog from '../../Assets/png-gralypho/blog-solid.svg';
-	import corporate from '../../Assets/png-gralypho/user-tie-solid.svg';
-	import institution from '../../Assets/png-gralypho/building-columns-solid.svg';
-	import imgHero from '../../Assets/png-gralypho/webExplosion.png';
-	import CardsSites from '../../Components/CardsSites.svelte';
-	// import FSection from "../../sections/FSection.svelte";
-	import Profits from '../../sections/SectionProfitsSite.svelte';
 	import Service from '../../Components/Services.svelte';
-	import imgDesign from '../../Assets/png-gralypho/30.png';
-	import imgSeo from '../../Assets/png-gralypho/05.png';
-	import imgWeb from '../../Assets/png-gralypho/36.png';
-	import imgFormation from '../../Assets/png-gralypho/Web.png';
-	import Banner from '../../Components/Banner.svelte';
-	import BeneficeSection from '../../sections/BeneficeSection.svelte';
-	import CardsSectionB from '../../Components/CardsSectionB.svelte';
-	import vitrineA from '../../Assets/png-gralypho/vitrineB.png';
-	import ecommerce from '../../Assets/png-gralypho/ecommerceA.png';
-	import Blogger from '../../Assets/png-gralypho/blogA.png';
-	import Portfolio from '../../Assets/png-gralypho/portfolio.png';
-	import Corporated from '../../Assets/png-gralypho/corporate.png';
-	import institutionnel from '../../Assets/png-gralypho/institutionnel.png';
-	import Form from '../../Components/Form.svelte';
 	import redaction from '../../Assets/png-gralypho/writing.png';
 	import contenuMedia from '../../Assets/png-gralypho/contenuMedia.png';
 	import publiciteMedia from '../../Assets/png-gralypho/publiciteMedia.png';
-	import socialMedia from '../../Assets/png-gralypho/socialMedia.png';
+	import Form from '../../Components/Form.svelte';
+	import Mouse from '../../Components/Mouse.svelte';
 	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Links from '../../Components/LinkSiteApplication.svelte';
-
-	// import Csection from "../../sections/Csection.svelte";
-	import Mouse from '../../Components/Mouse.svelte';
-
-	// let accordeonTab = [
-	// 	{
-	// 		title: 'Tarifs',
-	// 		p: 'Nos forfaits de gestion des médias sociaux démarrent autour de 500 euros. Plus la mission est complexe plus le tarif grimpe, mais nous avons des solutions sous forme de  forfait, très intéressantes et très compétitives.'
-	// 	},
-	// 	{
-	// 		title: 'Contenu des missions de gestion des médias sociaux',
-	// 		p: 'Le contenu des missions de gestion des médias sociaux portent essentiellement sur la conception des posts et des campagnes publicitaires pour votre marque ou votre business. Nous gérons la rédaction des annonces, leur contenu, leur fréquence et leur diffusion.'
-	// 	}
-	// ];
 </script>
 
 <Mouse />
 <Header />
 
-<!-- ***************HERO*************** -->
+<main class="page-container" in:fade={{ duration: 1000 }}>
+	<!-- Halos lumineux en arrière-plan -->
+	<div class="glow-orb orb-1"></div>
+	<div class="glow-orb orb-2"></div>
 
-<section class="sites-section" in:fade={{ duration: 1000 }}>
-	<div class="hero">
-		<img src={socialMedia} alt="" class="imgHero" />
-		<h1>Gestion des <br /><span>Médias Sociaux</span></h1>
-		<h2>
-			L'agence Gralypho s'occupe de la gestion de vos réseaux sociaux. <br />
-			Mises à jour régulières, création de contenu vidéo et photo, gestion des interactions, etc. <br /> Nous nous occupons
-			de tout pour vous permettre d'atteindre votre public cible et de développer votre business.
+	<!-- Section Hero -->
+	<div class="wrapper__hero">
+		<h1 class="title">Gestion des <span class="highlight-text">Médias Sociaux</span></h1>
+		
+		<h2 class="subtitle">
+			L'agence Gralypho prend en main l'intégralité de votre présence sociale.
+			<br />
+			<span class="sub-lead">Mises à jour stratégiques régulières, création de contenus photo et vidéo professionnels, Community Management actif et gestion publicitaire : nous concevons un écosystème sur-mesure pour engager votre audience et propulser vos ventes.</span>
 		</h2>
-		<Button />
+		
+		<div class="cta-hero">
+			<Button />
+		</div>
 	</div>
 
-	<!-- ***************SERVICES*************** -->
-
+	<!-- Section Services -->
 	<div class="container-service">
-		<h1>Nos services de médias sociaux</h1>
+		<h2>Découvrez nos services de <span class="highlight-text">Community Management</span></h2>
+		<p class="section-desc">Des prestations de haute précision pour donner une voix unique et une identité mémorable à votre marque sur tous vos réseaux (Instagram, LinkedIn, Facebook).</p>
+		
 		<div class="wrapper-service">
 			<Service
-				text="Les différents types de contenus à poster."
-				description="Nous nous chargeons de la conception de votre contenu à poster sur les réseaux sociaux. Les titres, le contenu textuel, les slogans, le choix des mots clefs... "
+				text="Stratégie & Rédaction Éditoriale"
+				description="Conception complète du calendrier éditorial. Rédaction des posts, slogans, hashtags pertinents et recherche sémantique ciblée pour asseoir votre autorité."
 				img={redaction}
 				lien="/community-management"
 			/>
 			<Service
-				text="Service professionnel de création de contenu visuel."
+				text="Création de Contenus Visuels d'Élite"
 				img={contenuMedia}
-				description="Notre service de création de vidéo et photographie professionnelle vous permettra de vous démarquer sur les réseaux sociaux. Nous vous aidons à créer des contenus visuels de haute qualité."
+				description="Notre service de création vidéo et de photographie professionnelle vous permettra de vous démarquer sur tous les réseaux. Nous concevons des visuels et Reels haute fidélité pour imposer votre univers."
 				lien="/community-management"
 			/>
 			<Service
-				text="Les campagnes publicitaires ADS."
-				description="Nous sommes là pour vous aider à établir vos stratégies publicitaires et vos campagnes. Quand ?  Comment ? Pourquoi ? sont les questions auxquelles nous apporterons une réponse pertinente et sans faille pour vous permettre d'atteindre vos objectifs."
+				text="Campagnes Publicitaires Ads"
+				description="Élaboration et pilotage chirurgical de vos campagnes de publicités payantes (Meta Ads, LinkedIn Ads) pour un retour sur investissement (ROI) optimal."
 				img={publiciteMedia}
-					lien="/community-management"
-			/>
-			<!-- <Service
-				text="Formation et coaching"
-				description="Et pourquoi pas se former aux médias sociaux afin de devenir autonome et d'organiser vos campagnes et votre contenu vous-même? Nous pouvons vous former à travers des ateliers en ligne ou en présentiel adaptés à vos besoins et à votre business."
-				img={socialMedia}
 				lien="/community-management"
-			/> -->
+			/>
 		</div>
 	</div>
 
-	<Links/>
-
-	<div class="testimonial">
-		<h2>
-			J’aime les médias sociaux car ils existent à l’intersection de l’humanité et de la technologie
-			– @jeremywaite
-		</h2>
+	<!-- Liens d'offres -->
+	<div class="wrapper-links-nav">
+		<Links />
 	</div>
 
-	<!-- ***************CONTACT*************** -->
+	<!-- Citation Témoignage -->
+	<div class="testimonial-banner">
+		<div class="quote-symbol">“</div>
+		<blockquote>
+			J’aime les médias sociaux car ils existent à l’intersection parfaite de l’humanité et de la technologie.
+		</blockquote>
+		<cite>— Jeremy Waite</cite>
+	</div>
 
+	<!-- FAQ et Contact -->
 	<div class="wrapper__faqLink">
-		<FaqLink/>
-		<a href="/FAQ/#reseau">FAQ</a>
+		<FaqLink />
 	</div>
-
 
 	<div class="wrapper-form">
 		<Form />
 	</div>
-</section>
+</main>
 
 <style>
-	.sites-section {
+	.page-container {
 		display: flex;
-		flex-direction: column;
-		background-color: rgb(245, 244, 244);
-		height: auto;
-		font-size: 16px;
-	}
-	.imgHero {
-		max-width: 30%;
-		min-width: 30%;
-		margin-top: 30px;
-	}
-	.hero {
-		display: flex;
-		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: auto;
-	}
-	.hero h1 {
-		text-align: center;
-		font-family: var(--Geologica);
-		font-weight: 900;
-		font-size: 2rem;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -1px;
-		padding: 0px;
-		line-height: 50px;
-		margin-top: 70px;
-		padding: 15px;
-	}
-	.hero h1 span {
-		color: var(--green);
-	}
-	.hero h2 {
-		font-family: poppins;
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--primary);
-		text-align: center;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		width: 80%;
+		flex-direction: column;
+		padding: 6rem 2rem 4rem 2rem;
+		background-color: var(--primary);
+		position: relative;
+		overflow: hidden;
 	}
 
+	/* Halos de lumière */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.1;
+		pointer-events: none;
+		z-index: 1;
+	}
+	.orb-1 {
+		width: 500px;
+		height: 500px;
+		background: var(--cta, #1481ba);
+		top: 15%;
+		left: -200px;
+	}
+	.orb-2 {
+		width: 600px;
+		height: 600px;
+		background: var(--green, #D6A319);
+		bottom: 30%;
+		right: -350px;
+	}
+
+	.wrapper__hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		max-width: 1100px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 4.5rem 3rem;
+		margin-bottom: 4rem;
+		gap: 1.5rem;
+		z-index: 3;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+		text-align: center;
+	}
+
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(2.2rem, 5vw, 4.2rem);
+		color: #ffffff;
+		font-weight: 900;
+		text-align: center;
+		letter-spacing: -0.03em;
+		margin: 0;
+		line-height: 1.15;
+	}
+
+	.highlight-text {
+		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.subtitle {
+		font-family: var(--Red), sans-serif;
+		font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.85);
+		margin: 0;
+		line-height: 1.6;
+		max-width: 900px;
+	}
+	
+	.sub-lead {
+		display: inline-block;
+		font-size: 0.95rem;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.65);
+		margin-top: 10px;
+		line-height: 1.7;
+	}
+
+	.cta-hero {
+		margin-top: 1rem;
+	}
+
+	/* Conteneur de Services */
 	.container-service {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0px;
-		padding: 20px;
-
-	
+		width: 100%;
+		max-width: 1200px;
+		padding: 3rem 0;
+		z-index: 3;
 	}
-	.container-service h1 {
+
+	.container-service h2 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(1.6rem, 3vw, 2.2rem);
+		font-weight: 800;
+		color: #ffffff;
 		text-align: center;
-		font-family: 'Red Hat Display';
-		font-size: var(--l);
-		font-weight: 700;
-		color: var(--primary);
-		margin-top: 50px;
-		margin-bottom: 100px;
-		letter-spacing: -1px;
-		padding: 10px;
+		margin: 0 0 1rem 0;
+		letter-spacing: -0.01em;
 	}
+
+	.section-desc {
+		font-family: var(--Red), sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.65);
+		max-width: 800px;
+		text-align: center;
+		margin: 0 0 3.5rem 0;
+	}
+
 	.wrapper-service {
-		display: flex;
-		justify-content: center;
-		gap: 10px;
-		margin-top: 20px;
-	height: auto;
-	/* flex-wrap: wrap; */
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2.5rem;
+		width: 100%;
 	}
 
+	.wrapper-links-nav {
+		width: 100%;
+		z-index: 3;
+		margin-top: 2rem;
+	}
 
+	/* Bandeau Témoignage */
+	.testimonial-banner {
+		background: rgba(255, 255, 255, 0.02);
+		border-left: 4px solid var(--green, #D6A319);
+		border-right: 1px solid rgba(255, 255, 255, 0.05);
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 20px;
+		padding: 3.5rem 3rem;
+		width: 100%;
+		max-width: 800px;
+		margin: 4rem auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		z-index: 3;
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	}
+	
+	.quote-symbol {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 4rem;
+		color: var(--green, #D6A319);
+		line-height: 1;
+		height: 30px;
+		opacity: 0.4;
+		margin-bottom: 0.5rem;
+	}
+
+	.testimonial-banner blockquote {
+		font-family: var(--Red), sans-serif;
+		font-size: 1.2rem;
+		font-weight: 300;
+		color: #ffffff;
+		line-height: 1.7;
+		margin: 0;
+		font-style: italic;
+	}
+
+	.testimonial-banner cite {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.85rem;
+		font-weight: 700;
+		color: rgba(255, 255, 255, 0.5);
+		margin-top: 1.25rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		font-style: normal;
+	}
+
+	.wrapper__faqLink {
+		width: 100%;
+		max-width: 800px;
+		z-index: 3;
+	}
 
 	.wrapper-form {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: var(--bgHero);
-	}
-	.testimonial {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 0px;
-		height: 500px;
-		background: var(--gradient);
-		padding: 50px;
-		gap: 20px;
-		border-bottom: 1px solid rgb(79, 78, 78);
-	}
-	.testimonial h2 {
-		font-family: 'Poppins';
-		font-weight: 400;
-		font-size: var(--m);
-		color: white;
-		text-align: center;
-		line-height: 40px;
-		letter-spacing: 0px;
+		width: 100%;
+		z-index: 3;
 	}
 
-	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
+	@media screen and (max-width: 867px) {
+		.page-container {
+			padding: 5rem 1.25rem;
 		}
-		25% {
-			transform: scale(1) translateY(3px);
+		.wrapper__hero {
+			padding: 2rem 1.5rem;
 		}
-		50% {
-			transform: scale(1) translateY(-1px);
+		.subtitle {
+			text-align: left;
 		}
-		75% {
-			transform: scale(1) translateY(2px);
+		.container-service h2 {
+			text-align: left;
+			width: 100%;
 		}
-		100% {
-			transform: scale(1) translateY(0);
+		.section-desc {
+			text-align: left;
+			width: 100%;
 		}
-	}
-
-	@media screen and (min-width: 1224px) and (max-width: 2500px) {
-		.hero h1 {
-			line-height: 1em;
+		.testimonial-banner {
+			padding: 2rem 1.5rem;
+			text-align: left;
+			align-items: flex-start;
 		}
-	}
-	@media screen and (min-width: 768px) and (max-width: 1224px) {
-		.hero h1 {
-			line-height: 1em;
-		}
-	}
-	@media screen and (min-width: 300px) and (max-width: 1022px) {
-		.hero h1 {
-			line-height: 50px;
-			font-size: 2.5em;
-		}
-		.imgHero {
-			max-width: 60%;
-			min-width: 60%;
-			margin-top: 30px;
-		}
-		.wrapper-service {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			gap: 10px;
-			margin-top: 20px;
-	
-		
+		.testimonial-banner blockquote {
+			text-align: left;
 		}
 	}
 </style>

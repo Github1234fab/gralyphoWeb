@@ -2,112 +2,152 @@
 	import ButtonCta from './ButtonCTA.svelte';
 </script>
 
-<main>
+<main class="cta-banner-section">
 	<div class="wrapper">
-		<h2 class="title">Un projet en tête ?</h2>
+		<!-- Halo décoratif interne -->
+		<div class="inner-glow"></div>
+		
+		<h2 class="title">Un projet de site ou d'application en tête ?</h2>
+		
 		<h3 class="subtitle">
-			Vous avez besoin d'un site internet ou d'une application ? Vous souhaitez obtenir des informations claires avant de vous lancer ?
-			<br /> Lors d'un premier rendez-vous entièrement gratuit, nous pourrons définir ensemble les structures de votre projet.
-			<br /> Nous pourrons choisir les technologies les plus adaptées à vos besoins et aborder ensemble les questions de design, de référencement et de budget.
-			<br /><br />
-			<span>Discutons de votre projet !</span>
+			Vous avez besoin d'un site internet performant ou d'une application mobile sur-mesure ? Vous souhaitez obtenir des informations stratégiques avant de vous lancer ?
+			<br />
+			Lors d'un premier échange <strong>100% gratuit et sans engagement</strong>, nous étudions votre projet, définissons sa structure idéale et choisissons les technologies de pointe adaptées à votre budget et à vos objectifs SEO.
 		</h3>
-		<ButtonCta />
-		<a href="/#section-form">Obtenir un devis</a>
+		
+		<p class="final-pitch">
+			Discutons ensemble et propulsons votre visibilité !
+		</p>
+
+		<div class="actions-wrapper">
+			<ButtonCta />
+			<a href="/#section-form" class="quote-btn">Obtenir un devis gratuit</a>
+		</div>
 	</div>
 </main>
 
 <style>
-	main {
+	.cta-banner-section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		/* background-color: var(--whiteGrey); */
-		/* background-image:linear-gradient(to top, var(--whiteGrey) 0%, var(--cta) 40%, var(--cta) 60%, var(--primary) 100%); */
-		padding: 100px;
+		padding: 6rem 2rem;
+		background: radial-gradient(circle at 50% 100%, #151e36 0%, var(--primary) 60%);
+		position: relative;
+		overflow: hidden;
 	}
+
 	.wrapper {
+		position: relative;
 		display: flex;
 		flex-direction: column;
-		background-color: var(--primary);
-		/* background-image: linear-gradient(120deg, var(--primary) 20%, var(--cta) 50%, var(--primary) 50%, var(--cta) 100%); */
-		border-radius: 20px;
-		padding: 100px;
-		gap: 20px;
-		box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
-	}
-	.title {
-		font-size: 2rem;
-		font-family: var(--Red);
-		color: var(--whiteGrey);
-	}
-	.subtitle {
-		font-size: 1rem;
-		font-weight: 400;
-		font-family: var(--Red);
-		color: var(--whiteGrey);
-		line-height: 2rem;
-	}
-	.subtitle span {
-		font-weight: 700;
-	}
-	a {
-		background-color: var(--cta);
-		color: var(--whiteGrey);
-		font-family: 'Red Hat Display';
-		font-size: 1rem;
-		font-weight: 700;
-		border-radius: 8px;
+		align-items: center;
+		justify-content: center;
 		text-align: center;
-		padding: 15px 20px;
-		box-shadow: 0px 10px 10px rgba(62, 62, 62, 0.5);
-		z-index: 999;
-		max-width: 200px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 4.5rem 3rem;
+		gap: 2rem;
+		width: 100%;
+		max-width: 1000px;
+		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+		backdrop-filter: blur(15px);
+		-webkit-backdrop-filter: blur(15px);
 	}
-	a:hover {
-		animation: bounce 0.4s ease-in-out;
+
+	.inner-glow {
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		width: 200%;
+		height: 200%;
+		background: radial-gradient(circle at center, rgba(214, 163, 25, 0.05) 0%, transparent 50%);
+		pointer-events: none;
+		z-index: 1;
 	}
-	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
-		}
-		25% {
-			transform: scale(1) translateY(3px);
-		}
-		50% {
-			transform: scale(1) translateY(-1px);
-		}
-		75% {
-			transform: scale(1) translateY(2px);
-		}
-		100% {
-			transform: scale(1) translateY(0);
-		}
+
+	.title {
+		font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+		font-family: var(--Geologica), sans-serif;
+		font-weight: 900;
+		color: #ffffff;
+		margin: 0;
+		line-height: 1.25;
+		letter-spacing: -0.02em;
+		z-index: 2;
+	}
+
+	.subtitle {
+		font-size: clamp(0.95rem, 1.8vw, 1.15rem);
+		font-weight: 300;
+		font-family: var(--Red), sans-serif;
+		color: rgba(255, 255, 255, 0.75);
+		line-height: 1.8;
+		max-width: 800px;
+		margin: 0;
+		z-index: 2;
+	}
+	
+	.subtitle strong {
+		color: var(--green, #D6A319);
+	}
+
+	.final-pitch {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.2rem;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0;
+		z-index: 2;
+	}
+
+	.actions-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		margin-top: 1rem;
+		z-index: 2;
+		width: 100%;
+	}
+
+	.quote-btn {
+		background-color: transparent;
+		border: 2px solid #ffffff;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.95rem;
+		font-weight: 700;
+		border-radius: 50px;
+		text-align: center;
+		padding: 14px 32px;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.quote-btn:hover {
+		background-color: #ffffff;
+		color: var(--primary);
+		transform: translateY(-2px);
+		box-shadow: 0 10px 25px rgba(255, 255, 255, 0.15);
 	}
 
 	@media screen and (max-width: 768px) {
-		main {
-			padding: 10px;
-			height: auto;
+		.cta-banner-section {
+			padding: 4rem 1.25rem;
 		}
 		.wrapper {
-			display: flex;
-			flex-direction: column;
-			background-color: var(--primary);
-			border-radius: 20px;
-			padding: 30px;
-			gap: 20px;
-			box-shadow: 0px 0px 20px 10px rgba(5, 5, 5, 0.365);
-			margin-top: 50px;
+			padding: 2.5rem 1.5rem;
+			gap: 1.5rem;
 		}
-		.title {
-			font-size: 1.5rem;
-		}
-		.subtitle {
-			font-size: 1rem;
-			line-height: 43px;
-
+		.quote-btn {
+			width: 100%;
+			padding: 12px 24px;
 		}
 	}
 </style>

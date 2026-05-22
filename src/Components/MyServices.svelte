@@ -7,344 +7,417 @@
 	import Button from '../Components/ButtonCTA.svelte';
 </script>
 
-<main class="main">
+<main class="services-section">
 	<div class="wrapper__paragraph">
-		<h2 class="title">Création de sites internet professionnels, applications web et référencement SEO</h2>
-		<br />
-		<h3 class="title-2">Votre site internet professionnel, livré sous trois jours pour 1399 euros.</h3>
-		<p class="subtitle">
-			Nous avons conçu une formule pour répondre aux besoins des professionnels. <br /> Nous concevons un site web professionnel, livré sous 3 jours maximum, pour un tarif de 1399 euros ttc. <br /> Votre futur site web contient les 5 pages traditionnelles que contient un site internet, à savoir les pages "Accueil", "À propos", "Services", "Réalisations", et "Contact". <br />
-			Nous procédons à l'intégration de votre contenu (texte, image, etc) et optimisons votre site web pour le référencement sur internet (SEO). <br /> Nous déployons pour finir votre site internet sur le Web en réalisant tous les tests nécessaires. <br /> C'est notre produit d'appel et celui qui remporte un grand succès auprès des indépendants, commerçants, TPE et PME. Vous obtenez un site <a href="/creation-site-internet" class="maillage">internet professionnel</a> en 3 jours, pour un prix
-			défiant toute concurrence. <br /><br />
-			<Button />
-		</p>
-		<br />
-		<h3 class="title-2">Vous souhaitez un site internet qui vous ressemble, originale et unique ?</h3>
-		<p class="subtitle">
-			Nous vous proposons la création de votre <a href="/creation-application" class="maillage">site internet sur mesure (Custom)</a>, pour renforcer votre identité sur le web et créer une empreinte unique. Vous possédez une marque, vous êtes indépendant, créatif ou artiste ? Pour vous, faire la différence commence par l'originalité ? Alors, optez pour un site entièrement créé sur mesure. Nous vous proposons une liberté totale de création pour un résultat maximal et un visuel impactant. Nous
-			sommes développeurs experts et notre capacité à coder nous permet de créer absolument ce que vous souhaitez. Nos tarifs débutent à partir de 5999 euros pour un site internet Custom qui fera la différence, à coup sûr.
-			<br /><br />
-			<Button />
-		</p>
-		<br />
-		<h3 class="title-2">Landing page et site e-commerce</h3>
-		<p class="subtitle">
-			Vous souhaitez présenter votre activité, diffuser vos évènements, votre actualité ou vendre vos produits ? <br />
-			Nous vous offrons la possibilté de créer votre site web pour vous faire connaître auprès du plus grand nombre. Sous forme de Landing Page (page unique condensée) ou sous forme d'un site e-commerce complet, nous sommes à vos côté pour définir votre stratégie et vous permettre d'accéder à une visibilité maximale sur le web. Nos tarifs pour une landing page débutent à partir de 799€ et 3999€ pour un site e-commerce.
-			<br /><br /><Button />
-		</p>
-		<br />
-		<h3 class="title-2">Une application web et mobile, pour vous simplifier la vie et celle de vos clients ?</h3>
-		<p class="subtitle">
-			Vous le savez, l'application est incontournable, mais ce que vous pensez savoir aussi, c'est qu'elle est chère. Et bien détrompez-vous. Pourquoi ? Parce qu'il existe l'application PWA ! L'application PWA est plus facile à programmer, plus rapide à développer et moins chère à créer. Elle est aussi plus rapide à charger et plus légère qu'une application classique. En effet, l'application PWA est une application web qui se comporte comme une application mobile. Elle est accessible depuis
-			n'importe quel appareil (mobile, tablette, ordinateur) et ne nécessite pas de téléchargement. Nos tarifs pour une application PWA débute à partir de 6999 euros. Pour une application native IOS et Android, nos tarifs débutent à partir de 9999€.
-			<br /><br /><Button />
-		</p>
-		<br />
-		<h3 class="title-2">
-			Vous souhaitez un référencement naturel 100% optimisé? <br />
-			Vous souhaitez une parfaite visibilité sur le web pour augmenter votre trafic et vos ventes ?
-		</h3>
-		<p class="subtitle">
-			Bienvenue dans le monde du SEO ! LE SEO (search engine optimization) regroupe aujourd'hui l'ensemble des techniques qui permettent à un site internet de se positionner en première page des moteurs de recherche. le SEO nécessite une grande expertise tant il regorge de technique interdépendantes. Il s'agit en premier lieu d'auditer votre site internet pour en comprendre la structure et la stratégie. Ensuite il s'agit de réaliser un audit technique du site, d'en découvrir les atouts et les
-			inconvénients, puis d'améliorer les différents points relevés pour atteindre les objectifs fixés en terme de trafic, de vente et de visibilité. <br /><br />
-			<Button />
-		</p>
-	</div>
-	<div class="container">
-		<div class="wrapper__cards">
-			<div class="wrapper__cards-card">
-				<img class="logo" src={Rocket} alt="fusée" />
-				<h3 class="subtitle-h3">Performance</h3>
-				<h4 class="subtitle-h4">Le meilleur des technologies pour des sites internet et des applications ultra-légères <br /> et ultra-rapides</h4>
+		<h2 class="title">Création de Sites Internet Professionnels & Applications Web sur-mesure</h2>
+		
+		<div class="services-grid">
+			<!-- Formule Express -->
+			<div class="service-box">
+				<div class="badge-service">⚡ Express - 3 Jours</div>
+				<h3 class="title-2">Site Internet Professionnel Clés en Main</h3>
+				<div class="price-tag">1399 € <span class="tax-info">TTC</span></div>
+				<p class="subtitle">
+					Conçu spécialement pour les indépendants, commerçants et TPE. Nous créons votre site web professionnel contenant les 5 pages traditionnelles de votre choix (Accueil, À propos, Services, Galerie, Contact), intégrons votre contenu, l'optimisons à 100% pour le référencement (SEO), et le déployons sur le Web sous 3 jours maximum. Un rapport qualité/prix imbattable pour asseoir votre présence numérique.
+				</p>
+				<div class="cta-card">
+					<Button />
+				</div>
 			</div>
 
-			<div class="wrapper__cards-card">
-				<img class="logo" src={Flex} alt="une personne danse et représente la flexibilté" />
-				<h3 class="subtitle-h3">Flexibilité</h3>
-				<h4 class="subtitle-h4">Site internet avec ou sans gestion de contenu. <br /> Avec ou sans forfait de maintenance</h4>
+			<!-- Site Custom -->
+			<div class="service-box featured-box">
+				<div class="badge-service accent-badge">💎 Création d'Élite</div>
+				<h3 class="title-2">Site Internet Custom & Design Sur-Mesure</h3>
+				<div class="price-tag"><span class="from-text">dès</span> 5999 € <span class="tax-info">TTC</span></div>
+				<p class="subtitle">
+					Vous souhaitez un univers graphique unique qui marque les esprits et renforce votre identité de marque ? Nous concevons votre site entièrement codé à la main (SvelteKit/Strapi), offrant une liberté totale de création graphique, des animations d'avant-garde, et des performances de chargement instantanées que les outils classiques (WordPress) ne peuvent atteindre.
+				</p>
+				<div class="cta-card">
+					<Button />
+				</div>
 			</div>
 
-			<div class="wrapper__cards-card">
-				<img class="logo" src={Seo} alt="illustration sur le SEO" />
-				<h3 class="subtitle-h3">100% SEO</h3>
-				<h4 class="subtitle-h4">Nous sommes experts en stratégie SEO et nous vous aidons à augmentez vos ventes <br /> en augmentant de manière franche le trafic sur votre site.</h4>
+			<!-- Landing Page & E-Commerce -->
+			<div class="service-box">
+				<div class="badge-service">🛒 E-Commerce & Landing Page</div>
+				<h3 class="title-2">Boutiques en Ligne & Pages de Conversion</h3>
+				<div class="price-tag"><span class="from-text">dès</span> 799 € <span class="tax-info">/ 3999 €</span></div>
+				<p class="subtitle">
+					Présentez une offre unique avec une Landing Page à fort taux de conversion, ou lancez votre activité marchande avec un site e-commerce complet (Shopify / Svelte). Nous créons des tunnels d'achat ultra-fluides et optimisés pour maximiser vos ventes en ligne tout en conservant une autonomie complète sur la gestion de vos stocks et produits.
+				</p>
+				<div class="cta-card">
+					<Button />
+				</div>
 			</div>
 
-			<div class="wrapper__cards-card">
-				<img class="logo" src={Design} alt="une plume colorée" />
-				<h3 class="subtitle-h3">Design et accessibilité</h3>
-				<h4 class="subtitle-h4">Nos designs sont soignés, nous adorons l'UX et l'UI et mettons un point d"honneur à respecter les normes W3C.</h4>
+			<!-- Applications Web & Mobiles -->
+			<div class="service-box">
+				<div class="badge-service">📱 Mobile & PWA</div>
+				<h3 class="title-2">Applications Web Progressives & Natives</h3>
+				<div class="price-tag"><span class="from-text">dès</span> 6999 € <span class="tax-info">/ 9999 €</span></div>
+				<p class="subtitle">
+					Propulsez votre service sur les téléphones de vos clients ! Nous développons des applications PWA (Progressive Web App) légères, économiques et installables sans passer par les stores, ou des applications mobiles natives (iOS/Android) de haute technologie avec des fonctionnalités avancées pour une expérience utilisateur irréprochable.
+				</p>
+				<div class="cta-card">
+					<Button />
+				</div>
+			</div>
+
+			<!-- SEO Expertise -->
+			<div class="service-box full-width-box">
+				<div class="badge-service SEO-badge">📈 Stratégie SEO & Visibilité</div>
+				<h3 class="title-2">Optimisation pour les Moteurs de Recherche (Google)</h3>
+				<p class="subtitle">
+					Le plus beau des sites internet ne sert à rien si personne ne le trouve. Spécialistes en stratégie SEO, nous réalisons un audit technique complet de votre site, analysons vos concurrents, ciblons les requêtes de clients les plus rentables et optimisons votre architecture interne (maillage, vitesse, netlinking) pour vous hisser en première page de Google et multiplier votre trafic naturel de manière franche et durable.
+				</p>
+				<div class="cta-card">
+					<Button />
+				</div>
 			</div>
 		</div>
 	</div>
+
+	<div class="container">
+		<h2 class="section-subtitle">Pourquoi choisir Gralypho pour votre projet digital ?</h2>
+		<div class="wrapper__cards">
+			<div class="wrapper__cards-card">
+				<img class="logo-benefit" src={Rocket} alt="Icône de fusée pour la vitesse" />
+				<h3 class="subtitle-h3">Performance</h3>
+				<h4 class="subtitle-h4">Le meilleur des technologies modernes pour des sites internet et des applications ultra-légères, fluides et ultra-rapides.</h4>
+			</div>
+
+			<div class="wrapper__cards-card">
+				<img class="logo-benefit" src={Flex} alt="Icône pour la flexibilité" />
+				<h3 class="subtitle-h3">Flexibilité</h3>
+				<h4 class="subtitle-h4">Site internet avec ou sans système de gestion de contenu (CMS), avec ou sans forfait de maintenance mensuel. Vous restez maître.</h4>
+			</div>
+
+			<div class="wrapper__cards-card">
+				<img class="logo-benefit" src={Seo} alt="Icône SEO" />
+				<h3 class="subtitle-h3">100% SEO</h3>
+				<h4 class="subtitle-h4">Nous codons en respectant scrupuleusement les exigences des moteurs de recherche pour asseoir durablement vos requêtes.</h4>
+			</div>
+
+			<div class="wrapper__cards-card">
+				<img class="logo-benefit" src={Design} alt="Icône plume design" />
+				<h3 class="subtitle-h3">Design & Accessibilité</h3>
+				<h4 class="subtitle-h4">Des parcours utilisateurs soignés (UX/UI d'élite) respectant les normes W3C pour une accessibilité sur tous les supports.</h4>
+			</div>
+		</div>
+	</div>
+
 	<div class="wrapper__cta">
-		<h2 class="call-to-action-txt">En savoir plus sur notre agence Web ?</h2>
-		<a class="button" href="/creation-site-application-Lyon">En savoir +</a>
+		<h2 class="call-to-action-txt">Prêt à donner vie à votre projet de site ou d'application ?</h2>
+		<a class="button" href="/creation-site-application-Lyon">Demander mon Devis Gratuit</a>
 	</div>
 </main>
 
 <style>
-	.main {
+	.services-section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 30px;
-		gap: 40px;
+		padding: 5rem 2rem;
+		gap: 5rem;
 		height: auto;
-		background-image: url('../Assets/bird.jpeg');
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		z-index: 0;
-		position: relative;
-	}
-	.main::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: linear-gradient(to bottom, var(--primary) 50%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0));
-		z-index: 1;
-	}
-
-	.container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: auto;
-		z-index: 2;
-	}
-
-	.wrapper__cards {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		gap: 50px;
-		padding: 20px;
-		border-radius: 20px;
-		width: 100%;
-		height: auto;
-	}
-	.wrapper__cards-card {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-around;
-		gap: 10px;
-		width: 20%;
-		min-height: 400px;
-		border-radius: 20px;
-		padding: 30px;
-		background-color: rgba(2, 5, 52, 0.289);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-	}
-	.wrapper__cta {
-		margin-top: 50px;
-		display: flex;
-		flex-direction: column;
-		gap: 30px;
 		background-color: var(--primary);
-		padding: 60px;
-		border-radius: 20px;
-		box-shadow: 30px 20px 10px 2px rgba(76, 76, 76, 0.35);
+		z-index: 2;
+		position: relative;
+		overflow: hidden;
 	}
+
 	.wrapper__paragraph {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 20px;
-		height: auto;
+		gap: 3rem;
 		width: 100%;
-		padding: 0px 20px;
+		max-width: 1200px;
+		z-index: 5;
 	}
 
 	.title {
-		font-size: 2rem;
-		font-weight: bold;
-		color: var(--whiteGrey);
-		margin-top: 40px;
-		font-family: var(--Red);
-		padding: 0px;
+		font-size: clamp(1.8rem, 3vw, 2.5rem);
+		font-weight: 900;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
 		text-align: center;
-		z-index: 2;
-		width: 80%;
+		margin: 0;
+		letter-spacing: -0.02em;
+		width: 100%;
+		max-width: 800px;
+	}
+
+	.section-subtitle {
+		font-size: clamp(1.5rem, 2.5vw, 2rem);
+		font-weight: 800;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		text-align: center;
+		margin-bottom: 3rem;
+		letter-spacing: -0.01em;
+		width: 100%;
+	}
+
+	/* Grille des offres de services */
+	.services-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 2rem;
+		width: 100%;
+	}
+
+	.service-box {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 20px;
+		padding: 2.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		position: relative;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	}
+	.service-box:hover {
+		background: rgba(255, 255, 255, 0.04);
+		border-color: rgba(255, 255, 255, 0.15);
+		transform: translateY(-5px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+	}
+
+	/* Box custom mise en avant */
+	.featured-box {
+		border: 1px solid rgba(214, 163, 25, 0.25);
+		background: radial-gradient(circle at 50% 0%, rgba(214, 163, 25, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+	}
+	.featured-box:hover {
+		border-color: var(--green, #D6A319);
+		box-shadow: 0 20px 40px rgba(214, 163, 25, 0.15);
+	}
+
+	.full-width-box {
+		grid-column: 1 / -1;
+		background: radial-gradient(circle at 10% 0%, rgba(20, 129, 186, 0.08) 0%, rgba(255, 255, 255, 0.01) 100%);
+		border: 1px solid rgba(20, 129, 186, 0.2);
+	}
+	.full-width-box:hover {
+		border-color: var(--cta, #1481ba);
+		box-shadow: 0 20px 40px rgba(20, 129, 186, 0.15);
+	}
+
+	.badge-service {
+		align-self: flex-start;
+		background: rgba(255, 255, 255, 0.05);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: rgba(255, 255, 255, 0.7);
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.7rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		padding: 6px 14px;
+		border-radius: 50px;
+	}
+	.accent-badge {
+		background: rgba(214, 163, 25, 0.1);
+		border-color: rgba(214, 163, 25, 0.3);
+		color: var(--green, #D6A319);
+	}
+	.SEO-badge {
+		background: rgba(20, 129, 186, 0.1);
+		border-color: rgba(20, 129, 186, 0.3);
+		color: var(--CTA, #4ba4ee);
 	}
 
 	.title-2 {
-		font-size: 1.4rem;
+		font-size: 1.35rem;
+		font-weight: 700;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		margin: 0;
+	}
+
+	.price-tag {
+		font-size: 1.8rem;
+		font-weight: 900;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+	}
+	.from-text {
+		font-size: 0.95rem;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 0.5);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		margin-right: 5px;
+	}
+	.tax-info {
+		font-size: 0.8rem;
 		font-weight: 600;
-		color: var(--whiteGrey);
-		margin-top: 0px;
-		font-family: var(--Red);
-		padding: 0px;
-		text-align: justify;
-		z-index: 2;
-		width: 80%;
+		color: rgba(255, 255, 255, 0.4);
+		margin-left: 5px;
 	}
 
 	.subtitle {
-		font-size: 1rem;
+		font-size: 0.95rem;
 		font-weight: 400;
-		line-height: 2rem;
-		color: var(--whiteGrey);
-		margin-top: 0px;
-		font-family: var(--Red);
-		padding: 0px;
-		text-align: justify;
-		z-index: 2;
-		width: 80%;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.7);
+		font-family: var(--Red), sans-serif;
+		margin: 0;
+		text-align: left;
+	}
+
+	.cta-card {
+		margin-top: auto;
+		padding-top: 1rem;
+	}
+
+	/* Section des 4 Atouts Gralypho */
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		max-width: 1200px;
+		z-index: 5;
+	}
+
+	.wrapper__cards {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		gap: 2rem;
+		width: 100%;
+	}
+
+	.wrapper__cards-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 1.25rem;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 24px;
+		padding: 2.5rem 2rem;
+		min-height: 320px;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+	}
+	.wrapper__cards-card:hover {
+		background: rgba(255, 255, 255, 0.04);
+		border-color: var(--green, #D6A319);
+		transform: translateY(-8px);
+		box-shadow: 0 20px 40px rgba(214, 163, 25, 0.1);
+	}
+	.wrapper__cards-card:hover .logo-benefit {
+		transform: scale(1.1) rotate(3deg);
+	}
+
+	.logo-benefit {
+		width: 60px;
+		height: 60px;
+		object-fit: contain;
+		filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+		transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	.subtitle-h3 {
-		font-size: 1.5rem;
-		font-weight: 900;
-		color: var(--whiteGrey);
+		font-size: 1.25rem;
+		font-weight: 800;
+		color: #ffffff;
 		text-align: center;
-		font-family: var(--Geologica);
-		padding: 0px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		font-family: var(--Geologica), sans-serif;
+		margin: 0;
 	}
+	
 	.subtitle-h4 {
-		font-size: 1rem;
-		font-weight: 100;
-		color: var(--whiteGrey);
+		font-size: 0.9rem;
+		font-weight: 300;
+		line-height: 1.6;
+		color: rgba(255, 255, 255, 0.6);
 		text-align: center;
-		font-family: var(--Geologica);
-		padding: 0px;
+		font-family: var(--Red), sans-serif;
+		margin: 0;
+	}
+
+	/* CTA de Fin de Section */
+	.wrapper__cta {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-	}
-	.maillage {
-		color: var(--green);
-		text-decoration: none;
-		font-size: 1rem;
-		font-weight: 600;
-		letter-spacing: 0px;
+		gap: 2rem;
+		background: radial-gradient(circle at center, #1b2642 0%, var(--primary) 100%);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		padding: 4rem 3rem;
+		border-radius: 28px;
+		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+		width: 100%;
+		max-width: 900px;
+		z-index: 5;
+		text-align: center;
 	}
 
 	.call-to-action-txt {
-		font-size: 1.5rem;
-		font-weight: 700;
-		color: var(--whiteGrey);
+		font-size: clamp(1.3rem, 2vw, 1.8rem);
+		font-weight: 800;
+		color: #ffffff;
 		text-align: center;
-		font-family: var(--Red);
-		padding: 0px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		font-family: var(--Geologica), sans-serif;
+		margin: 0;
+		line-height: 1.35;
 	}
 
-	.logo {
-		width: 50px;
-		height: 50px;
-		/* border-radius: 50%; */
-	}
 	.button {
-		align-self: center;
-		background-color: var(--green);
+		display: inline-flex;
+		align-items: center;
+		background-color: var(--green, #D6A319);
 		color: var(--primary);
-		padding: 10px 20px;
-		border-radius: 10px;
+		padding: 14px 36px;
+		border-radius: 50px;
 		text-decoration: none;
-		font-family: var(--Red);
+		font-family: var(--Geologica), sans-serif;
 		font-weight: 700;
-		max-width: 150px;
-		text-align: center;
+		font-size: 0.95rem;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		box-shadow: 0 10px 20px rgba(214, 163, 25, 0.2);
 	}
 	.button:hover {
-		background-color: var(--primary);
-		border: 1px solid grey;
-		color: var(--whiteGrey);
-		transition: 0.4s ease-in-out;
+		transform: translateY(-2px);
+		box-shadow: 0 15px 30px rgba(214, 163, 25, 0.4);
+		background-color: #ffffff;
+		color: var(--primary);
 	}
 
-	@media screen and (max-width: 1264px) {
-		.wrapper__cards-card {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: space-around;
-			gap: 10px;
-			min-width: 70%;
-			min-height: auto;
-			border-radius: 20px;
-			padding: 30px;
-			background-color: rgba(2, 5, 52, 0.289);
-			backdrop-filter: blur(10px);
-			-webkit-backdrop-filter: blur(10px);
-		}
-	}
+	/* Responsive */
 	@media screen and (max-width: 768px) {
-		.wrapper__cta{
-			margin-bottom: 100px;
+		.services-section {
+			padding: 4rem 1.25rem;
+			gap: 3.5rem;
 		}
-		.main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 10px;
-		gap: 40px;
-		height: auto;
-		background-image: url('../Assets/bird.jpeg');
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		z-index: 0;
-		position: relative;
-	}
-		.main::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: linear-gradient(to bottom, var(--primary) 70%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0));
-		z-index: 1;
-	}
-
-		.title {
-			width: 100%;
-			text-align: left;
+		.wrapper__paragraph {
+			gap: 2rem;
 		}
-
-		.title-2 {
-			width: 100%;
-			text-align: left;
+		.services-grid {
+			grid-template-columns: 1fr;
 		}
-		.subtitle {
-			width: 100%;
-			text-align: left;
+		.service-box {
+			padding: 1.75rem;
+			gap: 1rem;
 		}
 		.wrapper__cards-card {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: space-around;
-			gap: 10px;
-			width: 100%;
+			padding: 2rem 1.5rem;
 			min-height: auto;
-			border-radius: 20px;
-			padding: 30px;
-			background-color: rgba(2, 5, 52, 0.289);
-			backdrop-filter: blur(10px);
-			-webkit-backdrop-filter: blur(10px);
+		}
+		.wrapper__cta {
+			padding: 2.5rem 1.5rem;
 		}
 	}
 </style>

@@ -1,165 +1,166 @@
 <script>
-	// export let icon;
 	export let title;
 	export let p;
-	//   export let number;
 	import { fade, slide } from 'svelte/transition';
-	import arrowUp from '../Assets/png-gralypho/arrowup.svg';
-	import arrowDown from '../Assets/png-gralypho/arrowdown.svg';
 
-	let close = false;
+	let isOpen = false;
 
-	function collapse() {
-		close = !close;
+	function toggleCollapse() {
+		isOpen = !isOpen;
 	}
 </script>
 
-<div class="wrapper {close ? 'active' : ''}">
-	<button class="button" on:click={collapse}>
-		<h2 class="title">{title}</h2>
-		<span class="button-after">
-			{#if close}
-				<img src={arrowUp} alt="Arrow Up" in:fade={{ duration: 1200 }} />
-			{:else}
-				<img src={arrowDown} alt="Arrow Down" in:fade={{ duration: 1200 }} />
-			{/if}
-		</span>
+<div class="faq-accordion-item {isOpen ? 'active' : ''}">
+	<button class="accordion-trigger" on:click={toggleCollapse} aria-expanded={isOpen}>
+		<h3 class="accordion-title">{title}</h3>
+		
+		<div class="accordion-icon-box">
+			<svg xmlns="http://www.w3.org/2000/svg" class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+				<polyline points="6 9 12 15 18 9"></polyline>
+			</svg>
+		</div>
 	</button>
 
-	{#if close}
-		<span transition:slide={{ duration: 1200 }}>
-			<div
-				class="content {close ? 'less' : ''} "
-				in:fade={{ duration: 1200 }}
-				out:fade={{ duration: 1200 }}
-			>
-				<p class="p">{@html p}</p>
+	{#if isOpen}
+		<div class="accordion-content-wrapper" transition:slide={{ duration: 400 }}>
+			<div class="accordion-content" in:fade={{ duration: 300 }}>
+				<p class="accordion-text">{@html p}</p>
 			</div>
-		</span>
+		</div>
 	{/if}
 </div>
 
 <style>
-	.wrapper {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100vw;
-	}
-	.button {
-		position: relative;
-		display: flex;
-		align-items: center;
-		padding: 20px;
-		color: var(--whiteGrey);
-		font-size: var(--m);
-		font-weight: 500;
-		cursor: pointer;
-		border-radius: 8px;
-		border-top: none;
-		border-right: none;
-		border-left: none;
-		border-bottom: 1px rgb(219, 219, 219) solid;
-		background: linear-gradient(90deg, var(--primary) 0%, var(--cta));
-		width: 90%;
-		height: 100px;
-		text-align: left;
-		letter-spacing: -1px;
-		font-family: epilogue;
-		margin-bottom: 10px;
-		box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.281);
-	}
-	.button-after {
-		position: absolute;
-		content: '{buttonText}';
-		color: var(--secondary);
-		font-size: 1em;
-		font-weight: bolder;
-		right: 50px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 10px;
-	}
-	.title{
-		font-family: epilogue;
-		font-size: var(--m);
-		font-weight: 500;
-		color: var(--whiteGrey);
-		letter-spacing: 0px;
-		width: 70%;
-		line-height: 25px;
-	}
-	.button-after img {
-		margin-top: 12px;
-		height: 23px;
-	}
-	.button-after img:hover {
-		animation: bounce 0.4s;
-	}
-	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
-		}
-		25% {
-			transform: scale(1) translateY(3px);
-		}
-		50% {
-			transform: scale(1) translateY(-1px);
-		}
-		75% {
-			transform: scale(1) translateY(2px);
-		}
-		100% {
-			transform: scale(1) translateY(0);
-		}
-	}
-	.content {
+	.faq-accordion-item {
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		padding: 10px;
-		border-radius: 5px;
-		margin-bottom: 10px;
-		border: none;
+		max-width: 900px;
+		margin: 0 auto 1rem auto;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 16px;
+		overflow: hidden;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
 	}
 
-	.p {
-		font-family: var(--Poppins);
+	.faq-accordion-item:hover {
+		background: rgba(255, 255, 255, 0.04);
+		border-color: rgba(255, 255, 255, 0.15);
+	}
+
+	.faq-accordion-item.active {
+		border-color: var(--green, #D6A319);
+		background: rgba(255, 255, 255, 0.03);
+		box-shadow: 0 10px 25px rgba(214, 163, 25, 0.06);
+	}
+
+	.accordion-trigger {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding: 24px 30px;
+		background: transparent;
+		border: none;
+		cursor: pointer;
 		text-align: left;
-		font-size: var(--m);
-		font-weight: 
-		300;
-		line-height: 36px;
+		gap: 20px;
+	}
+
+	.accordion-title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.05rem;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0;
+		line-height: 1.45;
+		letter-spacing: -0.01em;
+		transition: color 0.3s ease;
+	}
+	
+	.faq-accordion-item:hover .accordion-title {
+		color: var(--green, #D6A319);
+	}
+	.faq-accordion-item.active .accordion-title {
+		color: var(--green, #D6A319);
+	}
+
+	.accordion-icon-box {
+		color: rgba(255, 255, 255, 0.4);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.03);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		flex-shrink: 0;
+	}
+
+	.faq-accordion-item:hover .accordion-icon-box {
+		color: #ffffff;
+		border-color: rgba(255, 255, 255, 0.15);
+		background: rgba(255, 255, 255, 0.06);
+	}
+
+	.faq-accordion-item.active .accordion-icon-box {
 		color: var(--primary);
-		margin: 0px;
-		background-color: var(--whiteGrey);
-		padding: 30px;
-		width: 90%;
+		background: var(--green, #D6A319);
+		border-color: var(--green, #D6A319);
+	}
+
+	.arrow-icon {
+		width: 18px;
+		height: 18px;
+		transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.faq-accordion-item.active .arrow-icon {
+		transform: rotate(180deg);
+	}
+
+	.accordion-content-wrapper {
+		width: 100%;
+	}
+
+	.accordion-content {
+		padding: 0 30px 24px 30px;
+		border-top: 1px solid rgba(255, 255, 255, 0.03);
+	}
+
+	.accordion-text {
+		font-family: var(--Red), sans-serif;
+		font-size: 0.95rem;
+		font-weight: 300;
+		line-height: 1.75;
+		color: rgba(255, 255, 255, 0.75);
+		margin: 20px 0 0 0;
+	}
+
+	/* Styling des liens injectés dynamiquement */
+	:global(.accordion-text a) {
+		color: var(--green, #D6A319);
+		text-decoration: underline;
+		font-weight: 600;
+		transition: color 0.2s ease;
+	}
+
+	:global(.accordion-text a:hover) {
+		color: #ffffff;
 	}
 
 	@media screen and (max-width: 768px) {
-		.wrapper {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			width: 100vw;
+		.accordion-trigger {
+			padding: 20px;
 		}
-		.button {
-			font-size: 1.2em;
-			height: 200px;
-			line-height: 30px;
+		.accordion-content {
+			padding: 0 20px 20px 20px;
 		}
-
-		.button-after {
-			right: 0px;
-			margin-top: -30px;
-			line-height: 30px;
+		.accordion-title {
+			font-size: 0.95rem;
 		}
 	}
 </style>

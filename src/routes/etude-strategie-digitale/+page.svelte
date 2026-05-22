@@ -1,268 +1,376 @@
 <script>
-	import { fade, slide } from 'svelte/transition';
-	// import bg from "../../Assets/png-gralypho/41.png";
+	import { fade } from 'svelte/transition';
 	import Header from '../../sections/Header.svelte';
-	// import vitrine from "../../Assets/png-gralypho/vitrine.svg";
-	import portfolio from '../../Assets/png-gralypho/address-card-regular.svg';
-	import commerce from '../../Assets/png-gralypho/shopping.svg';
-	import blog from '../../Assets/png-gralypho/blog-solid.svg';
-	import corporate from '../../Assets/png-gralypho/user-tie-solid.svg';
-	import institution from '../../Assets/png-gralypho/building-columns-solid.svg';
-	// import imgHero from "../../Assets/png-gralypho/webExplosion.png";
-	import CardsSites from '../../Components/CardsSites.svelte';
-	// import FSection from "../../sections/FSection.svelte";
-	import Profits from '../../sections/SectionProfitsSite.svelte';
-	import Service from '../../Components/Services.svelte';
-	import imgDesign from '../../Assets/png-gralypho/30.png';
-	import imgSeo from '../../Assets/png-gralypho/05.png';
-	import imgWeb from '../../Assets/png-gralypho/36.png';
-	import imgFormation from '../../Assets/png-gralypho/Web.png';
-	import Banner from '../../Components/Banner.svelte';
-	import BeneficeSection from '../../sections/BeneficeSection.svelte';
-	import CardsSectionB from '../../Components/CardsSectionB.svelte';
-	import vitrineA from '../../Assets/png-gralypho/vitrineB.png';
-	import ecommerce from '../../Assets/png-gralypho/ecommerceA.png';
-	import Blogger from '../../Assets/png-gralypho/blogA.png';
-	import Portfolio from '../../Assets/png-gralypho/portfolio.png';
-	import Corporated from '../../Assets/png-gralypho/corporate.png';
-	import institutionnel from '../../Assets/png-gralypho/institutionnel.png';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	import cible from '../../Assets/png-gralypho/cible.png';
-	// import Csection from "../../sections/Csection.svelte";
-		import Button from '../../Components/ButtonCTA.svelte';
-		import FaqLink from '../../Components/FaqLink.svelte';
-		import Links from '../../Components/LinkSiteApplication.svelte';
-
+	import Button from '../../Components/ButtonCTA.svelte';
+	import FaqLink from '../../Components/FaqLink.svelte';
+	import Links from '../../Components/LinkSiteApplication.svelte';
 </script>
 
-<Header />
 <Mouse />
+<Header />
 
-<!-- ***************HERO*************** -->
+<main class="page-container" in:fade={{ duration: 1000 }}>
+	<!-- Halos lumineux d'arrière-plan -->
+	<div class="glow-orb orb-1"></div>
+	<div class="glow-orb orb-2"></div>
 
-<section class="sites-section" in:fade={{ duration: 1000 }}>
-	<img
-		src={cible}
-		alt="Illustration d'une cible et une flèche symbolisant le SEO, soit une cibel à atteindre pour le référencement d'un site web."
-		class="img-marketing"
-	/>
-	<div class="hero">
-		<h1>Étude de stratégie<br /><span>Digitale</span></h1>
-		<p>
-			Le marketing digital est un outil puissant pour propulser votre entreprise vers de nouveaux
-			sommets. Chez Gralypho, nous comprenons l'importance cruciale de créer une présence en ligne
-			forte et impactante pour stimuler la croissance de votre entreprise. Découvrez comment le
-			marketing digital peut propulser votre entreprise vers le succès.
-		</p>
-		<Button />
-	</div>
-
-	<div class="wrapper-description-marketing">
-		<p>
-			<span>Visibilité et public cible.<br /><br /> </span>
-			Dans notre ère numérique, le marketing digital est la clé du succès commercial. Chez Gralypho,
-			nous comprenons l'importance cruciale de créer une présence en ligne forte et impactante pour propulser
-			votre entreprise vers de nouveaux sommets. <br /><br />
-			Notre équipe spécialisée en marketing digital est déterminée à maximiser la visibilité de votre
-			marque, attirer un public ciblé et stimuler la croissance de votre entreprise. Du référencement
-			(SEO) pour garantir que votre site soit trouvé par ceux qui recherchent vos produits ou services,
-			aux campagnes publicitaires percutantes sur les médias sociaux, nous concevons des stratégies sur
-			mesure pour répondre à vos objectifs commerciaux. <br /><br />
-
-			<span>Rôle des médias Sociaux.<br /><br /> </span>
-			Nous exploitons la puissance des médias sociaux pour créer des connexions authentiques avec votre
-			audience, stimuler l'engagement et renforcer la notoriété de votre marque. Nos experts en marketing
-			digital sont également experts dans la gestion de campagnes publicitaires en ligne, optimisant
-			chaque euro dépensé pour assurer un retour sur investissement. <br /><br />
-			<span>Marketing Digital pour propulser votre entreprise vers le succès.<br /><br /> </span>
-			Le marketing digital va au-delà de la simple visibilité en ligne ; c'est un moyen efficace de créer
-			des relations durables avec vos clients. Grâce à notre approche créative et axée sur les résultats,
-			nous sommes prêts à transformer votre présence en ligne en une force motrice qui propulse votre
-			entreprise vers de nouveaux horizons. Découvrez comment le marketing digital peut propulser votre
-			entreprise vers le succès. <br /><br />
-		</p>
-	</div>
-
-	<!-- ***************COLLAPSES*************** -->
-
-	<div class="testimonial">
-		<h2>
-			Le marketing Digital, pour propulser votre entreprise vers le succès <span>🚀.</span>
+	<!-- Section Hero -->
+	<div class="wrapper__hero">
+		<h1 class="title">Étude de Stratégie <span class="highlight-text">Digitale</span></h1>
+		
+		<h2 class="subtitle">
+			Propulsez votre marque vers de nouveaux sommets grâce à une architecture marketing d'exception.
+			<br />
+			<span class="sub-lead">À l'ère du tout-numérique, la visibilité ne suffit plus : il faut captiver, engager et convertir. Chez Gralypho, nous analysons votre marché, décryptons le comportement de vos cibles et concevons des plans d'action sur-mesure pour stimuler durablement votre croissance.</span>
 		</h2>
+		
+		<div class="cta-hero">
+			<Button />
+		</div>
 	</div>
 
-	<Links/>
+	<!-- Les 3 Piliers de la Stratégie Digitale -->
+	<div class="container-service">
+		<h2>Les 3 piliers de votre <span class="highlight-text">Réussite en Ligne</span></h2>
+		<p class="section-desc">Nous convertissons votre présence web en une force motrice qui propulse votre entreprise vers de nouveaux horizons.</p>
+		
+		<div class="wrapper-service">
+			<!-- Pilier 1 -->
+			<div class="pillar-card">
+				<div class="pillar-header">
+					<span class="pillar-num">01</span>
+					<h3>Visibilité & Public Cible</h3>
+				</div>
+				<p>Notre équipe spécialisée détermine les canaux d'acquisition les plus rentables pour votre business. Nous marions le référencement naturel (SEO) longue portée et des campagnes publicitaires chirurgicales pour capter immédiatement vos futurs clients qualifiés.</p>
+			</div>
+
+			<!-- Pilier 2 -->
+			<div class="pillar-card">
+				<div class="pillar-header">
+					<span class="pillar-num">02</span>
+					<h3>Engagement & Médias Sociaux</h3>
+				</div>
+				<p>Nous exploitons la puissance des réseaux sociaux pour tisser des relations authentiques avec votre audience. En concevant des contenus créatifs et engageants, nous transformons de simples visiteurs en ambassadeurs passionnés de votre marque.</p>
+			</div>
+
+			<!-- Pilier 3 -->
+			<div class="pillar-card">
+				<div class="pillar-header">
+					<span class="pillar-num">03</span>
+					<h3>Conversion & Croissance</h3>
+				</div>
+				<p>Le marketing digital va au-delà du clic. Nous optimisons l'expérience utilisateur (UX) de vos supports pour éliminer les frictions d'achat, maximiser vos taux de conversion et asseoir une croissance commerciale saine, pérenne et mesurable.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Liens d'offres -->
+	<div class="wrapper-links-nav">
+		<Links />
+	</div>
+
+	<!-- Bandeau de Transition -->
+	<div class="testimonial-banner">
+		<div class="quote-symbol">“</div>
+		<blockquote>
+			Le marketing digital ne consiste pas à vendre des produits, mais à concevoir des solutions pérennes pour propulser votre entreprise vers le succès.
+		</blockquote>
+		<cite>— Expertise Gralypho</cite>
+	</div>
+
+	<!-- FAQ et Contact -->
 	<div class="wrapper__faqLink">
-		<FaqLink/>
-	
+		<FaqLink />
 	</div>
-
-
-	<!-- ***************CONTACT*************** -->
 
 	<div class="wrapper-form">
 		<Form />
 	</div>
-</section>
+</main>
 
 <style>
-	.sites-section {
+	.page-container {
 		display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-		background-color: rgb(245, 244, 244);
-		height: auto;
-		font-size: 16px;
-	}
-	.img-marketing {
-		max-width: 20%;
-		min-width: 20%;
-		margin-top: 30px;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 6rem 2rem 4rem 2rem;
+		background-color: var(--primary);
+		position: relative;
+		overflow: hidden;
 	}
 
-	.hero {
+	/* Halos lumineux en arrière-plan */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.1;
+		pointer-events: none;
+		z-index: 1;
+	}
+	.orb-1 {
+		width: 500px;
+		height: 500px;
+		background: var(--cta, #1481ba);
+		top: 15%;
+		left: -200px;
+	}
+	.orb-2 {
+		width: 600px;
+		height: 600px;
+		background: var(--green, #D6A319);
+		bottom: 25%;
+		right: -350px;
+	}
+
+	.wrapper__hero {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: auto;
-		padding: 0px;
-		gap: 20px;
-	}
-	.hero h1 {
+		flex-direction: column;
+		width: 100%;
+		max-width: 1100px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 4.5rem 3rem;
+		margin-bottom: 4rem;
+		gap: 1.5rem;
+		z-index: 3;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 		text-align: center;
-		font-family: var(--Geologica);
+	}
+
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(2.2rem, 5vw, 4.2rem);
+		color: #ffffff;
 		font-weight: 900;
-		font-size: 2.5rem;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -2px;
-		padding: 0px;
-		line-height: 50px;
-		margin-top: 50px;
-	}
-	.hero h1 span {
-		color: var(--green);
-	}
-	.hero p {
-		font-family: poppins;
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--primary);
 		text-align: center;
-		width: 60%;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		letter-spacing: -0.03em;
+		margin: 0;
+		line-height: 1.15;
 	}
-	.img-marketing {
-		width: 40%;
-		height: auto;
-		margin-top: 20px;
+
+	.highlight-text {
+		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
-	.wrapper-description-marketing p {
-		font-family: poppins;
-		font-weight: 300;
-		font-size: var(--m);
-		color: var(--primary);
-		text-align: center;
-		width: 80%;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	.wrapper-description-marketing span {
-		font-weight: 700;
-    		font-family: var(--Epilogue);
-	}
-	.wrapper-description-marketing {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		gap: 20px;
-		margin-top: 50px;
+
+	.subtitle {
+		font-family: var(--Red), sans-serif;
+		font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.85);
+		margin: 0;
+		line-height: 1.6;
+		max-width: 900px;
 	}
 	
+	.sub-lead {
+		display: inline-block;
+		font-size: 0.95rem;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.65);
+		margin-top: 10px;
+		line-height: 1.7;
+	}
 
-	.wrapper-form {
+	.cta-hero {
+		margin-top: 1rem;
+	}
+
+	/* Les 3 piliers */
+	.container-service {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background-color: var(--bgHero);
-    width: 100%;
+		width: 100%;
+		max-width: 1200px;
+		padding: 3rem 0;
+		z-index: 3;
 	}
-	.testimonial {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 0px;
-    width: 100%;
-		height: 400px;
-	background: var(--gradient);
-		padding: 0px;
-		gap: 20px;
-	}
-	.testimonial h2 {
-		font-family: 'Poppins';
-		font-weight: 400;
-		font-size: var(--m);
-		color: white;
+
+	.container-service h2 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(1.6rem, 3vw, 2.2rem);
+		font-weight: 800;
+		color: #ffffff;
 		text-align: center;
-		line-height: 40px;
-		letter-spacing: 0px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-		padding: 40px;
-	}
-	.testimonial h2 span {
-		font-size: 1.5em;
+		margin: 0 0 1rem 0;
+		letter-spacing: -0.01em;
 	}
 
-	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
-		}
-		25% {
-			transform: scale(1) translateY(3px);
-		}
-		50% {
-			transform: scale(1) translateY(-1px);
-		}
-		75% {
-			transform: scale(1) translateY(2px);
-		}
-		100% {
-			transform: scale(1) translateY(0);
-		}
+	.section-desc {
+		font-family: var(--Red), sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.65);
+		max-width: 800px;
+		text-align: center;
+		margin: 0 0 3.5rem 0;
 	}
 
-	@media screen and (min-width: 1224px) and (max-width: 2500px) {
-		.hero h1 {
-			line-height: 1em;
+	.wrapper-service {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2.5rem;
+		width: 100%;
+	}
+
+	.pillar-card {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 24px;
+		padding: 2.5rem 2rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	}
+
+	.pillar-card:hover {
+		border-color: var(--green, #D6A319);
+		transform: translateY(-8px);
+		box-shadow: 0 20px 45px rgba(214, 163, 25, 0.12);
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	.pillar-header {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.pillar-num {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.5rem;
+		font-weight: 900;
+		color: var(--green, #D6A319);
+		background: rgba(214, 163, 25, 0.1);
+		border: 1px solid rgba(214, 163, 25, 0.25);
+		width: 44px;
+		height: 44px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.pillar-card h3 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.15rem;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0;
+	}
+
+	.pillar-card p {
+		font-family: var(--Red), sans-serif;
+		font-size: 0.9rem;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.7);
+		line-height: 1.7;
+		margin: 0;
+	}
+
+	.wrapper-links-nav {
+		width: 100%;
+		z-index: 3;
+		margin-top: 2rem;
+	}
+
+	/* Citation Témoignage */
+	.testimonial-banner {
+		background: rgba(255, 255, 255, 0.02);
+		border-left: 4px solid var(--green, #D6A319);
+		border-right: 1px solid rgba(255, 255, 255, 0.05);
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 20px;
+		padding: 3.5rem 3rem;
+		width: 100%;
+		max-width: 800px;
+		margin: 4rem auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		z-index: 3;
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	}
+	
+	.quote-symbol {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 4rem;
+		color: var(--green, #D6A319);
+		line-height: 1;
+		height: 30px;
+		opacity: 0.4;
+		margin-bottom: 0.5rem;
+	}
+
+	.testimonial-banner blockquote {
+		font-family: var(--Red), sans-serif;
+		font-size: 1.2rem;
+		font-weight: 300;
+		color: #ffffff;
+		line-height: 1.7;
+		margin: 0;
+		font-style: italic;
+	}
+
+	.testimonial-banner cite {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.85rem;
+		font-weight: 700;
+		color: rgba(255, 255, 255, 0.5);
+		margin-top: 1.25rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		font-style: normal;
+	}
+
+	.wrapper__faqLink {
+		width: 100%;
+		max-width: 800px;
+		z-index: 3;
+	}
+
+	@media screen and (max-width: 867px) {
+		.page-container {
+			padding: 5rem 1.25rem;
 		}
-	}
-	@media screen and (min-width: 768px) and (max-width: 1224px) {
-		.hero h1 {
-			line-height: 1em;
+		.wrapper__hero {
+			padding: 2rem 1.5rem;
 		}
-        	.img-marketing {
-		max-width: 40%;
-		min-width: 40%;
-		margin-top: 30px;
-	}
-	}
-	@media screen and (min-width: 300px) and (max-width: 768px) {
-		.hero h1 {
-			line-height: 50px;
-			font-size: 3.1em;
+		.subtitle {
+			text-align: left;
 		}
-    	.img-marketing {
-		max-width: 50%;
-		min-width: 50%;
-		margin-top: 30px;
-	}
+		.container-service h2 {
+			text-align: left;
+			width: 100%;
+		}
+		.section-desc {
+			text-align: left;
+			width: 100%;
+		}
+		.testimonial-banner {
+			padding: 2rem 1.5rem;
+			text-align: left;
+			align-items: flex-start;
+		}
+		.testimonial-banner blockquote {
+			text-align: left;
+		}
 	}
 </style>

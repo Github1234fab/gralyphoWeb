@@ -28,21 +28,45 @@
 </script>
 
 <svelte:head>
-	<title>Gralypho - Agence Web experte au coeur des monts du Lyonnais</title>
-	<meta name="description" content="Conception de site Web, conception d'application NATIVE ou PWA, expertise SEO, SEA, GEO." />
-	<meta name="keywords" content="Conception de site Web, Conception d'application, stratégie SEO, SEA, GEO" />
+	<title>Création de Site Internet & Application Mobile | Gralypho Lyon</title>
+	<meta name="description" content="Besoin d'un site internet professionnel ou d'une application sur-mesure ? Gralypho, agence web à Lyon, conçoit votre solution digitale sous 3 jours ! Devis gratuit." />
+	<meta name="keywords" content="création de site internet lyon, agence web lyon, création application mobile lyon, référencement seo lyon, développeur sveltekit lyon" />
 	<meta name="author" content="Gralypho" />
 	<meta name="robots" content="index, follow" />
-	<meta property="og:title" content="Agence Web de l'Ouest Lyonnais" />
-	<meta property="og:description" content="Conception de site Web, conception d'application NATIVE ou PWA, expertise SEO, SEA, GEO." />
+	<meta property="og:title" content="Création de Site Internet & Application Mobile | Gralypho Lyon" />
+	<meta property="og:description" content="Besoin d'un site internet professionnel ou d'une application sur-mesure ? Gralypho conçoit votre solution digitale sous 3 jours ! Devis gratuit." />
 	<meta property="og:image" content="/logoGralypho2.jpeg" />
-	<meta property="og:type" content="https://gralypho.com/" />
+	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://gralypho.com/" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Gralypho - Agence Web experte au coeur des monts du Lyonnais" />
-	<meta name="twitter:description" content="Conception de site Web, conception d'application NATIVE ou PWA, expertise SEO, SEA, GEO." />
+	<meta name="twitter:title" content="Création de Site Internet & Application Mobile | Gralypho Lyon" />
+	<meta name="twitter:description" content="Besoin d'un site internet professionnel ou d'une application sur-mesure ? Gralypho conçoit votre solution digitale sous 3 jours ! Devis gratuit." />
 	<meta name="twitter:image" content="/logoGralypho2.jpeg" />
 	<link rel="canonical" href="https://gralypho.com/" />
+
+	<!-- Données structurées JSON-LD pour booster le référencement local -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebAgency",
+			"name": "Gralypho",
+			"url": "https://gralypho.com/",
+			"logo": "https://gralypho.com/logoGralypho2.jpeg",
+			"description": "Agence web experte en création de sites internet professionnels, applications mobiles et stratégie SEO à Lyon et dans les Monts du Lyonnais.",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Lyon",
+				"addressRegion": "Auvergne-Rhône-Alpes",
+				"addressCountry": "FR"
+			},
+			"areaServed": [
+				{ "@type": "AdministrativeArea", "name": "Lyon" },
+				{ "@type": "AdministrativeArea", "name": "Monts du Lyonnais" },
+				{ "@type": "AdministrativeArea", "name": "Ouest Lyonnais" }
+			],
+			"priceRange": "$$"
+		}
+	</script>
 </svelte:head>
 
 <main in:fade={{ duration: 2000 }}>

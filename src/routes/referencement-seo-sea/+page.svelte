@@ -1,405 +1,529 @@
 <script>
-	import { fade, slide } from 'svelte/transition';
-	// import bg from "../../Assets/png-gralypho/41.png";
+	import { fade } from 'svelte/transition';
 	import Header from '../../sections/Header.svelte';
-	// import vitrine from "../../Assets/png-gralypho/vitrine.svg";
-	import portfolio from '../../Assets/png-gralypho/address-card-regular.svg';
-	import commerce from '../../Assets/png-gralypho/shopping.svg';
-	import blog from '../../Assets/png-gralypho/blog-solid.svg';
-	import corporate from '../../Assets/png-gralypho/user-tie-solid.svg';
-	import institution from '../../Assets/png-gralypho/building-columns-solid.svg';
-	import imgHero from '../../Assets/png-gralypho/webExplosion.png';
-	import CardsSites from '../../Components/CardsSites.svelte';
-	// import FSection from "../../sections/FSection.svelte";
-	import Profits from '../../sections/SectionProfitsSite.svelte';
-	// import Service from "../../Components/Services.svelte";
-	import imgDesign from '../../Assets/png-gralypho/30.png';
-	import imgSeo from '../../Assets/png-gralypho/05.png';
-	import imgWeb from '../../Assets/png-gralypho/36.png';
-	import imgFormation from '../../Assets/png-gralypho/Web.png';
-	import Banner from '../../Components/Banner.svelte';
-	import BeneficeSection from '../../sections/BeneficeSection.svelte';
-	import CardsSectionB from '../../Components/CardsSectionB.svelte';
-	import vitrineA from '../../Assets/png-gralypho/vitrineB.png';
-	import ecommerce from '../../Assets/png-gralypho/ecommerceA.png';
-	import Blogger from '../../Assets/png-gralypho/blogA.png';
-	import Portfolio from '../../Assets/png-gralypho/portfolio.png';
-	import Corporated from '../../Assets/png-gralypho/corporate.png';
-	import institutionnel from '../../Assets/png-gralypho/institutionnel.png';
 	import Form from '../../Components/Form.svelte';
 	import Mouse from '../../Components/Mouse.svelte';
-	// import Csection from "../../sections/Csection.svelte";
-	import seo from '../../Assets/png-gralypho/seo3.png';
-	import Button from '../../Components/ButtonCTA.svelte';
 	import FaqLink from '../../Components/FaqLink.svelte';
 	import Links from '../../Components/LinkSiteApplication.svelte';
-	import SEO from '../../Assets/agence SEO ouest lyonnais.jpeg';
-	import Bird from '../../Assets/bird.jpeg';
 </script>
 
 <svelte:head>
-	<title>Référencement SEO & SEA à Lyon - Ouest | Expertise SEO | Gralypho</title>
-	<meta name="description" content="Améliorez votre visibilité sur Google grâce à nos stratégies SEO : Générer plus de leads, convertissez plus de prospects, obtenez plus de clients." />
-
-	<!-- Open Graph -->
-	<meta property="og:title" content="Référencement SEO & SEA à Lyon - Ouest | Gralypho" />
-	<meta property="og:description" content="Améliorez votre visibilité sur Google grâce à nos stratégies SEO : Générer plus de leads, convertissez plus de prospects, obtenez plus de clients.." />
+	<title>Expertise SEO & Stratégie Google à Lyon | Audit SEO Gratuit | Gralypho</title>
+	<meta name="description" content="Agence SEO à Lyon et dans l'Ouest Lyonnais. Boostez votre trafic organique, générez des leads qualifiés et dominez la première page de Google." />
+	<meta property="og:title" content="Expertise Référencement SEO & SEA à Lyon | Gralypho" />
+	<meta property="og:description" content="Développez votre visibilité locale et nationale. Audit technique complet, rédaction sémantique optimisée et netlinking éthique." />
 	<meta property="og:url" content="https://gralypho.com/referencement-seo-sea" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="https://cdn5.balboacapital.com/uploads/2022/07/12155339/what-is-seo-blog.jpg" />
-	<!-- À remplacer par une image pertinente -->
-
-	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Référencement SEO & SEA à Lyon | Gralypho" />
-	<meta name="twitter:description" content="Boostez votre trafic et vos conversions avec le SEO et SEA local à Lyon. Audit, stratégie, contenu, campagnes Google Ads." />
-	<meta name="twitter:image" content="https://cdn5.balboacapital.com/uploads/2022/07/12155339/what-is-seo-blog.jpg" />
-
-	<!-- SEO technique -->
+	<meta property="og:image" content="/logoGralypho2.jpeg" />
 	<link rel="canonical" href="https://gralypho.com/referencement-seo-sea" />
-	<meta name="robots" content="index, follow" />
 </svelte:head>
 
 <Mouse />
 <Header />
 
-<!-- ***************HERO*************** -->
+<main class="page-container" in:fade={{ duration: 1000 }}>
+	<!-- Halos lumineux néon en arrière-plan -->
+	<div class="glow-orb orb-1"></div>
+	<div class="glow-orb orb-2"></div>
 
-<section class="sites-section" in:fade={{ duration: 1000 }}>
-	<div class="hero">
-		<img src={SEO} alt="Optimisation SEO par Gralypho, agence web à Lyon" class="imgHero" />
-		<h1 class="title">Audit SEO & Expertise SEO</h1>
-		<h2 class="subtitle"> <span>Boostez votre visibilité en ligne avec Gralypho, Agence SEO à l'ouest de Lyon.</span> <br> En tant que consultants SEO basé à l'Ouest de Lyon dans les monts du Lyonnais, <br> nous vous aidons à gagner en visibilité grâce à un référencement naturel efficace et durable.</h2>
-		<h2 class="subtitle-span">Présence locale – Expertise SEO – Accompagnement personnalisé</h2>
-		<div class="wrapper__para">
-			<h3 class="h3">Pourquoi investir dans le SEO pour votre site web ?</h3>
-			<img class="img" src="https://www.wikilink.io/wk_thm/uploads/2021/11/referencement-naturel-investissement.jpg" alt="une fusée qui décolle pour le SEO" />
+	<!-- Hero Section -->
+	<div class="wrapper__hero">
+		<h1 class="title">Expertise & <span class="highlight-text">Audit SEO Lyon</span></h1>
+		
+		<h2 class="subtitle">
+			Propulsez votre visibilité sur Google avec Gralypho, agence SEO d'élite à l'Ouest de Lyon.
+			<br />
+			<span class="sub-lead">Consultants experts basés dans les Monts du Lyonnais, nous bâtissons des stratégies de référencement naturel pérennes pour multiplier votre trafic qualifié et vos conversions de clients.</span>
+		</h2>
+		
+		<div class="badge-trust-seo">
+			⚡ PRÉSENCE LOCALE LYONNAISE • EXPERTISE TECHNIQUE • ACCOMPAGNEMENT INDIVIDUEL
+		</div>
+	</div>
+
+	<!-- Section "Pourquoi investir" -->
+	<div class="wrapper__component">
+		<div class="glass-pitch-card">
+			<h2>Pourquoi investir dans le <span class="highlight-text">SEO</span> pour votre entreprise ?</h2>
 			<p>
-				Le SEO (Search Engine Optimization), ou référencement naturel, regroupe un ensemble de techniques permettant d'améliorer de manière notoire la visibilité d'un site internet sur les moteurs de recherche et son position dans la SERP (positionnement dans les résultats de recherche).
-				<br />Un SEO conçu efficacement créer un trafic organique vers votre site et le fait remonter dans le classement de la SERP. Le but est d'optimiser différents paramètres afin d'augmenter les clics et d'obtenir des conversions
+				Le SEO (*Search Engine Optimization*), ou référencement naturel, englobe l'ensemble des optimisations appliquées à votre site pour le positionner en tête des résultats de Google. Un site internet magnifique est inutile s'il reste invisible. Investir dans le référencement, c'est s'assurer d'un flux continu et gratuit de clients ciblés cherchant activement vos services.
 			</p>
-
-			<ul>
-				<li>Augmentez votre visibilité et obtenez plus de trafic</li>
-				<li>Générez plus de leads qualifiés</li>
-				<li>Obtenez un plus grand taux de conversion</li>
-				<li>Stabilisez votre visibilité</li>
-			</ul>
+			
+			<div class="benefits-grid">
+				<div class="benefit-item">
+					<span class="bullet-gold">✔</span>
+					<div>
+						<h4>Trafic Qualifié en Continu</h4>
+						<p>Vos prospects vous trouvent naturellement au moment exact de leur besoin.</p>
+					</div>
+				</div>
+				<div class="benefit-item">
+					<span class="bullet-gold">✔</span>
+					<div>
+						<h4>Crédibilité & Autorité</h4>
+						<p>Être en première page de Google renforce instantanément l'autorité de votre marque.</p>
+					</div>
+				</div>
+				<div class="benefit-item">
+					<span class="bullet-gold">✔</span>
+					<div>
+						<h4>Rentabilité Durable</h4>
+						<p>Contrairement à la publicité payante, le trafic SEO perdure sans frais par clic.</p>
+					</div>
+				</div>
+			</div>
 		</div>
+	</div>
 
-		<div class="wrapper__para">
-			<h3 class="h3">Notre méthode SEO chez Gralypho</h3>
-			<img class="img" src="https://i0.wp.com/www.micro-center.fr/wp-content/uploads/2023/03/comment-optimiser-son-seo-1.png?fit=1024%2C675&ssl=1" alt="graphique d'organisation SEO" />
-			<p>En tant qu'<strong>agence SEO basée dans l'ouest Lyonnais</strong>, Gralypho suit une approche stratégique en quatre étapes :</p>
-
-			<h3 class="h3">1. Audit SEO complet</h3>
-			<ul>
-				<li>Analyse technique de votre site web</li>
-				<li>Étude des mots-clés stratégiques</li>
-				<li>Évaluation de l'expérience utilisateur (UX)</li>
-				<li>Audit de votre popularité et de votre netlinking</li>
-			</ul>
-
-			<h3 class="h3">2. Optimisation technique</h3>
-			<ul>
-				<li>Amélioration des performances (vitesse, sécurité, responsive design)</li>
-				<li>Optimisation des balises HTML (title, meta description, Hn)</li>
-				<li>Optimisation du maillage interne et de la structure des URLs</li>
-			</ul>
-
-			<h3 class="h3">3. Création et enrichissement du contenu</h3>
-			<ul>
-				<li>Rédaction de contenus optimisés SEO</li>
-				<li>Optimisation sémantique (LSI, mots-clés secondaires)</li>
-				<li>Création de landing pages ciblées</li>
-			</ul>
-
-			<h3 class="h3">4. Développement de la popularité</h3>
-			<ul>
-				<li>Acquisition de backlinks de qualité</li>
-				<li>Amélioration de la notoriété locale (SEO local)</li>
-				<li>Stratégies de netlinking éthique</li>
-			</ul>
-		</div>
-		<div class="wrapper__para">
-			<h3 class="h3">Pourquoi choisir Gralypho comme votre agence SEO à Lyon Ouest ?</h3>
-			<img class="img" src={Bird} alt="agence Web Gralypho" />
-
-			<div class="wrapper-ul">
+	<!-- Section Méthode SEO -->
+	<div class="wrapper__component">
+		<h2>Notre méthode SEO stratégique <span class="highlight-text">en 4 étapes</span></h2>
+		<p class="section-desc">Chez Gralypho, nous ne laissons rien au hasard. Nous appliquons un protocole rigoureux et technique pour hisser durablement votre site web au sommet.</p>
+		
+		<div class="method-grid">
+			<!-- Étape 1 -->
+			<div class="method-card">
+				<div class="step-num">01</div>
+				<h3>Audit SEO Complet</h3>
 				<ul>
-					<li>Approche personnalisée pour chaque projet</li>
-					<li>Suivi mensuel détaillé et rapport de positionnement</li>
-					<li>Expertise en SEO local et national</li>
-					<li>Engagement sur la transparence et les résultats</li>
+					<li>Analyse technique du code & de la vitesse</li>
+					<li>Ciblage des mots-clés les plus rentables</li>
+					<li>Audit UX & taux de conversion (CRO)</li>
+					<li>Analyse des liens entrants (Netlinking)</li>
+				</ul>
+			</div>
+
+			<!-- Étape 2 -->
+			<div class="method-card">
+				<div class="step-num">02</div>
+				<h3>Optimisation Technique</h3>
+				<ul>
+					<li>Accélération extrême du temps de chargement</li>
+					<li>Optimisation HTML (Balises Title, Meta, Hn)</li>
+					<li>Structuration sémantique de l'architecture</li>
+					<li>Compatibilité mobile absolue (Responsive)</li>
+				</ul>
+			</div>
+
+			<!-- Étape 3 -->
+			<div class="method-card">
+				<div class="step-num">03</div>
+				<h3>Enrichissement Sémantique</h3>
+				<ul>
+					<li>Rédaction de pages de contenus d'élite</li>
+					<li>Maillage interne intelligent</li>
+					<li>Optimisation du champ lexical LSI</li>
+					<li>Création de Landing Pages de conversion</li>
+				</ul>
+			</div>
+
+			<!-- Étape 4 -->
+			<div class="method-card">
+				<div class="step-num">04</div>
+				<h3>Popularité & Netlinking</h3>
+				<ul>
+					<li>Acquisition de liens (backlinks) d'autorité</li>
+					<li>Optimisation SEO local (Google Maps)</li>
+					<li>Maillage régional et annuaires ciblés</li>
+					<li>Suivi mensuel des positions Google</li>
 				</ul>
 			</div>
 		</div>
-
-		<h3 class="h3">Quel est le budget pour un audit SEO ?</h3>
-		<p>Le tarif d'un audit SEO dépend de la complexité de votre site internet, de votre marché et de vos ambitions de positionnement. Chez <strong>Gralypho</strong>, nous adaptons nos prestations à votre projet, avec des devis clairs et sans surprise.</p>
-
-		<a class="devis" href="/#section-form">Demander un audit SEO gratuit</a>
-<!-- 
-		<div class="faq">
-			<h3 class="h3">FAQ sur le SEO</h3>
-			<h4>Qu'est-ce qu'un audit SEO ?</h4>
-			<p>Un audit SEO est une analyse complète de votre site web pour identifier les facteurs bloquants pour votre référencement naturel. Il sert de base pour construire une stratégie SEO efficace.</p>
-
-			<h4>Combien de temps faut-il pour voir des résultats SEO ?</h4>
-			<p>Le SEO est une stratégie de moyen à long terme. Les premiers résultats sont visibles généralement entre 3 à 6 mois selon la concurrence et la qualité des optimisations réalisées.</p>
-
-			<h4>Pourquoi travailler avec une agence SEO locale à Lyon ?</h4>
-			<p>Une agence locale connaît parfaitement votre marché et peut développer des stratégies de référencement local précises, en optimisant par exemple votre présence sur Google My Business et les annuaires régionaux.</p>
-
-			<h4>Est-ce que Gralypho propose aussi des stratégies SEA (Google Ads) ?</h4>
-			<p>Oui, en complément du SEO, nous proposons également la mise en place de campagnes SEA (référencement payant) pour booster rapidement votre visibilité.</p>
-		</div> -->
-		<a class="link-blog" href="/blog">Lire nos articles sur le SEO</a>
 	</div>
-</section>
 
-<div class="wrapper__faqLink">
-	<FaqLink />
-</div>
+	<!-- Budget & Appel à l'action -->
+	<div class="wrapper__component">
+		<div class="budget-cta-card">
+			<h3>Quel budget pour votre référencement ?</h3>
+			<p>Le prix d'une stratégie SEO s'ajuste en fonction de votre concurrence, de l'état technique de votre site et de votre ciblage géographique. Nous concevons des devis transparents et adaptés à vos ambitions commerciales.</p>
+			
+			<div class="actions-wrapper">
+				<a class="devis-btn" href="/#section-form">Demander mon Audit SEO Gratuit</a>
+				<a class="blog-btn" href="/blog">Découvrir notre Blog SEO</a>
+			</div>
+		</div>
+	</div>
 
-<div class="wrapper__link">
-	<Links />
-</div>
+	<!-- FAQ et Liens d'offres -->
+	<div class="wrapper__faqLink">
+		<FaqLink />
+		<Links />
+	</div>
 
-<!-- ***************CONTACT*************** -->
-
-<div class="wrapper-form">
-	<Form />
-</div>
+	<!-- Formulaire de contact final -->
+	<div class="wrapper-form">
+		<Form />
+	</div>
+</main>
 
 <style>
-	.sites-section {
+	.page-container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: rgb(245, 244, 244);
-		height: auto;
-		font-size: 16px;
-	}
-	.wrapper__para {
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: rgb(239, 237, 237);
-		margin: 20px auto;
-		width: 80%;
-	}
-	.hero {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: auto;
-	}
-	.title {
-		text-align: center;
-		font-family: var(--Poppins);
-		font-weight: 700;
-		font-size: 2.5rem;
-		color: var(--primary);
-		margin-top: 0px;
-		letter-spacing: -2px;
-		padding: 10px;
-		line-height: 53px;
-		margin-top: 40px;
-	}
-	.subtitle {
-		text-align: center;
-		font-family: var(--Poppins);
-		font-size: 1.3rem;
-		color: var(--primary);
-		letter-spacing: -1px;
-		padding: 10px;
-		line-height: 53px;
-        font-weight: 300;
-	}
-    .subtitle span{
-        font-weight: 600;
-    }
-	.subtitle-span {
-		font-family: var(--Poppins);
-		font-weight: 200;
-		font-size: 1.2rem;
-		color: var(--primary);
-		display: block;
-		margin-top: 20px;
-	}
-	ul {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 40px;
-	}
-	.wrapper-ul {
-		margin-top: 40px;
+		padding: 6rem 2rem 4rem 2rem;
+		background-color: var(--primary);
+		position: relative;
+		overflow: hidden;
 	}
 
-	li {
-		font-family: var(--Poppins);
-		font-size: 0.9rem;
-		color: var(--primary);
-        border: 1px solid var(--primary);
-		font-weight: 500;
+	/* Halos lumineux en arrière-plan */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.1;
+		pointer-events: none;
+		z-index: 1;
+	}
+	.orb-1 {
+		width: 500px;
+		height: 500px;
+		background: var(--green, #D6A319);
+		top: 15%;
+		left: -200px;
+	}
+	.orb-2 {
+		width: 600px;
+		height: 600px;
+		background: var(--cta, #1481ba);
+		bottom: 25%;
+		right: -350px;
+	}
+
+	.wrapper__hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 		width: 100%;
+		max-width: 1100px;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 4.5rem 3rem;
+		margin-bottom: 4rem;
+		gap: 1.5rem;
+		z-index: 3;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 		text-align: center;
-		/* background-color: var(--blue); */
-		padding: 20px;
-		border-radius: 10px;
-		margin: 10px;
-		list-style-type: none;
-		box-shadow: 0px 0px 0px 0px rgba(62, 62, 62, 1);
 	}
 
-	.h3 {
-		font-family: poppins;
-		font-weight: 600;
-		font-size: var(--m);
-		color: var(--primary);
-		border-radius: 30px 6px 60px 34px;
-		/* border: 1px solid var(--primary); */
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(2.2rem, 5vw, 4.2rem);
+		color: #ffffff;
+		font-weight: 900;
 		text-align: center;
-		margin-top: 50px;
-		margin-bottom: 20px;
-		padding: 30px;
-        font-size: 1.6rem;
+		letter-spacing: -0.03em;
+		margin: 0;
+		line-height: 1.15;
 	}
-	/* .hero h4 {
-		font-family: poppins;
-		font-weight: 600;
-		font-size: var(--m);
-		color: var(--primary);
-		text-align: center;
-		padding: 20px;
-	} */
 
-	.hero p {
-		font-family: var(--Poppins);
-		font-size: var(--m);
-		color: var(--primary);
+	.highlight-text {
+		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.subtitle {
+		font-family: var(--Red), sans-serif;
+		font-size: clamp(1.1rem, 2.2vw, 1.4rem);
 		font-weight: 400;
-		text-align: justify;
-		align-self: center;
-		padding: 20px;
-		width: 60%;
-		margin: 20px;
+		color: rgba(255, 255, 255, 0.85);
+		margin: 0;
+		line-height: 1.6;
+		max-width: 900px;
+	}
+	
+	.sub-lead {
+		display: inline-block;
+		font-size: 0.95rem;
+		font-weight: 300;
+		color: rgba(255, 255, 255, 0.65);
+		margin-top: 10px;
+		line-height: 1.7;
 	}
 
-	.imgHero {
-		max-width: 30%;
-		min-width: 30%;
-		margin-top: 30px;
-		border-radius: 20px;
+	.badge-trust-seo {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.75rem;
+		font-weight: 700;
+		color: var(--green, #D6A319);
+		background: rgba(214, 163, 25, 0.1);
+		border: 1px solid rgba(214, 163, 25, 0.2);
+		padding: 8px 18px;
+		border-radius: 50px;
+		letter-spacing: 0.05em;
+		margin-top: 1.5rem;
 	}
-	.img {
-		max-width: 30%;
-		min-width: 30%;
-		margin-top: 0px;
-		border-radius: 20px;
+
+	/* Sections de contenu */
+	.wrapper__component {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		max-width: 1200px;
+		padding: 3rem 0;
+		z-index: 3;
+	}
+
+	.wrapper__component h2 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(1.6rem, 3vw, 2.2rem);
+		font-weight: 800;
+		color: #ffffff;
+		text-align: center;
+		margin: 0 0 1rem 0;
+		letter-spacing: -0.01em;
+	}
+
+	.section-desc {
+		font-family: var(--Red), sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.65);
+		max-width: 800px;
+		text-align: center;
+		margin: 0 0 3rem 0;
+	}
+
+	/* Grande carte Pitch */
+	.glass-pitch-card {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 3.5rem 3rem;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+	}
+	.glass-pitch-card h2 {
+		text-align: left !important;
+		margin: 0 !important;
+	}
+	.glass-pitch-card p {
+		font-family: var(--Red), sans-serif;
+		font-size: 1.05rem;
+		line-height: 1.8;
+		color: rgba(255, 255, 255, 0.75);
+		margin: 0;
+	}
+
+	.benefits-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 2rem;
+		margin-top: 1rem;
+	}
+	.benefit-item {
+		display: flex;
+		gap: 12px;
+		align-items: flex-start;
+	}
+	.bullet-gold {
+		color: var(--green, #D6A319);
+		font-size: 1.3rem;
+		line-height: 1;
+	}
+	.benefit-item h4 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.05rem;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0 0 6px 0;
+	}
+	.benefit-item p {
+		font-family: var(--Red), sans-serif;
+		font-size: 0.85rem;
+		line-height: 1.6;
+		color: rgba(255, 255, 255, 0.55);
+		margin: 0;
+	}
+
+	/* Grille des étapes */
+	.method-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		gap: 2rem;
+		width: 100%;
+	}
+	.method-card {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 24px;
+		padding: 2.5rem 2rem;
+		position: relative;
+		transition: all 0.3s ease;
+	}
+	.method-card:hover {
+		border-color: var(--green, #D6A319);
+		background: rgba(255, 255, 255, 0.04);
+		transform: translateY(-5px);
+	}
+	.step-num {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 3rem;
+		font-weight: 900;
+		color: rgba(214, 163, 25, 0.15);
+		line-height: 1;
+		margin-bottom: 1rem;
+	}
+	.method-card h3 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.15rem;
+		font-weight: 700;
+		color: #ffffff;
+		margin: 0 0 1.25rem 0;
+	}
+	.method-card ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.method-card li {
+		font-family: var(--Red), sans-serif;
+		font-size: 0.85rem;
+		color: rgba(255, 255, 255, 0.7);
+		line-height: 1.5;
+		position: relative;
+		padding-left: 15px;
+	}
+	.method-card li::before {
+		content: '▪';
+		color: var(--green, #D6A319);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	/* Carte Devis & Budget */
+	.budget-cta-card {
+		background: radial-gradient(circle at 10% 0%, rgba(20, 129, 186, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 3.5rem 3rem;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 1.5rem;
+	}
+	.budget-cta-card h3 {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 1.5rem;
+		font-weight: 800;
+		color: #ffffff;
+		margin: 0;
+	}
+	.budget-cta-card p {
+		font-family: var(--Red), sans-serif;
+		font-size: 1rem;
+		line-height: 1.7;
+		color: rgba(255, 255, 255, 0.7);
+		max-width: 700px;
+		margin: 0;
+	}
+
+	.actions-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5rem;
+		justify-content: center;
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.devis-btn {
+		background-color: var(--green, #D6A319);
+		color: var(--primary);
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.9rem;
+		font-weight: 700;
+		border-radius: 50px;
+		text-align: center;
+		padding: 14px 32px;
+		box-shadow: 0 10px 20px rgba(214, 163, 25, 0.15);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		transition: all 0.3s ease;
+		text-decoration: none;
+	}
+	.devis-btn:hover {
+		background-color: #ffffff;
+		color: var(--primary);
+		transform: translateY(-2px);
+		box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+	}
+
+	.blog-btn {
+		border: 2px solid rgba(255, 255, 255, 0.15);
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.9rem;
+		font-weight: 700;
+		border-radius: 50px;
+		text-align: center;
+		padding: 14px 32px;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		transition: all 0.3s ease;
+		text-decoration: none;
+	}
+	.blog-btn:hover {
+		background-color: #ffffff;
+		color: var(--primary);
+		transform: translateY(-2px);
+		box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
+	}
+
+	.wrapper__faqLink {
+		width: 100%;
+		max-width: 800px;
+		margin-top: 4rem;
 	}
 	.wrapper-form {
-		grid-column: 1/13;
-		grid-row: 7;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		/* margin-top: 50px; */
-		background-color: var(--bgHero);
-	}
-	/* .faq {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 100px;
-		background-color: white;
-	} */
-	.link-blog {
-		background-color: var(--green);
-		color: white;
-		font-family: 'Red Hat Display';
-		font-size: 1rem;
-		font-weight: 700;
-		border-radius: 8px;
-		text-align: center;
-		padding: 20px 20px;
-		box-shadow: 0px 20px 20px rgba(62, 62, 62, 0.319);
-		z-index: 999;
-		margin: 50px;
-	}
-	.devis {
-		background-color: var(--green);
-		color: white;
-		font-family: 'Red Hat Display';
-		font-size: 1rem;
-		font-weight: 700;
-		border-radius: 8px;
-		text-align: center;
-		padding: 20px 20px;
-		box-shadow: 0px 20px 20px rgba(62, 62, 62, 0.319);
-		z-index: 999;
-		max-width: 300px;
-		margin-top: 30px;
-	}
-	a:hover {
-		animation: bounce 0.4s ease-in-out;
+		width: 100%;
+		z-index: 3;
 	}
 
-	@keyframes bounce {
-		0% {
-			transform: scale(1) translateY(-2px);
+	@media screen and (max-width: 867px) {
+		.page-container {
+			padding: 5rem 1.25rem;
 		}
-		25% {
-			transform: scale(1) translateY(3px);
+		.wrapper__hero {
+			padding: 2rem 1.5rem;
 		}
-		50% {
-			transform: scale(1) translateY(-1px);
+		.subtitle {
+			text-align: left;
 		}
-		75% {
-			transform: scale(1) translateY(2px);
+		.glass-pitch-card {
+			padding: 2rem 1.5rem;
 		}
-		100% {
-			transform: scale(1) translateY(0);
+		.glass-pitch-card p {
+			text-align: left;
 		}
-	}
-
-
-	@media screen and (min-width: 300px) and (max-width: 768px) {
-		.hero h1 {
-			line-height: 35px;
-			font-size: 2em;
+		.budget-cta-card {
+			padding: 2rem 1.5rem;
+			text-align: left;
+			align-items: flex-start;
 		}
-		.imgHero {
-			max-width: 90%;
-			min-width: 90%;
-			margin-top: 30px;
-		}
-		.hero p {
+		.devis-btn, .blog-btn {
 			width: 100%;
-		}
-		.img {
-			max-width: 90%;
-			min-width: 90%;
-			margin-top: 30px;
-		}
-		.hero li {
-			width: 90%;
-		}
-		.hero h3 {
-			width: 90%;
-		}
-		.hero h2 {
-			line-height: 30px;
-		}
-		.wrapper__para {
-			width: 100%;
+			text-align: center;
 		}
 	}
 </style>

@@ -1,54 +1,83 @@
-<h2 class="title">Découvrez notre offre</h2>
+<h2 class="title">Découvrez nos <span class="gold-text">offres d'élite</span></h2>
+
 <div class="wrapper__links">
-	<a href="/creation-site-internet">Notre offre de site internet</a>
-	<a class="bg-color" href="/creation-application">Notre offre d'application</a>
+	<a href="/creation-site-internet" class="outline-btn">Notre offre site internet</a>
+	<a href="/creation-application" class="gold-btn">Notre offre application mobile</a>
 </div>
 
 <style>
-	a {
-		font-family: var(--Geologica);
-		font-size: var(--m);
-		color: var(--whiteGrey);
-		background-color: var(--primary);
-		font-weight: 700;
-		letter-spacing: -1px;
+	.title {
+		font-family: var(--Geologica), sans-serif;
+		font-size: clamp(1.4rem, 2.5vw, 2rem);
+		color: #ffffff;
+		font-weight: 800;
+		margin-bottom: 2rem;
+		letter-spacing: -0.02em;
 		text-align: center;
-		margin-top: 0px;
-		padding: 25px;
-		border-radius: 8px;
-		box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.227);
+		margin-top: 4rem;
 	}
-	.bg-color {
-		background-color: var(--cta);
+
+	.gold-text {
+		color: var(--green, #D6A319);
 	}
-	a:hover {
-		background-color: var(--blue);
-	}
+
 	.wrapper__links {
 		display: flex;
-		gap: 20px;
+		gap: 1.5rem;
 		justify-content: center;
 		align-items: center;
-		width: 80%;
-		margin: 0 auto;
-		margin-bottom: 50px;
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto 4rem auto;
 	}
-    .title{
-        font-family: var(--Geologica);
-        font-size: var(--l);
-        color: var(--primary);
-        font-weight: 900;
-        margin-bottom: 10px;
-        letter-spacing: -1px;
-        text-align: center;
-        line-height: 35px;
-        margin-top: 50px;
-        padding: 25px
-    }
+
+	a {
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.9rem;
+		font-weight: 700;
+		text-align: center;
+		padding: 16px 32px;
+		border-radius: 50px;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		display: inline-block;
+		width: 48%;
+		min-width: 260px;
+	}
+
+	.outline-btn {
+		border: 2px solid rgba(255, 255, 255, 0.15);
+		background-color: transparent;
+		color: #ffffff;
+	}
+	.outline-btn:hover {
+		background-color: #ffffff;
+		color: var(--primary);
+		transform: translateY(-2px);
+		box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
+	}
+
+	.gold-btn {
+		background-color: var(--green, #D6A319);
+		color: var(--primary);
+		box-shadow: 0 10px 20px rgba(214, 163, 25, 0.15);
+	}
+	.gold-btn:hover {
+		background-color: #ffffff;
+		color: var(--primary);
+		transform: translateY(-2px);
+		box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+	}
 
 	@media screen and (max-width: 768px) {
 		.wrapper__links {
 			flex-direction: column;
+			gap: 1rem;
+		}
+		a {
+			width: 100%;
 		}
 	}
 </style>
