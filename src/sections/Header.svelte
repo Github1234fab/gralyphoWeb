@@ -296,6 +296,10 @@
 			display: none; /* Masqué sur mobile pour garder la barre ultra-propre */
 		}
 
+		.contact-btn {
+			display: none; /* Masqué sur mobile pour garder la barre ultra-propre */
+		}
+
 		.wrapper-links {
 			grid-template-columns: 1fr;
 			gap: 0.75rem;
