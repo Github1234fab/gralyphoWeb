@@ -15,9 +15,23 @@
 	import gps from '../Assets/gps2.png';
 	import Alcaix from '../Assets/alcaix-coach.png';
 	import Solair from '../Assets/Solair.png';
+	import lePoilu from '../Assets/mockUp_LePoilu.png';
+	import AP from '../Assets/mockuUp_AudioP.png';
 
 	let currentIndex = 0;
 	const slides = [
+		{
+			category: 'Site Web vitrine & marchand',
+			title: 'Le Poilu',
+			image: lePoilu,
+			lien: 'https://lepoilu.com/'
+		},
+		// {
+		// 	category: 'Site Web vitrine',
+		// 	title: 'Audio Pigments',
+		// 	image: AP,
+		// 	lien: 'https://www.audipigments.com/'
+		// },
 		{
 			category: 'Landing Page',
 			title: 'Solair Confort',
@@ -48,11 +62,11 @@
 			image: LionTaxi,
 			lien: 'https://taxi-lyon-aeroport-rhone.com'
 		},
-		{ 
+		{
 			category: 'Maquette Intégrée',
-			title: 'Booki - Plateforme hébergement', 
-			image: Booki, 
-			lien: 'https://fabienmarceau.com/Booki/index.html' 
+			title: 'Booki - Plateforme hébergement',
+			image: Booki,
+			lien: 'https://fabienmarceau.com/Booki/index.html'
 		},
 		{
 			category: 'Portfolio Photographe',
@@ -67,7 +81,7 @@
 			lien: 'https://fabienmarceau.com/myFood/index.html'
 		},
 		{
-			category: 'Site d\'École',
+			category: "Site d'École",
 			title: 'Issétys - École de Musique Lyon',
 			image: Issétys,
 			lien: 'https://www.ecole-musique-lyon-issetys.com/'
@@ -143,7 +157,7 @@
 		{#each slides as slide}
 			<div class="slide">
 				<img class="img" src={slide.image} alt={slide.title} />
-				
+
 				<!-- Carte d'informations en verre dépoli -->
 				<div class="slide-info-card">
 					<span class="slide-tag">{slide.category}</span>
@@ -220,8 +234,8 @@
 	}
 
 	.nav-btn:hover {
-		background: var(--green, #D6A319);
-		border-color: var(--green, #D6A319);
+		background: var(--green, #d6a319);
+		border-color: var(--green, #d6a319);
 		color: var(--primary);
 		transform: translateY(-50%) scale(1.08);
 		box-shadow: 0 0 20px rgba(214, 163, 25, 0.4);
@@ -266,7 +280,7 @@
 		font-family: var(--Geologica), sans-serif;
 		font-size: 0.65rem;
 		font-weight: 700;
-		color: var(--green, #D6A319);
+		color: var(--green, #d6a319);
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
 	}

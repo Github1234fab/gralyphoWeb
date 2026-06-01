@@ -6,7 +6,7 @@
 	import Wix from '../Assets/wixLogo.png';
 	import Strapi from '../Assets/Strapi.monogram.logo.png';
 	import Shopify from '../Assets/Shopify.png';
-	import WP from '../Assets/WP.png';
+	import ReactNative from '../Assets/logo_reactNative.png';
 </script>
 
 <main class="hero-container">
@@ -20,12 +20,12 @@
 			Expertise SvelteKit & React Native certifiée
 		</div>
 
-		<h1>Création de Site Internet<br /><span class="highlight-text">& Application Mobile</span> <span class="no-break">sur-mesure</span></h1>
+		<h1>Création de Site Internet<br /><span class="highlight-text">& </span> <span class="no-break">Application Mobile sur-mesure</span></h1>
 		
 		<h2>
-			Votre agence web certifiée pour des solutions digitales performantes et ultra-rapides au cœur de
-			<a href="/agence-web-Lyon-creation-site-internet-seo" class="maillage-geo">Lyon</a> et des
-			<a href="/agence-web-monts-du-Lyonnais" class="maillage-geo">Monts du Lyonnais</a>.
+			Votre agence web certifiée pour des solutions digitales performantes et ultra-rapides au coeur
+			<a href="/agence-web-Lyon-creation-site-internet-seo" class="maillage-geo">de l'Ouest Lyonnais</a> à 30 min de 
+			<a href="/agence-web-monts-du-Lyonnais" class="maillage-geo">Lyon</a>.
 		</h2>
 
 		<div class="cta-wrapper">
@@ -40,7 +40,7 @@
 
 	<div class="wrapper__text2">
 		<h3>
-			Développeurs web et d'applications experts, nous concevons des architectures digitales sur-mesure, légères et optimisées pour le <strong class="accent-text">référencement naturel (SEO)</strong>. L'adaptabilité technologique est notre force pour vous offrir des solutions de prestige au tarif le plus juste.
+			Experts en développement web et en applications mobiles, nous concevons des architectures digitales sur-mesure, <strong class="accent-text">en un clin d'oeil</strong>. L'adaptabilité technologique est notre force et nous vous offrons des solutions de prestige au tarif le plus juste.
 		</h3>
 		
 		<div class="tech-stack-title">
@@ -58,6 +58,10 @@
 				<img class="svelte logo" src={Svelte} alt="Svelte Logo" />
 				<span>SvelteKit</span>
 			</a>
+			<a href="https://fr.wordpress.org/" target="_blank" class="tech-card">
+				<img class="Wordpress logo" src={ReactNative} alt="WordPress Logo" />
+				<span>ReactNative</span>
+			</a>
 			<a href="https://strapi.io/" target="_blank" class="tech-card">
 				<img class="Strapi logo" src={Strapi} alt="Strapi Logo" />
 				<span>Strapi CMS</span>
@@ -74,10 +78,7 @@
 				<img class="Wix logo" src={Wix} alt="Wix Logo" />
 				<span>Wix Expert</span>
 			</a>
-			<a href="https://fr.wordpress.org/" target="_blank" class="tech-card">
-				<img class="Wordpress logo" src={WP} alt="WordPress Logo" />
-				<span>WordPress</span>
-			</a>
+			
 		</div>
 	</div>
 </main>
@@ -174,6 +175,7 @@
 		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+		background-clip: text;
 	}
 	.no-break {
 		white-space: nowrap;
