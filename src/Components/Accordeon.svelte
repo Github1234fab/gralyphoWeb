@@ -129,7 +129,7 @@
 		line-height: 20px;
 		list-style-type: circle;
 		text-align: left;
-		color: black;
+		color: rgba(255, 255, 255, 0.8);
         
 	}
 
