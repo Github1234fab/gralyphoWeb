@@ -16,7 +16,7 @@
 	import Alcaix from '../Assets/alcaix-coach.png';
 	import Solair from '../Assets/Solair.png';
 	import lePoilu from '../Assets/mockup_LePoilu.png';
-	import AP from '../Assets/mockup_AudioP.png';
+	import APigment from '../Assets/mockup_AudioP.png';
 
 	let currentIndex = 0;
 	const slides = [
@@ -29,7 +29,7 @@
 		{
 			category: 'Site Web vitrine',
 			title: 'Audio Pigments',
-			image: AP,
+			image: APigment,
 			lien: 'https://www.audipigments.com/'
 		},
 		{
