@@ -15,8 +15,8 @@
 	import gps from '../Assets/gps2.png';
 	import Alcaix from '../Assets/alcaix-coach.png';
 	import Solair from '../Assets/Solair.png';
-	import lePoilu from '../Assets/mockUp_LePoilu.png';
-	import AP from '../Assets/mockuUp_AudioP.png';
+	import lePoilu from '../Assets/mockup_LePoilu.png';
+	import AP from '../Assets/mockup_AudioP.png';
 
 	let currentIndex = 0;
 	const slides = [
@@ -26,12 +26,12 @@
 			image: lePoilu,
 			lien: 'https://lepoilu.com/'
 		},
-		// {
-		// 	category: 'Site Web vitrine',
-		// 	title: 'Audio Pigments',
-		// 	image: AP,
-		// 	lien: 'https://www.audipigments.com/'
-		// },
+		{
+			category: 'Site Web vitrine',
+			title: 'Audio Pigments',
+			image: AP,
+			lien: 'https://www.audipigments.com/'
+		},
 		{
 			category: 'Landing Page',
 			title: 'Solair Confort',
