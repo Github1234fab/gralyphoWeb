@@ -1,5 +1,5 @@
 <script>
-	import Compteur from '../Assets/logoGralypho2.jpeg';
+	import AgencyExpert from '../Assets/agency_creative_expert.png';
 	import CTA from '../Components/ButtonCTA.svelte';
 	import Firebase from '../Assets/firebase.png';
 	import Svelte from '../Assets/Svelte_Logo.svg.png';
@@ -14,27 +14,45 @@
 	<div class="glow-orb orb-gold"></div>
 	<div class="glow-orb orb-blue"></div>
 
-	<div class="wrapper__text">
-		<div class="badge-premium">
-			<span class="badge-dot"></span>
-			Expertise SvelteKit & React Native certifiée
+	<div class="hero-grid">
+		<!-- Colonne de gauche : Textes et CTA -->
+		<div class="hero-left-col">
+			<div class="badge-premium">
+				<span class="badge-dot"></span>
+				Expertise SvelteKit & React Native certifiée
+			</div>
+
+			<h1>
+				Concevoir <span class="highlight-text-gold">l'exceptionnel</span>,<br class="desktop-only" />
+				maîtriser <span class="highlight-text-blue">la performance</span>
+			</h1>
+			
+			<h2>
+				Votre agence web certifiée pour des solutions digitales performantes et ultra-rapides au coeur
+				<a href="/agence-web-Lyon-creation-site-internet-seo" class="maillage-geo">de l'Ouest Lyonnais</a> à 30 min de 
+				<a href="/agence-web-monts-du-Lyonnais" class="maillage-geo">Lyon</a>.
+			</h2>
+
+			<div class="cta-wrapper">
+				<CTA />
+			</div>
 		</div>
 
-		<h1>Création de Site Internet<br /><span class="highlight-text">& </span> <span class="no-break">Application Mobile sur-mesure</span></h1>
-		
-		<h2>
-			Votre agence web certifiée pour des solutions digitales performantes et ultra-rapides au coeur
-			<a href="/agence-web-Lyon-creation-site-internet-seo" class="maillage-geo">de l'Ouest Lyonnais</a> à 30 min de 
-			<a href="/agence-web-monts-du-Lyonnais" class="maillage-geo">Lyon</a>.
-		</h2>
-
-		<div class="cta-wrapper">
-			<CTA />
-		</div>
-		
-		<div class="compteur-wrapper">
-			<div class="pulsing-ring"></div>
-			<img class="compteur" src={Compteur} alt="Logo Gralypho - Agence Web de pointe" />
+		<!-- Colonne de droite : L'Humain et l'Expertise (Option Premium) -->
+		<div class="hero-right-col">
+			<div class="expert-frame-container">
+				<!-- Le halo de lueur arrière -->
+				<div class="expert-glow"></div>
+				
+				<!-- Cadre photo premium avec effet de profondeur -->
+				<div class="expert-card">
+					<div class="expert-badge">
+						<span class="pulse-icon"></span>
+						L'humain au cœur de vos projets
+					</div>
+					<img class="expert-img" src={AgencyExpert} alt="Digital expert designer Gralypho" />
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -91,7 +109,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 6rem 2rem 4rem 2rem;
+		padding: 10rem 2rem 4rem 2rem;
 		position: relative;
 		overflow: hidden;
 	}
@@ -120,16 +138,36 @@
 		right: 5%;
 	}
 
-	.wrapper__text {
+	.hero-grid {
+		display: grid;
+		grid-template-columns: 1.2fr 0.8fr;
+		gap: 4rem;
+		align-items: center;
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		z-index: 5;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		padding: 3.5rem 4.5rem;
+		border-radius: 32px;
+		background: rgba(255, 255, 255, 0.015);
+		backdrop-filter: blur(12px);
+		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+	}
+
+	.hero-left-col {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
+		text-align: left;
+		gap: 2rem;
+	}
+
+	.hero-right-col {
+		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 2.5rem;
-		width: 100%;
-		max-width: 1100px;
-		z-index: 5;
-		text-align: center;
 	}
 
 	/* Badge Premium Animé */
@@ -160,36 +198,49 @@
 		animation: pulse-dot 1.8s infinite ease-in-out;
 	}
 
-	.wrapper__text h1 {
+	.hero-left-col h1 {
 		font-family: var(--Geologica), sans-serif;
 		letter-spacing: -0.03em;
 		color: #ffffff;
 		font-weight: 900;
-		font-size: clamp(2rem, 4.5vw, 3.5rem);
-		text-align: center;
+		font-size: clamp(2rem, 4.5vw, 3.4rem);
+		text-align: left;
 		margin: 0;
 		line-height: 1.2;
+		text-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
 	}
 
-	.highlight-text {
-		background: linear-gradient(135deg, var(--green, #D6A319) 0%, #ffffff 100%);
+	.desktop-only {
+		display: block;
+	}
+
+	.highlight-text-gold {
+		background: linear-gradient(135deg, #FFE8A3 0%, var(--green, #D6A319) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
-	}
-	.no-break {
-		white-space: nowrap;
+		filter: drop-shadow(0 2px 25px rgba(214, 163, 25, 0.25));
+		display: inline-block;
 	}
 
-	.wrapper__text h2 {
+	.highlight-text-blue {
+		background: linear-gradient(135deg, #95E1FF 0%, var(--cta, #1481ba) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		filter: drop-shadow(0 2px 25px rgba(20, 129, 186, 0.3));
+		display: inline-block;
+	}
+
+	.hero-left-col h2 {
 		font-family: var(--Red), sans-serif;
 		font-weight: 400;
 		color: rgba(255, 255, 255, 0.85);
-		font-size: clamp(1rem, 2vw, 1.35rem);
-		text-align: center;
-		max-width: 800px;
+		font-size: clamp(1rem, 2vw, 1.25rem);
+		text-align: left;
+		max-width: 700px;
 		line-height: 1.6;
-		margin: 0 auto;
+		margin: 0;
 	}
 
 	.maillage-geo {
@@ -208,33 +259,90 @@
 		margin-top: 0.5rem;
 	}
 
-	/* Logo interactif futuriste en lévitation */
-	.compteur-wrapper {
+	/* Cadre Photo Humain & Expertise Premium */
+	.expert-frame-container {
 		position: relative;
-		display: inline-flex;
-		align-items: center;
+		width: 100%;
+		max-width: 440px;
+		height: 440px;
+		display: flex;
 		justify-content: center;
-		margin-top: 2rem;
-		animation: float-logo 6s infinite ease-in-out;
+		align-items: center;
+		perspective: 1200px;
 	}
-	.compteur {
-		height: clamp(180px, 30vw, 320px);
-		width: clamp(180px, 30vw, 320px);
-		border-radius: 50%;
-		border: 4px solid rgba(255, 255, 255, 0.05);
-		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 
-		            0 0 40px rgba(214, 163, 25, 0.15);
-		object-fit: cover;
-		z-index: 2;
-	}
-	.pulsing-ring {
+
+	.expert-glow {
 		position: absolute;
-		width: 108%;
-		height: 108%;
-		border-radius: 50%;
-		border: 1px solid rgba(214, 163, 25, 0.2);
+		width: 350px;
+		height: 350px;
+		background: radial-gradient(circle, rgba(214, 163, 25, 0.25) 0%, rgba(20, 129, 186, 0.2) 60%, transparent 100%);
+		filter: blur(50px);
 		z-index: 1;
-		animation: pulse-ring 4s infinite linear;
+		pointer-events: none;
+		animation: pulse-glow 8s infinite ease-in-out;
+	}
+
+	.expert-card {
+		position: relative;
+		width: clamp(280px, 35vw, 380px);
+		height: clamp(280px, 35vw, 380px);
+		border-radius: 24px;
+		background: rgba(255, 255, 255, 0.03);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 8px;
+		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), 
+		            0 0 50px rgba(214, 163, 25, 0.1);
+		transform: rotateY(-10deg) rotateX(8deg) rotateZ(-2deg);
+		transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s ease;
+		z-index: 2;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+
+	.expert-card:hover {
+		transform: rotateY(-5deg) rotateX(4deg) rotateZ(-1deg) translateZ(15px);
+		box-shadow: 0 45px 80px rgba(0, 0, 0, 0.6), 
+		            0 0 60px rgba(20, 129, 186, 0.2);
+	}
+
+	.expert-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 18px;
+		display: block;
+	}
+
+	.expert-badge {
+		position: absolute;
+		bottom: 24px;
+		left: 50%;
+		transform: translateX(-50%);
+		background: rgba(13, 18, 31, 0.85);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 8px 16px;
+		border-radius: 50px;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		font-size: 0.8rem;
+		font-weight: 600;
+		white-space: nowrap;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		backdrop-filter: blur(10px);
+		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+		z-index: 3;
+	}
+
+	.pulse-icon {
+		width: 6px;
+		height: 6px;
+		background-color: var(--green, #D6A319);
+		border-radius: 50%;
+		box-shadow: 0 0 8px var(--green, #D6A319);
+		display: inline-block;
+		animation: pulse-dot 1.8s infinite ease-in-out;
 	}
 
 	/* Bloc descriptif sémantique */
@@ -243,7 +351,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 5rem;
+		margin-top: 12rem;
 		gap: 2.5rem;
 		width: 100%;
 		max-width: 1000px;
@@ -338,24 +446,56 @@
 		70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(214, 163, 25, 0); }
 		100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(214, 163, 25, 0); }
 	}
-	@keyframes float-logo {
-		0% { transform: translateY(0px); }
-		50% { transform: translateY(-12px); }
-		100% { transform: translateY(0px); }
-	}
-	@keyframes pulse-ring {
-		0% { transform: rotate(0deg) scale(0.98); opacity: 0.5; }
-		50% { transform: rotate(180deg) scale(1.02); opacity: 0.8; }
-		100% { transform: rotate(360deg) scale(0.98); opacity: 0.5; }
+	@keyframes pulse-glow {
+		0% { transform: scale(1); opacity: 0.8; }
+		50% { transform: scale(1.1); opacity: 0.95; }
+		100% { transform: scale(1); opacity: 0.8; }
 	}
 
 	/* Media Queries */
+	@media screen and (max-width: 1024px) {
+		.hero-grid {
+			grid-template-columns: 1fr;
+			gap: 3rem;
+			text-align: center;
+			padding: 2.5rem 1.5rem;
+			border-radius: 24px;
+		}
+
+		.hero-left-col {
+			align-items: center;
+			text-align: center;
+		}
+
+		.hero-left-col h1 {
+			text-align: center;
+		}
+
+		.hero-left-col h2 {
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.desktop-only {
+			display: none;
+		}
+
+		.expert-frame-container {
+			margin: 1rem auto 2rem auto;
+			max-width: 400px;
+			height: 340px;
+		}
+
+		.expert-card {
+			width: 280px;
+			height: 280px;
+			transform: rotateY(-6deg) rotateX(4deg) rotateZ(-1deg);
+		}
+	}
+
 	@media screen and (max-width: 768px) {
 		.hero-container {
-			padding-top: 5rem;
-		}
-		.wrapper__text {
-			gap: 1.5rem;
+			padding-top: 9.5rem;
 		}
 		.wrapper__text2 {
 			margin-top: 3.5rem;
