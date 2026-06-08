@@ -5,20 +5,21 @@
 	import Rocket from '../Assets/rocketLogo.png';
 	import Seo from '../Assets/seoLogo.png';
 	import Button from '../Components/ButtonCTA.svelte';
+	import MethodSection from './MethodSection.svelte';
 </script>
 
 <main class="services-section">
 	<div class="wrapper__paragraph">
-		<h2 class="title">Création de Sites Internet Professionnels & Applications Web sur-mesure</h2>
+		<h2 class="title">Création de Sites Internet Professionnels & Solutions de Visibilité Locale</h2>
 		
 		<div class="services-grid">
-			<!-- Formule Express -->
-			<div class="service-box">
-				<div class="badge-service">⚡ Express - 3 Jours</div>
-				<h3 class="title-2">Site Internet Professionnel Clés en Main</h3>
+			<!-- Formule Express (Pack Artisan & Local) -->
+			<div class="service-box featured-box">
+				<div class="badge-service accent-badge">⚡ Pack Artisan & Commerce Local</div>
+				<h3 class="title-2">Votre Site Vitrine + Fiche Google Maps clé en main</h3>
 				<div class="price-tag">1399 € <span class="tax-info">TTC</span></div>
 				<p class="subtitle">
-					Conçu spécialement pour les indépendants, commerçants et TPE. Nous créons votre site web professionnel contenant les 5 pages traditionnelles de votre choix (Accueil, À propos, Services, Galerie, Contact), intégrons votre contenu, l'optimisons à 100% pour le référencement (SEO), et le déployons sur le Web sous 3 jours maximum. Un rapport qualité/prix imbattable pour asseoir votre présence numérique.
+					L'offre idéale et transparente pour les artisans, commerçants et indépendants. Nous concevons votre site internet professionnel complet de 5 pages (Accueil, Présentation, Services, Galerie de réalisations, Formulaire de contact). Nous créons et configurons également votre fiche Google Business Profile (Google Maps) pour que les clients de votre secteur vous trouvent immédiatement sur leur téléphone. Livraison en 3 jours, sans aucun abonnement obligatoire.
 				</p>
 				<div class="cta-card">
 					<Button />
@@ -26,12 +27,12 @@
 			</div>
 
 			<!-- Site Custom -->
-			<div class="service-box featured-box">
-				<div class="badge-service accent-badge">💎 Création d'Élite</div>
-				<h3 class="title-2">Site Internet Custom & Design Sur-Mesure</h3>
-				<div class="price-tag"><span class="from-text">dès</span> 5999 € <span class="tax-info">TTC</span></div>
+			<div class="service-box">
+				<div class="badge-service">💎 Création sur-mesure & Design unique</div>
+				<h3 class="title-2">Site Internet sur-mesure pour PME & Marques</h3>
+				<div class="price-tag"><span class="from-text">dès</span> 3999 € <span class="tax-info">TTC</span></div>
 				<p class="subtitle">
-					Vous souhaitez un univers graphique unique qui marque les esprits et renforce votre identité de marque ? Nous concevons votre site entièrement codé à la main (SvelteKit/Strapi), offrant une liberté totale de création graphique, des animations d'avant-garde, et des performances de chargement instantanées que les outils classiques (WordPress) ne peuvent atteindre.
+					Vous souhaitez vous démarquer avec une identité visuelle forte et unique qui marque les esprits ? Nous concevons votre site web entièrement sur-mesure, adapté à votre charte graphique. Nous développons un code ultra-optimisé pour assurer un chargement instantané sur tous les téléphones et ordinateurs, garantissant une expérience de visite fluide et un meilleur positionnement sur Google.
 				</p>
 				<div class="cta-card">
 					<Button />
@@ -40,11 +41,11 @@
 
 			<!-- Landing Page & E-Commerce -->
 			<div class="service-box">
-				<div class="badge-service">🛒 E-Commerce & Landing Page</div>
-				<h3 class="title-2">Boutiques en Ligne & Pages de Conversion</h3>
-				<div class="price-tag"><span class="from-text">dès</span> 799 € <span class="tax-info">/ 3999 €</span></div>
+				<div class="badge-service">🛒 Vente en Ligne & E-Commerce</div>
+				<h3 class="title-2">Boutiques en Ligne & Pages de Vente</h3>
+				<div class="price-tag"><span class="from-text">dès</span> 1999 € <span class="tax-info">TTC</span></div>
 				<p class="subtitle">
-					Présentez une offre unique avec une Landing Page à fort taux de conversion, ou lancez votre activité marchande avec un site e-commerce complet (Shopify / Svelte). Nous créons des tunnels d'achat ultra-fluides et optimisés pour maximiser vos ventes en ligne tout en conservant une autonomie complète sur la gestion de vos stocks et produits.
+					Lancez votre activité de commerce ou de vente à emporter locale. Nous créons des tunnels de commande ultra-fluides et sécurisés pour maximiser vos ventes en ligne. Vous conservez une autonomie complète pour gérer vos produits, vos prix et vos stocks en quelques clics grâce à des outils d'administration simples à prendre en main.
 				</p>
 				<div class="cta-card">
 					<Button />
@@ -53,23 +54,27 @@
 
 			<!-- Applications Web & Mobiles -->
 			<div class="service-box">
-				<div class="badge-service">📱 Mobile & PWA</div>
-				<h3 class="title-2">Applications Web Progressives & Natives</h3>
-				<div class="price-tag"><span class="from-text">dès</span> 6999 € <span class="tax-info">/ 9999 €</span></div>
+				<div class="badge-service">📱 Applications Métiers & Portails</div>
+				<h3 class="title-2">Applications Web & Outils sur-mesure</h3>
+				<div class="price-tag"><span class="from-text">dès</span> 4999 € <span class="tax-info">TTC</span></div>
 				<p class="subtitle">
-					Propulsez votre service sur les téléphones de vos clients ! Nous développons des applications PWA (Progressive Web App) légères, économiques et installables sans passer par les stores, ou des applications mobiles natives (iOS/Android) de haute technologie avec des fonctionnalités avancées pour une expérience utilisateur irréprochable.
+					Besoin d'un outil de réservation en ligne pour vos clients, d'un espace membre, ou d'une application interne pour simplifier votre facturation et votre gestion quotidienne ? Nous développons des applications web sur-mesure, légères et intuitives, accessibles depuis n'importe quel navigateur mobile ou d'ordinateur pour automatiser vos tâches.
 				</p>
 				<div class="cta-card">
 					<Button />
 				</div>
 			</div>
+		</div>
 
+		<MethodSection />
+
+		<div class="services-grid">
 			<!-- SEO Expertise -->
 			<div class="service-box full-width-box">
-				<div class="badge-service SEO-badge">📈 Stratégie SEO & Visibilité</div>
-				<h3 class="title-2">Optimisation pour les Moteurs de Recherche (Google)</h3>
+				<div class="badge-service SEO-badge">📈 Référencement & Domination Google</div>
+				<h3 class="title-2">Soyez visible là où vos clients cherchent vos services</h3>
 				<p class="subtitle">
-					Le plus beau des sites internet ne sert à rien si personne ne le trouve. Spécialistes en stratégie SEO, nous réalisons un audit technique complet de votre site, analysons vos concurrents, ciblons les requêtes de clients les plus rentables et optimisons votre architecture interne (maillage, vitesse, netlinking) pour vous hisser en première page de Google et multiplier votre trafic naturel de manière franche et durable.
+					Le plus beau des sites ne sert à rien s'il n'apparaît pas sur Google quand on cherche votre spécialité. Nous réalisons un audit de votre marché local, ciblons les vraies requêtes que tapent vos clients (ex: "électricien Tassin", "ostéopathe Craponne") et optimisons le contenu et les liens de votre site pour vous positionner durablement dans les premiers résultats et multiplier les appels de prospects.
 				</p>
 				<div class="cta-card">
 					<Button />
@@ -165,7 +170,7 @@
 	/* Grille des offres de services */
 	.services-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
 		gap: 2rem;
 		width: 100%;
 	}

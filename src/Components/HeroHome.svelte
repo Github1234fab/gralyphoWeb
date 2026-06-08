@@ -1,12 +1,6 @@
 <script>
 	import AgencyExpert from '../Assets/agency_creative_expert.png';
 	import CTA from '../Components/ButtonCTA.svelte';
-	import Firebase from '../Assets/firebase.png';
-	import Svelte from '../Assets/Svelte_Logo.svg.png';
-	import Wix from '../Assets/wixLogo.png';
-	import Strapi from '../Assets/Strapi.monogram.logo.png';
-	import Shopify from '../Assets/Shopify.png';
-	import ReactNative from '../Assets/logo_reactNative.png';
 </script>
 
 <main class="hero-container">
@@ -19,19 +13,15 @@
 		<div class="hero-left-col">
 			<div class="badge-premium">
 				<span class="badge-dot"></span>
-				Expertise SvelteKit & React Native certifiée
+				<span>Votre partenaire web de proximité<br class="mobile-only" /> - Ouest Lyonnais</span>
 			</div>
 
 			<h1>
-				Concevoir <span class="highlight-text-gold">l'exceptionnel</span>,<br class="desktop-only" />
-				maîtriser <span class="highlight-text-blue">la performance</span>
+				Votre site internet <span class="highlight-text-gold">sans prise de tête</span>,<br class="desktop-only" />
+				conçu pour <span class="highlight-text-blue">trouver vos clients</span>
 			</h1>
-			
-			<h2>
-				Votre agence web certifiée pour des solutions digitales performantes et ultra-rapides au coeur
-				<a href="/agence-web-Lyon-creation-site-internet-seo" class="maillage-geo">de l'Ouest Lyonnais</a> à 30 min de 
-				<a href="/agence-web-monts-du-Lyonnais" class="maillage-geo">Lyon</a>.
-			</h2>
+
+			<h2>Nous créons des sites vitrines rapides, des boutiques locales et configurons votre visibilité sur Google Maps. Conçu spécialement pour les artisans, commerçants et indépendants de l'Ouest Lyonnais. Pas d'abonnement obligatoire : vous restez 100% propriétaire de votre site.</h2>
 
 			<div class="cta-wrapper">
 				<CTA />
@@ -43,61 +33,16 @@
 			<div class="expert-frame-container">
 				<!-- Le halo de lueur arrière -->
 				<div class="expert-glow"></div>
-				
+
 				<!-- Cadre photo premium avec effet de profondeur -->
 				<div class="expert-card">
 					<div class="expert-badge">
 						<span class="pulse-icon"></span>
-						L'humain au cœur de vos projets
+						Votre partenaire de confiance en direct
 					</div>
 					<img class="expert-img" src={AgencyExpert} alt="Digital expert designer Gralypho" />
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class="wrapper__text2">
-		<h3>
-			Experts en développement web et en applications mobiles, nous concevons des architectures digitales sur-mesure, <strong class="accent-text">en un clin d'oeil</strong>. L'adaptabilité technologique est notre force et nous vous offrons des solutions de prestige au tarif le plus juste.
-		</h3>
-		
-		<div class="tech-stack-title">
-			<span class="line"></span>
-			<span>NOS TECHNOLOGIES DE PRÉDILECTION</span>
-			<span class="line"></span>
-		</div>
-
-		<div class="wrapper__logos">
-			<a href="https://firebase.google.com/" target="_blank" class="tech-card">
-				<img class="Firebase logo" src={Firebase} alt="Firebase Logo" />
-				<span>Firebase</span>
-			</a>
-			<a href="https://svelte.dev/" target="_blank" class="tech-card">
-				<img class="svelte logo" src={Svelte} alt="Svelte Logo" />
-				<span>SvelteKit</span>
-			</a>
-			<a href="https://fr.wordpress.org/" target="_blank" class="tech-card">
-				<img class="Wordpress logo" src={ReactNative} alt="WordPress Logo" />
-				<span>ReactNative</span>
-			</a>
-			<a href="https://strapi.io/" target="_blank" class="tech-card">
-				<img class="Strapi logo" src={Strapi} alt="Strapi Logo" />
-				<span>Strapi CMS</span>
-			</a>
-			<a href="https://webflow.com/" target="_blank" class="tech-card">
-				<img class="webflow logo" src="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/651f24a499bc8356ba844e0c_Webflow-Logo.svg" alt="Webflow Logo" />
-				<span>Webflow</span>
-			</a>
-			<a href="https://www.shopify.com/fr" target="_blank" class="tech-card">
-				<img class="Shopify logo" src={Shopify} alt="Shopify Logo" />
-				<span>Shopify</span>
-			</a>
-			<a href="https://fr.wix.com/website/templates" target="_blank" class="tech-card">
-				<img class="Wix logo" src={Wix} alt="Wix Logo" />
-				<span>Wix Expert</span>
-			</a>
-			
-		</div>
 	</div>
 </main>
 
@@ -126,7 +71,7 @@
 	.orb-gold {
 		width: 400px;
 		height: 400px;
-		background: var(--green, #D6A319);
+		background: var(--green, #d6a319);
 		top: -100px;
 		left: 10%;
 	}
@@ -191,10 +136,10 @@
 	.badge-dot {
 		width: 8px;
 		height: 8px;
-		background-color: var(--green, #D6A319);
+		background-color: var(--green, #d6a319);
 		border-radius: 50%;
 		display: inline-block;
-		box-shadow: 0 0 10px var(--green, #D6A319);
+		box-shadow: 0 0 10px var(--green, #d6a319);
 		animation: pulse-dot 1.8s infinite ease-in-out;
 	}
 
@@ -214,22 +159,26 @@
 		display: block;
 	}
 
+	.mobile-only {
+		display: none;
+	}
+
 	.highlight-text-gold {
-		background: linear-gradient(135deg, #FFE8A3 0%, var(--green, #D6A319) 100%);
+		background: linear-gradient(135deg, #ffe8a3 0%, var(--green, #d6a319) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
 		filter: drop-shadow(0 2px 25px rgba(214, 163, 25, 0.25));
-		display: inline-block;
+		display: inline;
 	}
 
 	.highlight-text-blue {
-		background: linear-gradient(135deg, #95E1FF 0%, var(--cta, #1481ba) 100%);
+		background: linear-gradient(135deg, #95e1ff 0%, var(--cta, #1481ba) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
 		filter: drop-shadow(0 2px 25px rgba(20, 129, 186, 0.3));
-		display: inline-block;
+		display: inline;
 	}
 
 	.hero-left-col h2 {
@@ -243,17 +192,6 @@
 		margin: 0;
 	}
 
-	.maillage-geo {
-		color: var(--green, #D6A319);
-		text-decoration: none;
-		font-weight: 700;
-		border-bottom: 1px dashed var(--green, #D6A319);
-		transition: all 0.3s ease;
-	}
-	.maillage-geo:hover {
-		color: #ffffff;
-		border-bottom-color: #ffffff;
-	}
 
 	.cta-wrapper {
 		margin-top: 0.5rem;
@@ -263,8 +201,8 @@
 	.expert-frame-container {
 		position: relative;
 		width: 100%;
-		max-width: 440px;
-		height: 440px;
+		max-width: 480px;
+		height: 480px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -273,8 +211,8 @@
 
 	.expert-glow {
 		position: absolute;
-		width: 350px;
-		height: 350px;
+		width: 380px;
+		height: 380px;
 		background: radial-gradient(circle, rgba(214, 163, 25, 0.25) 0%, rgba(20, 129, 186, 0.2) 60%, transparent 100%);
 		filter: blur(50px);
 		z-index: 1;
@@ -284,16 +222,19 @@
 
 	.expert-card {
 		position: relative;
-		width: clamp(280px, 35vw, 380px);
-		height: clamp(280px, 35vw, 380px);
+		width: clamp(220px, 40vw, 420px);
+		height: clamp(220px, 40vw, 420px);
 		border-radius: 24px;
 		background: rgba(255, 255, 255, 0.03);
 		border: 1px solid rgba(255, 255, 255, 0.1);
 		padding: 8px;
-		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), 
-		            0 0 50px rgba(214, 163, 25, 0.1);
+		box-shadow:
+			0 30px 60px rgba(0, 0, 0, 0.5),
+			0 0 50px rgba(214, 163, 25, 0.1);
 		transform: rotateY(-10deg) rotateX(8deg) rotateZ(-2deg);
-		transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s ease;
+		transition:
+			transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+			box-shadow 0.5s ease;
 		z-index: 2;
 		overflow: hidden;
 		box-sizing: border-box;
@@ -301,8 +242,9 @@
 
 	.expert-card:hover {
 		transform: rotateY(-5deg) rotateX(4deg) rotateZ(-1deg) translateZ(15px);
-		box-shadow: 0 45px 80px rgba(0, 0, 0, 0.6), 
-		            0 0 60px rgba(20, 129, 186, 0.2);
+		box-shadow:
+			0 45px 80px rgba(0, 0, 0, 0.6),
+			0 0 60px rgba(20, 129, 186, 0.2);
 	}
 
 	.expert-img {
@@ -338,118 +280,40 @@
 	.pulse-icon {
 		width: 6px;
 		height: 6px;
-		background-color: var(--green, #D6A319);
+		background-color: var(--green, #d6a319);
 		border-radius: 50%;
-		box-shadow: 0 0 8px var(--green, #D6A319);
+		box-shadow: 0 0 8px var(--green, #d6a319);
 		display: inline-block;
 		animation: pulse-dot 1.8s infinite ease-in-out;
 	}
-
-	/* Bloc descriptif sémantique */
-	.wrapper__text2 {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 12rem;
-		gap: 2.5rem;
-		width: 100%;
-		max-width: 1000px;
-		z-index: 5;
-		padding: 2.5rem;
-		background: rgba(255, 255, 255, 0.02);
-		border: 1px solid rgba(255, 255, 255, 0.05);
-		border-radius: 24px;
-		backdrop-filter: blur(15px);
-		-webkit-backdrop-filter: blur(15px);
-		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
-	}
-	.wrapper__text2 h3 {
-		font-family: var(--Geologica), sans-serif;
-		font-weight: 300;
-		font-size: clamp(0.95rem, 1.8vw, 1.15rem);
-		text-align: center;
-		line-height: 1.8;
-		color: rgba(255, 255, 255, 0.9);
-		margin: 0;
-	}
-	.accent-text {
-		color: var(--green, #D6A319);
-		font-weight: 600;
-	}
-
-	.tech-stack-title {
-		display: flex;
-		align-items: center;
-		gap: 15px;
-		width: 100%;
-		color: rgba(255, 255, 255, 0.4);
-		font-family: var(--Geologica), sans-serif;
-		font-size: 0.75rem;
-		font-weight: 700;
-		letter-spacing: 0.15em;
-	}
-	.tech-stack-title .line {
-		flex: 1;
-		height: 1px;
-		background: rgba(255, 255, 255, 0.1);
-	}
-
-	/* Grille de technologies sous forme de cartes d'élite */
-	.wrapper__logos {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		gap: 1.5rem;
-		width: 100%;
-	}
-	.tech-card {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 12px;
-		background: rgba(255, 255, 255, 0.03);
-		border: 1px solid rgba(255, 255, 255, 0.06);
-		padding: 1.25rem;
-		border-radius: 16px;
-		width: 110px;
-		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-		color: rgba(255, 255, 255, 0.6);
-		font-family: var(--Red), sans-serif;
-		font-size: 0.8rem;
-		font-weight: 600;
-	}
-	.tech-card:hover {
-		background: rgba(255, 255, 255, 0.08);
-		border-color: var(--green, #D6A319);
-		transform: translateY(-5px);
-		color: #ffffff;
-		box-shadow: 0 10px 25px rgba(214, 163, 25, 0.15);
-	}
-	.tech-card:hover .logo {
-		transform: scale(1.1) rotate(5deg);
-	}
-
-	.tech-card .logo {
-		height: 48px;
-		width: 48px;
-		object-fit: contain;
-		filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
-		transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-	}
-
 	/* Animations */
 	@keyframes pulse-dot {
-		0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(214, 163, 25, 0.7); }
-		70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(214, 163, 25, 0); }
-		100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(214, 163, 25, 0); }
+		0% {
+			transform: scale(0.9);
+			box-shadow: 0 0 0 0 rgba(214, 163, 25, 0.7);
+		}
+		70% {
+			transform: scale(1.1);
+			box-shadow: 0 0 0 8px rgba(214, 163, 25, 0);
+		}
+		100% {
+			transform: scale(0.9);
+			box-shadow: 0 0 0 0 rgba(214, 163, 25, 0);
+		}
 	}
 	@keyframes pulse-glow {
-		0% { transform: scale(1); opacity: 0.8; }
-		50% { transform: scale(1.1); opacity: 0.95; }
-		100% { transform: scale(1); opacity: 0.8; }
+		0% {
+			transform: scale(1);
+			opacity: 0.8;
+		}
+		50% {
+			transform: scale(1.1);
+			opacity: 0.95;
+		}
+		100% {
+			transform: scale(1);
+			opacity: 0.8;
+		}
 	}
 
 	/* Media Queries */
@@ -482,35 +346,68 @@
 
 		.expert-frame-container {
 			margin: 1rem auto 2rem auto;
-			max-width: 400px;
-			height: 340px;
+			max-width: 440px;
+			height: 380px;
 		}
 
 		.expert-card {
-			width: 280px;
-			height: 280px;
+			width: clamp(180px, 55vw, 320px);
+			height: clamp(180px, 55vw, 320px);
 			transform: rotateY(-6deg) rotateX(4deg) rotateZ(-1deg);
 		}
 	}
 
 	@media screen and (max-width: 768px) {
 		.hero-container {
-			padding-top: 9.5rem;
+			padding: 9.5rem 1rem 3rem 1rem;
 		}
-		.wrapper__text2 {
-			margin-top: 3.5rem;
-			padding: 1.5rem;
-			gap: 1.5rem;
+		.hero-grid {
+			padding: 2rem 1rem;
 		}
-		.tech-card {
-			width: 95px;
-			padding: 1rem 0.5rem;
-			gap: 8px;
-			font-size: 0.75rem;
+		.hero-left-col h1 {
+			font-size: clamp(1.5rem, 6vw, 2.2rem);
+			text-align: center;
 		}
-		.tech-card .logo {
-			height: 38px;
-			width: 38px;
+		.badge-premium {
+			font-size: 0.72rem;
+			padding: 8px 14px;
+			text-align: center;
+			justify-content: center;
+			max-width: 100%;
+			white-space: normal;
+			line-height: 1.4;
+			border-radius: 16px;
+		}
+		.mobile-only {
+			display: inline-block;
+		}
+		.expert-glow {
+			width: 220px;
+			height: 220px;
+		}
+	}
+
+	@media screen and (max-width: 320px) {
+		.badge-premium {
+			font-size: 0.65rem;
+			padding: 6px 10px;
+		}
+		.hero-left-col {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 0;
+			width: 100%;
+			padding: 0.5rem 0;
+		}
+		.expert-frame-container {
+			max-width: 100%;
+			height: 310px;
+			margin: 0.5rem auto 1.5rem auto;
+		}
+		.expert-card {
+			width: 250px;
+			height: 250px;
 		}
 	}
 </style>

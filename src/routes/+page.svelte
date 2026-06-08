@@ -73,12 +73,18 @@
 	<Header />
 	<Hero />
 	<MyServices />
+		<JSection />
 	<CTA />
+	
+	
 	<Propositions />
+	
+
 	<GSection />
 	<section id="sectionE">
 		<ESection />
 	</section>
+	
 	<Form />
 </main>
 
