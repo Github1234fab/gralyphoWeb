@@ -55,43 +55,56 @@
 
 <style>
 	.container {
-		height: 100%;
+		background: radial-gradient(circle at 50% 0%, #151e36 0%, var(--primary) 70%);
+		min-height: 100vh;
+		padding-top: 8rem;
+		padding-bottom: 4rem;
+		box-sizing: border-box;
 	}
 	.wrapper__text {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 80%;
-		margin: 0 auto;
+		width: 90%;
+		max-width: 800px;
+		margin: 3rem auto;
+		padding: 2.5rem;
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 24px;
+		backdrop-filter: blur(12px);
+		-webkit-backdrop-filter: blur(12px);
+		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+		box-sizing: border-box;
 	}
 	.title {
 		font-family: var(--Geologica);
-		font-size: var(--l);
-		color: var(--primary);
+		font-size: clamp(1.8rem, 4vw, 2.8rem);
+		color: #ffffff;
 		font-weight: 900;
 		margin-bottom: 10px;
 		letter-spacing: -1px;
 		text-align: center;
-		line-height: 35px;
-		margin-top: 50px;
+		line-height: 1.2;
+		margin-top: 20px;
 		padding: 20px;
 	}
 	.subtitle {
 		font-family: var(--Geologica);
-		font-size: 1.5rem;
-		color: var(--primary);
-		font-weight: 500;
+		font-size: clamp(1.2rem, 3vw, 1.8rem);
+		color: #ffffff;
+		font-weight: 700;
 		letter-spacing: -1px;
 		text-align: center;
-		line-height: 40px;
+		line-height: 1.4;
 		margin-top: 30px;
 		padding: 25px;
 	}
 	.subtitle__h3 {
 		font-family: var(--Geologica);
-		font-size: var(--m);
-		color: var(--primary);
+		font-size: clamp(1.05rem, 2vw, 1.35rem);
+		color: var(--green, #d6a319);
 		font-weight: 700;
 		letter-spacing: -1px;
 		text-align: center;
@@ -100,30 +113,58 @@
 
 	.paragraph {
 		font-family: var(--Poppins);
-		font-size: var(--m);
-		color: var(--primary);
+		font-size: 0.95rem;
+		color: rgba(255, 255, 255, 0.8);
 		font-weight: 300;
-		letter-spacing: -0.02em;
+		letter-spacing: -0.01em;
 		text-align: center;
 		align-self: center;
-		padding: 20px;
+		line-height: 1.6;
+		padding: 20px 0;
 	}
 
+	.wrapper__faqLink {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 20px;
+		margin-top: 50px;
+		color: #ffffff;
+	}
+
+	.wrapper__faqLink a {
+		color: var(--green, #d6a319);
+		font-family: kanit;
+		font-weight: 600;
+		text-decoration: underline;
+		font-size: 1.2rem;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 10px 30px;
+		border-radius: 5px;
+		margin-top: 0px;
+	}
 	.wrapper__img {
 		display: flex;
 		justify-content: center;
 	}
 	.img {
-		width: auto;
-		height: 400px;
+		height: auto;
+		width: 100%;
+		max-width: 500px;
+		border-radius: 20px;
 		padding: 20px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+		box-sizing: border-box;
 	}
 
 	@media screen and (max-width: 768px) {
 		.img {
-			width: auto;
-			height: 300px;
-			padding: 20px;
+			width: 100%;
+			max-width: 300px;
+			padding: 10px;
 		}
 	}
 </style>
