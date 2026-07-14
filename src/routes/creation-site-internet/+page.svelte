@@ -5,7 +5,7 @@
 	import Form from '../../Components/Form.svelte';
 	import Link from '../../Components/LinkSiteApplication.svelte';
 	import collaborationLocale from '../../Assets/collaboration-locale.png';
-	import webmaster from '../../Assets/dev_gralypho.png';
+	import webmaster from '../../Assets/Dev_gralypho.png';
 	import gralyphoHeroImg from '../../Assets/livraison_site.png';
 	import GSection from '../../sections/GSection.svelte';
 
