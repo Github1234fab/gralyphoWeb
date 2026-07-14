@@ -6,7 +6,7 @@
 	<div class="wrapper__text2">
 		<div class="method-split-container">
 			<div class="method-image-side">
-				<img class="method-img" src={collaborationLocale} alt="Collaboration locale et humaine avec l'agence" />
+				<img class="method-img" src={collaborationLocale} alt="Collaboration locale et humaine avec l'agence Gralypho" />
 			</div>
 			<div class="method-content-side">
 				<h3>Une approche <strong class="accent-text">humaine & transparente</strong> pour votre réussite</h3>
@@ -90,6 +90,12 @@
 	
 	.method-image-side {
 		width: 100%;
+		max-width: 440px;
+		aspect-ratio: 1.15;
+		overflow: hidden;
+		border-radius: 24px;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -97,12 +103,17 @@
 	
 	.method-img {
 		width: 100%;
-		max-width: 440px;
-		height: auto;
-		border-radius: 24px;
-		border: 1px solid rgba(255, 255, 255, 0.08);
-		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+		height: 100%;
+		object-fit: cover;
+		transform: scale(2.1);
+		transition: transform 0.4s ease;
 		display: block;
+		margin-top: -190px;
+		margin-left: 120px;
+	}
+
+	.method-image-side:hover .method-img {
+		transform: scale(1.6);
 	}
 	
 	.method-content-side {

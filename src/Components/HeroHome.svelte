@@ -1,5 +1,5 @@
 <script>
-	import AgencyExpert from '../Assets/agency_creative_expert.png';
+	import AgencyExpert from '../Assets/gralypho_image_hero.png';
 	import CTA from '../Components/ButtonCTA.svelte';
 </script>
 
@@ -21,7 +21,7 @@
 				conçu pour <span class="highlight-text-blue">trouver vos clients</span>
 			</h1>
 
-			<h2>Nous créons des sites vitrines rapides, des boutiques locales et configurons votre visibilité sur Google Maps. Conçu spécialement pour les artisans, commerçants et indépendants de l'Ouest Lyonnais. Pas d'abonnement obligatoire : vous restez 100% propriétaire de votre site.</h2>
+			<h2>Vous êtes artisants, commerçants, travaileur indépendant, en TPE ou PME et vous cherchez un partenaire web de proximité ? Gralypho est là pour vous accompagner sur toutes les étapes de votre projet dans l'Ouest Lyonnais, dans les Monts du Lyonnais, à Lyon et partout en France.</h2>
 
 			<div class="cta-wrapper">
 				<CTA />
@@ -231,7 +231,7 @@
 		box-shadow:
 			0 30px 60px rgba(0, 0, 0, 0.5),
 			0 0 50px rgba(214, 163, 25, 0.1);
-		transform: rotateY(-10deg) rotateX(8deg) rotateZ(-2deg);
+		transform: none;
 		transition:
 			transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
 			box-shadow 0.5s ease;
@@ -241,7 +241,7 @@
 	}
 
 	.expert-card:hover {
-		transform: rotateY(-5deg) rotateX(4deg) rotateZ(-1deg) translateZ(15px);
+		transform: translateY(-8px);
 		box-shadow:
 			0 45px 80px rgba(0, 0, 0, 0.6),
 			0 0 60px rgba(20, 129, 186, 0.2);

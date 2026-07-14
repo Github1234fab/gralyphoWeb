@@ -6,59 +6,56 @@
 	import Seo from '../Assets/seoLogo.png';
 	import Button from '../Components/ButtonCTA.svelte';
 	import MethodSection from './MethodSection.svelte';
+	import servicesSeo from '../Assets/seo.png';
+	import servicesDesign from '../Assets/design.png';
+	import servicesConversion from '../Assets/conversion.png';
 </script>
 
 <main class="services-section">
+	<!-- Halos lumineux néon en arrière-plan -->
+	<div class="glow-orb orb-blue"></div>
+
 	<div class="wrapper__paragraph">
 		<h2 class="title">Création de Sites Internet Professionnels & Solutions de Visibilité Locale</h2>
 		
 		<div class="services-grid">
-			<!-- Formule Express (Pack Artisan & Local) -->
-			<div class="service-box featured-box">
-				<div class="badge-service accent-badge">⚡ Pack Artisan & Commerce Local</div>
-				<h3 class="title-2">Votre Site Vitrine + Fiche Google Maps clé en main</h3>
-				<div class="price-tag">1399 € <span class="tax-info">TTC</span></div>
+			<div class="glow-orb orb-red"></div>
+			<!-- SEO / Visibilité -->
+			<div class="service-box">
+				<div class="image-container">
+					<img src={servicesSeo} alt="Être visible sur Google et référencement SEO" class="service-image" />
+				</div>
+				<h3 class="title-2">Être trouvé par vos futurs clients</h3>
 				<p class="subtitle">
-					L'offre idéale et transparente pour les artisans, commerçants et indépendants. Nous concevons votre site internet professionnel complet de 5 pages (Accueil, Présentation, Services, Galerie de réalisations, Formulaire de contact). Nous créons et configurons également votre fiche Google Business Profile (Google Maps) pour que les clients de votre secteur vous trouvent immédiatement sur leur téléphone. Livraison en 3 jours, sans aucun abonnement obligatoire.
+					Vous avez besoin que vos clients vous trouvent facilement sur Google lorsqu'ils cherchent vos services. Nous optimisons votre présence locale (Google Maps) et votre référencement naturel (SEO) pour vous placer devant vos concurrents.
 				</p>
 				<div class="cta-card">
 					<Button />
 				</div>
 			</div>
 
-			<!-- Site Custom -->
+			<!-- Design / Image de marque -->
 			<div class="service-box">
-				<div class="badge-service">💎 Création sur-mesure & Design unique</div>
-				<h3 class="title-2">Site Internet sur-mesure pour PME & Marques</h3>
-				<div class="price-tag"><span class="from-text">dès</span> 3999 € <span class="tax-info">TTC</span></div>
+				<div class="image-container">
+					<img src={servicesDesign} alt="Design sur-mesure et identité de marque" class="service-image" />
+				</div>
+				<h3 class="title-2">Inspirer confiance immédiatement</h3>
 				<p class="subtitle">
-					Vous souhaitez vous démarquer avec une identité visuelle forte et unique qui marque les esprits ? Nous concevons votre site web entièrement sur-mesure, adapté à votre charte graphique. Nous développons un code ultra-optimisé pour assurer un chargement instantané sur tous les téléphones et ordinateurs, garantissant une expérience de visite fluide et un meilleur positionnement sur Google.
+					Votre site est votre vitrine digitale. Vous avez besoin d'un design professionnel et moderne qui rassure vos visiteurs, reflète parfaitement la qualité de votre travail et les convainc de vous contacter.
 				</p>
 				<div class="cta-card">
 					<Button />
 				</div>
 			</div>
 
-			<!-- Landing Page & E-Commerce -->
+			<!-- Conversion / Ventes -->
 			<div class="service-box">
-				<div class="badge-service">🛒 Vente en Ligne & E-Commerce</div>
-				<h3 class="title-2">Boutiques en Ligne & Pages de Vente</h3>
-				<div class="price-tag"><span class="from-text">dès</span> 1999 € <span class="tax-info">TTC</span></div>
-				<p class="subtitle">
-					Lancez votre activité de commerce ou de vente à emporter locale. Nous créons des tunnels de commande ultra-fluides et sécurisés pour maximiser vos ventes en ligne. Vous conservez une autonomie complète pour gérer vos produits, vos prix et vos stocks en quelques clics grâce à des outils d'administration simples à prendre en main.
-				</p>
-				<div class="cta-card">
-					<Button />
+				<div class="image-container">
+					<img src={servicesConversion} alt="Optimisation des conversions et ventes" class="service-image" />
 				</div>
-			</div>
-
-			<!-- Applications Web & Mobiles -->
-			<div class="service-box">
-				<div class="badge-service">📱 Applications Métiers & Portails</div>
-				<h3 class="title-2">Applications Web & Outils sur-mesure</h3>
-				<div class="price-tag"><span class="from-text">dès</span> 4999 € <span class="tax-info">TTC</span></div>
+				<h3 class="title-2">Transformer vos visiteurs en clients</h3>
 				<p class="subtitle">
-					Besoin d'un outil de réservation en ligne pour vos clients, d'un espace membre, ou d'une application interne pour simplifier votre facturation et votre gestion quotidienne ? Nous développons des applications web sur-mesure, légères et intuitives, accessibles depuis n'importe quel navigateur mobile ou d'ordinateur pour automatiser vos tâches.
+					Avoir des visiteurs ne suffit pas. Vous avez besoin d'un site pensé pour l'action : parcours fluides, boutons d'appel stratégiques et formulaires simples pour multiplier vos contacts, réservations et ventes.
 				</p>
 				<div class="cta-card">
 					<Button />
@@ -67,20 +64,6 @@
 		</div>
 
 		<MethodSection />
-
-		<div class="services-grid">
-			<!-- SEO Expertise -->
-			<div class="service-box full-width-box">
-				<div class="badge-service SEO-badge">📈 Référencement & Domination Google</div>
-				<h3 class="title-2">Soyez visible là où vos clients cherchent vos services</h3>
-				<p class="subtitle">
-					Le plus beau des sites ne sert à rien s'il n'apparaît pas sur Google quand on cherche votre spécialité. Nous réalisons un audit de votre marché local, ciblons les vraies requêtes que tapent vos clients (ex: "électricien Tassin", "ostéopathe Craponne") et optimisons le contenu et les liens de votre site pour vous positionner durablement dans les premiers résultats et multiplier les appels de prospects.
-				</p>
-				<div class="cta-card">
-					<Button />
-				</div>
-			</div>
-		</div>
 	</div>
 
 	<div class="container">
@@ -133,6 +116,33 @@
 		overflow: hidden;
 	}
 
+	/* Halos lumineux néon en arrière-plan */
+	.glow-orb {
+		position: absolute;
+		border-radius: 50%;
+		filter: blur(120px);
+		opacity: 0.12;
+		z-index: 1;
+		pointer-events: none;
+	}
+	.orb-red {
+		width: 800px;
+		height: 450px;
+		background: #ff3366; /* Rouge néon / Cerise moderne */
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		opacity: 0.15; /* Réduit un peu car le rouge ressort très fort */
+	}
+	.orb-blue {
+		width: 550px;
+		height: 550px;
+		background: var(--cta, #1481ba);
+		bottom: 20%;
+		right: -200px;
+	}
+
 	.wrapper__paragraph {
 		display: flex;
 		flex-direction: column;
@@ -142,10 +152,22 @@
 		width: 100%;
 		max-width: 1200px;
 		z-index: 5;
+		position: relative;
 	}
 
 	.title {
 		font-size: clamp(1.8rem, 3vw, 2.5rem);
+		font-weight: 900;
+		color: #ffffff;
+		font-family: var(--Geologica), sans-serif;
+		text-align: center;
+		margin: 0;
+		letter-spacing: -0.02em;
+		width: 100%;
+		max-width: 800px;
+	}
+	.title-2 {
+		font-size: clamp(1.5rem, 1vw, 2rem);
 		font-weight: 900;
 		color: #ffffff;
 		font-family: var(--Geologica), sans-serif;
@@ -173,6 +195,30 @@
 		grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
 		gap: 2rem;
 		width: 100%;
+		position: relative;
+	}
+
+	.image-container {
+		width: 100%;
+		height: 200px;
+		overflow: hidden;
+		border-radius: 12px;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		background: rgba(255, 255, 255, 0.02);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 1.25rem;
+	}
+
+	.service-image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.service-box:hover .service-image {
+		transform: scale(1.6);
 	}
 
 	.service-box {
@@ -186,6 +232,7 @@
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 		position: relative;
 		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+		z-index: 2;
 	}
 	.service-box:hover {
 		background: rgba(255, 255, 255, 0.04);
@@ -194,78 +241,6 @@
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 	}
 
-	/* Box custom mise en avant */
-	.featured-box {
-		border: 1px solid rgba(214, 163, 25, 0.25);
-		background: radial-gradient(circle at 50% 0%, rgba(214, 163, 25, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
-	}
-	.featured-box:hover {
-		border-color: var(--green, #D6A319);
-		box-shadow: 0 20px 40px rgba(214, 163, 25, 0.15);
-	}
-
-	.full-width-box {
-		grid-column: 1 / -1;
-		background: radial-gradient(circle at 10% 0%, rgba(20, 129, 186, 0.08) 0%, rgba(255, 255, 255, 0.01) 100%);
-		border: 1px solid rgba(20, 129, 186, 0.2);
-	}
-	.full-width-box:hover {
-		border-color: var(--cta, #1481ba);
-		box-shadow: 0 20px 40px rgba(20, 129, 186, 0.15);
-	}
-
-	.badge-service {
-		align-self: flex-start;
-		background: rgba(255, 255, 255, 0.05);
-		border: 1px solid rgba(255, 255, 255, 0.1);
-		color: rgba(255, 255, 255, 0.7);
-		font-family: var(--Geologica), sans-serif;
-		font-size: 0.7rem;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		padding: 6px 14px;
-		border-radius: 50px;
-	}
-	.accent-badge {
-		background: rgba(214, 163, 25, 0.1);
-		border-color: rgba(214, 163, 25, 0.3);
-		color: var(--green, #D6A319);
-	}
-	.SEO-badge {
-		background: rgba(20, 129, 186, 0.1);
-		border-color: rgba(20, 129, 186, 0.3);
-		color: var(--CTA, #4ba4ee);
-	}
-
-	.title-2 {
-		font-size: 1.35rem;
-		font-weight: 700;
-		color: #ffffff;
-		font-family: var(--Geologica), sans-serif;
-		margin: 0;
-	}
-
-	.price-tag {
-		font-size: 1.8rem;
-		font-weight: 900;
-		color: #ffffff;
-		font-family: var(--Geologica), sans-serif;
-	}
-	.from-text {
-		font-size: 0.95rem;
-		font-weight: 500;
-		color: rgba(255, 255, 255, 0.5);
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-		margin-right: 5px;
-	}
-	.tax-info {
-		font-size: 0.8rem;
-		font-weight: 600;
-		color: rgba(255, 255, 255, 0.4);
-		margin-left: 5px;
-	}
 
 	.subtitle {
 		font-size: 0.95rem;
