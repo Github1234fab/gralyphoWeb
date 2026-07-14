@@ -6,9 +6,9 @@
 	import Seo from '../Assets/seoLogo.png';
 	import Button from '../Components/ButtonCTA.svelte';
 	import MethodSection from './MethodSection.svelte';
-	import servicesSeo from '../Assets/seo.png';
-	import servicesDesign from '../Assets/design.png';
-	import servicesConversion from '../Assets/conversion.png';
+	import servicesSeo from '../Assets/visibilite_2.jpg';
+	import servicesDesign from '../Assets/confiance.jpg';
+	import servicesConversion from '../Assets/croissance_2.jpg';
 </script>
 
 <main class="services-section">
@@ -23,7 +23,7 @@
 			<!-- SEO / Visibilité -->
 			<div class="service-box">
 				<div class="image-container">
-					<img src={servicesSeo} alt="Être visible sur Google et référencement SEO" class="service-image" />
+					<img src={servicesSeo} alt="Être visible sur Google et référencement SEO" class="service-image image-margin" />
 				</div>
 				<h3 class="title-2">Être trouvé par vos futurs clients</h3>
 				<p class="subtitle">
@@ -37,7 +37,7 @@
 			<!-- Design / Image de marque -->
 			<div class="service-box">
 				<div class="image-container">
-					<img src={servicesDesign} alt="Design sur-mesure et identité de marque" class="service-image" />
+					<img src={servicesDesign} alt="Design sur-mesure et identité de marque" class="service-image  image-margin" />
 				</div>
 				<h3 class="title-2">Inspirer confiance immédiatement</h3>
 				<p class="subtitle">
@@ -200,7 +200,7 @@
 
 	.image-container {
 		width: 100%;
-		height: 200px;
+		height: 300px;
 		overflow: hidden;
 		border-radius: 12px;
 		border: 1px solid rgba(255, 255, 255, 0.08);
@@ -215,10 +215,14 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		transition: 0.5s;
+	}
+	.image-margin{
+	    object-position: center 50%; 
 	}
 
 	.service-box:hover .service-image {
-		transform: scale(1.6);
+		transform: scale(1.2);
 	}
 
 	.service-box {

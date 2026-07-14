@@ -8,6 +8,7 @@
 	import webmaster from '../../Assets/Dev_gralypho.png';
 	import gralyphoHeroImg from '../../Assets/livraison_site.png';
 	import GSection from '../../sections/GSection.svelte';
+	import Button from '../../Components/ButtonCTA.svelte';
 
 	let solutions = [
 		{
@@ -54,11 +55,11 @@
 	<div class="wrapper__hero">
 		<div class="hero-split">
 			<div class="hero-content">
-				<h1 class="title">Création de Site Internet <span class="highlight-text">à l'Ouest de Lyon</span></h1>
-				<h2 class="subtitle">Votre site web à votre image, efficace et à un tarif attractif conçu pour les artisans, les commerçants, les TPE & PME.</h2>
+				<h1 class="title">Création de Site Internet <span class="highlight-text">dans l'Ouest Lyonnais</span></h1>
+				<h2 class="subtitle">Le site web créatif, efficace et au tarif attractif conçu pour les artisans, commerçants, TPE & PME de Lyon Ouest et des Monts du Lyonnais.</h2>
 				
 				<p class="intro-pitch">
-					Vous cherchez à développer votre activité locale ou à capter de nouveaux clients ? Gralypho conçoit votre site internet sur-mesure avec une stratégie de visibilité et de référencement local solide. Grâce à notre expertise technique et l'IA, nous pouvons livrer votre site web en quelques jours seulement, au budget juste.
+					Vous cherchez à développer votre activité locale ou à capter de nouveaux clients ? Gralypho conçoit votre site internet sur-mesure avec une stratégie de visibilité et référencement local solide. Grâce à notre expertise technique et l'IA, nous livrons votre outil rapidement, au budget juste et sans compromis sur le design.
 				</p>
 			</div>
 			<div class="hero-visual">
@@ -75,7 +76,7 @@
 			</div>
 			<div class="family-card">
 				<h3>💎 Un design qui claque</h3>
-				<p>Une identité graphique sur-mesure pour vous démarquer et inspirer confiance dès la première seconde.</p>
+				<p>Une identity graphique sur-mesure pour vous démarquer et inspirer confiance dès la première seconde.</p>
 			</div>
 			<div class="family-card">
 				<h3>📈 Un site qu'on trouve</h3>
@@ -112,6 +113,9 @@
 							<li><span class="bullet">✓</span> {pt}</li>
 						{/each}
 					</ul>
+					<div class="cta-card">
+						<Button />
+					</div>
 				</div>
 			{/each}
 		</div>
@@ -126,7 +130,7 @@
 				</div>
 			</div>
 			<div class="method-steps">
-				<h2>Votre projet de site web dans <span class="highlight-text">les Monts du Lyonnais</span></h2>
+				<h2>Votre projet de site web <span class="highlight-text">pour les pros par des pros</span></h2>
 				<p class="method-intro">Nous offrons un accompagnement de proximité. Que vous soyez artisan à Craponne, commerçant à Tassin-la-Demi-Lune ou gérant de PME dans l'Ouest Lyonnais, vous collaborez en direct avec un développeur local expert en visibilité et référencement :</p>
 				
 				<div class="steps-container">
@@ -434,6 +438,14 @@
 	.bullet {
 		color: var(--green, #D6A319);
 		font-weight: bold;
+	}
+
+	.cta-card {
+		margin-top: auto;
+		padding-top: 1.5rem;
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 
 	/* Method Section Style */
