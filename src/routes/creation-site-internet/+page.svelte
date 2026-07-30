@@ -56,7 +56,7 @@
 		<div class="hero-split">
 			<div class="hero-content">
 				<h1 class="title">Création de Site Internet <span class="highlight-text">dans l'Ouest Lyonnais</span></h1>
-				<h2 class="subtitle">Le site web créatif, efficace et au tarif attractif conçu pour les artisans, commerçants, TPE & PME de Lyon Ouest et des Monts du Lyonnais.</h2>
+				<h2 class="subtitle">Obenez votre site web en moins d'une semaine, livré avec votre pack starter pour tous les artisans, commerçants, TPE & PME.</h2>
 				
 				<p class="intro-pitch">
 					Vous cherchez à développer votre activité locale ou à capter de nouveaux clients ? Gralypho conçoit votre site internet sur-mesure avec une stratégie de visibilité et référencement local solide. Grâce à notre expertise technique et l'IA, nous livrons votre outil rapidement, au budget juste et sans compromis sur le design.

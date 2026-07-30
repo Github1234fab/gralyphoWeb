@@ -1,170 +1,49 @@
+<!-- src/routes/agence-web-region-Lyonnaise/+page.svelte -->
 <script>
-	import FaqLink from '../../Components/FaqLink.svelte';
-	import Header from '../../sections/Header.svelte';
-	import Links from '../../Components/LinkSiteApplication.svelte';
+	import LandingSeo from '../../Components/LandingSeo.svelte';
+
+	const title = "Agence Web de la Région Lyonnaise";
+	const location = "Région Lyonnaise";
+	const ogUrl = "https://gralypho.com/agence-web-region-Lyonnaise";
+	const metaDescription = "Gralypho est votre agence web de proximité en région Lyonnaise. Création de site internet vitrine et e-commerce, applications web et référencement SEO.";
+
+	const intro = "Gralypho est une agence web dynamique et engagée au service des entreprises, commerces et créateurs de la région Lyonnaise. Nous concevons des sites vitrines, boutiques e-commerce et applications sur-mesure combinant haute performance technique et design captivant.";
+
+	const services = [
+		{
+			icon: "💻",
+			title: "Création de Sites Internet",
+			desc: "Sites vitrines interactifs sous Svelte pour une vitesse de chargement imbattable, ou CMS clés en main (Wix, WordPress, Shopify) adaptés à votre rythme de gestion.",
+			link: "/creation-site-internet"
+		},
+		{
+			icon: "📈",
+			title: "Stratégie SEO Régionale",
+			desc: "Optimisez votre référencement naturel pour attirer des clients qualifiés dans toutes les grandes villes de la région. Balisage, vitesse mobile et sémantique inclus.",
+			link: "/referencement-seo-sea"
+		},
+		{
+			icon: "⚙️",
+			title: "Développement d'Applications",
+			desc: "Outils métiers sur-mesure, plateformes de réservation ou bases de données complexes. Nous développons des applications Web légères et sécurisées.",
+			link: "/creation-application"
+		}
+	];
+
+	const cities = [
+		"Lyon", "Villefranche-sur-Saône", "Saint-Étienne", "Givors", "Bourg-en-Bresse", "Valence", "Roanne", "Vienne"
+	];
+
+	const picture = "https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg";
 </script>
 
-<svelte:head>
-	<title>Gralypho - Agence Web de la région Lyonnaise | Création site sur mesure & SEO</title>
-	<meta name="description" content="Gralypho est une agence web dynamique basée en région Lyonnaise, spécialisée dans la conception d’outils digitaux sur mesure, sites web vitrines, e-commerce, applications, et référencement naturel SEO." />
-	<meta name="keywords" content="Agence web Lyonnaise, création site internet, applications sur mesure, SEO régional, référencement naturel, digital Lyon, développement web" />
-	<meta name="author" content="Gralypho" />
-	<meta name="robots" content="index, follow" />
-	<meta property="og:title" content="Gralypho - Agence Web de la région Lyonnaise" />
-	<meta property="og:description" content="Agence web locale et régionale offrant des sites sur mesure, applications performantes et expertise SEO pour les entreprises de la région Lyonnaise." />
-	<meta property="og:image" content="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg" />
-	<meta property="og:type" content="https://gralypho.com/" />
-	<meta property="og:url" content="https://gralypho.com/creation-site-internet" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Gralypho - Agence Web de la région Lyonnaise" />
-	<meta name="twitter:description" content="Création de sites web personnalisés et solutions digitales sur mesure avec expertise SEO locale dans la région Lyonnaise." />
-	<meta name="twitter:image" content="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg" />
-	<link rel="canonical" href="https://gralypho.com/creation-site-internet" />
-</svelte:head>
-
-<Header />
-
-<div class="container">
-	<h1 class="title">Gralypho, agence web <br /> de la région Lyonnaise.</h1>
-	<div class="wrapper__img">
-		<img class="img" src="https://fr.maps-lyon.com/img/1200/lyon-carte-de-la-r%C3%A9gion.jpg" alt="carte de la région Lyonnaise" />
-	</div>
-	<div class="wrapper__text">
-		<h2 class="subtitle">Annecy, Genève, Lyon, Saint-Etienne, Bourg-en-Bresse, Valence ...</h2>
-		<h3 class="subtitle__h3">Les grandes villes de la région Lyonnaise, à moins de 100km de l'ouest Lyonnais.</h3>
-		<p class="paragraph">
-			La région Lyonnaise est dense et dynamique. Les villes de la région sont proches les unes des autres et les échanges sont nombreux.
-			<br /> Les entreprises de la région Lyonnaise ont des besoins digitaux variés: des sites web Vitrine, des sites internet e-commerce, des sites web corporate, des sites institutionnels, des applications sur mesure, tous les besoins sont exprimés.
-			<br /> En tant qu'agence Web, nous visons l'excellence et la satisfaction de nos clients. Nous sommes à l'écoute de de chaque besoin et nous nous adaptons à chaque demande. Notre coeur de métier est la création d'outils digitaux sur mesure.
-		</p>
-		<h2 class="subtitle">La force du digital, le travail en visio et l'écologie préservée !</h2>
-		<h3 class="subtitle__h3">Nous nous dépaçons seulement quand c'est nécessaire.</h3>
-		<p class="paragraph">
-			L'avantage de notre métier de conception d'outil digitaux est que nous pouvons travailler à distance. Nous pouvons donc travailler avec des clients de toute la région Lyonnaise sans nous déplacer.
-			<br /> Notre premier rendez-vous est gratuit. C'est l'occasion d'effectuer un audi général avec notre client afin de comprendre ses besoins et ses attentes. Ce rendez-vous est nécessairement en présentiel pour un premier contact plus humain.
-			<br /> Ensuite, les différentes étapes de la conception de l'outil digital se font à distance. Nous utilisons des outils de visioconférence pour échanger avec nos clients et leur présenter les avancées du projet. À la livraison, nous nous rendons une nouvelle fois sur place. <br />
-			Ainsi, nous limitons nos déplacements et nous préservons l'environnement.
-		</p>
-	</div>
-	<Links />
-	<div class="wrapper__faqLink">
-		<FaqLink />
-		<a href="/FAQ">FAQ</a>
-	</div>
-</div>
-
-<style>
-	.container {
-		background: radial-gradient(circle at 50% 0%, #151e36 0%, var(--primary) 70%);
-		min-height: 100vh;
-		padding-top: 8rem;
-		padding-bottom: 4rem;
-		box-sizing: border-box;
-	}
-	.wrapper__text {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 90%;
-		max-width: 800px;
-		margin: 3rem auto;
-		padding: 2.5rem;
-		background: rgba(255, 255, 255, 0.02);
-		border: 1px solid rgba(255, 255, 255, 0.05);
-		border-radius: 24px;
-		backdrop-filter: blur(12px);
-		-webkit-backdrop-filter: blur(12px);
-		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
-		box-sizing: border-box;
-	}
-	.title {
-		font-family: var(--Geologica);
-		font-size: clamp(1.8rem, 4vw, 2.8rem);
-		color: #ffffff;
-		font-weight: 900;
-		margin-bottom: 10px;
-		letter-spacing: -1px;
-		text-align: center;
-		line-height: 1.2;
-		margin-top: 20px;
-		padding: 20px;
-	}
-	.subtitle {
-		font-family: var(--Geologica);
-		font-size: clamp(1.2rem, 3vw, 1.8rem);
-		color: #ffffff;
-		font-weight: 700;
-		letter-spacing: -1px;
-		text-align: center;
-		line-height: 1.4;
-		margin-top: 30px;
-		padding: 25px;
-	}
-	.subtitle__h3 {
-		font-family: var(--Geologica);
-		font-size: clamp(1.05rem, 2vw, 1.35rem);
-		color: var(--green, #d6a319);
-		font-weight: 700;
-		letter-spacing: -1px;
-		text-align: center;
-		margin-top: 30px;
-	}
-
-	.paragraph {
-		font-family: var(--Poppins);
-		font-size: 0.95rem;
-		color: rgba(255, 255, 255, 0.8);
-		font-weight: 300;
-		letter-spacing: -0.01em;
-		text-align: center;
-		align-self: center;
-		line-height: 1.6;
-		padding: 20px 0;
-	}
-
-	.wrapper__faqLink {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		gap: 20px;
-		margin-top: 50px;
-		color: #ffffff;
-	}
-
-	.wrapper__faqLink a {
-		color: var(--green, #d6a319);
-		font-family: kanit;
-		font-weight: 600;
-		text-decoration: underline;
-		font-size: 1.2rem;
-		border: 1px solid rgba(255, 255, 255, 0.1);
-		padding: 10px 30px;
-		border-radius: 5px;
-		margin-top: 0px;
-	}
-	.wrapper__img {
-		display: flex;
-		justify-content: center;
-	}
-	.img {
-		height: auto;
-		width: 100%;
-		max-width: 500px;
-		border-radius: 20px;
-		padding: 20px;
-		border: 1px solid rgba(255, 255, 255, 0.1);
-		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
-		box-sizing: border-box;
-	}
-
-	@media screen and (max-width: 768px) {
-		.img {
-			width: 100%;
-			max-width: 300px;
-			padding: 10px;
-		}
-	}
-</style>
+<LandingSeo
+	{title}
+	{location}
+	{picture}
+	{intro}
+	{services}
+	{cities}
+	{ogUrl}
+	{metaDescription}
+/>

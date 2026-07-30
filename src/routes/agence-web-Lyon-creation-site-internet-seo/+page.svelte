@@ -1,157 +1,49 @@
+<!-- src/routes/agence-web-Lyon-creation-site-internet-seo/+page.svelte -->
 <script>
-	import FaqLink from '../../Components/FaqLink.svelte';
-	import Header from '../../sections/Header.svelte';
-	import Links from '../../Components/LinkSiteApplication.svelte';
-	import Button from '../../Components/Cta-component.svelte';
+	import LandingSeo from '../../Components/LandingSeo.svelte';
+
+	const title = "Agence Web de Lyon Ouest & Métropole";
+	const location = "Lyon Ouest";
+	const ogUrl = "https://gralypho.com/agence-web-Lyon-creation-site-internet-seo";
+	const metaDescription = "Gralypho est une agence web experte à Lyon Ouest (15 km de Lyon). Spécialiste de la création de sites internet, applications web et stratégies SEO.";
+
+	const intro = "Gralypho est une agence web d'excellence située à 15 km de Lyon. Composée de développeurs et d'experts passionnés, nous concevons des sites web et applications sur-mesure tout en élaborant des stratégies de visibilité SEO puissantes pour booster votre activité.";
+
+	const services = [
+		{
+			icon: "💻",
+			title: "Création de Site Internet",
+			desc: "Votre futur site est un outil commercial puissant. Nous le concevons pour capter vos leads, convertir vos prospects en clients et optimiser votre image de marque (Svelte, WordPress, Shopify).",
+			link: "/creation-site-internet"
+		},
+		{
+			icon: "📱",
+			title: "Création d'Applications Web & PWA",
+			desc: "Nous concevons des applications web légères, rapides et évolutives (React Native, Svelte, PWA) adaptées à vos besoins métiers spécifiques avec des bases Firebase ou des CMS headless Strapi.",
+			link: "/creation-application"
+		},
+		{
+			icon: "🚀",
+			title: "Référencement Naturel (SEO)",
+			desc: "Le nerf de la guerre digitale ! Nous optimisons chaque aspect technique et sémantique de vos pages pour vous propulser dans le top des résultats de recherche Google face à vos concurrents.",
+			link: "/referencement-seo-sea"
+		}
+	];
+
+	const cities = [
+		"Lyon", "Tassin-la-Demi-Lune", "Craponne", "Limonest", "Écully", "Dardilly", "Francheville", "Saint-Genis-les-Ollières"
+	];
+
+	const picture = "https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg";
 </script>
 
-
-<svelte:head>
-    <title>Gralypho - Agence Web à 15 km de Lyon | Création site & SEO</title>
-    <meta name="description" content="Gralypho, agence web experte à Lyon Ouest, propose création de sites internet, applications Web et référencement naturel SEO pour booster votre business." />
-    <meta name="keywords" content="Agence web Lyon, création site internet, application web, référencement naturel SEO, SEO Lyon, développement web, agence digitale Lyon" />
-    <meta name="author" content="Gralypho" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Gralypho - Agence Web à Lyon Ouest" />
-    <meta property="og:description" content="Création de sites internet, développement d’applications Web et référencement SEO pour faire décoller votre visibilité en ligne." />
-    <meta property="og:image" content="https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://gralypho.com/agence-web-Lyon-creation-site-internet-seo" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Gralypho - Agence Web à Lyon Ouest" />
-    <meta name="twitter:description" content="Agence experte en création de sites web, applications et SEO pour booster votre activité digitale." />
-    <meta name="twitter:image" content="https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg" />
-    <link rel="canonical" href="https://gralypho.com/agence-web-Lyon-creation-site-internet-seo" />
-</svelte:head>
-
-
-
-
-<Header />
-<div class="container">
-	<h1 class="title">Agence Web de Lyon Ouest</h1>
-	<div class="wrapper__img">
-		<img class="img" src="https://www.aflyon.org/wp-content/uploads/2023/06/bandeau-lyon-vue-fourviere.jpg" alt="Lyon" />
-	</div>
-	<div class="wrapper__text">
-		<h2 class="subtitle">Gralypho, l'agence Web à 15 km de Lyon !</h2>
-		<h3 class="subtitle__h3">Une agence Web experte qui sait se mobiliser pour ses clients</h3>
-		<p class="paragraph">
-			Gralypho propose à ses clients 3 services:
-			<span>
-				<br /> 1 - Création de site internet
-			</span>
-			<span>
-				<br /> 2 - Création d'applications Web
-			</span>
-			<span>
-				<br /> 3 - Référencement naturel (SEO)
-			</span>
-			<br /><br />Nous souhaitons au-delà de nos compétences de développeurs, vous apporter une expertise et un accompagnement dans la création de votre site internet, de votre application Web ou dans votre stratégie de référencement naturel. Parce qu'un site Web et une application sont des outils fabuleux,<br /> il faut savoir les utiliser pour les faire fructifier.
-		</p>
-		<h3 class="subtitle__h3">Notre service de création de site Internet</h3>
-		<p class="paragraph">Nous concevons vos sites internet de demain. Nous sommes développeurs Web formés au code informatique. C'est notre coeur de métier, mais surtout nous savons comment optimiser votre outil. <br>
-		Oui, votre futur site web est outil digital puissant qui vous permettra de capter vos leads, de convertir vos prospects en client et de faire tout ce que vous voulez pour réussir dans votre business. 
-		<br>Et nous nous sommes là pour ça, pour vous aider à optimiser un outil digital 100% gagnant.</p>
-		<Button text="Découvrir" link="/creation-site-internet" />
-
-
-		<h3 class="subtitle__h3">Notre service de création d'applicaion</h3>
-		<p class="paragraph">Nous concevons des applications natives ou PWA, selon vos besoins stratégiques. Nous travaillons en SQL ou noSQL, avec Firebase ou Strapi. Nous développons en react Native ou en PWA avec Svelte. Nous sommes là, nous savons faire et avons hâte de construire votre futur application !!</p>
-		<Button text="Découvrir" link="/creation-application" />
-
-		<h3 class="subtitle__h3">Le SEO, le nerf de la guerre féroce du WEB !!</h3>
-		<p class="paragraph">Nous sommes experts SEO, donc en référencement naturel. Lisez nos articles de <a href="/blog">blog</a> et découvrez toute la puissance du SEO et ce qu'elle vous apportera. <br>
-		Vous visez le top 3, mais c'est la devise de tous. ALors préparer vous car ensemble, on va se relever les bretelles et vous faire décoller pour le Top des moteurs de recherche !!</p>
-		<Button text="Découvrir" link="/referencement-seo-sea" />
-
-	</div>
-	<Links />
-	<div class="wrapper__faqLink">
-		<FaqLink />
-		<a href="/FAQ">FAQ</a>
-	</div>
-</div>
-
-<style>
-	.container {
-		height: 100%;
-	}
-	.wrapper__text {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 80%;
-		margin: 0 auto;
-	}
-	.title {
-		font-family: var(--Geologica);
-		font-size: var(--l);
-		color: var(--primary);
-		font-weight: 900;
-		margin-bottom: 10px;
-		letter-spacing: -1px;
-		text-align: center;
-		line-height: 35px;
-		margin-top: 50px;
-	}
-	.subtitle {
-		font-family: var(--Geologica);
-		font-size: 2rem;
-		color: var(--primary);
-		font-weight: 700;
-		letter-spacing: -1px;
-		text-align: center;
-		line-height: 40px;
-		margin-top: 20px;
-		padding: 25px;
-	}
-	.subtitle__h3 {
-		font-family: var(--Geologica);
-		font-size: var(--m);
-		color: var(--primary);
-		font-weight: 500;
-		letter-spacing: -1px;
-		text-align: center;
-		margin-top: 30px;
-		font-size: 1.5rem;
-	}
-
-	.paragraph {
-		font-family: var(--Poppins);
-		font-size: var(--m);
-		color: var(--primary);
-		font-weight: 300;
-		letter-spacing: -0.02em;
-		text-align: center;
-		align-self: center;
-		padding: 20px;
-	}
-	.paragraph span {
-		font-weight: 500;
-	}
-
-	.wrapper__img {
-		margin-top: 50px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.img {
-		width: 60%;
-		margin: 0 auto;
-		border-radius: 1rem;
-	}
-
-	@media screen and (max-width: 768px) {
-		.img {
-			height: 200px;
-			margin-top: 20px;
-		}
-		.wrapper__text {
-			width: 90%;
-			height: 100%;
-		}
-	}
-</style>
+<LandingSeo
+	{title}
+	{location}
+	{picture}
+	{intro}
+	{services}
+	{cities}
+	{ogUrl}
+	{metaDescription}
+/>
