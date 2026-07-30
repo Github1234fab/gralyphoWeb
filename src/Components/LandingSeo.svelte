@@ -15,6 +15,7 @@
 	export let cities = [];
 	export let ogUrl = '';
 	export let metaDescription = '';
+	export let profilePhoto = '';
 </script>
 
 <svelte:head>
@@ -91,6 +92,35 @@
 			</div>
 		</section>
 	{/if}
+
+	<!-- Personal trust profile section -->
+	<section class="trust-profile-section">
+		<div class="profile-card-glass">
+			<div class="profile-layout">
+				<div class="profile-avatar-box">
+					{#if profilePhoto}
+						<img src={profilePhoto} alt="Fabien Marceau" class="profile-photo" />
+					{:else}
+						<div class="avatar-initials-fallback">FM</div>
+					{/if}
+					<span class="online-indicator-dot"></span>
+				</div>
+				<div class="profile-info-box">
+					<span class="profile-badge">Votre interlocuteur unique</span>
+					<h3>Fabien Marceau</h3>
+					<p class="profile-role">Développeur Expert & Fondateur de Gralypho</p>
+					<p class="profile-bio">
+						"Basé localement dans la région lyonnaise, je conçois et optimise personnellement votre outil digital. Mon but est simple : faire en sorte que votre site internet devienne un véritable levier de croissance, bien référencé et conçu pour convertir vos visiteurs en clients."
+					</p>
+					<div class="profile-actions">
+						<a href="#section-form" class="primary-btn-call">
+							📞 Réserver mon appel diagnostic de 15 min (Gratuit)
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- Integrated Contact Form Section -->
 	<div class="integrated-form-section">
@@ -436,6 +466,163 @@
 
 		.service-glass-card {
 			padding: 2rem 1.5rem;
+		}
+	}
+
+	/* Trust Profile Section */
+	.trust-profile-section {
+		max-width: 900px;
+		margin: 4rem auto;
+		padding: 0 2rem;
+		box-sizing: border-box;
+	}
+
+	.profile-card-glass {
+		background: rgba(255, 255, 255, 0.02);
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		border-radius: 28px;
+		padding: 3rem;
+		backdrop-filter: blur(16px);
+		box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+	}
+
+	.profile-layout {
+		display: grid;
+		grid-template-columns: 150px 1fr;
+		gap: 3rem;
+		align-items: center;
+	}
+
+	.profile-avatar-box {
+		position: relative;
+		width: 150px;
+		height: 150px;
+	}
+
+	.profile-photo {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 50%;
+		border: 3px solid rgba(20, 129, 186, 0.3);
+		box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+	}
+
+	.avatar-initials-fallback {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		background: linear-gradient(135deg, var(--cta) 0%, var(--green, #d6a319) 100%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: var(--Geologica);
+		font-size: 2.8rem;
+		font-weight: 900;
+		color: #ffffff;
+		border: 3px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0 10px 25px rgba(20, 129, 186, 0.2);
+	}
+
+	.online-indicator-dot {
+		position: absolute;
+		bottom: 8px;
+		right: 8px;
+		width: 16px;
+		height: 16px;
+		background-color: #22c55e;
+		border: 3px solid #0d121f;
+		border-radius: 50%;
+		box-shadow: 0 0 12px #22c55e;
+		animation: pulse-green 2.5s infinite;
+	}
+
+	@keyframes pulse-green {
+		0% {
+			box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+		}
+		70% {
+			box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
+		}
+		100% {
+			box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+		}
+	}
+
+	.profile-badge {
+		font-family: var(--Geologica);
+		font-size: 0.75rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: var(--green, #d6a319);
+		letter-spacing: 0.05em;
+		display: inline-block;
+		margin-bottom: 0.5rem;
+	}
+
+	.profile-info-box h3 {
+		font-family: var(--Geologica);
+		font-size: 1.8rem;
+		font-weight: 800;
+		margin: 0 0 0.25rem 0;
+		color: #ffffff;
+		letter-spacing: -0.5px;
+	}
+
+	.profile-role {
+		font-family: var(--Poppins);
+		font-size: 0.95rem;
+		color: rgba(255, 255, 255, 0.65);
+		margin: 0 0 1.25rem 0;
+		font-weight: 400;
+	}
+
+	.profile-bio {
+		font-family: var(--Poppins);
+		font-size: 0.95rem;
+		color: rgba(255, 255, 255, 0.8);
+		line-height: 1.6;
+		font-weight: 300;
+		margin-bottom: 1.5rem;
+		text-align: left;
+	}
+
+	.primary-btn-call {
+		display: inline-block;
+		text-decoration: none;
+		background: var(--green, #d6a319);
+		color: #ffffff;
+		font-family: var(--Red);
+		font-size: 0.95rem;
+		font-weight: 700;
+		padding: 0.8rem 1.6rem;
+		border-radius: 50px;
+		box-shadow: 0 10px 20px rgba(214, 163, 25, 0.2);
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+	.primary-btn-call:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 12px 25px rgba(214, 163, 25, 0.35);
+		background-color: #e5af20;
+	}
+
+	@media (max-width: 768px) {
+		.profile-layout {
+			grid-template-columns: 1fr;
+			gap: 2rem;
+			text-align: center;
+			justify-items: center;
+		}
+		
+		.profile-bio {
+			text-align: center;
+		}
+
+		.profile-info-box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 	}
 </style>
